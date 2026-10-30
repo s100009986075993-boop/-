@@ -4,12 +4,12 @@
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 1 題",
+    "question": "對RC 建築而言,施工後窗台常與柱相連而形成「短柱效應」,於強烈地震時下列有關「短柱效應」 之敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "柱之中央部位易形成斜張開裂",
+      "柱較易達到剪力破壞",
+      "柱會同時達到剪力及彎矩破壞",
+      "柱上常出現“X”字形之開裂"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -28,19 +28,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 1,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 1 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-02",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 2 題",
+    "question": "有關高雄世運主場館之建築設計,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "主場館頂部採用太陽能板構造達節能減碳指標",
+      "觀眾席本體建築結構採用鋼結構綠色建材",
+      "主場館之外部鋼結構係採鋼管環繞桁架結構",
+      "主場館採開放式設計以利館內自然通風"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -71,19 +82,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 2,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 2 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-03",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 3 題",
+    "question": "下列何種結構之力學原理與門形剛架結構最為接近?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "懸索結構",
+      "格柵結構",
+      "薄膜結構",
+      "拱結構"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -102,19 +124,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 3,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 3 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-04",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 4 題",
+    "question": "三鉸拱受垂直均勻載重作用,下列敘述何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "12",
+      "13",
+      "23",
+      "24"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -133,19 +166,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 4,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 4 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-05",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 5 題",
+    "question": "下列那兩項完全正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "12",
+      "23",
+      "13",
+      "14"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -164,19 +208,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 5,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 5 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-06",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 6 題",
+    "question": "臺灣位處強震帶,高層建築的結構系統配置原則,下列何者較為不佳?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "主要結構桿件斷面要求對稱",
+      "建築物整體需具抵抗扭矩之能力",
+      "質量中心配置離剛性中心愈遠愈佳",
+      "平面配置簡單且具規則性"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -195,19 +250,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 6,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 6 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-07",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 7 題",
+    "question": "高層建築結構常採用核心結構(core structure)系統,當核心尺度不足,可增加外伸穩定架(outrigger) 及外圈桁架(belt-truss)連接外柱以提高整體結構之水平載重抵抗能力。當此系統承受水平載重時, 下列敘述何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "無外伸穩定架與外圈桁架時,核心頂部之應力較大",
+      "外伸穩定架可用來懸吊下方樓層,因此平面外圍支柱可不需與地面連接",
+      "外伸穩定架主要用來抑制核心傾斜轉動,因此應儘量配置於核心頂端",
+      "此系統又稱為管中管系統"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -238,19 +304,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 7,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 7 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-08",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 8 題",
+    "question": "下列何種系統為型抗結構(form-resistant structure)?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "摺版",
+      "桁架",
+      "剛構架",
+      "剪力牆"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -269,19 +346,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 8,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 8 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-09",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 9 題",
+    "question": "圖(a)所示懸臂梁在自由端承受P 的集中載重,梁的斷面分別選用正方形斷面以及圓形斷面,如圖(b) 所示。當使用相同材料,且兩者的斷面積相等時,正方形斷面梁的最大變位為圓形斷面梁的多少倍?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "1.047",
+      "0.955",
+      "0.846",
+      "1.182"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -300,19 +388,36 @@
     "sourcePage": 3,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 9,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 9 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-structure/106-09.webp",
+        "alt": "第9題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-10",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 10 題",
+    "question": "【前題條件】圖(a)所示懸臂梁在自由端承受P 的集中載重,梁的斷面分別選用正方形斷面以及圓形斷面,如圖(b) 所示。當使用相同材料,且兩者的斷面積相等時,正方形斷面梁的最大變位為圓形斷面梁的多少倍?\n【本題】承上題,正方形斷面梁的最大應力為圓形斷面梁的多少倍?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "1.047",
+      "0.955",
+      "1.182",
+      "0.846"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -331,19 +436,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 10,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 10 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-11",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 11 題",
+    "question": "依據「建築物耐震設計規範」之耐震設計目標,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "受中小度地震作用,少數構件可以損壞,可以修復",
+      "受中小度地震作用,結構體保持在彈性限度內",
+      "受設計地震作用,構件可以產生塑性變形",
+      "受最大考量地震作用,結構物不得崩塌"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -362,19 +478,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 11,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 11 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-12",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 12 題",
+    "question": "某十層樓建築物,其各層的質量皆相等,且各層的勁度與樓高亦相等。不考慮阻尼影響,在地震力作用下,下列情形何者最不可能發生?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "最頂層會有最大加速度",
+      "最頂層會有最大層間變位",
+      "最底層會有最大層間剪力",
+      "最底層的柱受到的彎矩最大"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -393,19 +520,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 12,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 12 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-13",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 13 題",
+    "question": "下圖簡支梁受三角形載重,則B 點反力為多少?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "q0L/6",
+      "q0L/3 q0",
+      "0 q0L/2 A B",
+      "2q0L/3 EI L"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -424,19 +562,36 @@
     "sourcePage": 3,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 13,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 13 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-structure/106-13.webp",
+        "alt": "第13題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-14",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 14 題",
+    "question": "依「混凝土結構設計規範」耐震設計之特別規定,柱縱向鋼筋之鋼筋比不得大於多少%?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "4",
+      "6",
+      "8",
+      "10"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -455,19 +610,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 14,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 14 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-15",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 15 題",
+    "question": "有一承受均佈載重之簡支梁,其最大拉應力在何處?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "梁中央位置的下方",
+      "梁中央位置的上方",
+      "梁支承位置的下方",
+      "梁支承位置的上方"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -486,19 +652,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 15,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 15 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-16",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 16 題",
+    "question": "有關鋼骨材料之敘述,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "鋼材之含碳量改變會影響其韌性和強度",
+      "鋼材承受高溫後,其強度、硬度、耐磨性皆可能產生變化",
+      "鋼材之含碳量與彈性模數(E 值)無關",
+      "抗拉強度與降伏強度比值較大的鋼材,一般而言,其塑性變形能力較小"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -517,19 +694,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 16,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 16 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-17",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 17 題",
+    "question": "有關樁基礎之敘述,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "設置於無液化可能性之土層的單樁極限垂直支承力,可由單樁之表面摩擦阻力及樁端點支承力所組成",
+      "計算基樁之容許拉拔力時,可考慮樁之自重,但地下水位以下之部分,應考慮浮力造成的影響",
+      "依據現行建築物基礎構造設計規範,群樁之整體支承力為各單樁端點支承力之總和",
+      "當設計側向力大於樁基礎之容許側向支承時,可另行打設斜樁,以承受部分側向力"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -548,19 +736,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 17,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 17 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-18",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 18 題",
+    "question": "關於鉛心鋼板橡膠隔震器的敘述,下列何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "為完全隔絕地震,只能裝設於建築物基礎,不可裝置於其他樓層",
+      "橡膠層間之鋼板乃用來提升其垂直向剛度,防止橡膠側向膨脹",
+      "作用為減低建築物之水平振動週期,避免與地盤發生共振",
+      "通常需要額外搭配消能裝置使用,以減少水平位移"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -587,19 +786,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 18,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 18 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-19",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 19 題",
+    "question": "下圖剛架中,若梁的勁度趨近於無限大,則柱挫屈的有效長度係數K 值為何?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "0.5",
+      "0.7",
+      "1",
+      "2"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -618,19 +828,36 @@
     "sourcePage": 4,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 19,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 19 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-structure/106-19.webp",
+        "alt": "第19題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-20",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 20 題",
+    "question": "建築結構除了耐風的強度設計外,規範仍要求檢討風力作用下建築物的容許層間變位角,其中耐風設計規範要求風力作用下建築物的層間變位角不得超過5/1000,此一風力作用所考慮之回歸期為何?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "半年回歸期的風力",
+      "回歸期為50 年的風力",
+      "回歸期為475 年的風力",
+      "回歸期為2500 年的風力"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -649,19 +876,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 20,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 20 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-21",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 21 題",
+    "question": "下圖結構原為不穩定,擬於各節點間增加兩根桿件進行改善,則下列選項何者仍為不穩定結構?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "ac 和ce c",
+      "ad 和bd",
+      "ad 和be b d",
+      "ae 和ce a e"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -680,19 +918,36 @@
     "sourcePage": 5,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 21,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 21 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-structure/106-21.webp",
+        "alt": "第21題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-22",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 22 題",
+    "question": "型鋼會因製造過程產生殘餘應力(residual stress),下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "最慢冷卻的部分會產生壓應力",
+      "可能會因殘餘應力而變形",
+      "殘餘應力為內力",
+      "殘餘應力會影響斷面強度"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -711,19 +966,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 22,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 22 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-23",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 23 題",
+    "question": "如圖所示桁架,桿件ED 的內力為何?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "6tf 壓力 G",
+      "0 3m E",
+      "10tf 壓力 3m C tf 6",
+      "tf 6 6 張力 3m F D B A 4m 4m 4m KPL"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -742,19 +1008,36 @@
     "sourcePage": 5,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 23,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 23 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-structure/106-23.webp",
+        "alt": "第23題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-24",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 24 題",
+    "question": "KPL 下圖桿件之自由端a 點受2P 力作用,a 點垂直向下伸長量為δav = ,則K 值為: AE",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "4/3 b",
+      "b 1",
+      "2/3 4AE 2L",
+      "1/3 a 2P"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -773,19 +1056,36 @@
     "sourcePage": 5,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 24,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 24 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-structure/106-24.webp",
+        "alt": "第24題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-25",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 25 題",
+    "question": "有一矩形梁斷面,梁寬30 cm,梁高60 cm。已知材料之彈性係數為20,000 kgf/cm²。如欲使得該斷面於梁頂與梁底處分別產生0.003 的壓應變與張應變,則該斷面所須施加的彎矩力應為多少kgf-cm?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "960,000",
+      "1,080,000",
+      "1,200,000",
+      "1,360,000"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -804,19 +1104,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 25,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 25 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-26",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 26 題",
+    "question": "下圖簡支梁之跨度為L。已知材料之彈性係數為E,梁斷面之慣性矩為I。今於跨度中央處施加一集中荷重P,則該梁於跨度中央處之撓度應為:",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "PI/(48EL3) P",
+      "PL/(48EI3)",
+      "PE/(48IL3) E,I",
+      "PL3/(48EI) L/2 L/2"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -835,19 +1146,36 @@
     "sourcePage": 6,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 26,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 26 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-structure/106-26.webp",
+        "alt": "第26題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-27",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 27 題",
+    "question": "下圖之懸臂梁,端點B 承受一集中載重P,則B 點之垂直位移為: PL2",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "PL 2EI 2 P PL",
+      "PL 3EI PL3",
+      "PL 2EI B PL3 A",
+      "PL 3EI"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -866,19 +1194,36 @@
     "sourcePage": 6,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 27,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 27 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-structure/106-27.webp",
+        "alt": "第27題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-28",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 28 題",
+    "question": "桁架結構受力如下圖,桿件EC 之軸向力為多少kN?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "2 2 E F G",
+      "4 2 4m",
+      "3 2 A B C D",
+      "2 6kN 3kN 4m 4m 4m 4m"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -897,19 +1242,36 @@
     "sourcePage": 6,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 28,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 28 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-structure/106-28.webp",
+        "alt": "第28題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-29",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 29 題",
+    "question": "剛架結構受力如下圖,接點C 之內力矩為多少kN-m?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "36 6kN B",
+      "12 C",
+      "24 8m",
+      "30 A 6m 6m"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -928,19 +1290,36 @@
     "sourcePage": 6,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 29,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 29 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-structure/106-29.webp",
+        "alt": "第29題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-30",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 30 題",
+    "question": "下圖門形構架在B 點承受一水平載重P,則下列何處有最大彎矩值?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "A 點 B C",
+      "B P 點 E,I,L",
+      "C 點",
+      "D 點 E,I,L E,I,L A D"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -959,19 +1338,36 @@
     "sourcePage": 7,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 30,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 30 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-structure/106-30.webp",
+        "alt": "第30題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-31",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 31 題",
+    "question": "下圖桁架受外力作用之情形如圖所示,則下列有關此桁架的敘述,何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "該桁架為1 次靜不定桁架 30kN",
+      "桁架除了BC 桿件受力外,其餘桿件均不受力 40kN",
+      "共有3 個零桿件 A B",
+      "共有2 個承受壓力桿件 3m C D 4m"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -990,19 +1386,36 @@
     "sourcePage": 7,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 31,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 31 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-structure/106-31.webp",
+        "alt": "第31題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-32",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 32 題",
+    "question": "下圖之構架在B 點受4 tf-m 力矩作用,令材料性質EI 為常數,則BC 桿件所受之剪力為多少tf?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "1 4 tf-m C 3",
+      "3 B 7",
+      "3 3",
+      "3 4m 14 A 4m"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1021,19 +1434,36 @@
     "sourcePage": 7,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 32,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 32 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-structure/106-32.webp",
+        "alt": "第32題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-33",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 33 題",
+    "question": "對鋼構造建築物的設計,根據現行「鋼結構極限設計法規範」,D=靜載重、L=活載重、E=地震力載重,則下列載重組合何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "D+L",
+      "1.4D+1.6L",
+      "0.75(1.4D+1.7L±1.87E)",
+      "0.9D±E"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1052,19 +1482,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 33,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 33 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-34",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 34 題",
+    "question": "設計鋼筋混凝土梁時,在不受風雨侵襲且不與土壤接觸者,其鋼筋之混凝土保護層最少需幾公分?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "2.5",
+      "4.0",
+      "5.5",
+      "7.0"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1083,19 +1524,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 34,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 34 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-35",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 35 題",
+    "question": "關於鋼筋混凝土樓版之結構特性,下列何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "樓版長邊與短邊尺度比值大於2 時,可視為單向版設計",
+      "樓版長邊與短邊尺度比值大於2 時,由短邊梁承受大部分樓版垂直載重",
+      "無梁版不可視為剛性樓版,因此不適用於有地震地區之建築物",
+      "樓版長寬固定時,若版厚減少,可減輕自重,並有效降低樓版撓度"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1114,19 +1566,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 35,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 35 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-36",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 36 題",
+    "question": "在RC 梁構件進行配筋設計時,當構件受到下列何種力量作用下,須同時計算縱向鋼筋量與橫向鋼筋量?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "軸力",
+      "彎矩",
+      "剪力",
+      "扭力"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1145,19 +1608,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 36,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 36 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-37",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 37 題",
+    "question": "某等跨距的四跨RC 連續小梁受垂直向下之相同均佈載重作用,如圖所示。各支承均為鉸支承,則a、 b、c、d 各點中,何處的下層所需縱向鋼筋量最大?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "a 點",
+      "b 點",
+      "c 點 a b c d",
+      "d 點"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1176,19 +1650,36 @@
     "sourcePage": 8,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 37,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 37 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-structure/106-37.webp",
+        "alt": "第37題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-38",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 38 題",
+    "question": "依據建築技術規則之規定,下列何種用途類別之樓地板活載重最大?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "博物館",
+      "辦公室",
+      "書庫",
+      "教室"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1207,19 +1698,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 38,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 38 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-39",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 39 題",
+    "question": "臺北101 建築與高雄85 大樓建築分別為臺灣北部及南部第一高建築物,兩者之建築結構敘述下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "兩棟建築物之基礎皆為無樁之筏基",
+      "兩棟建築之主體結構皆為鋼結構",
+      "兩棟建築皆有使用高性能混凝土做柱內灌漿",
+      "兩棟建築皆設有抗風阻尼器"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1238,19 +1740,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 39,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 39 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "106-structure-40",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "106 年建築結構｜測驗第 40 題",
+    "question": "下列何者為懸吊式核心系統之優點?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "柱量較少、平面空間較大",
+      "耐震性質佳",
+      "水平慣性力傳遞路徑佳",
+      "結構贅餘度高"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1269,6 +1782,17 @@
     "sourcePage": 8,
     "sourcePdf": "assets/106-structure/questions.pdf",
     "answerSource": "assets/106-structure/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 40,
+    "originalQuestionLabel": "106 年建築結構｜測驗第 40 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   }
 ]

@@ -4,12 +4,12 @@
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 1 題",
+    "question": "當建築工程混凝土以飛灰取代水泥摻用時,在施工上應特別注意的現象為何?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "坍度損失很快",
+      "混凝土初期水合熱很高",
+      "混凝土初期強度較低",
+      "吸水性很高"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -29,19 +29,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 1,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 1 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-02",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 2 題",
+    "question": "一般建築工程之水電施工圖上標示之水管管徑,係指下列何者?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "管壁內側直徑",
+      "管壁內側半徑",
+      "管壁外側直徑",
+      "管壁外側半徑"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -61,19 +72,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 2,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 2 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-03",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 3 題",
+    "question": "近年來有自充混凝土(SCC)的發展,此種混凝土對高樓建築最主要的功能為何?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "降低建築之施工成本",
+      "縮短施工之工期",
+      "增進施工之安全",
+      "改善鋼筋太多所致之混凝土澆置困難問題"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -93,19 +115,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 3,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 3 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-04",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 4 題",
+    "question": "下圖混凝土坍度試驗結果為兩者下降高度相同但形狀不同,何者品質較佳?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "A 混凝土",
+      "B 混凝土",
+      "A 混凝土及B 混凝土品質相同",
+      "無法判別 A B"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -125,19 +158,36 @@
     "sourcePage": 1,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 4,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 4 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-04.webp",
+        "alt": "第4題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-05",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 5 題",
+    "question": "相片中的混凝土車阻構造產生龜殼狀裂紋,屬於何種因素造成?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "海砂氯離子",
+      "鹼骨材反應",
+      "硬固乾縮",
+      "受張力變形破壞"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -157,19 +207,36 @@
     "sourcePage": 1,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 5,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 5 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-05.webp",
+        "alt": "第5題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-06",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 6 題",
+    "question": "依據建築技術規則中有關綠建築基準,綠建材要求之性能不包括下列何者?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "生態性",
+      "再生性",
+      "健康性",
+      "舒適性"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -189,19 +256,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 6,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 6 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-07",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 7 題",
+    "question": "下列何種構材因溫度所產生的變形最大?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "木材",
+      "鋁材",
+      "鋼材",
+      "紅磚"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -221,19 +299,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 7,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 7 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-08",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 8 題",
+    "question": "下圖所示H 型鋼尺寸之表示方法為下列何者?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "B×H×t1×t2",
+      "H×B×t1×t2",
+      "H×t1×B×t2",
+      "B×t1×H×t2 t1 H t2 B"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -253,19 +342,36 @@
     "sourcePage": 2,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 8,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 8 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-08.webp",
+        "alt": "第8題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-09",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 9 題",
+    "question": "下列何者不屬於鋼構造設計拉力構材時應考量之事項?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "全斷面之挫屈",
+      "全斷面之降伏",
+      "淨斷面之斷裂",
+      "淨斷面之變形"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -285,19 +391,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 9,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 9 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-10",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 10 題",
+    "question": "三明治式隔間牆構造,在面材相同,心材厚度相同條件下,何種心材之防火性能較佳?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "玻璃棉",
+      "岩棉",
+      "保麗龍板",
+      "鑽泥板"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -317,19 +434,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 10,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 10 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-11",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 11 題",
+    "question": "一般而言,下列何種建築裝修材料其耐燃性能最差?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "粒片板",
+      "氧化鎂板",
+      "矽酸鈣板",
+      "石膏板"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -349,19 +477,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 11,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 11 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-12",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 12 題",
+    "question": "依據CNS 之標準磚,半B 磚牆雙面粉刷10 mm 後,牆身的厚度應為多少?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "110 mm",
+      "130 mm",
+      "220 mm",
+      "230 mm"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -381,19 +520,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 12,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 12 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-13",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 13 題",
+    "question": "裝修用之夾板或木心板,其在健康建材評估上之問題點為何?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "膠合劑會釋放游離甲醛(HCHO)",
+      "膠合劑會釋放二氧化碳",
+      "使用木料易燃燒",
+      "使用木料易腐朽"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -413,19 +563,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 13,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 13 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-14",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 14 題",
+    "question": "下圖箭頭所指焊接部位a 之名稱為何?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "腳長",
+      "喉厚",
+      "焊線",
+      "焊道 a"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -445,19 +606,36 @@
     "sourcePage": 2,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 14,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 14 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-14.webp",
+        "alt": "第14題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-15",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 15 題",
+    "question": "依據建築技術規則中有關防火構造建築物之規定,其防火區劃之牆壁、樓地板與防火門窗等防火設備,至少須具有多少小時之阻熱性?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "半小時",
+      "一小時",
+      "二小時",
+      "三小時"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -477,19 +655,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 15,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 15 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-16",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 16 題",
+    "question": "下列有關混凝土構材潛變(Creep)的敘述,何者不正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "混凝土構件中粒料(粗骨材)使用的比例越高,發生潛變的機會越大",
+      "在相同水灰比條件下,使用高爐水泥之混凝土的潛變量比使用一般水泥的潛變量稍大",
+      "混凝土的潛變與水灰比成正比的原因在於水化作用過程中,多餘的水分在混凝土硬化後形成微細孔隙",
+      "乾縮率越小的混凝土構件,其潛變率越小"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -509,19 +698,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 16,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 16 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-17",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 17 題",
+    "question": "下列何者不是白蟻滋生的條件?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "有充足的光線",
+      "有少量的空氣",
+      "有供作為養分之材質",
+      "有適當的溫濕度"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -541,19 +741,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 17,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 17 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-18",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 18 題",
+    "question": "有關鋼骨構造防火被覆之敘述,下列何者較不恰當?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "中高層建築物,柱梁的防火被覆,低樓層的噴附厚度較高樓層的噴附厚度大",
+      "樓板的鋼製折板均須有防火被覆噴附施作",
+      "濕式噴附工法,厚度大時必須分兩次施作",
+      "加網噴附可以增加防火被覆性能的可靠度"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -573,19 +784,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 18,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 18 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-19",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 19 題",
+    "question": "下列何者為外牆窗台較正確的作法?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "圖示 A",
+      "圖示 B",
+      "圖示 C",
+      "圖示 D"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -605,19 +827,36 @@
     "sourcePage": 3,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 19,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 19 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-19.webp",
+        "alt": "第19題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-20",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 20 題",
+    "question": "下圖中之柱腳構造屬於何種接合形式?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "簡支",
+      "鉸接",
+      "剛接",
+      "滾接"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -637,19 +876,36 @@
     "sourcePage": 3,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 20,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 20 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-20.webp",
+        "alt": "第20題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-21",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 21 題",
+    "question": "下列有關鋼筋混凝土造平屋頂的隔熱改善作法,何者效果最佳?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "塗佈3 mm 厚的隔熱漆",
+      "密接佈放空心磚(標準規格,磚面水平)",
+      "覆土30 cm 的花圃,密植常綠植物",
+      "鋪設3 cm 厚的隔熱磚"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -669,19 +925,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 21,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 21 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-22",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 22 題",
+    "question": "乾式石材構法中,石材背面以環氧樹脂貼上玻璃纖維的最主要功能在於:",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "防範石材破裂時造成掉落",
+      "防止填縫污染",
+      "減緩熱橋現象與結露",
+      "防止白華現象的發生"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -701,19 +968,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 22,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 22 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-23",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 23 題",
+    "question": "下列敘述何者不是鋼筋混凝土柱箍筋的主要功能?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "促進鋼筋與混凝土間握裹能力",
+      "確保混凝土保護層厚度",
+      "防止柱身的側向爆裂",
+      "防止柱身的縱向挫屈"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -733,19 +1011,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 23,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 23 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-24",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 24 題",
+    "question": "下圖所示之帷幕牆變形狀況會發生在何種繫結設計?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      ":固定",
+      ":固定 :滾軸",
+      ":固定 :滾軸",
+      ":銷"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -765,19 +1054,36 @@
     "sourcePage": 3,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 24,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 24 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-24.webp",
+        "alt": "第24題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-25",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 25 題",
+    "question": "有關鋼結構之構材表面處理及塗裝,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "密閉空間之內露面不塗裝",
+      "表面噴砂處理環境宜在大氣相對濕度85%以下",
+      "摩阻式高強度螺栓接合面應塗裝",
+      "未經表面處理之鋼材,其表面銹蝕程度分為四級"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -797,19 +1103,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 25,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 25 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-26",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 26 題",
+    "question": "下圖所示之構造作法,那幾項具有加強磚造之作用?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "全部皆有柱主筋",
+      "柱主筋縱筋全部皆無縱筋柱主筋",
+      "柱主筋除c 外其餘皆有",
+      "僅d 具有砂漿填充砂漿填砂漿填砂漿填充充充 a b c d 磚柱磚柱磚牆磚牆轉角區"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -829,19 +1146,36 @@
     "sourcePage": 4,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 26,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 26 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-26.webp",
+        "alt": "第26題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-27",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 27 題",
+    "question": "依內政部之建築物磚構造設計及施工規範,磚造結構牆體的開口規定,下列何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "結構牆開口超過一公尺者,開口部上緣楣梁得改為平拱或弧拱",
+      "結構牆開口上方楣梁伸入牆體長度,不得大於二十公分",
+      "單片牆壁牆身開口長度之總和,不得超過該牆身長度二分之一",
+      "各層樓牆壁開口長度之總和,不得超過該層樓牆身長度總和四分之一"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -861,19 +1195,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 27,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 27 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-28",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 28 題",
+    "question": "圖示之日式木地檻,其續接(缺口對接)方式,一般作法皆採何者?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "1",
+      "2",
+      "3 4",
+      "4 日式木構造立柱 3 2 1 木地檻 (土台) 擱柵墊木 (大引)"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -893,19 +1238,36 @@
     "sourcePage": 4,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 28,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 28 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-28.webp",
+        "alt": "第28題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-29",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 29 題",
+    "question": "如圖所示金屬浪板屋頂工程中,固定浪板的位置,何者較恰當?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "A 及B",
+      "A 及C",
+      "B 及C",
+      "A、B、C 三處均可 C B A"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -925,19 +1287,36 @@
     "sourcePage": 4,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 29,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 29 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-29.webp",
+        "alt": "第29題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-30",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 30 題",
+    "question": "如圖所示教室內裝,那個部位的光「反射率」需求最高?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "天花板",
+      "黑板天花板",
+      "牆體",
+      "地板牆體黑板牆體地板"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -957,19 +1336,36 @@
     "sourcePage": 5,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 30,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 30 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-30.webp",
+        "alt": "第30題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-31",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 31 題",
+    "question": "下圖所示之木構造牆體為何種構法?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "傳統閩南式",
+      "1 3 傳統日式 CN90F 4 @250 或@500 2-CN90F 上框",
+      "或接頭木條 2×4 構法 5 接頭木條 2-CN90E",
+      "框架構法 2 上框上框合板木墊片木墊片 4-CN90E 豎向框過梁接頭木條 4-CN90E 豎向框過梁托板上框構造用合板 2-CN90E (貼於牆壁內層) 上框豎向框豎向框窗台 3-CN75T 下框下框構造用合板 2-CN65 4-CN90E (貼於地板下層) 下框下框合板襯墊 1. T 字牆 2. 上框,下框 3. 角牆 4. 支撐 5. 開口部位"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -989,19 +1385,36 @@
     "sourcePage": 5,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 31,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 31 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-31.webp",
+        "alt": "第31題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-32",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 32 題",
+    "question": "有關剛構架(rigid frame)與鋼桁架(steel truss)的敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "剛構架的結點採用剛接(rigid joint)",
+      "鋼桁架的結點一般假設為鉸接(pin)",
+      "鋼管桁架施工時常採焊接,故構件在結點常有強制性變形",
+      "剛構架及鋼桁架之構件均以承受軸力為主"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1021,19 +1434,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 32,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 32 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-33",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 33 題",
+    "question": "如圖所示為木質集成材建造之防火構造建築物的主要構造接合部,下列敘述何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "A 圖之鐵件採隱藏於木構件內為正確作法",
+      "B 圖之鐵件採部分外露為正確作法",
+      "A 圖所有結合鐵件均可改為外露作法",
+      "B 圖所有結合鐵件均可改為外露作法"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1053,19 +1477,36 @@
     "sourcePage": 5,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 33,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 33 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-33.webp",
+        "alt": "第33題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-34",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 34 題",
+    "question": "超大跨距空間的屋頂採用之構造及其特徵描述配對,下列何者最不恰當?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "採梁構造,應力隨跨度增加,梁斷面增加",
+      "採拱構造,不同拱高之設計,側向力相同",
+      "採張弦梁構造,可設計成較低拱高較小斷面",
+      "採桁架構造,可導入預力系統,以減少桿件所受的張應力"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1085,19 +1526,30 @@
     "sourcePage": 6,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 34,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 34 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-35",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 35 題",
+    "question": "水土保持工法採石砌護坡時,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "護坡基礎應砌築於岩盤或原硬實之基地上",
+      "坡背填實之礫石、粗砂級配及土壤等應與砌築護坡同時進行施工",
+      "護坡下部應多設滲水孔",
+      "護坡高度為10 m 時應採漿砌"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1117,19 +1569,30 @@
     "sourcePage": 6,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 35,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 35 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-36",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 36 題",
+    "question": "如圖之木造屋架,在屋面靜載重下,那些構件在結構行為上可以鋼棒來取代木材?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "構件13",
+      "構件23 3",
+      "構件45 5",
+      "構件56 2 4 6 1"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1149,19 +1612,36 @@
     "sourcePage": 6,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 36,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 36 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-36.webp",
+        "alt": "第36題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-37",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 37 題",
+    "question": "下列有關圖示木造偶柱式(Queen-post)桁架之敘述,何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "1結點所示螺栓係為防止屋架人字木與下弦梁產生相對滑動",
+      "2結點常加入斜撐材以增加大跨距之力學穩定度",
+      "3結點為常用之屋脊構法,可適切結合中脊桁與人字木",
+      "4結點構法未能有效抵抗地震或強風產生之水平力"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1181,19 +1661,36 @@
     "sourcePage": 6,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 37,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 37 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-37.webp",
+        "alt": "第37題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-38",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 38 題",
+    "question": "超過三十五公尺以上之建築物,考慮耐風壓性能,開口裝設平板玻璃,計算玻璃面積A之公式以何者為宜?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "A ≤ 30α/p",
+      "A ≤ p/30α(t+t/4)",
+      "A ≤ 30α(t+t 2/4)/p",
+      "A ≤ p/30α(t+t 2/4)"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1213,19 +1710,30 @@
     "sourcePage": 6,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 38,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 38 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-39",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 39 題",
+    "question": "下圖鋼筋混凝土牆考慮具耐震作用,下列有關開口部配筋之敘述,何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "A、B、C 皆非必要",
+      "A、B 非必要",
+      "C 非必要",
+      "柱 A、B、C 皆為必要壁筋(橫) 壁筋(縱) 柱主筋柱箍筋開口補強筋梁 A 開口補強筋B 開口補強筋C 梁柱梁主筋"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1245,19 +1753,36 @@
     "sourcePage": 7,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 39,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 39 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-39.webp",
+        "alt": "第39題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-40",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 40 題",
+    "question": "有關鋼筋混凝土構造之保護層敘述,何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "使用清水混凝土時,應將保護層厚度酌量增加",
+      "鋼筋混凝土保護層太厚,易產生龜裂",
+      "牆板設有誘發龜裂之伸縮縫時,伸縮縫之深度可計入保護層厚度",
+      "保護層之厚度與建築物之耐久性能及防火性能有關"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1277,19 +1802,36 @@
     "sourcePage": 7,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 40,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 40 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-40.webp",
+        "alt": "第40題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-41",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 41 題",
+    "question": "有關高層建築施工的揚重計畫,下列何者較不適當?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "起重最大構件重量需確實掌握",
+      "要預留上揚餘力",
+      "建物結構體上可設置大型高塔起重機,但需仔細考量爬昇時結構的補強可行性",
+      "起重機位置必須設置在工區正中央"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1309,19 +1851,30 @@
     "sourcePage": 7,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 41,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 41 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-42",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 42 題",
+    "question": "建商欲於某市中心繁華區開發地下六層、地上二十層之辦公大樓。然而其位址屬於砂質土壤地盤且承載力不足。考量土壤樣態與降低施工噪音、振動對周邊之衝擊,下列何種地盤改良工法最為適當?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "砂墊法",
+      "生石灰樁工法",
+      "灌漿工法",
+      "衝擊式砂樁法"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1341,19 +1894,30 @@
     "sourcePage": 7,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 42,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 42 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-43",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 43 題",
+    "question": "如圖所示之窗框剖面構造,其安裝順序為何?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "c→d→a→b",
+      "a→c→b→d",
+      "b a→b→c→d",
+      "b→a→c→d d c a"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1373,19 +1937,36 @@
     "sourcePage": 7,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 43,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 43 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-43.webp",
+        "alt": "第43題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-44",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 44 題",
+    "question": "下列有關油毛氈防水工法之現場作業,何者最不適當?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "屋頂版與女兒牆之角隅處以水泥砂漿粉刷成半徑5 公分之圓弧",
+      "防水保護層之伸縮縫位置距女兒牆之粉刷面保持6 公分之寬度",
+      "輕質混凝土保護層以伸縮縫分割,每分割單元均分別鋪設鐵絲網",
+      "油毛氈鋪設施工時,長向重疊寬度為10 公分,短向部分為5 公分"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1409,19 +1990,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 44,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 44 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-45",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 45 題",
+    "question": "紅磚牆的強度除取決於磚塊本身強度外,砌造方法與施工要領影響磚牆結構強度甚大。下列施工敘述何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "分段施作時,鋸齒形接口優於階梯形",
+      "磚塊需泡水但以三分鐘為限",
+      "每日砌磚的高度以1.2 m 為限",
+      "牆面需在灰縫砂漿硬化前沖洗"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1441,19 +2033,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 45,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 45 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-46",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 46 題",
+    "question": "如圖所示,當水和砂藉由擋土牆的破洞流入基地內而導致牆外側的砂土掏空,引發鄰房〔原字見附圖〕陷的現象稱為:",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "管湧止水性擋土壁",
+      "砂湧",
+      "隆起",
+      "上舉地下水位空洞砂質土基地"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1473,19 +2076,39 @@
     "sourcePage": 8,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 46,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 46 題",
+    "textStatus": "needs-review",
+    "extractionIssues": [
+      "公式或特殊字元需對照附圖",
+      "數學排版需對照附圖"
+    ],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-46.webp",
+        "alt": "第46題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-47",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 47 題",
+    "question": "下列有關地下開挖擋土工法之敘述,何者有誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "地錨工法適用於開挖面積較大之工程",
+      "現場施作排樁工法(SMW)因噪音振動小,較適用於都市住宅密集地區",
+      "逆打工法因地下之建築構造兼為擋土設施,較不適用於軟弱地盤之深開挖",
+      "鋼板樁工法較不適用於卵礫地質"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1505,19 +2128,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 47,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 47 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-48",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 48 題",
+    "question": "結構體施工階段,下列何者與基礎上浮現象無關?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "開挖擋土用之鋼板樁過早拔除",
+      "施工基地抽水設施故障,地下水位突然上升",
+      "因暴雨影響造成基礎底版面下之水浮力劇增",
+      "不當之開挖或超挖"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1537,19 +2171,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 48,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 48 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-49",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 49 題",
+    "question": "下列有關鋼骨建築施工之敘述,何者不適當?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "梁上緣之剪力釘與鋼承版交疊時,應貫穿鋼承版焊接於鋼骨梁上端",
+      "採高強度螺栓與焊接並用時,應先行焊接再鎖緊螺栓",
+      "鋼構假固定時,臨時固定螺栓之數目,應大於原設計螺栓數量之1/3,且不得少於2 支",
+      "以摩阻式高強度螺栓接合之鋼骨接合面,不施作塗裝"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1569,19 +2214,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 49,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 49 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-50",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 50 題",
+    "question": "依混凝土工程施工規範之規定,場鑄基樁或地下連續壁混凝土澆置之高度與設計高度之關係為何?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "低於設計頂面50 cm",
+      "與設計頂面相符",
+      "高於設計頂面30 cm",
+      "高於設計頂面50 cm"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1601,19 +2257,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 50,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 50 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-51",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 51 題",
+    "question": "使用反彈錘(Rebound Hammer)檢測混凝土強度時,下列何者不屬於影響R 值的現場量測因素?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "混凝土表面平滑度",
+      "混凝土的含水量",
+      "混凝土表面溫度",
+      "黏著於混凝土表面的裝修材"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1633,19 +2300,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 51,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 51 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-52",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 52 題",
+    "question": "下列有關混凝土養護之敘述,何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "以噴水法(澆水法)進行濕治,若讓混凝土時乾時濕,反而可能產生表面裂痕",
+      "護膜養護可免除長期供水之工作,並避免因供水中斷或不充分而使混凝土品質降低之危險",
+      "蒸氣養護係提高溫度,以加速水化作用之進行,可得較高之早期強度",
+      "應用高壓蒸氣養護法,其混凝土乾縮量與採用濕治養護法相同"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1665,19 +2343,30 @@
     "sourcePage": 9,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 52,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 52 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 9,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-53",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 53 題",
+    "question": "如圖所示之梁中央底部鋼板補強工法之敘述,何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "此種補強方式主要作用在於增加原鋼筋混凝土梁的負彎矩強度",
+      "鋼板與RC 梁之間的黏結界面應處理成光滑面,而後於8 小時內灌注環氧樹脂",
+      "鋼板與RC 梁底間的空隙應注意保持在5~10 mm,以因應不同材料間的熱脹冷縮",
+      "鋼板與混凝土間空隙灌注環氧樹脂時應注意預留出氣孔,以確保注入之樹脂填滿空隙"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1697,19 +2386,36 @@
     "sourcePage": 9,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 53,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 53 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-53.webp",
+        "alt": "第53題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 9,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-54",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 54 題",
+    "question": "下列有關鋼構造建築物檢驗之敘述,何者不正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "非破壞檢驗可用超音波檢測法或射線檢測法進行",
+      "焊接作業之自主檢驗由監造人執行,須確認所有使用材料及施工方式符合契約及規範要求",
+      "鋼構造契約圖說中要求檢驗之焊道,若未指定局部檢驗或抽驗時,應採全面檢驗",
+      "工廠實施之抗震鋼構接頭與續接之所有全滲透銲,均須進行超音波檢測法或射線檢測法"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1729,19 +2435,30 @@
     "sourcePage": 9,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 54,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 54 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 9,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-55",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 55 題",
+    "question": "下列何者不屬於帷幕牆風雨試驗項目?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "氣密試驗(CNS 13971)",
+      "動壓水密試驗(CNS 13973)",
+      "層間變位試驗(CNS 14281)",
+      "單元垂直載重試驗(CNS 13976)"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1761,19 +2478,30 @@
     "sourcePage": 9,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 55,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 55 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 9,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-56",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 56 題",
+    "question": "如圖所示之大跨度鋼骨山形剛構(Gable frame)現場接合位置以在何處較為合適?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "A 處 A",
+      "B 處",
+      "C 處 B B",
+      "B B D 處約1.5m C C D D 約1.5m"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1793,19 +2521,36 @@
     "sourcePage": 9,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 56,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 56 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-56.webp",
+        "alt": "第56題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 9,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-57",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 57 題",
+    "question": "下列有關外牆張貼磁磚工法之敘述,何者不正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "利用振動工具壓貼磁磚的密貼工法(Impact Tool Method)適用於較大或較重的磁磚",
+      "改良式壓貼工法(Improved Tool Method)特點在於磁磚背面塗上張貼用水泥砂漿後施作",
+      "馬賽克磁磚貼著工法(Mosaic Tile Application)通常以整才馬賽克張貼於砂漿上",
+      "模板預貼工法(Prefabricated Form Method)常用於預鑄外牆版片"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1825,19 +2570,30 @@
     "sourcePage": 10,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 57,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 57 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 10,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-58",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 58 題",
+    "question": "在鋼筋混凝土建築工程施工時,常見梁版模板拆除後採用再撐的現象,其目的為何?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "使混凝土提早達到要求強度",
+      "可以在較低之混凝土強度下拆模",
+      "降低拆模時構材所受之載重",
+      "增加構材強度"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1857,19 +2613,30 @@
     "sourcePage": 10,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 58,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 58 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 10,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-59",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 59 題",
+    "question": "有關內裝工程之作業,何者最不適當?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "施工輕隔間時,將石膏板以襯墊從地面抬高1 公分鋪貼",
+      "一般室外金屬欄杆扶手,無須考慮熱膨脹伸縮現象",
+      "石膏板隔間為了提高隔音性能,以彈性填縫材充填石膏板四周之間隙",
+      "木地板之施工,一般由房間中央向左右鋪設,利用牆壁邊緣及踢腳板調整伸縮間隙"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1889,19 +2656,30 @@
     "sourcePage": 10,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 59,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 59 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 10,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-60",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 60 題",
+    "question": "下圖梁構件的接續施工,螺栓鎖固順序,何者最為恰當?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "一排a 一排b 交叉地鎖固 bbaa aabb",
+      "先鎖b 群,再鎖a 群",
+      "先鎖a 群,再鎖b 群",
+      "無需一定之順序 bbaa aabb"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1921,19 +2699,36 @@
     "sourcePage": 10,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 60,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 60 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-60.webp",
+        "alt": "第60題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 10,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-61",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 61 題",
+    "question": "有關鋼骨鋼筋混凝土構造(SRC)施工之敘述,下列何者最不恰當?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "工形梁構件:鋼骨翼版下方的填充性差",
+      "方形柱構件:柱中心處的填充性差",
+      "鋼筋配筋不宜貼附於鋼骨",
+      "梁與鋼筋混凝土樓版一體施作時,梁鋼骨翼版上方樓版應有適當厚度"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1953,19 +2748,30 @@
     "sourcePage": 10,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 61,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 61 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 10,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-62",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 62 題",
+    "question": "下圖中鋼筋混凝土構造柱間或梁間之鋼筋續接部位,以在那一區最為適當?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "在C 區續接 A",
+      "在B 區續接梁 B",
+      "在A 區續接 4 /0 C H",
+      "在任一區續接均可 0 2 H /0 L0 H 4 L0/4 L0/2 L0/4 /0 H 50~150cm 梁以上柱柱 50cm 以上 50cm 以上梁間之柱立面示意圖柱間之梁立面示意圖"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1985,19 +2791,36 @@
     "sourcePage": 10,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 62,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 62 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-construction/100-62.webp",
+        "alt": "第62題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 10,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-63",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 63 題",
+    "question": "下列有關工程現場要求的敘述,何者最不恰當?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "五噸以上的吊車操作,操作者需領有證照",
+      "使用壓送機澆置輕量混凝土時,人工輕骨材攪拌前須保持乾燥",
+      "儲放鋼筋不得直接置於地上",
+      "粉刷用水泥等儲放應保持乾燥,料袋疊放時應在十袋以下"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -2017,19 +2840,30 @@
     "sourcePage": 10,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 63,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 63 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 10,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-64",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 64 題",
+    "question": "當混凝土澆置於土壤表面時,澆置面之要求為何?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "原樣保持乾燥即可",
+      "夯實並保持乾燥",
+      "夯實並灑水越多越好",
+      "夯實並加以潤濕"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -2049,19 +2883,30 @@
     "sourcePage": 11,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 64,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 64 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 11,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-65",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 65 題",
+    "question": "有關鋼構現場焊接所應注意之事項,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "相對濕度90%以上不可進行焊接作業",
+      "焊接人員必須經過考試檢定合格,始可從事作業",
+      "CO2半自動焊接時應設置防風裝置",
+      "現場焊接之焊道檢驗率須達50%"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -2081,19 +2926,30 @@
     "sourcePage": 11,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 65,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 65 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 11,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-66",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 66 題",
+    "question": "下列工程網圖之敘述,何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "全體工程之最短工期為24 日",
+      "C 作業延遲2 日,對整體時程無影響",
+      "D 作業所需日數,即使減少2 日,對整體時程無影響",
+      "E 工程有2 日之餘裕時間"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2113,19 +2969,30 @@
     "sourcePage": 11,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 66,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 66 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 11,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-67",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 67 題",
+    "question": "工程品質管制圖(Control Chart)係將同一品質特性之每次檢驗結果,依產生順序標示在一時間座標上,可連成一高低起伏之折線,明白顯示品質變化狀況。下列何種現象不宜判定管制圖有異常原因存在?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "有任何二點落在管制線以外",
+      "所有點都落在管制界限內",
+      "連續七點出現在中心線之上邊或下邊",
+      "連續八點出現持續上升或下降"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -2145,19 +3012,30 @@
     "sourcePage": 11,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 67,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 67 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 11,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-68",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 68 題",
+    "question": "下列何種施工行為不屬於「建築物室內裝修管理辦法」之管轄範疇?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "固著於禮堂或集會空間構造體的天花板,全面翻新為礦棉天花板",
+      "集合住宅某單元增設二間以上之居室,形成既有分間牆的變更",
+      "七層樓建築物之辦公室內部設置1000 mm 高度的固定隔屏",
+      "原容納一百八十人的一間大教室,重新以白磚隔間為三間小型教室"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2177,19 +3055,30 @@
     "sourcePage": 11,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 68,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 68 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 11,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-69",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 69 題",
+    "question": "所謂生命週期成本分析(Life Cycle Costing)係針對一個項目、系統、設施或產品等各種相關之持有成本,在一特定使用年限及相同時間設定條件下,所進行之經濟評估程序。請問下列敘述中,何者包括非生命週期成本分析項目?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "建築師設計監造酬金、營建成本",
+      "建築物興建貸款利息、建築物運作之能源成本",
+      "建築物維修成本、建築物殘值",
+      "房屋稅、地價稅、建設公司營業稅"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -2209,19 +3098,30 @@
     "sourcePage": 11,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 69,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 69 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 11,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-70",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 70 題",
+    "question": "依政府採購法相關規定,工程進行過程中之施工檢驗停留點應由下列何者訂定?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "業主工程主辦機關",
+      "營建專業顧問",
+      "監造人",
+      "承包商"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2241,19 +3141,30 @@
     "sourcePage": 11,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 70,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 70 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 11,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-71",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 71 題",
+    "question": "下列檢查設備及試驗方法,何者與防水工程最無關係?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "膜厚測定",
+      "灌水試驗",
+      "抗刺穿力試驗",
+      "脈波穿透混凝土試驗"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -2273,19 +3184,30 @@
     "sourcePage": 11,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 71,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 71 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 11,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-72",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 72 題",
+    "question": "在營建管理上,作業排程後,常需作資源拉平,其意義為何?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "使施工可以使用廉價的資源",
+      "使工程的資源需求總量減少",
+      "使工程資源之使用在全工期趨於平均",
+      "使作業資源使用量減少"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2305,19 +3227,30 @@
     "sourcePage": 11,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 72,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 72 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 11,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-73",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 73 題",
+    "question": "有關室內裝修之施工,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "依法登記開業之營造業得從事室內裝修施工業務",
+      "從事室內裝修施工業務者,至少應具有專業設計技術人員及專業施工技術人員資格者各1 人",
+      "領有建築師證書者,依申請可取得專業設計技術人員及專業施工技術人員之資格",
+      "壁紙、壁布與地氈之黏貼不屬於室內裝修工程"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -2337,19 +3270,30 @@
     "sourcePage": 12,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 73,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 73 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 12,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-74",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 74 題",
+    "question": "施工過程遇有疑義時,若無特別規定,下列設計圖說資料之優先順位為何?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "4312",
+      "1342",
+      "4132",
+      "1432"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -2369,19 +3313,30 @@
     "sourcePage": 12,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 74,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 74 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 12,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-75",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 75 題",
+    "question": "政府將工程採購中之設計與施工、供應、安裝等,併於同一採購契約辦理招標,此種採購方式稱為下列何者?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "共同承包(JV)",
+      "總包(General contract)",
+      "興建營運後轉移(BOT)",
+      "統包(Turn-key)"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -2401,19 +3356,30 @@
     "sourcePage": 12,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 75,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 75 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 12,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-76",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 76 題",
+    "question": "依內政部之鋼骨鋼筋混凝土構造設計規範與解說,「施工詳圖」應由下列何者繪製?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "建築師",
+      "結構技師",
+      "承造人",
+      "監造人"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2433,19 +3399,30 @@
     "sourcePage": 12,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 76,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 76 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 12,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-77",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 77 題",
+    "question": "專案管理(PCM)為現行制度之技術服務項目之一,下列項目中,何者為其較合適之服務內容?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "申報開工、工程爭議處理、施工監造",
+      "工程爭議處理、施工監造、申請綠建築標章",
+      "工程界面協調、工程爭議處理、協助業主辦理建築師招標作業",
+      "代辦接水接電、協助業主辦理驗收、申請建造執照"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2465,19 +3442,30 @@
     "sourcePage": 12,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 77,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 77 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 12,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-78",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 78 題",
+    "question": "在進度管制上採用要徑法(CPM)時,有關施工要徑之敘述,下列何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "要徑最多一條",
+      "要徑至少一條",
+      "可能零條",
+      "至多五條"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -2497,19 +3485,30 @@
     "sourcePage": 12,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 78,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 78 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 12,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-79",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 79 題",
+    "question": "依行政院環境保護署規定,下列之施工條件何者不需要經過危險性工作場所之審查申請?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "45 公尺高之集合住宅",
+      "建築面積1000 平方公尺之地下四層公共停車場",
+      "梁底淨高9 公尺之現場澆灌鋼筋混凝土一樓廠房",
+      "地下室開挖深度16 公尺之辦公建築"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -2529,19 +3528,30 @@
     "sourcePage": 12,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 79,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 79 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 12,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "100-construction-80",
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "100 年建築構造與施工｜測驗第 80 題",
+    "question": "下列有關建築及水電工程界面整合事宜之敘述,何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "管路除平面圖套繪外,並應注意高程的配置,並標示相關尺寸",
+      "自動化辦公室樓板,往往應配置地板線槽,其出口高程須與混凝土結構體完成面平齊",
+      "建築土木標於組立模板時,有關管線、設備、吊掛物等,須先確定界面位置,由水電包商負責預埋",
+      "照明設備與泡沫噴頭應配合設置於風管下方"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -2561,6 +3571,17 @@
     "sourcePage": 12,
     "sourcePdf": "assets/100-construction/questions.pdf",
     "answerSource": "assets/100-construction/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 80,
+    "originalQuestionLabel": "100 年建築構造與施工｜測驗第 80 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 12,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   }
 ]

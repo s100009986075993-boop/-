@@ -18,7 +18,7 @@ function validateBank(value) {
 function acceptedAnswers(q){return q.acceptedAnswers || [q.answer];}
 function selectionSets(q){return q.acceptedSelections || acceptedAnswers(q).map(i=>[i]);}
 function isCorrect(q, selected){if(q.allAward)return true;const choice=Array.isArray(selected)?selected:[selected];if(new Set(choice).size!==choice.length)return false;return selectionSets(q).some(set=>set.length===choice.length&&set.every(i=>choice.includes(i)));}
-function selectionText(q, selected){return (Array.isArray(selected)?selected:[selected]).map(i=>q.options[i]).join(' ＋ ')||'未作答';}
+function selectionText(q, selected){return (Array.isArray(selected)?selected:[selected]).map(i=>String.fromCharCode(65+i)+'. '+q.options[i]).join(' ＋ ')||'未作答';}
 function answerText(q){return q.allAward?'本題一律給分（非所有選項皆為正確觀念）':selectionSets(q).map(set=>selectionText(q,set)).join(' 或 ');}
 function stats(history){const records=history.filter(a=>!a.allAward&&!a.excludeFromAccuracy);const total=records.length,correct=records.filter(a=>a.correct).length;return {total,correct,accuracy:total?Math.round(correct/total*100):0};}
 if(typeof module!=='undefined') module.exports={subjects,demo,validateBank,stats,acceptedAnswers,isCorrect,answerText,selectionSets,selectionText};

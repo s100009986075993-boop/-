@@ -1,0 +1,30 @@
+{
+  "structure": {
+    "total": 720,
+    "native": 709,
+    "needsReview": 11,
+    "withSolution": 12,
+    "withDiagram": 282
+  },
+  "environment": {
+    "total": 720,
+    "native": 718,
+    "needsReview": 2,
+    "withSolution": 5,
+    "withDiagram": 36
+  },
+  "law": {
+    "total": 1440,
+    "native": 1440,
+    "needsReview": 0,
+    "withSolution": 1,
+    "withDiagram": 3
+  },
+  "construction": {
+    "total": 1440,
+    "native": 1429,
+    "needsReview": 11,
+    "withSolution": 5,
+    "withDiagram": 215
+  }
+}
