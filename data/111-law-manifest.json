@@ -1,0 +1,123 @@
+{
+  "year": 111,
+  "subject": "營建法規與實務",
+  "multipleChoice": 80,
+  "pages": 10,
+  "answerRows": [
+    "C",
+    "B",
+    "C",
+    "B",
+    "A",
+    "B",
+    "C",
+    "C",
+    "B",
+    "D",
+    "C",
+    "D",
+    "C",
+    "C",
+    "B",
+    "C",
+    "D",
+    "A",
+    "C",
+    "B",
+    "C",
+    "B",
+    "A",
+    "D",
+    "D",
+    "B",
+    "C",
+    "D",
+    "B",
+    "B",
+    "D",
+    "C",
+    "D",
+    "B",
+    "B",
+    "B",
+    "C",
+    "A",
+    "B",
+    "B",
+    "B",
+    "C",
+    "B",
+    "B",
+    "C",
+    "B",
+    "C",
+    "A",
+    "A",
+    "B",
+    "C",
+    "A",
+    "C",
+    "D",
+    "B",
+    "B",
+    "C",
+    "C",
+    "D",
+    "B",
+    "D",
+    "B",
+    "D",
+    "B",
+    "C",
+    "A",
+    "#",
+    "D",
+    "A",
+    "B",
+    "D",
+    "A",
+    "B",
+    "A",
+    "A",
+    "B",
+    "D",
+    "C",
+    "B",
+    "C"
+  ],
+  "correctionNotes": "第67題一律給分。",
+  "corrections": [
+    {
+      "number": 67,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第67題一律給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "111年_營建法規與實務_答案.pdf": "1d67d99cb7176857c5348bf2802b4a7510e9786dc007c8a6d040165fa1f218ef",
+    "111年_營建法規與實務_更正答案.pdf": "7af379265bac168a4dd0344b93e390d483b9b629a906828a486df5c7a5832e25",
+    "111年_營建法規與實務_試題.pdf": "20cadcba45cd38da1ad6ba062649215f0e7b993824544e6738a455b3921ba729"
+  }
+}

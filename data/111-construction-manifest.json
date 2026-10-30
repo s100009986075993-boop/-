@@ -1,0 +1,184 @@
+{
+  "year": 111,
+  "subject": "建築構造與施工",
+  "multipleChoice": 80,
+  "pages": 8,
+  "answerRows": [
+    "B",
+    "A",
+    "C",
+    "A",
+    "C",
+    "B",
+    "B",
+    "A",
+    "B",
+    "D",
+    "D",
+    "A",
+    "D",
+    "D",
+    "C",
+    "D",
+    "C",
+    "A",
+    "#",
+    "B",
+    "C",
+    "#",
+    "C",
+    "C",
+    "B",
+    "A",
+    "B",
+    "A",
+    "C",
+    "B",
+    "D",
+    "D",
+    "A",
+    "D",
+    "D",
+    "D",
+    "A",
+    "D",
+    "C",
+    "B",
+    "C",
+    "D",
+    "D",
+    "D",
+    "B",
+    "D",
+    "D",
+    "D",
+    "D",
+    "C",
+    "D",
+    "#",
+    "A",
+    "D",
+    "C",
+    "C",
+    "B",
+    "D",
+    "C",
+    "A",
+    "B",
+    "B",
+    "D",
+    "A",
+    "B",
+    "C",
+    "B",
+    "D",
+    "B",
+    "D",
+    "B",
+    "C",
+    "B",
+    "A",
+    "#",
+    "B",
+    "C",
+    "D",
+    "A",
+    "B"
+  ],
+  "correctionNotes": "第19題答C或D或CD者均給分,第22題答A或D或AD者均給分,第52題答B或D或BD者均給分,第75題答B或D或BD者均給分。",
+  "corrections": [
+    {
+      "number": 19,
+      "original": "C",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "note": "第19題答C或D或CD者均給分"
+      }
+    },
+    {
+      "number": 22,
+      "original": "A",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "note": "第22題答A或D或AD者均給分"
+      }
+    },
+    {
+      "number": 52,
+      "original": "C",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "note": "第52題答B或D或BD者均給分"
+      }
+    },
+    {
+      "number": 75,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "note": "第75題答B或D或BD者均給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "111年_建築構造與施工_更正答案.pdf": "3593c70dc560d62f847a876e26f3daba88c3bb7ec88e8f42369023de8a97e6d1",
+    "111年_建築構造與施工_試題.pdf": "0513f32ca55d316b1ea229861fff1bbab8a36f063d09dba14b4177e36ed90b78",
+    "111年_建築構造與施工_答案.pdf": "b515729d291a45bc7fed29fc223760550e2b5e2b7b869845f90a2d97cc1f010c"
+  }
+}

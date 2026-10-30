@@ -1,0 +1,151 @@
+{
+  "year": 97,
+  "subject": "建築構造與施工",
+  "multipleChoice": 80,
+  "pages": 8,
+  "answerRows": [
+    "C",
+    "A",
+    "D",
+    "C",
+    "B",
+    "A",
+    "C",
+    "A",
+    "#",
+    "A",
+    "C",
+    "B",
+    "A",
+    "B",
+    "#",
+    "C",
+    "A",
+    "C",
+    "A",
+    "A",
+    "C",
+    "A",
+    "C",
+    "B",
+    "B",
+    "A",
+    "D",
+    "B",
+    "D",
+    "A",
+    "C",
+    "A",
+    "D",
+    "D",
+    "#",
+    "D",
+    "C",
+    "A",
+    "B",
+    "D",
+    "D",
+    "B",
+    "D",
+    "D",
+    "C",
+    "A",
+    "D",
+    "A",
+    "D",
+    "B",
+    "B",
+    "B",
+    "D",
+    "D",
+    "A",
+    "C",
+    "C",
+    "D",
+    "C",
+    "B",
+    "D",
+    "C",
+    "B",
+    "D",
+    "C",
+    "A",
+    "D",
+    "B",
+    "D",
+    "A",
+    "D",
+    "B",
+    "B",
+    "C",
+    "B",
+    "C",
+    "D",
+    "D",
+    "D",
+    "A"
+  ],
+  "correctionNotes": "第9題答B或D者均給分,第15題答A或B者均給分,第35題答A或B者均給分。",
+  "corrections": [
+    {
+      "number": 9,
+      "original": "#",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            1
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第9題答B或D者均給分"
+      }
+    },
+    {
+      "number": 15,
+      "original": "#",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "note": "第15題答A或B者均給分"
+      }
+    },
+    {
+      "number": 35,
+      "original": "#",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "note": "第35題答A或B者均給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": true,
+  "identicalAnswerFiles": true,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "97年_建築構造與施工_試題.pdf": "5932225a2dd4a956789c1448fa565fdec1b961c92b49b10e8fcf65f2199fc00f",
+    "97年_建築構造與施工_更正答案.pdf": "367a0c2703065a61f9fd0a851c26d2a67c84367c47bd9e1a7356a20d73b3fcb5",
+    "97年_建築構造與施工_答案.pdf": "367a0c2703065a61f9fd0a851c26d2a67c84367c47bd9e1a7356a20d73b3fcb5"
+  }
+}

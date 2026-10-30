@@ -1,0 +1,144 @@
+{
+  "year": 105,
+  "subject": "營建法規與實務",
+  "multipleChoice": 80,
+  "pages": 8,
+  "answerRows": [
+    "C",
+    "B",
+    "B",
+    "A",
+    "C",
+    "D",
+    "B",
+    "B",
+    "B",
+    "D",
+    "C",
+    "C",
+    "B",
+    "C",
+    "C",
+    "C",
+    "B",
+    "B",
+    "C",
+    "A",
+    "D",
+    "B",
+    "A",
+    "B",
+    "A",
+    "C",
+    "B",
+    "B",
+    "C",
+    "C",
+    "C",
+    "B",
+    "B",
+    "A",
+    "B",
+    "D",
+    "D",
+    "C",
+    "B",
+    "A",
+    "A",
+    "C",
+    "B",
+    "C",
+    "D",
+    "C",
+    "A",
+    "C",
+    "D",
+    "D",
+    "C",
+    "C",
+    "D",
+    "B",
+    "A",
+    "A",
+    "D",
+    "B",
+    "#",
+    "B",
+    "D",
+    "C",
+    "C",
+    "A",
+    "D",
+    "C",
+    "D",
+    "C",
+    "B",
+    "C",
+    "C",
+    "D",
+    "C",
+    "#",
+    "B",
+    "B",
+    "B",
+    "D",
+    "A",
+    "B"
+  ],
+  "correctionNotes": "第59題答C或D或CD者均給分,第74題一律給分。",
+  "corrections": [
+    {
+      "number": 59,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "note": "第59題答C或D或CD者均給分"
+      }
+    },
+    {
+      "number": 74,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第74題一律給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "105年_營建法規與實務_試題.pdf": "9342eb070c0c18818936a93d12e8ee7825caadb0640587d758263b6b5da079d6",
+    "105年_營建法規與實務_更正答案.pdf": "5b035f58494be2642884f86b43656748d386f22459c56666afecf1553e07a852",
+    "105年_營建法規與實務_答案.pdf": "2aaf97f31df2977e3bfafc726219c8d93081dd25987487aab469d206a6333a24"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "year": 111,
+  "subject": "建築結構",
+  "multipleChoice": 40,
+  "pages": 8,
+  "answerRows": [
+    "B",
+    "A",
+    "A",
+    "D",
+    "B",
+    "D",
+    "D",
+    "C",
+    "C",
+    "C",
+    "A",
+    "A",
+    "A",
+    "D",
+    "B",
+    "B",
+    "D",
+    "C",
+    "B",
+    "C",
+    "B",
+    "A",
+    "D",
+    "#",
+    "C",
+    "D",
+    "D",
+    "B",
+    "C",
+    "D",
+    "B",
+    "A",
+    "C",
+    "C",
+    "#",
+    "B",
+    "D",
+    "B",
+    "A",
+    "A"
+  ],
+  "correctionNotes": "第24題一律給分,第35題答B或D或BD者均給分。",
+  "corrections": [
+    {
+      "number": 24,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第24題一律給分"
+      }
+    },
+    {
+      "number": 35,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "note": "第35題答B或D或BD者均給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "111年_建築結構_更正答案.pdf": "d393aa61000f51d6010652e5d7ee54bd1c67bd364f3cf22fe7bff5bd6ade04eb",
+    "111年_建築結構_試題.pdf": "bd61509eed0ada0bf59002bd2654f58f3a52d5bd1d5d56ff120ca830b3b67885",
+    "111年_建築結構_答案.pdf": "c0df1b9d0d5665da0bdb8f54cf64481b3f1bca78cd876cc1fa2a3efe1865de1c"
+  }
+}

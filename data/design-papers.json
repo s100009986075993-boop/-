@@ -1,0 +1,351 @@
+[
+  {
+    "id": "97-design",
+    "year": 97,
+    "subject": "建築計畫與設計",
+    "title": "員工渡假中心（整理摘要）",
+    "examMinutes": 480,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 3,
+    "images": [
+      "assets/97-design/page-1.webp",
+      "assets/97-design/page-2.webp",
+      "assets/97-design/page-3.webp"
+    ],
+    "sourcePdf": "assets/97-design/questions.pdf",
+    "sourceText": "assets/97-design/extracted-text.txt",
+    "sourceFilename": "97年_建築計畫與設計_試題.pdf",
+    "sha256": "c05269c822a31a65fd7f70140e6252a3be3e8b81074b006a50558605e6d06e4a",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "98-design",
+    "year": 98,
+    "subject": "建築計畫與設計",
+    "title": "建築設計作為一種善意的公共行動",
+    "examMinutes": 480,
+    "calculator": "禁止使用",
+    "pages": 4,
+    "images": [
+      "assets/98-design/page-1.webp",
+      "assets/98-design/page-2.webp",
+      "assets/98-design/page-3.webp",
+      "assets/98-design/page-4.webp"
+    ],
+    "sourcePdf": "assets/98-design/questions.pdf",
+    "sourceText": "assets/98-design/extracted-text.txt",
+    "sourceFilename": "98年_建築計畫與設計_試題.pdf",
+    "sha256": "caf852b553903f5b40aa6b17ac3a04aa2d90ab9cb830f36149a96a018c5672df",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "99-design",
+    "year": 99,
+    "subject": "建築計畫與設計",
+    "title": "小學「加一」",
+    "examMinutes": 480,
+    "calculator": "禁止使用",
+    "pages": 2,
+    "images": [
+      "assets/99-design/page-1.webp",
+      "assets/99-design/page-2.webp"
+    ],
+    "sourcePdf": "assets/99-design/questions.pdf",
+    "sourceText": "assets/99-design/extracted-text.txt",
+    "sourceFilename": "99年_建築計畫與設計_試題.pdf",
+    "sha256": "7adb3f16b38adf68656c0b10536e0916cd326db7a030d664f722f80074b4bd9a",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "100-design",
+    "year": 100,
+    "subject": "建築計畫與設計",
+    "title": "共生的兒童圖書館與鄰里公園",
+    "examMinutes": 480,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 2,
+    "images": [
+      "assets/100-design/page-1.webp",
+      "assets/100-design/page-2.webp"
+    ],
+    "sourcePdf": "assets/100-design/questions.pdf",
+    "sourceText": "assets/100-design/extracted-text.txt",
+    "sourceFilename": "100年_建築計畫與設計_試題.pdf",
+    "sha256": "a3b6f617c23a46eed3c37c5dd63c46d3135011707765546212ea874dc9497a4f",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "101-design",
+    "year": 101,
+    "subject": "建築計畫與設計",
+    "title": "「歷史建築保存再利用與活動中心增建」規劃設計。",
+    "examMinutes": 480,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 4,
+    "images": [
+      "assets/101-design/page-1.webp",
+      "assets/101-design/page-2.webp",
+      "assets/101-design/page-3.webp",
+      "assets/101-design/page-4.webp"
+    ],
+    "sourcePdf": "assets/101-design/questions.pdf",
+    "sourceText": "assets/101-design/extracted-text.txt",
+    "sourceFilename": "101年_建築計畫與設計_試題.pdf",
+    "sha256": "d40db7d0bc09484a0f316187d1c4ec864b515b55bc73dacdafe57cbd88df92b1",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "102-design",
+    "year": 102,
+    "subject": "建築計畫與設計",
+    "title": "都市填充—住商複合使用建築",
+    "examMinutes": 480,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 3,
+    "images": [
+      "assets/102-design/page-1.webp",
+      "assets/102-design/page-2.webp",
+      "assets/102-design/page-3.webp"
+    ],
+    "sourcePdf": "assets/102-design/questions.pdf",
+    "sourceText": "assets/102-design/extracted-text.txt",
+    "sourceFilename": "102年_建築計畫與設計_試題.pdf",
+    "sha256": "97f871dfff4a6f24f5949adff139beae64d0de0fc4c3840f1905bef33dae617f",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "103-design",
+    "year": 103,
+    "subject": "建築計畫與設計",
+    "title": "與鄰為善的建築師事務所 -------- 建築師好厝邊",
+    "examMinutes": 480,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 7,
+    "images": [
+      "assets/103-design/page-1.webp",
+      "assets/103-design/page-2.webp",
+      "assets/103-design/page-3.webp",
+      "assets/103-design/page-4.webp",
+      "assets/103-design/page-5.webp",
+      "assets/103-design/page-6.webp",
+      "assets/103-design/page-7.webp"
+    ],
+    "sourcePdf": "assets/103-design/questions.pdf",
+    "sourceText": "assets/103-design/extracted-text.txt",
+    "sourceFilename": "103年_建築計畫與設計_試題.pdf",
+    "sha256": "bbe3ef9cd2c0a4b13f05a60c151befa50325b9f472f7580a0998ff61f51ca6ce",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "104-design",
+    "year": 104,
+    "subject": "建築計畫與設計",
+    "title": "【友善】社區小學",
+    "examMinutes": 480,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 4,
+    "images": [
+      "assets/104-design/page-1.webp",
+      "assets/104-design/page-2.webp",
+      "assets/104-design/page-3.webp",
+      "assets/104-design/page-4.webp"
+    ],
+    "sourcePdf": "assets/104-design/questions.pdf",
+    "sourceText": "assets/104-design/extracted-text.txt",
+    "sourceFilename": "104年_建築計畫與設計_試題.pdf",
+    "sha256": "1d44f6b7bca2f64fd8a1ddcded96ddacc411c6ae3f6d48796f576cfedac5415f",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "105-design",
+    "year": 105,
+    "subject": "建築計畫與設計",
+    "title": "圖書館與社區公共空間",
+    "examMinutes": 480,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 3,
+    "images": [
+      "assets/105-design/page-1.webp",
+      "assets/105-design/page-2.webp",
+      "assets/105-design/page-3.webp"
+    ],
+    "sourcePdf": "assets/105-design/questions.pdf",
+    "sourceText": "assets/105-design/extracted-text.txt",
+    "sourceFilename": "105年_建築計畫與設計_試題.pdf",
+    "sha256": "572d91792ddb40fb00647cd5f2f63886478f8c3389c2b9c4161a60fcacb09310",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "106-design",
+    "year": 106,
+    "subject": "建築計畫與設計",
+    "title": "老街活動中心",
+    "examMinutes": 480,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 3,
+    "images": [
+      "assets/106-design/page-1.webp",
+      "assets/106-design/page-2.webp",
+      "assets/106-design/page-3.webp"
+    ],
+    "sourcePdf": "assets/106-design/questions.pdf",
+    "sourceText": "assets/106-design/extracted-text.txt",
+    "sourceFilename": "106年_建築計畫與設計_試題.pdf",
+    "sha256": "a93fe7d88ba2d45780b2583f5350e7a0a73b0dbf60c953ba1a31dc3e42745177",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "107-design",
+    "year": 107,
+    "subject": "建築計畫與設計",
+    "title": "國民運動中心",
+    "examMinutes": 480,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 3,
+    "images": [
+      "assets/107-design/page-1.webp",
+      "assets/107-design/page-2.webp",
+      "assets/107-design/page-3.webp"
+    ],
+    "sourcePdf": "assets/107-design/questions.pdf",
+    "sourceText": "assets/107-design/extracted-text.txt",
+    "sourceFilename": "107年_建築計畫與設計_試題.pdf",
+    "sha256": "440b3eb1ea842326f0cd1d706e2b2f38296bed1c41b6da8c8147287b2cb76c4c",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "108-design",
+    "year": 108,
+    "subject": "建築計畫與設計",
+    "title": "國小閒置教室「老小共學」校舍增改建設計",
+    "examMinutes": 480,
+    "calculator": "禁止使用",
+    "pages": 3,
+    "images": [
+      "assets/108-design/page-1.webp",
+      "assets/108-design/page-2.webp",
+      "assets/108-design/page-3.webp"
+    ],
+    "sourcePdf": "assets/108-design/questions.pdf",
+    "sourceText": "assets/108-design/extracted-text.txt",
+    "sourceFilename": "108年_建築計畫與設計_試題.pdf",
+    "sha256": "5e27b4de7ddde2fdb2e87218921d2e058f542b6de8da4c15813a6e60bf3755fb",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "109-design",
+    "year": 109,
+    "subject": "建築計畫與設計",
+    "title": "大學校園之學生宿舍",
+    "examMinutes": 480,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 3,
+    "images": [
+      "assets/109-design/page-1.webp",
+      "assets/109-design/page-2.webp",
+      "assets/109-design/page-3.webp"
+    ],
+    "sourcePdf": "assets/109-design/questions.pdf",
+    "sourceText": "assets/109-design/extracted-text.txt",
+    "sourceFilename": "109年_建築計畫與設計_試題.pdf",
+    "sha256": "75c9be134a11d79db1af5ab52f034c91fd8f8e3b2ada5630c31ecd6950de2b3d",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "110-design",
+    "year": 110,
+    "subject": "建築計畫與設計",
+    "title": "建築計畫與設計整卷（依原卷需求）",
+    "examMinutes": 480,
+    "calculator": "禁止使用",
+    "pages": 3,
+    "images": [
+      "assets/110-design/page-1.webp",
+      "assets/110-design/page-2.webp",
+      "assets/110-design/page-3.webp"
+    ],
+    "sourcePdf": "assets/110-design/questions.pdf",
+    "sourceText": "assets/110-design/extracted-text.txt",
+    "sourceFilename": "110年_建築計畫與設計_試題.pdf",
+    "sha256": "6298cd667f81374e7f4825b888be7ca194de481599b9d82142481c068c784e51",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "111-design",
+    "year": 111,
+    "subject": "建築計畫與設計",
+    "title": "市場複合社區福祉會館",
+    "examMinutes": 480,
+    "calculator": "禁止使用",
+    "pages": 3,
+    "images": [
+      "assets/111-design/page-1.webp",
+      "assets/111-design/page-2.webp",
+      "assets/111-design/page-3.webp"
+    ],
+    "sourcePdf": "assets/111-design/questions.pdf",
+    "sourceText": "assets/111-design/extracted-text.txt",
+    "sourceFilename": "111年_建築計畫與設計_試題.pdf",
+    "sha256": "6bb36a1902da8bff330141e198f13e3223ea7e86407375740bd1f19d11b6962d",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "112-design",
+    "year": 112,
+    "subject": "建築計畫與設計",
+    "title": "小學附設幼兒園設計",
+    "examMinutes": 480,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 3,
+    "images": [
+      "assets/112-design/page-1.webp",
+      "assets/112-design/page-2.webp",
+      "assets/112-design/page-3.webp"
+    ],
+    "sourcePdf": "assets/112-design/questions.pdf",
+    "sourceText": "assets/112-design/extracted-text.txt",
+    "sourceFilename": "112年_建築計畫與設計_試題.pdf",
+    "sha256": "04d8cf027150285911946265457db94b5388143ed0f105efe6a0c9b92ce6bbd0",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "113-design",
+    "year": 113,
+    "subject": "建築計畫與設計",
+    "title": "長者日間照顧中心",
+    "examMinutes": 480,
+    "calculator": "禁止使用",
+    "pages": 5,
+    "images": [
+      "assets/113-design/page-1.webp",
+      "assets/113-design/page-2.webp",
+      "assets/113-design/page-3.webp",
+      "assets/113-design/page-4.webp",
+      "assets/113-design/page-5.webp"
+    ],
+    "sourcePdf": "assets/113-design/questions.pdf",
+    "sourceText": "assets/113-design/extracted-text.txt",
+    "sourceFilename": "113年_建築計畫與設計_試題.pdf",
+    "sha256": "27f611c88bcaec95e11a1d1284a5c1e8c75baf9f325b8b896689e8b9ec92d40a",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "114-design",
+    "year": 114,
+    "subject": "建築計畫與設計",
+    "title": "鄉公所行政大樓設計",
+    "examMinutes": 480,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 3,
+    "images": [
+      "assets/114-design/page-1.webp",
+      "assets/114-design/page-2.webp",
+      "assets/114-design/page-3.webp"
+    ],
+    "sourcePdf": "assets/114-design/questions.pdf",
+    "sourceText": "assets/114-design/extracted-text.txt",
+    "sourceFilename": "114年_建築計畫與設計_試題.pdf",
+    "sha256": "2fe49105278f11a374661732d306386426fdde83f42ab6dd85004450b19f5b5d",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  }
+]

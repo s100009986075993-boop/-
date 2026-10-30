@@ -1,0 +1,320 @@
+{
+  "year": 112,
+  "subject": "建築構造與施工",
+  "multipleChoice": 80,
+  "pages": 10,
+  "answerRows": [
+    "A",
+    "A",
+    "#",
+    "B",
+    "B",
+    "B",
+    "A",
+    "D",
+    "B",
+    "C",
+    "#",
+    "#",
+    "C",
+    "D",
+    "A",
+    "C",
+    "C",
+    "#",
+    "B",
+    "D",
+    "B",
+    "#",
+    "C",
+    "C",
+    "D",
+    "A",
+    "D",
+    "C",
+    "A",
+    "B",
+    "A",
+    "B",
+    "A",
+    "#",
+    "D",
+    "C",
+    "C",
+    "D",
+    "D",
+    "C",
+    "D",
+    "B",
+    "D",
+    "D",
+    "D",
+    "C",
+    "D",
+    "A",
+    "A",
+    "#",
+    "C",
+    "C",
+    "A",
+    "#",
+    "C",
+    "#",
+    "B",
+    "C",
+    "C",
+    "C",
+    "A",
+    "A",
+    "D",
+    "C",
+    "C",
+    "D",
+    "A",
+    "C",
+    "D",
+    "A",
+    "#",
+    "B",
+    "D",
+    "#",
+    "B",
+    "D",
+    "D",
+    "C",
+    "B",
+    "C"
+  ],
+  "correctionNotes": "第3題一律給分,第11題一律給分,第12題答A或C或D者均給分,第18題一律給分,第22題一律給分,第34題答B或C或D者均給分,第50題答B給分,第54題一律給分,第56題答C或D者均給分,第71題答A或B者均給分,第74題答A或B者均給分。",
+  "corrections": [
+    {
+      "number": 3,
+      "original": "A",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第3題一律給分"
+      }
+    },
+    {
+      "number": 11,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第11題一律給分"
+      }
+    },
+    {
+      "number": 12,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第12題答A或C或D者均給分"
+      }
+    },
+    {
+      "number": 18,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第18題一律給分"
+      }
+    },
+    {
+      "number": 22,
+      "original": "A",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第22題一律給分"
+      }
+    },
+    {
+      "number": 34,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第34題答B或C或D者均給分"
+      }
+    },
+    {
+      "number": 50,
+      "original": "C",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            1
+          ]
+        ],
+        "note": "第50題答B給分"
+      }
+    },
+    {
+      "number": 54,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第54題一律給分"
+      }
+    },
+    {
+      "number": 56,
+      "original": "C",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第56題答C或D者均給分"
+      }
+    },
+    {
+      "number": 71,
+      "original": "A",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "note": "第71題答A或B者均給分"
+      }
+    },
+    {
+      "number": 74,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "note": "第74題答A或B者均給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "112年_建築構造與施工_更正答案.pdf": "65741cc47d302a5b1e58ac64286b0e32d517f70ec0e63bf53ae74201759570ea",
+    "112年_建築構造與施工_答案.pdf": "c199b5a4862a181d6a00bf85de765769956abc9fa32622b90dafe9fdaa10bd27",
+    "112年_建築構造與施工_試題.pdf": "d50c91b9306ca880122fa31eacef5d063695299c16c17b1da45adf34eb25f70c"
+  }
+}

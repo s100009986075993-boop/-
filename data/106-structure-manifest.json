@@ -1,0 +1,126 @@
+{
+  "year": 106,
+  "subject": "建築結構",
+  "multipleChoice": 40,
+  "pages": 8,
+  "answerRows": [
+    "C",
+    "#",
+    "D",
+    "B",
+    "C",
+    "C",
+    "#",
+    "A",
+    "B",
+    "D",
+    "A",
+    "B",
+    "B",
+    "B",
+    "A",
+    "D",
+    "C",
+    "#",
+    "C",
+    "B",
+    "D",
+    "A",
+    "B",
+    "B",
+    "B",
+    "D",
+    "D",
+    "C",
+    "C",
+    "A",
+    "C",
+    "B",
+    "D",
+    "B",
+    "A",
+    "D",
+    "A",
+    "C",
+    "A",
+    "A"
+  ],
+  "correctionNotes": "第2題一律給分,第7題一律給分,第18題答B或D或BD者均給分。",
+  "corrections": [
+    {
+      "number": 2,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第2題一律給分"
+      }
+    },
+    {
+      "number": 7,
+      "original": "C",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第7題一律給分"
+      }
+    },
+    {
+      "number": 18,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "note": "第18題答B或D或BD者均給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "106年_建築結構_試題.pdf": "00b0718553080c96ed68f26de0809fccb99d33725706e912b9992094f149efe7",
+    "106年_建築結構_答案.pdf": "94771bd587dab38483daf648d09fdde448c0f6417655370b1ddfafb1e829625c",
+    "106年_建築結構_更正答案.pdf": "abae985879d76cd86c5dc6cada86399a2beae0564ffc4c8ed0f9b9f2329153c1"
+  }
+}

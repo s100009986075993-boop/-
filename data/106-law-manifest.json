@@ -1,0 +1,142 @@
+{
+  "year": 106,
+  "subject": "營建法規與實務",
+  "multipleChoice": 80,
+  "pages": 6,
+  "answerRows": [
+    "A",
+    "D",
+    "C",
+    "C",
+    "D",
+    "#",
+    "B",
+    "B",
+    "C",
+    "C",
+    "C",
+    "C",
+    "D",
+    "D",
+    "C",
+    "C",
+    "C",
+    "C",
+    "B",
+    "D",
+    "D",
+    "#",
+    "B",
+    "A",
+    "B",
+    "D",
+    "B",
+    "D",
+    "A",
+    "C",
+    "B",
+    "C",
+    "A",
+    "B",
+    "D",
+    "D",
+    "C",
+    "D",
+    "D",
+    "B",
+    "B",
+    "D",
+    "C",
+    "C",
+    "C",
+    "A",
+    "C",
+    "A",
+    "D",
+    "C",
+    "A",
+    "D",
+    "D",
+    "C",
+    "A",
+    "A",
+    "C",
+    "C",
+    "B",
+    "B",
+    "D",
+    "D",
+    "A",
+    "A",
+    "A",
+    "C",
+    "C",
+    "B",
+    "B",
+    "C",
+    "A",
+    "A",
+    "B",
+    "D",
+    "B",
+    "C",
+    "B",
+    "A",
+    "A",
+    "D"
+  ],
+  "correctionNotes": "第6題答A或C或AC者均給分,第22題答A或B或AB者均給分。",
+  "corrections": [
+    {
+      "number": 6,
+      "original": "C",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "note": "第6題答A或C或AC者均給分"
+      }
+    },
+    {
+      "number": 22,
+      "original": "A",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "note": "第22題答A或B或AB者均給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "106年_營建法規與實務_答案.pdf": "367f698ffea2bd3afbbce73bddfdabd423e6702dde6c81e7c73444ea43fb0b51",
+    "106年_營建法規與實務_試題.pdf": "67d02d743c9126d35e298522b4844bf6a6eeaa35281337b9d953bf67c2073e02",
+    "106年_營建法規與實務_更正答案.pdf": "4cd641e72193b8c7e0ccde4f0bb67813c150801c2c432446b6c96a90bc7e8b59"
+  }
+}

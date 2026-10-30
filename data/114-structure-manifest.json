@@ -1,0 +1,80 @@
+{
+  "year": 114,
+  "subject": "建築結構",
+  "multipleChoice": 40,
+  "pages": 8,
+  "answerRows": [
+    "D",
+    "D",
+    "A",
+    "D",
+    "#",
+    "C",
+    "B",
+    "D",
+    "A",
+    "B",
+    "D",
+    "C",
+    "C",
+    "D",
+    "B",
+    "A",
+    "A",
+    "B",
+    "C",
+    "D",
+    "D",
+    "D",
+    "C",
+    "D",
+    "A",
+    "B",
+    "C",
+    "D",
+    "B",
+    "B",
+    "A",
+    "B",
+    "B",
+    "A",
+    "B",
+    "A",
+    "C",
+    "D",
+    "A",
+    "A"
+  ],
+  "correctionNotes": "第5題答A或C或AC者均給分。",
+  "corrections": [
+    {
+      "number": 5,
+      "original": "A",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "note": "第5題答A或C或AC者均給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "114年_建築結構_更正答案.pdf": "c9c0b4a950ddd22888a3ca10327c434c82b138a3d250a5a78acee4a5ce6979d6",
+    "114年_建築結構_試題.pdf": "32b594908897113b470c7de4f341b2bfe30580aabbdb67841cb046e4efdc450e",
+    "114年_建築結構_答案.pdf": "43b341ee8f306777eee1bc33fa80e686a705321a01f04555574821e1de94f5b4"
+  }
+}

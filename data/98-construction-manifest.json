@@ -1,0 +1,186 @@
+{
+  "year": 98,
+  "subject": "建築構造與施工",
+  "multipleChoice": 80,
+  "pages": 8,
+  "answerRows": [
+    "C",
+    "C",
+    "D",
+    "#",
+    "D",
+    "C",
+    "D",
+    "C",
+    "A",
+    "C",
+    "C",
+    "B",
+    "A",
+    "B",
+    "A",
+    "D",
+    "C",
+    "A",
+    "D",
+    "D",
+    "A",
+    "C",
+    "A",
+    "A",
+    "D",
+    "A",
+    "A",
+    "B",
+    "B",
+    "C",
+    "A",
+    "A",
+    "A",
+    "B",
+    "B",
+    "D",
+    "#",
+    "C",
+    "B",
+    "C",
+    "B",
+    "B",
+    "D",
+    "B",
+    "C",
+    "C",
+    "C",
+    "A",
+    "B",
+    "D",
+    "D",
+    "D",
+    "C",
+    "D",
+    "C",
+    "A",
+    "D",
+    "B",
+    "A",
+    "B",
+    "B",
+    "#",
+    "D",
+    "D",
+    "D",
+    "C",
+    "D",
+    "D",
+    "A",
+    "C",
+    "A",
+    "C",
+    "#",
+    "B",
+    "D",
+    "D",
+    "D",
+    "D",
+    "D",
+    "D"
+  ],
+  "correctionNotes": "第4題一律給分,第37題答C或D者均給分,第62題一律給分,第73題一律給分。",
+  "corrections": [
+    {
+      "number": 4,
+      "original": "#",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第4題一律給分"
+      }
+    },
+    {
+      "number": 37,
+      "original": "#",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第37題答C或D者均給分"
+      }
+    },
+    {
+      "number": 62,
+      "original": "#",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第62題一律給分"
+      }
+    },
+    {
+      "number": 73,
+      "original": "#",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第73題一律給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": true,
+  "identicalAnswerFiles": true,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "98年_建築構造與施工_更正答案.pdf": "a161bb64d98f3a38e51ecb111290ee2d442ff22c0790e8446a934df4cd416159",
+    "98年_建築構造與施工_試題.pdf": "d548b77a9cfb633a7b5a90547dbebd8b8df370050d4b648dfd1e82e4c7f782cc",
+    "98年_建築構造與施工_答案.pdf": "a161bb64d98f3a38e51ecb111290ee2d442ff22c0790e8446a934df4cd416159"
+  }
+}

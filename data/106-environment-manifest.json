@@ -1,0 +1,102 @@
+{
+  "year": 106,
+  "subject": "建築環境控制",
+  "multipleChoice": 40,
+  "pages": 4,
+  "answerRows": [
+    "D",
+    "D",
+    "B",
+    "C",
+    "A",
+    "B",
+    "C",
+    "B",
+    "B",
+    "C",
+    "C",
+    "C",
+    "B",
+    "A",
+    "B",
+    "C",
+    "D",
+    "C",
+    "C",
+    "D",
+    "D",
+    "C",
+    "C",
+    "D",
+    "#",
+    "A",
+    "D",
+    "C",
+    "B",
+    "A",
+    "#",
+    "A",
+    "B",
+    "A",
+    "C",
+    "D",
+    "C",
+    "C",
+    "B",
+    "C"
+  ],
+  "correctionNotes": "第25題答A或B或AB者均給分,第31題答A或C或AC者均給分。",
+  "corrections": [
+    {
+      "number": 25,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "note": "第25題答A或B或AB者均給分"
+      }
+    },
+    {
+      "number": 31,
+      "original": "C",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "note": "第31題答A或C或AC者均給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "106年_建築環境控制_試題.pdf": "32080c513c3df0aa497016b7b995698d6553c4e55cebc59d443e392fe85015fc",
+    "106年_建築環境控制_更正答案.pdf": "df5e30efd91303dafa64285ebecca0108bcccf9237f8e778be18d5413bb778f7",
+    "106年_建築環境控制_答案.pdf": "a71035a6028a42889baeccad7c53aa8ad842af1628b596153f20d06d4c15e8d1"
+  }
+}

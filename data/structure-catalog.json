@@ -1,0 +1,485 @@
+[
+  {
+    "year": 98,
+    "count": 40,
+    "corrections": [],
+    "notes": "無更正紀錄。"
+  },
+  {
+    "year": 99,
+    "count": 40,
+    "corrections": [
+      {
+        "number": 14,
+        "original": null,
+        "current": "#",
+        "rule": {
+          "allAward": true,
+          "sets": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "note": "第14題一律給分"
+        }
+      }
+    ],
+    "notes": "第 14 題一律給分。"
+  },
+  {
+    "year": 100,
+    "count": 40,
+    "corrections": [
+      {
+        "number": 38,
+        "original": "C",
+        "current": "#",
+        "rule": {
+          "allAward": false,
+          "sets": [
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "note": "第38題答A或C者均給分"
+        }
+      }
+    ],
+    "notes": "第38題答A或C者均給分。"
+  },
+  {
+    "year": 101,
+    "count": 40,
+    "corrections": [],
+    "notes": ""
+  },
+  {
+    "year": 102,
+    "count": 40,
+    "corrections": [
+      {
+        "number": 5,
+        "original": "C",
+        "current": "#",
+        "rule": {
+          "allAward": false,
+          "sets": [
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "note": "第5題答C或D者均給分"
+        }
+      }
+    ],
+    "notes": "第5題答C或D者均給分。"
+  },
+  {
+    "year": 103,
+    "count": 40,
+    "corrections": [],
+    "notes": ""
+  },
+  {
+    "year": 104,
+    "count": 40,
+    "corrections": [],
+    "notes": ""
+  },
+  {
+    "year": 105,
+    "count": 40,
+    "corrections": [
+      {
+        "number": 28,
+        "original": "B",
+        "current": "#",
+        "rule": {
+          "allAward": false,
+          "sets": [
+            [
+              1
+            ],
+            [
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "note": "第28題答B或D或BD者均給分"
+        }
+      },
+      {
+        "number": 31,
+        "original": "B",
+        "current": "#",
+        "rule": {
+          "allAward": false,
+          "sets": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "note": "第31題答B或C或BC者均給分"
+        }
+      }
+    ],
+    "notes": "第28題答B或D或BD者均給分,第31題答B或C或BC者均給分。"
+  },
+  {
+    "year": 106,
+    "count": 40,
+    "corrections": [
+      {
+        "number": 2,
+        "original": "B",
+        "current": "#",
+        "rule": {
+          "allAward": true,
+          "sets": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "note": "第2題一律給分"
+        }
+      },
+      {
+        "number": 7,
+        "original": "C",
+        "current": "#",
+        "rule": {
+          "allAward": true,
+          "sets": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "note": "第7題一律給分"
+        }
+      },
+      {
+        "number": 18,
+        "original": "B",
+        "current": "#",
+        "rule": {
+          "allAward": false,
+          "sets": [
+            [
+              1
+            ],
+            [
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "note": "第18題答B或D或BD者均給分"
+        }
+      }
+    ],
+    "notes": "第2題一律給分,第7題一律給分,第18題答B或D或BD者均給分。"
+  },
+  {
+    "year": 107,
+    "count": 40,
+    "corrections": [
+      {
+        "number": 11,
+        "original": "B",
+        "current": "#",
+        "rule": {
+          "allAward": false,
+          "sets": [
+            [
+              0
+            ]
+          ],
+          "note": "第11題答A給分"
+        }
+      }
+    ],
+    "notes": "第11題答A給分。"
+  },
+  {
+    "year": 108,
+    "count": 40,
+    "corrections": [
+      {
+        "number": 13,
+        "original": "A",
+        "current": "#",
+        "rule": {
+          "allAward": true,
+          "sets": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "note": "第13題一律給分"
+        }
+      },
+      {
+        "number": 21,
+        "original": "A",
+        "current": "#",
+        "rule": {
+          "allAward": false,
+          "sets": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "note": "第21題答A或B或AB者均給分"
+        }
+      }
+    ],
+    "notes": "第13題一律給分,第21題答A或B或AB者均給分。"
+  },
+  {
+    "year": 109,
+    "count": 40,
+    "corrections": [
+      {
+        "number": 22,
+        "original": "B",
+        "current": "#",
+        "rule": {
+          "allAward": true,
+          "sets": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "note": "第22題一律給分"
+        }
+      }
+    ],
+    "notes": "第22題一律給分。"
+  },
+  {
+    "year": 110,
+    "count": 40,
+    "corrections": [],
+    "notes": ""
+  },
+  {
+    "year": 111,
+    "count": 40,
+    "corrections": [
+      {
+        "number": 24,
+        "original": "B",
+        "current": "#",
+        "rule": {
+          "allAward": true,
+          "sets": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "note": "第24題一律給分"
+        }
+      },
+      {
+        "number": 35,
+        "original": "D",
+        "current": "#",
+        "rule": {
+          "allAward": false,
+          "sets": [
+            [
+              1
+            ],
+            [
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "note": "第35題答B或D或BD者均給分"
+        }
+      }
+    ],
+    "notes": "第24題一律給分,第35題答B或D或BD者均給分。"
+  },
+  {
+    "year": 112,
+    "count": 40,
+    "corrections": [
+      {
+        "number": 21,
+        "original": "C",
+        "current": "#",
+        "rule": {
+          "allAward": true,
+          "sets": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "note": "第21題一律給分"
+        }
+      }
+    ],
+    "notes": "第21題一律給分。"
+  },
+  {
+    "year": 113,
+    "count": 40,
+    "corrections": [
+      {
+        "number": 18,
+        "original": "D",
+        "current": "#",
+        "rule": {
+          "allAward": false,
+          "sets": [
+            [
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "note": "第18題答B或D者均給分"
+        }
+      },
+      {
+        "number": 21,
+        "original": "B",
+        "current": "#",
+        "rule": {
+          "allAward": false,
+          "sets": [
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "note": "第21題答A或B者均給分"
+        }
+      }
+    ],
+    "notes": "第18題答B或D者均給分,第21題答A或B者均給分。"
+  },
+  {
+    "year": 114,
+    "count": 40,
+    "corrections": [
+      {
+        "number": 5,
+        "original": "A",
+        "current": "#",
+        "rule": {
+          "allAward": false,
+          "sets": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "note": "第5題答A或C或AC者均給分"
+        }
+      }
+    ],
+    "notes": "第5題答A或C或AC者均給分。"
+  }
+]

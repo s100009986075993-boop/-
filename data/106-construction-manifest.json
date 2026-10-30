@@ -1,0 +1,123 @@
+{
+  "year": 106,
+  "subject": "建築構造與施工",
+  "multipleChoice": 80,
+  "pages": 8,
+  "answerRows": [
+    "D",
+    "#",
+    "C",
+    "B",
+    "A",
+    "A",
+    "A",
+    "B",
+    "B",
+    "C",
+    "A",
+    "C",
+    "D",
+    "B",
+    "D",
+    "A",
+    "D",
+    "C",
+    "D",
+    "C",
+    "C",
+    "D",
+    "C",
+    "D",
+    "A",
+    "C",
+    "D",
+    "C",
+    "B",
+    "C",
+    "D",
+    "D",
+    "B",
+    "B",
+    "A",
+    "B",
+    "C",
+    "B",
+    "A",
+    "D",
+    "A",
+    "D",
+    "B",
+    "D",
+    "D",
+    "B",
+    "D",
+    "A",
+    "C",
+    "D",
+    "C",
+    "B",
+    "A",
+    "D",
+    "C",
+    "B",
+    "A",
+    "A",
+    "D",
+    "B",
+    "A",
+    "C",
+    "C",
+    "D",
+    "D",
+    "D",
+    "A",
+    "A",
+    "A",
+    "C",
+    "B",
+    "D",
+    "B",
+    "C",
+    "C",
+    "D",
+    "A",
+    "A",
+    "B",
+    "B"
+  ],
+  "correctionNotes": "第2題一律給分。",
+  "corrections": [
+    {
+      "number": 2,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第2題一律給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "106年_建築構造與施工_試題.pdf": "65fb3625c71872252c50876b7b6aacac5f0327301e22f3bbbee6cbe6b6aa111e",
+    "106年_建築構造與施工_更正答案.pdf": "731b99779b0c419d0153622abd349d67c14d2261b74ff6674fb8449fc11dc75a",
+    "106年_建築構造與施工_答案.pdf": "097593b3989bd9b51abeb6931673fb74b0fd97fd5c0ae7fd64e55d7753330443"
+  }
+}

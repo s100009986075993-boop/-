@@ -1,0 +1,341 @@
+[
+  {
+    "id": "97-site",
+    "year": 97,
+    "subject": "敷地計畫與都市設計",
+    "title": "古蹟周邊住商更新開發敷地規劃",
+    "examMinutes": 240,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 2,
+    "images": [
+      "assets/97-site/page-1.webp",
+      "assets/97-site/page-2.webp"
+    ],
+    "sourcePdf": "assets/97-site/questions.pdf",
+    "sourceText": "assets/97-site/extracted-text.txt",
+    "sourceFilename": "97年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "10418e2fe4447c32ea89ffa8e37d987b76d01fbde59c992a1f1414b3fcbbad4d",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "98-site",
+    "year": 98,
+    "subject": "敷地計畫與都市設計",
+    "title": "「八八水災」社區重建規劃",
+    "examMinutes": 240,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 1,
+    "images": [
+      "assets/98-site/page-1.webp"
+    ],
+    "sourcePdf": "assets/98-site/questions.pdf",
+    "sourceText": "assets/98-site/extracted-text.txt",
+    "sourceFilename": "98年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "6f111474134af764d6a4ceb68473a4a987e8d69def5a54805ba96df20e51e4d4",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "99-site",
+    "year": 99,
+    "subject": "敷地計畫與都市設計",
+    "title": "研究園區之國小校園、幼稚園、社區活動中心及公園規劃",
+    "examMinutes": 240,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 2,
+    "images": [
+      "assets/99-site/page-1.webp",
+      "assets/99-site/page-2.webp"
+    ],
+    "sourcePdf": "assets/99-site/questions.pdf",
+    "sourceText": "assets/99-site/extracted-text.txt",
+    "sourceFilename": "99年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "3d245ddec3f140424a700fedc1f64b867dc7cd4676af164ae5dbfdc1315c17b5",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "100-site",
+    "year": 100,
+    "subject": "敷地計畫與都市設計",
+    "title": "停車場及公園立體化規劃（整理摘要）",
+    "examMinutes": 240,
+    "calculator": "禁止使用",
+    "pages": 2,
+    "images": [
+      "assets/100-site/page-1.webp",
+      "assets/100-site/page-2.webp"
+    ],
+    "sourcePdf": "assets/100-site/questions.pdf",
+    "sourceText": "assets/100-site/extracted-text.txt",
+    "sourceFilename": "100年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "afda108bf77ca72de41456363d17bfbdb5f2bb2444ed17a55d5cb60ab8ce385a",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "101-site",
+    "year": 101,
+    "subject": "敷地計畫與都市設計",
+    "title": "住宅社區設計",
+    "examMinutes": 240,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 2,
+    "images": [
+      "assets/101-site/page-1.webp",
+      "assets/101-site/page-2.webp"
+    ],
+    "sourcePdf": "assets/101-site/questions.pdf",
+    "sourceText": "assets/101-site/extracted-text.txt",
+    "sourceFilename": "101年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "0496e1b95ad7f9c7bf9ce6b5b3b11ebcecd2d8491f3bf3d412d48452ebdc6d5f",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "102-site",
+    "year": 102,
+    "subject": "敷地計畫與都市設計",
+    "title": "賞鳥公園教育中心規劃設計",
+    "examMinutes": 240,
+    "calculator": "禁止使用",
+    "pages": 2,
+    "images": [
+      "assets/102-site/page-1.webp",
+      "assets/102-site/page-2.webp"
+    ],
+    "sourcePdf": "assets/102-site/questions.pdf",
+    "sourceText": "assets/102-site/extracted-text.txt",
+    "sourceFilename": "102年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "6692fba5b89e255045f926ce443532a497ac86cf18592c8e98f793e0e672ab2e",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "103-site",
+    "year": 103,
+    "subject": "敷地計畫與都市設計",
+    "title": "三代同堂高層住宅及綠地 B 規劃設計。",
+    "examMinutes": 240,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 4,
+    "images": [
+      "assets/103-site/page-1.webp",
+      "assets/103-site/page-2.webp",
+      "assets/103-site/page-3.webp",
+      "assets/103-site/page-4.webp"
+    ],
+    "sourcePdf": "assets/103-site/questions.pdf",
+    "sourceText": "assets/103-site/extracted-text.txt",
+    "sourceFilename": "103年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "289e8c5207ce159db8cb4f6d5392e223af475e524754073c89c5039c87a4b202",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "104-site",
+    "year": 104,
+    "subject": "敷地計畫與都市設計",
+    "title": "國際青年文化村",
+    "examMinutes": 240,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 2,
+    "images": [
+      "assets/104-site/page-1.webp",
+      "assets/104-site/page-2.webp"
+    ],
+    "sourcePdf": "assets/104-site/questions.pdf",
+    "sourceText": "assets/104-site/extracted-text.txt",
+    "sourceFilename": "104年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "6a54cdf6a0629342f331c533524ebe83770fae8d8a7ae88e2900d995b5dffbb8",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "105-site",
+    "year": 105,
+    "subject": "敷地計畫與都市設計",
+    "title": "多題配置與剖面規劃（整卷）",
+    "examMinutes": 240,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 7,
+    "images": [
+      "assets/105-site/page-1.webp",
+      "assets/105-site/page-2.webp",
+      "assets/105-site/page-3.webp",
+      "assets/105-site/page-4.webp",
+      "assets/105-site/page-5.webp",
+      "assets/105-site/page-6.webp",
+      "assets/105-site/page-7.webp"
+    ],
+    "sourcePdf": "assets/105-site/questions.pdf",
+    "sourceText": "assets/105-site/extracted-text.txt",
+    "sourceFilename": "105年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "597d3f552402302e1ae18f03613dea44ad7ed4c6d86324ee56531fc01276edd0",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "106-site",
+    "year": 106,
+    "subject": "敷地計畫與都市設計",
+    "title": "社區樂齡學苑",
+    "examMinutes": 240,
+    "calculator": "禁止使用",
+    "pages": 2,
+    "images": [
+      "assets/106-site/page-1.webp",
+      "assets/106-site/page-2.webp"
+    ],
+    "sourcePdf": "assets/106-site/questions.pdf",
+    "sourceText": "assets/106-site/extracted-text.txt",
+    "sourceFilename": "106年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "fb769e2028215b64e1ad00b989b439f071d1161bcfdaeb846b9f6daaed8f6f98",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "107-site",
+    "year": 107,
+    "subject": "敷地計畫與都市設計",
+    "title": "都市中的文創園區",
+    "examMinutes": 240,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 3,
+    "images": [
+      "assets/107-site/page-1.webp",
+      "assets/107-site/page-2.webp",
+      "assets/107-site/page-3.webp"
+    ],
+    "sourcePdf": "assets/107-site/questions.pdf",
+    "sourceText": "assets/107-site/extracted-text.txt",
+    "sourceFilename": "107年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "c28da8e5a98265a6a06cbb95080f55db3729a5a51838b0d4ff4e3db292f43692",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "108-site",
+    "year": 108,
+    "subject": "敷地計畫與都市設計",
+    "title": "新住民文化交流中心規劃",
+    "examMinutes": 240,
+    "calculator": "禁止使用",
+    "pages": 2,
+    "images": [
+      "assets/108-site/page-1.webp",
+      "assets/108-site/page-2.webp"
+    ],
+    "sourcePdf": "assets/108-site/questions.pdf",
+    "sourceText": "assets/108-site/extracted-text.txt",
+    "sourceFilename": "108年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "d5303004f6f2f88b0a93bee4d8fd0b4760f13aed591caf20bf6942d53fb7d465",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "109-site",
+    "year": 109,
+    "subject": "敷地計畫與都市設計",
+    "title": "都市國民小學新校園",
+    "examMinutes": 240,
+    "calculator": "禁止使用",
+    "pages": 5,
+    "images": [
+      "assets/109-site/page-1.webp",
+      "assets/109-site/page-2.webp",
+      "assets/109-site/page-3.webp",
+      "assets/109-site/page-4.webp",
+      "assets/109-site/page-5.webp"
+    ],
+    "sourcePdf": "assets/109-site/questions.pdf",
+    "sourceText": "assets/109-site/extracted-text.txt",
+    "sourceFilename": "109年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "e1d05d5a65c795d854fdf8ee0c815b1d5e759a580e1134c74f9d8453dc756de1",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "110-site",
+    "year": 110,
+    "subject": "敷地計畫與都市設計",
+    "title": "某地方區政中心",
+    "examMinutes": 240,
+    "calculator": "禁止使用",
+    "pages": 3,
+    "images": [
+      "assets/110-site/page-1.webp",
+      "assets/110-site/page-2.webp",
+      "assets/110-site/page-3.webp"
+    ],
+    "sourcePdf": "assets/110-site/questions.pdf",
+    "sourceText": "assets/110-site/extracted-text.txt",
+    "sourceFilename": "110年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "c7f9b017ea9c27b11f8d77675cd3144f57bd7000ff11cdee828d41a6408a39f8",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "111-site",
+    "year": 111,
+    "subject": "敷地計畫與都市設計",
+    "title": "複合型共享辦公基地",
+    "examMinutes": 240,
+    "calculator": "禁止使用",
+    "pages": 2,
+    "images": [
+      "assets/111-site/page-1.webp",
+      "assets/111-site/page-2.webp"
+    ],
+    "sourcePdf": "assets/111-site/questions.pdf",
+    "sourceText": "assets/111-site/extracted-text.txt",
+    "sourceFilename": "111年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "f86018658852975f73cf21a6b963d7a2abb12ac15b677e7b1df7f6db58f54c06",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "112-site",
+    "year": 112,
+    "subject": "敷地計畫與都市設計",
+    "title": "公益教育研修中心",
+    "examMinutes": 240,
+    "calculator": "禁止使用",
+    "pages": 3,
+    "images": [
+      "assets/112-site/page-1.webp",
+      "assets/112-site/page-2.webp",
+      "assets/112-site/page-3.webp"
+    ],
+    "sourcePdf": "assets/112-site/questions.pdf",
+    "sourceText": "assets/112-site/extracted-text.txt",
+    "sourceFilename": "112年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "81e7cdb005ebc47b4480eee80ee940270d226eddc9a5c791c6f396c88515af79",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "113-site",
+    "year": 113,
+    "subject": "敷地計畫與都市設計",
+    "title": "快閃市集暨社會住宅規劃設計",
+    "examMinutes": 240,
+    "calculator": "禁止使用",
+    "pages": 3,
+    "images": [
+      "assets/113-site/page-1.webp",
+      "assets/113-site/page-2.webp",
+      "assets/113-site/page-3.webp"
+    ],
+    "sourcePdf": "assets/113-site/questions.pdf",
+    "sourceText": "assets/113-site/extracted-text.txt",
+    "sourceFilename": "113年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "e23a2a0243ee2b509cd00dc1b38ee45934596adebfaccae3d9e0ceec247d9062",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  },
+  {
+    "id": "114-site",
+    "year": 114,
+    "subject": "敷地計畫與都市設計",
+    "title": "停車場立體多目標使用複合休閒運動設施大樓",
+    "examMinutes": 240,
+    "calculator": "可使用（細節依原卷）",
+    "pages": 4,
+    "images": [
+      "assets/114-site/page-1.webp",
+      "assets/114-site/page-2.webp",
+      "assets/114-site/page-3.webp",
+      "assets/114-site/page-4.webp"
+    ],
+    "sourcePdf": "assets/114-site/questions.pdf",
+    "sourceText": "assets/114-site/extracted-text.txt",
+    "sourceFilename": "114年_敷地計畫與都市設計_試題.pdf",
+    "sha256": "02685afa39001a09722ad3123999209f5302930b7e05862f8564dcdb9a8fce61",
+    "status": "原卷閱讀、計時與自評；未提供官方答案或評分標準"
+  }
+]

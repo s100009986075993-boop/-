@@ -1,0 +1,127 @@
+{
+  "year": 104,
+  "subject": "建築環境控制",
+  "multipleChoice": 40,
+  "pages": 4,
+  "answerRows": [
+    "C",
+    "B",
+    "B",
+    "D",
+    "B",
+    "C",
+    "C",
+    "A",
+    "A",
+    "D",
+    "B",
+    "#",
+    "B",
+    "B",
+    "B",
+    "C",
+    "B",
+    "A",
+    "A",
+    "A",
+    "C",
+    "A",
+    "C",
+    "B",
+    "C",
+    "A",
+    "B",
+    "#",
+    "D",
+    "A",
+    "D",
+    "A",
+    "B",
+    "B",
+    "D",
+    "C",
+    "C",
+    "D",
+    "#",
+    "D"
+  ],
+  "correctionNotes": "第12題一律給分,第28題答A或B或AB者均給分,第39題一律給分。",
+  "corrections": [
+    {
+      "number": 12,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第12題一律給分"
+      }
+    },
+    {
+      "number": 28,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "note": "第28題答A或B或AB者均給分"
+      }
+    },
+    {
+      "number": 39,
+      "original": "A",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第39題一律給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "104年_建築環境控制_試題.pdf": "5783946f9814fa2993f0d0723c7b3ac36a96b704d6019ff655de2b443cecb9e6",
+    "104年_建築環境控制_更正答案.pdf": "7948fd49327a316578d939f277524ce5605aafd576cddced59937ee403342777",
+    "104年_建築環境控制_答案.pdf": "1bde7bee7e6bb68b026e20575b1d34495a00559a05de021f83153bf98a31d5e8"
+  }
+}
