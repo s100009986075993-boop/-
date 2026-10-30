@@ -1,0 +1,16 @@
+{
+  "year": 97,
+  "subject": "建築結構",
+  "multipleChoice": 40,
+  "essays": 2,
+  "examMinutes": 120,
+  "multipleChoicePoints": 60,
+  "essayPoints": 40,
+  "originalAnswerUnavailable": true,
+  "note": "兩份答案附件雜湊相同，均為更正表；第25題B、C均給分。章節為整理分類，非官方章節。解析及現行法規未核對。",
+  "files": {
+    "questions.pdf": "2f2ee5a65b65758be0d65b36df407a83f57c900e804fa31989c06d49dca654ab",
+    "corrected-answers.pdf": "d107a9321a3066c563a92de1d34f0fbe99334b9e211c0736f64e61580d45b75b",
+    "answers-upload.pdf": "d107a9321a3066c563a92de1d34f0fbe99334b9e211c0736f64e61580d45b75b"
+  }
+}

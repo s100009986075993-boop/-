@@ -1,0 +1,81 @@
+{
+  "year": 102,
+  "subject": "建築環境控制",
+  "multipleChoice": 40,
+  "pages": 4,
+  "answerRows": [
+    "#",
+    "C",
+    "D",
+    "D",
+    "C",
+    "C",
+    "A",
+    "D",
+    "D",
+    "C",
+    "D",
+    "A",
+    "A",
+    "A",
+    "D",
+    "A",
+    "B",
+    "C",
+    "D",
+    "A",
+    "A",
+    "B",
+    "A",
+    "C",
+    "A",
+    "D",
+    "D",
+    "C",
+    "B",
+    "B",
+    "C",
+    "D",
+    "A",
+    "D",
+    "C",
+    "C",
+    "D",
+    "D",
+    "B",
+    "C"
+  ],
+  "correctionNotes": "第1題答A或D或AD者均給分。",
+  "corrections": [
+    {
+      "number": 1,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "note": "第1題答A或D或AD者均給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "102年_建築環境控制_答案.pdf": "9c8abfd1ce43c61c4071bd82708f324d8af6a7edf8cbff7f5e2e11dae2be7deb",
+    "102年_建築環境控制_試題.pdf": "2d517cf1919527c798cd44a9778e476e1213288493742efdd1555c3adb942f25",
+    "102年_建築環境控制_更正答案.pdf": "bd88e64264d0cd00d34c221695f1e6732d245e7de1c84d7ce5579c557a9a535f"
+  }
+}

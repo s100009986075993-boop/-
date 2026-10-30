@@ -1,0 +1,145 @@
+{
+  "year": 97,
+  "subject": "營建法規與實務",
+  "multipleChoice": 80,
+  "pages": 8,
+  "answerRows": [
+    "B",
+    "A",
+    "D",
+    "C",
+    "B",
+    "A",
+    "C",
+    "B",
+    "D",
+    "C",
+    "C",
+    "A",
+    "B",
+    "B",
+    "A",
+    "C",
+    "B",
+    "D",
+    "B",
+    "A",
+    "A",
+    "B",
+    "#",
+    "A",
+    "B",
+    "A",
+    "C",
+    "B",
+    "D",
+    "A",
+    "B",
+    "A",
+    "D",
+    "A",
+    "B",
+    "D",
+    "C",
+    "A",
+    "D",
+    "B",
+    "A",
+    "D",
+    "B",
+    "A",
+    "D",
+    "A",
+    "A",
+    "B",
+    "D",
+    "A",
+    "D",
+    "C",
+    "A",
+    "C",
+    "#",
+    "C",
+    "B",
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "D",
+    "B",
+    "C",
+    "C",
+    "A",
+    "D",
+    "B",
+    "C",
+    "D",
+    "D",
+    "C",
+    "A",
+    "B",
+    "C",
+    "B",
+    "A",
+    "D",
+    "A"
+  ],
+  "correctionNotes": "第23題一律給分,第55題答A或B或C或D者給分。",
+  "corrections": [
+    {
+      "number": 23,
+      "original": null,
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第23題一律給分"
+      }
+    },
+    {
+      "number": 55,
+      "original": null,
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第55題答A或B或C或D者給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": true,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "97年_營建法規與實務_更正答案.pdf": "aafec2c8d6dc0d2dc840e2cce94f60f1e375de81d94d03830410491e5b4cfcd7",
+    "97年_營建法規與實務_試題.pdf": "3f7ddb6aed0255a3bf2eba8fdf29bee9d8d57d6eee538160c8350e8095fb41ea"
+  }
+}

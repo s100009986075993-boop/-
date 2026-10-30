@@ -1,0 +1,137 @@
+{
+  "year": 107,
+  "subject": "建築構造與施工",
+  "multipleChoice": 80,
+  "pages": 10,
+  "answerRows": [
+    "D",
+    "C",
+    "C",
+    "B",
+    "D",
+    "B",
+    "#",
+    "C",
+    "D",
+    "#",
+    "C",
+    "D",
+    "B",
+    "D",
+    "C",
+    "B",
+    "A",
+    "A",
+    "A",
+    "B",
+    "B",
+    "C",
+    "D",
+    "A",
+    "B",
+    "A",
+    "A",
+    "C",
+    "C",
+    "A",
+    "C",
+    "D",
+    "B",
+    "C",
+    "A",
+    "D",
+    "B",
+    "C",
+    "C",
+    "B",
+    "A",
+    "D",
+    "A",
+    "B",
+    "D",
+    "B",
+    "D",
+    "D",
+    "A",
+    "D",
+    "D",
+    "C",
+    "C",
+    "A",
+    "D",
+    "B",
+    "D",
+    "C",
+    "D",
+    "B",
+    "B",
+    "A",
+    "C",
+    "A",
+    "B",
+    "B",
+    "C",
+    "D",
+    "C",
+    "B",
+    "B",
+    "C",
+    "B",
+    "D",
+    "D",
+    "D",
+    "B",
+    "C",
+    "A",
+    "B"
+  ],
+  "correctionNotes": "第7題答A給分,第10題一律給分。",
+  "corrections": [
+    {
+      "number": 7,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ]
+        ],
+        "note": "第7題答A給分"
+      }
+    },
+    {
+      "number": 10,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第10題一律給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "107年_建築構造與施工_答案.pdf": "2e14db9febb4a50e1919336bfff56d70da9c23202ed52e416d4b2c7b7542f3c3",
+    "107年_建築構造與施工_試題.pdf": "399cd61b560b93b2e4127907e5adcab3593f576e56e521b1221437cf864a99d3",
+    "107年_建築構造與施工_更正答案.pdf": "e39fc579abd473fc1f151aa2ae807a0f2ff052d99c56fabfe74949342b591589"
+  }
+}

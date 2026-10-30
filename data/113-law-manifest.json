@@ -1,0 +1,135 @@
+{
+  "year": 113,
+  "subject": "營建法規與實務",
+  "multipleChoice": 80,
+  "pages": 8,
+  "answerRows": [
+    "D",
+    "#",
+    "D",
+    "C",
+    "B",
+    "B",
+    "D",
+    "C",
+    "A",
+    "C",
+    "D",
+    "C",
+    "D",
+    "B",
+    "D",
+    "B",
+    "A",
+    "B",
+    "C",
+    "A",
+    "C",
+    "C",
+    "B",
+    "C",
+    "C",
+    "B",
+    "C",
+    "B",
+    "B",
+    "D",
+    "B",
+    "C",
+    "#",
+    "B",
+    "D",
+    "C",
+    "B",
+    "D",
+    "D",
+    "A",
+    "A",
+    "C",
+    "D",
+    "B",
+    "D",
+    "B",
+    "B",
+    "C",
+    "A",
+    "C",
+    "C",
+    "C",
+    "D",
+    "B",
+    "C",
+    "D",
+    "D",
+    "C",
+    "C",
+    "A",
+    "D",
+    "D",
+    "C",
+    "A",
+    "C",
+    "D",
+    "B",
+    "A",
+    "B",
+    "C",
+    "B",
+    "C",
+    "D",
+    "C",
+    "B",
+    "D",
+    "B",
+    "B",
+    "C",
+    "B"
+  ],
+  "correctionNotes": "第2題答D給分,第33題答B或D或BD者均給分。",
+  "corrections": [
+    {
+      "number": 2,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            3
+          ]
+        ],
+        "note": "第2題答D給分"
+      }
+    },
+    {
+      "number": 33,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "note": "第33題答B或D或BD者均給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "113年_營建法規與實務_答案.pdf": "f8f3dd3ed86a8b08dd5862c0d260cc8418f08ddbe54524a324fb95c5d1e9257a",
+    "113年_營建法規與實務_更正答案.pdf": "fb073fb72c357c1e6db3580d6e9c66763b77517fdf034d3596f271b1c83123ac",
+    "113年_營建法規與實務_試題.pdf": "fc7cce3d16f157fe203ab2dcb01201807e89d175a04f63fde77172b549539d5b"
+  }
+}

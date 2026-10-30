@@ -1,0 +1,174 @@
+{
+  "year": 100,
+  "subject": "營建法規與實務",
+  "multipleChoice": 80,
+  "pages": 8,
+  "answerRows": [
+    "C",
+    "D",
+    "C",
+    "B",
+    "C",
+    "D",
+    "A",
+    "A",
+    "B",
+    "C",
+    "C",
+    "#",
+    "D",
+    "C",
+    "B",
+    "D",
+    "B",
+    "D",
+    "B",
+    "A",
+    "B",
+    "C",
+    "B",
+    "D",
+    "B",
+    "C",
+    "B",
+    "C",
+    "B",
+    "D",
+    "#",
+    "D",
+    "C",
+    "C",
+    "D",
+    "D",
+    "#",
+    "D",
+    "C",
+    "A",
+    "B",
+    "C",
+    "B",
+    "B",
+    "C",
+    "B",
+    "C",
+    "D",
+    "D",
+    "C",
+    "D",
+    "C",
+    "D",
+    "B",
+    "A",
+    "A",
+    "B",
+    "B",
+    "C",
+    "B",
+    "B",
+    "D",
+    "B",
+    "B",
+    "D",
+    "B",
+    "C",
+    "D",
+    "B",
+    "D",
+    "C",
+    "C",
+    "#",
+    "D",
+    "C",
+    "A",
+    "B",
+    "D",
+    "B",
+    "B"
+  ],
+  "correctionNotes": "第12題一律給分,第31題答D給分,第37題一律給分,第73題答B給分。",
+  "corrections": [
+    {
+      "number": 12,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第12題一律給分"
+      }
+    },
+    {
+      "number": 31,
+      "original": "C",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            3
+          ]
+        ],
+        "note": "第31題答D給分"
+      }
+    },
+    {
+      "number": 37,
+      "original": "C",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第37題一律給分"
+      }
+    },
+    {
+      "number": 73,
+      "original": "A",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            1
+          ]
+        ],
+        "note": "第73題答B給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "100年_營建法規與實務_更正答案.pdf": "f9f1c7d8a9235305f8d3a6a5e77ef6ceb84d57c3d53d1f7238678af64df25a1e",
+    "100年_營建法規與實務_答案.pdf": "d0f6b4a9f87b150bf5a214663f066f4682023aa8ca59210b12e6c51676ea2a5d",
+    "100年_營建法規與實務_試題.pdf": "9fa83a296dbdafdbec0204910d4de96b7a9fdeddda520ca9a7ec30cf5bb034c7"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "year": 112,
+  "subject": "建築結構",
+  "multipleChoice": 40,
+  "pages": 8,
+  "answerRows": [
+    "D",
+    "D",
+    "D",
+    "A",
+    "B",
+    "C",
+    "B",
+    "B",
+    "A",
+    "C",
+    "A",
+    "A",
+    "C",
+    "B",
+    "B",
+    "B",
+    "C",
+    "B",
+    "D",
+    "C",
+    "#",
+    "C",
+    "C",
+    "D",
+    "B",
+    "A",
+    "C",
+    "B",
+    "C",
+    "C",
+    "A",
+    "D",
+    "B",
+    "B",
+    "C",
+    "D",
+    "D",
+    "B",
+    "C",
+    "B"
+  ],
+  "correctionNotes": "第21題一律給分。",
+  "corrections": [
+    {
+      "number": 21,
+      "original": "C",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第21題一律給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "112年_建築結構_答案.pdf": "7ffa1c9aa3b368c203f33e93dc6a6d184fab59e96edfdaee5eca32b275b047fd",
+    "112年_建築結構_試題.pdf": "5382b52a5515455f9caea33a2be20f7ef34a1c9e4ac8bfccf6d53227c146ff7d",
+    "112年_建築結構_更正答案.pdf": "f2c421a8826ce8e89b27f7781d5da2c57aa56ab8b4204ab1b19d01008314bdf9"
+  }
+}

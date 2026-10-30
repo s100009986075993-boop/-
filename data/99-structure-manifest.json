@@ -1,0 +1,81 @@
+{
+  "year": 99,
+  "subject": "建築結構",
+  "multipleChoice": 40,
+  "pages": 8,
+  "answerRows": [
+    "A",
+    "C",
+    "B",
+    "C",
+    "A",
+    "C",
+    "D",
+    "D",
+    "C",
+    "A",
+    "C",
+    "D",
+    "C",
+    "#",
+    "A",
+    "A",
+    "D",
+    "A",
+    "B",
+    "A",
+    "D",
+    "C",
+    "A",
+    "C",
+    "B",
+    "C",
+    "B",
+    "C",
+    "B",
+    "C",
+    "A",
+    "C",
+    "B",
+    "C",
+    "B",
+    "C",
+    "B",
+    "B",
+    "D",
+    "A"
+  ],
+  "correctionNotes": "第 14 題一律給分。",
+  "corrections": [
+    {
+      "number": 14,
+      "original": null,
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第14題一律給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": true,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "99年_建築結構_更正答案.pdf": "54d6a63541d9741414502f6dff682049fd3857a3d2cc3b3262bbf3a61fa93fe2",
+    "99年_建築結構_試題.pdf": "ea124f5b5404896278a85a0560763ca85f3fead30eb3e11041da90e3417d0e48"
+  }
+}

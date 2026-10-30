@@ -1,0 +1,142 @@
+{
+  "year": 109,
+  "subject": "建築構造與施工",
+  "multipleChoice": 80,
+  "pages": 10,
+  "answerRows": [
+    "B",
+    "C",
+    "C",
+    "D",
+    "A",
+    "D",
+    "B",
+    "B",
+    "C",
+    "D",
+    "C",
+    "B",
+    "D",
+    "A",
+    "C",
+    "B",
+    "B",
+    "D",
+    "B",
+    "A",
+    "B",
+    "D",
+    "C",
+    "A",
+    "C",
+    "D",
+    "C",
+    "D",
+    "A",
+    "A",
+    "A",
+    "C",
+    "D",
+    "B",
+    "B",
+    "B",
+    "A",
+    "D",
+    "B",
+    "D",
+    "B",
+    "D",
+    "#",
+    "B",
+    "C",
+    "B",
+    "A",
+    "C",
+    "A",
+    "B",
+    "B",
+    "C",
+    "B",
+    "B",
+    "B",
+    "C",
+    "D",
+    "D",
+    "B",
+    "B",
+    "A",
+    "B",
+    "A",
+    "B",
+    "B",
+    "D",
+    "C",
+    "C",
+    "C",
+    "A",
+    "A",
+    "D",
+    "#",
+    "C",
+    "D",
+    "D",
+    "D",
+    "D",
+    "B",
+    "A"
+  ],
+  "correctionNotes": "第43題答C或D或CD者均給分,第73題答C或D或CD者均給分。",
+  "corrections": [
+    {
+      "number": 43,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "note": "第43題答C或D或CD者均給分"
+      }
+    },
+    {
+      "number": 73,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "note": "第73題答C或D或CD者均給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "109年_建築構造與施工_試題.pdf": "7531d5d7bab450112b7cd1a87b6de3b91eeb626969d9673b71511fd2f5d58fa5",
+    "109年_建築構造與施工_答案.pdf": "af20f8bec282a35ad9d23156129f3debedb5ca40eed14de17ca83a963d57cbe9",
+    "109年_建築構造與施工_更正答案.pdf": "1b1d40d32cba9b7c9ed5ea6f012169152c5675812640f7137cb71e621f2c3be4"
+  }
+}

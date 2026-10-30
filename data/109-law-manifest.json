@@ -1,0 +1,165 @@
+{
+  "year": 109,
+  "subject": "營建法規與實務",
+  "multipleChoice": 80,
+  "pages": 8,
+  "answerRows": [
+    "D",
+    "C",
+    "A",
+    "D",
+    "D",
+    "A",
+    "A",
+    "B",
+    "D",
+    "C",
+    "#",
+    "A",
+    "D",
+    "A",
+    "C",
+    "B",
+    "A",
+    "C",
+    "C",
+    "A",
+    "D",
+    "C",
+    "B",
+    "B",
+    "D",
+    "A",
+    "C",
+    "B",
+    "#",
+    "D",
+    "A",
+    "B",
+    "A",
+    "D",
+    "B",
+    "A",
+    "D",
+    "B",
+    "A",
+    "D",
+    "A",
+    "D",
+    "C",
+    "B",
+    "A",
+    "B",
+    "A",
+    "B",
+    "D",
+    "A",
+    "B",
+    "D",
+    "C",
+    "D",
+    "B",
+    "D",
+    "C",
+    "A",
+    "B",
+    "C",
+    "A",
+    "B",
+    "C",
+    "C",
+    "B",
+    "D",
+    "C",
+    "D",
+    "A",
+    "C",
+    "A",
+    "A",
+    "C",
+    "A",
+    "D",
+    "A",
+    "C",
+    "D",
+    "#",
+    "A"
+  ],
+  "correctionNotes": "第11題一律給分,第29題答A或C或AC者均給分,第79題答C或D或CD者均給分。",
+  "corrections": [
+    {
+      "number": 11,
+      "original": "C",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第11題一律給分"
+      }
+    },
+    {
+      "number": 29,
+      "original": "A",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "note": "第29題答A或C或AC者均給分"
+      }
+    },
+    {
+      "number": 79,
+      "original": "C",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "note": "第79題答C或D或CD者均給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "109年_營建法規與實務_答案.pdf": "ece85c3bfd650b8fd39df997c7f650b0d4591af6af890bf5308e5a685877d9de",
+    "109年_營建法規與實務_試題.pdf": "9c80d45355fa2166b8059561ec62248f9b403cd6bb57a05e735cd0a6935ee745",
+    "109年_營建法規與實務_更正答案.pdf": "4a503a4b9c76cef9559918b6fdfacc63aaca3790e2c6049ba9072c50dac758fe"
+  }
+}

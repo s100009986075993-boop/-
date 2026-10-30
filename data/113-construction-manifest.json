@@ -1,0 +1,179 @@
+{
+  "year": 113,
+  "subject": "建築構造與施工",
+  "multipleChoice": 80,
+  "pages": 12,
+  "answerRows": [
+    "C",
+    "D",
+    "D",
+    "B",
+    "D",
+    "C",
+    "C",
+    "D",
+    "A",
+    "B",
+    "C",
+    "D",
+    "C",
+    "C",
+    "B",
+    "B",
+    "A",
+    "D",
+    "B",
+    "B",
+    "C",
+    "C",
+    "#",
+    "A",
+    "D",
+    "D",
+    "D",
+    "B",
+    "#",
+    "B",
+    "#",
+    "B",
+    "A",
+    "C",
+    "D",
+    "D",
+    "D",
+    "B",
+    "B",
+    "D",
+    "B",
+    "A",
+    "C",
+    "C",
+    "D",
+    "D",
+    "C",
+    "D",
+    "C",
+    "C",
+    "C",
+    "D",
+    "D",
+    "C",
+    "A",
+    "C",
+    "C",
+    "#",
+    "D",
+    "B",
+    "A",
+    "D",
+    "A",
+    "C",
+    "A",
+    "C",
+    "C",
+    "C",
+    "A",
+    "B",
+    "D",
+    "D",
+    "D",
+    "D",
+    "A",
+    "C",
+    "C",
+    "C",
+    "D",
+    "C"
+  ],
+  "correctionNotes": "第23題一律給分,第29題答B或D或BD者均給分,第31題答B或D或BD者均給分,第58題答A給分。",
+  "corrections": [
+    {
+      "number": 23,
+      "original": "A",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第23題一律給分"
+      }
+    },
+    {
+      "number": 29,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "note": "第29題答B或D或BD者均給分"
+      }
+    },
+    {
+      "number": 31,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "note": "第31題答B或D或BD者均給分"
+      }
+    },
+    {
+      "number": 58,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ]
+        ],
+        "note": "第58題答A給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "113年_建築構造與施工_更正答案.pdf": "d78a938a5332ecf0cb6f642182f1870c70ed7f7732c24abe0e9d53c7afcd58d3",
+    "113年_建築構造與施工_試題.pdf": "21e6a12bc7fa726c6a8ea720392a0ae639cbc9db1010f3f8ccb403ae2c2b15fd",
+    "113年_建築構造與施工_答案.pdf": "ae179842487a31fbcf807f161633ec3aa865cb619b7112f721cbbf93bc974b19"
+  }
+}

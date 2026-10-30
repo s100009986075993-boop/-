@@ -1,0 +1,225 @@
+{
+  "year": 103,
+  "subject": "建築構造與施工",
+  "multipleChoice": 80,
+  "pages": 12,
+  "answerRows": [
+    "B",
+    "A",
+    "D",
+    "D",
+    "C",
+    "C",
+    "D",
+    "B",
+    "C",
+    "D",
+    "A",
+    "B",
+    "D",
+    "#",
+    "D",
+    "D",
+    "C",
+    "C",
+    "C",
+    "D",
+    "C",
+    "A",
+    "C",
+    "A",
+    "C",
+    "D",
+    "A",
+    "C",
+    "C",
+    "D",
+    "D",
+    "D",
+    "B",
+    "A",
+    "B",
+    "C",
+    "C",
+    "B",
+    "C",
+    "#",
+    "C",
+    "D",
+    "C",
+    "C",
+    "B",
+    "A",
+    "A",
+    "D",
+    "C",
+    "D",
+    "B",
+    "D",
+    "A",
+    "D",
+    "D",
+    "D",
+    "B",
+    "C",
+    "#",
+    "#",
+    "B",
+    "A",
+    "C",
+    "C",
+    "C",
+    "#",
+    "C",
+    "B",
+    "A",
+    "B",
+    "B",
+    "B",
+    "A",
+    "D",
+    "D",
+    "C",
+    "B",
+    "C",
+    "D",
+    "B"
+  ],
+  "correctionNotes": "第14題一律給分,第40題一律給分,第59題答A或B或AB者均給分,第60題答B或D或BD者均給分,第66題答A或B或D或AB或AD或BD或ABD者均給分。",
+  "corrections": [
+    {
+      "number": 14,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第14題一律給分"
+      }
+    },
+    {
+      "number": 40,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": true,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "note": "第40題一律給分"
+      }
+    },
+    {
+      "number": 59,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "note": "第59題答A或B或AB者均給分"
+      }
+    },
+    {
+      "number": 60,
+      "original": "D",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "note": "第60題答B或D或BD者均給分"
+      }
+    },
+    {
+      "number": 66,
+      "original": "B",
+      "current": "#",
+      "rule": {
+        "allAward": false,
+        "sets": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            1,
+            3
+          ]
+        ],
+        "note": "第66題答A或B或D或AB或AD或BD或ABD者均給分"
+      }
+    }
+  ],
+  "originalAnswerUnavailable": false,
+  "identicalAnswerFiles": false,
+  "chapterStatus": "未分類，待人工核對",
+  "explanationStatus": "待核對",
+  "files": {
+    "103年_建築構造與施工_更正答案.pdf": "74d91dc702214b7663a9569d33058f7cd609025817fe5b4cd9c4e5c8bd224504",
+    "103年_建築構造與施工_答案.pdf": "906035339042aa7d2e2a05143f4ed8f286c3e6ee3c3102b99eaa5a0780004e93",
+    "103年_建築構造與施工_試題.pdf": "69e917735eca896a76dbc471b06a3055ed8262f468ec45970e721b497af9fe36"
+  }
+}
