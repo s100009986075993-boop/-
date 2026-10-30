@@ -3,12 +3,16 @@
 The source is stored in `main`. The static publication is stored in `gh-pages`.
 Both branches were successfully pushed to `s100009986075993-boop/-`.
 
-GitHub Pages activation and live availability have **not** been confirmed. The
-current cloud instance blocks `api.github.com`, so the agent could not configure
-Pages through the GitHub management API. Publishing a cloud environment snapshot
-does not enable GitHub Pages.
+The owner has now supplied a GitHub Pages settings screenshot showing
+**Your site is live at https://s100009986075993-boop.github.io/-/**, with
+`gh-pages` and `/(root)` selected. This confirms GitHub reports the deployment
+as live. The cloud instance still blocks this `github.io` host and
+`api.github.com`: both curl and the browser failed at the proxy tunnel, before
+receiving the homepage. Live-site functional testing from this environment is
+therefore unverified; the same static site passed its local HTTP browser tests.
+Publishing a cloud environment snapshot does not enable GitHub Pages.
 
-## One-time activation by the repository owner
+## Pages configuration (already completed by the owner)
 
 Open https://github.com/s100009986075993-boop/-/settings/pages while signed in as
 the repository owner. In **Build and deployment** choose:
