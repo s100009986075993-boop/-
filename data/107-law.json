@@ -4,12 +4,12 @@
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 1 題",
+    "question": "有關無障礙設施「輪椅觀眾席位」規定下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "多廳式之場所,輪椅觀眾席數量,可依各廳觀眾席位總數量計算平均設置之",
+      "輪椅觀眾席位可考量安裝可拆卸之座椅,如未有輪椅使用者使用時,得安裝座椅",
+      "單一輪椅觀眾席位寬度不得小於90 公分;有多個輪椅觀眾席位時,每個空間寬度不得小於85 公分",
+      "觀眾席位地面坡度不得大於1/50"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -29,19 +29,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 1,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 1 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-02",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 2 題",
+    "question": "航空站之無障礙設施樓梯,扶手與欄杆規定,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "單道扶手高度為75-85 公分",
+      "雙道扶手高度為65 公分及85 公分",
+      "扶手兩端不得水平延伸",
+      "扶手端部需防勾撞處理"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -61,19 +72,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 2,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 2 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-03",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 3 題",
+    "question": "無障礙室內出入口之門扇打開時,門框間之距離不得小於 X 公分,折疊門推開後扣除折疊之門扇後之距離不得小於Y 公分,下列敘述何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "X=90,Y=90",
+      "X=100,Y=90",
+      "X=90,Y=80",
+      "X=80,Y=80"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -93,19 +115,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 3,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 3 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-04",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 4 題",
+    "question": "依非都市土地使用管制規則規定,申請人擬具之興辦事業計畫範圍內有夾雜區域計畫規定之第一級環境敏感地區之零星土地,應符合下列何種情形,始得納入申請範圍?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "面積未超過基地開發面積之20%",
+      "夾雜地之使用分區仍應維持原使用分區或變更為森林區;夾雜地之使用地仍應維持原使用地類別,或同意變更編定為國土保安用地、生態保護用地、林業用地或水利用地",
+      "基於整體開發規劃之需要",
+      "擬定夾雜地之管理維護措施或供配置相關公共設施、防風林、緩衝帶、滯洪設施、停車場"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -125,19 +158,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 4,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 4 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-05",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 5 題",
+    "question": "建築物無障礙設施設計規範之廁所盥洗室有關洗面盆規定,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "洗面盆上緣距地板面不得大於85 公分",
+      "洗面盆下面距面盆邊緣20 公分之範圍,由地板面量起高65 公分及水平30 公分內應淨空",
+      "洗面盆邊緣距離水龍頭操作桿或自動感應水龍頭之出水口不得大於45 公分",
+      "洗面盆兩側及前方環繞洗面盆設置扶手"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -157,19 +201,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 5,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 5 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-06",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 6 題",
+    "question": "政府採購法所稱之統包,指將工程或財物採購中那些項目,併於同一採購契約辦理招標?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "設計與監造",
+      "設計與施工、供應、安裝",
+      "施工與維修",
+      "監造與施工"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -189,19 +244,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 6,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 6 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-07",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 7 題",
+    "question": "依政府採購法規定,有關政府工程採購驗收,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "採購之主驗人為承辦採購單位之主辦人員",
+      "驗收人對隱蔽部分,於必要時得拆驗或化驗",
+      "機關辦理工程採購,應限期辦理驗收",
+      "驗收完畢後,應由驗收及監驗人員於結算驗收證明書上分別簽認"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -221,19 +287,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 7,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 7 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-08",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 8 題",
+    "question": "依最有利標評選辦法規定,機關採最有利標決標;其訂有底價,而廠商報價逾底價須減價者,何時辦理洽減之?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "於服務建議書中敘明每次洽減額度,並由機關檢閱",
+      "評選會議進行時",
+      "採行協商措施時",
+      "簽約後"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -253,19 +330,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 8,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 8 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-09",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 9 題",
+    "question": "建築師法有關開業規定之敘述,何者為錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "領有建築師證書,具有2 年以上建築工程經驗者,得申請發給開業證書",
+      "開業證書有效期間為6 年",
+      "建築師申請發給開業證書,應備具申請書載明事項,並檢附建築師證書及經歷證明文件,向內政部提出申請",
+      "申請換發開業證書之程序、應檢附文件、收取規費及其他應遵行事項之辦法,由內政部定之"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -285,19 +373,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 9,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 9 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-10",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 10 題",
+    "question": "依政府採購法及相關規定,有關選擇性招標之敘述,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "選擇性招標得預先辦理資格審查,建立合格廠商名單",
+      "投標文件審查,須費時長久始能完成者得採選擇性招標",
+      "為特定個案辦理選擇性招標,應於辦理廠商資格審查後,邀請所有符合資格之廠商投標",
+      "經常性採購,應建立6 家以上之合格廠商名單,有效期逾3 年者,應逐年公告辦理資格審查"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -317,19 +416,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 10,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 10 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-11",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 11 題",
+    "question": "起造人申辦建物所有權第一次登記時,依公寓大廈管理條例第56 條規定,專有部分之陽台測繪規定為何?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "陽台為附屬建物,依法不得辦理登記",
+      "以陽台外圍之欄杆或牆壁中心為界辦理登記",
+      "以陽台之內緣為界辦理登記",
+      "以陽台之外緣為界辦理登記"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -349,19 +459,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 11,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 11 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-12",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 12 題",
+    "question": "下列何者非公寓大廈管理條例第36 條規定管理委員會之職務?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "議決公共基金之分配",
+      "會計報告、結算報告及其他管理事項之提出公告",
+      "住戶違規情事之制止及相關資料提供",
+      "管理服務人之委任、僱傭及監督"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -381,19 +502,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 12,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 12 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-13",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 13 題",
+    "question": "依公寓大廈管理條例第25 條規定,無管理負責人或管理委員會之老舊公寓大廈,召開區分所有權人會議應由何人擔任召集人?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "由區分所有權人互推一人為召集人",
+      "由區分所有權占比例最高者為召集人",
+      "由建築物之起造人為召集人",
+      "報請當地主管機關指定一人為召集人"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -413,19 +545,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 13,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 13 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-14",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 14 題",
+    "question": "依公寓大廈管理條例第 9 條規定,公寓大廈各區分所有權人係按何比例對建築物之共用部分及其基地有使用收益之權?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "按其專有部分面積比例",
+      "按其共有之應有部分比例",
+      "按其專有部分及共用合計之面積比例",
+      "基於社區自治精神,由管委會決定"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -445,19 +588,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 14,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 14 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-15",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 15 題",
+    "question": "依公寓大廈管理條例第56 條規定,新建築物之起造人應於何時完成規約草約?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "於申請建造執照時併同檢附",
+      "於申報開工時併同施工計畫檢附",
+      "於申請使用執照時併同檢附",
+      "於辦理銷售前向地方主管機關完成報備"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -477,19 +631,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 15,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 15 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-16",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 16 題",
+    "question": "綜合營造業應結合依法具有下列何項資格者,始得以統包方式承攬?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "監造、維護資格者",
+      "營運管理、監造資格者",
+      "規劃、設計資格者",
+      "施工、監造資格者"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -509,19 +674,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 16,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 16 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-17",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 17 題",
+    "question": "依營造業法規定,評鑑為第一級之優良營造業,承攬政府工程時,那些項目得降低百分之五十以下?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "123",
+      "234",
+      "124",
+      "134"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -541,19 +717,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 17,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 17 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-18",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 18 題",
+    "question": "依營造業法規定,下列何者應於工地現場依其專長技能及作業規範進行施工操作或品質控管?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "工地主任",
+      "專任工程人員",
+      "技術士",
+      "監造人"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -573,19 +760,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 18,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 18 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-19",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 19 題",
+    "question": "依營造業法規定,工程主管或主辦機關於辦理下列那些事項時,營造業之專任工程人員及工地主任應在現場說明?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "申請建造或使用執照",
+      "設計審查或材料檢查",
+      "消防檢查或材料試驗",
+      "勘驗、查驗或驗收工程"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -605,19 +803,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 19,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 19 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-20",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 20 題",
+    "question": "依非都市土地開發審議作業規範規定,如有一塊位於山坡地之土地,擬申請開發為住宅社區,下列何者屬規劃開發者應配合辦理之事項?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "基地內之原始地形在坵塊圖上之平均坡度在 55%以上之地區,其面積之 80%以上土地應維持原始地形地貌,列為不可開發區",
+      "坵塊圖上之平均坡度在 40%以上未逾 55%之地區,以作為開放性之公共設施或必要性服務設施使用為限,不得作為建築基地(含法定空地)",
+      "申請開發基地之面積在10 公頃以下者,原始地形在坵塊圖上之平均坡度在40%以下之土地面積應占全區總面積30%或3 公頃以上",
+      "保育區面積不得小於扣除不可開發區面積後之剩餘基地面積之 40%。保育區面積之 70%以上應維持原始之地形地貌,不得開發"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -637,19 +846,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 20,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 20 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-21",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 21 題",
+    "question": "無障礙通路有關出入口之敘述,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "其適用範圍不包括無障礙通路上之驗(收)票口",
+      "出入口兩邊之地面120 公分之範圍內應平整、堅硬、防滑,不得有高差,且坡度不得大於1/50",
+      "室內出入口之門扇打開時,地面應平順不得設置門檻,且門框間之距離不得小於90 公分",
+      "室內出入口之折疊門應以推開後,扣除折疊之門扇後之距離不得小於80 公分"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -669,19 +889,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 21,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 21 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-22",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 22 題",
+    "question": "鄉村區土地變更編定為乙種建築用地 ,申請使用地變更編定時應檢附之文件不包括下列那一項?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "14",
+      "34",
+      "23",
+      "12"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -701,19 +932,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 22,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 22 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-23",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 23 題",
+    "question": "有關非都市土地建蔽率及容積率之規定,下列何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "交通用地:建蔽率百分之五十,容積率百分之一百",
+      "遊憩用地:建蔽率百分之四十,容積率百分之一百六十",
+      "殯葬用地:建蔽率百分之三十,容積率百分之一百二十",
+      "特定目的事業用地:建蔽率百分之六十,容積率百分之一百八十"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -733,19 +975,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 23,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 23 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-24",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 24 題",
+    "question": "非都市土地申請開發遊憩設施,當土地面積達幾公頃以上,即應辦理土地使用分區變更為特定專用區?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "2",
+      "3",
+      "5",
+      "10"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -765,19 +1018,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 24,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 24 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-25",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 25 題",
+    "question": "下列何者不屬都市更新之優先劃定地區?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "建築物窳陋且非防火構造或鄰棟間隔不足,有妨害公共安全之虞",
+      "建築物未符合都市應有之機能",
+      "具有經濟價值,亟需辦理保存整建",
+      "建築物未能與重大建設配合"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -797,19 +1061,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 25,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 25 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-26",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 26 題",
+    "question": "國土計畫法規範主管機關應辦理之事項,下列何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "中央主管機關應辦理國土功能分區劃設順序、劃設原則之規劃",
+      "中央主管機關應辦理農業發展地區及城鄉發展地區之使用許可、許可變更及廢止之核定",
+      "直轄市、縣市主管機關應辦理國土保育地區或海洋資源地區之使用許可、許可變更及廢止之核定",
+      "直轄市、縣市主管機關應辦理一般性土地使用管制規定之擬定"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -829,19 +1104,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 26,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 26 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-27",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 27 題",
+    "question": "國土計畫法中,有關原住民族參與國土規劃與管制之規定,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "國土規劃涉及原住民族之土地,應尊重及保存其傳統文化、領域及智慧,並建立互利共榮機制",
+      "全國國土計畫中特定區域之內容,如涉及原住民族土地及海域者,應依原住民族基本法第21 條規定辦理,並由中央主管機關會同中央原住民族主管機關擬訂",
+      "依國土計畫法所授權訂定規範國土功能分區及其分類之使用地類別編定、變更,涉及原住民族土地及海域之使用管制者,應依原住民族基本法第21 條規定辦理,並由地方主管機關會同地方原住民族主管機關訂定",
+      "國土復育促進地區之劃定,應以保育和禁止開發行為及設施之設置為原則;如涉及原住民族土地, 劃定機關應邀請原住民族部落參與計畫之擬定、執行與管理"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -861,19 +1147,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 27,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 27 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-28",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 28 題",
+    "question": "依實施區域計畫地區建築管理辦法規定,實施區域計畫範圍之活動斷層線通過地區,其建築管制規定,下列敘述何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "內政部得劃定活動斷層線通過範圍予以公告及管制",
+      "除當地縣(市)政府審查許可外,不得興建公有建築物",
+      "依非都市土地使用管制規則規定得為建築使用之土地,限作自用農舍或自用住宅使用",
+      "於各種用地內申請建築自用農舍其高度不得超過3 層樓"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -893,19 +1190,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 28,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 28 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-29",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 29 題",
+    "question": "權利變換前各宗土地、更新後建築物及其土地應有部分及權利變換範圍內其他土地於評價基準日之權利價值,實施者應委託幾家以上專業估價者查估?又查估後由何者評定之?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "3 家;實施者評定",
+      "3 家;主管機關評定",
+      "5 家;實施者評定",
+      "5 家;主管機關評定"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -925,19 +1233,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 29,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 29 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-30",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 30 題",
+    "question": "依都市更新建築容積獎勵辦法規定,為處理占有他人土地之舊違章建築戶,得給予容積獎勵。其舊違章建築戶之認定,由下列那個機關或組織定之?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "內政部",
+      "直轄市、縣(市)政府",
+      "直轄市、縣(市)都市更新審議會",
+      "實施者"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -957,19 +1276,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 30,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 30 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-31",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 31 題",
+    "question": "位於依都市更新條例第 6 條規定劃定之更新地區且採重建方式辦理之更新單元,實施者於擬訂都市更新事業計畫及權利變換計畫經主管機關核定前,其應辦理之行政程序項目,下列何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "公聽會、公開展覽、審議、審議核復",
+      "公聽會、公開展覽、審議、聽證",
+      "公聽會、審議、審議核復、聽證",
+      "公開展覽、審議、審議核復、聽證"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -989,19 +1319,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 31,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 31 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-32",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 32 題",
+    "question": "某地上 12 層,地下 4 層之辦公大樓,其建築面積為 1000 平方公尺,地下各層之樓地板面積合計為 6000 平方公尺,其中地下一層為防空避難室兼停車空間,其餘地下各層為停車空間與不計入容積樓地板之機電空間。如本案於地下各層之汽車停車數量合計為 120 部,請試算地下層合計有多少平方公尺面積應計入容積樓地板面積?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "0",
+      "100",
+      "200",
+      "1100"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1021,19 +1362,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 32,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 32 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-33",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 33 題",
+    "question": "依建築技術規則規定,建築物附建防空避難設備,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "按建築面積全部附建之防空避難設備,其建築固定設備面積不得超過附建避難設備面積1/4",
+      "進出口樓梯與機械停車設備可視為防空避難設備之固定設備面積",
+      "供防空避難設備使用之樓層樓地板面積達200 平方公尺者,以兼作停車空間為限",
+      "面積達240 平方公尺以上之防空避難設備,應設二處階梯式進出口,其中一處應通達戶外"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1053,19 +1405,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 33,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 33 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-34",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 34 題",
+    "question": "依都市計畫工商綜合專用區審議規範,申請變更為工商綜合專用區者,其基地內之原始地形在坵塊圖之平均坡度超過30%以上之地區,該土地面積之百分之多少以上應維持原始地形地貌,不可開發?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "50",
+      "60",
+      "70",
+      "80"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1085,19 +1448,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 34,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 34 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-35",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 35 題",
+    "question": "依都市計畫法,都市計畫範圍內土地或建築物之使用,違反都市計畫法規定者,得勒令拆除、改建、 停止使用或恢復原狀。不遵守規定者,除應依法予以行政強制執行外,並得如何處理?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "處6 萬元罰金",
+      "處6 萬元罰鍰",
+      "處6 個月以下有期徒刑或拘役",
+      "處1 年有期徒刑"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1117,19 +1491,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 35,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 35 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-36",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 36 題",
+    "question": "依都市計畫法臺灣省施行細則,下列何者非屬風景區可提供之使用項目?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "住宅",
+      "宗祠及宗教建築",
+      "汽車修理廠",
+      "招待所"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1149,19 +1534,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 36,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 36 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-37",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 37 題",
+    "question": "依都市計畫法,下列有關都市計畫之擬定、發布及實施,下列敘述何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "人口集居達3,000,而其中工商業人口占就業總人口百分之五十以上之地區,應擬定特定區計畫",
+      "市鎮計畫之主要計畫書,其實施進度以5 年為一期,最長不得超過20 年",
+      "首都之主要計畫由行政院核定",
+      "縣政府所在地及縣轄市之主要計畫由內政部核定"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1181,19 +1577,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 37,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 37 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-38",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 38 題",
+    "question": "有關緊急進口構造之敘述,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "進口之間隔不得大於40 公尺",
+      "進口外設置陽台,寬度至少1 公尺,長度至少3 公尺,且可自外開啟或輕易破壞進入室內",
+      "進口寬度至少75 公分,高度至少120 公分,且開口下端應距離樓地板面80 公分範圍內",
+      "進口應設於面臨道路或寬度在4 公尺以上通路之各層外牆面"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1213,19 +1620,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 38,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 38 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-39",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 39 題",
+    "question": "地下建築物,應依場所特性及環境狀況,每多少平方公尺範圍內配置適當之泡沫、乾粉或二氧化碳滅火器一具?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "50 平方公尺",
+      "100 平方公尺",
+      "150 平方公尺",
+      "200 平方公尺"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1245,19 +1663,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 39,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 39 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-40",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 40 題",
+    "question": "高層建築物應依規定設置防災中心,防災中心樓地板面積不得小於多少平方公尺?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "20 平方公尺",
+      "25 平方公尺",
+      "30 平方公尺",
+      "40 平方公尺"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1277,19 +1706,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 40,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 40 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-41",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 41 題",
+    "question": "建築物高度超過多少層樓以上部分之最大一層樓地板面積,在1500 平方公尺以下者,至少應設置一座緊急用昇降機?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "10 樓",
+      "11 樓",
+      "12 樓",
+      "13 樓"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1309,19 +1749,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 41,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 41 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-42",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 42 題",
+    "question": "依建築技術規則建築設計施工編規定,集合住宅建築物樓板挑空設計,下列敘述何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "每單位限設1 處",
+      "每處面積不得大於15 平方公尺",
+      "挑空樓層平均高度不得大於7 公尺",
+      "夾層僅得於1 或2 層設置"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1341,19 +1792,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 42,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 42 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-43",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 43 題",
+    "question": "依建築技術規則建築設計施工編第167 條規定,除公共建築物外,建築基地面積未達多少平方公尺, 無需設置無障礙設施?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "100",
+      "150",
+      "200",
+      "300"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1373,19 +1835,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 43,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 43 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-44",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 44 題",
+    "question": "依建築技術規則建築設計施工編規定,除地質良好不致崩塌外,挖土深度在多少公尺以上,應有適當之擋土設備?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "1.5",
+      "2.0",
+      "2.5",
+      "3.0"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1405,19 +1878,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 44,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 44 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-45",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 45 題",
+    "question": "依建築技術規則建築設計施工編第 141 條規定,經中央主管建築機關指定之適用地區,非供公眾使用之建築物,其層數在多少層以上者,其防空避難設備應按建築面積全部附建?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "5 層",
+      "6 層",
+      "7 層",
+      "8 層"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1437,19 +1921,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 45,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 45 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-46",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 46 題",
+    "question": "依建築技術規則規定,有關老人住宅,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "老人住宅之臥室居住人數不得超過2 人",
+      "老人住宅之臥室,其樓地板面積應為8 平方公尺以上",
+      "浴室含廁所者,每一處樓地板面積應為4 平方公尺以上",
+      "公共服務空間合計樓地板面積應達居住人數每人2 平方公尺以上"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1469,19 +1964,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 46,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 46 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-47",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 47 題",
+    "question": "依建築技術規則規定,高層建築物應設置專用出入口緩衝空間,其寬度及長度各不得小於多少公尺?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "寬度不得小於6 公尺,長度不得小於12 公尺",
+      "寬度不得小於5 公尺,長度不得小於10 公尺",
+      "寬度不得小於4 公尺,長度不得小於12 公尺",
+      "寬度不得小於2.5 公尺,長度不得小於6 公尺"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1501,19 +2007,30 @@
     "sourcePage": 6,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 47,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 47 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-48",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 48 題",
+    "question": "依建築技術規則建築設計施工編第60 條規定,基地面積在多少平方公尺以上,其設置於地面層以外樓層之停車空間應設汽車車道(坡道)?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "1000",
+      "1500",
+      "2000",
+      "3000"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1533,19 +2050,30 @@
     "sourcePage": 6,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 48,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 48 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-49",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 49 題",
+    "question": "依建築技術規則建築設備編第20 條規定,作危險物品倉庫使用者,其建築物高度在幾公尺以上,需設置避雷設備?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "3",
+      "5",
+      "10",
+      "20"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1565,19 +2093,30 @@
     "sourcePage": 6,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 49,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 49 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-50",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 50 題",
+    "question": "建築技術規則有關地下通道之設置規定,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "地下通道之寬度不得小於6 公尺,並不得設置有礙避難通行之設施",
+      "地下通道之地板面高度不等時應以坡道連接之,不得設置台階,其坡度應小於 1 比 12,坡道表面並應作止滑處理",
+      "地下通道及地下廣場之天花板淨高不得小於 3 公尺,但至天花板下之防煙壁、廣告物等類似突出部份之下端,得減為2.5 公尺以上",
+      "地下通道末端不與其他地下通道相連者,應設置出入口通達地面道路,其出入口末端設有 2 處以上出入口時,其寬度以較寬者計算"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1597,19 +2136,30 @@
     "sourcePage": 6,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 50,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 50 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-51",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 51 題",
+    "question": "建築技術規則有關緊急用昇降機之規定,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "建築物高度超過10 層樓之各層樓地板面積之未達500 平方公尺者,得不設置緊急用昇降機",
+      "每座昇降機間之樓地板面積不得小於10 平方公尺",
+      "緊急用昇降機間應設置排煙室",
+      "昇降機道應每2 部昇降機以具有半小時以上防火時效之牆壁隔開"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1637,19 +2187,30 @@
     "sourcePage": 6,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 51,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 51 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-52",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 52 題",
+    "question": "依建築技術規則規定,下列建築物何者應檢具防火避難綜合檢討報告書及評定書,或建築物防火避難性能設計計畫書及評定書,經中央主管建築機關認可?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "高度22 層或80 公尺B-2 組使用之高層建築物",
+      "高度20 層或70 公尺B-4 組使用之高層建築物",
+      "供建築物使用類組B-2 組使用之總樓地板面積達20,000 平方公尺以上之建築物",
+      "供建築物使用類組B-2 組使用之總樓地板面積達30,000 平方公尺以上之建築物"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1669,19 +2230,30 @@
     "sourcePage": 6,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 52,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 52 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-53",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 53 題",
+    "question": "依據建築技術規則有關建築物避雷設備之規定,下列何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "建築物高度在18 公尺者,應設置避雷設備",
+      "建築物高度在4 公尺並作可燃性氣體倉庫使用者,應設置避雷設備",
+      "建築高度在30 公尺以下時,可使用斷面積20 平方公厘之銅導線",
+      "受雷部針體應用直徑10 公厘以上之銅棒製成"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1701,19 +2273,30 @@
     "sourcePage": 6,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 53,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 53 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-54",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 54 題",
+    "question": "辦公大樓建築物其地面以上樓層在三樓以下者,至少應設置一處無障礙廁所盥洗室。超過三層以上, 每增加三層且有一層以上之樓地板面積超過多少平方公尺者,應於每增加三層之範圍內分別設置一處無障礙廁所盥洗室?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "500 平方公尺",
+      "600 平方公尺",
+      "800 平方公尺",
+      "1000 平方公尺"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1733,19 +2316,30 @@
     "sourcePage": 6,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 54,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 54 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-55",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 55 題",
+    "question": "有一山坡地建築,其基地面積為200 平方公尺,建蔽率為40%,容積率為100%,請問此建築地下各層最大樓地板面積為多少平方公尺?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "120 平方公尺",
+      "140 平方公尺",
+      "160 平方公尺",
+      "180 平方公尺"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1777,19 +2371,30 @@
     "sourcePage": 6,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 55,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 55 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 6,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-56",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 56 題",
+    "question": "有關違反建築師法懲戒最重可撤銷或廢止開業證書者之敘述,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "允諾他人假借其名義執行業務",
+      "洩漏因業務知悉他人之秘密",
+      "受破產宣告,尚未復權",
+      "受停止執行業務處分累計滿5 年"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1809,19 +2414,30 @@
     "sourcePage": 7,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 56,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 56 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-57",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 57 題",
+    "question": "依建築師法之規定,建築師受申誡處分幾次以上,應另受停止執行業務時限之處分?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "2 次",
+      "3 次",
+      "4 次",
+      "5 次"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1841,19 +2457,30 @@
     "sourcePage": 7,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 57,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 57 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-58",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 58 題",
+    "question": "依建築師法之規定,下列不得充任建築師的原因消滅後,仍不得依建築師法之規定,請領建築師證書?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "受監護或輔助宣告,尚未撤銷",
+      "罹患精神疾病或身心狀況違常,經中央主管機關委請 2 位以上相關專科醫師諮詢,並經中央主管機關認定不能執行業務",
+      "受破產宣告,尚未復權",
+      "受廢止開業證書之懲戒處分"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1873,19 +2500,30 @@
     "sourcePage": 7,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 58,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 58 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-59",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 59 題",
+    "question": "執行公共工程合約如發生爭執未能達成協議時,下列何者不是公共工程契約範本中建議採用之處理方式?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "提起民事訴訟",
+      "提請行政院公共工程委員會依工程慣例處理",
+      "經契約雙方同意並訂立仲裁協議後,依契約約定及仲裁法規定提付仲裁",
+      "依契約或雙方合意之其他方式處理"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1905,19 +2543,30 @@
     "sourcePage": 7,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 59,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 59 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-60",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 60 題",
+    "question": "起造人自領得建造執照或雜項執照之日起,應於一定期限內開工,起造人因故不能於前項期限內開工時,應敘明原因,申請展期,但展期不得超過 3 個月,逾期執照失其效力。因此自領得執照至執照失其效力最長時間為幾個月?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "15",
+      "12",
+      "9",
+      "6"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1937,19 +2586,30 @@
     "sourcePage": 7,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 60,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 60 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-61",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 61 題",
+    "question": "有關室內裝修業應依法令規定置專任專業技術人員之敘述,下列何者與規定不符?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "從事設計業務者,其專業設計技術人員1 人以上",
+      "從事施工業務者,其專業施工技術人員1 人以上",
+      "從事設計及施工業務者,專業設計及專業施工之技術人員各1 人以上",
+      "從事設計及施工業務者,應由兼具專業設計及專業施工之技術人員身分2 人以上"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1969,19 +2629,30 @@
     "sourcePage": 7,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 61,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 61 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-62",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 62 題",
+    "question": "建築師設計建築物時,有關建築物結構與設備等專業工程部分,下列何種情況可不交由依法登記開業之專業工業技師負責辦理?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "5 層以下,供公眾使用之建築物",
+      "5 層以下,非供公眾使用之建築物",
+      "6 層以下,非供公眾使用之建築物",
+      "6 層以下,供公眾使用之建築物"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -2001,19 +2672,30 @@
     "sourcePage": 7,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 62,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 62 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-63",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 63 題",
+    "question": "起造人申請雜項執照時,須具備下列何種文件?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "123",
+      "124",
+      "134",
+      "234"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -2033,19 +2715,30 @@
     "sourcePage": 7,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 63,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 63 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-64",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 64 題",
+    "question": "建築物依建築法得「勒令停工」之情況,不包含下列何者?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "妨礙都市計畫或區域計畫者",
+      "主要構造與核定工程圖樣及說明書不符者",
+      "未依規定聘用一定比例之本國勞工者",
+      "逾建築期限未申請展期者"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2065,19 +2758,30 @@
     "sourcePage": 7,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 64,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 64 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-65",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 65 題",
+    "question": "建築物及雜項工作物造價在一定金額以下或規模在一定標準以下者,下列敍述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "得免由建築師設計",
+      "得免由建築師監造",
+      "得免申請建築執照",
+      "得免由營造業承造"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2097,19 +2801,30 @@
     "sourcePage": 7,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 65,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 65 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-66",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 66 題",
+    "question": "依建築法規定,建築師辦理建築物公共安全檢查,簽證內容不實者,處新臺幣多少之罰鍰?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "6 萬元以上20 萬元以下",
+      "6 萬元以上30 萬元以下",
+      "5 萬元以上20 萬元以下",
+      "5 萬元以上30 萬元以下"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -2129,19 +2844,30 @@
     "sourcePage": 7,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 66,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 66 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 7,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-67",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 67 題",
+    "question": "有一非防火構造建築物,其主要構造採不燃材料建造,擬依原有合法建築物防火避難設施及消防設備改善辦法改善防火區劃,請問其每一區劃樓地板面積,最大不得大於多少平方公尺?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "2500",
+      "1500",
+      "1000",
+      "500"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2161,19 +2887,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 67,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 67 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-68",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 68 題",
+    "question": "依原有合法建築物防火避難設施及消防設備改善辦法規定,建築物非防火區劃分間牆依現行規定應具一小時時效者,得以下列何種材料裝修牆面替代之?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "不燃材料",
+      "耐燃二級",
+      "耐火板",
+      "耐燃三級"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -2193,19 +2930,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 68,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 68 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-69",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 69 題",
+    "question": "依建築法規定,將建築物之一部分拆除,於原建築基地範圍內建造,而不增加或擴大面積者,屬於下列那一種建造行為?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "新建",
+      "增建",
+      "改建",
+      "修建"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2225,19 +2973,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 69,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 69 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-70",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 70 題",
+    "question": "依據建築法之規定,下列何者非屬於建築物之主要構造?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "主要樑柱",
+      "承重牆壁",
+      "屋頂",
+      "分間牆"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -2257,19 +3016,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 70,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 70 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-71",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 71 題",
+    "question": "依建築法規定,起造人領得建築執照或雜項執照後,有下列何項情事者,應即申報該管主管建築機關備案?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "變更設計人",
+      "變更使用人",
+      "變更承造人",
+      "變更租賃人"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2289,19 +3059,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 71,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 71 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-72",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 72 題",
+    "question": "未具備自動滅火設備之原有合法防火構造建築物,10 層以下之樓層面積在1500 平方公尺以上者,應按每多少平方公尺,有1 小時以上防火時效之牆壁、樓地板及防火設備區劃分隔?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "500 平方公尺",
+      "1000 平方公尺",
+      "1500 平方公尺",
+      "2000 平方公尺"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2321,19 +3102,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 72,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 72 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-73",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 73 題",
+    "question": "依建築物室內裝修管理辦法規定,下列何者非屬室內裝修行為?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "高度超過1.2 公尺固定於地板之隔屏",
+      "分間牆之變更",
+      "固著於建築物構造體之天花板裝修",
+      "活動隔屏、地毯之黏貼及擺設"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -2353,19 +3145,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 73,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 73 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-74",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 74 題",
+    "question": "依建築物室內裝修管理辦法規定,下列何者不屬室內裝修從業者?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "開業建築師",
+      "營造業",
+      "室內裝修業",
+      "室內裝潢人員"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -2385,19 +3188,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 74,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 74 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-75",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 75 題",
+    "question": "下列何者不屬建築法所稱之供公眾使用建築物?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "殯儀館",
+      "寺廟",
+      "5 層樓集合住宅",
+      "俱樂部"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2417,19 +3231,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 75,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 75 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-76",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 76 題",
+    "question": "有關無障礙設施「輪椅觀眾席位」規定下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "單一個輪椅觀眾席,可僅由後方或單側進入該席",
+      "2 個輪椅觀眾席,可僅由後方或單側進入該席",
+      "3 個輪椅觀眾席並排時,可僅由後方或單側進入該席",
+      "4 個輪椅觀眾席並排時,應可由前後或左右側進入該席"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2449,19 +3274,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 76,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 76 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-77",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 77 題",
+    "question": "小學之無障礙雙層扶手,其上緣與地板面距離之高度分別為多少公分?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "50;70",
+      "55;75",
+      "60;80",
+      "65;85"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -2481,19 +3317,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 77,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 77 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-78",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 78 題",
+    "question": "依據中央法規標準法規定,下列何者非為各機關發布之命令?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "通則",
+      "規程",
+      "規則",
+      "細則"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -2513,19 +3360,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 78,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 78 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-79",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 79 題",
+    "question": "依住宅性能評估實施辦法規定,新建及既有住宅性能評估之性能類別,下列項目何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "用電安全",
+      "空氣環境",
+      "結構安全",
+      "音環境"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -2545,19 +3403,30 @@
     "sourcePage": 8,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 79,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 79 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "107-law-80",
     "year": 107,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "107 年營建法規與實務｜測驗第 80 題",
+    "question": "依住宅性能評估實施辦法規定,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "新建住宅起造人於領得建造執照尚未領得使用執照前,得申請新建住宅性能初步評估",
+      "新建住宅起造人於領得使用執照之日起2 個月內,得申請新建住宅性能評估",
+      "評估機構為辦理新建住宅性能評估,應派員至現場勘查及實施必要之檢測",
+      "執行既有住宅結構安全性能類別之評估人員,得為任職大學以上學校教授、副教授、助理教授經教育部審查合格,講授建築結構課程5 年以上"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -2577,6 +3446,17 @@
     "sourcePage": 8,
     "sourcePdf": "assets/107-law/questions.pdf",
     "answerSource": "assets/107-law/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 80,
+    "originalQuestionLabel": "107 年營建法規與實務｜測驗第 80 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 8,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   }
 ]

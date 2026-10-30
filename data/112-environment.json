@@ -4,12 +4,12 @@
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 1 題",
+    "question": "相較於有效溫度(ET),新標準有效溫度(SET*)新增了那些溫熱要素?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "周壁輻射、著衣量、人體代謝量",
+      "濕球溫度、周壁輻射、氣流風速",
+      "氣流風速、著衣量、人體代謝量",
+      "乾球溫度、濕球溫度、黑球溫度"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -29,19 +29,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 1,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 1 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-02",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 2 題",
+    "question": "下列何種換氣方式適合新冠肺炎(COVID-19)病人的隔離病房?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "自然排氣,機械給氣",
+      "機械排氣,機械給氣(給排氣風量相同)",
+      "自然排氣,自然給氣",
+      "機械排氣,自然給氣"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -61,19 +72,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 2,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 2 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-03",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 3 題",
+    "question": "有關綠建材標章之防音綠建材評估要項,下列敘述何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "防音綠建材是歸屬於高性能綠建材標章",
+      "外牆、屋頂板、分戶牆、分間牆之基準為RW≧36 dB",
+      "窗、門之基準為RW≧52 dB",
+      "樓板表面材之基準為αW≧0.8"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -93,19 +115,30 @@
     "sourcePage": 1,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 3,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 3 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 1,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-04",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 4 題",
+    "question": "有關無障礙廁所盥洗室之說明,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "由無障礙通路進入廁所盥洗室不得有高差,止水宜採用截水溝",
+      "廁所盥洗室空間內應設置迴轉空間,其直徑不得小於120 公分",
+      "廁所盥洗室空間應採用橫向拉門,出入口之淨寬不得小於80 公分",
+      "廁所盥洗室應設於無障礙通路可到達之處"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -125,19 +158,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 4,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 4 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-05",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 5 題",
+    "question": "單層均質材料的隔音性能與面密度有關,在質量控制頻域下,依質量法則(Mass Law)公式推算,某單層均質材料之面密度為 20 kg/m²,於 500 Hz 中心頻率的聲音透過損失 TL (Transmission Loss),最接近多少dB?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "43",
+      "33",
+      "38",
+      "28"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -157,19 +201,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 5,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 5 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-06",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 6 題",
+    "question": "小巨蛋演唱會彩排進行時,舞台上3 組分散式監聽揚聲器同時驅動,測得聲壓級均為80 dB, 試算舞台上所測得總聲能最接近多少 dB?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "80",
+      "85",
+      "90",
+      "95"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -189,19 +244,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 6,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 6 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-07",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 7 題",
+    "question": "有關室內空氣污染物產生之來源,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "瓦斯爐等設備燃燒主要產生一氧化碳及二氧化碳",
+      "油漆及塗料主要產生甲醛等揮發性有機物",
+      "抽煙主要產生一氧化碳、二氧化碳以及室內懸浮微粒",
+      "辦公室事務機主要產生生物氣膠"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -221,19 +287,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 7,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 7 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-08",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 8 題",
+    "question": "在一座游泳池體育館中,有關體育館餘(迴)響時間的敘述,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "餘響時間的長短變化決定於聲能在空氣中傳遞的衰減情形,也就是受空氣之溫度及相對濕度高低影響",
+      "為降低餘響時間,館中天花板適合採用沖孔金屬板作為吸音構造",
+      "為降低餘響時間,館中側牆適合採用玻璃棉張貼作為吸音構造",
+      "館中使用廣播系統的聲音清晰性能決定於館中餘響時間的長短"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -265,19 +342,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 8,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 8 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-09",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 9 題",
+    "question": "有關音樂廳內的回音產生原因與解決方法的敘述,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "回音現象是發生於相同聲源的聲音到達耳朵的能量因傳遞距離不同,有先後時間遲延過多所造成",
+      "鞋盒式音樂廳的優點在主要側向回音與舞台直達音之間的聲音遲延較低",
+      "過多的回音在音樂廳中會有破壞音樂聆聽清晰性能的缺點,所以應提高餘響時間來校正",
+      "扇形或梯田型音樂廳內避免過長的先後聲能量時間的遲延,應適當以有效天花板反射來彌補"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -297,19 +385,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 9,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 9 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-10",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 10 題",
+    "question": "下列那一個物理指標與眩光程度的關係最密切?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "照度",
+      "色溫度",
+      "輝度",
+      "照度均齊度"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -329,19 +428,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 10,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 10 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-11",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 11 題",
+    "question": "下列何者的採光用窗或開口面積,符合建築技術規則的規定?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "醫院病房的採光用窗或開口面積等於樓地板面積之1/9",
+      "幼兒園的採光用窗或開口面積等於樓地板面積之1/8",
+      "住宅居室的採光用窗或開口面積等於樓地板面積之1/10",
+      "學校教室的採光用窗或開口面積等於樓地板面積之1/4"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -361,19 +471,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 11,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 11 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-12",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 12 題",
+    "question": "室內空間有眩光問題產生時,下列那些手法較可能減緩眩光的程度?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "12",
+      "23",
+      "13",
+      "123"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -393,19 +514,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 12,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 12 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-13",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 13 題",
+    "question": "根據2019 年版綠建築評估手冊之照明節能評估指標,下列何者並非評估項目?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "照明功率密度基準",
+      "空間面積",
+      "燈具功率",
+      "平均照度"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -425,19 +557,30 @@
     "sourcePage": 2,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 13,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 13 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 2,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-14",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 14 題",
+    "question": "有關結露的敘述,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "壁體表面溫度低於鄰近空氣露點溫度時,就容易產生結露",
+      "空氣的絕對濕度愈高時,露點溫度就愈低",
+      "「反潮」的物理原理即為結露現象",
+      "壁體的結露現象可能造成室內生物性污染"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -457,19 +600,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 14,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 14 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-15",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 15 題",
+    "question": "下列關於相對濕度的敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "空氣溫度上升時,相對濕度降低",
+      "空氣溫度上升時,飽和水蒸氣壓不會改變",
+      "相對濕度即空氣中實際水蒸氣壓與飽和水蒸氣壓的比值",
+      "阿斯曼(Assmann)通風溫濕度計只能量到乾球溫度與濕球溫度,無法直接量測相對濕度"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -489,19 +643,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 15,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 15 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-16",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 16 題",
+    "question": "依據我國室內空氣品質標準,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "二氧化碳的標準為1000 ppm(8 小時平均)",
+      "一氧化碳的標準為9 ppm(8 小時平均)",
+      "甲醛的標準為0.08 ppm(1 小時平均)",
+      "PM2.5 的標準為75 μg/m³(24 小時平均)"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -521,19 +686,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 16,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 16 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-17",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 17 題",
+    "question": "關於Predicted Mean Vote(PMV)的敘述,何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "PMV 的數值範圍由-3 到+3,-3 為冷、+3 為熱",
+      "PMV 公式適用於戶外籃球運動之熱舒適評估",
+      "風速大於0.2 m/s 時,根據PMV 值在-0.5 到+0.5 的範圍設定熱舒適區間",
+      "影響PMV 的參數包含室溫、溼度、平均輻射溫度、風速、衣物、活動強度"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -553,19 +729,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 17,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 17 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-18",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 18 題",
+    "question": "關於600 W 攜帶式石英燈管電暖器的熱效應現象,下列敘述何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "與人體主要的熱交換是透過熱對流",
+      "加熱人體的效果,在乾燥空氣中效果比在潮濕空氣中的效果好",
+      "風吹過石英管,可提高輻射熱的輸出",
+      "室溫20°C無風環境下,石英管表面溫度由30°C升高到40°C,所發出的熱能增為兩倍"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -585,19 +772,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 18,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 18 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-19",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 19 題",
+    "question": "下列那一個空間較適合安裝CAV 空調系統?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "國中教室",
+      "大學教室",
+      "咖啡廳",
+      "藝廊"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -617,19 +815,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 19,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 19 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-20",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 20 題",
+    "question": "關於安裝機械式空調之空間,與其相鄰空間正負壓的規劃,下列敘述何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "手術室應為正壓空間",
+      "傳染病病房應為正壓空間",
+      "急救室候診區應為正壓空間",
+      "病理實驗室應為正壓空間"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -649,19 +858,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 20,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 20 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-21",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 21 題",
+    "question": "根據建築物給水排水設備設計技術規範,有關儲水設備設置之敘述,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "直接與公共自來水系統接管之水池容器設備,稱為受水槽",
+      "為減壓或是加壓目的而設置於各區劃樓層之水池,稱為中間水槽",
+      "受水槽之牆壁及平頂應與其它結構物分開,並保持至少60 cm 人員維修空間",
+      "受水槽之設計容量應有設計每日用水量1/10 以上容量"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -681,19 +901,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 21,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 21 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-22",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 22 題",
+    "question": "有關存水彎設備敘述,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "存水彎之水封喪失或減少,使得管內空氣得以流通至室內之情形稱為破封",
+      "存水彎裝置封水深度是指溢水面至水底面之水深",
+      "設備落水口至存水彎堰口之垂直距離,不得大於60 cm",
+      "存水彎裝置應附有清潔口或可拆卸之構造,得以隨時排除阻塞之情況"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -713,19 +944,30 @@
     "sourcePage": 3,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 22,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 22 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 3,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-23",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 23 題",
+    "question": "下列何種系統最早使用於工廠生產線上,作為遠距離監控的工具,後來廣泛應用於建築物的防災及防罪?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "CATV",
+      "CCTV",
+      "CTV",
+      "ITV"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -745,19 +987,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 23,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 23 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-24",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 24 題",
+    "question": "火害發生時,煙物質與煙層分布說明,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "若無排煙裝置輔助,初期煙層會迅速往上蔓延,並於天花中蓄積",
+      "為了讓煙層有效排出到建物外,管道間與聯接建築物樓層之通道與開口需全部開啟,以利排放",
+      "隨著燃燒時間劇增,煙層將周圍空氣捲入,煙層分布與溫度將持續增加與向下擴散",
+      "火害發生之煙層分布與室內換氣條件及熱流速度等因子有關"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -777,19 +1030,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 24,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 24 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-25",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 25 題",
+    "question": "某建商將規劃雨水收集回收之量能,目前已知基地日降雨量為 6.5 mm/日,可集雨面積為 1500 m²,日降雨槪率為0.3,該區日集雨量為多少公升/日?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "2900",
+      "2925",
+      "2950",
+      "2975"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -809,19 +1073,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 25,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 25 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-26",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 26 題",
+    "question": "關於高層建築電梯與梯廳之配置規劃,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "高層建築電梯配置規劃需設定空中轉換層或分流系統來調節",
+      "電梯數量多時,應採單一向並列方式,有效節省一周運轉時間,提升人員輸送能力",
+      "高層建築電梯輸送依服務樓層、運行距離及電梯速度等因素來規劃運轉效率",
+      "高層建築區劃中,60 層以上建議設置空中轉換層來轉換"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -841,19 +1116,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 26,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 26 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-27",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 27 題",
+    "question": "關於空調設備系統使用與設計原則,下列敘述何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "大型宴會廳的空調設計應採用線條型出回風口,以達到良好的冷氣射程,可避免產生短循環影響冷氣效果",
+      "大型體育館的空調系統應採用多部氣冷式箱型空調機,可有效降低耗能",
+      "天氣寒冷時使用冷暖氣機的暖氣功能,可提高室內氣溫並降低相對濕度,但無法有效移除室內水氣",
+      "室內高度2.5 m 的辦公空間,空調採下吹式線條型風口設計,可減少不適的冷擊現象"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -873,19 +1159,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 27,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 27 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-28",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 28 題",
+    "question": "某棟11 層集合住宅,2 至11 樓為住戶樓層,每層樓有5 戶住戶、每戶4 人,當電梯「5 分鐘集中率」為25%時,為請問尖峰5 分鐘時段使用電梯人數為多少人?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "40",
+      "45",
+      "50",
+      "55"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -905,19 +1202,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 28,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 28 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-29",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 29 題",
+    "question": "依據2019 年版綠建築標章的日常節能指標,空調系統節能之評估不包括下列何項目?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "中央空調系統",
+      "個別空調系統",
+      "變風量系統",
+      "空氣清淨機"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -937,19 +1245,30 @@
     "sourcePage": 4,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 29,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 29 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-30",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 30 題",
+    "question": "下圖為某冷媒的p-h 線圖(Mollier Chart),關於冷凍循環之敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "1→2 為壓縮機,將氣態冷媒壓縮成高壓氣態",
+      "2→3 為冷凝器,冷媒在此由高壓氣態變成高壓液態",
+      "3→4 之過程為膨脹閥,此時冷媒變成純氣態",
+      "4→1 之過程為蒸發器,冷媒藉由蒸發吸收空氣中之熱量"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -969,19 +1288,36 @@
     "sourcePage": 4,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 30,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 30 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [
+      {
+        "src": "assets/native-environment/112-30.webp",
+        "alt": "第30題必要圖表與公式原件",
+        "kind": "question-supplement"
+      }
+    ],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 4,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-31",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 31 題",
+    "question": "有關空調系統冰水主機性能係數(COP)是指何者與冷卻消耗電功率的比值?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "冷房負荷",
+      "冷凍噸",
+      "冷房度時",
+      "冷卻能力"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1001,19 +1337,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 31,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 31 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-32",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 32 題",
+    "question": "有關電力系統的敘述,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "單相三線式會使用兩條中性線與一條電壓線",
+      "一般住宅以單相三線式為主",
+      "三相三線式主要是供應大型空調設備或動力機器使用",
+      "高壓電流引進建築基地後,須用變壓器降為低壓電流再分派到幹線與配電盤"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1033,19 +1380,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 32,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 32 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-33",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 33 題",
+    "question": "有關照明節能計畫,下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "高效率光源是指l m/W 數值較高的光源",
+      "螢光燈管長度越長,通常l m/W 越高",
+      "照度均齊度不因光源配置位置的不同而改變",
+      "良好的採光計畫有利於照明節能"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1065,19 +1423,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 33,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 33 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-34",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 34 題",
+    "question": "下列有關植栽敘述及對自然通風的影響,何者正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "常春藤類之灌木叢易於透風",
+      "植栽可增強或減弱自然通風",
+      "落葉植物不因季節變化而影響通風效果",
+      "植栽與建築物的距離遠近不會影響通風效果"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1097,19 +1466,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 34,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 34 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-35",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 35 題",
+    "question": "進行建築空調計算時,室內熱負荷來源與類別的敘述,下列何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "透過玻璃窗進入室內的輻射熱為外部負荷,僅包含顯熱",
+      "間隙風(infiltration)所產生的負荷為外部負荷,僅包含潛熱",
+      "室內電腦所產生的熱量屬於內部負荷,僅包含顯熱",
+      "人體所產生的熱量屬於內部負荷,包含顯熱與潛熱"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1129,19 +1509,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 35,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 35 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-36",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 36 題",
+    "question": "建築物採用自然通風引入外氣時可減少空調的使用量,依據「建築物節約能源設計技術規範」, 下列敘述何者錯誤?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "Vac 是對於在涼爽季節中可開窗而自然通風之建築物所執行之節能優惠計算",
+      "Vac 是由自然通風潛力VP 求得的",
+      "若Vac=0.87,表示建築因自然通風條件良好而可節約空調能源13%",
+      "Vac 適用於住宿類建築,不適用於辦公類建築"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1161,19 +1552,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 36,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 36 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-37",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 37 題",
+    "question": "當建築進行節能減碳設計時,下列那一項設計策略正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "為增加建築生命週期避免提早拆除,給排水衛生管路應設計於柱梁內,以增加管路耐用度",
+      "全年空調型建築的節能設計,應將建築量體儘量設計的飽滿方正,可減少外氣對建築的空調負荷",
+      "可採用爐碴替代約30%的骨材作為混凝土材料,用於房屋結構體,可達到減碳與廢棄物再利用的功能",
+      "低輻射 Low-E 玻璃可隔離大部分輻射能量中的紫外線熱能"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1193,19 +1595,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "B"
+    "originalAnswer": "B",
+    "questionNo": 37,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 37 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-38",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 38 題",
+    "question": "何者不是臺灣都市低層建築常面臨的環境議題?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "噪音",
+      "空氣污染",
+      "熱島效應",
+      "日照過多"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1225,19 +1638,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "D"
+    "originalAnswer": "D",
+    "questionNo": 38,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 38 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-39",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 39 題",
+    "question": "根據建築技術規則「綠建築基準」,規範範圍內需檢討評估的建築,下列那一敘述正確?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "基地面積100 m² 以下者,方能免檢討基地綠化",
+      "根據技術規則所屬之山坡地建築,需執行基地保水設計手法,以維持山坡地水土保持",
+      "地下水位小於1 m 之建築基地,可免檢討建築基地保水",
+      "學校類建築樓地板面積低於1000 m² 者,可免檢討建築外殼節能AWSG"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1257,19 +1681,30 @@
     "sourcePage": 5,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "C"
+    "originalAnswer": "C",
+    "questionNo": 39,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 39 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   },
   {
     "id": "112-environment-40",
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "112 年建築環境控制｜測驗第 40 題",
+    "question": "依據2016 年版智慧建築評估手冊,安全防災指標不包括以下那一個項目?",
     "options": [
-      "原題選項 A（）",
-      "原題選項 B（）",
-      "原題選項 C（）",
-      "原題選項 D（）"
+      "防震系統",
+      "防火系統",
+      "防水系統",
+      "防盜系統"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1289,6 +1724,17 @@
     "sourcePage": 5,
     "sourcePdf": "assets/112-environment/questions.pdf",
     "answerSource": "assets/112-environment/corrected-answers.pdf",
-    "originalAnswer": "A"
+    "originalAnswer": "A",
+    "questionNo": 40,
+    "originalQuestionLabel": "112 年建築環境控制｜測驗第 40 題",
+    "textStatus": "native",
+    "extractionIssues": [],
+    "explanationStatus": "pending",
+    "diagrams": [],
+    "nativeProvenance": {
+      "method": "PDF character geometry",
+      "page": 5,
+      "review": "原文轉錄；公式與圖表請對照附圖"
+    }
   }
 ]
