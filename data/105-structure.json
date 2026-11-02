@@ -70,7 +70,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -81,13 +81,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 2 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "平面規則有利，但字形不是耐震合格證。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "本題在一般條件相近、以平面形狀比較下，口字型較對稱，較少L、T、U型凹角與不對稱可能帶來的扭轉、局部應力問題，因此選 B。不能只靠字形保證安全：口字型仍可能有大開口、樓板或牆配置不規則，需看質剛心與傳力；其他字形也可經適當設計處理。",
+    "optionExplanations": [
+      "A T型有凹角等潛在問題。",
+      "B 題定一般比較較規則，為答案。",
+      "C L型常需注意扭轉與凹角。",
+      "D U型也需處理開口與不均傳力。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 1,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "105-structure-03",
@@ -112,7 +134,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -123,13 +145,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 3 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "控制側移先找連續抗側路徑，不只補看起來最晃的位置。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "控制整體側移要建立連續有效的抗側系統。全高度鋼斜撐可提高相關方向側向勁度並傳遞至基礎，因此本題選 D。只在高層局部加牆可能產生不連續，天花耐震支撐屬非結構安全，不代替主體抗側。任何補強都需檢查接頭、樓板傳力及基礎，不能只加構件而忽略新需求。",
+    "optionExplanations": [
+      "A 局部高層加牆未保證全系統連續。",
+      "B 低層局部包覆梁不直接解決整體側移。",
+      "C 天花支撐不能取代主體抗側。",
+      "D 全高度斜撐形成較連續抗側路徑，為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 2,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "105-structure-04",
@@ -154,7 +198,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -165,13 +209,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 4 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "拱腳推力要有人接，不是把拱本體加粗就解決。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "拱腳水平推力需要由支承、扶壁、繫梁、拉索或其他適當系統抵抗。單純加大拱本體斷面不等於提供拱腳的水平拘束，還可能增加自重，因此 D 錯誤。這不是說斷面不用檢查，而是構件強度與整體反力傳遞是兩個層次，不能用前者代替基礎與拉結設計。",
+    "optionExplanations": [
+      "A 扶壁可提供水平推力抵抗。",
+      "B 繫梁可連結兩端並承擔拉結。",
+      "C 合理拉索可提供水平拉結。",
+      "D 拱加粗未建立所缺的支承抵抗，為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 2,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "105-structure-05",
@@ -244,7 +310,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -255,13 +321,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 6 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "向下荷載懸臂，上拉下壓，根部需求大。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "本題以落水山莊出挑樓板的懸臂概念比較。向下垂直荷載使懸臂有彎矩區通常上側受拉、下側受壓，因此選 B；自由端理想彎矩可為零，不宜把皆字讀成端點也必有非零壓應力。根部彎矩通常較大，等深不必然最有效率，地震區也不是全面禁止懸臂而是須適當設計。",
+    "optionExplanations": [
+      "A 最大彎矩通常在固定根部，非中點。",
+      "B 在題定懸臂受彎區，底側受壓符合方向。",
+      "C 需求沿長度不同，均深未必最省材料。",
+      "D 地震區可設計懸臂，不能一概禁止。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 2,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "105-structure-07",
@@ -550,7 +638,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -561,13 +649,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 13 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "潛變看時間，韌性看降伏後變形；材料脆不等於構件必脆。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "材料與構件韌性不同。脆性的混凝土配合可延性變形的鋼筋、適當配筋圍束及破壞控制，可以形成具延性的RC構件，所以選 D。韌性比通常比較極限與降伏變形，不是強度比；長期荷載下變形增加是潛變，不能把這兩者混成同一材料指標。",
+    "optionExplanations": [
+      "A 將變形比錯換成強度比。",
+      "B 無清楚降伏的脆性材料不宜任意套小於1說法。",
+      "C 描述的是潛變，不是韌性。",
+      "D 合理組合與細節可形成延性構件，正確。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 3,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "105-structure-14",
@@ -640,7 +750,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -651,13 +761,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 15 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "已給KL就直接平方反比，不再重複乘K。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "Euler彈性挫屈載重與有效長度平方成反比。KL加倍到2KL時，P新/P原＝1/2²＝1/4，因此選 B。題目已指定有效長度，不須再額外把支承係數重複乘一次。此比較仍以材料、斷面與彈性挫屈前提不變，不能套到所有短柱材料壓壞問題。",
+    "optionExplanations": [
+      "A 1/2漏掉平方。",
+      "B 1/4為正確比例。",
+      "C 1/8是其他三次關係。",
+      "D 1/16多平方一次。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 3,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "105-structure-16",
@@ -842,7 +974,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -853,13 +985,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 19 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "潛變要有持續應力與時間；乾縮和潛變別混同。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "混凝土潛變是持續應力下隨時間增加的變形，乾縮則涉及水分等造成的無載變形。在本題一般配比比較中，較高水灰比通常使潛變較大，所以選 C。實際仍受載入齡期、應力、養護、濕度、骨材及尺寸等影響，不能把單一因素當成精確預測式，更不能把潛變與乾縮全部當相同機制。",
+    "optionExplanations": [
+      "A 高環境濕度通常不使乾燥相關變形一概更高。",
+      "B 大尺寸水分變化及時間尺度不同，不能概括越大越明顯。",
+      "C 題定一般比較高水灰比潛變較大。",
+      "D 與本題一般趨勢相反。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 4,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "105-structure-20",
@@ -1464,7 +1618,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1475,13 +1629,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 32 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "常用模型不等於真實材料永遠如此；先辨分析目的。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "本題問一般工程分析常用的基本方法，線彈性分析以近似線性的材料及幾何關係求內力變形，因此選 B。這不表示鋼與RC在強震下永遠線性，也不表示現代設計不需要非線性分析；適用規範、結構不規則及性能目標可能要求更進一步模型，需依問題選方法。",
+    "optionExplanations": [
+      "A 彈性也可能有幾何非線性，但非題目一般基本答案。",
+      "B 線彈性為題定常用方法。",
+      "C 塑性非線性適用特定性能與行為問題，不能當全部常規起點。",
+      "D 不是題定一般分析的答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 7,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "105-structure-33",
@@ -1506,7 +1682,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1517,13 +1693,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 33 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "純拉先查降伏、淨斷面斷裂與接合；受壓才另查挫屈。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "理想拉桿主要檢查整體斷面降伏、孔洞淨斷面斷裂及接合等，整體壓桿挫屈不是純拉力狀態的主要破壞模式，所以選 A。真實構件若會反向受壓或受彎，仍須另作相應穩定檢核；孔徑等具體尺寸亦須依適用規範，不宜把歷年題的單一值當所有螺栓通用。",
+    "optionExplanations": [
+      "A 純拉不以整體壓屈控制，為答案。",
+      "B 孔洞削弱淨面積，可影響斷裂。",
+      "C 毛斷面降伏是拉桿強度檢核。",
+      "D 孔洞及接合尺寸需按題定與規範處理。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 7,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "105-structure-34",
@@ -1548,7 +1746,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1559,13 +1757,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 34 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "混凝土抗拉約一成是概略辨識，不是通用設計公式。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "一般混凝土抗拉遠低於抗壓，本題採約一成的量級，選 A。這是常見材料比較，不是所有混凝土強度、試驗方式與齡期都恰好0.1倍。RC極限彎矩設計又常忽略拉區混凝土，但材料實際仍有有限抗拉能力；不要把設計簡化說成物理上完全不能承拉。",
+    "optionExplanations": [
+      "A 1/10符合題定近似。",
+      "B 1/5高於本題典型比值。",
+      "C 1/3非此量級。",
+      "D 1/2更不符一般比較。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 7,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "105-structure-35",
@@ -1590,7 +1810,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1601,13 +1821,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 35 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "懸臂向下，上筋要在根部能拉也能錨。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "向下均布荷載使懸臂根部產生負彎矩，根部上側受拉，因此主要拉筋配置在固定端上方，選 C。自由端彎矩較小、理想端點可為零。實際仍需連續配筋、錨定、剪力及反向地震作用等檢查，不能把這題解讀成其他位置完全不需鋼筋。",
+    "optionExplanations": [
+      "A 自由端上側非題目最大根部拉力需求。",
+      "B 自由端下側亦非主要位置。",
+      "C 固定端上方對應根部受拉，正確。",
+      "D 固定端下方在此荷載下主要為壓側。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 7,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "105-structure-36",
@@ -1674,7 +1916,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1685,13 +1927,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 37 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "長細比看整桿穩定，寬厚比看板件穩定。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "一般壓桿長細比增大，整體挫屈更不利；長細比較小反而通常容許較高壓應力，所以 C 說反。H型梁翼板與腹板各有主要受力角色，薄板寬厚比又控制局部穩定，不能把長細比與寬厚比混用。高降伏強度材料的局部板件限制也不必然比較寬鬆。",
+    "optionExplanations": [
+      "A 較高降伏強度常需更嚴格板件比例，依適用規範核對。",
+      "B 典型H梁彎矩主要由翼板、剪力主要由腹板承擔。",
+      "C 長細比小並非因挫屈就容許壓應力小，為答案。",
+      "D 塑性區採較小寬厚比可降低局部挫屈風險。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 7,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "105-structure-38",
