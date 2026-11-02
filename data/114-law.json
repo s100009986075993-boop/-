@@ -2439,7 +2439,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 114 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依114年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第18條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/114-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2450,13 +2450,41 @@
     "originalQuestionLabel": "114 年營建法規與實務｜測驗第 57 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "基金先由公庫代收，再按組織成立點交報備程序撥付。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "公共基金繳交、代收與撥付是不同時間點。題定起造人於申請使照時向地方主管機關公庫提出繳交證明，所以選 B；待管理組織成立、完成點交及報備後，再依規定由公庫撥付。不能把後續撥付程序誤當第一次繳交，也不是先直接交給尚未成立的組織。\n本題依114年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第18條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 不是建照申請時的這個繳交要求。",
+      "B 使照申請時向主管公庫繳交，符合題意。",
+      "C 組織成立報備較晚，是後續撥付相關階段。",
+      "D 起造人直接付組織不能取代題定公庫代收流程。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年營建法規與實務原題",
+        "url": "assets/114-law/questions.pdf",
+        "page": 6,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第18條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 4,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "114-law-58",
@@ -2482,7 +2510,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 114 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依114年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第33條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/114-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2493,13 +2521,41 @@
     "originalQuestionLabel": "114 年營建法規與實務｜測驗第 58 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "規約沒禁不等於免同意；屋頂基地臺仍看會議加頂層。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "屋頂平臺設行動通信基地臺，題定需所有權人會議決議，並取得頂層所有權人同意，所以選 C。規約沒有另禁，不等於特別同意要件消失；公司登記地址也不會自動取得全棟屋頂使用權。還需另外遵循相關通信、建管及安全法令，不能只拿一份管委會同意就視為全部完成。\n本題依114年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第33條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 管委會同意不足以取代本題會議與頂層特別同意。",
+      "B 一般會議決議仍漏特別同意。",
+      "C 會議決議加頂層所有權人同意，符合條文。",
+      "D 題目不是只以全體3/4同意取代其他法定要件。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年營建法規與實務原題",
+        "url": "assets/114-law/questions.pdf",
+        "page": 6,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第33條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 9,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "114-law-59",
@@ -2568,7 +2624,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 114 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依114年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第58條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/114-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2579,13 +2635,41 @@
     "originalQuestionLabel": "114 年營建法規與實務｜測驗第 60 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "都更計畫核准不等於可直接銷售；本題銷售仍要建照。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "都市更新事業計畫核准，與可開始辦理公寓大廈銷售的建照門檻不同。題定起造人或建築業者非領建造執照不得銷售，因此選 B。拆照、權利變換計畫與使照各有階段及功能，不能只因都屬都更文件就互相替代；預售與其他交易管理義務仍須另外遵守。\n本題依114年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第58條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 拆除執照不等於已具題定銷售條件。",
+      "B 建造執照是本題條例銷售前提。",
+      "C 使用執照屬較後段竣工使用，不是題定最初門檻。",
+      "D 權利變換計畫不取代第58條所問建照。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年營建法規與實務原題",
+        "url": "assets/114-law/questions.pdf",
+        "page": 6,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第58條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 14,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "114-law-61",

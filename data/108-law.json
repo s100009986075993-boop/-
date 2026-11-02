@@ -1063,7 +1063,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 108 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依108年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第27條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/108-law/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -1074,13 +1074,41 @@
     "originalQuestionLabel": "108 年營建法規與實務｜測驗第 25 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "一戶多人共有，推一人行使；戶籍戶長不等於表決代表。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "三人共有同一專有部分，該部分的表決權應由共有人互推一人行使，因此選 C。不是三人各拿一票，也不是依戶長或持分最高者自動取得代表資格。要分清一個專有部分的表決行使，與全體出席、權利比例及受託代理上限等另外的計算規則。\n本題依108年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第27條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 持分較高不自動取代共有人推派。",
+      "B 同一專有部分不因共有三人就擴成三票。",
+      "C 互推一人行使，符合本題。",
+      "D 戶長不是這個法定代表標準。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年營建法規與實務原題",
+        "url": "assets/108-law/questions.pdf",
+        "page": 3,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第27條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 7,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "108-law-26",
@@ -2630,7 +2658,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 108 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依108年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第55條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/108-law/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -2641,13 +2669,41 @@
     "originalQuestionLabel": "108 年營建法規與實務｜測驗第 60 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "舊建築過渡管理先看第55條，不把新建起造人流程硬套。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "條例施行前已領建照的公寓，題定過渡規則仍以區分所有權人互推召集人，召開第一次會議建立管理組織，所以選 D。過渡條款與新建起造人首次召集義務不同；也不能把持分最高或政府指定當作所有情況自動適用。實際仍須核對能否互推及後續補充程序。\n本題依108年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第55條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 不能一律由使照上的起造人取代舊公寓互推程序。",
+      "B 持分最高不是自動召集規則。",
+      "C 題定先採互推，不是任意跳到指定。",
+      "D 所有權人互推一人，符合第55條情境。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年營建法規與實務原題",
+        "url": "assets/108-law/questions.pdf",
+        "page": 7,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第55條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 13,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "108-law-61",
@@ -2716,7 +2772,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 108 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依108年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第11條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/108-law/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -2727,13 +2783,41 @@
     "originalQuestionLabel": "108 年營建法規與實務｜測驗第 62 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "重大共用工程，不只問誰方便簽名，要問誰有決議權。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "共用部分拆除、重大修繕或改良須依區分所有權人會議決議，故選 D。管理組織可執行合法決議及日常維護，但重大共同權利事項不能單憑當層住戶或服務人同意就施工。工程是否屬重大、是否有緊急應處情形仍需依完整事實判斷，本題考的是一般決議層級。\n本題依108年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第11條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 服務人同意不具取代所有權人會議的效力。",
+      "B 管委會日常執行權不能直接等同重大事項最終決議權。",
+      "C 當層同意不能代表整棟共用權利。",
+      "D 依所有權人會議決議，符合題意。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年營建法規與實務原題",
+        "url": "assets/108-law/questions.pdf",
+        "page": 7,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第11條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 3,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "108-law-63",
@@ -2759,7 +2843,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 108 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依108年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第9條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/108-law/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -2770,13 +2854,41 @@
     "originalQuestionLabel": "108 年營建法規與實務｜測驗第 63 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "列舉題不是問世上有哪些法；非列舉也不等於完全免遵守。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "本題第9條就共用部分使用及約定，明列不得違反條例、區域計畫法、都市計畫法與建築法令。四選項中營造業法不是該列舉，所以選 B。這不表示營造工程因此永遠不用守營造業法，而是指定條文的列舉辨識；其他土地制度或後續法制變動也應按適用年代另核對。\n本題依108年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第9條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 建築法令在題定限制範圍。",
+      "B 營造業法非本題所問的第9條列舉，為答案。",
+      "C 都市計畫法在題定列舉內。",
+      "D 區域計畫法是題定版本的列舉，後續制度須另核對。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年營建法規與實務原題",
+        "url": "assets/108-law/questions.pdf",
+        "page": 7,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第9條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 3,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "108-law-64",
@@ -2931,7 +3043,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 108 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依108年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第25條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/108-law/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -2942,13 +3054,41 @@
     "originalQuestionLabel": "108 年營建法規與實務｜測驗第 67 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "請求臨時會雙1/5；實際出席與同意要另看其他條。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "所有權人以書面載明目的理由請求召集臨時會，題定須同時達人數與權利比例各1/5，所以選 A。這是請求召集門檻，不是實際開會出席或表決同意門檻；重大事故由管理組織請求等另有情形也不能混作同一規則。先辨程序階段，再記比例，才不會把2/3與3/4拿來亂用。\n本題依108年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第25條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 雙1/5符合本題請求召集條件。",
+      "B 1/4不是所問最低門檻。",
+      "C 1/3高於題定最低要求。",
+      "D 1/2亦非本題最低門檻。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年營建法規與實務原題",
+        "url": "assets/108-law/questions.pdf",
+        "page": 7,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第25條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 6,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "108-law-68",

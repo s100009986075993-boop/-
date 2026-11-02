@@ -453,7 +453,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 107 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依107年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第56條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/107-law/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -464,13 +464,41 @@
     "originalQuestionLabel": "107 年營建法規與實務｜測驗第 11 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "附屬建物看外緣；共用牆中心線別亂套。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "本題專有部分陽台依附屬建物的測繪規則，以外緣為界辦理登記，因此選 D。不要把共用牆的中心線規則，移到附屬建物外界上。這是題定合法標的與首次登記的測繪，不代表陽台任意外推、封閉或違規增建都能據此取得合法登記。\n本題依107年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第56條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 題定附屬建物並非一概不得登記。",
+      "B 中心線是其他共用牆等測繪情境，非本題陽台外界。",
+      "C 內緣不符附屬建物外緣規則。",
+      "D 以陽台外緣為界，符合題意。"
+    ],
+    "explanationSources": [
+      {
+        "title": "107年營建法規與實務原題",
+        "url": "assets/107-law/questions.pdf",
+        "page": 2,
+        "version": "民國107年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/107-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第56條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 13,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "107-law-12",
@@ -496,7 +524,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 107 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依107年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第36、18條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/107-law/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -507,13 +535,47 @@
     "originalQuestionLabel": "107 年營建法規與實務｜測驗第 12 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "管委會管錢執行，不等於取代所有權人會議決定基金用途。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "管委會可執行財務管理、提出報告及監督受託服務，但公共基金的用途應依區分所有權人會議決議，不是管委會自行議決分配，因此選 A。執行已授權的收支與決定根本用途不同；判斷職務題要看動詞是保管、執行、提出，還是選任與最終議決。\n本題依107年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第36、18條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 自行議決基金分配不是本題管委會職務，為答案。",
+      "B 提出公告會計與結算等報告屬職務。",
+      "C 制止違規及提供資料屬職務。",
+      "D 委任、僱傭及監督服務人屬職務。"
+    ],
+    "explanationSources": [
+      {
+        "title": "107年營建法規與實務原題",
+        "url": "assets/107-law/questions.pdf",
+        "page": 2,
+        "version": "民國107年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/107-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第36條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 10,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第18條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 4,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "107-law-13",
@@ -539,7 +601,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 107 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依107年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第25條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/107-law/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -550,13 +612,41 @@
     "originalQuestionLabel": "107 年營建法規與實務｜測驗第 13 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "老公寓先互推；互推不能等情況才核對指定程序。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "題定無管理負責人或管委會的情況，先由區分所有權人互推一人召集，不是自動指定持分最大者，故選 A。主管機關指定屬互推不能等另有條件的程序，不能省略先互推的法定安排；起造人的新建首次召集義務也不能無限套到所有老舊公寓。\n本題依107年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第25條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 所有權人互推一人，符合題定先行程序。",
+      "B 持分最大不等於法律自動授與召集資格。",
+      "C 起造人不是所有老舊公寓的永續召集人。",
+      "D 指定另有前提，不是本題一開始就採的答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "107年營建法規與實務原題",
+        "url": "assets/107-law/questions.pdf",
+        "page": 2,
+        "version": "民國107年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/107-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第25條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 6,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "107-law-14",
@@ -582,7 +672,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 107 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依107年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第9條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/107-law/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -593,13 +683,41 @@
     "originalQuestionLabel": "107 年營建法規與實務｜測驗第 14 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "共用收益先查共有持分，不把室內面積直接當全部答案。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "各所有權人對共用部分與基地的使用收益，一般按其共有應有部分比例，不是直接把專有面積或室內加公設面積重算一次，因此選 B。條文另有合法約定的空間，但使用仍須符合設置目的、通常方法與法令，不能因持分高就任意排除必要共同使用。\n本題依107年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第9條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 專有面積與共有持分可能相關，但不是條文此處直接用語。",
+      "B 共有應有部分比例符合題定原則。",
+      "C 合計面積不是此題法定分配基準。",
+      "D 管委會不能不受法律與權利安排限制自行任意決定。"
+    ],
+    "explanationSources": [
+      {
+        "title": "107年營建法規與實務原題",
+        "url": "assets/107-law/questions.pdf",
+        "page": 2,
+        "version": "民國107年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/107-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第9條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 3,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "107-law-15",
@@ -625,7 +743,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 107 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依107年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第56條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/107-law/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -636,13 +754,41 @@
     "originalQuestionLabel": "107 年營建法規與實務｜測驗第 15 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "規約草約前移到建照申請，不是交屋後才補。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "起造人申請建照時應檢附詳細權利區分圖說及規約草約，所以選 A，設計變更時也須注意相應文件。規約草約不是等所有人入住或使照申請才第一次準備；其經承受人同意後、正式會議訂定規約前的效力，也有特定條件，不能等同起造人永遠單方面決定規約。\n本題依107年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第56條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 建照申請時檢附，符合條文。",
+      "B 申報開工才檢附已非題定最初時點。",
+      "C 使照申請較晚，不是首次要求。",
+      "D 不宜將其他銷售程序取代本題建照附件義務。"
+    ],
+    "explanationSources": [
+      {
+        "title": "107年營建法規與實務原題",
+        "url": "assets/107-law/questions.pdf",
+        "page": 2,
+        "version": "民國107年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/107-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第56條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 13,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "107-law-16",

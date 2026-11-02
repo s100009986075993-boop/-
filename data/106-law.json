@@ -1707,7 +1707,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 106 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依106年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第56條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/106-law/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1718,13 +1718,41 @@
     "originalQuestionLabel": "106 年營建法規與實務｜測驗第 39 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "首次登記依使照用途及測繪，不是把建照直接當權狀。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "首次所有權登記所依的用途及測繪，題定條例第56條以使用執照記載為依據，所以選 D。建照反映核准興建設計，使照則關係完竣核准使用，兩個階段不能互換。這不表示拿到使照就已自動完成所有權登記，也不代表違規增建可因實際存在就登記。\n本題依106年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第56條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 拆除執照不作本題首次登記用途依據。",
+      "B 建造執照屬施工前核准，非題定依據。",
+      "C 雜項執照不取代本題使用執照。",
+      "D 使用執照記載用途及法定測繪規則，符合答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年營建法規與實務原題",
+        "url": "assets/106-law/questions.pdf",
+        "page": 4,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第56條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 13,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "106-law-40",
@@ -2208,7 +2236,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 106 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依106年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第18條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/106-law/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -2219,13 +2247,41 @@
     "originalQuestionLabel": "106 年營建法規與實務｜測驗第 50 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "公共基金：使照申請附繳款證明；組織成立點交報備後才談撥付。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "起造人於申請使用執照時，須提出已繳交公庫代收公共基金的證明，因此款項必須先完成繳交，題目選 C。要分開提列計算、繳交公庫及成立組織後完成點交報備而撥付三階段，不能等到房屋移轉才處理，也不是起造人一開始就直接交給尚未成立的管委會。\n本題依106年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第18條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 領建照前不是本題所問的基金繳交時機。",
+      "B 開工前不是條文此處的對應程序。",
+      "C 申請使照時需繳交證明，故題定選申請使照前完成。",
+      "D 建物移轉後才繳交已晚於使照申請要求。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年營建法規與實務原題",
+        "url": "assets/106-law/questions.pdf",
+        "page": 4,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第18條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 4,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "106-law-51",

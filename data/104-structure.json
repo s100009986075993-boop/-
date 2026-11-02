@@ -196,7 +196,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -207,13 +207,35 @@
     "originalQuestionLabel": "104 年建築結構｜測驗第 5 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "韌性比看降伏後還能變多少；卸載有殘變不等於沒有延性。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "本題以變形韌性比理解：極限或破壞前可用變形相對降伏變形越大，通常表示降伏後仍可承受較大變形，所以選 A。強度高、彈性勁度大與韌性高是不同概念。進入塑性後卸載通常可能留下殘餘變形；材料是否金屬也不能直接決定構件在所有設計下都韌或都脆。",
+    "optionExplanations": [
+      "A 極限變形除降伏變形越大，符合題定韌性比概念。",
+      "B 非金屬不必然全脆，應變硬化也不是脆性的定義。",
+      "C 妥善配筋圍束的RC構件可以有延性，非毫無韌性。",
+      "D 塑性後卸載可能有殘餘變形，不是必然全恢復。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築結構原題",
+        "url": "assets/104-structure/questions.pdf",
+        "page": 2,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-structure-06",
@@ -286,7 +308,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -297,13 +319,35 @@
     "originalQuestionLabel": "104 年建築結構｜測驗第 7 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "圓頂不只看子午拱；環向力可上壓下拉，邊界很重要。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "在題定自重及無底部環向拘束的理想半球殼比較中，近頂部的環向作用可為壓，近底部則可能為拉，因此選 C。子午線與環向內力要分別看，不能因外形像拱就說殼面各方向皆受壓。真實邊界、環梁與局部彎曲會改變應力分布，須按完整支承分析，不可把這個簡化結論套到所有圓頂。",
+    "optionExplanations": [
+      "A 把所有位置環向力都視為壓，忽略底部拉環需求。",
+      "B 頂部亦非本題所指環向拉應力。",
+      "C 近頂壓、近底拉，符合題定典型分布。",
+      "D 拉壓位置相反，不符本題。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築結構原題",
+        "url": "assets/104-structure/questions.pdf",
+        "page": 2,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-structure-08",
@@ -1636,7 +1680,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1647,13 +1691,35 @@
     "originalQuestionLabel": "104 年建築結構｜測驗第 37 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "0.003＝0.3%＝千分之三，小數與百分比先換清楚。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "本題RC撓曲極限強度模型假設受壓最外緣混凝土極限應變為0.003，即0.3%，因此選 A。它配合平面保持平面及鋼筋應變相容計算斷面，不是所有混凝土、圍束與載入歷程的實測常數。0.003與0.03差10倍，讀小數點比只記三這個數字重要。",
+    "optionExplanations": [
+      "A 0.003符合題定常用極限壓應變。",
+      "B 0.03為3%，比題定值大10倍。",
+      "C 0.005不是本題模型值。",
+      "D 0.05為5%，更非題定假設。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築結構原題",
+        "url": "assets/104-structure/questions.pdf",
+        "page": 8,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-structure-38",
@@ -1726,7 +1792,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1737,13 +1803,35 @@
     "originalQuestionLabel": "104 年建築結構｜測驗第 39 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "CFT先想共同承壓、拘束與勁度，不是靠混凝土補強拉力。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "CFT把混凝土填入鋼管，鋼管與核心混凝土可共同承壓並相互提供一定拘束或穩定效益，亦可增加側向勁度。提高抗拉強度不是填入一般混凝土的主要理由，故選 C。實際共同作用、施工充填、局部挫屈及接頭傳力仍需檢核，不能只因有混凝土就忽略鋼管或連接需求。",
+    "optionExplanations": [
+      "A 合理複合設計可在同需求下有縮小斷面等潛力，非每案保證。",
+      "B 核心混凝土可分擔壓力，是典型目的。",
+      "C 普通混凝土抗拉弱，不能把填充主要目的說成提高抗拉強度，為答案。",
+      "D 複合截面可提高有效側向勁度，仍需正確模型與細節。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築結構原題",
+        "url": "assets/104-structure/questions.pdf",
+        "page": 8,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-structure-40",

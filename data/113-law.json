@@ -1708,7 +1708,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 113 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依113年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第15條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/113-law/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -1719,13 +1719,41 @@
     "originalQuestionLabel": "113 年營建法規與實務｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "主要計畫進度5／25；合理敘述中也要逐一核數字。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "主要計畫實施進度依題定第15條為5年一期、最長25年，A寫3年及30年，兩個數字都不符，所以選 A。其餘包括保存價值建築、人口與經濟推計、進度經費皆是主要計畫內容。要把計畫內容與進度期間分開核對，別因文字看起來合理就忽略兩個數字。\n本題依113年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第15條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 3與30應改題定5與25，是答案。",
+      "B 保存名勝古蹟等是主要計畫列舉內容。",
+      "C 人口成長分布與經濟推計屬主要計畫。",
+      "D 實施進度及經費亦明列。"
+    ],
+    "explanationSources": [
+      {
+        "title": "113年營建法規與實務原題",
+        "url": "assets/113-law/questions.pdf",
+        "page": 5,
+        "version": "民國113年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/113-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第15條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 3,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "113-law-41",
@@ -2310,7 +2338,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 113 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依113年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/113-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2321,13 +2349,41 @@
     "originalQuestionLabel": "113 年營建法規與實務｜測驗第 54 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "法定住戶不只屋主，但也不是任何占用者都自動算。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "住戶是法律定義，不只所有權人，還含承租人、經同意使用專有部分者與題定停車空間所有權人。B明說未經同意而使用，不能因此自動取得這一款住戶身分，故選 B。是否另有合法權源須依事實處理，本題是在比較條文列舉，不能只用人在裡面就算住戶的日常語意。\n本題依113年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 承租人為明列住戶身分。",
+      "B 未經同意的占用者不符合題定同意使用者要件，為答案。",
+      "C 區分所有權人當然在定義內。",
+      "D 已取得停車空間建築物所有權者亦列入。"
+    ],
+    "explanationSources": [
+      {
+        "title": "113年營建法規與實務原題",
+        "url": "assets/113-law/questions.pdf",
+        "page": 6,
+        "version": "民國113年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/113-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第3條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 1,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "113-law-55",
