@@ -1442,7 +1442,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 105 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依105年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第19條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/105-law/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1453,13 +1453,41 @@
     "originalQuestionLabel": "105 年營建法規與實務｜測驗第 34 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "公開展覽30；題定審議60，特殊延長最多再60。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "都市計畫主要計畫的委員會審議，題定一般應在60天內完成；特殊情形可延長，延長以60天為限，故選 A。一般期限與可延長上限是兩段，不是自始就可無條件用120天；也不要把公開展覽30天的另一程序混入。計算起訖仍須按個案適用規定判斷。\n本題依105年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第19條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 一般60天、特殊延長最多60天，正確。",
+      "B 30天容易與公開展覽期限混淆。",
+      "C 延長45天不是本題上限。",
+      "D 30加30不符審議規定。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年營建法規與實務原題",
+        "url": "assets/105-law/questions.pdf",
+        "page": 4,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第19條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 3,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "105-law-35",
@@ -2115,7 +2143,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 105 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3、4條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/105-law/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -2126,13 +2154,47 @@
     "originalQuestionLabel": "105 年營建法規與實務｜測驗第 49 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "住戶是法定身分集合，不只指正在居住的人。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "住戶的定義不只實際住在屋內的人，還包括條文列舉的停車空間建築物所有權人，因此選 D。專有與其共用持分不得任意拆售；約定專用原是共用給特定人用，約定共用則原是專有供共同使用。先畫所有權與使用兩個欄位，比只憑字面猜更可靠。\n本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3、4條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 專有及所附共用持分有不得任意分離移轉限制。",
+      "B 使用獨立且為區分所有標的是專有，不是約定專用。",
+      "C 此項是約定專用定義，非約定共用。",
+      "D 已取得題定停車空間所有權者在住戶定義內。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年營建法規與實務原題",
+        "url": "assets/105-law/questions.pdf",
+        "page": 5,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第3條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 1,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第4條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 1,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "105-law-50",

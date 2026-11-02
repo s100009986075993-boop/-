@@ -2572,7 +2572,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 112 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依112年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/112-law/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -2583,13 +2583,41 @@
     "originalQuestionLabel": "112 年營建法規與實務｜測驗第 60 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "獨立使用加區分所有標的，先想到專有。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "使用上獨立並作為區分所有標的，定義為專有部分，所以選 D。題目沒有原本專有再供大家使用，或原本共用再給特定人使用的約定，因此不要選約定共用或專用。判斷時先把所有權標的與使用安排拆成兩層，再看題幹是否真的出現約定變更使用。\n本題依112年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 約定共用原本是專有再供共同使用，題幹未有此條件。",
+      "B 約定專用原本是共用供特定人用，非本題。",
+      "C 共用不符合本題獨立區分所有標的定義。",
+      "D 專有部分符合兩個核心條件。"
+    ],
+    "explanationSources": [
+      {
+        "title": "112年營建法規與實務原題",
+        "url": "assets/112-law/questions.pdf",
+        "page": 7,
+        "version": "民國112年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/112-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第3條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 1,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "112-law-61",
@@ -2701,7 +2729,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 112 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依112年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第36、29、3條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/112-law/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -2712,13 +2740,53 @@
     "originalQuestionLabel": "112 年營建法規與實務｜測驗第 63 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先產生管理組織，再由組織執行職務，兩層不要混。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "管委會職務以執行共同決議、維護管理、經費保管運用與提出報告等為主。管理委員選任及主任委員互推是組織產生的另外程序，不是第36條所列管委會職務，因此選 B。不能把個別委員參與主委互推，直接等同管委會可以自行選出所有委員。\n本題依112年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第36、29、3條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 服務人委任僱傭監督屬職務。",
+      "B 組織選任與主委產生程序不屬此處職務列舉，為答案。",
+      "C 收支保管運用屬管理工作，仍須依合法決議。",
+      "D 提出公告會計結算報告屬職務。"
+    ],
+    "explanationSources": [
+      {
+        "title": "112年營建法規與實務原題",
+        "url": "assets/112-law/questions.pdf",
+        "page": 7,
+        "version": "民國112年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/112-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第36條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 10,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第29條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 8,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第3條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 1,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "112-law-64",
@@ -2744,7 +2812,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 112 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依112年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第30條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/112-law/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -2755,13 +2823,41 @@
     "originalQuestionLabel": "112 年營建法規與實務｜測驗第 64 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "會前通知10日，會後紀錄15日，急迫臨時公告另看2日。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "一般所有權人會議應在開會前10日，以書面載明內容通知各所有權人，因此選 C。本題已排除急迫臨時會；急迫情形的公告至少2日是另一程序。管理委員選任也有須在通知載明、不得臨時動議提出的要求，不能僅因大家到場就忽略事前告知。\n本題依112年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第30條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 3日不是本題一般書面通知期限。",
+      "B 7日容易與點交等程序混淆。",
+      "C 開會前10日書面通知，正確。",
+      "D 15日較常出現在會後紀錄送達，非此題。"
+    ],
+    "explanationSources": [
+      {
+        "title": "112年營建法規與實務原題",
+        "url": "assets/112-law/questions.pdf",
+        "page": 7,
+        "version": "民國112年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/112-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第30條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 8,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "112-law-65",
@@ -2787,7 +2883,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 112 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依112年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第18、28、58條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/112-law/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -2798,13 +2894,53 @@
     "originalQuestionLabel": "112 年營建法規與實務｜測驗第 65 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "問哪一部法的義務，先鎖法源；沒列在此法不等於別的法也不用管。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "題目問公寓大廈管理條例所定起造人義務。基金提列、首次召集及組織成立前的管理負責角色均可對應；A所述定型化契約先核備才銷售並非這組條例義務，所以選 A。這不是說預售契約與銷售資訊完全不用遵守其他法令，應分清法源及程序，不可把本題非條例義務解讀為全面免管。\n本題依112年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第18、28、58條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 不屬本題條例列舉的這種起造人義務，其他法令仍須另查。",
+      "B 依法提列公共基金為題定義務。",
+      "C 符合條件後起造人須召集首次所有權人會議。",
+      "D 組織成立前起造人負過渡管理角色，符合題意。"
+    ],
+    "explanationSources": [
+      {
+        "title": "112年營建法規與實務原題",
+        "url": "assets/112-law/questions.pdf",
+        "page": 7,
+        "version": "民國112年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/112-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第18條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 4,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第28條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 7,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第58條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 14,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "112-law-66",

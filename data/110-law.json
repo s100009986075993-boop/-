@@ -1657,7 +1657,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 110 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依110年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第82條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/110-law/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1668,13 +1668,41 @@
     "originalQuestionLabel": "110 年營建法規與實務｜測驗第 39 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "都市計畫復議：收核定公文起1個月，以一次為限。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "地方政府對核定的主細部計畫有申請復議必要時，應於接到核定公文起1個月內提出，且以一次為限，所以選 A。起算點是接到核定公文，不是日後想起來或工程開工；若復議仍維持原核定，也有發布實施義務。這個復議程序不能與其他行政救濟期限互換。\n本題依110年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第82條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 1個月符合題定第82條。",
+      "B 2個月不符此項期間。",
+      "C 3個月非本題期限。",
+      "D 6個月與此程序無關。"
+    ],
+    "explanationSources": [
+      {
+        "title": "110年營建法規與實務原題",
+        "url": "assets/110-law/questions.pdf",
+        "page": 4,
+        "version": "民國110年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/110-law/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第82條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 14,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "110-law-40",
@@ -2345,7 +2373,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 110 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依110年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第57條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/110-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2356,13 +2384,41 @@
     "originalQuestionLabel": "110 年營建法規與實務｜測驗第 55 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "點交抓組織成立後7日，還要現場檢測正常。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "起造人點交共用等設施，題定時點是管委會成立或管理負責人推選指定後7日內，並會同有關人員現場檢測、確認功能正常後移交，因此選 C。不是只交一袋鑰匙就算完成，也不能把使照取得後1年誤當點交期限。若設備不能通過檢測，應按相應改善程序處理。\n本題依110年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第57條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 使照後1年不是本題設備點交的起算及期限。",
+      "B 不以主管機關另發通知才開始計算。",
+      "C 組織成立等法定事件後7日內檢測正常再移交，完整符合。",
+      "D 自治協商不能任意取代法定義務與程序。"
+    ],
+    "explanationSources": [
+      {
+        "title": "110年營建法規與實務原題",
+        "url": "assets/110-law/questions.pdf",
+        "page": 6,
+        "version": "民國110年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/110-law/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第57條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 14,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "110-law-56",
@@ -2388,7 +2444,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 110 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依110年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第33條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/110-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2399,13 +2455,41 @@
     "originalQuestionLabel": "110 年營建法規與實務｜測驗第 56 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "屋頂廣告或基地臺：一般決議之外，再看頂層所有權人。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "屋頂平臺設廣告不只需行政許可及所有權人會議決議，還涉及頂層所有權人的特別同意，因此選 C。增加公共基金收入不會自動取消這項同意權；也不能以管委會同意或法院公證取代。還需檢查合法規約、報備決議及廣告設置等其他適用要求。\n本題依110年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第33條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 管委會同意不足取代會議及受影響特定所有權人的同意。",
+      "B 只有一般會議決議仍漏了頂層所有權人同意。",
+      "C 會議決議加頂層所有權人同意，符合題定要件。",
+      "D 公證不是此處欠缺特別同意的替代品。"
+    ],
+    "explanationSources": [
+      {
+        "title": "110年營建法規與實務原題",
+        "url": "assets/110-law/questions.pdf",
+        "page": 6,
+        "version": "民國110年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/110-law/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第33條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 9,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "110-law-57",
@@ -2502,7 +2586,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 110 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依110年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第34、30條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/110-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2513,13 +2597,47 @@
     "originalQuestionLabel": "110 年營建法規與實務｜測驗第 58 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "會前通常10日通知，會後15日送紀錄；起算點別反。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "會議結束應作紀錄，載明經過與決議並由主席簽名，題定應於會後15日內送達各所有權人並公告，所以選 B。這與一般開會前10日書面通知、急迫臨時會公告至少2日是不同階段，不能只看到會議就挑同一數字。紀錄還須與簽名簿、代理委託等依規定保存。\n本題依110年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第34、30條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 7日可能來自設備點交等其他義務，不是紀錄送達期限。",
+      "B 會後15日內送達並公告，符合題意。",
+      "C 20日不符題定。",
+      "D 30日不是此會議紀錄期限。"
+    ],
+    "explanationSources": [
+      {
+        "title": "110年營建法規與實務原題",
+        "url": "assets/110-law/questions.pdf",
+        "page": 6,
+        "version": "民國110年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/110-law/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第34條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 9,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第30條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 8,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "110-law-59",

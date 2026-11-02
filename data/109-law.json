@@ -367,7 +367,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 109 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依109年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第4、5、6條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/109-law/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -378,13 +378,53 @@
     "originalQuestionLabel": "109 年營建法規與實務｜測驗第 9 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "專有可排除無權干涉，但合法必要進入仍要依法配合。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "專有部分所有權人原則可使用、收益、處分並排除他人不當干涉，所以 D 說不得排除他人干涉錯誤。這不是權利毫無限制：不得妨礙正常使用與共同利益，且符合法定必要維修進入等情況仍有配合義務。答題要把一般排他權與特定法定限制一起看，不能只背自由兩字。\n本題依109年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第4、5、6條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 為一般專有權利內容，但須在法律限制內。",
+      "B 不得妨礙建物正常使用，是權利界限。",
+      "C 不得違反共同利益，亦為限制。",
+      "D 一概不得排除干涉抹去一般排他性，故為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年營建法規與實務原題",
+        "url": "assets/109-law/questions.pdf",
+        "page": 2,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第4條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 1,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第5條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第6條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "109-law-10",
@@ -2967,7 +3007,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 109 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依109年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第27條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/109-law/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -2978,13 +3018,41 @@
     "originalQuestionLabel": "109 年營建法規與實務｜測驗第 69 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "會議代理看本條身分加書面，不把任何代理職稱直接套入。",
+    "explanationBatch": "2026-11-02-06",
+    "solution": "無法出席會議時，條文允許書面委託配偶、有行為能力的直系血親、其他所有權人或承租人代理，因此題目缺的身分為 A。不是任何熟人或自稱總幹事、訴訟代理人就自動符合本條資格。另須注意受託人累積代理的法定上限，書面委託與代理資格是兩個都要滿足的要件。\n本題依109年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第27條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 承租人是本條明列可委託身分。",
+      "B 總幹事職稱本身不是此條新增的法定資格，若另有合法身分須另論。",
+      "C 二親等旁系姻親不是本題明列的直系血親。",
+      "D 訴訟代理資格不直接等於這場會議的代理身分。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年營建法規與實務原題",
+        "url": "assets/109-law/questions.pdf",
+        "page": 8,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第27條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 7,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "109-law-70",
