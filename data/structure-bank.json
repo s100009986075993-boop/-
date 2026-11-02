@@ -5928,7 +5928,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-structure/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -5939,13 +5939,35 @@
     "originalQuestionLabel": "100 年建築結構｜測驗第 2 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "立面看上下樓層變化；挑高要查軟層，不只看建築外觀。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "立面不規則要從高度方向的質量、勁度、強度及構造連續性變化判斷。底層挑高可能使該層柱段變長、側向勁度下降，形成軟層風險，因此本題選 A。挑高本身並非不經計算就必然違規，仍需檢查樓層勁度及強度等實際比值。其他選項較偏向樓板、基礎或平面幾何條件，非題目最直接的立面不規則情境。",
+    "optionExplanations": [
+      "A 底層高度突增可能形成沿高度的勁度突變，是本題答案。",
+      "B 樓板中央開孔主要涉及樓板不連續、開口及平面傳力，非此題最直接的立面變化。",
+      "C 不同基礎形式可能造成地工或傳力問題，但單憑此項不能直接判為題定立面不規則。",
+      "D 東西與南北平面尺寸差主要是平面比例問題，不是沿高度的立面不規則。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築結構原題",
+        "url": "assets/100-structure/questions.pdf",
+        "page": 1,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-structure-03",
@@ -6018,7 +6040,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -6029,13 +6051,35 @@
     "originalQuestionLabel": "100 年建築結構｜測驗第 4 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "規模加1：振幅約10倍，能量約32倍；不是震度加一級。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "地震規模是對數尺度，常用能量近似式 log10 E＝1.5M＋常數。規模由5升至6，ΔM＝1，所以能量比約10^1.5＝31.6，最接近32倍，選 C。不能把震幅增加約10倍和能量增加約32倍混在一起，也不能把規模加1當成能量只加1。規模與特定地點震度、建物損傷不是同一量。",
+    "optionExplanations": [
+      "A 8倍不符合本題能量對數關係。",
+      "B 16倍約少了一半，不是10^1.5的近似值。",
+      "C 約31.6倍，選最接近的32倍。",
+      "D 100倍不是規模增加1時的能量比；應代入1.5倍規模差的指數。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築結構原題",
+        "url": "assets/100-structure/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-structure-05",
@@ -6060,7 +6104,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -6071,13 +6115,35 @@
     "originalQuestionLabel": "100 年建築結構｜測驗第 5 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "少40%是剩60%；軟層看勁度，弱層看強度。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "題目說此層勁度比上層少40%，所以此層只有上層的60%，不是剩40%。樓層側向勁度明顯降低會使層間變形集中，屬題定軟層問題，故選 A。這是在辨認勁度不規則，與承載強度不足的弱層概念要分開。實際規範檢核還可能涉及相鄰數層比較及適用版本，不應只以挑高或一個名稱取代分析。",
+    "optionExplanations": [
+      "A 勁度相對上層明顯偏低，符合本題軟層辨識。",
+      "B 彎矩層不是此題描述勁度不規則的分類。",
+      "C 60%的相對勁度顯示題定不規則，不能當成規則層。",
+      "D 剪力層不是本題的標準答案；側力會產生剪力不代表分類叫剪力層。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築結構原題",
+        "url": "assets/100-structure/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-structure-06",
@@ -6102,7 +6168,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -6113,13 +6179,35 @@
     "originalQuestionLabel": "100 年建築結構｜測驗第 6 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "拱不等於無水平力；三鉸多一個轉動釋放，靜定性不同。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "理想三鉸拱是靜定結構，可透過鉸轉動及幾何變化適應一定支承位移；雙鉸拱仍有超靜定約束，支承不均勻沉陷可能引入附加彎曲應力，所以選 C。這裡以理想、小變形及忽略特定次要效應為前提，不能推論真實三鉸拱在任意大位移、斷層錯動下仍安全。兩種拱通常都會有水平推力，不是只有三鉸拱才有。",
+    "optionExplanations": [
+      "A 將靜定性說反：三鉸拱為靜定，雙鉸拱通常為一次超靜定。",
+      "B 雙鉸拱也有水平推力，不能說其支承完全無外推力。",
+      "C 雙鉸約束可使沉陷引入附加應力；三鉸在題定理想模型較能適應，為答案。",
+      "D 題定比較方向相反；溫度變化的相容限制主要應注意雙鉸等超靜定拱。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築結構原題",
+        "url": "assets/100-structure/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-structure-07",
@@ -6186,7 +6274,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -6197,13 +6285,35 @@
     "originalQuestionLabel": "100 年建築結構｜測驗第 8 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "隔震常減少上部層間變形，但要為隔震層保留位移。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "基礎隔震將較大水平變形集中到隔震層，藉延長主要週期及適當消能來降低上部結構反應。上部樓層間的相對變形通常可減少，所以選 C。整棟相對地面的位移、隔震層位移及上部層間位移不能混為一談；隔震層往往需要更大的位移空間。效果仍受場址地動、系統及上部結構特性影響，不是任何反應都一起下降。",
+    "optionExplanations": [
+      "A 隔震通常使主要振動週期延長，不是降低週期。",
+      "B 底層絕對位移不保證降低，隔震所需位移反而可能較大。",
+      "C 上部層間相對變位可降低，是保護結構與部分非結構構件的重要目標。",
+      "D 能量如何分配與消耗取決於系統，不能將整體吸能量一概說成隔震後就減少。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築結構原題",
+        "url": "assets/100-structure/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-structure-09",
@@ -6228,7 +6338,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -6239,13 +6349,35 @@
     "originalQuestionLabel": "100 年建築結構｜測驗第 9 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "強度是承力，韌性是變形能力；未倒塌不代表地震後可直接使用。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "本題用傳統木構造在地震後明顯傾斜但未立即倒塌的現象，說明強度與變形能力不是同一件事。依題定比較，其接合滑移、轉動及整體構造可能容許較大變形，故選低強度高韌性的 B。不能因此宣稱所有木材或木建築都天然高韌性，真實表現還受腐朽、接合、構架穩定及施工細節影響；傾斜未倒也不等於可繼續安全使用。",
+    "optionExplanations": [
+      "A 高強度低韌性無法解釋題目強調的大變形容忍現象。",
+      "B 本題以相對較低強度、較大變形容忍能力描述，為官方答案。",
+      "C 低韌性通常無法支持題目想表達的大變形後仍未倒塌。",
+      "D 題目並未提供足以認定高強度的條件，不能把未倒塌直接等同兩者皆高。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築結構原題",
+        "url": "assets/100-structure/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-structure-10",
@@ -6318,7 +6450,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -6329,13 +6461,35 @@
     "originalQuestionLabel": "100 年建築結構｜測驗第 11 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "正方形整體放大：面積看a²，慣性矩看a⁴。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "理想彈性柱 Pcr＝π²EI/(KL)²。在材料、柱長與支承相同下，只須比較慣性矩。正方形邊長 a 的 I＝a⁴/12；邊長加倍後 I新＝(2a)⁴/12＝16I原，所以臨界載重變成16Pcr，選 D。不要只用截面面積增加4倍推估；Euler 挫屈取決於彎曲勁度，不是單純材料壓壞強度。",
+    "optionExplanations": [
+      "A 2倍只按邊長線性放大，不符合I的四次方關係。",
+      "B 4倍是面積比例，非本題慣性矩與彈性挫屈比例。",
+      "C 8倍可能只記到某一尺寸三次方，漏了寬度同時加倍。",
+      "D 正方形兩個尺寸均加倍，I增16倍，為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築結構原題",
+        "url": "assets/100-structure/questions.pdf",
+        "page": 3,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-structure-12",
@@ -6492,7 +6646,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -6503,13 +6657,35 @@
     "originalQuestionLabel": "100 年建築結構｜測驗第 15 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "抗彎強度看Z＝bh²/6；撓度剛度看I＝bh³/12。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "相同材料容許彎曲應力下，容許彎矩 Ma＝σ容許×Z。矩形截面係數 Z＝bh²/6，寬 b 不變、梁深 h 加倍時，Z 增為4倍，所以容許彎矩約為4Ma，選 B。這題問抗彎強度而非撓度；若問慣性矩 I＝bh³/12，梁深加倍才是8倍。實際梁設計還須檢查剪力、穩定及變形等控制條件。",
+    "optionExplanations": [
+      "A 2倍只按深度線性比較，未使用截面係數。",
+      "B Z與深度平方成正比，梁深加倍使容許彎矩增為4倍。",
+      "C 8倍對應本題寬固定時的慣性矩比例，不是截面係數比例。",
+      "D 16倍是正方形兩向尺寸都加倍的I比例，與本題只加深不同。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築結構原題",
+        "url": "assets/100-structure/questions.pdf",
+        "page": 3,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-structure-16",
@@ -6918,7 +7094,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -6929,13 +7105,35 @@
     "originalQuestionLabel": "100 年建築結構｜測驗第 24 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "看到拱腳扶壁，先想到拱的水平外推力。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "拱透過受壓及幾何形狀把荷載傳向支承，支承反力通常除了垂直分量，也包含水平推力。將兩端做成扶壁，主要是提供抵抗外推及維持支承穩定的能力，因此選 C。不能只因外力為垂直載重，就認為支承反力也只有垂直方向；拱的受力路徑與直梁不同，支承與基礎需共同承擔作用。",
+    "optionExplanations": [
+      "A 扶壁主要不是為了直接降低拱斷面的軸力，而是承受傳到支承的推力。",
+      "B 拱線配合荷載可減少彎矩，但扶壁的首要辨識仍是抵抗水平推力。",
+      "C 抵抗支承處的水平外推是扶壁的重要目的，為答案。",
+      "D 垂直反力也須承受，但不是本題拱扶壁與一般支承相比的主要特徵。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築結構原題",
+        "url": "assets/100-structure/questions.pdf",
+        "page": 5,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-structure-25",
@@ -7410,7 +7608,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -7421,13 +7619,35 @@
     "originalQuestionLabel": "100 年建築結構｜測驗第 35 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "讓彎曲塑性先發展，別讓剪力脆壞先截斷。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "延性設計希望梁在地震時先形成可控制的彎曲塑性鉸，而不是在塑性轉動前就脆性剪壞。因此剪力設計要考慮端部塑性彎矩可能引致的剪力及重力荷載，確保抗剪能力能配合預期塑性機制，選 B。這是容量設計觀念，不是只把一般彈性分析剪力照抄，也不是要求梁永遠不能發生鋼筋降伏。",
+    "optionExplanations": [
+      "A 鋼筋受拉降伏及適當塑性轉動可屬預期延性機制，並非本題主要要防止者。",
+      "B 脆性剪力破壞可能阻斷彎曲延性發展，是容量設計要避免的模式。",
+      "C 剪力摩擦屬特定介面或裂縫傳力檢核，非本題概括描述的預期答案。",
+      "D 疲勞斷裂須依情境檢查，但此題以塑鉸後剪力確保延性，主要辨識為防剪力脆壞。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築結構原題",
+        "url": "assets/100-structure/questions.pdf",
+        "page": 7,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-structure-36",
@@ -7452,7 +7672,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -7463,13 +7683,35 @@
     "originalQuestionLabel": "100 年建築結構｜測驗第 36 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "平衡比來自應變相容與力平衡；分清鋼筋量與鋼筋比。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "平衡鋼筋比描述壓區混凝土達題定極限壓應變時，張力鋼筋同時達降伏的比例。依應變相容與壓拉力平衡，它與混凝土強度、鋼筋降伏強度、彈性模數及採用的壓力塊等模型參數有關。本題選項中混凝土強度符合，選 A。鋼筋比是 As/(bd)，在理想矩形斷面公式中幾何 b、d 可消去，不能直接把比值與鋼筋量本身畫等號。",
+    "optionExplanations": [
+      "A 混凝土強度影響壓區可提供的壓力，是平衡鋼筋比公式的重要參數。",
+      "B 在題定理想矩形模型中，單獨梁寬不是平衡鋼筋比的直接材料參數。",
+      "C 梁深影響構件尺度，但在平衡配筋比的比值公式中可消去。",
+      "D 張力鋼筋量是設計選擇；是否達平衡要比較其形成的配筋比，不是以現有As定義材料的平衡比。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築結構原題",
+        "url": "assets/100-structure/questions.pdf",
+        "page": 7,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-structure-37",
@@ -7582,7 +7824,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -7593,13 +7835,35 @@
     "originalQuestionLabel": "100 年建築結構｜測驗第 39 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "系統選型看高度、用途與在地條件；常見不等於唯一可行。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "本題問臺灣七層集合住宅最可能採用的常見系統，依題定年代的典型工程選擇，鋼筋混凝土構造可兼顧承重、耐震、耐火及在地施工條件，故選 A。這是在判斷常見適用情境，不是說鋼構不能蓋七層住宅，也不是建築高度只憑材料就能決定。實際方案還要依跨距、工期、成本、法規與場址選擇。",
+    "optionExplanations": [
+      "A RC為題定情境下常見的中層集合住宅系統，為答案。",
+      "B 鋼構可以用於住宅，但不是本題典型情境最可能選項。",
+      "C 加強磚造不能僅靠名稱推定適合本題七層住宅，須符合適用高度與耐震要求。",
+      "D 單純磚牆系統不是本題此規模住宅的典型合理選擇。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築結構原題",
+        "url": "assets/100-structure/questions.pdf",
+        "page": 8,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-structure-40",
