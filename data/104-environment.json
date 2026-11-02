@@ -72,7 +72,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-environment/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -83,13 +83,35 @@
     "originalQuestionLabel": "104 年建築環境控制｜測驗第 2 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "結露先比表面溫度與露點，再辨哪一側空氣更暖濕。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "結露發生於表面溫度低於接觸空氣的露點。夏季空調使玻璃較冷，而室外常較暖濕，故通常須注意外側結露，不能一概說發生室內側，選 B。冬季則常見室內暖濕氣接觸冷表面的問題。防濕層位置要依水蒸氣驅動與季節評估；並非任意貼一層就能保證全年沒有內部結露。",
+    "optionExplanations": [
+      "A 適當通風可降低局部滯留濕氣，仍須看引入空氣狀態。",
+      "B 夏季題定通常偏外側，選項概括錯誤。",
+      "C 減少水蒸氣可降低露點。",
+      "D 高水蒸氣壓側設防濕層為原則，須核對全年構造。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築環境控制原題",
+        "url": "assets/104-environment/questions.pdf",
+        "page": 1,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-environment-03",
@@ -115,7 +137,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-environment/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -126,13 +148,35 @@
     "originalQuestionLabel": "104 年建築環境控制｜測驗第 3 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "日較差用一天高低，年較差用最暖月與最冷月平均。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "氣候統計中氣溫年較差通常指一年最暖月平均溫度與最冷月平均溫度之差，所以選 B。它不是一年最高與最低單日均溫之差，也不是絕對極端溫度之差。比較臺灣城市還受緯度、海洋及地形影響，不能將高雄直接判成較臺北有更大的年較差；務必先確認資料所採定義與期間。",
+    "optionExplanations": [
+      "A 日平均的極值差不是此年較差定義。",
+      "B 最暖月與最冷月平均氣溫之差，正確。",
+      "C 絕對最高減最低屬極端溫差。",
+      "D 題定臺灣一般比較不支持此敘述。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築環境控制原題",
+        "url": "assets/104-environment/questions.pdf",
+        "page": 1,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-environment-04",
@@ -244,7 +288,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -255,13 +299,35 @@
     "originalQuestionLabel": "104 年建築環境控制｜測驗第 6 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "內部區先看人機燈，外周區再加日射與外殼傳熱。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "辦公建築內部設備、人員與燈光都會發熱，但外周區相對內部區域，夏季額外受到窗與外殼日射影響，最直接對應太陽日射熱，選 C。這是比較外周區季節性負荷來源，不表示電腦或照明完全不耗冷量。改善時可先查朝向、開窗、玻璃及外遮陽，再配合內部負載與使用時程計算。",
+    "optionExplanations": [
+      "A 電腦為內部發熱，並非外周區夏季增加最直接原因。",
+      "B 燈光也是內部負載。",
+      "C 日射透窗及加熱外殼造成外周區負荷。",
+      "D 人體負載取決人數與活動，非題定季節主因。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築環境控制原題",
+        "url": "assets/104-environment/questions.pdf",
+        "page": 2,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-environment-07",
@@ -379,7 +445,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -390,13 +456,35 @@
     "originalQuestionLabel": "104 年建築環境控制｜測驗第 9 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "變頻省運轉能量的能力，不保證空氣乾淨；空品另看源頭與換氣。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "變頻冷氣主要依負荷調整壓縮機輸出，並不因變頻就能淨化空氣或提供新鮮外氣，所以 A 錯。改善病態住宅需降低污染源、選擇低逸散材料及適當換氣，並處理濕度與維護。若加裝過濾也須看污染種類與設備性能，不能把降溫、過濾、換氣與除去所有污染當成同一功能。",
+    "optionExplanations": [
+      "A 變頻是容量控制，不等於淨化與換氣。",
+      "B 減少源頭排放是合理改善。",
+      "C 減少污染材料有助降低負荷。",
+      "D 適當外氣換氣可稀釋室內污染，仍需外氣處理。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築環境控制原題",
+        "url": "assets/104-environment/questions.pdf",
+        "page": 2,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-environment-10",
@@ -465,7 +553,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -476,13 +564,35 @@
     "originalQuestionLabel": "104 年建築環境控制｜測驗第 11 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "換氣次數用流量除體積；循環風量與室外新風量分清楚。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "換氣次數ACH＝每小時外氣流量／空間體積。房間體積20×10×3＝600m³，6000m³/h除以600m³＝10h⁻¹，即每小時10次，選 B。這是理想混合下的名義換氣率，不表示每6分鐘所有空氣都被完整換成新空氣；若6000是循環送風而非外氣，還須另外辨識真正外氣量。",
+    "optionExplanations": [
+      "A 20次會需要12000m³/h。",
+      "B 6000/600＝10次/h。",
+      "C 100次多算十倍。",
+      "D 30次不符題定流量與體積。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築環境控制原題",
+        "url": "assets/104-environment/questions.pdf",
+        "page": 2,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-environment-12",

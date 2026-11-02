@@ -22,7 +22,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 107 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/107-structure/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -33,13 +33,35 @@
     "originalQuestionLabel": "107 年建築結構｜測驗第 1 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "A是長度二次，Z三次，面積慣性矩I四次。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "面積慣性矩I＝∫y²dA，距離平方為長度平方，再乘面積得到長度四次方，因此單位為cm⁴，選 D。不要與截面面積A的cm²、斷面模數Z＝I/c的cm³，或質量慣性矩的質量乘長度平方混淆；先寫定義或做量綱分析，比只背符號更容易跨題應用。",
+    "optionExplanations": [
+      "A cm是長度單位。",
+      "B cm²是面積單位。",
+      "C cm³可作斷面模數單位。",
+      "D cm⁴符合面積乘距離平方。"
+    ],
+    "explanationSources": [
+      {
+        "title": "107年建築結構原題",
+        "url": "assets/107-structure/questions.pdf",
+        "page": 1,
+        "version": "民國107年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/107-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "107-structure-02",
@@ -112,7 +134,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 107 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/107-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -123,13 +145,35 @@
     "originalQuestionLabel": "107 年建築結構｜測驗第 3 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "同總力集中跨中，這題彎矩變兩倍，撓度要另算。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "簡支梁均布載重的跨中彎矩為wL²/8；將相同總力wL集中在跨中，則M＝PL/4＝wL²/4。因此新舊比為2，選 D。總重量相同不代表效應相同，載重位置及分布同樣重要。這裡支承與跨度保持相同，若比較撓度則需使用各自撓度公式，不能把彎矩倍數直接照搬。",
+    "optionExplanations": [
+      "A 2/3不是本題彎矩比。",
+      "B 總載重相同不代表跨中彎矩相同。",
+      "C 5/8不是此彎矩比例。",
+      "D (wL²/4)/(wL²/8)＝2。"
+    ],
+    "explanationSources": [
+      {
+        "title": "107年建築結構原題",
+        "url": "assets/107-structure/questions.pdf",
+        "page": 2,
+        "version": "民國107年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/107-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "107-structure-04",
@@ -154,7 +198,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 107 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/107-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -165,13 +209,35 @@
     "originalQuestionLabel": "107 年建築結構｜測驗第 4 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "比撓度用撓度式；比彎矩用彎矩式，別跨物理量抄倍數。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "沿用前題P＝wL，集中力跨中撓度δP＝PL³/(48EI)＝wL⁴/(48EI)；均布載重跨中撓度δw＝5wL⁴/(384EI)。兩者相除得384/(48×5)＝8/5，選 C。彎矩比雖為2，撓度取決於整段曲率累積，所以不是2倍；所有比較均採同一線彈性、等截面及簡支模型。",
+    "optionExplanations": [
+      "A 2/3不符合兩撓度式相除。",
+      "B 載重分布改變，撓度不維持相同。",
+      "C 8/5＝1.6，為正確比值。",
+      "D 2為前題彎矩比，非本題撓度比。"
+    ],
+    "explanationSources": [
+      {
+        "title": "107年建築結構原題",
+        "url": "assets/107-structure/questions.pdf",
+        "page": 2,
+        "version": "民國107年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/107-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "107-structure-05",
