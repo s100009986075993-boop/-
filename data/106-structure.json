@@ -22,7 +22,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -33,13 +33,35 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 1 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "窗台限制柱長，先想短柱剪力集中，別假定彎剪同步破壞。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "窗台牆限制柱的自由變形長度；同一層間位移下，短柱勁度與剪力需求較大，容易先發生脆性剪力破壞。剪力與彎矩不會因此必然同時達到各自極限，故 C 錯。斜裂縫或反覆作用後的X形裂縫是辨識線索，但實際仍需依配筋、軸力與邊界判斷，不宜僅看裂縫外觀下定論。",
+    "optionExplanations": [
+      "A 斜張裂縫符合剪力破壞特徵。",
+      "B 自由長度短可增加剪力破壞風險。",
+      "C 不保證剪力與彎矩同時達極限，為答案。",
+      "D 反覆地震剪力可形成交叉斜裂縫。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 2,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-02",
@@ -118,7 +140,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -129,13 +151,35 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 3 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "相似不等於相同：先查受拉、受壓及彎曲如何傳力。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "門形剛架由梁柱與剛接節點共同傳遞彎矩、軸力及剪力，與支承處有水平推力、可同時承受軸力和彎矩的拱，在本題分類中較接近，因此選 D。兩者並非完全相同：合理拱形在相應載重下可較接近純壓，而剛架仍常以彎曲作用顯著；不能把拱的索形關係直接當剛架分析式。",
+    "optionExplanations": [
+      "A 懸索主要受拉，機制差異較大。",
+      "B 格柵主要是交叉梁共同彎曲，非題定答案。",
+      "C 薄膜主要靠面內張力。",
+      "D 拱與剛架在本題最接近，但仍須分辨形狀與接點。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 2,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-04",
@@ -244,7 +288,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -255,13 +299,35 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 6 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "質心剛心偏離，水平力還會帶來扭矩。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "地震慣性力作用於質量中心，若與抵抗側力的剛性中心偏離，便產生額外扭轉需求，簡化可理解為T＝Ve。因此不能把兩中心離得愈遠當成良好原則，選 C。規則配置與適當抗扭能力有助控制反應；即使名義重合仍可能有施工、質量及動力不確定性，不代表可完全忽略扭轉檢核。",
+    "optionExplanations": [
+      "A 對稱構件是題定較佳配置方向之一。",
+      "B 整體仍須有抗扭能力。",
+      "C 偏心越大越好把扭轉風險說反。",
+      "D 簡單規則平面通常有利傳力與分析。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 2,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-07",
@@ -340,7 +406,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -351,13 +417,35 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 8 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "摺版的折線與深度有力學功能，不只是造型。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "型抗結構利用幾何形態提升承載效能，摺版透過折線形成空間深度與整體傳力，比同厚平板能更有效跨越，因此本題選 A。桁架、剛構架與剪力牆在此教材分類各有其主要作用機制。分類名稱會依教材有所不同，不能因為所有結構都有形狀，就將四項一律當成同一類。",
+    "optionExplanations": [
+      "A 摺版符合本題型抗結構分類。",
+      "B 桁架通常歸入桿件組合傳力。",
+      "C 剛架主要以構件與剛接共同抗彎。",
+      "D 剪力牆以牆體抵抗側力，非此題指定分類。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 2,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-09",
@@ -382,7 +470,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -393,7 +481,7 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 9 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [
       {
         "src": "assets/native-structure/106-09.webp",
@@ -405,7 +493,29 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "等面積比撓度先算I，再取反比，不是直接比面積。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "同材料、同跨度與端點力的懸臂，端撓度與I成反比。等面積A下，正方形I方＝A²/12，圓形I圓＝A²/(4π)，故δ方/δ圓＝I圓/I方＝3/π≈0.955，選 B。這是假設正方形依圖示平置並採線彈性彎曲；不能把等面積誤當慣性矩也相等。",
+    "optionExplanations": [
+      "A 1.047為此比值的倒數。",
+      "B 3/π約0.955，符合撓度比例。",
+      "C 0.846是後題應力比，非本題撓度比。",
+      "D 1.182不是本題撓度比。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 3,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-10",
@@ -430,7 +540,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -441,13 +551,35 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 10 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "撓度看EI，彎曲應力看Z＝I/c，別混用兩種比例。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "同彎矩時最大彎曲應力σ＝M/Z。等面積A，方形Z方＝A^(3/2)/6，圓形Z圓＝A^(3/2)/(4√π)，所以σ方/σ圓＝Z圓/Z方＝3/(2√π)≈0.846，選 D。與前題撓度不同，本題還要考慮最外纖維距離c，不能直接照抄I的反比；採圖示方形平置方向。",
+    "optionExplanations": [
+      "A 1.047不是此斷面模數比例。",
+      "B 0.955為前題撓度比。",
+      "C 1.182約為本題應力比的倒數。",
+      "D 3/(2√π)約0.846，正確。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 3,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-11",
@@ -514,7 +646,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -525,13 +657,35 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 12 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "屋頂總位移大，不代表屋頂那一層的層間位移最大。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "在題定各層等質量等勁度的規則模型中，低階側向反應通常使樓層剪力往底部累加；相同層勁度時，層間變位約為層剪力除勁度，因此最大層間變位較不可能在頂層，選 B。絕對樓層位移、層間位移與加速度是不同量；真實多模態反應及地震歷時仍可能改變分布，不宜將此選擇題當普遍定理。",
+    "optionExplanations": [
+      "A 頂層加速度可能較大，非本題最不可能。",
+      "B 等勁度模型頂層最大層間位移較不符合一般分布。",
+      "C 底層剪力累加上方慣性力，合理。",
+      "D 底層柱彎矩較大是可能情形。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 3,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-13",
@@ -646,7 +800,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -657,13 +811,35 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 15 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先畫彎矩，再辨拉側；簡支均布跨中下拉。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "簡支梁承受向下全跨均布載重時，彎矩M(x)＝wx(L－x)/2，在跨中達wL²/8；此正彎矩使上側受壓、下側受拉，所以最大拉應力在梁中央下方，選 A。理想簡支端彎矩為零。若另有軸力、預力、不同載重或支承，應力位置需重新判斷，不能只記所有梁都下拉。",
+    "optionExplanations": [
+      "A 跨中彎矩最大且下側受拉。",
+      "B 跨中上側在此荷載下受壓。",
+      "C 理想支承處彎矩為零。",
+      "D 支承上側也非本題最大拉應力處。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 3,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-16",
@@ -688,7 +864,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -699,13 +875,35 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 16 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "鋼強度增加不等於E增加；延性也不是只看強度高低。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "一般延性鋼材若抗拉強度相對降伏強度有較大餘裕，通常具有較多降伏後硬化與變形空間，D 說成塑性變形能力較小，方向不符題意。實際延性仍須查伸長率、降伏比及材料試驗，不能只由單一比值精確推算。含碳量與熱處理影響強度韌性，但一般結構鋼彈性模數不隨強度等比例增大。",
+    "optionExplanations": [
+      "A 含碳量會影響材料性質。",
+      "B 高溫及熱處理可能改變強度等性能。",
+      "C 工程比較中鋼材E通常近似不隨含碳量改變。",
+      "D 將較大抗拉／降伏比概括成較小塑性能力，為錯誤。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 4,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-17",
@@ -730,7 +928,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -741,13 +939,35 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 17 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "單樁不是群樁；承載、互制與沉陷都要查。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "單樁垂直承載可含樁身摩擦與樁端承載，但群樁尚有樁間互制、土體整體破壞與沉陷限制，不能只把各單樁端點支承力相加就當整體支承力，所以 C 錯。拉拔時自重須注意浮力；側向抵抗可研究斜樁等方案，但在地震、土壤位移與施工條件下仍須完整設計，並非任意加斜樁即可。",
+    "optionExplanations": [
+      "A 題定非液化情形可分樁側與樁端。",
+      "B 水位下樁自重對拉拔貢獻須考慮浮力。",
+      "C 忽略摩擦、群效應與整體控制，為答案。",
+      "D 斜樁可作側力方案之一，仍需檢核適用性。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 4,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-18",
@@ -780,7 +1000,7 @@
     ],
     "allAward": false,
     "explanation": "第18題答B或D或BD者均給分。答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -791,13 +1011,35 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 18 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "鋼板撐住垂直，橡膠容許水平剪切，鉛心幫忙消能。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "橡膠本身受壓容易側向鼓脹，薄鋼板層約束其側向變形，因而提高垂直剛度；水平方向仍能藉橡膠剪切提供柔性，選 B。鉛心可降伏消能，隔震通常延長水平週期，而非縮短。隔震不是完全隔絕地震，也不一定僅限基礎樓層；是否另配消能元件須由位移與性能需求決定。",
+    "optionExplanations": [
+      "A 隔震不能完全隔絕地震，也非只能放基礎。",
+      "B 鋼板約束鼓脹、提高垂直剛度，正確。",
+      "C 通常延長水平週期，非降低。",
+      "D 鉛心已有消能作用，不是一律另搭配才可使用。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 4,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-19",
@@ -960,7 +1202,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -971,13 +1213,35 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 22 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "冷卻不同步會留下自平衡應力；記機制別只背正負號。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "熱軋型鋼冷卻不均時，先冷卻部分先收縮硬化，較慢冷卻的部位之後收縮受周圍約束，典型會留下拉殘餘應力，所以 A 把方向說反。無外力時殘餘應力仍可在截面內自平衡，並影響初期降伏、穩定或加工變形；具體分布依截面與製程，不可將此簡化直接套所有焊接件。",
+    "optionExplanations": [
+      "A 最慢冷卻部位典型受拉，非題述壓力。",
+      "B 應力釋放或不均可導致變形。",
+      "C 是構件內部自平衡應力。",
+      "D 可影響截面降伏及穩定行為。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 5,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-23",
@@ -1098,7 +1362,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -1109,13 +1373,35 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 25 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "應變先乘E得應力，再乘Z得彎矩，單位逐步核對。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "線彈性純彎曲下，外緣σ＝Eε＝20000×0.003＝60kgf/cm²。矩形斷面模數Z＝bh²/6＝30×60²/6＝18000cm³，所以M＝σZ＝1080000kgf·cm，選 B。上下等量反號應變表示中性軸在中央；不要把0.003壓應變直接當混凝土破壞條件，本題已指定彈性材料模型。",
+    "optionExplanations": [
+      "A 960000不符題定σZ計算。",
+      "B 1080000為60×18000。",
+      "C 1200000不符斷面模數。",
+      "D 1360000亦不符題定模型。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 5,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-26",
@@ -1140,7 +1426,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -1151,7 +1437,7 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 26 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [
       {
         "src": "assets/native-structure/106-26.webp",
@@ -1163,7 +1449,29 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先辨支承與載重，再記48；量綱能先刪明顯錯式。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "等截面簡支梁受跨中集中力P，在線彈性、小變形及忽略剪切變形下，跨中最大撓度為PL³/(48EI)，選 D。量綱也可檢核：EI為力乘長度平方，分子為力乘長度三次，結果才是長度。若換成懸臂或均布載重，係數及載重單位均不同，不能只靠看到L³就直接選。",
+    "optionExplanations": [
+      "A I在分子且L³在分母，量綱不符。",
+      "B I的次方與L次方不符撓度式。",
+      "C E與I位置不符彈性彎曲關係。",
+      "D PL³/(48EI)符合簡支跨中點力。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 6,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-27",
@@ -1188,7 +1496,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -1199,7 +1507,7 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 27 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [
       {
         "src": "assets/native-structure/106-27.webp",
@@ -1211,7 +1519,29 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "懸臂端力：轉角L²/2EI，位移L³/3EI；公式混行就回原卷。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "圖示等截面懸臂梁自由端受橫向集中力P，端點垂直撓度為PL³/(3EI)，依原卷選 D。線彈性小變形下亦可由曲率M/EI積分，固定端位移與轉角為零。須分清端轉角PL²/(2EI)與端位移，原卷公式排版若在文字轉錄中混行，應展開來源圖確認，不能僅讀殘缺數式。",
+    "optionExplanations": [
+      "A PL²/(2EI)是自由端轉角，量綱非長度。",
+      "B PL²/(3EI)亦非位移量綱，且不是端轉角式。",
+      "C PL³/(2EI)係數錯誤，並非端點位移。",
+      "D PL³/(3EI)為懸臂端點集中力的端撓度。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 6,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-28",
@@ -1560,7 +1890,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1571,13 +1901,35 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 35 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "單向版短跨傳力，荷重主要到長邊梁；也要先看支承配置。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "四邊支承矩形版若長短邊比很大，短跨方向彎曲傳力較顯著；本題以比值大於2作單向版近似，選 A。此時主要傳向兩條長邊支承梁，不是短邊梁。版厚減少雖減自重，也會顯著降低彎曲剛度，不能保證撓度降低；無梁版仍須依其面內剛度與耐震系統評估，並非一律禁用。",
+    "optionExplanations": [
+      "A 符合題定四邊支承版近似判別。",
+      "B 短跨作用主要傳到長邊梁，題述反向。",
+      "C 無梁版不因此一律不能作樓版或用於地震區。",
+      "D 降低厚度會減剛度，不能概括降低撓度。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 8,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-36",
@@ -1602,7 +1954,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1613,13 +1965,35 @@
     "originalQuestionLabel": "106 年建築結構｜測驗第 36 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "扭力不是只加箍筋，周邊縱筋也要有連續傳力。",
+    "explanationBatch": "2026-11-02-08",
+    "solution": "RC梁扭轉可用空間桁架概念理解：斜向混凝土壓桿配合封閉箍筋及周邊縱筋，共同形成扭力抵抗機制，所以扭力設計須同時計算橫向與縱向鋼筋，選 D。純彎矩主要決定縱向拉筋，純剪力通常先算箍筋；實際梁受多種內力時仍需組合檢核，不表示其他作用可以完全不配置另一方向鋼筋。",
+    "optionExplanations": [
+      "A 軸力主要決定縱向承載，非本題特定機制。",
+      "B 彎矩主要對應縱向拉壓配筋。",
+      "C 剪力主要對應橫向補強，仍需錨定等配合。",
+      "D 扭轉需封閉橫筋與周邊縱筋共同抵抗。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築結構原題",
+        "url": "assets/106-structure/questions.pdf",
+        "page": 8,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-37",
