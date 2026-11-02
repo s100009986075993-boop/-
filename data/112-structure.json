@@ -592,7 +592,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 112 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/112-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -603,13 +603,35 @@
     "originalQuestionLabel": "112 年建築結構｜測驗第 14 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "自重沿索長 → 懸鏈線；垂直載重沿水平投影均布 → 拋物線。",
+    "explanationBatch": "2026-11-02",
+    "solution": "理想纜索是柔性受拉構件，索形須隨荷載建立平衡，因此 B 正確。要特別區分兩種均布基準：僅承受沿索長分布的自重時形成懸鏈線；受沿水平投影均布的垂直荷載、並忽略或相對減小索自重時，常以拋物線描述。C、D 把這兩種典型荷載與索形的對應顛倒。真實荷載若兩者都有，則不能硬套純粹其中一種形狀。",
+    "optionExplanations": [
+      "A 柔性索能有效承受張力，不能像壓桿承受壓力，否則會鬆弛或改變形狀。",
+      "B 荷載及支承條件改變時，纜索可透過索形改變形成新的平衡，為答案。",
+      "C 僅承受沿索長分布的自重，典型索形為懸鏈線，不是拋物線。",
+      "D 依本題將均布載重理解為沿水平投影均布，典型索形為拋物線；必須說清均布基準，不能把任何均布都叫懸鏈線。"
+    ],
+    "explanationSources": [
+      {
+        "title": "112年建築結構原題",
+        "url": "assets/112-structure/questions.pdf",
+        "page": 4,
+        "version": "民國112年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/112-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "112-structure-15",

@@ -823,7 +823,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -833,13 +833,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 18 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "桁架先檢查節點與荷載假設；桿件是拉、壓或零力，不是全拉。",
+    "explanationBatch": "2026-11-02",
+    "solution": "理想桁架以節點荷載、近似鉸接及桿件軸線在節點交會為基本模型，使桿件主要作為二力桿承受軸向拉力或壓力。因此 A 正確。若桿件軸線未交於同點，偏心會引入附加彎矩，不能直接沿用純軸力假設。三角形幾何本身不保證所有桁架假設成立；空間桁架也不要求同一節點的桿件都在同一平面。",
+    "optionExplanations": [
+      "A 桿件軸線與內力作用線在理想節點交會，可避免節點偏心引入附加彎矩，符合題意。",
+      "B 三角形是常見穩定單元，但任意接合、荷載及桿件形式不一定滿足桁架模型。",
+      "C 桁架桿件可拉可壓，也可能為零力桿，並非全部只承受拉力。",
+      "D 此敘述把平面桁架限制套到所有桁架；空間桁架可有不共平面的桿件交會。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 6,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "99-structure-19",
@@ -946,7 +968,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -956,13 +978,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 21 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "LRB：橡膠給柔度、鉛心助消能；上部減反應，隔震層要留位移。",
+    "explanationBatch": "2026-11-02",
+    "solution": "鉛心橡膠隔震墊以橡膠層提供水平柔度，讓隔震建築的主要振動週期拉長；在適合採隔震的建築與設計反應譜範圍內，通常可降低上部結構地震力及加速度需求。鉛心另透過非彈性變形提供消能，並不是降低阻尼。因此選 D。週期拉長不代表所有反應都降低，隔震層位移仍可能增大，須預留間隙並檢核。",
+    "optionExplanations": [
+      "A 增加重量不是 LRB 隔震的核心原理，重量變化也不保證地震反應降低。",
+      "B LRB 主要靠橡膠水平柔度與鉛心耗能，不是靠增大摩擦力來定義其隔震機制。",
+      "C 鉛心提供消能，並非減少阻尼；把阻尼減少直接等同減振是錯誤判斷。",
+      "D 延長週期是隔震降低上部結構反應的重要機制，符合本題；仍須同時檢查位移與場址條件。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 6,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "99-structure-22",
@@ -1520,7 +1564,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1530,13 +1574,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 35 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "看到 shear link，先想到 EBF；看到 CBF，先想斜撐軸力。",
+    "explanationBatch": "2026-11-02",
+    "solution": "剪力連桿是偏心斜撐構架 EBF 的典型消能構件。斜撐軸線未在同一梁柱節點交會而形成一段連桿，設計時使連桿先發生可控制的非彈性變形，其他構件依所需容量配合設計，因此選 B。連桿可依長度與內力特性呈現剪力或彎曲主導行為，不能把所有 EBF 連桿都簡化為純剪力，也不能把偏心誤解成平面扭轉。",
+    "optionExplanations": [
+      "A 同心斜撐主要透過斜撐軸力抗側，不以梁上剪力連桿作為典型系統辨識特徵。",
+      "B 偏心斜撐刻意保留連桿作為受控消能區，符合題意。",
+      "C 特殊同心斜撐雖有延性設計細節，仍屬同心斜撐，不因特殊二字就變成連桿消能。",
+      "D 特殊抗彎構架依梁柱彎曲與接頭設計抗側，不是此題剪力連桿的典型對應系統。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 7,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "99-structure-36",
@@ -1725,7 +1791,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1735,12 +1801,34 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "索靠拉力與索形工作；不是一根可以承彎、承壓的梁。",
+    "explanationBatch": "2026-11-02",
+    "solution": "理想柔性纜索可承受張力，但幾乎不以抗彎、抗剪或承壓作為主要機制，故 A 是不屬於其特性的敘述。纜索靠改變形狀使內力沿索線平衡外力；對相同跨距與荷載的典型索形，增大垂度可減少水平拉力需求，但也改變淨高與構形。輕量及小彎曲勁度使其容易受風致振動影響，須靠預張、穩定系統等處理。",
+    "optionExplanations": [
+      "A 把纜索說成能主要抵抗張力、彎矩與剪力，混淆柔性索與梁，是本題要找的錯誤敘述。",
+      "B 在跨距與荷載相同的典型條件下，垂度較大可降低索力需求；此比較需保留相同條件。",
+      "C 柔性索的平衡形狀取決於外力及支承，荷載分布改變時索形可隨之改變。",
+      "D 纜索輕且抗彎勁度小，風致變形及振動是設計重點；不是說所有已妥善設計的索系統一受風就失穩。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 8,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   }
 ]

@@ -64,7 +64,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 102 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/102-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -75,13 +75,35 @@
     "originalQuestionLabel": "102 年建築結構｜測驗第 2 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "強度是能承多少力；韌性是降伏後還能變形多少。",
+    "explanationBatch": "2026-11-02",
+    "solution": "韌性是構件或材料在降伏後，仍能承受變形而不迅速喪失承載能力的性質，不能與剛度或強度畫等號。一般鋼筋可經降伏後產生較大塑性應變，混凝土則具有較明顯的脆性特徵，因此本題選 D。梁、柱及預力梁的韌性仍依配筋、軸力、圍束與破壞模式決定，不應只靠構件名稱做無條件排序。",
+    "optionExplanations": [
+      "A 預力梁不必然比普通 RC 梁更具韌性，尚需考量鋼材性質、預力程度與斷面破壞模式。",
+      "B 梁或柱的韌性受設計細節與受力控制，單憑構件名稱不能做絕對比較。",
+      "C 較高軸壓常限制壓縮變形能力，不能概括為軸力越大韌性越佳。",
+      "D 就一般材料基本行為而言，鋼筋的降伏後塑性變形能力較混凝土佳，為本題答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "102年建築結構原題",
+        "url": "assets/102-structure/questions.pdf",
+        "page": 2,
+        "version": "民國102年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/102-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "102-structure-03",
@@ -698,7 +720,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 102 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/102-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -709,13 +731,35 @@
     "originalQuestionLabel": "102 年建築結構｜測驗第 16 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "EBF 的損傷要有設計好的位置：找連桿，不是猜斜撐。",
+    "explanationBatch": "2026-11-02",
+    "solution": "偏心斜撐構架的受控消能區位於連桿，不是讓斜撐或柱先任意損壞。梁上連桿在地震往復作用下發生設計允許的塑性剪切或彎曲變形，其他構件與接合則需配合容量設計，故選 D。題目稱 shear link，強調剪力連桿概念；實際主導行為仍與連桿長度有關，不可推廣成每種 EBF 都只有純剪力。",
+    "optionExplanations": [
+      "A 斜撐負責傳遞軸向作用，典型 EBF 不以斜撐率先挫屈作為主要消能機制。",
+      "B 讓柱成為主要損傷區可能危及重力承載及整體穩定，不是本題預期機制。",
+      "C 交點本身不是連桿的同義詞；主要消能區是所保留的那段構件，而非任意節點。",
+      "D 梁上的連桿為刻意設計的非彈性變形區，符合官方答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "102年建築結構原題",
+        "url": "assets/102-structure/questions.pdf",
+        "page": 4,
+        "version": "民國102年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/102-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "102-structure-17",

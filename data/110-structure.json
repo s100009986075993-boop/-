@@ -196,7 +196,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 110 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/110-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -207,13 +207,35 @@
     "originalQuestionLabel": "110 年建築結構｜測驗第 5 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "積層橡膠：鋼板拘束鼓脹、橡膠允許水平變形；不是越厚越能承重。",
+    "explanationBatch": "2026-11-02",
+    "solution": "積層橡膠隔震器以薄橡膠層與鋼板交替配置。鋼板限制橡膠側向鼓脹，使裝置能提供較高垂直剛度，同時保留水平變形能力。不能把每層橡膠加厚直接當作提升垂直支承能力的方式，因此錯誤敘述為 B。厚度改變牽涉形狀係數、總橡膠厚度、水平剛度與穩定，須比較明確條件並依裝置試驗及設計資料評估。",
+    "optionExplanations": [
+      "A 在適當場址與設計條件下，隔震延長週期可降低上部結構地震力，符合基本機制。",
+      "B 加厚單層橡膠不會一般性提升垂直支承力；其側向鼓脹拘束與形狀係數效益反而可能下降，故為答案。",
+      "C 阻尼器可透過耗能降低特定振動反應；實際效果與配置、頻率及元件性質有關。",
+      "D 隔震層也須處理風作用及使用性，不能只設計地震情境。"
+    ],
+    "explanationSources": [
+      {
+        "title": "110年建築結構原題",
+        "url": "assets/110-structure/questions.pdf",
+        "page": 2,
+        "version": "民國110年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/110-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "110-structure-06",

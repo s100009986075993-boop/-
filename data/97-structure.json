@@ -488,7 +488,7 @@
       1
     ],
     "explanation": "答案依使用者提供的標準答案更正表；觀念解析尚待核對。",
-    "regulation": "本題為民國 97 年歷屆試題；涉及規範時請依當年適用版本理解，現行法規尚未查核。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-structure/q-11.png",
     "sourcePage": 2,
     "sourcePdf": "assets/97-structure/questions.pdf",
@@ -497,14 +497,36 @@
     "originalQuestionLabel": "97 年建築結構｜測驗第 11 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
     },
-    "manualTranscription": true
+    "manualTranscription": true,
+    "memoryTip": "管式系統：先想外周筒體抗側；重力分配仍要看實際構造。",
+    "explanationBatch": "2026-11-02",
+    "solution": "本題採管式高層系統的簡化分工模型：外周密柱與深梁共同形成抗側力的筒體，內部構架主要支承內部樓面的重力。故分項①與④符合題意，選 B。不能把答案解讀成外周柱完全不承受垂直力，或內部構件絕不分擔水平力；實際分配仍取決於連結、勁度與整體分析。應記住的是外周筒體的主要抗側作用，而非絕對排他分工。",
+    "optionExplanations": [
+      "A（①③）保留了外周抗側力的正確方向，但③沒有呈現本題要比較的內部重力構架角色；外周柱實際也承受重力，不宜把此選項單純說成物理上完全不可能。",
+      "B（①④）是本題官方採用的系統分工：外周筒體主要抗側，內部構架主要支承內部重力。這是規劃層次的簡化描述。",
+      "C（②③）把主要抗側角色放到內部梁柱，與此題典型管式筒體的外周抗側概念相反。",
+      "D（②④）雖有內部重力構架的角色，但②仍把主要水平力抗力放錯位置。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築結構原題",
+        "url": "assets/97-structure/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-structure-12",
@@ -1514,7 +1536,7 @@
       2
     ],
     "explanation": "答案依使用者提供的標準答案更正表；觀念解析尚待核對。",
-    "regulation": "本題為民國 97 年歷屆試題；涉及規範時請依當年適用版本理解，現行法規尚未查核。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-structure/q-35.png",
     "sourcePage": 4,
     "sourcePdf": "assets/97-structure/questions.pdf",
@@ -1523,14 +1545,36 @@
     "originalQuestionLabel": "97 年建築結構｜測驗第 35 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
     },
-    "manualTranscription": true
+    "manualTranscription": true,
+    "memoryTip": "不規則看凹角與傳力；短梁看剪力；強柱弱梁看預期破壞位置。",
+    "explanationBatch": "2026-11-02",
+    "solution": "先判斷四個分項，不要把組合字母直接背起來。L 字型平面有凹角及配置不規則的潛在問題，需注意扭轉與局部應力集中；普通梁柱系統多處出現短梁，則可能使高剪力、脆性剪力破壞成為控制。故本題不良配置取②③，選 C。強柱弱梁是引導梁先發展延性機制的設計方向。口字型並非一定安全，但本題未給額外不規則條件，不能只憑該字形認定不良。",
+    "optionExplanations": [
+      "A（①③）辨識到短梁風險，卻以口字型取代本題更明確的 L 型凹角不規則。",
+      "B（①④）將強柱弱梁列為不良，與延性耐震設計希望避免柱層機制的方向相反。",
+      "C（②③）對應平面不規則與短梁高剪力的兩種風險，為官方答案。短梁不可與經專門設計的偏心斜撐消能連桿混為一談。",
+      "D（②④）雖有 L 型風險，卻錯把強柱弱梁當缺點；應逐項檢查而非只看第一個分項。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築結構原題",
+        "url": "assets/97-structure/questions.pdf",
+        "page": 4,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-structure-36",
@@ -1712,7 +1756,7 @@
       3
     ],
     "explanation": "答案依使用者提供的標準答案更正表；觀念解析尚待核對。",
-    "regulation": "本題為民國 97 年歷屆試題；涉及規範時請依當年適用版本理解，現行法規尚未查核。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-structure/q-40.png",
     "sourcePage": 4,
     "sourcePdf": "assets/97-structure/questions.pdf",
@@ -1721,12 +1765,34 @@
     "originalQuestionLabel": "97 年建築結構｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "梁韌性看中立軸與應變空間；不是鋼筋越多或材料越強就越韌。",
+    "explanationBatch": "2026-11-02",
+    "solution": "在題定配筋比範圍內，先以其他條件不變的 RC 梁斷面行為比較。提高混凝土抗壓強度，在相同張力鋼筋量與鋼筋強度下，可減少平衡拉力所需的壓力區深度，使鋼筋降伏後至壓區極限應變前有較大曲率變形空間，因此依本題選 D。這不是宣稱高強混凝土材料本身必然更韌；梁的實際韌性仍受配筋、圍束、剪力與接合細節控制。",
+    "optionExplanations": [
+      "A 增加軸壓通常加重壓區需求，可能降低可用變形能力，不是本題改善梁韌性的方向。",
+      "B 在配筋量等條件不變下，提高鋼筋降伏強度會提高所需壓力合力，未必提升曲率韌性。",
+      "C 提高張力配筋比會加深中立軸，可能使壓區更早到達極限，不能把鋼筋多直接當成韌性好。",
+      "D 在本題其他條件不變的比較下，提高混凝土抗壓強度可減少壓區深度，為官方答案；需保留這個比較前提。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築結構原題",
+        "url": "assets/97-structure/questions.pdf",
+        "page": 4,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   }
 ]

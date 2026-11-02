@@ -139,3 +139,4 @@ button:disabled{cursor:default;opacity:.55}
 .saved-note button{min-height:44px;font-size:12px}
 .quiz-mode .review-desk{display:none}
 @media(max-width:700px){.review-desk{display:block;padding:16px}.review-actions{margin-top:14px}.review-actions button{flex:1}.confidence-choice{padding:10px;gap:6px}.confidence-choice button{font-size:12px;padding:10px 5px}.question-note{padding:13px}}
+.memory-tip{margin:18px 0;padding:13px 15px;border-left:3px solid var(--teal);background:#e8eddd;font-size:14px;line-height:1.9;color:#354f46}
