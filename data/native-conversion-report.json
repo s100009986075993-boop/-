@@ -3,21 +3,21 @@
     "total": 720,
     "native": 709,
     "needsReview": 11,
-    "withSolution": 35,
+    "withSolution": 53,
     "withDiagram": 282
   },
   "environment": {
     "total": 720,
     "native": 718,
     "needsReview": 2,
-    "withSolution": 18,
+    "withSolution": 38,
     "withDiagram": 36
   },
   "law": {
     "total": 1440,
     "native": 1440,
     "needsReview": 0,
-    "withSolution": 1,
+    "withSolution": 13,
     "withDiagram": 3
   },
   "construction": {
