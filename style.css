@@ -112,3 +112,11 @@ button:disabled.submit-answer{opacity:.5;cursor:default}
 @media(max-width:700px){.structure-study{padding:16px 12px}.structure-paths{gap:8px}.structure-paths button{padding:13px 10px}.structure-paths strong{font-size:15px}.structure-paths span{font-size:11px}#practice .structure-filters{grid-template-columns:1fr}.structure-filters label:last-child{grid-column:auto!important}}
 
 .portable-start{padding:24px;margin:0 0 24px;border:1px solid var(--teal);background:#eef0e1}.portable-start h2{margin:0;color:var(--teal)}.portable-start>p{font-size:13px}.portable-actions{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.portable-actions button{color:var(--teal);min-height:50px;padding:10px}.quiz-mode .portable-start{display:none}@media(max-width:700px){.portable-start{padding:18px 14px}.portable-actions{grid-template-columns:1fr 1fr}.portable-actions button{font-size:13px}}
+.gpt-help{padding:16px;margin:20px 0;border:1px solid #9eac94;background:#edf0e1}
+.gpt-help .solution-title{margin:0 0 8px;color:var(--teal)}
+.gpt-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.gpt-launch{display:inline-block;min-height:44px;padding:10px 14px;background:var(--teal);border:1px solid var(--teal);color:#fff;text-decoration:none;font-size:13px}
+.gpt-launch:hover{background:#31564f}
+.gpt-actions button{min-height:44px;font-size:12px}
+.gpt-preview{font-size:12px;color:var(--teal);margin-top:12px}
+.gpt-preview textarea{font-size:12px;line-height:1.7;color:var(--ink)}
