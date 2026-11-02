@@ -2044,7 +2044,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 105 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/105-law/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -2055,13 +2055,41 @@
     "originalQuestionLabel": "105 年營建法規與實務｜測驗第 48 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "共用與約定共用，差在原本是不是專有。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "題幹說專有以外、不屬專有的附屬建物，且供共同使用，正是共用部分定義，因此選 C。約定共用則必須原本是專有，再透過約定供共同使用；不能只看到共同使用四字就忽略原本權利分類。約定專用相反，是共用部分給特定人使用，仍需受法定限制。\n本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 約定共用原本是專有，本題已說不是專有，所以不符。",
+      "B 約定專用是共用部分供特定人使用，不是題幹共同使用的定義。",
+      "C 專有以外且供共同使用，符合共用部分。",
+      "D 題幹明示專有以外，不能再選專有。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年營建法規與實務原題",
+        "url": "assets/105-law/questions.pdf",
+        "page": 5,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第3條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 1,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "105-law-49",
@@ -2130,7 +2158,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 105 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第6條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/105-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2141,13 +2169,41 @@
     "originalQuestionLabel": "105 年營建法規與實務｜測驗第 50 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "私人設管要用共用管道，先走管理同意程序。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "設管線需使用共用管道間時，依題定住戶義務規則，應先經管理負責人或管委會同意，四個選項中選 D。當層或上下層住戶的同意不能直接取代共同設施的管理程序；另一方面，已獲管理同意也不代表可損害其他專有部分或違反消防等要求，仍要採最少損害的方法並處理修復補償。\n本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第6條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 只有當層住戶同意，不足以取代共用部分的法定管理同意。",
+      "B 上下層住戶不是本題管道間管理同意的直接主體。",
+      "C 題定程序不是一律要求全體住戶逐人同意。",
+      "D 管委會同意符合題意；未成立者仍依條文看管理負責人。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年營建法規與實務原題",
+        "url": "assets/105-law/questions.pdf",
+        "page": 6,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第6條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "105-law-51",
@@ -2173,7 +2229,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 105 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第12條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/105-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2184,13 +2240,41 @@
     "originalQuestionLabel": "105 年營建法規與實務｜測驗第 51 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "自然老化先依共同壁雙方原則；可歸責一方才另分責任。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "共同壁及其管線因自然老化需要維修，本題未給任何一方可歸責的事由，依一般原則由共同壁兩方區分所有權人共同負擔，選 C。若事實變成某方破壞或其他可歸責原因，責任會不同；也要先確定是題定共同壁及其管線，而不是服務全棟的另一共用系統。\n本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第12條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 不能只以管線所有權名稱忽略共同壁相關維修的特定法定分配。",
+      "B 此題不是全棟共用設施一般費用，不應自動由全體所有權人負擔。",
+      "C 雙方共同負擔符合題定自然老化且無歸責一方的情境。",
+      "D 管委會決議不是本題費用主體的直接法定答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年營建法規與實務原題",
+        "url": "assets/105-law/questions.pdf",
+        "page": 6,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第12條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 3,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "105-law-52",
@@ -2216,7 +2300,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 105 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第29條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/105-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2227,13 +2311,41 @@
     "originalQuestionLabel": "105 年營建法規與實務｜測驗第 52 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "委員互推主委；不要把住戶、所有權人與委員三個圈混成一個。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "本題管委會已成立，問主任委員如何產生。依題定一般規則，由管理委員互推一人，因此選 C。先選或產生委員，再由委員互推主委，是與全體住戶直接投主委不同的層次；起造人在管理組織成立前的角色也不能直接當作成立後的主任委員。實際選任仍須核對適用規約與會議決議。\n本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第29條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 全體住戶包含不一定有相同權限的各種身分，非本題產生方式。",
+      "B 不能把所有權人選管理委員的層次，直接替換成主委產生程序。",
+      "C 管理委員互推一人為主任委員，符合答案。",
+      "D 起造人的過渡管理義務不等於永久或自動擔任主委。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年營建法規與實務原題",
+        "url": "assets/105-law/questions.pdf",
+        "page": 6,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第29條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 8,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "105-law-53",

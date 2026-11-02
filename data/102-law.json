@@ -2056,7 +2056,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 102 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依102年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第11條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/102-law/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -2067,13 +2067,41 @@
     "originalQuestionLabel": "102 年營建法規與實務｜測驗第 48 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "重大共用工程先看所有權人會議；日常執行才看管理組織。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "共用部分與相關設施的拆除、重大修繕或改良，涉及共同權利與重要支出，應依區分所有權人會議決議，所以選 D。管委會可依合法決議執行管理，不能把重大處分與一般日常維護混成同一權限。是否屬重大或有緊急必要等實際爭議，仍須按事實與法令處理，本題是在辨認一般決議層級。\n本題依102年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第11條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 管委會不是本題重大共用設施處置的法定決議主體。",
+      "B 管理負責人的執行管理角色不取代所有權人會議。",
+      "C 管理服務人為受託執行，並無此項共同決議權。",
+      "D 區分所有權人會議決議，符合第11條一般規則。"
+    ],
+    "explanationSources": [
+      {
+        "title": "102年營建法規與實務原題",
+        "url": "assets/102-law/questions.pdf",
+        "page": 5,
+        "version": "民國102年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/102-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第11條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 3,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "102-law-49",
@@ -2314,7 +2342,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 102 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依102年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第12條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/102-law/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -2325,13 +2353,41 @@
     "originalQuestionLabel": "102 年營建法規與實務｜測驗第 54 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "漏水先找來源與責任，再分費用；不是水從上來就一律上層全付。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "本題官方答案採共同樓地板等維修規則作比較：原則由上下方區分所有權人共同負擔，但若有可歸責一方的事由，應由該方負擔，因此 D 同時保留原則與例外。不能只看水往下流就全部叫上層或下層出錢。題目用住戶作概括，實際條文主體為區分所有權人，並須先查漏水來源及構造屬性。若實際是單戶防水層或個別器具漏水，不能未查明就套共同負擔。\n本題依102年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第12條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 只說共同負擔，漏掉可歸責一方的例外，非最完整答案。",
+      "B 上方不因地理位置就必然負擔全部，需查原因。",
+      "C 下方受害者不當然就是全部費用負擔人。",
+      "D 共同負擔原則加上可歸責者負擔例外，為完整答案；實務須辨認法定主體。"
+    ],
+    "explanationSources": [
+      {
+        "title": "102年營建法規與實務原題",
+        "url": "assets/102-law/questions.pdf",
+        "page": 5,
+        "version": "民國102年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/102-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第12條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 3,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "102-law-55",

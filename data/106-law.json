@@ -891,7 +891,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 106 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依106年原卷給分；參考上傳的建築法（民國 111 年 05 月 11 日）第9、39條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/106-law/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -902,13 +902,47 @@
     "originalQuestionLabel": "106 年營建法規與實務｜測驗第 21 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "改建可動部分構造，但不增高擴面；能改不等於免許可。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "改建是拆除原建物的一部分，在原基地範圍內改造且不增高、不擴面。定義並未說主要構造完全不得改變，因此 D 錯誤。可改變不代表可不申請，仍需按相應許可及設計安全辦理。主要構造不得變動是其他特定免變更或一次報驗條件中的限制，不能移植成所有改建的定義。\n本題依106年原卷給分；參考上傳的建築法（民國 111 年 05 月 11 日）第9、39條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 部分拆除後改造符合改建的題定定義。",
+      "B 不增加高度或面積是題定改建條件。",
+      "C 在原建築基地範圍內改造，是定義的一部分。",
+      "D 主要構造不得改變不是改建定義的絕對限制，為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年營建法規與實務原題",
+        "url": "assets/106-law/questions.pdf",
+        "page": 2,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "建築法第9條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "建築法第39條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 6,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "106-law-22",
@@ -2103,7 +2137,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 106 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依106年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第7條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/106-law/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -2114,13 +2148,41 @@
     "originalQuestionLabel": "106 年營建法規與實務｜測驗第 49 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "共用主要構造關係全棟安全，不能因在戶內就當成個人可排他處分。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "基礎、主要梁柱、承重牆、樓地板及屋頂構造是維繫全棟安全的共用主要構造，依題定規則不得獨立供作專有，也不得約定專用，因此選 D。不能因某根柱或某段樓板位於某戶範圍，就讓該戶排他處分而影響整體安全。所有權分類與日常可接近位置不必然相同，仍應查圖說及適用規定。\n本題依106年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第7條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 此類共用主要構造不得任意獨立使用，敘述不完整且方向錯誤。",
+      "B 將列舉共同主要構造直接說成專有，不符題定分類。",
+      "C 兩種排他安排都不符本題對主要構造的限制。",
+      "D 不得獨立使用，也不得約定專用，符合條文明列限制。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年營建法規與實務原題",
+        "url": "assets/106-law/questions.pdf",
+        "page": 4,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第7條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "106-law-50",
@@ -2490,7 +2552,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 106 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依106年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第10條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/106-law/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -2501,13 +2563,41 @@
     "originalQuestionLabel": "106 年營建法規與實務｜測驗第 58 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "所有權是共用，不代表專用使用人的維護費都由大家付。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "專有部分由其所有權人處理修繕管理費；約定專用部分則由該使用人負擔相應修繕、管理及維護，故本題選 C。這與一般共用、約定共用部分由管理組織處理及基金或共同分擔的制度不同。實際還需核對標的屬性及有效規定，不能只因仍是共用所有就把專用使用成本都丟回全體。\n本題依106年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第10條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 公共基金是其他共用維護情境的可能來源，非此題約定專用的一般答案。",
+      "B 管委會執行管理不代表費用由委員會成員自行負擔。",
+      "C 約定專用部分使用人負擔題定修繕管理維護費，符合答案。",
+      "D 管理負責人不是本題該專用部分費用的一般負擔人。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年營建法規與實務原題",
+        "url": "assets/106-law/questions.pdf",
+        "page": 5,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第10條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 3,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "106-law-59",

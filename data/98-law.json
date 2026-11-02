@@ -1285,7 +1285,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 98 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依98年原卷給分；參考上傳的建築法（民國 111 年 05 月 11 日）第60條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/98-law/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -1295,13 +1295,41 @@
     "originalQuestionLabel": "98 年營建法規與實務｜測驗第 31 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先讀違規事實再配責任：未按圖且監造誤認合格，承造主責、兩者連帶。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "題目已指定承造人未按圖施工、監造人卻認為合格，且主管機關查驗後須修改等情境。此時主賠償責任由承造人負擔，承造人的專任工程人員及監造人負連帶責任，因此選 A。要先辨認第60條的具體情境，不能將所有施工爭議都套同一責任組合；連帶責任也不是只有按個人方便各賠一小部分。\n本題依98年原卷給分；參考上傳的建築法（民國 111 年 05 月 11 日）第60條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 承造人主責，專任工程人員及監造人連帶，符合題定第二款情境。",
+      "B 將監造人與承造人的法定責任位置調換，不符本題。",
+      "C 專任工程人員在此是連帶責任者，不是題定的主賠償主體。",
+      "D 承造人與監造人的並列方式未依題定條文責任配置，非正確答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年營建法規與實務原題",
+        "url": "assets/98-law/questions.pdf",
+        "page": 3,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "建築法第60條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 9,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "98-law-32",
@@ -2263,7 +2291,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 98 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依98年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第12條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/98-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2273,13 +2301,41 @@
     "originalQuestionLabel": "98 年營建法規與實務｜測驗第 54 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "共同壁與樓板維修：先分所有權人，再查是否可歸責一方。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "先確認維修標的是專有部分間的共同壁、樓地板或其中管線，而非任意共用設施。原則由共同壁雙方或樓地板上下方的區分所有權人共同負擔，所以選 B；若可歸責於某一方，則由該方負擔。題目刻意將住戶與所有權人分開，不能因實際居住或租用就把費用主體任意替換。\n本題依98年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第12條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 住戶範圍較廣，可能含承租人，不是本條所定的所有權人費用主體。",
+      "B 雙方或上下方區分所有權人共同負擔，符合一般原則。",
+      "C 不能只因位於牆板內就一概由公共基金支付，應先辨認第12條標的。",
+      "D 本題直接考法定原則，不宜把所有個案都改成先由自治決議任意指定。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年營建法規與實務原題",
+        "url": "assets/98-law/questions.pdf",
+        "page": 6,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第12條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 3,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "98-law-55",
@@ -2305,7 +2361,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 98 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依98年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第6條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/98-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2315,13 +2371,41 @@
     "originalQuestionLabel": "98 年營建法規與實務｜測驗第 55 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "使用共用部分先經管理同意；進入別人專有部分是另一種情境。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "為維護修繕自有或約定專用部分而必須使用共用部分時，條文要求先取得管理負責人或管理委員會同意。因此在題列選項中選 C。這與必須進入他人專有部分的配合義務不同，不要把不得拒絕直接套到共用部分使用程序。仍應選損害最少的方法，並修復或補償造成的損害。\n本題依98年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第6條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 不能不分法定使用需求與程序就一概拒絕，並非本題答案。",
+      "B 不得拒絕是其他特定進入情境的規則，不能取代本題先經管理同意。",
+      "C 管理委員會同意符合題定程序；未成立時還須依條文看管理負責人角色。",
+      "D 不是本題一律要求全體區分所有權人個別同意。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年營建法規與實務原題",
+        "url": "assets/98-law/questions.pdf",
+        "page": 6,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第6條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "98-law-56",

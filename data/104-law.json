@@ -532,7 +532,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 104 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依104年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第15、22條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/104-law/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -543,13 +543,47 @@
     "originalQuestionLabel": "104 年營建法規與實務｜測驗第 12 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "比例尺看分數大小：分母越小，比例越大；主要1萬、細部1200。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "主要計畫圖比例尺不得小於1/10000，細部計畫圖不得小於1/1200，故選 B。比例尺是分數，分母越小表示圖上比例越大、通常可表現較細；不得小於不能誤讀成分母不得小於。像1/5000比1/10000更大，單就主要圖比例可符合較大要求，但同組細部若為1/1500仍不合題定最低比例。\n本題依104年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第15、22條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 主要圖1/15000較小，不符1/10000最低要求。",
+      "B 主要1/10000、細部1/1200，符合題定。",
+      "C 細部1/1500較1/1200小，不符最低比例。",
+      "D 主要1/5000雖較大，細部1/1500仍不足，因此整組錯。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年營建法規與實務原題",
+        "url": "assets/104-law/questions.pdf",
+        "page": 2,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第15條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 3,
+        "version": "民國 110 年 05 月 26 日"
+      },
+      {
+        "title": "都市計畫法第22條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 4,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "104-law-13",
@@ -1741,7 +1775,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 104 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依104年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第22、15條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/104-law/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1752,13 +1786,47 @@
     "originalQuestionLabel": "104 年營建法規與實務｜測驗第 39 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "主要看主幹系統；細部看地區配置與使用管制。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "細部計畫著重地區範圍、使用分區管制、事業財務、道路及地區性公共設施；主要上下水道系統則屬主要計畫層次，故問非細部列舉時選 D。不要只因上下水道也是公共設施，就忽略主要與地區性的層級差別。實務計畫會彼此銜接，但本題是在對照法條列舉內容。\n本題依104年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第22、15條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 計畫地區範圍是細部計畫所需表明事項。",
+      "B 土地使用分區管制屬細部計畫列舉。",
+      "C 地區性公共設施用地屬細部內容。",
+      "D 主要上下水道系統列於主要計畫，是本題答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年營建法規與實務原題",
+        "url": "assets/104-law/questions.pdf",
+        "page": 4,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第22條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 4,
+        "version": "民國 110 年 05 月 26 日"
+      },
+      {
+        "title": "都市計畫法第15條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 3,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "104-law-40",
