@@ -1742,7 +1742,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 101 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依101年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第22、15條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/101-law/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1753,13 +1753,47 @@
     "originalQuestionLabel": "101 年營建法規與實務｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "主要有實施進度經費；細部有事業財務與地區性設施。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "細部計畫列道路系統、事業財務及地區性公共設施用地等；主要計畫則另列實施進度及經費。題目用工程進度作選項，但它不是第22條這組細部計畫列舉事項，故選 D。不是說實際推動工程不需進度管理，而是指定法條的內容分類不同。考試時應區分整體主要計畫與細部實施配置。\n本題依101年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第22、15條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 道路系統屬細部計畫列舉事項。",
+      "B 事業及財務計畫屬細部內容，勿與主要的實施進度經費混用。",
+      "C 地區性公共設施用地明列於細部計畫。",
+      "D 工程進度不是本題細部計畫列舉項目，為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年營建法規與實務原題",
+        "url": "assets/101-law/questions.pdf",
+        "page": 4,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第22條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 4,
+        "version": "民國 110 年 05 月 26 日"
+      },
+      {
+        "title": "都市計畫法第15條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 3,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "101-law-41",
@@ -2430,7 +2464,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 101 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依101年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第8條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/101-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2441,13 +2475,41 @@
     "originalQuestionLabel": "101 年營建法規與實務｜測驗第 56 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "外牆廣告要同時看公法許可與社區合法規約、會議限制。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "公寓大廈外牆設置廣告，除遵守行政法令，也要受依法成立、報備的規約或區分所有權人會議決議限制。題目問決議主體，故選 C。不能把行政許可與社區內部權限當成可互相取代：有設置許可不代表可無視合法規約；管委會一般執行管理也不代表有權取代所有權人會議決定一切。\n本題依101年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第8條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 管委會與區分所有權人會議不同，不能只因日常管理由管委會辦理就選它。",
+      "B 管理負責人不是本題決議層級的答案。",
+      "C 區分所有權人會議決議及合法規約等限制，符合題意。",
+      "D 管理服務人是受託管理角色，非作此共同決議的主體。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年營建法規與實務原題",
+        "url": "assets/101-law/questions.pdf",
+        "page": 6,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第8條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "101-law-57",
@@ -2473,7 +2535,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 101 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依101年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第7條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/101-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2484,13 +2546,41 @@
     "originalQuestionLabel": "101 年營建法規與實務｜測驗第 57 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "可約定專用仍須合法；主要構造與必要通路不是任意分配項目。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "第7條將特定共用部分列為不得約定專用，例如基地所占地面、必要走廊樓梯及主要構造。法定停車空間不因其名稱就一概落入該題禁止清單，因此四者中選 B。這不是所有停車位都能任意指定私人使用；仍須符合使用法令、權利文件、合法約定及不得侵害權益等限制。\n本題依101年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第7條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 屋頂構造屬明列主要構造，不能以約定專用排除共同安全需求。",
+      "B 在題定選項中，法定停車空間是可依合法條件約定專用者；非無條件可處分。",
+      "C 連通多個專有部分的走廊樓梯屬禁止約定專用的必要動線。",
+      "D 公寓大廈本身所占地面列於禁止項目。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年營建法規與實務原題",
+        "url": "assets/101-law/questions.pdf",
+        "page": 6,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第7條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "101-law-58",
@@ -3462,7 +3552,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 101 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依101年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第23、8條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/101-law/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -3473,12 +3563,46 @@
     "originalQuestionLabel": "101 年營建法規與實務｜測驗第 80 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "法令禁止不必等規約重抄；自治新增的限制則要看生效要件。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "規約有些事項須明文記載才生效力，例如約定使用範圍、飼養動物特別約定與財務監督。但本題 D 是違規設廣告，本已受法令限制，不能因規約沒再抄一次就變成可違法，故選 D。須區分法令本身禁止與社區另訂自治限制，也不能由此推論任何合法廣告都無須社區程序。\n本題依101年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第23、8條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 約定專用與約定共用的範圍及主體屬須載明項目。",
+      "B 禁止飼養動物的特別約定屬題定須記載事項，還須注意適用法令。",
+      "C 財務運作監督規範也列為須載明項目。",
+      "D 原本違法的廣告行為不因規約未再禁止就合法，為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年營建法規與實務原題",
+        "url": "assets/101-law/questions.pdf",
+        "page": 8,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第23條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 6,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第8條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   }
 ]

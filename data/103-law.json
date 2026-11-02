@@ -1528,7 +1528,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 103 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依103年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第15條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/103-law/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1539,13 +1539,41 @@
     "originalQuestionLabel": "103 年營建法規與實務｜測驗第 36 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "主要計畫實施進度記5／25，別與計畫失效或工程期限混淆。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "主要計畫的實施進度，依題定都市計畫法第15條以5年為一期，最長不得超過25年，因此選 D。兩個數字分別是分期單位與最長進度範圍，不是工程保固、計畫必須每25年失效或所有建設都須同時完成的意思。遇到數字組合題，先在草稿寫5／25再逐項比，不要只認出其中一個數字就選。\n本題依103年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第15條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 5年一期正確，但最長15年不符題定規定。",
+      "B 5年一期正確，最長20年仍錯。",
+      "C 10年一期及20年上限都不符本題。",
+      "D 5年一期、最長25年，兩個欄位均正確。"
+    ],
+    "explanationSources": [
+      {
+        "title": "103年營建法規與實務原題",
+        "url": "assets/103-law/questions.pdf",
+        "page": 4,
+        "version": "民國103年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/103-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第15條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 3,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "103-law-37",
@@ -2087,7 +2115,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 103 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依103年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3、4、5條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/103-law/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -2098,13 +2126,53 @@
     "originalQuestionLabel": "103 年營建法規與實務｜測驗第 49 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "專有是所有權標的；約定專用是共用部分的使用安排。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "專有部分要具使用獨立性並為區分所有標的；A卻把共用部分約定給特定所有權人使用的約定專用定義，放到專有部分上，所以錯誤。其餘還涉及專有與共用持分不得任意分離移轉、以及使用不能違反共同利益。所有權分類與使用安排是兩個軸，應先分清再看處分及利用限制。\n本題依103年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3、4、5條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 此為約定專用的定義，不是專有部分，為答案。",
+      "B 使用獨立且為區分所有標的是專有部分定義。",
+      "C 專有、共用持分及基地權利間有不得任意分離移轉的限制。",
+      "D 專有部分的利用仍不能違反區分所有權人的共同利益，非毫無限制。"
+    ],
+    "explanationSources": [
+      {
+        "title": "103年營建法規與實務原題",
+        "url": "assets/103-law/questions.pdf",
+        "page": 5,
+        "version": "民國103年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/103-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第3條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 1,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第4條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 1,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第5條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "103-law-50",
@@ -2130,7 +2198,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 103 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依103年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第8條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/103-law/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -2141,13 +2209,41 @@
     "originalQuestionLabel": "103 年營建法規與實務｜測驗第 50 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "違規外牆設施要看特定程序；本題回復原狀一個月。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "本題違規裝設鐵窗，經制止不遵從後，除報請主管機關處理，住戶依題定條文應於一個月內回復原狀，故選 A。期限不是先由住戶任意選擇，也不表示任何鐵窗或防墜設施都一律相同；是否符合合法防墜例外與不妨礙逃生等條件，須另依完整事實核對。\n本題依103年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第8條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 一個月為題定違反外牆等限制後的回復期限。",
+      "B 兩個月不符此題所問期限。",
+      "C 三個月不是本題回復原狀期限，勿與其他管理程序混用。",
+      "D 六個月不符條文明定的這個程序。"
+    ],
+    "explanationSources": [
+      {
+        "title": "103年營建法規與實務原題",
+        "url": "assets/103-law/questions.pdf",
+        "page": 5,
+        "version": "民國103年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/103-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第8條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "103-law-51",

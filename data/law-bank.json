@@ -5031,7 +5031,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 98 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依98年原卷給分；參考上傳的建築法（民國 111 年 05 月 11 日）第60條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/98-law/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -5041,13 +5041,41 @@
     "originalQuestionLabel": "98 年營建法規與實務｜測驗第 31 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先讀違規事實再配責任：未按圖且監造誤認合格，承造主責、兩者連帶。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "題目已指定承造人未按圖施工、監造人卻認為合格，且主管機關查驗後須修改等情境。此時主賠償責任由承造人負擔，承造人的專任工程人員及監造人負連帶責任，因此選 A。要先辨認第60條的具體情境，不能將所有施工爭議都套同一責任組合；連帶責任也不是只有按個人方便各賠一小部分。\n本題依98年原卷給分；參考上傳的建築法（民國 111 年 05 月 11 日）第60條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 承造人主責，專任工程人員及監造人連帶，符合題定第二款情境。",
+      "B 將監造人與承造人的法定責任位置調換，不符本題。",
+      "C 專任工程人員在此是連帶責任者，不是題定的主賠償主體。",
+      "D 承造人與監造人的並列方式未依題定條文責任配置，非正確答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年營建法規與實務原題",
+        "url": "assets/98-law/questions.pdf",
+        "page": 3,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "建築法第60條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 9,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "98-law-32",
@@ -6009,7 +6037,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 98 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依98年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第12條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/98-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -6019,13 +6047,41 @@
     "originalQuestionLabel": "98 年營建法規與實務｜測驗第 54 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "共同壁與樓板維修：先分所有權人，再查是否可歸責一方。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "先確認維修標的是專有部分間的共同壁、樓地板或其中管線，而非任意共用設施。原則由共同壁雙方或樓地板上下方的區分所有權人共同負擔，所以選 B；若可歸責於某一方，則由該方負擔。題目刻意將住戶與所有權人分開，不能因實際居住或租用就把費用主體任意替換。\n本題依98年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第12條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 住戶範圍較廣，可能含承租人，不是本條所定的所有權人費用主體。",
+      "B 雙方或上下方區分所有權人共同負擔，符合一般原則。",
+      "C 不能只因位於牆板內就一概由公共基金支付，應先辨認第12條標的。",
+      "D 本題直接考法定原則，不宜把所有個案都改成先由自治決議任意指定。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年營建法規與實務原題",
+        "url": "assets/98-law/questions.pdf",
+        "page": 6,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第12條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 3,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "98-law-55",
@@ -6051,7 +6107,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 98 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依98年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第6條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/98-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -6061,13 +6117,41 @@
     "originalQuestionLabel": "98 年營建法規與實務｜測驗第 55 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "使用共用部分先經管理同意；進入別人專有部分是另一種情境。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "為維護修繕自有或約定專用部分而必須使用共用部分時，條文要求先取得管理負責人或管理委員會同意。因此在題列選項中選 C。這與必須進入他人專有部分的配合義務不同，不要把不得拒絕直接套到共用部分使用程序。仍應選損害最少的方法，並修復或補償造成的損害。\n本題依98年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第6條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 不能不分法定使用需求與程序就一概拒絕，並非本題答案。",
+      "B 不得拒絕是其他特定進入情境的規則，不能取代本題先經管理同意。",
+      "C 管理委員會同意符合題定程序；未成立時還須依條文看管理負責人角色。",
+      "D 不是本題一律要求全體區分所有權人個別同意。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年營建法規與實務原題",
+        "url": "assets/98-law/questions.pdf",
+        "page": 6,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第6條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "98-law-56",
@@ -7441,7 +7525,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 99 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依99年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第15、22條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/99-law/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -7451,13 +7535,47 @@
     "originalQuestionLabel": "99 年營建法規與實務｜測驗第 8 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "主要有進度經費；細部有事業財務，名稱相近但列舉位置不同。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "主要計畫偏向整體發展、土地使用與主要公共設施；細部計畫則進一步列事業及財務計畫等實施內容。因此題目問主要計畫不包括的列舉事項時，選 C。主要計畫雖有實施進度及經費，不能因看到經費兩字就把它與細部的事業及財務計畫當成完全相同項目，應按第15與22條逐欄對照。\n本題依99年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第15、22條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 土地使用配置屬主要計畫列舉事項。",
+      "B 主要道路及公眾運輸系統屬主要計畫內容。",
+      "C 事業及財務計畫列於細部計畫項目，是本題答案。",
+      "D 實施進度及經費是主要計畫明列內容，不能與C直接混用。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年營建法規與實務原題",
+        "url": "assets/99-law/questions.pdf",
+        "page": 1,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第15條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 3,
+        "version": "民國 110 年 05 月 26 日"
+      },
+      {
+        "title": "都市計畫法第22條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 4,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "99-law-09",
@@ -10014,7 +10132,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 99 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依99年原卷給分；參考上傳的建築法（民國 111 年 05 月 11 日）第9條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/99-law/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -10024,13 +10142,41 @@
     "originalQuestionLabel": "99 年營建法規與實務｜測驗第 69 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "修建不是所有工程過半都算；先查構造種類，再查修理變更比例。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "建築法修建定義是指定構造種類中，任何一種達到過半修理或變更。梁柱、樓地板、屋架等在題定列舉中，帷幕牆並非本題該列舉構造，因此選 B。這不表示帷幕牆工程完全不需許可或安全管理，而是不能單憑修理過半就直接套用此一修建定義；還須檢查其他適用規定。\n本題依99年原卷給分；參考上傳的建築法（民國 111 年 05 月 11 日）第9條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 梁柱屬題定修建列舉構造，過半修理可符合相應條件。",
+      "B 帷幕牆不在本題第9條這組指定構造中，為答案。",
+      "C 樓地板屬明列種類，過半修理可落入定義。",
+      "D 屋架屬題定修建列舉，過半變更亦須按條件判斷。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年營建法規與實務原題",
+        "url": "assets/99-law/questions.pdf",
+        "page": 7,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "建築法第9條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "99-law-70",
@@ -10224,7 +10370,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 99 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依99年原卷給分；參考上傳的建築法（民國 111 年 05 月 11 日）第70-1、72、73條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/99-law/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -10234,13 +10380,53 @@
     "originalQuestionLabel": "99 年營建法規與實務｜測驗第 74 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "部分完竣且可獨立使用，才談部分使照；不是任意提早入住。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "本題 C 說全部完竣才可申請，忽略部分完竣且可供獨立使用時，依法可能核發部分使用執照，故選 C。部分使照仍須符合適用條件與程序，不等於施工到任何程度都可先使用。其他選項也應按條文原則與例外理解：供公眾使用的消防檢查、接水接電以及變更使用，均有各自法定範圍。\n本題依99年原卷給分；參考上傳的建築法（民國 111 年 05 月 11 日）第70-1、72、73條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 供公眾使用建物申請使照須依題定規則會同消防機關檢查消防設備。",
+      "B 先有使照才能接水接電使用是一般原則，法定特別情形須另核對，不能讀成毫無例外。",
+      "C 部分完竣可供獨立使用者有部分使照制度，所以全部才可申請過度絕對。",
+      "D 使用類組變更原則須申請變更使用，另有小規模等例外須依適用規定判斷。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年營建法規與實務原題",
+        "url": "assets/99-law/questions.pdf",
+        "page": 8,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "建築法第70-1條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 11,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "建築法第72條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 11,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "建築法第73條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 11,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "99-law-75",
@@ -10266,7 +10452,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 99 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依99年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/99-law/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -10276,13 +10462,41 @@
     "originalQuestionLabel": "99 年營建法規與實務｜測驗第 75 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先分所有權分類，再看使用約定；約定專用不等於變成專有。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "專有部分的關鍵是具有使用上獨立性，並且是區分所有的標的，故選 A。約定專用只是把共用部分約定交特定人使用，並不因此轉成該人的專有所有權；約定共用則是專有部分經約定供共同使用。可先畫原本專有或共用，再看約定改的是誰使用，避免四個詞混淆。\n本題依99年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 使用獨立且為區分所有標的，正是專有部分定義。",
+      "B 共用部分是專有以外、供共同使用的部分，不符題幹。",
+      "C 約定專用原本是共用，只改特定使用安排，不是題幹專有定義。",
+      "D 約定共用原本是專有，經約定供共同使用，亦非題幹。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年營建法規與實務原題",
+        "url": "assets/99-law/questions.pdf",
+        "page": 8,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第3條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 1,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "99-law-76",
@@ -10308,7 +10522,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 99 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依99年原卷給分；參考上傳的建築法（民國 111 年 05 月 11 日）第39條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/99-law/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -10318,13 +10532,41 @@
     "originalQuestionLabel": "99 年營建法規與實務｜測驗第 76 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "一次報驗例外要同時守住構造、位置、高度面積及設備條件。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "建築法第39條一次報驗例外要求不變更主要構造或位置、不增加高度或面積、不變更設備內容或位置。四項比較，C 的牆面材料變化相對符合本題例外，選 C；仍須確認材料與其他條件合規。未達一半本身不是萬用豁免門檻，不能把所有外牆材料、防火或設備變更都視為竣工後再說即可。\n本題依99年原卷給分；參考上傳的建築法（民國 111 年 05 月 11 日）第39條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 已變更主要構造或位置，即使外觀不變也不符題定例外。",
+      "B 增高即違反不增加高度的條件，不能用面積未增來抵銷。",
+      "C 依本題限定，牆面材料變化為可一次報驗答案；仍須符合全部法定條件，非只看比例。",
+      "D 電梯位置屬設備位置變更，不能以構造方式未變就納入例外。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年營建法規與實務原題",
+        "url": "assets/99-law/questions.pdf",
+        "page": 8,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "建築法第39條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 6,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "99-law-77",
@@ -10350,7 +10592,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 99 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依99年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3、7條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/99-law/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -10360,13 +10602,47 @@
     "originalQuestionLabel": "99 年營建法規與實務｜測驗第 77 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "共同功能比貼近哪一戶重要；共用管道間不隨位置變專有。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "題目已說明管道間連通各層、供消防與排水管線共同利用，因此應按服務多戶的共用功能判斷，選 B。它恰位於某戶衛浴旁，不代表就成為該戶專有。仍需區分共用管道間與只服務單戶的特定支管，實際界線應查核定圖說及權利文件，不宜只依看得見的位置認定所有權。\n本題依99年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3、7條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 位在住家範圍附近不等於專有，題目功能明確為多戶共同使用。",
+      "B 連通多層且提供共同管線功能，符合共用部分。",
+      "C 生活利用不可或缺的共用設施，還可能屬不得約定專用者，不能只由一戶占用。",
+      "D 題目不是原本專有部分再約定共同使用，無須改稱約定共用。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年營建法規與實務原題",
+        "url": "assets/99-law/questions.pdf",
+        "page": 8,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第3條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 1,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第7條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "99-law-78",
@@ -12821,7 +13097,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 100 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依100年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第7條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/100-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -12832,13 +13108,41 @@
     "originalQuestionLabel": "100 年營建法規與實務｜測驗第 54 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "連通多戶與出入口的必要動線，不可私有化，也不可任意約定專用。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "連通數個專有部分的走廊、樓梯及通往室外的通路或門廳，涉及共同通行與避難，不得任意改作專有部分；其中屬條文明列者也不得約定專用，因此選 B。不是取得少數人同意就能把必要公共動線封給某戶。約定共用又是另一種定義，指原本專有部分經約定共同使用，不能拿來替換此題。\n本題依100年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第7條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 必要共同通路不得任意變成個人專有，敘述錯誤。",
+      "B 不得任意改作專有，符合共用通行設施的限制。",
+      "C 此類明列公共通路不得約定專用，不能僅靠約定排除他人。",
+      "D 約定共用的定義不適用題目原本的共同走廊，非本題正確原則。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年營建法規與實務原題",
+        "url": "assets/100-law/questions.pdf",
+        "page": 6,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第7條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "100-law-55",
@@ -13896,7 +14200,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 100 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依100年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第17條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/100-law/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -13907,13 +14211,41 @@
     "originalQuestionLabel": "100 年營建法規與實務｜測驗第 79 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "合法營業仍須處理其增加的他戶保費差額。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "依法在大廈內經營餐飲等活動，除有公共意外責任保險要求外，若因此增加其他住戶火災保險費，也須由經營該活動的住戶補償差額，所以選 B。合法營業不代表相關外部成本就必須由大家共同吸收。是否真的增加、增加多少及程序仍需依事實與適用辦法核對，不能任意估一筆款項。\n本題依100年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第17條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 不應把此特定營業所增加的差額一律轉由公共基金支出。",
+      "B 由經營餐飲而導致保費增加的住戶負補償責任，為答案。",
+      "C 非一概由全體所有權人共同負擔，應先辨認增加的原因。",
+      "D 決議不能任意抹去題定法定補償主體，非本題答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年營建法規與實務原題",
+        "url": "assets/100-law/questions.pdf",
+        "page": 8,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第17條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 4,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "100-law-80",
@@ -15701,7 +16033,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 101 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依101年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第22、15條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/101-law/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -15712,13 +16044,47 @@
     "originalQuestionLabel": "101 年營建法規與實務｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "主要有實施進度經費；細部有事業財務與地區性設施。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "細部計畫列道路系統、事業財務及地區性公共設施用地等；主要計畫則另列實施進度及經費。題目用工程進度作選項，但它不是第22條這組細部計畫列舉事項，故選 D。不是說實際推動工程不需進度管理，而是指定法條的內容分類不同。考試時應區分整體主要計畫與細部實施配置。\n本題依101年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第22、15條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 道路系統屬細部計畫列舉事項。",
+      "B 事業及財務計畫屬細部內容，勿與主要的實施進度經費混用。",
+      "C 地區性公共設施用地明列於細部計畫。",
+      "D 工程進度不是本題細部計畫列舉項目，為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年營建法規與實務原題",
+        "url": "assets/101-law/questions.pdf",
+        "page": 4,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第22條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 4,
+        "version": "民國 110 年 05 月 26 日"
+      },
+      {
+        "title": "都市計畫法第15條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 3,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "101-law-41",
@@ -16389,7 +16755,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 101 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依101年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第8條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/101-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -16400,13 +16766,41 @@
     "originalQuestionLabel": "101 年營建法規與實務｜測驗第 56 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "外牆廣告要同時看公法許可與社區合法規約、會議限制。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "公寓大廈外牆設置廣告，除遵守行政法令，也要受依法成立、報備的規約或區分所有權人會議決議限制。題目問決議主體，故選 C。不能把行政許可與社區內部權限當成可互相取代：有設置許可不代表可無視合法規約；管委會一般執行管理也不代表有權取代所有權人會議決定一切。\n本題依101年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第8條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 管委會與區分所有權人會議不同，不能只因日常管理由管委會辦理就選它。",
+      "B 管理負責人不是本題決議層級的答案。",
+      "C 區分所有權人會議決議及合法規約等限制，符合題意。",
+      "D 管理服務人是受託管理角色，非作此共同決議的主體。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年營建法規與實務原題",
+        "url": "assets/101-law/questions.pdf",
+        "page": 6,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第8條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "101-law-57",
@@ -16432,7 +16826,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 101 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依101年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第7條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/101-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -16443,13 +16837,41 @@
     "originalQuestionLabel": "101 年營建法規與實務｜測驗第 57 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "可約定專用仍須合法；主要構造與必要通路不是任意分配項目。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "第7條將特定共用部分列為不得約定專用，例如基地所占地面、必要走廊樓梯及主要構造。法定停車空間不因其名稱就一概落入該題禁止清單，因此四者中選 B。這不是所有停車位都能任意指定私人使用；仍須符合使用法令、權利文件、合法約定及不得侵害權益等限制。\n本題依101年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第7條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 屋頂構造屬明列主要構造，不能以約定專用排除共同安全需求。",
+      "B 在題定選項中，法定停車空間是可依合法條件約定專用者；非無條件可處分。",
+      "C 連通多個專有部分的走廊樓梯屬禁止約定專用的必要動線。",
+      "D 公寓大廈本身所占地面列於禁止項目。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年營建法規與實務原題",
+        "url": "assets/101-law/questions.pdf",
+        "page": 6,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第7條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "101-law-58",
@@ -17421,7 +17843,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 101 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依101年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第23、8條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/101-law/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -17432,13 +17854,47 @@
     "originalQuestionLabel": "101 年營建法規與實務｜測驗第 80 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "法令禁止不必等規約重抄；自治新增的限制則要看生效要件。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "規約有些事項須明文記載才生效力，例如約定使用範圍、飼養動物特別約定與財務監督。但本題 D 是違規設廣告，本已受法令限制，不能因規約沒再抄一次就變成可違法，故選 D。須區分法令本身禁止與社區另訂自治限制，也不能由此推論任何合法廣告都無須社區程序。\n本題依101年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第23、8條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 約定專用與約定共用的範圍及主體屬須載明項目。",
+      "B 禁止飼養動物的特別約定屬題定須記載事項，還須注意適用法令。",
+      "C 財務運作監督規範也列為須載明項目。",
+      "D 原本違法的廣告行為不因規約未再禁止就合法，為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年營建法規與實務原題",
+        "url": "assets/101-law/questions.pdf",
+        "page": 8,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第23條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 6,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第8條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "102-law-01",
@@ -19497,7 +19953,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 102 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依102年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第11條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/102-law/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -19508,13 +19964,41 @@
     "originalQuestionLabel": "102 年營建法規與實務｜測驗第 48 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "重大共用工程先看所有權人會議；日常執行才看管理組織。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "共用部分與相關設施的拆除、重大修繕或改良，涉及共同權利與重要支出，應依區分所有權人會議決議，所以選 D。管委會可依合法決議執行管理，不能把重大處分與一般日常維護混成同一權限。是否屬重大或有緊急必要等實際爭議，仍須按事實與法令處理，本題是在辨認一般決議層級。\n本題依102年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第11條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 管委會不是本題重大共用設施處置的法定決議主體。",
+      "B 管理負責人的執行管理角色不取代所有權人會議。",
+      "C 管理服務人為受託執行，並無此項共同決議權。",
+      "D 區分所有權人會議決議，符合第11條一般規則。"
+    ],
+    "explanationSources": [
+      {
+        "title": "102年營建法規與實務原題",
+        "url": "assets/102-law/questions.pdf",
+        "page": 5,
+        "version": "民國102年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/102-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第11條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 3,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "102-law-49",
@@ -19755,7 +20239,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 102 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依102年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第12條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/102-law/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -19766,13 +20250,41 @@
     "originalQuestionLabel": "102 年營建法規與實務｜測驗第 54 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "漏水先找來源與責任，再分費用；不是水從上來就一律上層全付。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "本題官方答案採共同樓地板等維修規則作比較：原則由上下方區分所有權人共同負擔，但若有可歸責一方的事由，應由該方負擔，因此 D 同時保留原則與例外。不能只看水往下流就全部叫上層或下層出錢。題目用住戶作概括，實際條文主體為區分所有權人，並須先查漏水來源及構造屬性。若實際是單戶防水層或個別器具漏水，不能未查明就套共同負擔。\n本題依102年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第12條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 只說共同負擔，漏掉可歸責一方的例外，非最完整答案。",
+      "B 上方不因地理位置就必然負擔全部，需查原因。",
+      "C 下方受害者不當然就是全部費用負擔人。",
+      "D 共同負擔原則加上可歸責者負擔例外，為完整答案；實務須辨認法定主體。"
+    ],
+    "explanationSources": [
+      {
+        "title": "102年營建法規與實務原題",
+        "url": "assets/102-law/questions.pdf",
+        "page": 5,
+        "version": "民國102年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/102-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第12條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 3,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "102-law-55",
@@ -22433,7 +22945,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 103 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依103年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第15條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/103-law/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -22444,13 +22956,41 @@
     "originalQuestionLabel": "103 年營建法規與實務｜測驗第 36 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "主要計畫實施進度記5／25，別與計畫失效或工程期限混淆。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "主要計畫的實施進度，依題定都市計畫法第15條以5年為一期，最長不得超過25年，因此選 D。兩個數字分別是分期單位與最長進度範圍，不是工程保固、計畫必須每25年失效或所有建設都須同時完成的意思。遇到數字組合題，先在草稿寫5／25再逐項比，不要只認出其中一個數字就選。\n本題依103年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第15條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 5年一期正確，但最長15年不符題定規定。",
+      "B 5年一期正確，最長20年仍錯。",
+      "C 10年一期及20年上限都不符本題。",
+      "D 5年一期、最長25年，兩個欄位均正確。"
+    ],
+    "explanationSources": [
+      {
+        "title": "103年營建法規與實務原題",
+        "url": "assets/103-law/questions.pdf",
+        "page": 4,
+        "version": "民國103年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/103-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第15條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 3,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "103-law-37",
@@ -22992,7 +23532,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 103 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依103年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3、4、5條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/103-law/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -23003,13 +23543,53 @@
     "originalQuestionLabel": "103 年營建法規與實務｜測驗第 49 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "專有是所有權標的；約定專用是共用部分的使用安排。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "專有部分要具使用獨立性並為區分所有標的；A卻把共用部分約定給特定所有權人使用的約定專用定義，放到專有部分上，所以錯誤。其餘還涉及專有與共用持分不得任意分離移轉、以及使用不能違反共同利益。所有權分類與使用安排是兩個軸，應先分清再看處分及利用限制。\n本題依103年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3、4、5條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 此為約定專用的定義，不是專有部分，為答案。",
+      "B 使用獨立且為區分所有標的是專有部分定義。",
+      "C 專有、共用持分及基地權利間有不得任意分離移轉的限制。",
+      "D 專有部分的利用仍不能違反區分所有權人的共同利益，非毫無限制。"
+    ],
+    "explanationSources": [
+      {
+        "title": "103年營建法規與實務原題",
+        "url": "assets/103-law/questions.pdf",
+        "page": 5,
+        "version": "民國103年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/103-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第3條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 1,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第4條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 1,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "公寓大廈管理條例第5條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "103-law-50",
@@ -23035,7 +23615,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 103 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依103年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第8條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/103-law/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -23046,13 +23626,41 @@
     "originalQuestionLabel": "103 年營建法規與實務｜測驗第 50 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "違規外牆設施要看特定程序；本題回復原狀一個月。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "本題違規裝設鐵窗，經制止不遵從後，除報請主管機關處理，住戶依題定條文應於一個月內回復原狀，故選 A。期限不是先由住戶任意選擇，也不表示任何鐵窗或防墜設施都一律相同；是否符合合法防墜例外與不妨礙逃生等條件，須另依完整事實核對。\n本題依103年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第8條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 一個月為題定違反外牆等限制後的回復期限。",
+      "B 兩個月不符此題所問期限。",
+      "C 三個月不是本題回復原狀期限，勿與其他管理程序混用。",
+      "D 六個月不符條文明定的這個程序。"
+    ],
+    "explanationSources": [
+      {
+        "title": "103年營建法規與實務原題",
+        "url": "assets/103-law/questions.pdf",
+        "page": 5,
+        "version": "民國103年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/103-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第8條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "103-law-51",
@@ -24903,7 +25511,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 104 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依104年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第15、22條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/104-law/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -24914,13 +25522,47 @@
     "originalQuestionLabel": "104 年營建法規與實務｜測驗第 12 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "比例尺看分數大小：分母越小，比例越大；主要1萬、細部1200。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "主要計畫圖比例尺不得小於1/10000，細部計畫圖不得小於1/1200，故選 B。比例尺是分數，分母越小表示圖上比例越大、通常可表現較細；不得小於不能誤讀成分母不得小於。像1/5000比1/10000更大，單就主要圖比例可符合較大要求，但同組細部若為1/1500仍不合題定最低比例。\n本題依104年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第15、22條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 主要圖1/15000較小，不符1/10000最低要求。",
+      "B 主要1/10000、細部1/1200，符合題定。",
+      "C 細部1/1500較1/1200小，不符最低比例。",
+      "D 主要1/5000雖較大，細部1/1500仍不足，因此整組錯。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年營建法規與實務原題",
+        "url": "assets/104-law/questions.pdf",
+        "page": 2,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第15條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 3,
+        "version": "民國 110 年 05 月 26 日"
+      },
+      {
+        "title": "都市計畫法第22條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 4,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "104-law-13",
@@ -26112,7 +26754,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 104 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依104年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第22、15條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/104-law/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -26123,13 +26765,47 @@
     "originalQuestionLabel": "104 年營建法規與實務｜測驗第 39 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "主要看主幹系統；細部看地區配置與使用管制。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "細部計畫著重地區範圍、使用分區管制、事業財務、道路及地區性公共設施；主要上下水道系統則屬主要計畫層次，故問非細部列舉時選 D。不要只因上下水道也是公共設施，就忽略主要與地區性的層級差別。實務計畫會彼此銜接，但本題是在對照法條列舉內容。\n本題依104年原卷給分；參考上傳的都市計畫法（民國 110 年 05 月 26 日）第22、15條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 計畫地區範圍是細部計畫所需表明事項。",
+      "B 土地使用分區管制屬細部計畫列舉。",
+      "C 地區性公共設施用地屬細部內容。",
+      "D 主要上下水道系統列於主要計畫，是本題答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年營建法規與實務原題",
+        "url": "assets/104-law/questions.pdf",
+        "page": 4,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第22條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 4,
+        "version": "民國 110 年 05 月 26 日"
+      },
+      {
+        "title": "都市計畫法第15條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 3,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "104-law-40",
@@ -29947,7 +30623,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 105 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/105-law/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -29958,13 +30634,41 @@
     "originalQuestionLabel": "105 年營建法規與實務｜測驗第 48 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "共用與約定共用，差在原本是不是專有。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "題幹說專有以外、不屬專有的附屬建物，且供共同使用，正是共用部分定義，因此選 C。約定共用則必須原本是專有，再透過約定供共同使用；不能只看到共同使用四字就忽略原本權利分類。約定專用相反，是共用部分給特定人使用，仍需受法定限制。\n本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第3條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 約定共用原本是專有，本題已說不是專有，所以不符。",
+      "B 約定專用是共用部分供特定人使用，不是題幹共同使用的定義。",
+      "C 專有以外且供共同使用，符合共用部分。",
+      "D 題幹明示專有以外，不能再選專有。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年營建法規與實務原題",
+        "url": "assets/105-law/questions.pdf",
+        "page": 5,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第3條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 1,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "105-law-49",
@@ -30033,7 +30737,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 105 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第6條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/105-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -30044,13 +30748,41 @@
     "originalQuestionLabel": "105 年營建法規與實務｜測驗第 50 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "私人設管要用共用管道，先走管理同意程序。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "設管線需使用共用管道間時，依題定住戶義務規則，應先經管理負責人或管委會同意，四個選項中選 D。當層或上下層住戶的同意不能直接取代共同設施的管理程序；另一方面，已獲管理同意也不代表可損害其他專有部分或違反消防等要求，仍要採最少損害的方法並處理修復補償。\n本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第6條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 只有當層住戶同意，不足以取代共用部分的法定管理同意。",
+      "B 上下層住戶不是本題管道間管理同意的直接主體。",
+      "C 題定程序不是一律要求全體住戶逐人同意。",
+      "D 管委會同意符合題意；未成立者仍依條文看管理負責人。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年營建法規與實務原題",
+        "url": "assets/105-law/questions.pdf",
+        "page": 6,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第6條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "105-law-51",
@@ -30076,7 +30808,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 105 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第12條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/105-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -30087,13 +30819,41 @@
     "originalQuestionLabel": "105 年營建法規與實務｜測驗第 51 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "自然老化先依共同壁雙方原則；可歸責一方才另分責任。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "共同壁及其管線因自然老化需要維修，本題未給任何一方可歸責的事由，依一般原則由共同壁兩方區分所有權人共同負擔，選 C。若事實變成某方破壞或其他可歸責原因，責任會不同；也要先確定是題定共同壁及其管線，而不是服務全棟的另一共用系統。\n本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第12條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 不能只以管線所有權名稱忽略共同壁相關維修的特定法定分配。",
+      "B 此題不是全棟共用設施一般費用，不應自動由全體所有權人負擔。",
+      "C 雙方共同負擔符合題定自然老化且無歸責一方的情境。",
+      "D 管委會決議不是本題費用主體的直接法定答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年營建法規與實務原題",
+        "url": "assets/105-law/questions.pdf",
+        "page": 6,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第12條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 3,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "105-law-52",
@@ -30119,7 +30879,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 105 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第29條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/105-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -30130,13 +30890,41 @@
     "originalQuestionLabel": "105 年營建法規與實務｜測驗第 52 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "委員互推主委；不要把住戶、所有權人與委員三個圈混成一個。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "本題管委會已成立，問主任委員如何產生。依題定一般規則，由管理委員互推一人，因此選 C。先選或產生委員，再由委員互推主委，是與全體住戶直接投主委不同的層次；起造人在管理組織成立前的角色也不能直接當作成立後的主任委員。實際選任仍須核對適用規約與會議決議。\n本題依105年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第29條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 全體住戶包含不一定有相同權限的各種身分，非本題產生方式。",
+      "B 不能把所有權人選管理委員的層次，直接替換成主委產生程序。",
+      "C 管理委員互推一人為主任委員，符合答案。",
+      "D 起造人的過渡管理義務不等於永久或自動擔任主委。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年營建法規與實務原題",
+        "url": "assets/105-law/questions.pdf",
+        "page": 6,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第29條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 8,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "105-law-53",
@@ -32254,7 +33042,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 106 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依106年原卷給分；參考上傳的建築法（民國 111 年 05 月 11 日）第9、39條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/106-law/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -32265,13 +33053,47 @@
     "originalQuestionLabel": "106 年營建法規與實務｜測驗第 21 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "改建可動部分構造，但不增高擴面；能改不等於免許可。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "改建是拆除原建物的一部分，在原基地範圍內改造且不增高、不擴面。定義並未說主要構造完全不得改變，因此 D 錯誤。可改變不代表可不申請，仍需按相應許可及設計安全辦理。主要構造不得變動是其他特定免變更或一次報驗條件中的限制，不能移植成所有改建的定義。\n本題依106年原卷給分；參考上傳的建築法（民國 111 年 05 月 11 日）第9、39條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 部分拆除後改造符合改建的題定定義。",
+      "B 不增加高度或面積是題定改建條件。",
+      "C 在原建築基地範圍內改造，是定義的一部分。",
+      "D 主要構造不得改變不是改建定義的絕對限制，為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年營建法規與實務原題",
+        "url": "assets/106-law/questions.pdf",
+        "page": 2,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "建築法第9條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      },
+      {
+        "title": "建築法第39條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 6,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "106-law-22",
@@ -33466,7 +34288,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 106 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依106年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第7條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/106-law/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -33477,13 +34299,41 @@
     "originalQuestionLabel": "106 年營建法規與實務｜測驗第 49 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "共用主要構造關係全棟安全，不能因在戶內就當成個人可排他處分。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "基礎、主要梁柱、承重牆、樓地板及屋頂構造是維繫全棟安全的共用主要構造，依題定規則不得獨立供作專有，也不得約定專用，因此選 D。不能因某根柱或某段樓板位於某戶範圍，就讓該戶排他處分而影響整體安全。所有權分類與日常可接近位置不必然相同，仍應查圖說及適用規定。\n本題依106年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第7條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 此類共用主要構造不得任意獨立使用，敘述不完整且方向錯誤。",
+      "B 將列舉共同主要構造直接說成專有，不符題定分類。",
+      "C 兩種排他安排都不符本題對主要構造的限制。",
+      "D 不得獨立使用，也不得約定專用，符合條文明列限制。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年營建法規與實務原題",
+        "url": "assets/106-law/questions.pdf",
+        "page": 4,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第7條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "106-law-50",
@@ -33853,7 +34703,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 106 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依106年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第10條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/106-law/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -33864,13 +34714,41 @@
     "originalQuestionLabel": "106 年營建法規與實務｜測驗第 58 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "所有權是共用，不代表專用使用人的維護費都由大家付。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "專有部分由其所有權人處理修繕管理費；約定專用部分則由該使用人負擔相應修繕、管理及維護，故本題選 C。這與一般共用、約定共用部分由管理組織處理及基金或共同分擔的制度不同。實際還需核對標的屬性及有效規定，不能只因仍是共用所有就把專用使用成本都丟回全體。\n本題依106年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第10條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 公共基金是其他共用維護情境的可能來源，非此題約定專用的一般答案。",
+      "B 管委會執行管理不代表費用由委員會成員自行負擔。",
+      "C 約定專用部分使用人負擔題定修繕管理維護費，符合答案。",
+      "D 管理負責人不是本題該專用部分費用的一般負擔人。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年營建法規與實務原題",
+        "url": "assets/106-law/questions.pdf",
+        "page": 5,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第10條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 3,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "106-law-59",
@@ -47688,7 +48566,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 110 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依110年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第18條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/110-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -47699,13 +48577,41 @@
     "originalQuestionLabel": "110 年營建法規與實務｜測驗第 57 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "掌帳戶是管理，決定基金用途要看區分所有權人會議。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "公共基金須設專戶，由管理負責人或管委會負責管理，但其運用應依區分所有權人會議決議，因此選 D。管理、保管與決定用途是不同權限；不能因管委會掌握帳戶，就把所有重大用途決策都視為可自行處理。具體支出仍應按合法決議、規約及適用條文執行並保存財務紀錄。\n本題依110年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第18條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 管委會有管理執行角色，但不等於可取代條文所要求的所有權人會議決議。",
+      "B 管理負責人負責管理，不是本題基金用途的最高決議主體。",
+      "C 管理服務人是受委任執行者，不能自行決定基金用途。",
+      "D 依區分所有權人會議決議運用，符合本題。"
+    ],
+    "explanationSources": [
+      {
+        "title": "110年營建法規與實務原題",
+        "url": "assets/110-law/questions.pdf",
+        "page": 6,
+        "version": "民國110年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/110-law/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第18條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 4,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "110-law-58",

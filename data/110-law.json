@@ -2431,7 +2431,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 110 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依110年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第18條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/110-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2442,13 +2442,41 @@
     "originalQuestionLabel": "110 年營建法規與實務｜測驗第 57 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "掌帳戶是管理，決定基金用途要看區分所有權人會議。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "公共基金須設專戶，由管理負責人或管委會負責管理，但其運用應依區分所有權人會議決議，因此選 D。管理、保管與決定用途是不同權限；不能因管委會掌握帳戶，就把所有重大用途決策都視為可自行處理。具體支出仍應按合法決議、規約及適用條文執行並保存財務紀錄。\n本題依110年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第18條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 管委會有管理執行角色，但不等於可取代條文所要求的所有權人會議決議。",
+      "B 管理負責人負責管理，不是本題基金用途的最高決議主體。",
+      "C 管理服務人是受委任執行者，不能自行決定基金用途。",
+      "D 依區分所有權人會議決議運用，符合本題。"
+    ],
+    "explanationSources": [
+      {
+        "title": "110年營建法規與實務原題",
+        "url": "assets/110-law/questions.pdf",
+        "page": 6,
+        "version": "民國110年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/110-law/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第18條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 4,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "110-law-58",

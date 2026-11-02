@@ -6618,7 +6618,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -6629,13 +6629,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 3 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "比較U先比總熱阻，材料與厚度都不能漏。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "比較外牆熱傳透率U，先看各層熱阻R＝d/k及表面熱阻，U約為總R的倒數。依本題一般材料與厚度，一磚厚紅磚牆通常比題列RC牆及薄單層玻璃具有較高熱阻，故U最低選 C。這是典型構造比較，仍須核對實際磚種、孔洞、含水、砂漿及厚度；不能只憑材料名稱對所有產品作固定排序。",
+    "optionExplanations": [
+      "A 12cmRC的典型導熱較高、厚度較小，非本題最低U者。",
+      "B 15cmRC比12cm同材RC熱阻較大，但題定比較仍不及一磚厚紅磚牆。",
+      "C 一磚厚紅磚牆依本題常見構造具有較佳熱阻，為答案。",
+      "D 8mm單層玻璃缺少保溫空氣層，通常U較高，不是最低。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 1,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-04",
@@ -6747,7 +6769,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -6758,13 +6780,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 6 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "全外氣先問污染能否回用，不是只問空間大不大。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "全外氣系統不把一般室內回風直接混回供氣，適合需嚴格控制氣味、污染交叉等特定用途。動物實驗室在題定比較中有這類需求，因此選 D。實際仍需依動物種類、感染或化學危害、壓差及排氣處理分區設計；全外氣不等於不需過濾或可把污染排氣任意排放，也不能說所有實驗室都採完全相同配置。",
+    "optionExplanations": [
+      "A 游泳池有高濕及空氣品質需求，但非本題全外氣的最典型選項。",
+      "B 大型球場需大量通風，仍不代表必須全部用一次外氣。",
+      "C 地下捷運站有特定通風策略，不是本題最直接的全外氣用途。",
+      "D 動物實驗室的污染及交叉傳播控制，使其成為題定答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-07",
@@ -6790,7 +6834,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -6801,13 +6845,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 7 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "冷房：室內蒸發吸熱、室外冷凝放熱；可逆熱泵別忘模式會換。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "在一般分離式冷氣的冷房模式，室內蒸發器吸收室內熱，室外冷凝器放熱，壓縮機通常在室外。因此 A 把室內外的主要換熱器位置說反，是答案。若是可逆熱泵，暖房時兩側換熱角色可能交換，所以解題須保留冷房模式前提。冷媒管、配管長度與室內凝結水排放也各有設計要求。",
+    "optionExplanations": [
+      "A 冷房時室內是蒸發器、室外是冷凝器，此項顛倒，故錯。",
+      "B 多聯式配置可一室外搭多室內，但須符合產品能力及配管規格。",
+      "C 冷媒管長與高差會影響壓損、回油及效率，需依廠商條件。",
+      "D 冷卻除濕可在室內盤管產生凝結水，必須妥善排放。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-08",
@@ -6833,7 +6899,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -6844,13 +6910,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 8 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "自然通風看風壓與浮力；水氣擴散不是整室換氣。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "建築自然通風的主要驅動是風壓差，以及溫差造成空氣密度差而形成的浮力壓差；重力在浮力機制中扮演角色。水蒸氣壓差主要與水分擴散等傳質有關，不是本題建築整體換氣的主要驅動，因此選 C。濕度仍會影響空氣狀態與舒適，但不能把水氣擴散和大量空氣流動當成同一件事。",
+    "optionExplanations": [
+      "A 溫差可產生密度差及浮力通風，是主要機制。",
+      "B 風在建築表面形成壓差，可驅動開口換氣。",
+      "C 水蒸氣壓差不是題定整體自然通風的主要驅動，為答案。",
+      "D 重力與風壓可對應浮力及風力共同作用，非本題排除項。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-09",
@@ -6876,7 +6964,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -6887,13 +6975,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 9 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "建築要氣密，空氣要計畫換；別靠縫隙當通風設計。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "氣密建築減少非預期漏氣，有助控制能耗與外部干擾，但若沒有另設足夠的計畫換氣，室內人員與材料污染物可能累積。因此最應注意換氣量不足，選 B。不是應該把建築故意做漏，而是把必要通風變成可設計、可維護的系統。氣密不等於室內空氣品質自動良好，也不代表一密閉就一定缺氧。",
+    "optionExplanations": [
+      "A 隔音與氣密可相關，但本題最直接的代價是缺少必要換氣。",
+      "B 原有漏氣減少後，須確保計畫性換氣量，為答案。",
+      "C 防火仍重要，但不是此題氣密化的特定直接風險答案。",
+      "D 氣密通常減少非預期室外滲透，仍須設計取氣與過濾，不是本題主要選項。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-10",
@@ -6919,7 +7029,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -6930,13 +7040,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 10 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "FCU會冷不等於會換氣；新風要另外交代。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "FCU主要處理室內循環空氣，不能只因室溫下降就當成已補足外氣。另設外氣預冷空調箱，可處理並供應所需新鮮空氣，題目主要目的選 C。預冷與除濕可協助熱濕負荷處理，但不會讓引入外氣的負荷憑空消失；仍需按人員、污染與濕負荷設計外氣量及處理能力。",
+    "optionExplanations": [
+      "A 補新風不是主要為了短暫冷量不足，需先辨認空氣品質需求。",
+      "B 移轉用電尖峰較像儲冰或運轉排程目的，不是此題外氣箱核心。",
+      "C 供應經適當處理的必要外氣，可改善僅室內循環的不足，為答案。",
+      "D 外氣處理會重新分配設備負擔，但主要目的不是把總熱負荷直接消除。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-11",
@@ -6962,7 +7094,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -6973,13 +7105,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 11 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "熱濕被動設計先顧可用氣流，也要確認外氣是否真的幫忙。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "熱濕地區常利用合適自然通風提高氣流、帶走可排除的室內熱，並改善人體對流與蒸發散熱，因此本題選 A。蒸發冷卻在高濕環境可用潛力較小；大熱容量若無夜間散熱條件，也可能留住熱。被動策略需比較內外氣候、污染與噪音，不可只靠一個熱帶標籤就任何時候開窗。",
+    "optionExplanations": [
+      "A 自然通風是本題熱濕氣候的典型被動冷卻手法。",
+      "B 外氣已濕時，蒸發冷卻的降溫空間較受限制，可能加重濕負荷。",
+      "C 輻射冷卻可有特定應用，但熱濕多雲條件需仔細評估，非本題主要答案。",
+      "D 儲熱需搭配可排熱時段，不能在持續濕熱時只加熱容量就當冷卻。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-12",
@@ -7005,7 +7159,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -7016,13 +7170,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 12 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "理想線源距離倍增少3dB；點源才是少6dB。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "題目將高速公路簡化為線音源。理想長線音源的聲強約與距離成反比，距離由50m加倍到100m，聲級減少10log10(2)約3dB，因此70降至約67dB(A)，選 B。這與點音源球面擴散的距離加倍少6dB不同；真實道路有限長、車流、地面與屏障都可能改變衰減。",
+    "optionExplanations": [
+      "A 70不變忽略了題定距離擴散。",
+      "B 約少3dB得到67dB(A)，符合線音源理想比較。",
+      "C 64dB(A)是減6dB，誤套點音源規則。",
+      "D dB不是距離加倍就數值除二，35dB(A)無此根據。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-13",
@@ -7091,7 +7267,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -7102,13 +7278,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 14 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "音調看頻率，音色看頻譜；響度不是只看dB。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "音調主要對應頻率，音色與頻譜或波形有關，主觀響度則同時受到聲級、頻率及聽覺敏感度等影響。因此 D 說音的大小與頻率無關是錯誤。相同聲壓級的低頻與中頻純音，可能聽起來不一樣大；不能把物理聲壓級dB與主觀響度當成完全相同量。其他簡化說法也應保留基本聽覺比較的條件。",
+    "optionExplanations": [
+      "A 頻率影響音調高低，是基本辨識關係。",
+      "B 聲波強弱會影響主觀大小，但不是唯一因素。",
+      "C 波形與頻譜成分影響音色，是題定基本概念。",
+      "D 響度有頻率依存性，不能說無關，故為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-15",
@@ -7220,7 +7418,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -7231,13 +7429,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 17 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "自身排水叫自行，別處影響叫誘導；負壓吸、正壓推。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "存水彎水封可因壓力、虹吸、蒸發或毛細等作用流失。毛髮纖維若形成跨越水封邊緣的吸水路徑，毛細作用可能帶走水分，因此選 D。自行虹吸源於本器具排水，誘導虹吸受其他排水造成的管內壓力影響；背壓則是正壓將水封推出，三者不能互換名稱。須依實際成因維護與改善，而非只補水就永久解決。",
+    "optionExplanations": [
+      "A 其他器具或樓層排水影響較接近誘導虹吸，不是自行虹吸定義。",
+      "B 本器具排水慣性造成的虹吸較接近自行虹吸，題目把名稱交換。",
+      "C 背壓破封主要是正壓推出水封，不是負壓吸入。",
+      "D 纖維等雜物形成毛細導水路徑，可造成水封損失，為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-18",
@@ -7263,7 +7483,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -7274,13 +7494,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 18 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "給水要合適壓力，不是最大壓力；數字仍須看器具規格。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "本題問一般給水器具的典型合適使用壓力，依題定比較選1.0至3.0kgf/cm²，即B。壓力太低可能影響出水與設備功能，太高則增加噪音、漏損與器具負擔。原題寫kg/cm²，工程壓力在此應理解為kgf/cm²；實際設備仍須依產品最低與最高壓力、管路損失及適用規定設計，不能將此歷年範圍套到每種器具。",
+    "optionExplanations": [
+      "A 0.3至0.7可能不足以滿足部分器具使用要求，非題定最適範圍。",
+      "B 1.0至3.0kgf/cm²為本題一般器具的答案。",
+      "C 6至8對一般器具通常偏高，應注意減壓與產品限制。",
+      "D 10至15更非本題一般正常使用的適當壓力。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 2,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-19",
@@ -7306,7 +7548,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -7317,13 +7559,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 19 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "給水四件事：水質、水量、穩定、適壓；不是追求最大。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "給水系統要提供合適水質、足夠水量、穩定供給與適當壓力。最大壓力不是目標，過高壓力可能增加漏水、噪音與器具損害，因此錯誤選項為 B。設計應在不利點仍達最低使用需求，同時避免其他位置超壓；需要時依系統採分區、減壓或其他控制，而不是單純把泵浦壓力越調越高。",
+    "optionExplanations": [
+      "A 合適水質是基本衛生與使用條件。",
+      "B 追求最大壓力可能造成反效果，應為適當受控壓力，故為答案。",
+      "C 充足水量是滿足需求的基本條件。",
+      "D 穩定供水與設備可靠性亦屬基本要求。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 3,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-20",
@@ -7490,7 +7754,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -7501,13 +7765,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 23 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "變風量省的是可減的輸送功；必要新風不能一起省掉。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "定風量系統常在部分負荷時仍維持較大送風量；妥善控制的變風量系統可降低部分負荷風量與風機功率，因此 D 一概說定風量比變風量耗能小是錯誤。比較仍須確保新風、最低風量與控制需求相同。CO2控制、熱回收與儲冰各有用途，節能或費用效果須連同運轉條件檢查，不能將單一技術當作永遠省能。",
+    "optionExplanations": [
+      "A CO2可作人員相關通風需求的參考，但不能代表所有污染物，最低外氣仍須保留。",
+      "B 適用條件下全熱交換可回收顯潛熱，減少新風處理負荷。",
+      "C 儲冰可調整電力尖峰及主機規模，不代表室內冷房需求憑空減少或總耗能必降。",
+      "D 在典型部分負荷比較，變風量可減少風機能耗，此項方向錯誤，為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 3,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-24",
@@ -7533,7 +7819,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -7544,13 +7830,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 24 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "外氣冷房是用適合外氣；氣冷式是設備散熱方式，別混名詞。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "當室外空氣的溫濕狀態適合，可直接引入較涼外氣取代部分機械冷房，這種外氣冷房或外氣冷卻方式對應選項 C。是否適合不能只看乾球溫度，還要考慮含濕量、焓、污染及控制方式。它也不同於室外機以空氣冷卻冷凝器的氣冷式冷凍設備，兩者雖都接觸室外空氣，功能路徑不同。",
+    "optionExplanations": [
+      "A 直接冷氣不是本題所要辨認的外氣冷房標準選項。",
+      "B 間接冷卻與直接送入室外空氣的題意不同。",
+      "C 利用適當外氣冷卻室內，符合本題名稱。",
+      "D 氣冷式通常指設備冷凝側散熱方式，不等於把外氣直接送進房間。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 3,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-25",
@@ -7662,7 +7970,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -7673,13 +7981,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 27 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "吸收式是熱驅動循環，不是無泵、無能耗的冷凍機。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "吸收式冷凍機以吸收、溶液輸送與熱驅動再生等過程建立冷媒循環，不以一般蒸氣壓縮式的冷媒氣體壓縮機作核心，因此選 B。這不代表完全沒有泵浦或輸入能源，而是驅動與升壓機制不同。離心、往復與螺旋式則都是以不同機械構造壓縮冷媒蒸氣的型式。",
+    "optionExplanations": [
+      "A 離心式以葉輪等作動提高冷媒壓力，仍有壓縮機。",
+      "B 吸收式無題目所指機械冷媒氣體壓縮機，為答案，但仍有其他設備及能源需求。",
+      "C 往復式透過活塞等機械作動壓縮，不符無壓縮機。",
+      "D 螺旋式透過螺桿機構壓縮，也有壓縮機。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 3,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-28",
@@ -7969,7 +8299,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -7980,13 +8310,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 34 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "流明是通量、cd是光度、lux是照度、cd/m²是輝度。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "照度E是落到單位面積上的光通量，常用E＝Φ/A，單位lux＝lm/m²。B把光通量誤寫成光度，因此錯誤。光度或發光強度I以cd表示，和特定方向單位立體角的光通量有關。名詞只差一字，物理定義卻不同，應把lm、cd、lux及cd/m²分成不同量理解。",
+    "optionExplanations": [
+      "A 380至780nm為可見光常用概略範圍，實際視覺感度在邊界漸變。",
+      "B 照度是單位面積光通量，不是單位面積光度，故為答案。",
+      "C 光通量的單位為流明lm，正確。",
+      "D 發光強度單位為坎德拉cd，亦常稱燭光，正確。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 4,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-35",
@@ -8012,7 +8364,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -8023,13 +8375,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 35 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "省電、供電品質與看得舒服要分項評估，不能拿功率因數代替。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "照明品質直接關係輝度分布、均齊、眩光及視覺工作條件。功率因數描述交流電有功功率與視在功率的比例，是供電與電氣效率評估量，非本題直接視覺品質項目，因此選 B。良好電氣性能仍重要，且某些驅動器特性可能同時影響閃爍等問題，但不能因此把功率因數本身直接當作眩光或視覺舒適的量。",
+    "optionExplanations": [
+      "A 輝度分布影響視覺適應及對比，屬照明品質。",
+      "B 功率因數屬電氣特性，不是本題直接照明品質因子，為答案。",
+      "C 均齊度反映照明分布，關係作業舒適與可視性。",
+      "D 眩光直接影響視覺舒適或辨識能力，屬品質要點。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 4,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-36",
@@ -8184,7 +8558,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 100 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/100-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -8195,13 +8569,35 @@
     "originalQuestionLabel": "100 年建築環境控制｜測驗第 39 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "功率因數不是越低越好；費用管理、用電量與散熱分開算。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "功率因數PF＝有功功率/視在功率。相同有功需求與電壓下，PF降低會增加所需電流與視在容量，可能增加線路損失及電費問題，不是提升設備效益並取得折扣的方法，所以 C 錯誤。契約容量與移轉尖峰主要改善費用及需量管理，不能全部等同降低總用電量；變壓器散熱也應以適當通風及設備設計處理。",
+    "optionExplanations": [
+      "A 合理契約容量可避免不必要的超約費用，但不直接代表少用幾度電。",
+      "B 調整時程與需量控制可降低尖峰超載及相關費用。",
+      "C 降低功率因數方向錯誤，不能視作提高效益或優惠的通則，為答案。",
+      "D 通風可協助帶走變壓器熱，這是散熱管理，不是風機把變壓器固有損失變不見。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年建築環境控制原題",
+        "url": "assets/100-environment/questions.pdf",
+        "page": 4,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-environment-40",

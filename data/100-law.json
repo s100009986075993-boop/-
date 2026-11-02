@@ -2326,7 +2326,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 100 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依100年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第7條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/100-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2337,13 +2337,41 @@
     "originalQuestionLabel": "100 年營建法規與實務｜測驗第 54 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "連通多戶與出入口的必要動線，不可私有化，也不可任意約定專用。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "連通數個專有部分的走廊、樓梯及通往室外的通路或門廳，涉及共同通行與避難，不得任意改作專有部分；其中屬條文明列者也不得約定專用，因此選 B。不是取得少數人同意就能把必要公共動線封給某戶。約定共用又是另一種定義，指原本專有部分經約定共同使用，不能拿來替換此題。\n本題依100年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第7條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 必要共同通路不得任意變成個人專有，敘述錯誤。",
+      "B 不得任意改作專有，符合共用通行設施的限制。",
+      "C 此類明列公共通路不得約定專用，不能僅靠約定排除他人。",
+      "D 約定共用的定義不適用題目原本的共同走廊，非本題正確原則。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年營建法規與實務原題",
+        "url": "assets/100-law/questions.pdf",
+        "page": 6,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第7條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "100-law-55",
@@ -3401,7 +3429,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 100 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依100年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第17條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
     "image": "assets/100-law/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -3412,13 +3440,41 @@
     "originalQuestionLabel": "100 年營建法規與實務｜測驗第 79 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "合法營業仍須處理其增加的他戶保費差額。",
+    "explanationBatch": "2026-11-02-05",
+    "solution": "依法在大廈內經營餐飲等活動，除有公共意外責任保險要求外，若因此增加其他住戶火災保險費，也須由經營該活動的住戶補償差額，所以選 B。合法營業不代表相關外部成本就必須由大家共同吸收。是否真的增加、增加多少及程序仍需依事實與適用辦法核對，不能任意估一筆款項。\n本題依100年原卷給分；參考上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第17條。上傳版本不代表考試年度全文或當前有效版本；本解析非現行法規結論，沿革及現行性仍待核對。",
+    "optionExplanations": [
+      "A 不應把此特定營業所增加的差額一律轉由公共基金支出。",
+      "B 由經營餐飲而導致保費增加的住戶負補償責任，為答案。",
+      "C 非一概由全體所有權人共同負擔，應先辨認增加的原因。",
+      "D 決議不能任意抹去題定法定補償主體，非本題答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "100年營建法規與實務原題",
+        "url": "assets/100-law/questions.pdf",
+        "page": 8,
+        "version": "民國100年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/100-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第17條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 4,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "100-law-80",
