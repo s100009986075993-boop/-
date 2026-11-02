@@ -24354,7 +24354,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -24365,13 +24365,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 1 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "空氣層要一起看傳導、對流與輻射；低放射表面才是不同手段。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "空氣層同時有傳導、對流與表面輻射換熱。題定一般黑色高放射率表面會增加輻射交換，不能說塗黑就提高熱阻，因此選 C。可見光顏色與紅外放射率並非永遠相同，仍應看材料實測。厚度與分層的數字亦為特定構造近似，不能把20mm或加倍效果當所有方向與溫差的通則。",
+    "optionExplanations": [
+      "A 薄氣層傳導常占重要比例，仍有輻射。",
+      "B 增厚後可能形成對流，熱阻不再同比增加。",
+      "C 題定塗黑增加輻射交換，並非提高隔熱。",
+      "D 分層可抑制對流與增加串聯熱阻，倍數須看構造。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 1,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-02",
@@ -24397,7 +24419,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -24408,13 +24430,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 2 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "厚度換公尺，各層d/k加表面阻；最後要U才取倒數。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "各層熱阻串聯R＝Ro＋0.15/1.74＋0.03/1.30＋0.02/0.87＋Ri，約0.04＋0.0862＋0.0231＋0.0230＋0.11＝0.2823m²K/W，選 B。厚度須用公尺，總熱阻不是各導熱率相加；若再求U才取1/R，不能把兩者數值與單位混用。此式忽略接縫及二維熱橋。",
+    "optionExplanations": [
+      "A 0.15僅是兩表面熱阻和，漏掉材料層。",
+      "B 約0.28，符合各層串聯。",
+      "C 0.41不符厚度除導熱率。",
+      "D 0.57亦非本題串聯結果。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 2,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-03",
@@ -24440,7 +24484,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -24451,13 +24495,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 3 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "乾球、濕球、含濕量與相對濕度是不同座標，別把一項不變套全部。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "空氣未加濕、未結露的顯熱冷卻會使乾球溫度與比焓下降，因此選 D。加熱時相對濕度通常降低，含濕量不因此增加；濕球溫度也不會在一般顯熱冷卻過程保持固定。由25°C、50%降至20°C通常尚未到露點，故可用不變含濕量理解；若跨越露點則須計入凝結除濕。",
+    "optionExplanations": [
+      "A 顯熱加熱一般降低相對濕度。",
+      "B 加熱不會憑空增加水氣質量。",
+      "C 顯熱冷卻不保證濕球溫度不變。",
+      "D 溫度下降使比焓降低，符合題意。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 2,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-04",
@@ -24526,7 +24592,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -24537,13 +24603,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 5 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "反潮不是牆一定漏水；先比接觸空氣露點與牆面溫度。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "反潮常是暖濕空氣接觸仍偏冷的牆面，表面低於接觸空氣露點而凝結。只知道戶外氣溫與濕度，沒有壁面溫度及實際室內空氣狀態，不能判定一定結露，所以 D 錯。壁面可能因蓄熱而落後外氣升溫；開窗若引入更濕空氣，未必改善，應先比較露點與表面溫度。",
+    "optionExplanations": [
+      "A 反潮可屬表面結露。",
+      "B 表面低於接觸空氣露點即有凝結風險。",
+      "C 室內露點與壁面溫度可作基本判斷。",
+      "D 僅戶外溫濕度缺乏表面與室內條件。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 2,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-06",
@@ -24569,7 +24657,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -24580,13 +24668,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 6 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "ACH用流量除體積；按人、按面積需求不要再重複乘入。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "換氣次數ACH＝每小時換氣量Q除以室容積V，150/25＝6h⁻¹，選 C。地板面積10m²與3人是可能用來推估需求的其他資料，但本題已給所需流量，不必再乘面積或人數。名義6次/h也不表示每10分鐘所有空氣都完全換新，真實污染衰減還受混合與短路影響。",
+    "optionExplanations": [
+      "A 1次/h不足題定流量。",
+      "B 2次/h不符150/25。",
+      "C 6次/h為正確名義換氣率。",
+      "D 15誤將面積而非體積作分母。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 2,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-07",
@@ -24612,7 +24722,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -24623,13 +24733,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 7 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "暖室浮力：高處出、低處進；有風時再與風壓疊加判斷。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "室內比外氣暖時，空氣密度較低，單一大開口常見上部流出、下部流入的雙向浮力交換；B將方向說反，因此為答案。風壓與浮力可同時作用，實際中性壓力面與流向仍取決其他開口及風況，不是所有窗在任何天候都固定一樣。風力通風則需有效壓差與連通路徑。",
+    "optionExplanations": [
+      "A 暖空氣上出、冷空氣下入符合典型浮力機制。",
+      "B 單開口的題定進出方向顛倒。",
+      "C 迎風正壓、背風負壓為一般模式，局部有變化。",
+      "D 開口間壓差與路徑影響換氣。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 2,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-08",
@@ -24655,7 +24787,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -24666,13 +24798,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 8 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先vA乘3600得每小時流量，再除長寬高體積。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "開口流量Q＝0.1m/s×6m²＝0.6m³/s＝2160m³/h；室容積9×8×3＝216m³，所以ACH＝2160/216＝10次/h，選 A。風速必須是通過有效開口的法向平均值，不能把室內某一點風速直接當成整個開口流速，也不能漏乘3600秒／小時。",
+    "optionExplanations": [
+      "A 2160/216＝10，正確。",
+      "B 20多算一倍。",
+      "C 30不符題定幾何與流速。",
+      "D 15亦非此流量除體積。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 2,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-09",
@@ -24698,7 +24852,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -24709,13 +24863,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 9 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先查ET是哪個版本；指標沒算輻射不代表人體感受不到輻射。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "本題指傳統有效溫度ET，綜合乾球溫度、濕度與氣流的感受，未直接納入輻射溫度，所以選 D。後續修正或其他綜合指標可能處理輻射，不能只因名稱相似就混用。真實熱舒適仍受平均輻射溫度、衣著與活動等影響；未納入某量是指標限制，不是物理上沒有影響。",
+    "optionExplanations": [
+      "A 氣流是題定ET考量因素。",
+      "B 乾球溫度是因素之一。",
+      "C 濕度亦納入傳統ET。",
+      "D 輻射溫度非此傳統三因素指標直接輸入。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 2,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-10",
@@ -24741,7 +24917,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -24752,13 +24928,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 10 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "追日集光後用光纖送光；彎得動也不代表完全沒有彎曲損失。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "光纖集光裝置可用追日與集光光學將直射日光耦入光纖，藉可彎曲導光路徑送至室內，故選 C。導光管通常需考慮管徑、轉折與反射損失，導光板及反射鏡也有不同用途。任意曲折是題目的概括，實際光纖仍有彎曲半徑、耦合效率與傳輸損失限制，陰天能力也不同。",
+    "optionExplanations": [
+      "A 導光板非此追日集光與柔性路徑系統。",
+      "B 導光管有管道與轉折條件，非本題指定者。",
+      "C 集光加光纖輸送符合題述。",
+      "D 反射鏡可改向，但非題定光纖裝置。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 2,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-11",
@@ -24784,7 +24982,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -24795,13 +24993,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 11 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "間接先照天花再反射；柔和、利用率與耗能要分開評估。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "間接照明將約90～100%光通量先送往上方，再經天花等表面反射到使用區，因此選 C。柔和分布有助降低直接眩光，但效果仍受表面反射率與配光影響；多一次反射也可能降低利用率，不能概括間接照明最省電。分類比例是上下出光，不是桌面收到的上下光比例。",
+    "optionExplanations": [
+      "A 為直接型的典型比例。",
+      "B 為半間接型比例。",
+      "C 上方90～100%符合間接照明。",
+      "D 為較均勻向上下分配的類型。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 2,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-12",
@@ -24827,7 +25047,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -24838,13 +25058,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 12 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "教室採光求穩定、分布與控眩，東西曬尤其要管低角度光。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "臺灣東西向開口常面對較低角度直射日光，易出現眩光、熱與明暗變化，不能說一般優於南北向採光，故選 D。北向相對穩定也非全年絕無日射；教室須控制直接光斑與對比，而不是排除一切自然光。應結合方位、季節、遮陽及室內分布設計，不能只背朝向好壞。",
+    "optionExplanations": [
+      "A 日光不足可影響健康與生活節律。",
+      "B 強烈直射光斑可能造成過大對比。",
+      "C 北向一般較穩定，仍有季節與反射例外。",
+      "D 東西向低角度日射並非一般較佳採光。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 2,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-13",
@@ -24921,7 +25163,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -24932,13 +25174,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 14 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "光度cd、照度lx、輝度cd/m²，先分發出方向、受光面與看見表面。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "輝度單位為cd/m²，照度單位lx＝lm/m²，D將輝度寫成lx/m²，故錯。光度是每單位立體角的光通量，cd＝lm/sr；光通量還經人眼光譜敏感度加權。波長380～780nm是題定常用可見範圍近似，邊界並非每個人絕對相同，不可拿它代替輝射功率單位。",
+    "optionExplanations": [
+      "A 為常用可見光範圍近似。",
+      "B 光通量對立體角的密度即光度。",
+      "C 照度確為lm/m²。",
+      "D 輝度應為cd/m²，不是lx/m²。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 2,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-15",
@@ -24964,7 +25228,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -24975,13 +25239,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 15 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "聲壓倍增加6，功率倍增加3，先認清題目增加的是哪個量。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "聲壓級Lp＝20log10(p/p₀)，聲壓振幅加倍時增加20log10(2)約6.02dB，所以選 C。若題目是聲功率或聲強加倍，才用10log10(2)約3dB。這裡比較同一參考下的聲壓，不是兩個音源任意相加；相干與相位也會影響多音源疊加結果。",
+    "optionExplanations": [
+      "A 2dB不是振幅倍增的對數結果。",
+      "B 4dB不符20log10(2)。",
+      "C 約6dB，正確。",
+      "D 8dB亦非題定倍增量。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 2,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-16",
@@ -25050,7 +25336,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -25061,13 +25347,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 17 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "人多通常吸音多、殘響短；空滿席差異還看座椅設計。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "觀眾及衣物一般增加等效吸音量，在同一廳容積下，滿席殘響通常較空席短，所以 C 說反。部分座椅會設計空滿席吸音較接近，以穩定音質；不能認為每廳差值一樣。殘響時間對應音能降為百萬分之一，也就是聲級衰減60dB，並須分頻與採用合適量測方式。",
+    "optionExplanations": [
+      "A 音樂與語音需求不同，音樂常容許較長殘響。",
+      "B 能量降至10⁻⁶對應60dB衰減。",
+      "C 增加觀眾吸音通常使殘響縮短。",
+      "D 固定吸音量時容積增加使殘響延長。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 3,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-18",
@@ -25093,7 +25401,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -25104,13 +25412,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 18 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "聲焦點先想凹曲面；回音則看延遲與反射強度。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "凹曲面可能將反射聲集中而形成聲焦點，一般矩形平面屋頂較不會產生此幾何聚焦，因此 D 錯。回音的約17m路徑差對應約0.05秒延遲，只是辨識近似，還看聲強與內容。遠離聲源的效益則受聲源型態、反射與屏障影響，不能把自由場距離公式套全部環境。",
+    "optionExplanations": [
+      "A A加權常用於環境噪音評估。",
+      "B 約17m差為常用延遲辨識近似，非絕對門檻。",
+      "C 幾何擴散可使聲音隨距離衰減。",
+      "D 圓弧凹面通常較易聚焦，選項說反。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 3,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-19",
@@ -25222,7 +25552,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -25233,13 +25563,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 21 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "排水先看匯流方向與負荷，下游不能任意越接越細。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "重力排水向下游匯流一般不應縮小管徑，立管也不能以不得大於最大橫支管作限制，故 B 錯。管徑仍須依負荷、坡度與系統計算，不是單憑大於某支管即合格。油脂、流速與清掃也需評估；題中坡度數字屬歷年規範選項，現行工程應查所用設計技術規範。",
+    "optionExplanations": [
+      "A 油脂附著需納入尺寸與維護考量。",
+      "B 將立管與最大接入支管的大小限制說反。",
+      "C 下游不任意縮徑是合理排水原則。",
+      "D 為題定歷年坡度要求，現行適用性另核對。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 3,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-22",
@@ -25308,7 +25660,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -25319,13 +25671,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 23 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "設備用途要分型式；會作答不等於可在火場無訓練操作。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "室內消防栓並非一律僅供消防隊使用，適用型式也考慮受訓人員初期應變，因此 B 過度限制，為答案。實際火災應優先警報與安全避難，操作需受訓且有安全條件，不宜把此題理解為任何人都應冒險滅火。灑水與乾粉等設備的適用性還須看火災種類與產品性能。",
+    "optionExplanations": [
+      "A 定溫探測可用於正常熱煙變動較大的適當場所。",
+      "B 僅供消防隊的說法不成立。",
+      "C 自動灑水具初期控制火勢功能。",
+      "D 適用類型乾粉可用於帶電設備火災。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 3,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-24",
@@ -25351,7 +25725,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -25362,13 +25736,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 24 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "保護安全區要控相對壓差與氣流方向，不是只看有沒有抽風。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "要阻止煙進入安全避難區，通常利用相對正壓讓空氣由安全區流向外側，D卻說負壓，因此錯。負壓反而可能把鄰近煙吸入。壓差需兼顧門開啟力、洩漏與火場情境，不能只把風機開大。蓄煙、垂壁與探測器則各負責不同功能，不能互相當作完全替代。",
+    "optionExplanations": [
+      "A 大容積挑高空間可研究蓄煙設計。",
+      "B 定溫型可避免部分溫升速率誤報，仍按場所選擇。",
+      "C 垂壁可限制或延緩煙擴散。",
+      "D 安全區相對負壓不利阻煙，為錯誤。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 3,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-25",
@@ -25437,7 +25833,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -25448,13 +25844,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 26 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "冰水送末端、冷卻水排冷凝熱；全熱回收則處理外氣能量。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "適當全熱交換器可回收較冷乾排風的能量，預冷並降低引入外氣含濕，減少冷房處理負荷，因此選 D。效果須有合適室內外狀態差，亦需考慮洩漏與污染。1冷凍噸約3.517kW熱移除量；冰水回路連接主機與末端，冷卻水回路才通常連冷凝器與冷卻塔。",
+    "optionExplanations": [
+      "A 天花冷送風不必然形成題述顯著層化。",
+      "B 1冷凍噸不是1kW。",
+      "C 將冰水與冷卻水回路混淆。",
+      "D 合理能量回收可降低新風冷房負荷。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 3,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-27",
@@ -25480,7 +25898,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -25491,13 +25909,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 27 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "看EER先查能力、耗電、單位及測試工況，再比較大小。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "EER為冷房能力對輸入電功率的比值，所以選 B。冷房能力是設備可移除多少熱，冷房負荷是空間需要移除多少熱，兩者需匹配但不是同一名詞。比值數字還須看單位：使用W/W與kcal/(h·W)時數值不同，不能跨標示直接比較；測試工況亦需一致。",
+    "optionExplanations": [
+      "A 負荷是需求，非EER定義中的設備能力。",
+      "B 冷房能力除耗電功率為正確定義。",
+      "C 度時是氣候累積指標。",
+      "D 效果一詞未明確表達定義物理量。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-28",
@@ -25523,7 +25963,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -25534,13 +25974,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 28 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "大空間長射程先想噴嘴，再檢查是否吹到人、太吵或冷風下墜。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "航站挑高大廳需要較長射程時，噴嘴型出風口可形成較集中且具動量的射流，故選 A。長射程也須檢查噪音、氣流下墜、溫差與人員區風速，不能只追求吹得遠。槽型與擴散型各有分布用途，並非好壞絕對，而是題定需求不同。",
+    "optionExplanations": [
+      "A 噴嘴型較符合長射程需求。",
+      "B 槽型常用於帶狀分布，非此題首選。",
+      "C 擴散型偏重向周邊分散。",
+      "D 線型需依產品射程設計，非本題答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-29",
@@ -25566,7 +26028,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -25577,13 +26039,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 29 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "送風要服務使用區，不是直接吹人，也不是出風立刻回風。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "一般舒適空調不宜讓高速或低溫送風持續直吹人體，否則可能產生局部吹風不適，故選 B。自然通風或個人可控制的風扇情境可能不同，不能反過來說人體附近完全不能有氣流。送回風應避免短路與障礙，使已處理空氣真正服務使用區，再回到回風口。",
+    "optionExplanations": [
+      "A 合理分布有助避免冷熱不均。",
+      "B 直接吹人不宜當一般設計原則。",
+      "C 短路會使使用區得不到有效空調。",
+      "D 梁等障礙可能改變射流與分布。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-30",
@@ -25652,7 +26136,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -25663,13 +26147,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 31 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "W問當下用多快，Wh問累積用了多少。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "瓦特W為功率，乘以小時h得到能量，因此Wh是電能單位，選 A。1Wh＝3600J，1kWh＝1000Wh。用電設備標示100W只表示功率，持續運轉10小時才約消耗1kWh；實際變頻或間歇設備需積分功率歷程，不能用額定值直接當所有時段耗電。",
+    "optionExplanations": [
+      "A 功率乘時間得到能量。",
+      "B 電壓單位為V。",
+      "C 電流單位為A。",
+      "D 電阻單位為Ω。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-32",
@@ -25695,7 +26201,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -25706,13 +26212,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 32 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "模組出直流，逆變併交流；功率、面積與發電量也要分開。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "光電模組產生直流電，併聯一般電網前須由逆變器轉為符合電網要求的交流電，所以 C 說送給台電以直流為主是錯誤。朝向、傾角及每kW所需面積都需看基地、遮蔽與模組效率，原題數字屬當時概估，不能直接當所有現代產品的固定需求。",
+    "optionExplanations": [
+      "A 南向與避遮蔽為臺灣常見初步原則。",
+      "B 傾角仍需依目標與基地最佳化，非通用固定值。",
+      "C 一般併網需交流輸出，與模組直流不同。",
+      "D 每kW面積隨效率與配置改變，僅是歷年概估。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-33",
@@ -25738,7 +26266,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -25749,13 +26277,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 33 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "主要功能分類不等於禁止整合；能源管理與電力品質可互相支援。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "運轉時數、狀態監視與需量卸載都直接服務能源管理；諧波偵測主要屬電力品質，且高效率設備不必然自帶此功能，因此題定選 A。諧波監測仍可整合到智慧建築平台，並非實務上毫無價值。題目是在分類主要功能，不能解讀成所有能源管理系統都禁止或不需要電力品質資料。",
+    "optionExplanations": [
+      "A 電力品質功能不等同題定能源管理直接功能。",
+      "B 累計時數可協助能耗與維護分析。",
+      "C 運轉狀態監視有助管理。",
+      "D 需量控制可降低尖峰功率。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-34",
@@ -25824,7 +26374,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -25835,13 +26385,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 35 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "迎風查下洗、轉角查加速、背風查迴流與滯留。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "風影區位於建物背風側，常有遮蔽、分離與迴流，不能稱為建築群風速最高且影響最大的一律區域，因此 B 錯。迎風面下洗及角隅加速更可能造成局部強風。風道有時可改善污染排散，但也可能導向行人或帶來污染，需看風向與源位置，不能只靠一個區域名稱判全部風場。",
+    "optionExplanations": [
+      "A 高樓迎風面可出現下洗。",
+      "B 背風風影區不一律是最高風速區。",
+      "C 合理風道可協助通風排散，仍須驗證。",
+      "D 角隅常有流線加速及強風風險。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-36",
@@ -25867,7 +26439,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -25878,13 +26450,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 36 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "通用設計問誰能用、如何用與能否調整，不只是貼無障礙名稱。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "通用設計希望更多不同能力、身形與慣用手者皆可使用。單邊式課桌椅常限制左右手、體型或轉位方式，相較其餘選項較不符合，所以選 D。扶手、無門檻與撥桿也須有合適尺寸與設置位置，不是用了這個物件名稱就自動達成通用；重點是實際使用可及與彈性。",
+    "optionExplanations": [
+      "A 撥桿可降低抓握與扭轉需求。",
+      "B 無門檻可減少通行障礙。",
+      "C 適當扶手可提供支撐。",
+      "D 單側配置較難兼顧不同慣用手及使用需求。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-37",
@@ -25953,7 +26547,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -25964,13 +26558,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 38 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "材料透光率與房間採光係數不同，產品好還得配置得當。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "節能玻璃評定以材料或產品性能為主，包括可見光透射、反射及遮蔽係數等；採光係數則涉及窗、房間與天空等整體場景，不是單一玻璃固有量，因此選 A。玻璃產品合格不代表每個房間採光都好，仍需開口面積、深度、遮陽與室內反射等設計；現行認證項目須查適用版本。",
+    "optionExplanations": [
+      "A 採光係數屬空間採光結果，非此題材料性能項。",
+      "B 可見光反射率是產品光學量。",
+      "C 可見光穿透率也是產品性能量。",
+      "D 遮蔽係數比較相對太陽熱取得。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-39",
@@ -25996,7 +26612,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -26007,13 +26623,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 39 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "控PM看實際過濾效率與路徑，不是看冷媒、水或空氣的系統名稱。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "全水式末端主要處理室內顯熱，不會只因是水系統就更能去除外部PM2.5；全氣或適當AHU可集中過濾並處理外氣，因此 A 的概括不合理。真正效果取決濾網效率、密合、風量及外氣管理，不是系統名字保證。VRV亦可另配新風過濾，一般冷氣粗濾網則不等同細粒子高效濾網。",
+    "optionExplanations": [
+      "A 用全水式名稱直接判PM控制較佳不成立。",
+      "B AHU提供集中過濾處理機會，仍須正確配置。",
+      "C PM分類依空氣動力粒徑尺度區分。",
+      "D 一般粗濾網通常不具充分PM2.5去除能力。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-environment-40",
@@ -26039,7 +26677,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -26050,13 +26688,35 @@
     "originalQuestionLabel": "108 年建築環境控制｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "LCC看一生總成本，不只買價，也不只保養費。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "LCC是生命週期成本，通常包括初期建置、運轉能源、維護、更新及處置等，不能只說設備使用維護費，所以 B 錯。設備老化常增加維修，但每年費用未必單調上升；技術與需求變化也可能造成時代劣化。比較方案需一致期間與折現基準，不能只選購價最低或維修費最低者。",
+    "optionExplanations": [
+      "A 初期費含機器建置等成本。",
+      "B 漏掉建置與其他生命週期成本。",
+      "C 為一般老化趨勢，非每年一定同比增加。",
+      "D 技術與需求變遷可能使設備功能過時。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築環境控制原題",
+        "url": "assets/108-environment/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-environment-01",
