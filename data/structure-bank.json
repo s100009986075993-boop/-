@@ -7930,7 +7930,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -7941,13 +7941,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 1 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "開放膜先找支承、錨定與預張；充氣要有可維持壓差的條件。",
+    "explanationBatch": "2026-11-02-04",
+    "solution": "開放式張力薄膜沒有可維持室內外壓差的封閉空間，不能直接依靠充氣保持形狀。可利用壓力桿或拱架等支承幾何，配合邊界錨定及張拉施工，在薄膜內建立預拉應力，故選 D。預張力有助維持膜面受拉與穩定，但仍需找形、排水及風載分析；不是只插入一根桿就自動有足夠預應力。",
+    "optionExplanations": [
+      "A 任意增加吊掛重量不等於建立合適且均勻的膜面預張，還可能造成局部變形。",
+      "B 內部氣壓需有適當封閉與氣密條件，非本題開放式薄膜的典型方法。",
+      "C 薄殼與薄膜受力模型不同，不能單憑結合反向薄殼就代替膜面張拉設計。",
+      "D 以桿或拱等構件及邊界建立張力與形狀，是題定開放式薄膜的答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 2,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-02",
@@ -8132,7 +8154,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -8143,13 +8165,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 5 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "荷載分類看來源與變動，不看計算時有沒有使用靜力方程。",
+    "explanationBatch": "2026-11-02-04",
+    "solution": "靜載重或恆載主要指長期存在、位置與大小相對固定的自重等荷載。梁柱本身的重量是最直接例子，所以選 D。溫度作用屬變形作用，雪載屬環境變動荷載，地震則涉及動態慣性效應。不要把靜載重名稱中的靜，誤解成任何可以用靜力方法計算的作用都屬於 dead load。",
+    "optionExplanations": [
+      "A 溫差造成的作用屬溫度效應，不因其能作靜力分析就變成恆載。",
+      "B 雪載會隨氣候與累積狀況改變，非本題梁柱自重類恆載。",
+      "C 地震力涉及結構慣性反應，即使採等值靜力設計也不是dead load。",
+      "D 梁柱自重長期存在，是題定靜載重的典型例子。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 2,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-06",
@@ -8222,7 +8266,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -8233,13 +8277,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 7 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "風從哪裡來、撞到什麼形狀，和建物之後怎麼振動要分開。",
+    "explanationBatch": "2026-11-02-04",
+    "solution": "依本題主要風力參數比較，風作用受場址來流、地形、建築高度與形狀等控制；建築物重量不是風壓或迎風面積的直接幾何環境參數，因此選 D。這不表示質量在所有風工程問題都無作用：柔性建物的動力反應、頻率及加速度可能與質量有關。答題須分清外部風力形成與結構受風後的動態反應。",
+    "optionExplanations": [
+      "A 地形地貌會改變風速與紊流等來流條件，影響設計風作用。",
+      "B 高度影響設計風速分布及暴露條件，不能忽略。",
+      "C 建築形狀及流線會影響壓力分布與氣動特性。",
+      "D 重量不是本題所比較的直接風壓外形因素，為答案；動力反應仍可能受質量影響。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 3,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-08",
@@ -8264,7 +8330,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -8275,13 +8341,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 8 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "二力看兩個共線外力，不是任選兩種內力。",
+    "explanationBatch": "2026-11-02-04",
+    "solution": "理想二力構件只有兩個外力作用且處於平衡。由力及力矩平衡可知，兩力須等大、反向、共線；若作用於構件兩端的軸線上，構件主要承受軸向拉力或壓力，所以選 C。二力不是指有兩種內力，而是指外力作用的數目與條件。若另有分布荷載、端偶矩或偏心作用，就不能直接套純軸力模型。",
+    "optionExplanations": [
+      "A 剪力與彎矩是兩種內力，不是二力構件的定義。",
+      "B 同時有軸力與彎矩通常表示還有偏心或其他作用，非理想二力桿。",
+      "C 兩端共線力使構件受軸拉或軸壓，符合題意。",
+      "D 正負彎矩是彎曲符號，不是外力數目，不可據此稱二力構件。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 3,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-09",
@@ -8396,7 +8484,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -8407,13 +8495,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 11 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "慣性力找質心，抗側分布找剛心；偏心要想扭轉。",
+    "explanationBatch": "2026-11-02-04",
+    "solution": "地震等值側力代表樓層質量加速度所造成的慣性力，因此在樓層簡化模型中作用於質心，選 B。剛心則用來描述抗側系統的勁度分布。兩者不重合時會產生偏心扭轉，規範還可能要求考慮偶然偏心。形心只有在質量分布均勻等條件下才可能與質心重合，不能因平面看起來對稱就任意替換。",
+    "optionExplanations": [
+      "A 剛心描述抗側勁度的分布，不是質量慣性力的自然作用點。",
+      "B 質心是樓層質量合力的代表位置，為答案。",
+      "C 幾何形心不一定與質量中心相同，尤其設備或用途分布不均時。",
+      "D 籠統的中心沒有指明質量或勁度，不能代替題目所需的質心。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 3,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-12",
@@ -8486,7 +8596,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -8497,13 +8607,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 13 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "反應譜先看橫軸週期，再看縱軸到底是Sa、Sv還是Sd。",
+    "explanationBatch": "2026-11-02-04",
+    "solution": "地震反應譜用來表示一組不同週期、指定阻尼的理想單自由度系統，在同一地震輸入下的最大反應。橫軸通常是週期，縱軸可為加速度、速度或位移等反應量。在相同定義與條件下，譜值越大代表該反應越大，因此選 A。不同反應量、阻尼或場址的曲線不能不分條件直接比大小。",
+    "optionExplanations": [
+      "A 在相同反應量、週期與阻尼等條件下，較大譜值代表較大最大反應，正確。",
+      "B 橫軸通常是振動週期，不是建築寬度。",
+      "C 縱軸是指定反應量，不是建築高度。",
+      "D 增加阻尼通常降低共振附近的反應，不能概括說譜值一定變大。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 4,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-14",
@@ -8576,7 +8708,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -8587,13 +8719,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 15 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先確認荷載型式與固定量；簡支跨中點力撓度看L³。",
+    "explanationBatch": "2026-11-02-04",
+    "solution": "等截面線彈性簡支梁跨中承受集中力 P 時，跨中最大撓度 δ＝PL³/(48EI)。題目固定 P、E、I，只把跨度 L 加倍，因此 δ新/δ原＝(2L)³/L³＝8，選 C。這不是均布載重公式，也不是只按梁長比例放大；題目若改成總載重隨長度變化，須重新確認固定的是哪個量。",
+    "optionExplanations": [
+      "A 2倍只按長度線性比較，漏掉撓度的L³關係。",
+      "B 4倍較像L²比例，不符題定跨中集中力撓度。",
+      "C 8倍由2³得到，為正確答案。",
+      "D 16倍對應L⁴比例的某些均布荷載情境，不是本題。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 4,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-16",
@@ -8756,7 +8910,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -8767,13 +8921,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 19 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "MPa＝N/mm²；圓面積用πd²/4，最後N換kN除1000。",
+    "explanationBatch": "2026-11-02-04",
+    "solution": "均勻軸向壓應力下，軸力 N＝σA。直徑200mm的圓斷面面積為π×200²/4＝31415.9mm²；250MPa＝250N/mm²，故N＝250×31415.9＝7853982N＝7854kN，選 A。最容易出錯的是把直徑當半徑、把圓當正方形，或忘記由N除以1000換成kN。",
+    "optionExplanations": [
+      "A 約7854kN，符合圓面積與MPa單位換算結果。",
+      "B 31416較接近面積的數值，不能把面積直接當成軸力。",
+      "C 10000kN可能是錯把200×200當面積，漏了圓的π/4係數。",
+      "D 25000kN不符合題定圓斷面面積及應力相乘結果。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 5,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-20",
@@ -8894,7 +9070,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -8905,13 +9081,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 22 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "校舍窗台夾柱：有效柱長短、剪力需求高。",
+    "explanationBatch": "2026-11-02-04",
+    "solution": "典型校舍窗台與柱緊密相接時，半高牆會限制柱的部分變形，使剩餘有效柱長縮短，形成短柱效應。這會提高局部勁度及剪力需求，若細節不足容易剪力脆壞，所以選 C。其他不規則或軟層也可能出現在個別校舍，但不能未有具體條件就把它們當成題目所指最典型的窗邊柱弱點。",
+    "optionExplanations": [
+      "A 校舍各方向壁量需依平面判斷，此項不是本題典型短柱問題的對應。",
+      "B 底層柱減少可能造成不規則，但題目未提供該具體情境，非此題預期答案。",
+      "C 窗台束制使柱的可變形長度變短，是典型短柱效應。",
+      "D 凹凸平面可能有不規則風險，但不是所有標準教室校舍都具此特徵。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 6,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-23",
@@ -8936,7 +9134,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -8947,13 +9145,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 23 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "受阻升溫想壓、受阻降溫想拉；有應力不代表一定破壞。",
+    "explanationBatch": "2026-11-02-04",
+    "solution": "鋼柱降溫時本來會自由收縮；若兩端固定而收縮受阻，會產生拉應力，依題目列舉的可能模式選 B。完全均勻且完全拘束的線彈性比較可用熱應力大小Eα|ΔT|理解；若只有局部降溫，還須考慮降溫範圍及整體相容。降30°C並不等於一定拉斷，真正是否破壞仍須比較強度與約束條件。",
+    "optionExplanations": [
+      "A 整體挫屈主要與壓力及穩定有關，非本題受阻收縮的直接效應。",
+      "B 收縮受阻產生拉應力，故列舉模式中拉力破壞方向符合題意。",
+      "C 局部挫屈多涉及局部壓縮薄板穩定，非此題主要熱作用方向。",
+      "D 題目沒有使構件扭轉的直接條件，不能由降溫直接判成扭矩破壞。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 6,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-24",
@@ -9068,7 +9288,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -9079,13 +9299,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 26 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "中性化先看鹼性下降與鋼筋鈍化保護，不是直接背成混凝土變軟。",
+    "explanationBatch": "2026-11-02-04",
+    "solution": "混凝土中性化常涉及二氧化碳進入後與水化產物反應，使原本高鹼性的環境下降。當中性化前緣到達鋼筋附近，鋼筋的鹼性鈍化保護可能受破壞；在水分及氧氣等條件配合下，腐蝕風險提高，所以選 B。中性化深度、保護層、裂縫與環境都會影響風險，不能把中性化直接等同立即全面失去承載能力。",
+    "optionExplanations": [
+      "A 抗壓強度並非本題最主要且必然立即下降的效應。",
+      "B 鹼性保護下降可使鋼筋較易腐蝕，為答案。",
+      "C 外牆飾面掉落有多種原因，不能視為中性化的直接定義。",
+      "D 防火時效不能僅由中性化一項直接判定，非本題主要答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 7,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-27",
@@ -9404,7 +9646,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -9415,13 +9657,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 34 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "塑性區密箍看圍束、抗剪及支撐主筋，目標是維持延性。",
+    "explanationBatch": "2026-11-02-04",
+    "solution": "梁柱端部常是地震塑性變形可能集中的區域。適當密箍可圍束核心混凝土、支撐縱向鋼筋並提供所需抗剪能力，協助維持塑性轉動與延性，因此選 A。箍筋多不等於任何斷面都自動安全，仍需配合錨定、間距、數量、軸力及預期塑性機制。增加施工便利或防止骨材流失不是端部加密的主要耐震目的。",
+    "optionExplanations": [
+      "A 以圍束、抗剪及抑制主筋挫屈等作用支持延性發展，符合題意。",
+      "B 水密性不是端部密箍的主要耐震設計目的。",
+      "C 過密配筋反而可能增加施工難度，不能以方便施工作解釋。",
+      "D 箍筋不是模板，不是用來攔住細骨材避免澆灌流失。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 7,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-35",
