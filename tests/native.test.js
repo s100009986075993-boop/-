@@ -28,8 +28,8 @@ test('範例純文字與圖形選項正確分離，承上題附前提',()=>{
  assert.equal(q('104-law-20').options[3],'L2＋L4＋L6');assert.match(q('104-law-06').question,/前題條件/);
  assert.match(q('97-structure-30').question,/75 t\/m²/);assert.deepEqual(q('97-structure-30').options,['50 cm','60 cm','70 cm','80 cm']);
 });
-test('109題詳細解析草稿均有解題步驟、四選項理由與來源檔案',()=>{
- const detailed=bank.filter(q=>q.solution);assert.equal(detailed.length,109);
+test('141題詳細解析草稿均有解題步驟、四選項理由與來源檔案',()=>{
+ const detailed=bank.filter(q=>q.solution);assert.equal(detailed.length,141);
  for(const item of detailed){assert.equal(item.explanationStatus,'draft');assert.ok(item.solution.length>70,item.id);assert.equal(item.optionExplanations.length,4);
   item.optionExplanations.forEach(text=>{assert.ok(text.trim(),item.id);assert.doesNotMatch(text,/解析待補充|此選項的觀念解析待補充/);});
   for(const source of item.explanationSources)assert.ok(fs.existsSync(path.join(__dirname,'..',source.url)));

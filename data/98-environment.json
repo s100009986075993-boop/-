@@ -152,7 +152,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -163,13 +163,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 4 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "通風能否除熱除濕，要比較內外條件，不是只要有風就一定乾。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "濕熱地區自然通風的主要設計目的之一，是在外氣條件合適時帶走室內熱與濕負荷，並藉氣流改善人體散熱，故本題選 B。自然通風不保證能把室內降到比外氣更乾或更冷；若外氣本身很濕，可能增加含濕量，因此仍需依溫濕度、污染與噪音條件決定開窗或機械調節策略。不要把增加濕潤度當成濕熱地區的一般目標。",
+    "optionExplanations": [
+      "A 污染與灰塵控制需評估來源及過濾，不能靠自然通風就保證排除病菌。",
+      "B 排除適當條件下的室內熱與濕，是本題主要目的。",
+      "C 供給新鮮空氣也是通風作用，但本題指定濕熱氣候的主要比較選B。",
+      "D 一般濕熱環境不以增加濕度為主要目標，可能反而不利蒸發散熱。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 1,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-05",
@@ -195,7 +217,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -206,13 +228,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 5 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "隔熱方向：R要大，k與U要小。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "對均質材料層，熱阻 R＝d/k；整體熱傳透率 U 約為總熱阻的倒數。在其他條件相同下，k越大越容易導熱、R越小，隔熱越差，因此 D 錯誤。加厚材料可增加該層熱阻，但整體構造還受熱橋、濕氣、氣流與表面熱阻等影響。必須分清材料的k、層的R與整體構造的U，不能見到係數越大就一律當成更好。",
+    "optionExplanations": [
+      "A 熱阻越大代表相同溫差下熱量越不易通過，方向正確。",
+      "B 熱傳透率越小，代表同面積同溫差下傳熱量較少。",
+      "C 同材料、其他條件相同時增加厚度，可增加該層熱阻。",
+      "D 熱導係數越大代表較易導熱，不是更隔熱，故為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 1,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-06",
@@ -238,7 +282,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -249,13 +293,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 6 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先規劃對外排濕路徑；有窗、排風與乾濕分離可互補。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "本題同時要求通風乾燥及節能，將浴室配置在外牆側並設對外開窗，可提供直接自然排濕與採光機會，因此依題意選 A。這不表示所有浴室都只能靠開窗，也不是有窗就保證任何天候都乾燥；實際仍可能需要排風、補氣與乾濕分離。設計需兼顧隱私、防雨、安全及外氣濕度，不能只挑一項使用習慣代替完整空間配置。",
+    "optionExplanations": [
+      "A 靠外牆及對外開窗提供直接自然通風機會，符合本題整體規劃目標。",
+      "B 只說保持流通但沒有明確氣流路徑，不足以回答題目的最佳設計。",
+      "C 乾濕分離有助降低濕負荷，但不是本題最完整的通風與節能配置答案。",
+      "D 排風機可有效排濕，但需用電且須補氣，不是本題優先的自然條件規劃。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 1,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-07",
@@ -324,7 +390,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -335,13 +401,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 8 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "廁所要留住臭氣：補氣進、機械排，相對負壓。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "要減少廁所臭氣往外溢，應讓周邊較潔淨空氣流入廁所，再由廁所排出。以自然補氣配合機械排氣，可形成相對負壓，因此選 C。若只強制送風而排氣不足，可能使廁所正壓、把臭氣推向外部。設備名稱並非唯一關鍵，實際壓差取決於送排風量、補氣開口及運轉狀況。",
+    "optionExplanations": [
+      "A 送風大於排出能力時可能形成正壓，反而推送臭氣外溢。",
+      "B 送排皆機械也可設計成負壓，但單憑這個選項未指定量差，本題以C為直接典型方式。",
+      "C 自然補氣、機械排氣能建立向廁所流入的氣流方向，為答案。",
+      "D 自然方式受風與溫差影響，較難持續控制臭氣流向。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 2,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-09",
@@ -496,7 +584,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -507,13 +595,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 12 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "風影看來流與建物三維尺度；高度怎麼可能完全無關。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "風影是建築遮擋來流後，在下風處形成的風速減弱或複雜回流區。其範圍受建築高度、寬度、形狀、群棟配置及風向共同影響，因此 D 說與高度無關是錯誤。中庭增加合適開口可能改善氣流，但具體效果仍要看來流與出口位置；不能認為任何雙開口都必然在所有風向下更好。",
+    "optionExplanations": [
+      "A 風影可協助辨識戶外通風不良與污染不易擴散的區域。",
+      "B 在本題一般比較中，適當雙開口較封閉中庭有利換氣，仍需看配置。",
+      "C 建物遮擋使局部風速減弱，是風影概念的基本描述。",
+      "D 高度會影響尾流尺度及下風氣流，不能說完全無關，故為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 2,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-13",
@@ -539,7 +649,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -550,13 +660,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 13 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "自由場點音源距離加倍約少6dB；先辨音源形態。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "理想自由音場中的點音源，聲能向球面擴散，聲強 I 與距離r平方成反比。距離加倍後聲強降為1/4，聲級差10log10(1/4)約為−6.02dB，因此選 D。此結果須保留點音源、遠場及無明顯反射等條件；線音源或室內混響場不能直接用同一衰減規則。",
+    "optionExplanations": [
+      "A 1dB小於本題球面擴散的理論衰減。",
+      "B 2dB不符合距離加倍使聲強降為1/4的關係。",
+      "C 3dB常與能量減半或其他音源幾何比較有關，不是本題點音源。",
+      "D 約6dB符合10log10(4)的衰減量，為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 2,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-14",
@@ -582,7 +714,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -593,13 +725,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 14 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "RT比較看V／總等效吸音量，不只看房間大或吸音率小。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "以Sabine近似式 T＝0.161V/A 比較，等效吸音量 A＝S×平均吸音率。四案依序為750、450、750、225m²，V/A依序約4、6.67、2.67、4.44，因此 B 的餘響時間最長。估計值約0.64、1.07、0.43、0.72秒。本題重點是體積與吸音量的比值；高吸音或不均勻音場時，Sabine式的適用性須另檢查。",
+    "optionExplanations": [
+      "A 3000/750＝4，估計約0.64秒，不是最長。",
+      "B 3000/450約6.67，估計約1.07秒，為四者最長。",
+      "C 2000/750約2.67，估計約0.43秒，四者較短。",
+      "D 1000/225約4.44，估計約0.72秒，仍短於B。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 2,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-15",
@@ -715,7 +869,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -726,13 +880,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 17 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "Q＝vA要用同一時間單位；m³/h先除3600。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "先統一時間單位：72m³/h＝72/3600＝0.02m³/s。由Q＝vA，所需有效流通面積 A＝0.02/0.5＝0.04m²，選 A。這是題目以指定實際流速與有效面積作簡化的結果；兩個窗戶是串接的進出氣路，不能只把幾何開口任意相加。實際自然通風還受壓差、開口流量係數及風向影響。",
+    "optionExplanations": [
+      "A 0.04m²乘0.5m/s得0.02m³/s，即72m³/h，為答案。",
+      "B 0.36m²在同流速下為648m³/h，非所需的最低計算值。",
+      "C 0.72m²在同流速下為1296m³/h，與題定72m³/h不符。",
+      "D 1.44m²在同流速下為2592m³/h，不能省略每小時至每秒換算。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 2,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-18",
@@ -850,7 +1026,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -861,13 +1037,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 20 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "超越時間越長，聲級門檻通常越低：L10≥L90。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "Lx表示在量測時段中有x%時間被超過的聲級。L10屬較高的聲級位置，L90常反映較低的背景聲，因此通常L10大於或等於L90，C把方向說反。Leq則是同時段等效聲能的聲級，不是把各筆dB直接算術平均；日夜或單一事件指標還有不同的時間加權與積分定義。",
+    "optionExplanations": [
+      "A Ldn可用於包含機場等環境噪音評估，但不是僅能用於機場，應看具體制度。",
+      "B Leq代表能量等效平均，題目平均值應如此理解，而非dB算術平均。",
+      "C 超越90%時間的門檻通常低於超越10%的門檻，故此項錯誤。",
+      "D 單發事件聲暴露級可把事件聲能換算為參考時間的量，適合比較個別噪音事件。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 3,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-21",
@@ -893,7 +1091,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -904,13 +1102,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 21 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "壽命、光效、演色分開比；不要只以哪盞最亮判斷耐用。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "本題比較典型鹵素燈、螢光燈、水銀燈與高壓鈉燈的使用壽命。鹵素燈仍靠高溫燈絲發光，燈絲蒸發與熱應力等限制壽命，在題定常見產品比較中通常最短，所以選 A。實際壽命也受電壓、啟停、溫度、安定器與產品品質影響，不能把本題排序當成每個品牌的保證，更不能與發光效率或演色性混為同一指標。",
+    "optionExplanations": [
+      "A 典型鹵素燈壽命較其他題列放電光源短，為答案。",
+      "B 螢光燈壽命與啟停及控制設備有關，題定比較通常長於鹵素。",
+      "C 水銀燈為放電光源，典型壽命非本題最短者。",
+      "D 高壓鈉燈通常具有較長使用壽命，但其他照明品質仍須另評估。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 3,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-22",
@@ -936,7 +1156,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -947,14 +1167,36 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 22 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
     },
-    "manualTranscription": true
+    "manualTranscription": true,
+    "memoryTip": "Ra看顏色還原，不是lm/W；本題鹵素＞一般螢光＞高壓鈉。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "依題定典型光源比較，鹵素燈為連續光譜熱輻射光源，演色性較佳；一般螢光燈次之，高壓鈉燈因光譜特性而通常較低。因此由高至低為②③①，選 C。Ra是演色性指標，不等於發光效率、色溫或壽命。實際螢光與高壓鈉燈也有不同等級產品，應保留本題一般型比較的前提。",
+    "optionExplanations": [
+      "A ①②③把典型高壓鈉燈放在最高，與本題演色性比較不符。",
+      "B ①③②也把高壓鈉放首位、鹵素放末位，方向錯誤。",
+      "C ②鹵素→③螢光→①高壓鈉，為題定答案。",
+      "D ③②①雖把高壓鈉置後，仍顛倒本題鹵素與一般螢光的排序。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 3,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-23",
@@ -1023,7 +1265,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -1034,13 +1276,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 24 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "T5的5是5/8吋；能否調光要看相容控制設備。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "T5的5表示燈管直徑為5個八分之一英吋，即5/8吋，約15.9mm。依題定典型T5與T8比較，T5常有較佳系統光效，D說略低是錯誤。高頻電子安定器、調光及汞含量則需看相容設備與產品，不能僅由T5管徑標示就保證所有燈管都能任意調光或任何環境下光效較高。",
+    "optionExplanations": [
+      "A 5/8英吋約16mm，符合T5管徑名稱。",
+      "B 需搭配相容且支援調光的電子安定器與控制系統，並非所有電子安定器都能調光。",
+      "C 依本題所比較的一般產品，T5可使用較少汞；仍需按實際產品規格核對。",
+      "D 本題典型比較T5光效不低於所列T8敘述，故選D；實際比較需看整套設備條件。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 3,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-25",
@@ -1115,7 +1379,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -1126,13 +1390,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 26 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "FCU利分區，但不自動解決新風、潔淨與低噪音要求。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "FCU風機盤管適合需要分區控制、負荷及使用時間不同的空間，辦公室是本題較典型的應用，所以選 D。FCU主要循環處理室內空氣，若有新鮮外氣、過濾、濕度或潔淨壓差要求，需另外整合系統。加護病房、無塵室及音樂廳各有感染控制、潔淨或低噪音要求，不能只因能冷房就直接選一般FCU方案。",
+    "optionExplanations": [
+      "A 加護病房須考量醫療空氣品質與感染控制，一般FCU不是本題首選。",
+      "B 無塵室需嚴格控制潔淨度、氣流及壓差，不能僅靠一般FCU。",
+      "C 音樂廳需特別低的背景噪音與均勻送風，室內分散風機可能增加處理難度。",
+      "D 辦公室常有分區與部分時段使用需求，是題定適合的典型空間。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 3,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-27",
@@ -1201,7 +1487,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -1212,13 +1498,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 28 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "水錘先問水流改變有多快，不是只問用了多少水。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "水錘是管內液體流速快速改變時形成的瞬變壓力波，常與閥快速關閉、泵啟停等有關。B把它說成空氣壓力急速升降，是本題錯誤。壓力波可能產生噪音、振動與設備損傷；可用合適的緩閉、緩衝及系統設計降低，但裝一個元件不等於任何情況都能解決。瞬變大小與流速變化等有關，不是單憑總用水量判斷。",
+    "optionExplanations": [
+      "A 壓力瞬變可造成撞擊聲、振動及器具損傷，符合現象。",
+      "B 主要是液體流速變化引起的壓力波，非以空氣壓力升降作定義，故為答案。",
+      "C 合適的水錘吸收或緩衝設計可降低瞬變，仍須按系統條件選用。",
+      "D 用水量大不是水錘充分條件；流速及其改變速度等才是重要機制。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 3,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-29",
@@ -1287,7 +1595,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1298,13 +1606,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 30 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "燈具效率看出光比例；lm/W看能效；房間利用率另外看。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "燈具效率是燈具實際送出的光通量相對於所裝光源光通量的比例，與反射器、透光罩、遮光構件等燈具型式有關，所以選 C。室內反射率、懸吊高度則會影響光在空間中的利用與照度分布，但不應直接混作燈具本身的效率。也需分清燈具效率與整燈發光效率lm/W，兩者分母不同。",
+    "optionExplanations": [
+      "A 壁面反射率影響室內光利用與照度，但不是本題燈具自身效率的直接定義。",
+      "B 光源總光通量是計算基準，不能只以流明多寡判定燈具比例效率。",
+      "C 燈具型式決定部分遮擋、吸收與出光，為答案。",
+      "D 懸吊高度影響作業面照度與利用率，不是燈具本身出光比例的直接分類。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 4,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-31",
@@ -1373,7 +1703,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1384,13 +1714,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 32 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "生態綠地看多樣、層次與連通，不是草坪越整齊就越好。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "都市生態綠網重視棲地品質與連通性，不只是供人觀賞的草坪面積。把公園綠地儘量改成花圃草坪，可能降低植被層次、棲地多樣性與生物利用，因此 D 錯誤。遊憩與生態需要平衡，不能將人類休閒便利視為所有綠地唯一目標；提升綠覆率也須同時提升生態品質，而非只追求一個數字。",
+    "optionExplanations": [
+      "A 綠網連通可促進適當物種移動與基因交流，為生態規劃的重要概念。",
+      "B 衛星都市與綠帶可作都市成長管理策略之一，實際效果仍需整體規劃。",
+      "C 面積與品質都要改善，不能只有綠覆量而沒有有效棲地。",
+      "D 單一草坪花圃未必有較佳生態，全面朝此開發的方向錯誤。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 4,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-33",
@@ -1459,7 +1811,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1470,13 +1822,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 34 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "黏土難入滲，要補貯留與排空；透水面不等於透水地基。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "黏土層入滲能力較差，僅把表面做透水鋪面不保證雨水能順利進入深層土壤。可透過適當貯集水池或地下礫石貯留設施暫存雨水，再依設計處理、利用或控制排出，因此選 C。貯留與入滲是不同機制，設施仍需考量地下水、溢流、排空及維護；不能把貯留體積直接當成永久消失的水量。",
+    "optionExplanations": [
+      "A 表面全面透水但下方仍是低透水土，可能受限於底層入滲，非完整補救。",
+      "B 避免屋頂花園不是此題低入滲土層的主要保水補償方法。",
+      "C 貯集及礫石貯留可提供暫存空間，是本題答案。",
+      "D 換成更低透水的黏土不能改善所問的入滲受限問題，且須分清保水與阻水。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 4,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-35",
@@ -1588,7 +1962,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1599,13 +1973,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 37 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "室內裝修先減量、控污染，再核對材料認證涵蓋什麼。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "室內環境品質與污染源、採光、通風及材料生命週期有關。本題 D 同時重視低逸散、低污染與資源循環，並要求適當認證，符合較完整的材料選擇方向。高反射深色玻璃、過深空間或大量立體裝修則不能只憑一項節能或造型理由就認定更健康。認證項目及性能仍需核對，不代表任何認證涵蓋所有健康需求。",
+    "optionExplanations": [
+      "A 高反射或深色玻璃可能降低可見光進入，不保證有較佳室內環境，須兼顧採光眩光。",
+      "B 深長空間可能不利自然採光通風，不能一概以人工照明彌補就視為節能。",
+      "C 鼓勵更多立體裝潢可能增加材料、污染與維護負擔，不符減量思路。",
+      "D 低逸散與低污染並兼顧循環利用、認證的材料選擇，為本題答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 4,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-38",
@@ -1674,7 +2070,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1685,13 +2081,35 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 39 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "COP高代表同冷量較省輸入功率，不代表房間熱負荷變少。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "冷房 COP＝冷房能力/輸入功率，當兩者使用相同功率單位時為無因次。相同冷房需求與可比較運轉條件下，COP越高，所需輸入功率越低，因此選 A。它衡量設備轉換效率，不會直接降低由外氣帶入的熱負荷，也不等於提升空氣品質或使用再生能源。實務還應評估部分負載及全系統能耗，不只看一個額定點。",
+    "optionExplanations": [
+      "A 提高設備效率是選高COP冰水主機的直接目的，為答案。",
+      "B 外氣負荷由外氣量與內外狀態等決定，換高COP主機不會直接減少負荷本身。",
+      "C 空氣品質須靠通風、過濾及污染源控制等處理，不由COP直接保證。",
+      "D 高COP是效率，不等於能源來源為再生能源。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 4,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-40",
@@ -1717,7 +2135,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1728,12 +2146,34 @@
     "originalQuestionLabel": "98 年建築環境控制｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "相同不相干音源兩個功率相加約加3dB，不是直接加100。",
+    "explanationBatch": "2026-11-02-03",
+    "solution": "兩個互不相干的相同功率級音源要先將聲功率相加，再取對數。合成級＝100＋10log10(2)約103dB，不是106dB，因此 A 錯誤。不能直接將dB相加；106dB相當於功率約4倍。若討論相干聲壓疊加，還需考慮相位與位置，但那不是本題兩音源功率相加的基本情境。",
+    "optionExplanations": [
+      "A 兩個100dB功率級的聲功率加倍，合成約103dB，非106dB，故為答案。",
+      "B 1kHz純音的響度級以同頻參考聲壓級定義，題定60dB對應60phon。",
+      "C RC牆通常對空氣傳音有質量優勢，仍須注意開口、側路及頻率效應。",
+      "D 桌椅撞擊樓板經構造傳遞，屬固體傳音或衝擊音情境。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築環境控制原題",
+        "url": "assets/98-environment/questions.pdf",
+        "page": 4,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   }
 ]
