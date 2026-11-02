@@ -1312,7 +1312,7 @@
     "year": 97,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "有關設置雨水利用系統所需之相關設備,依順序排列,下列何者正確?",
+    "question": "有關設置雨水利用系統所需之相關設備,依順序排列,下列何者正確?\n①消毒裝置\n②集水裝置\n③貯留槽\n④處理後水槽\n⑤沉砂槽",
     "options": [
       "①→②→③→⑤→④",
       "②→①→③→⑤→④",
@@ -1348,7 +1348,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "97-environment-32",
@@ -1662,7 +1663,7 @@
     "year": 97,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "一般污水設備系統所需之相關設備,依順序排列,下列何者正確?",
+    "question": "一般污水設備系統所需之相關設備,依順序排列,下列何者正確?\n①沉澱槽\n②過濾槽\n③腐敗槽\n④ 氧化槽\n⑤消毒槽",
     "options": [
       "②→⑤→③→①→④",
       "③→①→②→④→⑤",
@@ -1698,7 +1699,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "97-environment-40",

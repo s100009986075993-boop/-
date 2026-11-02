@@ -1142,7 +1142,7 @@
     "year": 99,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "有關法人或團體必須依政府採購法辦理採購的規定,下列何者正確?",
+    "question": "有關法人或團體必須依政府採購法辦理採購的規定,下列何者正確?\n①受機關補助\n②補助金額在公告金額以上\n③採購項目的執行限於國土範圍內\n④補助金額占採購金額半數以上",
     "options": [
       "①②③",
       "①②④",
@@ -1177,7 +1177,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-law-29",
@@ -1268,7 +1269,7 @@
     "year": 99,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "一般集合住宅建築物內,那些區位須施以防火區劃?",
+    "question": "一般集合住宅建築物內,那些區位須施以防火區劃?\n①安全梯之樓梯間\n②昇降機間\n③機械設備間\n④垂直貫穿樓板之管道間",
     "options": [
       "①②③",
       "①③④",
@@ -1303,7 +1304,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-law-32",
@@ -1562,7 +1564,7 @@
     "year": 99,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "私人或團體經當地直轄市、縣(市)(局)政府核准後,得舉辦新市區之建設事業。有關申請計畫書件的內容,下列何者正確?",
+    "question": "私人或團體經當地直轄市、縣(市)(局)政府核准後,得舉辦新市區之建設事業。有關申請計畫書件的內容,下列何者正確?\n①公共設施計畫\n②財務計畫\n③土地面積及權利證明文件\n④主要計畫及其圖說\n⑤工程進度及竣工期限",
     "options": [
       "②③④⑤",
       "①②③⑤",
@@ -1597,7 +1599,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-law-39",
@@ -2024,7 +2027,7 @@
     "year": 99,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "依建築法第 8 條之定義,下列何者為建築物之主要構造?",
+    "question": "依建築法第 8 條之定義,下列何者為建築物之主要構造?\n①基礎\n②樓地板\n③外牆\n④樑柱\n⑤承重牆\n⑥屋頂\n⑦屋架\n⑧帷幕牆",
     "options": [
       "①②③④⑤",
       "①④⑤⑦⑧",
@@ -2059,7 +2062,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-law-50",
@@ -2318,7 +2322,7 @@
     "year": 99,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "公共設施用地之項目、位置與面積,應依下列何種因素決定?",
+    "question": "公共設施用地之項目、位置與面積,應依下列何種因素決定?\n①人口\n②氣候\n③土地使用\n④交通",
     "options": [
       "①②④",
       "①③④",
@@ -2353,14 +2357,15 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-law-57",
     "year": 99,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "下列那些空間是建築技術規則所定義的居室?",
+    "question": "下列那些空間是建築技術規則所定義的居室?\n①門廳\n②餐廳\n③臥室\n④廚房\n⑤廁所\n⑥走廊\n⑦店鋪",
     "options": [
       "①②⑥⑦",
       "③④⑤⑥",
@@ -2395,7 +2400,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-law-58",
@@ -2528,7 +2534,7 @@
     "year": 99,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "面積合計未超過法規規定基地容積之百分之十五,下列何種空間可不計入樓地板面積?",
+    "question": "面積合計未超過法規規定基地容積之百分之十五,下列何種空間可不計入樓地板面積?\n①機電設備空間\n②安全梯梯間\n③緊急昇降機機道\n④管理委員會使用空間\n⑤直通樓梯間\n⑥特別安全梯排煙室\n⑦緊急昇降機間梯廳",
     "options": [
       "①②④⑤⑥",
       "①②③④⑥",
@@ -2563,7 +2569,8 @@
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-law-62",

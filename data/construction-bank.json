@@ -1656,7 +1656,7 @@
     "year": 97,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "RC 平屋頂採用柏油油毛氈防水、泡沫混凝土隔熱時,由上而下排列構造層次,下列順序何者是正確?",
+    "question": "RC 平屋頂採用柏油油毛氈防水、泡沫混凝土隔熱時,由上而下排列構造層次,下列順序何者是正確?\n①高壓水泥磚\n②五皮柏油油毛氈\n③泡沫混凝土\n④結構混凝土",
     "options": [
       "①②③④",
       "①③②④",
@@ -1692,7 +1692,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "97-construction-40",
@@ -2645,7 +2646,7 @@
     "year": 97,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為產生白華或稱吐白現象的原因?",
+    "question": "下列何者為產生白華或稱吐白現象的原因?\n①建築材料含有硫酸鹽\n②風力\n③乾燥\n④潮濕",
     "options": [
       "①②",
       "①③",
@@ -2681,7 +2682,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "97-construction-63",
@@ -3689,7 +3691,7 @@
     "year": 98,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何種材料不易因受到光化學作用而老劣化?",
+    "question": "下列何種材料不易因受到光化學作用而老劣化?\n①陶瓷材料\n②高分子材料\n③磚石材料\n④非鐵金屬材料",
     "options": [
       "①②③",
       "②③④",
@@ -3725,7 +3727,8 @@
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "98-construction-07",
@@ -4291,7 +4294,7 @@
     "year": 98,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為建築物設置伸縮縫之條件?",
+    "question": "下列何者為建築物設置伸縮縫之條件?\n①新舊建築物之交接面\n②土壤差異導致沉陷量不同時\n③建築物太高時\n④建築物太長時",
     "options": [
       "①②③",
       "②③④",
@@ -4327,7 +4330,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "98-construction-21",
@@ -5142,7 +5146,7 @@
     "year": 98,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "一般屋頂工程組構依性能之順序為何?",
+    "question": "一般屋頂工程組構依性能之順序為何?\n①反射層\n②防風層\n③防水層\n④隔熱層\n⑤儲熱層",
     "options": [
       "②④③①⑤",
       "①③②④⑤",
@@ -5178,7 +5182,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "98-construction-40",
@@ -5228,7 +5233,7 @@
     "year": 98,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為地下室逆打工法之正確施工順序?",
+    "question": "下列何者為地下室逆打工法之正確施工順序?\n①抽水及挖土\n②基樁及逆打鋼支柱插放\n③梁版及逆打柱頭工程\n④二次牆柱及無收縮水泥砂漿灌注工程",
     "options": [
       "①②③④",
       "②①③④",
@@ -5264,7 +5269,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "98-construction-42",
@@ -5744,7 +5750,7 @@
     "year": 98,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為反循環基樁之正確施工順序?",
+    "question": "下列何者為反循環基樁之正確施工順序?\n①假設工程、放樣、樁心確認\n②安裝套管、鑽掘機安裝、 注入穩定液\n③吊放鋼筋籠、安裝特密管、沉泥處理、混凝土澆置\n④鑽掘、深度完成、超音波檢測",
     "options": [
       "①②③④",
       "②③④①",
@@ -5780,7 +5786,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "98-construction-54",
@@ -6109,7 +6116,7 @@
     "year": 98,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者屬止水擋土壁工法?",
+    "question": "下列何者屬止水擋土壁工法?\n①立柱橫向版樁工法\n②鋼版樁工法\n③柱列壁工法\n④連續壁工法",
     "options": [
       "①②③",
       "②③④",
@@ -6145,7 +6152,8 @@
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "98-construction-62",

@@ -917,7 +917,7 @@
     "year": 98,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "有關光源之演色性指數(Ra),由大至小依序為何?",
+    "question": "有關光源之演色性指數(Ra),由大至小依序為何?\n①高壓鈉燈\n②鹵素燈\n③螢光燈",
     "options": [
       "①②③",
       "①③②",
@@ -953,7 +953,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "98-environment-23",
