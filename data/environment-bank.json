@@ -109,7 +109,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -120,13 +120,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 3 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "晝光率是天空漫射光比例；直接日曬要另外看。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "晝光率是同時刻室內指定點的天然光照度，對室外無遮蔽天空漫射光照度的百分比，通常不把直射日光列入晝光率的比較，因此 B 錯誤。固定天空分布與幾何條件時，它是一種比例指標，並非單純隨室外亮度加倍而必然加倍。玻璃透光性、窗面積、遮蔽及室內反射等則會改變室內可取得的天空光比例。",
+    "optionExplanations": [
+      "A 晝光率計算使用室外天空光照度作分母；在固定天空條件下，比例不等於隨絕對亮度任意變化。",
+      "B 晝光率的典型定義不納入直射日光，此項要求考慮直射光，故錯誤。",
+      "C 不同玻璃透光率會改變進入室內的天然光量，影響晝光率。",
+      "D 窗戶大小與位置影響可見天空及光分布，會影響晝光率。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 1,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-04",
@@ -238,7 +260,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -249,13 +271,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 6 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "U低少傳熱、遮陽少日射；U不是材料本身的k。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "辦公建築外殼節能需分別抑制溫差傳導與日射熱取得。較低 U 值可減少同面積同溫差下的傳導熱量，遮陽則能在日射進入室內前降低熱取得，因此依題目選 A。原題把 U 稱為熱傳導率，學習時應釐清 U 是整體熱傳透率，材料熱傳導率通常記 k 或 λ。實際效益仍依外牆、開窗、屋頂比例及氣候分析。",
+    "optionExplanations": [
+      "A 低U外牆減少傳導熱，遮陽降低日射取得，兩者方向均有利節能。",
+      "B LOW-E玻璃可能有利，但高U外牆增加傳導熱，整組不是本題較佳選擇。",
+      "C 高隔熱屋頂可能有利，但高U外牆仍不符合降低外殼傳熱的方向。",
+      "D 清玻璃的日射熱取得不一定受到有效控制，不能只靠屋頂隔熱就視為最佳組合。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 1,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-07",
@@ -281,7 +325,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -292,13 +336,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 7 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "膨脹通路不能任意截斷；費用降低也不等於總能耗一定降低。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "熱水系統水受熱膨脹，需要依設計有可靠的膨脹與安全通路。鍋爐至膨脹水槽的膨脹管不能因任意裝閥而被隔斷，故依本題選 B。安全裝置及管路應依合格設計維持功能，不能為維修方便自行加裝可能關閉的隔離點。其他選項描述典型能源使用及運轉策略，不代表任何氣候或設備組合下都一定節能。",
+    "optionExplanations": [
+      "A 在同冷量的典型比較中，電動壓縮式機組的用電通常高於以熱能驅動的吸收式；總能源效率仍須另算熱源。",
+      "B 可關閉膨脹通路的閥會造成安全風險，不符題定原則，為答案。",
+      "C 儲冰可移轉尖峰負荷，協助費率與主機容量規劃，但不保證總耗能必然降低。",
+      "D 外氣條件合適時可利用外氣冷房；實際還須評估濕度、焓值及空氣品質。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-08",
@@ -324,7 +390,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -335,13 +401,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 8 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "保溫怕水、怕漏風，也要看角隅熱橋；空氣層不是越厚越好。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "含水、漏風與幾何熱橋都會影響構造傳熱，不能只看材料名稱。外牆角隅可能出現二維或三維熱流及表面溫度降低的熱橋效應，依本題典型情境選 D。玻璃間空氣層不是越厚越有效，厚到一定程度可能增加自然對流；保溫材料含水與空氣層不氣密也可能使隔熱表現變差。具體角隅效應仍需按實際構造分析。",
+    "optionExplanations": [
+      "A 水分侵入常改變導熱及保溫性能，不能說隔熱性能不變。",
+      "B 空氣流動或漏氣會改變熱交換，氣密性與隔熱表現有關。",
+      "C 間隔增加的效益有範圍，過厚可能增強對流，不是無限改善。",
+      "D 角隅的多維熱流可能增加局部熱傳並造成低表面溫度，是本題正確方向。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-09",
@@ -367,7 +455,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -378,13 +466,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 9 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "問指標要先辨版本；基本ET看氣溫、濕度、風速。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "本題的有效溫度採傳統 ET 指標，主要綜合氣溫、濕度與風速對人體感受的影響，輻射不是此基本版本直接納入的項目，所以選 C。不可因此認為輻射不影響真實熱舒適；平均輻射溫度對人體熱平衡很重要，其他修正指標或 PMV 等模型會以不同方式處理。答題先分清是在問某指標的變數，還是在問全部人體熱環境因素。",
+    "optionExplanations": [
+      "A 氣溫為傳統有效溫度考量的基本變數之一。",
+      "B 濕度影響蒸發散熱，屬傳統ET考量因素。",
+      "C 輻射未直接納入本題基本ET定義，為答案；並不表示對人體無影響。",
+      "D 風速影響對流與蒸發散熱，屬傳統ET比較因素。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-10",
@@ -410,7 +520,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -421,13 +531,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 10 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "FCU利分區，AHU利集中管理；室內有風機就要注意噪振。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "AHU 多集中處理空氣，再由風管送至區域；FCU 分散在各房間，能較容易獨立啟停，但風機等噪音源也接近使用者。因此不能概括說 FCU 的防音防振比 AHU 更容易，本題錯誤為 A。集中或分散各有維護、風管、防火及控制取捨，實際結果仍依機房位置、末端安裝及系統型式評估。",
+    "optionExplanations": [
+      "A FCU噪音源接近室內，分散設備也需各自隔振，不能說較容易防音防振，為答案。",
+      "B 分區FCU通常可按房間獨立啟停，較利局部使用。",
+      "C AHU集中於較少位置，一般較易集中維護管理，但仍受實際配置影響。",
+      "D FCU較少跨區大型送回風管，依本題典型比較較易處理部分防火分區問題，仍需合規設計。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-11",
@@ -496,7 +628,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -507,13 +639,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 12 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "聲壓級是對數；RT60是停聲後降60dB的時間。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "人耳對刺激大小的感受與物理量不是簡單平方根比例。依題目所指 Weber–Fechner 觀點，感受量常用對數關係描述，聲壓級也以相對參考值的對數表示，因此 B 錯誤。餘響時間則是停止聲源後平均聲壓級衰減60 dB的時間。雙層隔音構造若有剛性連接可產生聲橋，但並非所有雙層構造一定出現同樣程度的聲橋。",
+    "optionExplanations": [
+      "A 約20至20000Hz為年輕正常聽力常用概略範圍，實際聽域因人及年齡不同。",
+      "B 將感受量說成聲壓平方根正比不符題定對數關係，為答案。",
+      "C 穩定後停止聲源，聲壓級衰減60dB所需時間，是RT60的定義。",
+      "D 雙層構造若有剛性橋接可傳遞振動；應透過分離等細節減少聲橋，而非認為雙層必然更差。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-13",
@@ -539,7 +693,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -550,13 +704,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 13 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "人均量×人數＝總風量；總風量÷房間體積＝ACH。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "先算室內容積 V＝5×4×3＝60 m³。依本題原答案所採每人30 m³/h的換氣量基準，3人需 Q＝90 m³/h；換氣次數 ACH＝Q/V＝90/60＝1.5 h⁻¹，故選 B。人均量是本題歷年題的採用基準，不應視為所有用途與現行規定一律適用。計算時要分清每人換氣量、全室風量與每小時換氣次數。",
+    "optionExplanations": [
+      "A 1次/h只提供60m³/h，相當於每人20m³/h，低於題目採用基準。",
+      "B 1.5次/h提供90m³/h，符合本題計算結果。",
+      "C 2次/h提供120m³/h，雖較多，但不是題目採用基準所得的最低次數。",
+      "D 2.5次/h提供150m³/h，亦非本題計算的最小值。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-14",
@@ -582,7 +758,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -593,13 +769,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 14 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先辨評級：本題L值越低越好，不要與數值越高越好的其他指標混用。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "本題採 L 值樓板衝擊音等級，數值較低代表測得的衝擊聲級較低、隔音表現較好，因此 L-50 比 L-60 好，D 把方向說反。地毯等柔性表面對輕小物件衝擊可有明顯改善，對跳躍等低頻重衝擊效果較有限；增加樓板厚度或改變構造的效果則需看剛度、邊界及頻率，不能只靠表面材料處理所有衝擊音。",
+    "optionExplanations": [
+      "A 地毯可緩和輕物撞擊與高頻振動，對輕量衝擊音常有減低效果。",
+      "B 跳躍等重衝擊涉及樓板整體振動，單靠地毯通常改善較有限。",
+      "C 增加樓板厚度可改變質量與剛度，依題意有利減低重衝擊反應，但具體效果需分析。",
+      "D 本題L值越低越好，L-50優於L-60，故此項錯誤。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-15",
@@ -711,7 +909,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -722,13 +920,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 17 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "戶數×每戶人數×每人用水量；L換m³記得除1000。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "本題先算人口32戶×4人＝128人，再依歷年題採用的每人每日250 L用水基準，總量＝128×250＝32000 L/day＝32 m³/day，因此選 C。必須除以1000把公升換成立方公尺。這是題定年代與基準的需求估算，不是今日每棟公寓都固定使用相同人均量；實務須依適用標準、住用型態與資料估計。",
+    "optionExplanations": [
+      "A 57.6m³/day相當於每人450L/day，與本題250L基準不同。",
+      "B 44.8m³/day相當於每人350L/day，不是題定採用量。",
+      "C 32m³/day由128×250÷1000所得，為答案。",
+      "D 19.2m³/day相當於每人150L/day，少於本題採用基準。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-18",
@@ -754,7 +974,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -765,13 +985,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 18 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "同介質λ＝c/f；先各算波長，再依題意相減。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "波長 λ＝c/f。採本題空氣聲速約340 m/s，100Hz波長為3.4m，200Hz波長為1.7m，兩者差3.4−1.7＝1.7m，故選 B。頻率加倍時波長減半，不是波長差也隨便取一半頻率。若採343m/s，差約1.715m，仍最接近1.7m；聲速會隨溫度等條件變動。",
+    "optionExplanations": [
+      "A 2.7m不符合在約340m/s下的兩波長之差。",
+      "B 1.7m為3.4m減1.7m，符合答案。",
+      "C 3.4m是100Hz本身的波長，不是兩者波長差。",
+      "D 1.0m未依聲速除頻率關係計算，與題定結果不符。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-19",
@@ -846,7 +1088,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -857,13 +1099,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 20 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "AHU看風機、濾網與盤管；不要把主機冷凝側和水泵一起塞進箱內。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "典型冰水式 AHU 將室內或外部空氣經過濾後，由風機驅動流經冰水盤管進行熱交換；風扇馬達提供機械動力。因此送風機、冰水盤管、過濾器與風扇馬達的組合符合題意，選 A。冰水泵屬水側輸送設備，冷凝管屬冷凍循環的另一側，不能把整個空調系統所有設備都視為 AHU 箱體的典型組件。",
+    "optionExplanations": [
+      "A 風機、馬達、過濾器與冰水盤管符合典型冰水式AHU的空氣處理功能。",
+      "B 幫浦不是此題箱內空氣處理組件的主要答案，且混入蒸發管等不同系統敘述。",
+      "C 缺少風機及過濾等典型組件，又混合水側與冷凍設備。",
+      "D 某些空調箱可有加濕元件，但冷凝管非本題典型冰水式AHU應有的組合。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 3,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-21",
@@ -889,7 +1153,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -900,13 +1164,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 21 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "朝向不等於免日曬；遮陽要看臺灣實際季節與太陽方位。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "臺灣位於北回歸線附近，夏季部分時段太陽方位可使北向立面也受到直接日射，且北向仍可能有天空漫射及周邊反射熱。因此不能說北向完全沒有直接日射、一定不需遮陽，C 錯誤。遮陽應配合緯度、季節、時段與立面朝向，南向較高太陽角常適合水平遮陽；東西向低角度日射則更難用單一水平板處理。",
+    "optionExplanations": [
+      "A 南向日射常可利用水平遮陽控制，尺寸仍需按太陽角及採光需求設計。",
+      "B 格子等複合遮陽可處理不同角度日射；東西向低角度陽光仍需具體分析。",
+      "C 北向無任何直接日射且不需遮陽是過度絕對敘述，為答案。",
+      "D 頂窗可採光，也可能引入大量日射熱與眩光，需遮陽及熱環境評估。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 3,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-22",
@@ -1018,7 +1304,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -1029,13 +1315,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 24 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "鋁箔要面向空氣層才談輻射阻隔；空氣層傳熱不只導熱。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "空氣層同時涉及導熱、自然對流與表面間輻射。若鋁箔低放射率表面朝向合適空氣層，可降低輻射傳熱，因此不能說貼鋁箔後傳熱量變化不大，C 為錯誤。空氣層加厚到一定程度，對流可能增加而使改善趨緩；適當厚度與熱流方向、溫差及邊界有關，本題厚度數字不能直接當成所有構造的固定最佳值。",
+    "optionExplanations": [
+      "A 10至15mm是本題所採常見空氣層厚度描述，實際最適值仍視條件而異。",
+      "B 厚度增加後可能受自然對流限制，隔熱效益並非持續線性增加。",
+      "C 面向空氣層的低放射率鋁箔可降低輻射交換，此項否定其作用，故錯誤。",
+      "D 向上、向下或水平熱流可形成不同對流情況，故熱流方向會影響熱傳。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 3,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-25",
@@ -1061,7 +1369,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -1072,13 +1380,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 25 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "時滯是峰值晚到；熱容量與構造層次要一起看。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "時滯表示熱流或溫度波動通過具有熱容量的環境與構造後，峰值出現時間延後。一般磚石構造比輕型木構造具有較高蓄熱能力與較長典型時滯，所以 C 將兩者通常關係說反。實際時滯還取決於厚度、熱擴散性與層次，不能只用材料名稱做任何情況的固定排序。午後或傍晚仍熱也可能同時受氣象與都市蓄熱影響。",
+    "optionExplanations": [
+      "A 地表先吸熱再逐步向空氣放熱，是溫度峰值延後的原因之一。",
+      "B 氣溫峰值通常不恰在太陽正午，與持續能量收支和蓄熱有關。",
+      "C 典型輕型木構造不會一般性地比磚構造有更長時滯，為本題錯誤。",
+      "D 蓄熱後續釋放可使傍晚仍熱，是時滯相關現象之一，但非唯一氣象因素。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 3,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-26",
@@ -1331,7 +1661,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1342,14 +1672,36 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 31 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
     },
-    "manualTranscription": true
+    "manualTranscription": true,
+    "memoryTip": "先收集與去顆粒，再儲存處理；消毒後的水要避免再污染。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "依本題雨水處理流程，先集水②，再由沉砂槽⑤去除較重顆粒，進入貯留槽③，經消毒①後存入處理後水槽④，因此順序為②⑤③①④，選 C。先處理顆粒有助降低後段負擔；把消毒放在進水或沉砂之前，通常不是本題預期流程。實際雨水系統還可能有初期雨水排除、過濾等步驟，不能把五個元件視為所有用途都已足夠。",
+    "optionExplanations": [
+      "A 一開始即消毒而尚未集水，與本題水流順序不符。",
+      "B 集水後立刻消毒、沉砂又在貯留之後，不符合題定流程。",
+      "C 集水→沉砂→貯留→消毒→處理後儲水，為答案。",
+      "D 集水後先消毒再沉砂，亦非本題採用流程。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 4,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-32",
@@ -1375,7 +1727,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1386,13 +1738,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 32 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "材料k與整體U不同；風會改變表面對流熱阻。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "牆體整體熱傳透率不只由牆內材料決定，也包含內外表面熱阻。風速增加通常會增強表面對流換熱，改變外表面熱阻與整體傳熱，所以 C 說與風速無關是錯誤。材料本身的熱傳導率和含表面效應的整體 U 值要分開。氣密、隔熱與熱容量各處理不同機制，也都需兼顧必要通風與實際構造。",
+    "optionExplanations": [
+      "A 氣密改善可減少非預期漏氣帶來的熱損失，但仍須供給必要通風。",
+      "B 隔熱改善通常有助降低表面冷熱差與室內不均勻，實際上下溫差也受送風及熱源影響。",
+      "C 表面風速影響對流熱阻，整體傳熱並非完全無關，故選C。",
+      "D 較大熱容量可減緩同條件下的溫度變動，但需區別蓄熱與隔熱。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 4,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-33",
@@ -1553,7 +1927,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1564,13 +1938,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 36 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "光效看lm/W與產品條件；歷年光源排序不直接套到今日LED。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "發光效率是輸出光通量除以輸入電功率，單位 lm/W。本題比較典型年代的白熾燈、T5燈管、一般白色螢光燈與省電燈泡，T5系統通常具有較高發光效率，故選 B。不同產品、安定器、溫度及使用時間會改變表現，不能推論所有標示T5的產品都一定優於任何其他光源，也不能把此歷年題當作今日LED產品的全面比較。",
+    "optionExplanations": [
+      "A 白熾燈以高溫燈絲發光，熱輻射損失較多，通常光效較低。",
+      "B 依本題常見產品比較，T5燈管光效最高，為答案。",
+      "C 一般白色螢光燈有效率優勢，但非本題四者中的最佳項。",
+      "D 省電燈泡通常優於白熾燈，但本題典型比較仍以T5為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 4,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-37",
@@ -1639,7 +2035,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1650,13 +2046,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 38 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "蒸、壓、凝、膨：蒸發吸熱，冷凝放熱。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "蒸氣壓縮冷凍循環可從蒸發器開始記：低壓冷媒吸熱蒸發，進入壓縮機提高壓力，再至冷凝器放熱凝結，最後經膨脹裝置降壓後返回蒸發器。因此為蒸發→壓縮→凝縮→膨脹，選 C。壓縮機正常入口應避免液態冷媒直接進入；膨脹過程不是壓縮過程，也不是靠膨脹閥向室外排掉主要熱量。",
+    "optionExplanations": [
+      "A 蒸發後不先壓縮就直接膨脹，無法形成題定的高低壓循環順序。",
+      "B 同樣把膨脹放在蒸發後、壓縮前，次序錯誤。",
+      "C 蒸發吸熱→壓縮升壓→冷凝放熱→膨脹降壓，為答案。",
+      "D 壓縮後應先冷凝再膨脹，不能把兩者顛倒。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 4,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-environment-39",
@@ -1726,7 +2144,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 97 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1737,13 +2155,35 @@
     "originalQuestionLabel": "97 年建築環境控制｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "基地保水是雨落土地怎麼走；水資源多看建築用水怎麼省。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "本題比較綠建築指標與基地生態的直接關聯。生物多樣性、基地綠化及基地保水分別涉及棲地、生物與植被、土壤水循環；水資源指標較著重建築用水節約與利用，所以相對較間接，選 C。不是說節水對生態沒有幫助，而是要分清題目所問的主要評估焦點，不能見到水字就把所有指標歸為同一概念。",
+    "optionExplanations": [
+      "A 生物多樣性直接關係棲地及生物組成，與生態關聯高。",
+      "B 基地綠化直接涉及植被配置及環境功能，與生態相關。",
+      "C 水資源指標重點在用水節約利用，相對於其他三項與基地生態較間接，為答案。",
+      "D 基地保水處理降雨入滲、土壤與逕流調節，直接關係基地水循環。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築環境控制原題",
+        "url": "assets/97-environment/questions.pdf",
+        "page": 4,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-environment/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-environment-01",

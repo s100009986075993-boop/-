@@ -118,7 +118,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -129,13 +129,35 @@
     "originalQuestionLabel": "98 年建築結構｜測驗第 3 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "固定固定0.5、鉸鉸1、固定自由2；先確認有無側移。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "使用 Euler 理想彈性挫屈模型時，兩端固定柱的第一挫屈形狀可用長度 L/2 的等效鉸支柱理解，因此有效長度 KL＝L/2，K＝0.5，選 A。由 Pcr＝π²EI/(KL)² 可知，在 E、I、L 相同下，端部轉動限制越強，理想臨界載重越高。這是理想邊界值；真實構架須考慮側移、接頭勁度、初始缺陷及非彈性效應。",
+    "optionExplanations": [
+      "A 兩端理想固定且無側移時，K＝0.5，為題目採用的理想值。",
+      "B K＝1通常對應兩端鉸支的 Euler 基本模型，不是兩端固定。",
+      "C K＝2通常對應一端固定、一端自由的理想懸臂柱，端部約束較弱。",
+      "D 兩端固定有有限有效長度，不會因端部固定而使 K 無限大。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築結構原題",
+        "url": "assets/98-structure/questions.pdf",
+        "page": 2,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-structure-04",
@@ -538,7 +560,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -549,13 +571,35 @@
     "originalQuestionLabel": "98 年建築結構｜測驗第 12 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "懸臂端力撓度看L³；端力轉角看L²；均布撓度看L⁴。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "等截面、線彈性、小變形的懸臂梁，在自由端受集中力 P 時，端點撓度 δ＝PL³/(3EI)。固定 P、E、I 比較長度，δ 與 L 的三次方成正比，故選 A。長度加倍時撓度增為8倍。不要與自由端轉角 PL²/(2EI)，或均布載重懸臂梁撓度 wL⁴/(8EI)混淆；題目荷載型式決定長度次方。",
+    "optionExplanations": [
+      "A 三次方正比，對應端點集中力懸臂的撓度公式，為答案。",
+      "B 平方關係可出現在此模型的端點轉角，不是端點撓度。",
+      "C 其餘條件固定時，長度顯著影響撓度，並非無關。",
+      "D 反比方向相反；梁越長通常越柔，不會在同一端力下撓度越小。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築結構原題",
+        "url": "assets/98-structure/questions.pdf",
+        "page": 4,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-structure-13",
@@ -630,7 +674,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -641,13 +685,35 @@
     "originalQuestionLabel": "98 年建築結構｜測驗第 14 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "0.003＝千分之三，是題定設計模型，不是所有試驗的固定值。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "本題問 RC 強度設計所採的混凝土極限壓應變假設，依題定常用斷面模型取0.003，即千分之三，選 C。它用來配合平面保持平面的應變分布、鋼筋應變及中立軸位置，建立極限斷面承載分析。這不是所有混凝土試體峰值應變的通用實測常數，也不能不分規範版本、材料與圍束條件套到所有模型。",
+    "optionExplanations": [
+      "A 0.001不是本題採用的極限壓應變假設，不能與服務階段應變任意互換。",
+      "B 0.002可能出現在部分材料應力應變模型的峰值附近，但不是本題強度設計所問的0.003。",
+      "C 0.003即0.3%，是本題所用的理想極限壓應變，為答案。",
+      "D 0.004不是本題的標準假設；若使用不同極限值，須有相應模型或規範依據。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築結構原題",
+        "url": "assets/98-structure/questions.pdf",
+        "page": 5,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-structure-15",
@@ -714,7 +780,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -725,13 +791,35 @@
     "originalQuestionLabel": "98 年建築結構｜測驗第 16 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "矩形抗彎深度是三次方；寬深互換要兩個尺寸一起算。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "矩形斷面繞水平形心軸的慣性矩 I＝bh³/12。設原寬為 b、深為2b，原 I＝8b⁴/12；寬深對調後，寬2b、深b，新 I＝2b⁴/12，只有原來的1/4。均布載重懸臂梁 δ＝wL⁴/(8EI)，其他條件相同時 δ 與 I 成反比，故新撓度為4δ，選 C。面積未變，不代表抗彎勁度不變。",
+    "optionExplanations": [
+      "A 0.5δ代表變得較硬，與深度降低造成慣性矩減少的結果相反。",
+      "B 2δ少算了深度在 I 中的三次方作用，正確比值為4。",
+      "C I變成原來1/4，撓度變成4倍，符合答案。",
+      "D 8δ只看深度減半的立方影響，漏了寬度同時加倍，故多算一倍。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築結構原題",
+        "url": "assets/98-structure/questions.pdf",
+        "page": 5,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-structure-17",
@@ -1144,7 +1232,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1155,13 +1243,35 @@
     "originalQuestionLabel": "98 年建築結構｜測驗第 25 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "載重、剪力、彎矩：每積分一次，函數階次加一。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "在採一致正負號的梁理論下，dV/dx＝−w、dM/dx＝V。均布載重 w 為常數，積分一次得到剪力沿梁長線性變化，再積分得到彎矩二次變化，因此選 C。簡支條件使兩端彎矩為零；對稱全跨均布載重下，跨中剪力為零且彎矩達極值。線型階次與正負號是不同問題，不要只靠圖向上或向下背誦。",
+    "optionExplanations": [
+      "A 水平剪力圖通常對應該段無分布荷載；本題有均布載重，剪力不會固定。",
+      "B 彎矩二次正確，但剪力水平不符合均布荷載下的微分關係。",
+      "C 剪力為斜直線、彎矩為二次曲線，為答案。",
+      "D 剪力二次、彎矩三次通常對應沿長度線性變化的分布載重，不是均布載重。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築結構原題",
+        "url": "assets/98-structure/questions.pdf",
+        "page": 7,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-structure-26",
@@ -1460,7 +1570,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1471,13 +1581,35 @@
     "originalQuestionLabel": "98 年建築結構｜測驗第 32 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "整體細長柱先看E、I、KL或KL/r；不要和局部板挫屈混用。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "理想細長柱的彈性整體挫屈可用 Pcr＝π²EI/(KL)²理解，或改寫成臨界應力與長細比 KL/r 的關係。有效長度、長細比與彈性模數都是直接參數；波松比不直接出現在此 Euler 模型中，因此選 D。這是問整體彎曲挫屈的主要參數，不表示波松比在所有局部板件、剪切或三維材料分析中都沒有影響。",
+    "optionExplanations": [
+      "A 長細比描述有效長度相對於斷面迴轉半徑的比例，直接影響整體穩定。",
+      "B 有效長度包含端部約束與穩定模型，直接影響臨界載重。",
+      "C E決定彈性彎曲勁度 EI，是 Euler 公式中的直接參數。",
+      "D 波松比非此理想 Euler 整體挫屈公式的直接參數，為本題答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築結構原題",
+        "url": "assets/98-structure/questions.pdf",
+        "page": 7,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-structure-33",
@@ -1502,7 +1634,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1513,13 +1645,35 @@
     "originalQuestionLabel": "98 年建築結構｜測驗第 33 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "UT超音波、RT放射線、VT目視、MT磁粉。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "UT 是 Ultrasonic Testing，利用超音波在材料內傳遞及遇界面或不連續處反射的訊號檢測缺陷，因此選 A。它與放射線、目視或磁粉檢測的物理機制不同。不同檢測法對缺陷方向、表面或內部位置、材質與可及性有各自限制；知道縮寫只是入門，不能推論某一方法可偵測所有缺陷。",
+    "optionExplanations": [
+      "A 超聲波檢測對應 UT，為正確名稱。",
+      "B 放射線檢測常記為RT，以穿透影像判讀，並非UT。",
+      "C 目視檢測常記為VT，主要觀察可見表面與幾何狀況。",
+      "D 磁粉探傷常記為MT，利用磁場及磁粉顯示適用材料的表面或近表面不連續。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築結構原題",
+        "url": "assets/98-structure/questions.pdf",
+        "page": 7,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-structure-34",
@@ -1544,7 +1698,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1555,13 +1709,35 @@
     "originalQuestionLabel": "98 年建築結構｜測驗第 34 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "SCC看流動、通過與抗析離；不是看到C就只想到抗壓。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "SCC 是 Self-Compacting Concrete，即自充填混凝土。重點是足夠流動性、通過鋼筋間隙的能力及抗析離性，使其可在適當條件下靠自重充填而減少振動需求，故選 B。自充填不是強度等級名稱；它可另設計成不同抗壓強度，也不是只把水加多。配比、材料與施工品質仍需符合試驗及規範。",
+    "optionExplanations": [
+      "A 高強度混凝土描述強度，與自充填的工作性分類不同，兩者可能重疊但非同義。",
+      "B 自充填混凝土完整對應SCC，為答案。",
+      "C 高密度描述密度特性，並不保證能自充填。",
+      "D 超抗壓並非SCC縮寫的定義，不能由英文縮寫猜成強度越高越好。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築結構原題",
+        "url": "assets/98-structure/questions.pdf",
+        "page": 7,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-structure-35",
@@ -1676,7 +1852,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1687,13 +1863,35 @@
     "originalQuestionLabel": "98 年建築結構｜測驗第 37 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "三鉸拱較能用轉動適應變位，但不是不需檢查變形與穩定。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "理想平面三鉸拱屬靜定結構，可藉鉸的轉動與幾何調整容許一定的溫度伸縮或支承位移，因此相較固定拱與二鉸拱，較不易因位移相容限制產生附加內力，選 C。這是小變形、理想鉸接等前提下的系統比較，並非三鉸拱能承受任意沉陷或斷層錯動而不損壞；穩定、接頭轉角與變形仍須檢查。",
+    "optionExplanations": [
+      "A 固定拱約束較多，溫度與支承變位較容易引入附加內力。",
+      "B 二鉸拱仍有超靜定約束，對溫度或沉陷的容許性不如題定三鉸拱。",
+      "C 三鉸拱的靜定與轉動自由度較能適應指定變位，為答案。",
+      "D 梁柱系統有多種可能邊界，不能一概視為可自由適應溫度及沉陷；非本題最佳比較項。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築結構原題",
+        "url": "assets/98-structure/questions.pdf",
+        "page": 8,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-structure-38",
@@ -1814,7 +2012,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1825,12 +2023,34 @@
     "originalQuestionLabel": "98 年建築結構｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "質心放慣性力、剛心看抗側；兩者偏開就要想扭轉。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "地震慣性力可視為作用於質量分布的合力；當質心與剛心不重合時，側向作用對抗側系統形成偏心距 e，產生平面扭轉作用，概念上可用扭矩 T＝V e 理解，因此選 D。樓層不同位置的側移與構件需求可能因扭轉而不均。即使兩心接近，也仍需依適用規範考慮偶然偏心及動力效應。",
+    "optionExplanations": [
+      "A 傾倒主要與側力沿高度作用形成的整體翻轉效應有關，非題目兩心偏離的直接辨識。",
+      "B 彎曲變形不是此題質心與剛心平面偏心的最直接結果。",
+      "C 層剪力存在於一般側力反應中；兩心偏離的特徵是另引入扭轉需求。",
+      "D 偏心距使側向合力形成扭矩，造成扭曲反應，是本題答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築結構原題",
+        "url": "assets/98-structure/questions.pdf",
+        "page": 8,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   }
 ]

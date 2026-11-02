@@ -886,7 +886,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -896,13 +896,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 19 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "懸臂柱K＝2；同長同材同斷面，臨界載重比鉸鉸少到1/4。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "柱一端固定、一端自由時，理想第一挫屈形狀相當於長度2L的鉸支柱半波，因此有效長度 KL＝2L，K＝2，選 B。在相同 E、I、L 下，其 Euler 臨界載重只有兩端鉸支柱的1/4。此值建立在理想固定與自由邊界，真實構架的端部勁度、側移與非彈性行為不能只靠這個理想表格取代。",
+    "optionExplanations": [
+      "A K＝1為兩端鉸支的基本理想模型，不是懸臂柱。",
+      "B K＝2符合固定自由柱的理想有效長度，為答案。",
+      "C K＝5不對應本題理想端部條件，不能以柱較弱就任意加大。",
+      "D 固定自由柱仍有有限彈性臨界載重，K並非無限大。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 6,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "99-structure-20",
@@ -1031,7 +1053,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -1041,13 +1063,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 22 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "E是材料性質；EA/L是桿件勁度；勁度單位力／長度。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "軸向勁度是軸力相對軸向位移的比例 k＝F/δ，對等截面線彈性桿可寫成 EA/L，因此單位是力除以長度。四個選項只有 kgf/mm 符合，選 C。E 的單位是力除以面積，柔度則是位移除以力；不要把材料彈性模數、構件勁度和構件柔度當成同一量。",
+    "optionExplanations": [
+      "A kgf/cm²為應力或彈性模數的單位，不是構件軸向勁度。",
+      "B m/kgf為位移除以力，較適合表示柔度，是勁度的倒數形式。",
+      "C kgf/mm為力除以位移，符合軸向勁度單位，為答案。",
+      "D MPa是應力單位，相當於N/mm²，不能直接表示整根桿件的勁度。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 6,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "99-structure-23",
@@ -1072,7 +1116,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -1082,13 +1126,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 23 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "應力與E是力／面積；I是L⁴、截面係數Z是L³。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "彈性模數 E＝應力/應變；應變無因次，所以 E 與應力一樣具有力除以面積的單位。A 寫成 kgf/cm³ 多除了一個長度，因此錯誤。截面係數 Z＝I/c，I 的單位為長度四次方，再除以長度後為長度三次方。用定義與量綱能判斷，不必逐一死背每個單位。",
+    "optionExplanations": [
+      "A 彈性模數應為kgf/cm²等應力單位，非kgf/cm³，是答案。",
+      "B 彎曲應力屬力除以面積，kgf/cm²正確。",
+      "C 剪應力同樣屬力除以面積，kgf/cm²正確。",
+      "D 截面係數I/c的單位為長度三次方，cm³正確。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 6,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "99-structure-24",
@@ -1113,7 +1179,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -1123,13 +1189,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 24 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "力法未知是多餘力；位移法未知是節點轉角與位移。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "力法以多餘力作為主要未知數，再利用變位相容條件求解。最小功法可由應變能對多餘力的條件建立相容方程，因此在本題歸為力法，選 C。傾角變位法與彎矩分配法則以節點轉角、位移及構件端力關係為基礎，通常歸入位移法或其迭代形式。重點是辨認主要未知數，不是看到彎矩就都當力法。",
+    "optionExplanations": [
+      "A 傾角變位法以節點轉角、側移等位移未知數建立關係，屬位移法。",
+      "B 彎矩分配法可視為求解位移法節點平衡的迭代方式，非本題答案。",
+      "C 最小功法利用能量及多餘力相容條件，屬題定力法。",
+      "D 題列彎矩分配變形法仍非此處要求的柔度法辨識，應回到未知數與相容式判斷。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 6,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "99-structure-25",
@@ -1236,7 +1324,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1246,13 +1334,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 27 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "R想到Radiographic放射線；U想到Ultrasonic超音波。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "RT 是 Radiographic Testing，即放射線檢測。它利用材料對放射線的穿透差異形成影像，以評估適合該方法辨識的不連續，因此選 B。不要與 UT 超音波反射訊號、VT 目視或 MT 磁粉顯示混淆。檢測方法的選擇與缺陷方向、材料、厚度及現場條件有關，且應由合格人員依程序執行。",
+    "optionExplanations": [
+      "A 超聲波檢測縮寫為UT，不是RT。",
+      "B 放射線檢測對應RT，為正確名稱。",
+      "C 目視檢測縮寫為VT，不能取代所有內部缺陷檢查。",
+      "D 磁粉探傷縮寫為MT，適用材料與可檢出位置受其物理機制限制。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 7,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "99-structure-28",
@@ -1318,7 +1428,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1328,13 +1438,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 29 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "RC強度彎矩：混凝土壓、鋼筋拉；使用性問題另論。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "一般 RC 極限彎矩強度分析中，開裂後的拉區混凝土抗拉貢獻通常忽略，主要由鋼筋承受拉力、混凝土壓區提供壓力，故選 B。混凝土抗壓強度、鋼筋降伏強度與中立軸位置都關係到內力平衡及承載力。這不表示混凝土沒有抗拉強度；裂縫、開裂彎矩、剛度及使用性分析仍可能需要相關性質。",
+    "optionExplanations": [
+      "A 混凝土抗壓強度影響壓區應力及可提供的壓力合力，須考慮。",
+      "B 在題定一般極限彎矩設計模型中，拉區混凝土抗拉強度通常忽略，為答案。",
+      "C 中立軸位置決定應變分布、壓區深度與內力力臂，需由相容和平衡求得。",
+      "D 鋼筋降伏強度影響張力及降伏狀態，為分析重要參數。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 7,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "99-structure-30",
@@ -1523,7 +1655,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1533,13 +1665,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 34 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "筏基有助整體分配，不代表任何土層都零沉陷。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "在題目的基礎形式比較中，筏式基礎利用較大底面積與整體板作用分配多柱荷載，通常較有利於降低平均接地壓力及減少差異沉陷，故選 C。這不是保證筏基不沉陷；總沉陷仍受土層壓縮性、地下水、荷載與基礎尺度影響，軟弱深厚地層也可能需其他處理。應將考題的相對比較與實際地工設計分開。",
+    "optionExplanations": [
+      "A 獨立基腳局部承載，各基腳沉陷差異需另處理，非本題最有整體分配效果者。",
+      "B 聯合基腳可共同支承部分柱荷載，但涵蓋範圍通常不如全筏式基礎。",
+      "C 筏式基礎以整體底板分散荷載，是本題相對較佳選項。",
+      "D 牆基腳沿承重牆分配作用，不等於整棟建築全面筏板的荷載分配。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 7,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "99-structure-35",
@@ -1627,7 +1781,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1637,13 +1791,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 36 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "Euler看EI增大、KL減小；材料強度高不等於E一定高。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "理想細長柱的彈性臨界載重 Pcr＝π²EI/(KL)²。在長度、邊界及斷面相同時，採用較高彈性模數 E 的材料可提高臨界載重，故選 C。其餘選項增加有效長度、減少迴轉半徑或慣性矩，通常都會降低穩定承載能力。這是彈性挫屈比較，不應把高強度與高彈性模數視為完全相同的材料指標。",
+    "optionExplanations": [
+      "A 增加柱長使有效長度變大，依平方反比降低臨界載重。",
+      "B 減少迴轉半徑會增加長細比，在同條件下不利穩定。",
+      "C 提高E增加彎曲勁度EI，可提高理想臨界載重，為答案。",
+      "D 減少I會降低抗彎及挫屈抵抗能力，方向相反。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 7,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "99-structure-37",

@@ -217,7 +217,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 97 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依97年原卷給分；另可對照上傳的建築法（民國 111 年 05 月 11 日）第96條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
     "image": "assets/97-law/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -227,13 +227,41 @@
     "originalQuestionLabel": "97 年營建法規與實務｜測驗第 5 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "法規選項先圈兩件事：誰負責、是應還是得。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "本題同時考義務主體與法律用語。對法律施行前即存在、供公眾使用而未領使用執照的建築物，題定規則是由所有權人「應」申請核發，不是管理人，也不是所有權人可自由選擇的「得」，因此選 B。不能將此過渡規定擴大為所有未領照建築都能直接合法化，核照與安全處理仍有程序。\n本題依97年原卷給分；另可對照上傳的建築法（民國 111 年 05 月 11 日）第96條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
+    "optionExplanations": [
+      "A 主體雖為所有權人，但把應申請改成得申請，弱化了題定義務。",
+      "B 所有權人應申請，主體與強制用語均正確。",
+      "C 主體誤換成管理人，且得亦不符本題義務。",
+      "D 雖使用應，義務主體仍錯成管理人。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年營建法規與實務原題",
+        "url": "assets/97-law/questions.pdf",
+        "page": 1,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "建築法第96條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 19,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "97-law-06",
@@ -343,7 +371,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 97 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依97年原卷給分；另可對照上傳的建築法（民國 111 年 05 月 11 日）第77-2條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
     "image": "assets/97-law/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -353,13 +381,41 @@
     "originalQuestionLabel": "97 年營建法規與實務｜測驗第 8 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "不是公眾使用，不等於室內裝修一律免審。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "室內裝修審查不能只以是否供公眾使用做絕對二分。供公眾使用者原則應申請；非供公眾使用者若經主管機關認有必要，也可能被納入，因此 B 的一律免申請敘述錯誤。材料、從業資格與業務責任是另外的合規要求，不因某項免審就可忽略。還需分清是否屬法定室內裝修與適用範圍。\n本題依97年原卷給分；另可對照上傳的建築法（民國 111 年 05 月 11 日）第77-2條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
+    "optionExplanations": [
+      "A 供公眾使用建築物的室內裝修原則須審查許可，符合題定規則。",
+      "B 非供公眾使用不代表全部免審，忽略依法納入的情形，故為答案。",
+      "C 從業者登記許可與業務範圍責任是管理要求，並非錯誤項目。",
+      "D 裝修材料仍須符合適用建築技術規則，不能以裝修規模小就任意忽略。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年營建法規與實務原題",
+        "url": "assets/97-law/questions.pdf",
+        "page": 1,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "建築法第77-2條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 12,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "97-law-09",
@@ -427,7 +483,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 97 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依97年原卷給分；另可對照上傳的都市計畫法（民國 110 年 05 月 26 日）第11條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
     "image": "assets/97-law/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -437,13 +493,41 @@
     "originalQuestionLabel": "97 年營建法規與實務｜測驗第 10 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "不同款不要亂合併；本題工商業占就業人口是50%，不是40%。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "本題以三種判斷軸考鄉街計畫：行政中心、人口成長，以及人口與工商業就業比例的組合。C 把工商業人口占就業總人口的門檻列為40%，但題定規則為50%，所以選 C。不能把人口3000、五年增加三分之一與工商業50%全部混成必須同時符合的一組；它們分屬不同款的成立情形。\n本題依97年原卷給分；另可對照上傳的都市計畫法（民國 110 年 05 月 26 日）第11條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
+    "optionExplanations": [
+      "A 鄉公所所在地為列舉情形之一，不須另把所有其他款條件疊加。",
+      "B 五年前已達3000人且最近五年增加三分之一，是另一人口成長判斷。",
+      "C 本題工商業就業占比應為50%以上，40%錯誤。",
+      "D 經指定應擬定的地區也是列舉情形；機關名稱仍需按題目年代核對。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年營建法規與實務原題",
+        "url": "assets/97-law/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第11條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 2,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "97-law-11",
@@ -511,7 +595,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 97 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依97年原卷給分；另可對照上傳的都市計畫法（民國 110 年 05 月 26 日）第77條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
     "image": "assets/97-law/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -521,13 +605,41 @@
     "originalQuestionLabel": "97 年營建法規與實務｜測驗第 12 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "列舉題回到指定法條；別把合理的財源想像當成條文明列。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "都市計畫經費條文列舉年度預算、工程受益費、部分土地增值稅、私人捐獻、補助及其他指定來源。本題四個選項中，公益彩券盈餘分配不是該條所列的直接來源，因此選 A。這是在辨識指定法條的列舉，不是斷言所有公共預算都永遠不能含任何相關收入；不要將條文列舉題擴張成對所有財政運作的絕對結論。\n本題依97年原卷給分；另可對照上傳的都市計畫法（民國 110 年 05 月 26 日）第77條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
+    "optionExplanations": [
+      "A 公益彩券盈餘分配不是本題指定條文明列的來源，為答案。",
+      "B 工程受益費收入為條文列舉的來源之一。",
+      "C 土地增值稅部分收入提撥為列舉項目，注意是部分而非全部。",
+      "D 私人團體捐獻也在列舉範圍，不能因來自私人就排除。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年營建法規與實務原題",
+        "url": "assets/97-law/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第77條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 13,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "97-law-13",
@@ -553,7 +665,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 97 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依97年原卷給分；另可對照上傳的建築法（民國 111 年 05 月 11 日）第51條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
     "image": "assets/97-law/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -563,13 +675,41 @@
     "originalQuestionLabel": "97 年營建法規與實務｜測驗第 13 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "例外類型不等於免許可；建築線題要一起看機關核准。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "建築線以外原則不得突出，題目問可適用的例外類型，紀念性建築物是條文明列者，所以選 B。但例外仍需主管建築機關許可，不是只要自稱紀念性就可直接施工。公益或短期需要且無礙交通等條件也須依條文與個案審查；不能僅看廣告、藝術或慶典名稱就自動認定符合。\n本題依97年原卷給分；另可對照上傳的建築法（民國 111 年 05 月 11 日）第51條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
+    "optionExplanations": [
+      "A 百貨促銷屬商業活動，僅此描述不足以成立題定突出例外。",
+      "B 紀念性建築物是明列類型，但仍須取得主管機關許可。",
+      "C 公共藝術的名稱本身不等於已符合所有法定例外與許可條件。",
+      "D 社團週年牌樓不因有紀念或短期性就自動合法；仍須判斷法定條件及許可，本題直接列舉答案為B。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年營建法規與實務原題",
+        "url": "assets/97-law/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "建築法第51條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 8,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "97-law-14",
@@ -637,7 +777,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 97 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依97年原卷給分；另可對照上傳的都市計畫法（民國 110 年 05 月 26 日）第20條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
     "image": "assets/97-law/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -647,13 +787,41 @@
     "originalQuestionLabel": "97 年營建法規與實務｜測驗第 15 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "擬定、核定、備案分三欄；內政部核定別誤成行政院核定。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "本題關鍵是區分擬定、核定及備案三種行政程序。直轄市主要計畫依題定規則由內政部核定，不是直接由行政院核定，所以 A 錯誤。某些類型另須轉報行政院備案，但備案不能與核定混為一談，也不能看到行政院就把所有計畫改成由其核定。其他機關名稱與計畫類型仍須配合題目年度的條文核對。\n本題依97年原卷給分；另可對照上傳的都市計畫法（民國 110 年 05 月 26 日）第20條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
+    "optionExplanations": [
+      "A 直轄市主要計畫由內政部核定，此項寫行政院核定，為答案。",
+      "B 縣政府所在地及縣轄市主要計畫由內政部核定，符合題意。",
+      "C 鎮及鄉街主要計畫由內政部核定，為題定列舉。",
+      "D 內政部訂定的特定區計畫報行政院備案，注意不是將備案改寫成核定。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年營建法規與實務原題",
+        "url": "assets/97-law/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "都市計畫法第20條（上傳版本對照）",
+        "url": "assets/references/urban-planning-act.pdf",
+        "page": 4,
+        "version": "民國 110 年 05 月 26 日"
+      }
+    ]
   },
   {
     "id": "97-law-16",
@@ -1153,7 +1321,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 97 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依97年原卷給分；另可對照上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第29條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
     "image": "assets/97-law/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -1163,13 +1331,41 @@
     "originalQuestionLabel": "97 年營建法規與實務｜測驗第 27 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "所有權人會議、管委會、主委三層分開；主委由委員互推。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "先分清區分所有權人會議、管理委員會與主任委員三個層次。本題管理委員會已成立，主任委員依題定一般規則由管理委員互推一人產生，並對外代表委員會，故選 C。不要把產生管理委員的程序直接套到主任委員；實際選任、任期與權限還需核對適用條文、規約及會議決議。\n本題依97年原卷給分；另可對照上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第29條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
+    "optionExplanations": [
+      "A 全體區分所有權人直接選主任委員不是本題的一般產生方式，應區分選委員與委員互推。",
+      "B 住戶不完全等於區分所有權人或管理委員，全體住戶選舉非題定方式。",
+      "C 管理委員互推一人為主任委員，符合本題。",
+      "D 起造人的過渡管理角色與機關指定程序不能取代已成立委員會的一般互推程序。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年營建法規與實務原題",
+        "url": "assets/97-law/questions.pdf",
+        "page": 3,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第29條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 8,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "97-law-28",
@@ -1363,7 +1559,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 97 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依97年原卷給分；另可對照上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第58條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
     "image": "assets/97-law/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1373,13 +1569,41 @@
     "originalQuestionLabel": "97 年營建法規與實務｜測驗第 32 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "銷售門檻問建照；竣工使用問使照，階段別混。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "題目問公寓大廈起造人或建築業者開始辦理銷售前的執照門檻，依法定條文須先領得建造執照，因此選 A。不要因交屋通常涉及使用執照，就把銷售與竣工使用的階段混在一起。此條不代表取得建照就免除預售契約、資訊揭露及其他法令要求；它只回答本題的特定前置條件。\n本題依97年原卷給分；另可對照上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第58條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
+    "optionExplanations": [
+      "A 建造執照為題定銷售前提，符合答案。",
+      "B 雜項執照對應特定雜項工作，不能取代此公寓大廈銷售門檻。",
+      "C 拆除執照處理拆除行為，與開始銷售的許可階段不同。",
+      "D 使用執照涉及完成後的合法使用，不是本題最早銷售門檻。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年營建法規與實務原題",
+        "url": "assets/97-law/questions.pdf",
+        "page": 4,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第58條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 14,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "97-law-33",
@@ -1405,7 +1629,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 97 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依97年原卷給分；另可對照上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第27條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
     "image": "assets/97-law/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -1415,13 +1639,41 @@
     "originalQuestionLabel": "97 年營建法規與實務｜測驗第 33 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "同一專有部分多人共有：推一人行使，不按人頭增票。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "各專有部分的區分所有權人有一表決權；同一專有部分若有數人共有，該表決權應推由一人行使，因此選 D。共有人的人數增加，不會把同一專有部分的表決權任意拆成多人各投一票，也不是法律自動依持分大小或年齡決定代表。出席及表決權的其他上限或委託規則屬另一層問題。\n本題依97年原卷給分；另可對照上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第27條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
+    "optionExplanations": [
+      "A 兩名共有人不能僅因人數為二就對同一專有部分各行使一票。",
+      "B 持分較高不代表法律自動指定其代表，仍依題定推由一人。",
+      "C 年齡不是本題代表行使表決權的法定標準。",
+      "D 數人共有同一專有部分，推由一人行使表決權，為答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年營建法規與實務原題",
+        "url": "assets/97-law/questions.pdf",
+        "page": 4,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第27條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 7,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "97-law-34",
@@ -2161,7 +2413,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 97 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依97年原卷給分；另可對照上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第13條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
     "image": "assets/97-law/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -2171,13 +2423,41 @@
     "originalQuestionLabel": "97 年營建法規與實務｜測驗第 51 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "重建先看全體同意原則；例外要有法定事實，不只一句建議。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "公寓大廈重建原則須取得條文列明權利人的全體同意，但都市更新及特定嚴重損壞、重大災害危害公共安全等有例外。本題 D 只有主管機關建議重建，未直接表明符合那些例外條件，因此仍回到原則，選 D。建議不等於法定危害要件已成立；若個案另有符合例外的事實，則須依完整事實判斷。\n本題依97年原卷給分；另可對照上傳的公寓大廈管理條例（民國 111 年 05 月 11 日）第13條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
+    "optionExplanations": [
+      "A 地震已肇致危害公共安全，屬題定重大事變例外情形。",
+      "B 嚴重毀損且有危害公共安全之虞，對應法定例外。",
+      "C 配合都市更新計畫實施重建為明列例外，尚須遵循其適用程序。",
+      "D 僅有主管機關建議不當然成立法定例外，故仍需依原則取得全體同意。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年營建法規與實務原題",
+        "url": "assets/97-law/questions.pdf",
+        "page": 6,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "公寓大廈管理條例第13條（上傳版本對照）",
+        "url": "assets/references/condominium-act.pdf",
+        "page": 3,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "97-law-52",
@@ -2719,7 +2999,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 97 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依97年原卷給分；另可對照上傳的建築法（民國 111 年 05 月 11 日）第9條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
     "image": "assets/97-law/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -2729,13 +3009,41 @@
     "originalQuestionLabel": "97 年營建法規與實務｜測驗第 64 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "建造四類：新、增、改、修建；不要把修繕名稱當免管通行證。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "建築法第9條將建造分為新建、增建、改建與修建，未把一般語言的修繕另列為第五種，因此本題選 B。重點不是所有修繕都完全不受管理，而是工程實質若達條文的修建或其他建造要件，就應按相應類別處理，不能只把工程命名為修繕就規避。要分清法定定義與日常用詞。\n本題依97年原卷給分；另可對照上傳的建築法（民國 111 年 05 月 11 日）第9條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
+    "optionExplanations": [
+      "A 修建是第9條明列類型，並有特定構造修理或變更的門檻。",
+      "B 修繕不是本條另列的建造類型，為本題答案；仍須看工程實質是否落入其他受管行為。",
+      "C 改建是原基地範圍內拆除部分重造且不增高擴面等題定條件的類型。",
+      "D 增建是增加原建築面積或高度等情形，屬明列建造行為。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年營建法規與實務原題",
+        "url": "assets/97-law/questions.pdf",
+        "page": 7,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "建築法第9條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "97-law-65",
@@ -2971,7 +3279,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "僅供民國 97 年歷屆試題練習；答案依當年上傳答案表，非現行法規結論。條文、施行日及現行版本尚未核對。",
+    "regulation": "本題依97年原卷給分；另可對照上傳的建築法（民國 111 年 05 月 11 日）第8條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
     "image": "assets/97-law/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -2981,13 +3289,41 @@
     "originalQuestionLabel": "97 年營建法規與實務｜測驗第 70 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "法定主要構造回到第8條列舉；非承重牆別混入承重牆。",
+    "explanationBatch": "2026-11-02-02",
+    "solution": "本題依建築法第8條的主要構造定義作答，列舉基礎、主要梁柱、承重牆壁、樓地板及屋頂之構造。四個選項中樓地板明確列入，因此選 C。非承重隔戶牆與一般隔間牆不因具有分隔用途就變成承重牆；樓梯可能涉及其他安全及構造規定，但不是本題以該條列舉名稱辨識的答案。\n本題依97年原卷給分；另可對照上傳的建築法（民國 111 年 05 月 11 日）第8條。該上傳版本較晚，尚未完成97年沿革及現行有效版本核對。本解析非現行法規結論。",
+    "optionExplanations": [
+      "A 題目明示非承重，不能直接當成第8條承重牆壁。",
+      "B 樓梯須受其他法規與安全要求管理，但不是本題第8條列舉名稱的正確項。",
+      "C 樓地板明列於主要構造定義，為答案。",
+      "D 一般隔間用途不等於主要承重構造，不能只看牆字就判定。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年營建法規與實務原題",
+        "url": "assets/97-law/questions.pdf",
+        "page": 7,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-law/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      },
+      {
+        "title": "建築法第8條（上傳版本對照）",
+        "url": "assets/references/building-act.pdf",
+        "page": 2,
+        "version": "民國 111 年 05 月 11 日"
+      }
+    ]
   },
   {
     "id": "97-law-71",
