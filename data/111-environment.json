@@ -72,7 +72,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 111 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/111-environment/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -83,13 +83,35 @@
     "originalQuestionLabel": "111 年建築環境控制｜測驗第 2 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "隔熱用熱阻、蓄熱用熱容量，重而厚不必然最划算。",
+    "explanationBatch": "2026-11-02-13",
+    "solution": "混凝土導熱率不低，單純加厚雖可增加d/k熱阻，卻常增加自重與材料，通常不如適當專用隔熱層經濟，所以 B錯。混凝土熱容量高不等於熱阻高；外遮陽則先攔日射。比較材料需同看厚度、密度、含水與熱橋，不能把一項性質當完整隔熱評估。",
+    "optionExplanations": [
+      "A 同材料加厚可提高材料熱阻。",
+      "B 加厚混凝土非一般經濟隔熱首選。",
+      "C 題定一般體積比較混凝土蓄熱較大。",
+      "D 外遮陽通常較早攔住太陽熱。"
+    ],
+    "explanationSources": [
+      {
+        "title": "111年建築環境控制原題",
+        "url": "assets/111-environment/questions.pdf",
+        "page": 1,
+        "version": "民國111年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/111-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "111-environment-03",
@@ -158,7 +180,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 111 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/111-environment/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -169,13 +191,35 @@
     "originalQuestionLabel": "111 年建築環境控制｜測驗第 4 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "低風近似OT取氣溫與MRT平均，風大時權重另算。",
+    "explanationBatch": "2026-11-02-13",
+    "solution": "低風速且對流、輻射換熱係數近似時，作用溫度可用氣溫與MRT平均估算：(20＋26)/2＝23°C，選 C。精算是以兩種換熱係數加權，不是任何風速下都固定各半；也不包含濕度、衣著與活動的全部舒適資訊，不能只用23度就判人人舒適。",
+    "optionExplanations": [
+      "A 20只取空氣溫度。",
+      "B 26只取輻射溫度。",
+      "C 近似平均為23。",
+      "D 46是加總而未除2。"
+    ],
+    "explanationSources": [
+      {
+        "title": "111年建築環境控制原題",
+        "url": "assets/111-environment/questions.pdf",
+        "page": 1,
+        "version": "民國111年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/111-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "111-environment-05",
@@ -201,7 +245,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 111 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/111-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -212,13 +256,35 @@
     "originalQuestionLabel": "111 年建築環境控制｜測驗第 5 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "給整體U直接乘AΔT，別把已含的厚度再算一遍。",
+    "explanationBatch": "2026-11-02-13",
+    "solution": "已給整體U值，穩態熱流Q＝UAΔT＝0.6×100×(32－26)＝360kcal/h，選 C。總厚20cm已反映於整體U，不能再除以0.2或乘一次厚度。若改給導熱係數才須先組各層熱阻；本題也未處理日射暫態與蓄熱，不能把此數值當全天所有屋頂冷房負荷。",
+    "optionExplanations": [
+      "A 72不是題定U乘面積溫差。",
+      "B 180少算一半。",
+      "C 0.6×100×6＝360。",
+      "D 7200多算厚度等不必要因子。"
+    ],
+    "explanationSources": [
+      {
+        "title": "111年建築環境控制原題",
+        "url": "assets/111-environment/questions.pdf",
+        "page": 2,
+        "version": "民國111年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/111-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "111-environment-06",
