@@ -166,7 +166,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -177,13 +177,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 4 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "牆的名字不決定受力；先看強度、勁度、連接與配置。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "隔牆雖以空間分隔命名，仍可能因實際勁度、強度與連接方式參與結構受力，所以本題選 A。不能任意把所有隔牆算成耐震構件，也不能因稱非結構牆便忽略短柱、偏心或軟層效應。正式結構牆還須滿足設計、配筋與傳力要求；本題是在辨認實際力學影響，不是只靠勁度就能免除其他設計程序。",
+    "optionExplanations": [
+      "A 隔牆的實際力學作用不能只由名稱判斷。",
+      "B 不是所有材料與接合都能可靠抵抗地震。",
+      "C 半高牆等可能帶來短柱或不規則問題。",
+      "D 隔牆可能改變勁度、週期與受力。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 2,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-05",
@@ -304,7 +326,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -315,13 +337,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 7 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "球殼看兩個方向；底部向外推，環梁須像箍帶拉住。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "題定開頂球殼自重下，上緣環梁約束殼體開口，形成壓力環；底部環梁承受殼體向外張開的作用，形成張力環，因此選 B。環向力與子午向力是不同方向，不能只因殼主要受壓就說所有環梁都受壓。實際還需看球殼開口、支承角度與邊界，這是本題特定殼體的力流概念。",
+    "optionExplanations": [
+      "A 將底部也列壓力環，不符題定外推作用。",
+      "B 頂壓、底拉符合原題系統。",
+      "C 將兩端受力顛倒。",
+      "D 上緣在此題並非張力環。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 3,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-08",
@@ -346,7 +390,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -357,13 +401,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 8 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "I形鋼強軸計算，翼板的Ad²別漏；腹板高與總高分開。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "三塊200×22mm鋼板組成I形：腹板高200mm，總高244mm，翼板中心離形心111mm。用平行軸定理，I＝22×200³/12＋2[200×22³/12＋(200×22)×111²]，約1.235×10⁸mm⁴，選 D。不可只加三片各自形心慣性矩，翼板離中性軸的面積乘距離平方項占比很大。",
+    "optionExplanations": [
+      "A 約1.01×10⁷偏小，未反映翼板位置效益。",
+      "B 5.61×10⁷不符完整加總。",
+      "C 8.46×10⁷亦低於計算值。",
+      "D 12.35×10⁷mm⁴符合平行軸計算。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 3,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-09",
@@ -388,7 +454,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -399,13 +465,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 9 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "彈性Z＝I/c，c是形心到外緣，不是全高。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "沿用前題I約1.235×10⁸mm⁴，總高244mm，最外纖維距離c＝122mm。斷面模數Z＝I/c，約1.012×10⁶mm³，選 A。這裡求彈性斷面模數，不是塑性斷面模數；也不能把c誤用成整個244mm，否則結果會少一半。單位由mm⁴除以mm得到mm³，可用來檢查。",
+    "optionExplanations": [
+      "A 約1.01×10⁶mm³，正確。",
+      "B 5.61×10⁶與I除以122不符。",
+      "C 8.46×10⁶不符題定斷面。",
+      "D 12.35×10⁶不是除以最外纖維距離的結果。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 3,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-10",
@@ -520,7 +608,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -531,13 +619,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 12 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "軟層容易集中變形；牆撐再強，也要樓版把力送得到。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "樓層剪力相近時，層間變位約為剪力除以層勁度，勁度較小的軟層更容易集中變形與損傷，因此 A 把大小關係說反。樓版需能把水平力傳到剪力牆與斜撐；窗台牆隔離則可降低短柱效應。題中動力分析門檻屬考試年度規範敘述，現行適用條件須另查，不宜把數字直接當今日結論。",
+    "optionExplanations": [
+      "A 變形通常集中於較軟樓層，為錯誤。",
+      "B 樓版是水平力傳遞的重要環節。",
+      "C 合理隔離可減少窗台牆對柱自由長度的限制。",
+      "D 為歷年規範選項，現行門檻應另核對。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-13",
@@ -574,7 +684,7 @@
     ],
     "allAward": true,
     "explanation": "第13題一律給分。答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -585,13 +695,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 13 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "溫變先問能不能自由伸縮；有拘束才把熱變形轉成內力。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "本題採可自由伸縮的靜定結構及均勻溫度變化模型：會有熱應變與形狀改變，但不因此產生額外熱應力，故 A 錯。靜不定結構若限制自由熱變形，則會產生附加內力。若有溫度梯度、材料不一致或額外拘束，須另分析；不能將此結論延伸成所有稱靜定的實物都絕無熱應力。",
+    "optionExplanations": [
+      "A 自由均勻熱伸縮不必伴隨應力改變。",
+      "B 符合題定自由熱變形模型。",
+      "C 靜不定拘束可使形狀與內力改變。",
+      "D 受限熱變形可產生熱應力。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-14",
@@ -616,7 +748,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -627,13 +759,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 14 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "支承固定讓端部承彎，常把部分跨中彎矩移到梁端。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "理想簡支端不能傳彎矩，固定端則限制轉角，在一般跨內垂直載重下產生端彎矩，因此固定梁端彎矩絕對值較大，選 C。例如全跨均布時固定端為wL²/12，而簡支端為零。剪力與跨中彎矩要依載重位置求解，並非所有內力都因固定而增大；特殊載重組合也需另算。",
+    "optionExplanations": [
+      "A 同一對稱載重下端剪力可相同，非必較大。",
+      "B 跨中剪力也不必因固定而較大。",
+      "C 固定端限制轉角而產生端彎矩。",
+      "D 常見均布載重下固定梁跨中彎矩反而較小。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-15",
@@ -658,7 +812,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -669,13 +823,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 15 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "外伸架把外柱拉進抗傾覆工作，用大力臂減核心負擔。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "外伸穩定架將核心轉動與外圍柱軸向變形連結；受側力時，外柱一側增壓、一側減壓或受拉，利用較大力臂形成抗傾覆力偶，故選 A。外圈桁架可協助分配至更多外柱。這不只是加固核心局部，也不是專為設備層承重；需核對連接、差異縮短與適當配置高度。",
+    "optionExplanations": [
+      "A 連結外柱共同抗側力為主要目的。",
+      "B 核心行為會改善，但未完整表達外柱參與機制。",
+      "C 主要不是平均分配內柱垂直載重。",
+      "D 設備層可提供配置空間，非主要結構目的。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-16",
@@ -700,7 +876,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -711,13 +887,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 16 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "扁拱推得大；鉸能傳力但不傳彎矩，不是只准垂直反力。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "在同跨度、相應垂直載重與合理拱形等條件下，拱越扁通常水平推力越大；抬高拱高可降低推力。例如拋物線拱受水平投影均布載重時H＝wL²/(8f)，所以選 B。四鉸拱一般形成機構；兩鉸拱比三鉸拱多一項靜不定。拱腳若不能抵抗推力，不能只把它稱鉸接就認為問題已解決。",
+    "optionExplanations": [
+      "A 增加第四鉸通常損失穩定，非更穩。",
+      "B 題定比較下拱高增大可減水平推力。",
+      "C 鉸支承仍可提供水平反力，不能等同無抗推力。",
+      "D 兩鉸拱靜不定程度高於三鉸拱。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 4,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-17",
@@ -930,7 +1128,7 @@
     ],
     "allAward": false,
     "explanation": "第21題答A或B或AB者均給分。答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -941,13 +1139,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 21 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "突出山牆先查面外彎曲與根部拉裂，也查屋架連結。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "山牆在面外地震慣性力作用下，類似自底部支承的突出牆，根部彎矩使一側灰縫受拉，可能沿山牆下方形成水平裂縫，所以本題選 A。若主要剪切破壞，較常聯想到斜向裂縫；實際還要看牆體方向、連接與倒塌模式，不能僅憑任何一條水平裂縫就斷言只有純彎矩。",
+    "optionExplanations": [
+      "A 根部彎曲拉應力符合題述裂縫機制。",
+      "B 剪力常呈斜裂或滑移，非此題主要答案。",
+      "C 題目未以扭轉裂損為主要機制。",
+      "D 單純軸壓不能解釋此受拉開裂模式。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 5,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-22",
@@ -972,7 +1192,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -983,13 +1203,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 22 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "混凝土E會變；強度、剛度、坍度是不同性質。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "混凝土彈性模數會受抗壓強度、骨材與密度等影響，並非常數，所以 B 錯。一般設計經驗式中E常與抗壓強度平方根相關，但實際須依採用規範與材料。抗拉約為抗壓一成僅是量級比較，養護與坍度也不能只憑單一因素精確預測；提高強度不代表剛度同比增加。",
+    "optionExplanations": [
+      "A 約十分之一為一般概略量級。",
+      "B E與強度等有關，不能視為固定不變。",
+      "C 適當水中養護有利水化與強度發展。",
+      "D 單位用水量可影響工作性及坍度。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 5,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-23",
@@ -1056,7 +1298,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -1067,13 +1309,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 24 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "4000psi約28MPa、約280kgf/cm²，可交叉檢查量級。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "單位換算1psi約0.0703kgf/cm²，4000×0.0703＝281.2kgf/cm²，最接近280，選 C。也可先換成約27.6MPa，再用1MPa約10.2kgf/cm²核對。題目將質量與重力單位慣用語混用時，要確認此處指力；不要把psi直接當每平方公分的磅數。",
+    "optionExplanations": [
+      "A 180低於換算結果。",
+      "B 210較接近3000psi量級。",
+      "C 280符合4000psi約值。",
+      "D 350較接近5000psi量級。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 5,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-25",
@@ -1098,7 +1362,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -1109,13 +1373,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 25 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "試驗速率會影響表觀強度，材料比較必須守同一試驗條件。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "一般混凝土抗壓試驗在常見比較範圍內，加載較快常得到較高表觀強度，A 說成愈快愈小，故錯。試驗必須按規定速率控制，不能藉加快加載提升材料等級。早期缺水會影響水化，火災也可能因蒸氣壓與熱應力爆裂；空氣含量對工作性須在相近配比下理解，並非越多越好。",
+    "optionExplanations": [
+      "A 把常見速率影響方向說反。",
+      "B 早期水分不足可妨礙強度發展。",
+      "C 火災下水分與熱應力可促成爆裂。",
+      "D 適當含氣可改善工作性，仍依配比。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 5,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-26",
@@ -1140,7 +1426,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -1151,13 +1437,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 26 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "沉陷先辨靜定與拘束；不生附加內力不等於可以無限沉陷。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "三鉸拱為靜定系統，理想小位移下支承差異沉陷可由幾何調整容納，不因變形相容拘束產生附加內力，故選 D。固定門架、固定拱及兩鉸拱則有靜不定拘束。這不表示三鉸拱可容許任意沉陷；大位移改變幾何、支承損壞與穩定仍需另外檢查，本題比較的是常規一階分析下的附加內力。",
+    "optionExplanations": [
+      "A 固定門架通常會有沉陷附加內力。",
+      "B 固定拱受拘束程度高。",
+      "C 兩鉸拱仍有一項靜不定拘束。",
+      "D 三鉸拱可依題定理想模型容納支承位移。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 6,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-27",
@@ -1182,7 +1490,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -1193,13 +1501,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 27 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "柱看P–M曲線，不能用軸壓越多抗彎越強的一句話代替。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "RC柱的軸力與彎矩承載要看P–M互制關係；軸壓在部分範圍可能提高彎矩容量，但高壓力區會降低抗彎餘裕與變形能力，不能說軸力增加一定提高抗彎強度，所以選 B。梁開孔與剪力牆邊界也須完整設計，不能只因位於跨中或有周邊柱梁就自動安全。",
+    "optionExplanations": [
+      "A 高強度材料可減斷面，但仍受剛度及構造需求限制。",
+      "B 互制曲線不是全程單調增加，為錯誤。",
+      "C 題定避開梁端原則仍須檢核跨中彎矩與開孔補強。",
+      "D 適當邊界圍束可有利牆韌性。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 6,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-28",
@@ -1308,7 +1638,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -1319,7 +1649,7 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 30 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [
       {
         "src": "assets/native-structure/108-30.webp",
@@ -1331,7 +1661,29 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "吊索先分配垂直重量，再除索與垂直方向夾角的cos。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "均質矩形構件由中央正上方吊點以四條等長索對稱吊掛，每索垂直分力為1440/4＝360kgf。水平偏距為√(3²＋2²)＝√13m，索長√(6²＋13)＝7m，故T×6/7＝360，得T＝420kgf，選 B。360只是垂直分力；索越斜，為維持相同垂直承重所需張力越大。",
+    "optionExplanations": [
+      "A 360是每索垂直分力，不是斜索總張力。",
+      "B 360×7/6＝420，正確。",
+      "C 450不符索長與垂直高度比例。",
+      "D 600不符題定幾何。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 6,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-31",
@@ -1398,7 +1750,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1409,13 +1761,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 32 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "材料強度管能承多少，E與截面管彈性勁度，分開看。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "鋼筋抗拉強度是強度指標，並不直接提高鋼筋彈性模數；因此不能僅換較高抗拉強度主筋就宣稱柱彎曲勁度提高，選 C。RC有效勁度還受斷面、配筋、混凝土E、開裂與軸力影響。箍筋除抗剪也可圍束與支撐主筋，但增加量仍受規範與實際配置限制，不是無上限增加便同比增強。",
+    "optionExplanations": [
+      "A 合理增加箍筋可增加其抗剪貢獻。",
+      "B 混凝土強度會影響剪力承載，仍需依法設計。",
+      "C 抗拉強度高不等於彈性模數高。",
+      "D 縮小箍筋間距可改善主筋側向支撐。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 7,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-33",
@@ -1578,7 +1952,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1589,13 +1963,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 36 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "摺出深度提升效能，是改形狀，不是把材料變硬。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "單向折板沿折線方向具有較大結構深度，其縱向行為可類比深梁，因此選 C。提高抗彎效能主要來自幾何與共同作用，並未把材料彈性模數E改大。折板也不是只有軸力，且可採不同材料；接點、端隔板與邊界是否能發揮整體作用，都須在設計中確認。",
+    "optionExplanations": [
+      "A 折板有板與梁等共同作用，非純軸力系統。",
+      "B 木構造並非原理上不能採折板。",
+      "C 沿折線方向可呈深梁式作用。",
+      "D 改變的是幾何與傳力，非材料E。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 8,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-37",
@@ -1662,7 +2058,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1673,13 +2069,35 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 38 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "簡支均布：跨中彎矩大配底筋，端部剪力大箍筋密。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "簡支梁承受向下全跨均布載重時，跨中正彎矩使下側受拉，主要拉筋置底。剪力V＝w(L/2－x)，靠兩支承的絕對值較大，故端部箍筋通常較密，選 A。這是題定理想受力分布；實際尚有最小配筋、錨定與設計剪力要求，不能推成跨中完全不需箍筋。",
+    "optionExplanations": [
+      "A 下主筋、端部較密箍筋符合彎剪分布。",
+      "B 將較密箍筋放跨中不符此剪力分布。",
+      "C 上主筋不符題定主要拉側。",
+      "D 同時誤判主要拉側與剪力較大區。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 8,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "108-structure-39",
@@ -1746,7 +2164,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 108 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/108-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1757,12 +2175,34 @@
     "originalQuestionLabel": "108 年建築結構｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "控制撓度先查厚度與有效剛度，別只提高材料強度。",
+    "explanationBatch": "2026-11-02-09",
+    "solution": "RC版長期變形與開裂、潛變、配筋及斷面剛度有關。板厚提高會使幾何慣性矩約隨h³增大，混凝土E隨強度增加通常較緩，故不能說提高強度比加厚樓版更有效，選 C。加厚同時增加自重，仍須完整比較；輕量化、週期經驗及受壓筋抑制長期變形亦有各自適用條件。",
+    "optionExplanations": [
+      "A 輕量化可減重量與相關慣性力需求。",
+      "B 為題定無額外牆撐時的常用週期比較，實際仍看模型。",
+      "C 誇大提高強度相對於增加厚度的效果。",
+      "D 適當受壓鋼筋可抑制部分潛變相關長期撓度。"
+    ],
+    "explanationSources": [
+      {
+        "title": "108年建築結構原題",
+        "url": "assets/108-structure/questions.pdf",
+        "page": 8,
+        "version": "民國108年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/108-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   }
 ]
