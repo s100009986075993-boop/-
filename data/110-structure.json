@@ -22,7 +22,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 110 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/110-structure/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -33,7 +33,7 @@
     "originalQuestionLabel": "110 年建築結構｜測驗第 1 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [
       {
         "src": "assets/native-structure/110-01.webp",
@@ -45,7 +45,29 @@
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "同跨同載，扁拱通常推力大；支承能不能抗推力很重要。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "同跨度、合理形狀與相應載重下，拱高增大通常使水平推力降低；例如拋物線拱均布載重H＝wL²/(8f)，所以 D 說反。固定拱拘束多，較易因溫變產生內力；三鉸拱則為靜定。兩鉸支承彎矩為零不表示支承截面可任意縮小，仍須承軸力剪力與穩定需求。",
+    "optionExplanations": [
+      "A 固定拱靜不定、三鉸拱靜定，正確。",
+      "B 拘束使溫變更容易轉成應力。",
+      "C 支承無端彎矩可作斷面配置考量，仍須檢核其他作用。",
+      "D 拱高與水平推力的題定關係說反。"
+    ],
+    "explanationSources": [
+      {
+        "title": "110年建築結構原題",
+        "url": "assets/110-structure/questions.pdf",
+        "page": 1,
+        "version": "民國110年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/110-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "110-structure-02",
@@ -70,7 +92,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 110 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/110-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -81,13 +103,35 @@
     "originalQuestionLabel": "110 年建築結構｜測驗第 2 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "牆配置同時看偏心與抗扭力臂，對稱不是唯一目標。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "配置剪力牆重點是平衡側向勁度、降低不利偏心並確保傳力，不必為形式上的完全對稱犧牲功能，因此本題選 B。全部抗側力作用線通過同一點不利形成抗扭力臂；立面任意錯層會產生轉換需求。牆延伸高度應依系統與需求設計，而非不論樓高都只能採一種配置。",
+    "optionExplanations": [
+      "A 任意錯層可能造成不連續與應力集中。",
+      "B 降低剛質心偏心比外觀完全對稱更關鍵。",
+      "C 不能以一種全高配置概括所有建築。",
+      "D 作用線全交一點可能缺乏有效抗扭力臂。"
+    ],
+    "explanationSources": [
+      {
+        "title": "110年建築結構原題",
+        "url": "assets/110-structure/questions.pdf",
+        "page": 2,
+        "version": "民國110年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/110-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "110-structure-03",
@@ -112,7 +156,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 110 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/110-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -123,13 +167,35 @@
     "originalQuestionLabel": "110 年建築結構｜測驗第 3 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "帶狀桁架把外柱串起來，與核心共同抗側力與傾覆。",
+    "explanationBatch": "2026-11-02-11",
+    "solution": "帶狀桁架常配合核心與外伸架，使多根外柱共同參與抵抗傾覆，增加整體側向抵抗能力，因此選 A。它並非單純造型或刻意放大位移；外柱軸力與較大力臂可減少核心負擔。實際效益取決連接與剛度，還須考量施工階段及內外柱差異縮短，不能只加一圈桁架就認為性能必然達標。",
+    "optionExplanations": [
+      "A 整合外柱參與抗側力為目的。",
+      "B 造型不是此系統的主要力學目的。",
+      "C 通常希望降低位移，而非增大。",
+      "D 通常提升抗傾覆，不是降低。"
+    ],
+    "explanationSources": [
+      {
+        "title": "110年建築結構原題",
+        "url": "assets/110-structure/questions.pdf",
+        "page": 2,
+        "version": "民國110年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/110-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "110-structure-04",
