@@ -730,7 +730,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -741,13 +741,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 17 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "窗台夾柱會縮短變形長度；隔離是解除束制，不是盲目切柱。",
+    "explanationBatch": "2026-11-02",
+    "solution": "窗台或半高牆與柱緊密接觸，可能限制柱的一部分變形，使剩餘柱段有效淨高縮短，增加其側向勁度與剪力需求。於牆與柱之間採適當分離細節，可避免這種非預期束制，所以依題意選 D。隔離縫須有足夠位移空間、避免被填實，並兼顧牆體平面外穩定；不是在現有建築任意切一條縫就保證安全。",
+    "optionExplanations": [
+      "A 牆體束制可能提高勁度與剪力需求，不能把它誤說成柱本身抗剪強度必然上升。",
+      "B 短柱典型風險為剪力脆性破壞，而非題目所列的撓屈破壞。",
+      "C 強柱弱梁是控制梁柱塑性機制的原則，不能直接用來解釋或消除窗台束制短柱現象。",
+      "D 合理的牆柱隔離可避免窗台縮短有效柱長，為本題答案；工程上仍需完整設計與檢核。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 3,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "105-structure-18",
@@ -1778,7 +1800,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1789,12 +1811,34 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "隔震改週期，制震助消能；不是長週期建築越長越好。",
+    "explanationBatch": "2026-11-02",
+    "solution": "隔震利用水平柔度拉長主要振動週期，通常對原本週期較短、上部較剛的建築較能形成明顯效果；原本已很長週期的柔性高樓，不能僅憑長週期就認為更適合隔震，因此本題錯誤為 B。制震則藉阻尼或耗能元件控制反應。是否適用仍須考量場址長週期地動、風、位移、建築使用需求及裝置保護，並非只看建築高度決定。",
+    "optionExplanations": [
+      "A 最大考量地震下避免崩塌是本題對耐震設計目標的描述，不代表強震後保證無損或可立即使用。",
+      "B 將隔震較適用的典型條件說反；不能認為原結構週期越長就越適合，故為答案。",
+      "C 合適的制震元件及配置可降低地震或風引起的振動，但效果需依元件型式與分析檢核。",
+      "D 中間層隔震裝置的火災暴露與耐火保護是需考量的問題；具體要求仍應查適用規範及系統設計。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 7,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   }
 ]

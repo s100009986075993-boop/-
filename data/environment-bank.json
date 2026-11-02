@@ -15803,7 +15803,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-environment/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -15814,13 +15814,35 @@
     "originalQuestionLabel": "106 年建築環境控制｜測驗第 2 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "NC 看各頻帶；曲線一般低頻高、高頻低，不用總 dB 代替。",
+    "explanationBatch": "2026-11-02",
+    "solution": "NC 曲線用倍頻帶聲壓級評估室內背景噪音，不是只看一個總 dB 值。通常低頻容許聲壓級較高，高頻容許值較低，因此 D 把曲線高低說反。量測各指定倍頻帶後，檢查有無超出目標曲線；某一頻帶超標也可能決定評等。不同空間的建議目標隨用途而異，教室需語音清晰，商業空間可容許值通常較寬，仍應查具體用途標準。",
+    "optionExplanations": [
+      "A NC 為背景噪音評估工具之一，能反映頻帶特性，非只看總音量。",
+      "B 依題定63至8000 Hz的倍頻帶量測，目標曲線限制須逐頻帶符合，而非只取平均。",
+      "C 依本題一般用途比較，商業空間容許 NC 可高於教室；不是所有商業用途一律相同。",
+      "D NC 曲線通常低頻容許值高、高頻低，此項說高頻 dB 較大，故錯誤。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築環境控制原題",
+        "url": "assets/106-environment/questions.pdf",
+        "page": 1,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-environment-03",
@@ -15846,7 +15868,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-environment/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -15857,13 +15879,35 @@
     "originalQuestionLabel": "106 年建築環境控制｜測驗第 3 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "正壓保護室內潔淨，負壓限制室內污染外逸。",
+    "explanationBatch": "2026-11-02",
+    "solution": "本題採一般手術室情境：為降低鄰近較不潔區域的空氣流入，手術室通常維持相對正壓，而不是負壓，所以 B 錯誤。負壓常用於需把污染限制在室內的空間。這是壓差控制方向的基本比較；特殊感染手術、隔離程序及醫療設計仍需按專門指引，不可只靠一般考題決定。自然浮力通風則與溫差及進排風口高差共同有關。",
+    "optionExplanations": [
+      "A 局部有害氣體或粉塵宜盡可能在源頭捕集排出，避免只靠整室稀釋。",
+      "B 一般手術室以正壓保護潔淨區，負壓敘述與此目的相反，是答案。",
+      "C 廁浴維持相對負壓可減少氣味及污染往周邊空間外逸，符合基本原則。",
+      "D 在其他條件相同下，高差可提高浮力通風驅動效果；實際風量還受溫差、開口面積及阻力影響。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築環境控制原題",
+        "url": "assets/106-environment/questions.pdf",
+        "page": 1,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-environment-04",
@@ -16081,7 +16125,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -16092,13 +16136,35 @@
     "originalQuestionLabel": "106 年建築環境控制｜測驗第 8 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "溫差傳導看隔熱；太陽熱取得看遮陽；採光另看可見光。",
+    "explanationBatch": "2026-11-02",
+    "solution": "題目問的是 ENVLOAD 參數中日射取得係數 Mk 所表達的外殼性能。應把日射穿透及遮蔽的取得效果，與溫差造成的傳導熱分開。依此題定義，Mk 對應遮陽性能，選 B；隔熱較著重材料熱阻或傳熱係數，採光則是可見光利用，三者互相關聯但不是同一指標。具體計算式與版本定義應查當年適用的外殼節能計算文件。",
+    "optionExplanations": [
+      "A 隔熱主要處理傳導熱，通常以熱阻或熱傳透率理解，不是本題日射取得係數的直接對應。",
+      "B 遮陽影響外殼日射熱取得，符合本題 Mk 所評估的性能。",
+      "C 採光處理可見光進入與室內照度，不能直接用日射熱取得指標取代。",
+      "D 日照是日射與位置時間等條件的描述，題目問外殼的性能，應選較直接的遮陽。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築環境控制原題",
+        "url": "assets/106-environment/questions.pdf",
+        "page": 2,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-environment-09",
@@ -16124,7 +16190,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -16135,13 +16201,35 @@
     "originalQuestionLabel": "106 年建築環境控制｜測驗第 9 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "同一扇窗能採光也能通風，但光環境與空氣交換是兩套判斷。",
+    "explanationBatch": "2026-11-02",
+    "solution": "自然通風直接涉及室外空氣進出、污染稀釋及人體熱舒適，也會把室外噪音引入開口。因此題目比較中，採光照明與自然通風較無直接關聯，選 B。這不代表開窗設計和採光毫無關係，而是同一個開口可以同時服務兩個不同目標；不能因兩者共用窗戶就把光環境與換氣機制當成相同事項。",
+    "optionExplanations": [
+      "A 開窗會改變聲音傳入的路徑，外界噪音可能限制可採用的自然通風方式，直接相關。",
+      "B 採光是光環境問題，與換氣驅動及空氣品質相較屬較間接關聯，為本題答案。",
+      "C 氣流速度、溫濕度及通風方式直接影響人體熱舒適，需一併評估。",
+      "D 自然通風引入室外空氣並稀釋室內污染，與室內空氣品質直接相關。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築環境控制原題",
+        "url": "assets/106-environment/questions.pdf",
+        "page": 2,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-environment-10",
@@ -16230,7 +16318,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -16241,13 +16329,35 @@
     "originalQuestionLabel": "106 年建築環境控制｜測驗第 11 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "風壓找風速風向；浮力找溫差高差；實際開口可兩者疊加。",
+    "explanationBatch": "2026-11-02",
+    "solution": "先分開風壓通風與浮力通風。風壓主要來自外部風速、風向、建築形狀與周邊遮蔽物；室內外溫差則造成密度差與隨高度變化的浮力壓差。C 把這兩個機制混淆，故為錯誤選項。實際開口壓差與風量可以同時受風壓及浮力影響，但不能因此說建築表面風壓主要由室內外溫差顯著改變。",
+    "optionExplanations": [
+      "A 通風量須依污染來源、使用人數及目標空氣品質等需求決定，符合基本設計程序。",
+      "B 高噪音環境可能不適合直接開窗，可用適當機械通風及消音等設計處理。",
+      "C 溫差驅動的是浮力壓差；將其當成表面風壓主因是本題錯誤。",
+      "D 室外污染可能隨新風進入，須評估取氣位置、過濾及運轉方式，而非通風越多永遠越好。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築環境控制原題",
+        "url": "assets/106-environment/questions.pdf",
+        "page": 2,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-environment-12",
@@ -16402,7 +16512,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -16413,13 +16523,35 @@
     "originalQuestionLabel": "106 年建築環境控制｜測驗第 15 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "完整八度是頻率加倍；中心取幾何平均，常見細分是1/3。",
+    "explanationBatch": "2026-11-02",
+    "solution": "八度音程是一種頻率比例分帶，不是固定相差幾 Hz。完整一個八度的上、下限頻率比為2，中心頻率採幾何平均 fc＝√(f低×f高)，完整八度的相鄰中心頻率也以2倍關係排列。工程聲學常見1/1及1/3八度分析，本題 B 所列一般通用為1/1及1/2不符考題慣用分類，因此選 B；不是說數學上不能再作二分之一八度。",
+    "optionExplanations": [
+      "A 八度分帶是聲學常用的標準頻率分析方式，有助比較不同頻段聲能。",
+      "B 本題慣用組合應理解為完整八度與三分之一八度，不是所列二分之一，故為答案。",
+      "C 中心頻率採上下限的幾何平均，而非算術平均，敘述正確。",
+      "D 完整八度相鄰中心頻率約加倍，250 Hz之後為500 Hz，符合題意。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築環境控制原題",
+        "url": "assets/106-environment/questions.pdf",
+        "page": 2,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-environment-16",
@@ -16488,7 +16620,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -16499,13 +16631,35 @@
     "originalQuestionLabel": "106 年建築環境控制｜測驗第 17 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "聽閾越低越敏感；曲線往上是更難聽見，不是聽得更好。",
+    "explanationBatch": "2026-11-02",
+    "solution": "最小可聽曲線是在各頻率下人耳剛能聽見的聲壓級門檻。某頻率門檻越低，代表人耳對該頻率越敏感；低頻端門檻較高，表示需要更大的聲壓級才聽得到，不是聽感更好，故 D 錯誤。要分清實際聲壓級與主觀響度：相同 dB 的不同頻率聲音，聽起來未必一樣大。曲線也會隨個人、年齡與量測條件改變。",
+    "optionExplanations": [
+      "A 各頻率的最低可聽門檻正是此曲線所表達的內容。",
+      "B 頻率敏感度與聽閾是理解主觀響度、等響度等概念的基礎之一。",
+      "C 曲線最低處代表很低的聲壓級就能聽見，即該頻域較敏感。",
+      "D 低頻門檻高表示較不敏感、需更大聲才聽見，不能解讀成聽感愈好。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築環境控制原題",
+        "url": "assets/106-environment/questions.pdf",
+        "page": 2,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-environment-18",
@@ -16531,7 +16685,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-environment/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -16542,13 +16696,35 @@
     "originalQuestionLabel": "106 年建築環境控制｜測驗第 18 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "聲能先分反射、耗散、透射；吸音與隔音不是同一件事。",
+    "explanationBatch": "2026-11-02",
+    "solution": "先用能量平衡：入射聲能＝反射＋材料內耗散吸收＋透射。C 只列吸收與透射而漏掉反射，故錯誤。本題 A 採建築室內聲學常見的表觀吸音觀點，把未反射回原空間的能量視作吸收加透射；若嚴格談材料內部耗散，則需與透射分開定義。吸音係數及測試方式會隨頻率改變，不能用單一值代表所有頻段。",
+    "optionExplanations": [
+      "A 依本題表觀吸音的慣用定義，未返回原室內的能量包含耗散與透射；應和嚴格材料耗散區分。",
+      "B 室內總等效吸音量會影響餘響時間，故材料吸音可用於室內音響設計。",
+      "C 入射聲能還包含反射部分，此項能量平衡不完整，是答案。",
+      "D 多孔、共振等機制有不同頻率響應，吸音係數與頻率相關。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築環境控制原題",
+        "url": "assets/106-environment/questions.pdf",
+        "page": 2,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-environment-19",
@@ -17052,7 +17228,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -17063,13 +17239,35 @@
     "originalQuestionLabel": "106 年建築環境控制｜測驗第 29 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "SHF 是顯熱占比；設備熱多不產濕，水面蒸發會拉高潛熱。",
+    "explanationBatch": "2026-11-02",
+    "solution": "顯熱因子 SHF＝顯熱負荷/(顯熱負荷＋潛熱負荷)。比值高代表負荷中溫度變化所占比例大，不是總冷房負荷一定最大。電氣機房設備散熱以顯熱為主，相較人員及大量水分來源的空間，其潛熱占比通常較低，因此選 B。仍需依實際設備、通風、人數及濕源計算，不可把空間名稱當作固定 SHF 數值。",
+    "optionExplanations": [
+      "A 辦公室含人員及新風的潛熱負荷，通常不如以設備顯熱為主的電氣機房具有高 SHF。",
+      "B 變電等設備主要把電能損失轉成顯熱，為本題最高 SHF 的典型選項。",
+      "C 游泳池水面蒸發帶來顯著潛熱負荷，SHF不會因此最高。",
+      "D 生鮮超市可能有商品、人員及外氣濕負荷，需實際評估，不能優先於典型電氣機房。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築環境控制原題",
+        "url": "assets/106-environment/questions.pdf",
+        "page": 3,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-environment-30",
@@ -17195,7 +17393,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -17206,13 +17404,35 @@
     "originalQuestionLabel": "106 年建築環境控制｜測驗第 32 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "室指數＝面積÷〔有效高度×長寬和〕；先用單位抓錯式。",
+    "explanationBatch": "2026-11-02",
+    "solution": "室指數以室內平面尺度與燈具到作業面距離建立幾何比例。矩形房間的公式 K＝ab/[h(a＋b)]，其中 a、b 是長寬，h 為光源至作業面高度，故選 A。可用量綱檢查：分子與分母均為長度平方，K 無單位。高度必須用作業面以上的有效安裝高度，不能不分條件直接代樓層全高。",
+    "optionExplanations": [
+      "A ab/[h(a＋b)]符合室指數公式，且長度平方相除為無因次。",
+      "B ab/(hab)化簡為1/h，有長度倒數單位，並非所需室指數。",
+      "C (a＋b)/[h(a＋b)]同樣化簡為1/h，缺少平面面積因素。",
+      "D (a＋b)/(hab)的量綱為長度的負二次方，不符無因次幾何指標。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築環境控制原題",
+        "url": "assets/106-environment/questions.pdf",
+        "page": 4,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-environment-33",
@@ -17238,7 +17458,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -17249,13 +17469,35 @@
     "originalQuestionLabel": "106 年建築環境控制｜測驗第 33 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "光效看lm/W，不看W大小；鹵素仍是熱燈絲發光。",
+    "explanationBatch": "2026-11-02",
+    "solution": "比較光源發光效率時，要看每消耗1 W產生多少流明，即lm/W，而不是只看總瓦數或覺得哪盞較亮。鹵素燈屬熱輻射白熾光源，較多輸入能量以紅外線等形式散失，相較本題省電燈泡、螢光燈及高壓鈉燈，通常發光效率最低，因此選 B。實際數值需看燈型、安定器及產品，但本題基本機制比較已足以判斷。",
+    "optionExplanations": [
+      "A 一般省電燈泡屬緊湊型螢光燈，通常比鹵素白熾光源有較高lm/W。",
+      "B 鹵素燈仍依高溫燈絲發光，熱損失比例高，是本題效率最低者。",
+      "C 高壓鈉燈通常有較高光效，但演色性及光色表現須另作評估，不能把光效高等同所有品質都好。",
+      "D 螢光燈利用放電與螢光材料轉換發光，一般光效高於鹵素燈。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築環境控制原題",
+        "url": "assets/106-environment/questions.pdf",
+        "page": 4,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-environment-34",
@@ -17453,7 +17695,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -17464,13 +17706,35 @@
     "originalQuestionLabel": "106 年建築環境控制｜測驗第 38 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "避難困難場所：早發現、早控制、有人協助，不能忽略室內可燃物。",
+    "explanationBatch": "2026-11-02",
+    "solution": "居住者自行避難困難時，防火不能只靠警報後自行逃生，而要整合初期滅火、及早通報、避難協助及可用時間。寢具等物品可能成為引火或延燒來源，不能說與災害無關，因此 C 是錯誤敘述。具體防焰或耐燃要求須查適用法規與產品標示；一般策略說明不等於對所有物品作相同法定要求。",
+    "optionExplanations": [
+      "A 自動撒水等初期控制措施可降低火勢與延燒風險，是整體保護策略的一部分。",
+      "B 視覺與聽覺需求不同，應配置適合的視覺或聲音引導；本題相關字樣仍以原卷核對。",
+      "C 寢具等可燃物會影響起火、成長與煙熱風險，說與災害無關是錯誤。",
+      "D 夜間人力與反應條件不同，管理、通報及協助避難演練應納入，不宜只演練白天情況。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築環境控制原題",
+        "url": "assets/106-environment/questions.pdf",
+        "page": 4,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-environment-39",
@@ -17496,7 +17760,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-environment/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -17507,13 +17771,35 @@
     "originalQuestionLabel": "106 年建築環境控制｜測驗第 39 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "熱水先縮短合規管路、再做好保溫；節能不能交換燃氣安全。",
+    "explanationBatch": "2026-11-02",
+    "solution": "熱水輸送損失可從管長、管壁與環境間的傳熱及等待時排掉的冷水理解。縮短配管並包覆適用的保溫材料，可同時減少散熱面積與增加熱阻，因此選 B。燃氣熱水器位置必須先符合通風、給排氣與安全要求，不能為縮短管線就把不適合室內使用的機型移入室內，也不能任選未確認耐熱等級的塑膠管。",
+    "optionExplanations": [
+      "A 埋牆不等於有足夠保溫；熱仍可能傳入周邊構造，且維修與施工另有考量。",
+      "B 短管線減少輸送路徑，適當保溫增加熱阻，是本題直接節能措施。",
+      "C 管材須符合熱水溫度、壓力與產品規格，不能把一般PVC或所有塑膠管一概視為合適熱水管。",
+      "D 安裝位置及機型須符合燃氣設備安全條件，不能只以節能為由主張室內安裝。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築環境控制原題",
+        "url": "assets/106-environment/questions.pdf",
+        "page": 4,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-environment-40",

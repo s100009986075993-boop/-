@@ -31,7 +31,10 @@ for slug,var in [('structure','officialBank'),('environment','environmentBank'),
     q[field]=re.sub(r'[\ue000-\uf8ff]', '〔原字見附圖〕', q[field])
    q['options']=[re.sub(r'[\ue000-\uf8ff]', '〔原字見附圖〕', text) for text in q['options']]
    if q['id'] in curated:
-    item=curated[q['id']];q['solution']=item['solution'];q['optionExplanations']=item['optionExplanations'];q['explanationStatus']='draft'
+    item=curated[q['id']];
+    if item.get('memoryTip'):q['memoryTip']=item['memoryTip']
+    if item.get('batch'):q['explanationBatch']=item['batch']
+    q['solution']=item['solution'];q['optionExplanations']=item['optionExplanations'];q['explanationStatus']='draft'
     q['explanationSources']=[{'title':f'{year}年{q["subject"]}原題','url':q['sourcePdf'],'page':q['sourcePage'],'version':f'民國{year}年試卷'},{'title':'官方標準答案／更正表','url':q['answerSource'],'version':'使用者上傳答案表'}]+item.get('extraSources',[])
     if q['subject']!='營建法規與實務':q['regulation']='本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。'
    combined.append(q)

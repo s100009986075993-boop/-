@@ -112,7 +112,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -123,13 +123,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 3 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "薄殼之所以能薄，重點是形狀傳力，不是厚梁式抗彎。",
+    "explanationBatch": "2026-11-02",
+    "solution": "圓頂薄殼透過曲面幾何與面內力傳遞荷載，常可用子午線與環向作用理解，近似具有雙向拱的效果。其薄而有效率的原因不是抗彎矩特別強，而是適當條件下可減少以彎曲承載的需求，故錯誤敘述為 D。邊界、開口或集中荷載附近仍可能有顯著彎曲及局部效應，不能把薄殼解讀成任何位置都沒有彎矩。",
+    "optionExplanations": [
+      "A 曲率、荷載與支承共同影響殼體內力，曲面形狀與受力狀態相關。",
+      "B 雙向拱作用是理解圓頂承載的入門模型，仍需包含環向內力與實際邊界。",
+      "C 合理設計的薄殼可用較小厚度有效傳力，經濟性也需另考慮施工、穩定與維護。",
+      "D 薄殼效率主要來自形狀及面內力，不應稱為靠極佳抗彎能力承載，故選 D。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 2,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-04",
@@ -1600,7 +1622,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1611,13 +1633,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 37 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "CBF 看斜撐軸力；EBF 看連桿塑性，不把幾何偏心直接等同扭轉。",
+    "explanationBatch": "2026-11-02",
+    "solution": "同心斜撐以斜撐軸力提供側向勁度；偏心斜撐則保留受控連桿，透過連桿的塑性變形消耗地震能量。就本題典型系統比較，偏心斜撐可結合斜撐的勁度與較佳延性消能機制，因此選 D。這裡偏心是構架內的連桿幾何安排，不能直接等同建築平面上的剛心偏離質心，也不能只用偏心二字斷言應避免。",
+    "optionExplanations": [
+      "A 同心斜撐重點是相關桿件軸線於節點交會；偏心斜撐也可有一端接在梁柱節點，不是兩端皆否。",
+      "B 將 EBF 的刻意連桿配置誤認成必然不利的建築扭轉；妥善設計的 EBF 可用於地震區。",
+      "C 典型比較中，同心斜撐通常具有較高初始側向勁度；較小勁度也不會在同一側力下自然減少變形。",
+      "D 偏心斜撐利用連桿的受控塑性變形提供延性與消能，是本題正確敘述。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 8,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-38",

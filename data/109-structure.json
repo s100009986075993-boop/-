@@ -70,7 +70,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -81,13 +81,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 2 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "管式先辨外周筒體；outrigger 與 belt truss 不是必備定義。",
+    "explanationBatch": "2026-11-02",
+    "solution": "典型管式系統利用外周密柱及梁形成可共同工作的筒體，將外周構件間距與建築寬度轉化成整體抗側效益；內部構架主要支承內部樓面重力。本題以主要角色作規劃層次比較，故選 A。實際外周柱也承受重力，內部構架亦可能分擔側力；不要把主要二字讀成只有。外伸穩定架加外圈桁架是可搭配的高樓方案，不是所有管式系統的必要定義。",
+    "optionExplanations": [
+      "A 外周主要抗側、內部主要承重，符合本題典型管式系統的比較模型。",
+      "B 主要水平力抗力放在內部構架，與此題外周筒體抗側的核心概念相反。",
+      "C 管式系統可用於有地震或颱風的地區，需依環境作用與規範設計，不是全面禁止。",
+      "D 外伸穩定架與外圈桁架並非管式系統必備條件；不可把不同高樓系統的特徵混在一起。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 2,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-03",
@@ -1186,7 +1208,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -1197,13 +1219,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 27 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "分類依本題教材語境；受力要會分板殼面內作用與桿件軸力。",
+    "explanationBatch": "2026-11-02",
+    "solution": "依本題採用的結構形態分類，折版、圓球薄殼與雙曲拋物面屋頂都利用板殼的幾何形狀及空間作用傳力；桁架則以離散桿件的軸向拉壓工作，故官方答案為 D。形抗的分類術語在不同教材可能有廣狹差異，學習時要同時掌握本題分類與實際受力機制，不應推論桁架不靠幾何、或形抗結構全無彎矩。",
+    "optionExplanations": [
+      "A 折版透過折線幾何提高空間剛度與傳力效率，在本題歸於形抗類。",
+      "B 圓球薄殼利用曲率與面內力承載，在本題屬形抗類，但邊界仍可能需要抗彎設計。",
+      "C 雙曲拋物面屋頂屬曲面板殼的典型形式，本題歸於形抗類。",
+      "D 桁架以桿件軸力為主要理想模型，在本題分類中不屬所列板殼式形抗，故選 D。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 6,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-28",

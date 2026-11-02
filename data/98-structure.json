@@ -894,7 +894,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -905,13 +905,35 @@
     "originalQuestionLabel": "98 年建築結構｜測驗第 20 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "短柱：變形長度短 → 勁度大、剪力需求高 → 防脆性剪壞。",
+    "explanationBatch": "2026-11-02",
+    "solution": "短柱效應的重點不是柱變短所以比較強，而是有效可變形長度縮短後，側向勁度提高，地震層間位移下容易吸引較大的剪力需求。在相近端彎矩條件下，V 約等於兩端彎矩和除以柱淨高，淨高越短，剪力需求越大。若抗剪及圍束不足，就可能先發生脆性剪力破壞，故選 A；不要與細長柱的挫屈混淆。",
+    "optionExplanations": [
+      "A 剪力破壞：短柱常出現高剪力需求及斜向裂縫，可能在充分彎曲延性發揮前先脆性破壞。",
+      "B 壓力破壞可能受軸壓與材料強度控制，但不是本題短柱效應的典型控制機制。",
+      "C 挫屈較著重壓桿細長比與穩定問題；短柱地震損傷的典型答案不是長細壓桿挫屈。",
+      "D 拉力破壞不是短柱效應的主要特徵，不能只因地震造成構件一側拉應變就選拉力。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築結構原題",
+        "url": "assets/98-structure/questions.pdf",
+        "page": 5,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-structure-21",
@@ -1290,7 +1312,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1301,13 +1323,35 @@
     "originalQuestionLabel": "98 年建築結構｜測驗第 29 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "SCBF：S 特殊、C 同心、B 斜撐、F 構架。",
+    "explanationBatch": "2026-11-02",
+    "solution": "先拆英文縮寫：SCBF 為 Special Concentrically Braced Frame，Special 是特殊，Concentrically Braced 是同心斜撐，Frame 是構架。因此選 C。特殊與普通不只是名稱差異，涉及預期非彈性行為、構材與接合的設計細節；但本題只問系統辨識，不需臆測數值或條號。偏心斜撐則是 EBF，特殊抗彎構架常寫為 SMRF 或 SMF。",
+    "optionExplanations": [
+      "A 同心斜撐構架對應 CBF，少了 S 所代表的特殊要求，名稱不完整。",
+      "B 偏心斜撐構架為 EBF，設置連桿以控制消能，與題目的 C 不符。",
+      "C 特殊同心斜撐構架完整對應 SCBF，為正確答案。",
+      "D 特殊抗彎構架依梁柱彎曲作用抗側，縮寫及系統均不同，不能只看到特殊就選。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築結構原題",
+        "url": "assets/98-structure/questions.pdf",
+        "page": 7,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-structure-30",

@@ -488,7 +488,7 @@
       1
     ],
     "explanation": "答案依使用者提供的標準答案更正表；觀念解析尚待核對。",
-    "regulation": "本題為民國 97 年歷屆試題；涉及規範時請依當年適用版本理解，現行法規尚未查核。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-structure/q-11.png",
     "sourcePage": 2,
     "sourcePdf": "assets/97-structure/questions.pdf",
@@ -497,14 +497,36 @@
     "originalQuestionLabel": "97 年建築結構｜測驗第 11 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
     },
-    "manualTranscription": true
+    "manualTranscription": true,
+    "memoryTip": "管式系統：先想外周筒體抗側；重力分配仍要看實際構造。",
+    "explanationBatch": "2026-11-02",
+    "solution": "本題採管式高層系統的簡化分工模型：外周密柱與深梁共同形成抗側力的筒體，內部構架主要支承內部樓面的重力。故分項①與④符合題意，選 B。不能把答案解讀成外周柱完全不承受垂直力，或內部構件絕不分擔水平力；實際分配仍取決於連結、勁度與整體分析。應記住的是外周筒體的主要抗側作用，而非絕對排他分工。",
+    "optionExplanations": [
+      "A（①③）保留了外周抗側力的正確方向，但③沒有呈現本題要比較的內部重力構架角色；外周柱實際也承受重力，不宜把此選項單純說成物理上完全不可能。",
+      "B（①④）是本題官方採用的系統分工：外周筒體主要抗側，內部構架主要支承內部重力。這是規劃層次的簡化描述。",
+      "C（②③）把主要抗側角色放到內部梁柱，與此題典型管式筒體的外周抗側概念相反。",
+      "D（②④）雖有內部重力構架的角色，但②仍把主要水平力抗力放錯位置。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築結構原題",
+        "url": "assets/97-structure/questions.pdf",
+        "page": 2,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-structure-12",
@@ -1514,7 +1536,7 @@
       2
     ],
     "explanation": "答案依使用者提供的標準答案更正表；觀念解析尚待核對。",
-    "regulation": "本題為民國 97 年歷屆試題；涉及規範時請依當年適用版本理解，現行法規尚未查核。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-structure/q-35.png",
     "sourcePage": 4,
     "sourcePdf": "assets/97-structure/questions.pdf",
@@ -1523,14 +1545,36 @@
     "originalQuestionLabel": "97 年建築結構｜測驗第 35 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
     },
-    "manualTranscription": true
+    "manualTranscription": true,
+    "memoryTip": "不規則看凹角與傳力；短梁看剪力；強柱弱梁看預期破壞位置。",
+    "explanationBatch": "2026-11-02",
+    "solution": "先判斷四個分項，不要把組合字母直接背起來。L 字型平面有凹角及配置不規則的潛在問題，需注意扭轉與局部應力集中；普通梁柱系統多處出現短梁，則可能使高剪力、脆性剪力破壞成為控制。故本題不良配置取②③，選 C。強柱弱梁是引導梁先發展延性機制的設計方向。口字型並非一定安全，但本題未給額外不規則條件，不能只憑該字形認定不良。",
+    "optionExplanations": [
+      "A（①③）辨識到短梁風險，卻以口字型取代本題更明確的 L 型凹角不規則。",
+      "B（①④）將強柱弱梁列為不良，與延性耐震設計希望避免柱層機制的方向相反。",
+      "C（②③）對應平面不規則與短梁高剪力的兩種風險，為官方答案。短梁不可與經專門設計的偏心斜撐消能連桿混為一談。",
+      "D（②④）雖有 L 型風險，卻錯把強柱弱梁當缺點；應逐項檢查而非只看第一個分項。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築結構原題",
+        "url": "assets/97-structure/questions.pdf",
+        "page": 4,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "97-structure-36",
@@ -1712,7 +1756,7 @@
       3
     ],
     "explanation": "答案依使用者提供的標準答案更正表；觀念解析尚待核對。",
-    "regulation": "本題為民國 97 年歷屆試題；涉及規範時請依當年適用版本理解，現行法規尚未查核。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/97-structure/q-40.png",
     "sourcePage": 4,
     "sourcePdf": "assets/97-structure/questions.pdf",
@@ -1721,13 +1765,35 @@
     "originalQuestionLabel": "97 年建築結構｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "梁韌性看中立軸與應變空間；不是鋼筋越多或材料越強就越韌。",
+    "explanationBatch": "2026-11-02",
+    "solution": "在題定配筋比範圍內，先以其他條件不變的 RC 梁斷面行為比較。提高混凝土抗壓強度，在相同張力鋼筋量與鋼筋強度下，可減少平衡拉力所需的壓力區深度，使鋼筋降伏後至壓區極限應變前有較大曲率變形空間，因此依本題選 D。這不是宣稱高強混凝土材料本身必然更韌；梁的實際韌性仍受配筋、圍束、剪力與接合細節控制。",
+    "optionExplanations": [
+      "A 增加軸壓通常加重壓區需求，可能降低可用變形能力，不是本題改善梁韌性的方向。",
+      "B 在配筋量等條件不變下，提高鋼筋降伏強度會提高所需壓力合力，未必提升曲率韌性。",
+      "C 提高張力配筋比會加深中立軸，可能使壓區更早到達極限，不能把鋼筋多直接當成韌性好。",
+      "D 在本題其他條件不變的比較下，提高混凝土抗壓強度可減少壓區深度，為官方答案；需保留這個比較前提。"
+    ],
+    "explanationSources": [
+      {
+        "title": "97年建築結構原題",
+        "url": "assets/97-structure/questions.pdf",
+        "page": 4,
+        "version": "民國97年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/97-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-structure-01",
@@ -2624,7 +2690,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -2635,13 +2701,35 @@
     "originalQuestionLabel": "98 年建築結構｜測驗第 20 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "短柱：變形長度短 → 勁度大、剪力需求高 → 防脆性剪壞。",
+    "explanationBatch": "2026-11-02",
+    "solution": "短柱效應的重點不是柱變短所以比較強，而是有效可變形長度縮短後，側向勁度提高，地震層間位移下容易吸引較大的剪力需求。在相近端彎矩條件下，V 約等於兩端彎矩和除以柱淨高，淨高越短，剪力需求越大。若抗剪及圍束不足，就可能先發生脆性剪力破壞，故選 A；不要與細長柱的挫屈混淆。",
+    "optionExplanations": [
+      "A 剪力破壞：短柱常出現高剪力需求及斜向裂縫，可能在充分彎曲延性發揮前先脆性破壞。",
+      "B 壓力破壞可能受軸壓與材料強度控制，但不是本題短柱效應的典型控制機制。",
+      "C 挫屈較著重壓桿細長比與穩定問題；短柱地震損傷的典型答案不是長細壓桿挫屈。",
+      "D 拉力破壞不是短柱效應的主要特徵，不能只因地震造成構件一側拉應變就選拉力。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築結構原題",
+        "url": "assets/98-structure/questions.pdf",
+        "page": 5,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-structure-21",
@@ -3020,7 +3108,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 98 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/98-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -3031,13 +3119,35 @@
     "originalQuestionLabel": "98 年建築結構｜測驗第 29 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "SCBF：S 特殊、C 同心、B 斜撐、F 構架。",
+    "explanationBatch": "2026-11-02",
+    "solution": "先拆英文縮寫：SCBF 為 Special Concentrically Braced Frame，Special 是特殊，Concentrically Braced 是同心斜撐，Frame 是構架。因此選 C。特殊與普通不只是名稱差異，涉及預期非彈性行為、構材與接合的設計細節；但本題只問系統辨識，不需臆測數值或條號。偏心斜撐則是 EBF，特殊抗彎構架常寫為 SMRF 或 SMF。",
+    "optionExplanations": [
+      "A 同心斜撐構架對應 CBF，少了 S 所代表的特殊要求，名稱不完整。",
+      "B 偏心斜撐構架為 EBF，設置連桿以控制消能，與題目的 C 不符。",
+      "C 特殊同心斜撐構架完整對應 SCBF，為正確答案。",
+      "D 特殊抗彎構架依梁柱彎曲作用抗側，縮寫及系統均不同，不能只看到特殊就選。"
+    ],
+    "explanationSources": [
+      {
+        "title": "98年建築結構原題",
+        "url": "assets/98-structure/questions.pdf",
+        "page": 7,
+        "version": "民國98年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/98-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "98-structure-30",
@@ -4343,7 +4453,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -4353,13 +4463,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 18 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "桁架先檢查節點與荷載假設；桿件是拉、壓或零力，不是全拉。",
+    "explanationBatch": "2026-11-02",
+    "solution": "理想桁架以節點荷載、近似鉸接及桿件軸線在節點交會為基本模型，使桿件主要作為二力桿承受軸向拉力或壓力。因此 A 正確。若桿件軸線未交於同點，偏心會引入附加彎矩，不能直接沿用純軸力假設。三角形幾何本身不保證所有桁架假設成立；空間桁架也不要求同一節點的桿件都在同一平面。",
+    "optionExplanations": [
+      "A 桿件軸線與內力作用線在理想節點交會，可避免節點偏心引入附加彎矩，符合題意。",
+      "B 三角形是常見穩定單元，但任意接合、荷載及桿件形式不一定滿足桁架模型。",
+      "C 桁架桿件可拉可壓，也可能為零力桿，並非全部只承受拉力。",
+      "D 此敘述把平面桁架限制套到所有桁架；空間桁架可有不共平面的桿件交會。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 6,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "99-structure-19",
@@ -4466,7 +4598,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -4476,13 +4608,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 21 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "LRB：橡膠給柔度、鉛心助消能；上部減反應，隔震層要留位移。",
+    "explanationBatch": "2026-11-02",
+    "solution": "鉛心橡膠隔震墊以橡膠層提供水平柔度，讓隔震建築的主要振動週期拉長；在適合採隔震的建築與設計反應譜範圍內，通常可降低上部結構地震力及加速度需求。鉛心另透過非彈性變形提供消能，並不是降低阻尼。因此選 D。週期拉長不代表所有反應都降低，隔震層位移仍可能增大，須預留間隙並檢核。",
+    "optionExplanations": [
+      "A 增加重量不是 LRB 隔震的核心原理，重量變化也不保證地震反應降低。",
+      "B LRB 主要靠橡膠水平柔度與鉛心耗能，不是靠增大摩擦力來定義其隔震機制。",
+      "C 鉛心提供消能，並非減少阻尼；把阻尼減少直接等同減振是錯誤判斷。",
+      "D 延長週期是隔震降低上部結構反應的重要機制，符合本題；仍須同時檢查位移與場址條件。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 6,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "99-structure-22",
@@ -5040,7 +5194,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -5050,13 +5204,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 35 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "看到 shear link，先想到 EBF；看到 CBF，先想斜撐軸力。",
+    "explanationBatch": "2026-11-02",
+    "solution": "剪力連桿是偏心斜撐構架 EBF 的典型消能構件。斜撐軸線未在同一梁柱節點交會而形成一段連桿，設計時使連桿先發生可控制的非彈性變形，其他構件依所需容量配合設計，因此選 B。連桿可依長度與內力特性呈現剪力或彎曲主導行為，不能把所有 EBF 連桿都簡化為純剪力，也不能把偏心誤解成平面扭轉。",
+    "optionExplanations": [
+      "A 同心斜撐主要透過斜撐軸力抗側，不以梁上剪力連桿作為典型系統辨識特徵。",
+      "B 偏心斜撐刻意保留連桿作為受控消能區，符合題意。",
+      "C 特殊同心斜撐雖有延性設計細節，仍屬同心斜撐，不因特殊二字就變成連桿消能。",
+      "D 特殊抗彎構架依梁柱彎曲與接頭設計抗側，不是此題剪力連桿的典型對應系統。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 7,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "99-structure-36",
@@ -5245,7 +5421,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 99 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/99-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -5255,13 +5431,35 @@
     "originalQuestionLabel": "99 年建築結構｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "索靠拉力與索形工作；不是一根可以承彎、承壓的梁。",
+    "explanationBatch": "2026-11-02",
+    "solution": "理想柔性纜索可承受張力，但幾乎不以抗彎、抗剪或承壓作為主要機制，故 A 是不屬於其特性的敘述。纜索靠改變形狀使內力沿索線平衡外力；對相同跨距與荷載的典型索形，增大垂度可減少水平拉力需求，但也改變淨高與構形。輕量及小彎曲勁度使其容易受風致振動影響，須靠預張、穩定系統等處理。",
+    "optionExplanations": [
+      "A 把纜索說成能主要抵抗張力、彎矩與剪力，混淆柔性索與梁，是本題要找的錯誤敘述。",
+      "B 在跨距與荷載相同的典型條件下，垂度較大可降低索力需求；此比較需保留相同條件。",
+      "C 柔性索的平衡形狀取決於外力及支承，荷載分布改變時索形可隨之改變。",
+      "D 纜索輕且抗彎勁度小，風致變形及振動是設計重點；不是說所有已妥善設計的索系統一受風就失穩。"
+    ],
+    "explanationSources": [
+      {
+        "title": "99年建築結構原題",
+        "url": "assets/99-structure/questions.pdf",
+        "page": 8,
+        "version": "民國99年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/99-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "100-structure-01",
@@ -7162,7 +7360,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -7173,13 +7371,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 3 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "薄殼之所以能薄，重點是形狀傳力，不是厚梁式抗彎。",
+    "explanationBatch": "2026-11-02",
+    "solution": "圓頂薄殼透過曲面幾何與面內力傳遞荷載，常可用子午線與環向作用理解，近似具有雙向拱的效果。其薄而有效率的原因不是抗彎矩特別強，而是適當條件下可減少以彎曲承載的需求，故錯誤敘述為 D。邊界、開口或集中荷載附近仍可能有顯著彎曲及局部效應，不能把薄殼解讀成任何位置都沒有彎矩。",
+    "optionExplanations": [
+      "A 曲率、荷載與支承共同影響殼體內力，曲面形狀與受力狀態相關。",
+      "B 雙向拱作用是理解圓頂承載的入門模型，仍需包含環向內力與實際邊界。",
+      "C 合理設計的薄殼可用較小厚度有效傳力，經濟性也需另考慮施工、穩定與維護。",
+      "D 薄殼效率主要來自形狀及面內力，不應稱為靠極佳抗彎能力承載，故選 D。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 2,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-04",
@@ -8650,7 +8870,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 101 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/101-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -8661,13 +8881,35 @@
     "originalQuestionLabel": "101 年建築結構｜測驗第 37 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "CBF 看斜撐軸力；EBF 看連桿塑性，不把幾何偏心直接等同扭轉。",
+    "explanationBatch": "2026-11-02",
+    "solution": "同心斜撐以斜撐軸力提供側向勁度；偏心斜撐則保留受控連桿，透過連桿的塑性變形消耗地震能量。就本題典型系統比較，偏心斜撐可結合斜撐的勁度與較佳延性消能機制，因此選 D。這裡偏心是構架內的連桿幾何安排，不能直接等同建築平面上的剛心偏離質心，也不能只用偏心二字斷言應避免。",
+    "optionExplanations": [
+      "A 同心斜撐重點是相關桿件軸線於節點交會；偏心斜撐也可有一端接在梁柱節點，不是兩端皆否。",
+      "B 將 EBF 的刻意連桿配置誤認成必然不利的建築扭轉；妥善設計的 EBF 可用於地震區。",
+      "C 典型比較中，同心斜撐通常具有較高初始側向勁度；較小勁度也不會在同一側力下自然減少變形。",
+      "D 偏心斜撐利用連桿的受控塑性變形提供延性與消能，是本題正確敘述。"
+    ],
+    "explanationSources": [
+      {
+        "title": "101年建築結構原題",
+        "url": "assets/101-structure/questions.pdf",
+        "page": 8,
+        "version": "民國101年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/101-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "101-structure-38",
@@ -8866,7 +9108,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 102 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/102-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -8877,13 +9119,35 @@
     "originalQuestionLabel": "102 年建築結構｜測驗第 2 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "強度是能承多少力；韌性是降伏後還能變形多少。",
+    "explanationBatch": "2026-11-02",
+    "solution": "韌性是構件或材料在降伏後，仍能承受變形而不迅速喪失承載能力的性質，不能與剛度或強度畫等號。一般鋼筋可經降伏後產生較大塑性應變，混凝土則具有較明顯的脆性特徵，因此本題選 D。梁、柱及預力梁的韌性仍依配筋、軸力、圍束與破壞模式決定，不應只靠構件名稱做無條件排序。",
+    "optionExplanations": [
+      "A 預力梁不必然比普通 RC 梁更具韌性，尚需考量鋼材性質、預力程度與斷面破壞模式。",
+      "B 梁或柱的韌性受設計細節與受力控制，單憑構件名稱不能做絕對比較。",
+      "C 較高軸壓常限制壓縮變形能力，不能概括為軸力越大韌性越佳。",
+      "D 就一般材料基本行為而言，鋼筋的降伏後塑性變形能力較混凝土佳，為本題答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "102年建築結構原題",
+        "url": "assets/102-structure/questions.pdf",
+        "page": 2,
+        "version": "民國102年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/102-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "102-structure-03",
@@ -9500,7 +9764,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 102 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/102-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -9511,13 +9775,35 @@
     "originalQuestionLabel": "102 年建築結構｜測驗第 16 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "EBF 的損傷要有設計好的位置：找連桿，不是猜斜撐。",
+    "explanationBatch": "2026-11-02",
+    "solution": "偏心斜撐構架的受控消能區位於連桿，不是讓斜撐或柱先任意損壞。梁上連桿在地震往復作用下發生設計允許的塑性剪切或彎曲變形，其他構件與接合則需配合容量設計，故選 D。題目稱 shear link，強調剪力連桿概念；實際主導行為仍與連桿長度有關，不可推廣成每種 EBF 都只有純剪力。",
+    "optionExplanations": [
+      "A 斜撐負責傳遞軸向作用，典型 EBF 不以斜撐率先挫屈作為主要消能機制。",
+      "B 讓柱成為主要損傷區可能危及重力承載及整體穩定，不是本題預期機制。",
+      "C 交點本身不是連桿的同義詞；主要消能區是所保留的那段構件，而非任意節點。",
+      "D 梁上的連桿為刻意設計的非彈性變形區，符合官方答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "102年建築結構原題",
+        "url": "assets/102-structure/questions.pdf",
+        "page": 4,
+        "version": "民國102年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/102-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "102-structure-17",
@@ -14906,7 +15192,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -14917,13 +15203,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 17 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "窗台夾柱會縮短變形長度；隔離是解除束制，不是盲目切柱。",
+    "explanationBatch": "2026-11-02",
+    "solution": "窗台或半高牆與柱緊密接觸，可能限制柱的一部分變形，使剩餘柱段有效淨高縮短，增加其側向勁度與剪力需求。於牆與柱之間採適當分離細節，可避免這種非預期束制，所以依題意選 D。隔離縫須有足夠位移空間、避免被填實，並兼顧牆體平面外穩定；不是在現有建築任意切一條縫就保證安全。",
+    "optionExplanations": [
+      "A 牆體束制可能提高勁度與剪力需求，不能把它誤說成柱本身抗剪強度必然上升。",
+      "B 短柱典型風險為剪力脆性破壞，而非題目所列的撓屈破壞。",
+      "C 強柱弱梁是控制梁柱塑性機制的原則，不能直接用來解釋或消除窗台束制短柱現象。",
+      "D 合理的牆柱隔離可避免窗台縮短有效柱長，為本題答案；工程上仍需完整設計與檢核。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 3,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "105-structure-18",
@@ -15954,7 +16262,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 105 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/105-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -15965,13 +16273,35 @@
     "originalQuestionLabel": "105 年建築結構｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "隔震改週期，制震助消能；不是長週期建築越長越好。",
+    "explanationBatch": "2026-11-02",
+    "solution": "隔震利用水平柔度拉長主要振動週期，通常對原本週期較短、上部較剛的建築較能形成明顯效果；原本已很長週期的柔性高樓，不能僅憑長週期就認為更適合隔震，因此本題錯誤為 B。制震則藉阻尼或耗能元件控制反應。是否適用仍須考量場址長週期地動、風、位移、建築使用需求及裝置保護，並非只看建築高度決定。",
+    "optionExplanations": [
+      "A 最大考量地震下避免崩塌是本題對耐震設計目標的描述，不代表強震後保證無損或可立即使用。",
+      "B 將隔震較適用的典型條件說反；不能認為原結構週期越長就越適合，故為答案。",
+      "C 合適的制震元件及配置可降低地震或風引起的振動，但效果需依元件型式與分析檢核。",
+      "D 中間層隔震裝置的火災暴露與耐火保護是需考量的問題；具體要求仍應查適用規範及系統設計。"
+    ],
+    "explanationSources": [
+      {
+        "title": "105年建築結構原題",
+        "url": "assets/105-structure/questions.pdf",
+        "page": 7,
+        "version": "民國105年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/105-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-structure-01",
@@ -21382,7 +21712,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -21393,13 +21723,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 2 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "管式先辨外周筒體；outrigger 與 belt truss 不是必備定義。",
+    "explanationBatch": "2026-11-02",
+    "solution": "典型管式系統利用外周密柱及梁形成可共同工作的筒體，將外周構件間距與建築寬度轉化成整體抗側效益；內部構架主要支承內部樓面重力。本題以主要角色作規劃層次比較，故選 A。實際外周柱也承受重力，內部構架亦可能分擔側力；不要把主要二字讀成只有。外伸穩定架加外圈桁架是可搭配的高樓方案，不是所有管式系統的必要定義。",
+    "optionExplanations": [
+      "A 外周主要抗側、內部主要承重，符合本題典型管式系統的比較模型。",
+      "B 主要水平力抗力放在內部構架，與此題外周筒體抗側的核心概念相反。",
+      "C 管式系統可用於有地震或颱風的地區，需依環境作用與規範設計，不是全面禁止。",
+      "D 外伸穩定架與外圈桁架並非管式系統必備條件；不可把不同高樓系統的特徵混在一起。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 2,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-03",
@@ -22498,7 +22850,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -22509,13 +22861,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 27 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "分類依本題教材語境；受力要會分板殼面內作用與桿件軸力。",
+    "explanationBatch": "2026-11-02",
+    "solution": "依本題採用的結構形態分類，折版、圓球薄殼與雙曲拋物面屋頂都利用板殼的幾何形狀及空間作用傳力；桁架則以離散桿件的軸向拉壓工作，故官方答案為 D。形抗的分類術語在不同教材可能有廣狹差異，學習時要同時掌握本題分類與實際受力機制，不應推論桁架不靠幾何、或形抗結構全無彎矩。",
+    "optionExplanations": [
+      "A 折版透過折線幾何提高空間剛度與傳力效率，在本題歸於形抗類。",
+      "B 圓球薄殼利用曲率與面內力承載，在本題屬形抗類，但邊界仍可能需要抗彎設計。",
+      "C 雙曲拋物面屋頂屬曲面板殼的典型形式，本題歸於形抗類。",
+      "D 桁架以桿件軸力為主要理想模型，在本題分類中不屬所列板殼式形抗，故選 D。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 6,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-28",
@@ -23284,7 +23658,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 110 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/110-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -23295,13 +23669,35 @@
     "originalQuestionLabel": "110 年建築結構｜測驗第 5 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "積層橡膠：鋼板拘束鼓脹、橡膠允許水平變形；不是越厚越能承重。",
+    "explanationBatch": "2026-11-02",
+    "solution": "積層橡膠隔震器以薄橡膠層與鋼板交替配置。鋼板限制橡膠側向鼓脹，使裝置能提供較高垂直剛度，同時保留水平變形能力。不能把每層橡膠加厚直接當作提升垂直支承能力的方式，因此錯誤敘述為 B。厚度改變牽涉形狀係數、總橡膠厚度、水平剛度與穩定，須比較明確條件並依裝置試驗及設計資料評估。",
+    "optionExplanations": [
+      "A 在適當場址與設計條件下，隔震延長週期可降低上部結構地震力，符合基本機制。",
+      "B 加厚單層橡膠不會一般性提升垂直支承力；其側向鼓脹拘束與形狀係數效益反而可能下降，故為答案。",
+      "C 阻尼器可透過耗能降低特定振動反應；實際效果與配置、頻率及元件性質有關。",
+      "D 隔震層也須處理風作用及使用性，不能只設計地震情境。"
+    ],
+    "explanationSources": [
+      {
+        "title": "110年建築結構原題",
+        "url": "assets/110-structure/questions.pdf",
+        "page": 2,
+        "version": "民國110年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/110-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "110-structure-06",
@@ -25048,7 +25444,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 111 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/111-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -25059,13 +25455,35 @@
     "originalQuestionLabel": "111 年建築結構｜測驗第 5 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "圓筒一向可直；雙曲拋物面可用直線；可直紋不等於可展平。",
+    "explanationBatch": "2026-11-02",
+    "solution": "先分清幾何曲率、可展開性與內力。圓筒面沿母線方向是直線，因此該方向的曲率可為零，B 正確。球面並不可無伸縮地攤平成平面；雙曲拋物面雖有雙向曲率，卻可由直線母線構成。球殼環向力則依位置、荷載及邊界改變，不能說所有緯向纖維都受壓。幾何能用直線構成，也不代表能直接展成一張平面。",
+    "optionExplanations": [
+      "A 薄殼不一定可展開，例如球面具有非零高斯曲率，不能無伸縮攤平。",
+      "B 圓筒沿母線方向曲率為零、圓周方向曲率非零，符合題意。",
+      "C 雙曲拋物面是可由直線構成的直紋曲面，故此否定敘述錯誤。",
+      "D 圓球殼環向拉壓可隨位置與邊界變化，不能概括所有緯向纖維均受壓。"
+    ],
+    "explanationSources": [
+      {
+        "title": "111年建築結構原題",
+        "url": "assets/111-structure/questions.pdf",
+        "page": 2,
+        "version": "民國111年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/111-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "111-structure-06",
@@ -25090,7 +25508,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 111 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/111-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -25101,13 +25519,35 @@
     "originalQuestionLabel": "111 年建築結構｜測驗第 6 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "形抗不是選最漂亮的形狀，而是讓形狀配合荷載與傳力。",
+    "explanationBatch": "2026-11-02",
+    "solution": "形狀是否有效率，要配合荷載分布與支承條件判斷。在只考慮沿拱線分布的自重時，理想受壓拱的合力線可由同條件懸鏈線倒置理解，並不是完整半圓必然最有效率，故選 D。若荷載按水平投影均布，理想拱線又接近拋物線。薄膜的雙向反曲與預張常用以建立穩定性，但不能把某一種數學曲面當成所有膜結構唯一形式。",
+    "optionExplanations": [
+      "A 依本題分類，薄膜、纜索與拱均以形狀與主要軸向作用發揮效能，屬題定型抗概念。",
+      "B 三者皆可應用於大跨度空間；是否適合仍依跨度、支承、荷載及變形要求選擇。",
+      "C 此敘述是對常見雙向反曲張力膜的簡化描述；實際膜形須找形及預張分析，不必處處是精確拋物線。",
+      "D 只憑完整半圓無法保證自重下效率最佳；要讓拱線配合該荷載的合力線，故此項錯誤。"
+    ],
+    "explanationSources": [
+      {
+        "title": "111年建築結構原題",
+        "url": "assets/111-structure/questions.pdf",
+        "page": 2,
+        "version": "民國111年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/111-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "111-structure-07",
@@ -25306,7 +25746,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 111 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/111-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -25317,13 +25757,35 @@
     "originalQuestionLabel": "111 年建築結構｜測驗第 11 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "看到格子梁，先想梁的彎曲共同作用；看到拱殼，先想形狀傳力。",
+    "explanationBatch": "2026-11-02",
+    "solution": "本題比較格子梁與板殼、拱的形態作用。斜交格子梁由相交梁共同承受荷載，主要仍需依梁的彎曲、剪力及扭轉傳力；折版、薄殼與拱則在本題分類中以幾何形狀提升傳力效率，所以不屬題定形抗類的是 A。不同教材對形抗的涵蓋可能不同，答題要辨認該題分類，同時理解格子梁不等於沒有空間共同作用。",
+    "optionExplanations": [
+      "A 格子梁仍以交叉梁構件的彎曲等作用為主要機制，是本題所選非形抗項目。",
+      "B 折版藉折線與板間作用建立空間傳力，在本題歸於形抗類。",
+      "C 薄殼透過曲面與面內力有效承載，在本題歸於形抗類。",
+      "D 拱以形狀配合荷載合力線、主要承受壓力，是典型形抗概念；偏離合力線時仍會產生彎矩。"
+    ],
+    "explanationSources": [
+      {
+        "title": "111年建築結構原題",
+        "url": "assets/111-structure/questions.pdf",
+        "page": 3,
+        "version": "民國111年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/111-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "111-structure-12",
@@ -26622,7 +27084,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 111 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/111-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -26633,13 +27095,35 @@
     "originalQuestionLabel": "111 年建築結構｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "隔震把變形集中處理，但不能把維護責任隔掉。",
+    "explanationBatch": "2026-11-02",
+    "solution": "本題要找錯誤敘述，關鍵是一勞永逸。隔震裝置及其周邊間隙、管線接頭、保護與環境條件都需要維護檢查，不能因完工就免除定期管理，所以選 A。B、C 是在本題相近條件下對上部結構需求的典型比較，不是所有建築都必然有同樣尺寸差異；隔震層自身位移也不能和標準層層間位移混淆。",
+    "optionExplanations": [
+      "A 完工不等於不需檢查，裝置狀況與位移空間等均須維護，是明確錯誤。",
+      "B 隔震可降低上部結構部分地震需求，傳統耐震構件可能較大；尺寸仍受重力、風及其他條件控制。",
+      "C 隔震旨在降低上部標準層變形需求；較大的位移通常集中於隔震層，不是所有樓層位移都變小。",
+      "D 隔震增加裝置、接頭、間隙及施工管理等工作，相對而言傳統耐震施工較單純，符合本題比較。"
+    ],
+    "explanationSources": [
+      {
+        "title": "111年建築結構原題",
+        "url": "assets/111-structure/questions.pdf",
+        "page": 8,
+        "version": "民國111年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/111-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "112-structure-01",
@@ -27234,7 +27718,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 112 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/112-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -27245,13 +27729,35 @@
     "originalQuestionLabel": "112 年建築結構｜測驗第 14 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "自重沿索長 → 懸鏈線；垂直載重沿水平投影均布 → 拋物線。",
+    "explanationBatch": "2026-11-02",
+    "solution": "理想纜索是柔性受拉構件，索形須隨荷載建立平衡，因此 B 正確。要特別區分兩種均布基準：僅承受沿索長分布的自重時形成懸鏈線；受沿水平投影均布的垂直荷載、並忽略或相對減小索自重時，常以拋物線描述。C、D 把這兩種典型荷載與索形的對應顛倒。真實荷載若兩者都有，則不能硬套純粹其中一種形狀。",
+    "optionExplanations": [
+      "A 柔性索能有效承受張力，不能像壓桿承受壓力，否則會鬆弛或改變形狀。",
+      "B 荷載及支承條件改變時，纜索可透過索形改變形成新的平衡，為答案。",
+      "C 僅承受沿索長分布的自重，典型索形為懸鏈線，不是拋物線。",
+      "D 依本題將均布載重理解為沿水平投影均布，典型索形為拋物線；必須說清均布基準，不能把任何均布都叫懸鏈線。"
+    ],
+    "explanationSources": [
+      {
+        "title": "112年建築結構原題",
+        "url": "assets/112-structure/questions.pdf",
+        "page": 4,
+        "version": "民國112年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/112-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "112-structure-15",

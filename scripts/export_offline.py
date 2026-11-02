@@ -27,7 +27,7 @@ GUIDE='''築考練習室｜更新版（2026-11-02）
 更新內容與限制
 - 22題補回問號後遺漏的①②③④分項，作答後顯示組合對照。
 - 結構系統與力學分流，系統題附主題讀題提示。
-- 詳解仍只有23題草稿；待補充會明確標示，對照及提示不是完整詳解。
+- 詳解仍為草稿，數量以頁面題庫說明為準；待補充會明確標示，對照及提示不是完整詳解。
 - 分類尚未經專家覆核；法規與規範須注意原題年份和現行版本的差異。
 - 題庫共4320道歷屆選擇題，另外包含敷地／設計原卷及參考資料。
 
@@ -37,7 +37,7 @@ GUIDE='''築考練習室｜更新版（2026-11-02）
 敷地與設計筆記分別匯出。匯出目前僅供備份查看，尚不支援還原匯入或跨裝置同步。
 此離線版不會自動讀取公開網站的既有紀錄。
 '''
-QUICK='''<section class="portable-start" aria-label="今日快速練習"><p class="eyebrow">YOUR DAILY PRACTICE · 每天 2～3 小時</p><h2>今天先練這一科</h2><p>先做一回，再回顧錯因。法規、環控、結構輪流主攻。</p><div class="portable-actions"><button data-portable-subject="營建法規與實務">法規觀念 →</button><button data-portable-subject="建築環境控制">環控練習 →</button><button data-portable-subject="建築結構" data-portable-lane="systems">結構系統觀念 →</button><button data-portable-subject="建築結構" data-portable-lane="mechanics">結構力學 →</button></div><p class="muted">系統109題／力學22題先行分類，另589題待分類。詳解草稿23題，其餘待補；觀念提示不代替詳解。紀錄只存在此瀏覽器，請定期匯出備份。</p></section>'''
+QUICK='''<section class="portable-start" aria-label="今日快速練習"><p class="eyebrow">YOUR DAILY PRACTICE · 每天 2～3 小時</p><h2>今天先練這一科</h2><p>先做一回，再回顧錯因。法規、環控、結構輪流主攻。</p><div class="portable-actions"><button data-portable-subject="營建法規與實務">法規觀念 →</button><button data-portable-subject="建築環境控制">環控練習 →</button><button data-portable-subject="建築結構" data-portable-lane="systems">結構系統觀念 →</button><button data-portable-subject="建築結構" data-portable-lane="mechanics">結構力學 →</button></div><p class="muted">系統109題／力學22題先行分類，另589題待分類。詳解草稿<span id="quick-detailed-count">59</span>題，其餘待補；觀念提示不代替詳解。紀錄只存在此瀏覽器，請定期匯出備份。</p></section>'''
 BOOT='''<script>
 document.querySelectorAll('[data-portable-subject]').forEach(button=>button.onclick=()=>{
  setTab('practice');$('subject').value=button.dataset.portableSubject;
