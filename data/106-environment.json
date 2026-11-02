@@ -1576,7 +1576,7 @@
     "allAward": false,
     "excludeFromAccuracy": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 106 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/106-environment/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -1587,7 +1587,7 @@
     "originalQuestionLabel": "106 年建築環境控制｜測驗第 30 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [
       {
         "src": "assets/native-environment/106-30.webp",
@@ -1599,7 +1599,29 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "壓縮機要吸蒸氣；液擊是異常，不是正常把液體壓成氣體。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "蒸氣壓縮循環的壓縮機通常吸入低壓蒸氣，而不是液態冷媒，所以 A 錯。冷凝器使高壓冷媒放熱凝結，膨脹閥近似等焓節流成低壓混合物，蒸發器再吸熱汽化。原圖狀態點須按實際標號讀取；若液體大量回到壓縮機可能造成液擊，並非正常壓縮流程。",
+    "optionExplanations": [
+      "A 把入口冷媒說成液態，是本題錯誤。",
+      "B 冷凝器高壓放熱凝結，符合基本循環。",
+      "C 節流後可形成低壓液氣混合。",
+      "D 蒸發器利用冷媒汽化吸熱。"
+    ],
+    "explanationSources": [
+      {
+        "title": "106年建築環境控制原題",
+        "url": "assets/106-environment/questions.pdf",
+        "page": 3,
+        "version": "民國106年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/106-environment/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "106-environment-31",

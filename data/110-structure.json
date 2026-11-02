@@ -956,7 +956,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 110 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/110-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -967,13 +967,35 @@
     "originalQuestionLabel": "110 年建築結構｜測驗第 22 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "位移有長度，應變是比例；MPa、με與cm別混成一類。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "應變ε＝長度變化ΔL／原長L，分子分母同單位相除後為無因次量，因此 C 把應變單位寫成cm是錯誤。cm是位移或長度單位。應力與彈性模數皆為力除面積，可用MPa；波松比又是兩個應變的比，也無因次。微應變με表示百萬分之一，並非新的長度單位。",
+    "optionExplanations": [
+      "A E＝應力／應變，可用MPa。",
+      "B 應力可用MPa＝N/mm²。",
+      "C 應變沒有cm單位，為答案。",
+      "D 波松比為應變比，無因次。"
+    ],
+    "explanationSources": [
+      {
+        "title": "110年建築結構原題",
+        "url": "assets/110-structure/questions.pdf",
+        "page": 5,
+        "version": "民國110年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/110-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "110-structure-23",

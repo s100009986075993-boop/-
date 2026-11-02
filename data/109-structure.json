@@ -134,7 +134,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -145,13 +145,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 3 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "連得更剛可多分擔力，也可能多承受差異變形的附加力。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "剛接構架連結內外系統會限制相對變形，因此差異沉陷或差異縮短反而可能產生附加內力，不能直接說採剛架就減少沉陷應力，所以選 D。施工習慣、工種整合與冗餘度是可討論的因素，但不代表任一系統必然優越；規劃仍須同時看側力傳遞、變形相容與施工階段。",
+    "optionExplanations": [
+      "A 施工與設計習慣可能影響採用方式。",
+      "B 額外剛接傳力路徑可增加冗餘。",
+      "C 工種整合可影響施工選擇。",
+      "D 剛接拘束不保證降低差異變形應力。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 2,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-04",
@@ -176,7 +198,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -187,13 +209,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 4 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "V/W先想地盤、週期與韌性，不用高低樓一句話判大小。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "基底剪力對重量之比V/W可視為設計地震力係數的概念，受地震危害、地盤、週期、韌性及用途等影響，故選 C。週期增加時反應譜並非全程上升，所以不能說高樓比值必較大；樓層地震力通常依質量、高度與模式分配，也不是一律矩形。具體係數須依適用規範計算。",
+    "optionExplanations": [
+      "A 各地地震危害與地盤不同。",
+      "B 高樓比值不保證較大。",
+      "C 列出多項主要影響因素，正確。",
+      "D 豎向分布並非一律矩形。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 2,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-05",
@@ -218,7 +262,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -229,13 +273,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 5 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "T看√(質量／勁度)：重變慢，硬變快。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "單自由度近似T＝2π√(m/k)：增加質量使週期變長，增加勁度使週期縮短，B把兩者都說成降低週期，故錯。隔震延長週期是否降低需求仍須對照反應譜與位移；震後週期增加也只是可能損傷的線索，還受溫度、非結構牆及量測條件影響，需結合調查而非只憑一次量測定案。",
+    "optionExplanations": [
+      "A 為題定同高度構架的一般經驗比較。",
+      "B 增重與加勁影響方向相反。",
+      "C 隔震可藉延長週期降低部分加速度需求，仍看譜。",
+      "D 顯著增長可作損傷警訊，需進一步核對。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 2,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-06",
@@ -260,7 +326,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -271,13 +337,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 6 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "名建築先看材料、肋與邊界，不能只憑輪廓認結構。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "路思義教堂的曲面形態與肋狀構造，在本題分類中較接近雙曲面薄殼加格子梁系統，選 C。辨識重點是曲面空間傳力及肋梁共同工作，不能只看外形像帳篷就當柔性膜。這是考題的系統概括，實際厚度、接合、邊界與受力分配仍需工程資料，不能用分類名稱代替分析。",
+    "optionExplanations": [
+      "A 不是圓頂殼加一般桁架的題定組合。",
+      "B 柔性薄膜與此混凝土曲面構造不同。",
+      "C 雙曲面薄殼與格子梁符合題定辨識。",
+      "D 圓筒殼及拋物線拱非本題答案。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 2,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-07",
@@ -476,7 +564,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -487,13 +575,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 11 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "比較基腳先問固定總力還是固定壓力，兩題不能混算。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "同一砂土地基、相同接觸壓力下，基腳變寬會影響更深更廣的土層，彈性沉陷概念常近似與qB/E相關，不能說面積越大瞬時沉陷必越小，因此 C 錯。若改成相同總荷重，壓力又會隨面積下降，屬另一比較。地層改良與埋深效果也受土質、地下水及破壞模式限制。",
+    "optionExplanations": [
+      "A 改良可針對液化、承載與變形等目的。",
+      "B 均質土的一般埋深比較有其適用條件。",
+      "C 相同單位壓力下不能用增面積保證減沉陷。",
+      "D 過大或差異沉陷可損傷裝修、設備與結構。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 3,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-12",
@@ -566,7 +676,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -577,13 +687,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 13 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "桁架純軸力有三前提：直桿、鉸接、節點載重。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "理想桁架假設直桿、端部鉸接且荷重作用節點，桿件成為二力構件，僅承軸向拉壓，所以選 A。真實偏心、桿間荷重與接點剛度可能產生次彎矩；靜不定桁架也可能因溫度或沉陷拘束產生附加內力。題目是理想模型辨識，不表示現場所有桁架桿件都絕無彎曲。",
+    "optionExplanations": [
+      "A 符合理想二力桿假設。",
+      "B 非理想桁架的基本簡化。",
+      "C 自由均勻溫變的靜定模型通常無附加內力。",
+      "D 靜不定拘束可能使沉陷產生內力。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 4,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-14",
@@ -752,7 +884,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -763,7 +895,7 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 17 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [
       {
         "src": "assets/native-structure/109-17.webp",
@@ -775,7 +907,29 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "週期比較先分質量比與勁度比，最後才開根號。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "柱側向勁度在相同邊界下與EI/h³成正比，柱高加倍使總勁度變成原來1/8；質量則為原來1/2。由T＝2π√(m/k)，週期比＝√[(1/2)/(1/8)]＝2，選 B。此處採剛梁集中質量模型，不另增加柱質量或改支承；不能只算變高的影響而漏掉質量減半。",
+    "optionExplanations": [
+      "A 1.414未同時正確考慮勁度與質量。",
+      "B √4＝2，正確。",
+      "C 2.828約為只改柱高、不改質量的結果。",
+      "D 4是根號內比值，還須開平方。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 5,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-18",
@@ -800,7 +954,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -811,13 +965,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 18 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "耐震梁希望鋼筋先有降伏警訊，不希望混凝土先突然壓碎。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "低於平衡鋼筋量時，拉筋較能先降伏，再發展較大變形，通常比壓區混凝土先壓碎的過量配筋更具延性，因此選 C。這不是鋼筋越少越好；仍須滿足最小配筋、強度與拉應變等要求。平衡狀態是混凝土達極限壓應變時拉筋恰達降伏，不代表最理想耐震配筋。",
+    "optionExplanations": [
+      "A 過量配筋可能由脆性壓碎控制。",
+      "B 平衡點不是提供最大延性的原則。",
+      "C 適當低於平衡量有利拉筋先降伏。",
+      "D 配筋量與破壞模式及延性直接相關。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 5,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-19",
@@ -890,7 +1066,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -901,13 +1077,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 20 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "柱韌性先看箍繫筋能不能圍得住、撐得住與錨得住。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "密集且正確錨定的箍筋與繫筋能圍束核心混凝土、支撐縱筋並改善剪力抵抗，較能提升柱的大變形能力，所以選 C。單純加主筋或提高其強度不保證延性增加；降低混凝土強度也不是可靠方法。實際需看軸力比、間距、彎鉤與接頭配置，不能只用鋼筋總重量衡量韌性。",
+    "optionExplanations": [
+      "A 主筋強度提高不自動改善圍束與延性。",
+      "B 主筋越多未必越有延性，亦可能擁擠。",
+      "C 合理箍繫筋可改善圍束與主筋穩定。",
+      "D 降低混凝土強度非題定改善原則。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 5,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-21",
@@ -932,7 +1130,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -943,13 +1141,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 21 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "局部看b/t，整體側扭看支撐；寬薄板更容易皺。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "鋼翼板局部挫屈與寬厚比b/t有關。減少厚度又加大寬度會提高寬厚比、增加板件細長程度，與防止局部挫屈的方向相反，故選 D。小梁作側向支撐還須有足夠連接強度與勁度，不是只增加支數就必然有效；整體側扭挫屈與局部板件挫屈也要分開。",
+    "optionExplanations": [
+      "A 小梁可提供側撐，但需有可靠連接與設計。",
+      "B 梁柱受力不同，寬厚比限制可能不同。",
+      "C 弱向構架可藉適當斜撐提高勁度。",
+      "D 翼板更寬更薄反而不利局部穩定。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 5,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-22",
@@ -1028,7 +1248,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-5.webp",
     "imageIsFullPage": true,
     "sourcePage": 5,
@@ -1039,13 +1259,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 23 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "耐震不只比強度，還看能否在不倒塌下承受反覆變形。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "鋼材與適當設計的鋼構件可在降伏後發展塑性變形並耗能，相較脆性磚構件通常更具延性，因此選 B。鋼材比重較高本身不是耐震優勢；結構阻尼與可建樓層數也不能作此題主要解釋。真實鋼構仍要防脆性接頭、挫屈與防火問題，不能只看材料名稱保證耐震。",
+    "optionExplanations": [
+      "A 比重大不等於地震需求較小。",
+      "B 韌性與塑性耗能為題定關鍵。",
+      "C 不可概括鋼構阻尼一定較高。",
+      "D 樓層限制不是此力學優勢的原因。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 5,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-24",
@@ -1118,7 +1360,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -1129,13 +1371,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 25 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先講清楚截面方向；軸壓橫截面正應力，不代表所有斜面都無剪力。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "理想同心軸壓作用於均質實心圓桿時，橫截面主要為均勻正應力N/A，不產生本題所問的橫截面剪應力，所以選 A。橫向載重造成剪力，扭矩也造成扭轉剪應力。若有偏心、端部局部作用或斜截面，應力描述會不同；題目不是說受軸力材料的任意方向截面都沒有剪應力。",
+    "optionExplanations": [
+      "A 同心軸壓的法向橫截面無題定剪應力。",
+      "B 垂直均布載重產生剪力。",
+      "C 垂直集中力亦產生剪力。",
+      "D 圓桿受扭會有扭轉剪應力。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 6,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-26",
@@ -1160,7 +1424,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -1171,7 +1435,7 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 26 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [
       {
         "src": "assets/native-structure/109-26.webp",
@@ -1183,7 +1447,29 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "從形心移到底邊，加Ad²；底邊矩形I是形心的四倍。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "矩形寬b高h，形心水平軸I＝bh³/12；底邊軸由平行軸定理J＝I＋bh(h/2)²＝bh³/3，所以J/I＝4，選 B。平移軸必須平行，距離為兩軸間距，不能誤把h整個代入。慣性矩變大是參考軸位置改變，並非材料或截面實際變多。",
+    "optionExplanations": [
+      "A 3不是完整平行軸比值。",
+      "B (1/3)/(1/12)＝4。",
+      "C 6不符矩形平行軸計算。",
+      "D 8亦非本題比值。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 6,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-27",
@@ -1272,7 +1558,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -1283,13 +1569,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 28 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "木材先辨沿紋、橫紋；均質與等向是不同問題。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "木材沿紋與橫紋的彈性、強度及乾縮行為差異明顯，工程上常以正交異向性描述，因此最不適合作等向性近似，選 C。鋼鋁與普通混凝土在常見宏觀簡化中可近似等向，但加工方向、裂縫與組成仍可能使實際性質不同。等向性問各方向性質，不是問材料是否均質或強度高低。",
+    "optionExplanations": [
+      "A 一般宏觀鋁材可採等向近似。",
+      "B 一般鋼材也常作等向分析。",
+      "C 木紋方向性顯著，最不適合。",
+      "D 未開裂普通混凝土常採等向近似，仍有侷限。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 6,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-29",
@@ -1314,7 +1622,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-6.webp",
     "imageIsFullPage": true,
     "sourcePage": 6,
@@ -1325,13 +1633,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 29 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "原題選A，但負波松比確實存在；先辨題目範圍與理論範圍。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "依本題一般常見正波松比工程材料的選項，採0＜ν＜0.5，選 A；不可把它當所有材料的數學範圍。穩定各向同性線彈性材料理論可有－1＜ν＜0.5，負波松比材料也存在，近不可壓縮時則接近0.5。題幹用橫縱應變絕對比值亦是簡化，標準帶符號定義為－橫向應變／縱向應變。",
+    "optionExplanations": [
+      "A 符合原題一般正波松比材料的預期答案。",
+      "B 上限1不符各向同性穩定彈性限制。",
+      "C 超過0.5不符此理論模型。",
+      "D 0.3不是所有工程材料的共同下限。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 6,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-30",
@@ -1674,7 +2004,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1685,13 +2015,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 37 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "BRB核心承軸力耗能，外套抑挫屈，別把兩者強度角色交換。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "BRB以核心鋼材承受主要軸力並降伏消能，外部圍束單元抑制核心受壓挫屈，因此軸向強度主要由核心材而非圍束材的降伏強度決定，選 C。拉壓遲滯可較穩定但未必完全相同；具體系統R值與試驗要求需查適用規範，不能只照歷年題數字就完成設計。",
+    "optionExplanations": [
+      "A 為歷年規範數值選項，現行設計須另核對。",
+      "B 抑制挫屈可改善拉壓反覆耗能，實際非完全對稱。",
+      "C 把核心材與外圍束材的任務混淆。",
+      "D 圍束可採填充型或全鋼等方式。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 8,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-38",
@@ -1716,7 +2068,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1727,13 +2079,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 38 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "不列入耐震設計，不代表實際不影響結構；拆牆也要評估。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "磚隔間即使在設計上稱非結構牆，仍可因實際勁度與強度參與抗側力，改變週期、偏心與軟層分布，所以 B 說沒有強度貢獻過度簡化，為答案。這不代表可將未設計磚牆當可靠耐震元件。重量、面外穩定與倒塌危害都須考量，新增或拆除仍應檢討對整體結構的影響。",
+    "optionExplanations": [
+      "A 重量增加可增加慣性力需求。",
+      "B 非結構名稱不等於物理上完全不受力。",
+      "C 薄磚牆面外穩定須注意。",
+      "D 倒塌可能傷及人員與避難路徑。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 8,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-39",
@@ -1758,7 +2132,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1769,13 +2143,35 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 39 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "梁開孔先看被切斷的傳力路徑，不是隨便加厚別處就補回。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "I形鋼梁腹板開口會中斷剪力傳遞並造成局部應力，單純加厚翼板不能全面補回腹板開孔的影響，故本題選 B。RC孔洞兩側箍筋、孔徑及避開梁端等也只是設計要點，並非照做即自動安全。須按開口位置、內力、補強與局部破壞模式計算，施工更不能任意切主筋或鑽孔。",
+    "optionExplanations": [
+      "A 適當箍筋補強可作方案，仍需計算與錨定。",
+      "B 只加厚翼板未直接解決腹板剪力路徑。",
+      "C 限制孔徑有助控制削弱，但不是唯一條件。",
+      "D 梁端高需求區通常需避免任意開孔。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 8,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "109-structure-40",
@@ -1800,7 +2196,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 109 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/109-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1811,12 +2207,34 @@
     "originalQuestionLabel": "109 年建築結構｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先滿足安全，再提高材料效率；安全與減碳都要有計算依據。",
+    "explanationBatch": "2026-11-02-10",
+    "solution": "在同樣已滿足安全與性能的前提下，無必要地提高安全係數並放大構件，通常增加材料用量與隱含碳，不能當減碳措施，選 C。合理系統、可持續材料與減少不必要裝修可降低資源需求，但仍需生命週期與來源評估；不能為減碳削弱必要安全，也不能只因木材或可回收就保證零碳。",
+    "optionExplanations": [
+      "A 可持續材料有減碳潛力，需查來源與生命週期。",
+      "B 簡潔合理傳力可提高材料效率。",
+      "C 不必要放大構件通常增加材料與碳排。",
+      "D 適度減裝修可降低材料與更新負擔。"
+    ],
+    "explanationSources": [
+      {
+        "title": "109年建築結構原題",
+        "url": "assets/109-structure/questions.pdf",
+        "page": 8,
+        "version": "民國109年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/109-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   }
 ]
