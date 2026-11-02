@@ -13,6 +13,8 @@ FIXES={
  '97-structure-30':{'question':'若有一支木梁受力分析得知其最大彎矩 Mmax＝4 t·m，而木結構材料之最大容許彎應力 σw＝75 t/m²，在設計木梁斷面時，選用梁寬為50 cm，試問梁之深度至少為何？','options':['50 cm','60 cm','70 cm','80 cm'],'diagrams':[]},
  '97-structure-38':{'question':'有一獨立方型基腳，如右圖所示，當其軸心承受軸向載重45 t，基腳自重12.5 t，而土壤之重為5 t，若基地容許地耐力 qa＝10 t/m²，則方型基腳之尺寸至少應為？','options':['1.5 m × 1.5 m','2.0 m × 2.0 m','2.5 m × 2.5 m','2.2 m × 2.2 m']},
 }
+COMBINATION_FIXES=json.loads((ROOT/'data/combination-transcription-fixes.json').read_text())
+FIXES.update({qid:{'question':fix['question']} for qid,fix in COMBINATION_FIXES.items()})
 curated=json.loads((ROOT/'data/curated-explanations.json').read_text());summary={}
 for slug,var in [('structure','officialBank'),('environment','environmentBank'),('law','lawBank'),('construction','constructionBank')]:
  combined=[]

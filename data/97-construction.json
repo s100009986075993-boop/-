@@ -1656,7 +1656,7 @@
     "year": 97,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "RC 平屋頂採用柏油油毛氈防水、泡沫混凝土隔熱時,由上而下排列構造層次,下列順序何者是正確?",
+    "question": "RC 平屋頂採用柏油油毛氈防水、泡沫混凝土隔熱時,由上而下排列構造層次,下列順序何者是正確?\n①高壓水泥磚\n②五皮柏油油毛氈\n③泡沫混凝土\n④結構混凝土",
     "options": [
       "①②③④",
       "①③②④",
@@ -1692,7 +1692,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "97-construction-40",
@@ -2645,7 +2646,7 @@
     "year": 97,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為產生白華或稱吐白現象的原因?",
+    "question": "下列何者為產生白華或稱吐白現象的原因?\n①建築材料含有硫酸鹽\n②風力\n③乾燥\n④潮濕",
     "options": [
       "①②",
       "①③",
@@ -2681,7 +2682,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "97-construction-63",

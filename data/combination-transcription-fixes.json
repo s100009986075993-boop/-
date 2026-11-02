@@ -1,0 +1,112 @@
+{
+  "97-structure-11": {
+    "question": "下列有關管式結構系統(Tube Structure System)之敘述,何者正確?\n①水平力由外周立面柱承受\n②水平力由內部梁柱承受\n③垂直力由外周立面柱承受\n④垂直力由內部梁柱承受",
+    "sourcePdf": "assets/97-structure/questions.pdf",
+    "sourcePage": 2
+  },
+  "97-structure-35": {
+    "question": "針對地震作用,下列何者屬於不良配置?\n①建築物平面配置屬口字型\n②建築物平面配置屬 L 字型\n③梁柱系統多處有短梁效應\n④梁柱系統屬強柱弱梁",
+    "sourcePdf": "assets/97-structure/questions.pdf",
+    "sourcePage": 4
+  },
+  "97-environment-31": {
+    "question": "有關設置雨水利用系統所需之相關設備,依順序排列,下列何者正確?\n①消毒裝置\n②集水裝置\n③貯留槽\n④處理後水槽\n⑤沉砂槽",
+    "sourcePdf": "assets/97-environment/questions.pdf",
+    "sourcePage": 4
+  },
+  "97-environment-39": {
+    "question": "一般污水設備系統所需之相關設備,依順序排列,下列何者正確?\n①沉澱槽\n②過濾槽\n③腐敗槽\n④ 氧化槽\n⑤消毒槽",
+    "sourcePdf": "assets/97-environment/questions.pdf",
+    "sourcePage": 4
+  },
+  "98-environment-22": {
+    "question": "有關光源之演色性指數(Ra),由大至小依序為何?\n①高壓鈉燈\n②鹵素燈\n③螢光燈",
+    "sourcePdf": "assets/98-environment/questions.pdf",
+    "sourcePage": 3
+  },
+  "98-law-06": {
+    "question": "建築物在 5 層以上之樓層供下列何種建築使用時須設置屋頂避難平臺?\n①集會表演\n②運輸場所\n③娛樂場所\n④商場百貨\n⑤餐飲場所",
+    "sourcePdf": "assets/98-law/questions.pdf",
+    "sourcePage": 1
+  },
+  "98-law-28": {
+    "question": "下列何者不包含於建築物室內裝修管理辦法第 3 條所稱之室內裝修?\n①固著於建築構造體之天花板\n②高度低於1.2 公尺固定於地板之隔屏\n③窗簾、壁布、壁紙之裝設與黏貼\n④兼做櫥櫃使用之隔屏之裝修施工\n⑤分間牆之變更",
+    "sourcePdf": "assets/98-law/questions.pdf",
+    "sourcePage": 3
+  },
+  "99-law-28": {
+    "question": "有關法人或團體必須依政府採購法辦理採購的規定,下列何者正確?\n①受機關補助\n②補助金額在公告金額以上\n③採購項目的執行限於國土範圍內\n④補助金額占採購金額半數以上",
+    "sourcePdf": "assets/99-law/questions.pdf",
+    "sourcePage": 3
+  },
+  "99-law-31": {
+    "question": "一般集合住宅建築物內,那些區位須施以防火區劃?\n①安全梯之樓梯間\n②昇降機間\n③機械設備間\n④垂直貫穿樓板之管道間",
+    "sourcePdf": "assets/99-law/questions.pdf",
+    "sourcePage": 4
+  },
+  "99-law-38": {
+    "question": "私人或團體經當地直轄市、縣(市)(局)政府核准後,得舉辦新市區之建設事業。有關申請計畫書件的內容,下列何者正確?\n①公共設施計畫\n②財務計畫\n③土地面積及權利證明文件\n④主要計畫及其圖說\n⑤工程進度及竣工期限",
+    "sourcePdf": "assets/99-law/questions.pdf",
+    "sourcePage": 5
+  },
+  "99-law-49": {
+    "question": "依建築法第 8 條之定義,下列何者為建築物之主要構造?\n①基礎\n②樓地板\n③外牆\n④樑柱\n⑤承重牆\n⑥屋頂\n⑦屋架\n⑧帷幕牆",
+    "sourcePdf": "assets/99-law/questions.pdf",
+    "sourcePage": 6
+  },
+  "99-law-56": {
+    "question": "公共設施用地之項目、位置與面積,應依下列何種因素決定?\n①人口\n②氣候\n③土地使用\n④交通",
+    "sourcePdf": "assets/99-law/questions.pdf",
+    "sourcePage": 6
+  },
+  "99-law-57": {
+    "question": "下列那些空間是建築技術規則所定義的居室?\n①門廳\n②餐廳\n③臥室\n④廚房\n⑤廁所\n⑥走廊\n⑦店鋪",
+    "sourcePdf": "assets/99-law/questions.pdf",
+    "sourcePage": 6
+  },
+  "99-law-61": {
+    "question": "面積合計未超過法規規定基地容積之百分之十五,下列何種空間可不計入樓地板面積?\n①機電設備空間\n②安全梯梯間\n③緊急昇降機機道\n④管理委員會使用空間\n⑤直通樓梯間\n⑥特別安全梯排煙室\n⑦緊急昇降機間梯廳",
+    "sourcePdf": "assets/99-law/questions.pdf",
+    "sourcePage": 7
+  },
+  "97-construction-39": {
+    "question": "RC 平屋頂採用柏油油毛氈防水、泡沫混凝土隔熱時,由上而下排列構造層次,下列順序何者是正確?\n①高壓水泥磚\n②五皮柏油油毛氈\n③泡沫混凝土\n④結構混凝土",
+    "sourcePdf": "assets/97-construction/questions.pdf",
+    "sourcePage": 4
+  },
+  "97-construction-62": {
+    "question": "下列何者為產生白華或稱吐白現象的原因?\n①建築材料含有硫酸鹽\n②風力\n③乾燥\n④潮濕",
+    "sourcePdf": "assets/97-construction/questions.pdf",
+    "sourcePage": 6
+  },
+  "98-construction-06": {
+    "question": "下列何種材料不易因受到光化學作用而老劣化?\n①陶瓷材料\n②高分子材料\n③磚石材料\n④非鐵金屬材料",
+    "sourcePdf": "assets/98-construction/questions.pdf",
+    "sourcePage": 1
+  },
+  "98-construction-20": {
+    "question": "下列何者為建築物設置伸縮縫之條件?\n①新舊建築物之交接面\n②土壤差異導致沉陷量不同時\n③建築物太高時\n④建築物太長時",
+    "sourcePdf": "assets/98-construction/questions.pdf",
+    "sourcePage": 2
+  },
+  "98-construction-39": {
+    "question": "一般屋頂工程組構依性能之順序為何?\n①反射層\n②防風層\n③防水層\n④隔熱層\n⑤儲熱層",
+    "sourcePdf": "assets/98-construction/questions.pdf",
+    "sourcePage": 5
+  },
+  "98-construction-41": {
+    "question": "下列何者為地下室逆打工法之正確施工順序?\n①抽水及挖土\n②基樁及逆打鋼支柱插放\n③梁版及逆打柱頭工程\n④二次牆柱及無收縮水泥砂漿灌注工程",
+    "sourcePdf": "assets/98-construction/questions.pdf",
+    "sourcePage": 5
+  },
+  "98-construction-53": {
+    "question": "下列何者為反循環基樁之正確施工順序?\n①假設工程、放樣、樁心確認\n②安裝套管、鑽掘機安裝、 注入穩定液\n③吊放鋼筋籠、安裝特密管、沉泥處理、混凝土澆置\n④鑽掘、深度完成、超音波檢測",
+    "sourcePdf": "assets/98-construction/questions.pdf",
+    "sourcePage": 6
+  },
+  "98-construction-61": {
+    "question": "下列何者屬止水擋土壁工法?\n①立柱橫向版樁工法\n②鋼版樁工法\n③柱列壁工法\n④連續壁工法",
+    "sourcePdf": "assets/98-construction/questions.pdf",
+    "sourcePage": 7
+  }
+}

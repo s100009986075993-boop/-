@@ -92,7 +92,8 @@ def convert(slug,var):
     if not text:options[i]=text or '圖示 '+chr(65+i);diagram=True
    if not stem:stem=q['originalQuestionLabel']+'（請參閱題目附圖）';issues.append('題幹需對照附圖')
    if any(re.search(r'[\ue000-\uf8ff\ufffd]',s) for s in [stem,*options]):issues.append('公式或特殊字元需對照附圖');diagram=True
-   if '?' in stem:stem=stem[:stem.rfind('?')+1]
+   # Statements defining numbered combinations may follow the question mark.
+   # Keep the full stem region; its lower boundary already excludes options.
    if diagram or raster:
     graphic=all(len(re.findall(r'[0-9]+',text))>=4 and len(re.findall(r'[\u3400-\u9fff]',text))<3 for text in options) or len(set(options))==1
     if graphic:options=['圖示 '+chr(65+i) for i in range(4)]

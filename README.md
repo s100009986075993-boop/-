@@ -8,9 +8,15 @@
 
 更新文字題庫：先執行所需的原始匯入，再執行 `python3 scripts/native_questions.py` 及 `python3 scripts/enrich_native_questions.py`。後者保存有原卷依據的人工轉錄修正與 `data/curated-explanations.json` 詳解；不可只跑舊匯入而發布佔位題。新詳解需核對答案、公式與適用法規，維護 draft/reviewed/pending 狀態。之後執行 `npm test`、瀏覽器回歸、推送main並執行 `python3 scripts/publish_pages.py`。
 
+組合題轉錄修正：已從原始 PDF 補回 22 題在問號後遺漏的①②③④等分項敘述，作答後各選項可展開對應的原題內容；此對照不代表已完成觀念詳解。修正清單及來源頁碼見 `data/combination-transcription-fixes.json`，由 `scripts/enrich_native_questions.py` 套用。組合題仍選擇一個 A～D 選項，官方答案及更正規則不變。
+
 下列較早的資料匯入紀錄保留供維護參考，功能狀態以本段為準。
 
 建築師國考練習網站第一版。原生 HTML/CSS/JavaScript，無第三方套件。
+
+## 結構分流練習
+
+選擇「建築結構」後，可分開練「系統與觀念」或「力學與計算」，再以主題篩選。第一批依題幹初分109題系統觀念、22題力學，其餘589題另列待分類；分類尚未經專家覆核，不能視為完整章節分析。分類資料獨立存於 `data/structure-topics.js`，不修改原始給分資料。系統觀念題選好後需按「確認答案」才提交，附主題讀題提示；提示不代替逐項詳解，原有草稿與待補充標示保留。
 
 ## 啟動與驗證
 

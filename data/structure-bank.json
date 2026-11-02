@@ -476,7 +476,7 @@
     "year": 97,
     "subject": "建築結構",
     "chapter": "結構系統",
-    "question": "下列有關管式結構系統(Tube Structure System)之敘述,何者正確?",
+    "question": "下列有關管式結構系統(Tube Structure System)之敘述,何者正確?\n①水平力由外周立面柱承受\n②水平力由內部梁柱承受\n③垂直力由外周立面柱承受\n④垂直力由內部梁柱承受",
     "options": [
       "①③",
       "①④",
@@ -503,7 +503,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "97-structure-12",
@@ -1501,7 +1502,7 @@
     "year": 97,
     "subject": "建築結構",
     "chapter": "結構動力與耐震",
-    "question": "針對地震作用,下列何者屬於不良配置?",
+    "question": "針對地震作用,下列何者屬於不良配置?\n①建築物平面配置屬口字型\n②建築物平面配置屬 L 字型\n③梁柱系統多處有短梁效應\n④梁柱系統屬強柱弱梁",
     "options": [
       "①③",
       "①④",
@@ -1528,7 +1529,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "97-structure-36",
