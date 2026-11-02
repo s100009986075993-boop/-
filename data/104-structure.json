@@ -70,7 +70,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -81,13 +81,35 @@
     "originalQuestionLabel": "104 年建築結構｜測驗第 2 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "共振先比週期，樓層數只作粗估線索。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "共振風險需比較地盤輸入的顯著週期與建物主要週期。依本題一般樓房概略估計，10層樓較可能接近1.1秒，所以選 B。樓層數只是初步辨識，實際週期還受高度、系統、材料、非結構牆及有效勁度影響；不能將所有10層樓都定為1.1秒，也不能只用層數代替動力分析。",
+    "optionExplanations": [
+      "A 5層的典型週期通常較短，非題定最接近。",
+      "B 約10層為本題粗估最接近者。",
+      "C 30層典型週期通常較長。",
+      "D 50層更不宜按本題一般模型當成1.1秒。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築結構原題",
+        "url": "assets/104-structure/questions.pdf",
+        "page": 2,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-structure-03",
@@ -420,7 +442,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -431,13 +453,35 @@
     "originalQuestionLabel": "104 年建築結構｜測驗第 9 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "摺板看板、梁及共同傳力，不把柔索機制直接搬來。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "題定摺板承載概念可拆成板作用、縱向梁作用及各折面共同形成的桁架式傳力。纜吊作用是柔性受拉索系統的典型機制，非此題摺板三重承載之一，因此選 A。這是教材簡化的分解方法，實際板折線、邊界及端隔板仍需整體分析，不能把三種作用當成三個互不相干的構件。",
+    "optionExplanations": [
+      "A 纜吊不屬題定摺板的這組機制。",
+      "B 桁架式共同作用為題定分類之一。",
+      "C 橫向板作用需考慮。",
+      "D 縱向梁作用也在題定分類內。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築結構原題",
+        "url": "assets/104-structure/questions.pdf",
+        "page": 3,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-structure-10",
@@ -552,7 +596,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -563,13 +607,35 @@
     "originalQuestionLabel": "104 年建築結構｜測驗第 12 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "降伏不等於斷裂；先分降伏、硬化、極限及破裂。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "一般延性鋼材在降伏附近，應力增加不大卻能出現較大應變，題目所描述臨界值為降伏強度，所以選 B。之後可能有應變硬化、極限及頸縮破裂等階段，不能把首次明顯塑性伸長直接等同斷裂。不同鋼材不一定有相同清楚降伏平台，仍需按材料定義辨識。",
+    "optionExplanations": [
+      "A 零強度不是題定塑性開始指標。",
+      "B 降伏強度對應明顯塑性變形的開始。",
+      "C 極限強度是後續最大名義應力概念。",
+      "D 破裂是另一階段，不是剛開始大塑性伸長。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築結構原題",
+        "url": "assets/104-structure/questions.pdf",
+        "page": 3,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-structure-13",
@@ -690,7 +756,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -701,13 +767,35 @@
     "originalQuestionLabel": "104 年建築結構｜測驗第 15 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "鋼材E/G約2.6，來自2(1＋ν)，不是材料強度比例。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "各向同性線彈性材料E＝2G(1＋ν)。一般鋼材波松比約0.3，故E/G約2×1.3＝2.6，選 B。這是同一材料的彈性常數關係，不是把抗壓強度或降伏強度拿來相比；若材料非各向同性，不能不加條件套此公式。比值為無因次，E與G須用相同單位。",
+    "optionExplanations": [
+      "A 1.3漏掉係數2。",
+      "B 2.6符合ν約0.3。",
+      "C 3.9不符題定一般鋼材近似。",
+      "D 5.2多乘一倍。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築結構原題",
+        "url": "assets/104-structure/questions.pdf",
+        "page": 3,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-structure-16",
@@ -828,7 +916,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -839,13 +927,35 @@
     "originalQuestionLabel": "104 年建築結構｜測驗第 18 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "懸臂端點力：跨度倍增，理想撓度八倍。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "懸臂梁自由端點力造成的端撓度δ＝PL³/(3EI)。題目P、E、I固定，長度由3m成6m，故撓度比＝(6/3)³＝8，選 D。不要只把跨度加倍當撓度加倍，也不要把同一梁的轉角、彎矩與撓度用相同次方放大。這是線彈性小變形、相同邊界的比較。",
+    "optionExplanations": [
+      "A 2倍只是長度比。",
+      "B 4倍不符合L³。",
+      "C 6倍沒有公式依據。",
+      "D 8倍為2³，正確。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築結構原題",
+        "url": "assets/104-structure/questions.pdf",
+        "page": 4,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-structure-19",
@@ -918,7 +1028,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-structure/page-4.webp",
     "imageIsFullPage": true,
     "sourcePage": 4,
@@ -929,13 +1039,35 @@
     "originalQuestionLabel": "104 年建築結構｜測驗第 20 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "柱要找弱軸，不是挑慣性矩最大的方向當答案。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "Euler挫屈由較弱方向控制。正方形b×b的I為b⁴/12；改成2b×b後，弱軸I＝2b×b³/12＝2I原，強軸則增8倍。在其他條件相同且兩向均可挫屈時，較小的弱軸值控制，因此載重為2P，選 B。若有特定方向支撐，須另查有效長度，不能永遠只看截面名稱。",
+    "optionExplanations": [
+      "A 弱軸I已增加，不是仍P。",
+      "B 較弱方向I增2倍，為答案。",
+      "C 不是減半。",
+      "D 4倍不是此弱軸比例。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築結構原題",
+        "url": "assets/104-structure/questions.pdf",
+        "page": 4,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-structure-21",
@@ -1470,7 +1602,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1481,13 +1613,35 @@
     "originalQuestionLabel": "104 年建築結構｜測驗第 32 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "找最大彎矩先找剪力零點，再核對邊界與荷載。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "簡支全跨均布載重時，兩端反力相等，剪力由左到右線性下降並在跨中為零。由dM/dx＝V，彎矩在此達極值；兩端彎矩為零，跨中最大，因此選 B。這個位置依賴支承、載重範圍與對稱性，不能把所有簡支梁不論載重都說成跨中彎矩最大。",
+    "optionExplanations": [
+      "A 理想簡支端彎矩為零。",
+      "B 跨中剪力零、彎矩最大，正確。",
+      "C L/4非此對稱荷載極值點。",
+      "D 彎矩是二次分布，並不均勻。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築結構原題",
+        "url": "assets/104-structure/questions.pdf",
+        "page": 7,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-structure-33",
@@ -1638,7 +1792,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的答案表；觀念解析尚待核對。",
-    "regulation": "民國 104 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/104-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1649,13 +1803,35 @@
     "originalQuestionLabel": "104 年建築結構｜測驗第 36 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "強柱弱梁比的是適當抗彎容量，不是外觀誰比較粗。",
+    "explanationBatch": "2026-11-02-07",
+    "solution": "強柱弱梁指節點附近柱與梁的適當抗彎強度比較，希望避免柱先形成不利樓層機制，因此本題選 C。不是單看柱面積較大或柱比較長就能保證，還須考量軸力、配筋、材料及接頭等。實際規範通常有強度和與係數要求，不能把題目概念式直接取代完整節點容量檢核。",
+    "optionExplanations": [
+      "A 面積大不直接等同抗彎強度符合。",
+      "B 長度不是這個強度原則。",
+      "C 柱抗彎較梁強為題定方向。",
+      "D 強梁弱柱與所要原則相反。"
+    ],
+    "explanationSources": [
+      {
+        "title": "104年建築結構原題",
+        "url": "assets/104-structure/questions.pdf",
+        "page": 8,
+        "version": "民國104年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/104-structure/answers-upload.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "104-structure-37",
