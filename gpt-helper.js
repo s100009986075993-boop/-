@@ -5,16 +5,17 @@ function gptSourceURL(path,page){
  try{const url=new URL(path,GPT_SOURCE_BASE);if(!['http:','https:'].includes(url.protocol))return '';if(page&&!url.hash)url.hash='page='+page;return url.href;}catch{return '';}
 }
 function buildGptPrompt(q,selected){
+ const original=q.source==='original';
  const selection=Array.isArray(selected)?selected:[selected];
  const picked=selection.filter(i=>Number.isInteger(i)&&q.options[i]!==undefined).map(i=>String.fromCharCode(65+i)).join('、')||'未作答';
  const rules=q.allAward?'官方更正：本題一律給分，不代表每個選項的觀念皆正確。':gptSelectionSets(q).map(set=>set.map(i=>String.fromCharCode(65+i)).join('＋')).join(' 或 ');
  const lines=[
   '請用繁體中文，協助我理解建築師考試題目。',
-  `${q.year?`民國${q.year}年`:'示範題'}｜${q.subject}｜${q.id}${q.chapter?'｜'+q.chapter:''}`,
+  `${original?'AI 原創模擬題（非官方試題，待覆核）':q.year?`民國${q.year}年`:'示範題'}｜${q.subject}｜${q.id}${q.chapter?'｜'+q.chapter:''}`,
   '【題幹】',q.question,'【選項】',...q.options.map((text,i)=>`${String.fromCharCode(65+i)}. ${text}`),
-  `【官方答案／給分組合】${rules}`,`【我的選擇】${picked}`,
+  `【${original?'草稿參考答案（非官方）':'官方答案／給分組合'}】${rules}`,`【我的選擇】${picked}`,
   '請依序說明：①考點與核心觀念；②解題步驟（計算題列公式、單位及適用條件）；③逐一比較各選項，指出我的可能誤解；④一句記憶提示，並出一題相似小測驗，答案放最後。',
-  '①②③④若是原題分項編號，請保留其定義與組合，不要誤當可任意複選。官方給分不等於觀念一定正確；若發現矛盾，請明列疑點，不要為配合答案倒推理由。',
+  original?'本題為 AI 原創練習草稿，答案與解釋仍可能有誤，請獨立計算及檢查假設，不要把草稿當成官方答案。':'①②③④若是原題分項編號，請保留其定義與組合，不要誤當可任意複選。官方給分不等於觀念一定正確；若發現矛盾，請明列疑點，不要為配合答案倒推理由。',
   '法規與規範請區分考試當年與現行版本，引用可核實來源及適用日期；無法核實就標示待查，不要編造條號。'
  ];
  if(q.textStatus==='needs-review')lines.push('本題文字／公式已標記待核對，請先核對原卷，不要猜補缺字。');
