@@ -2,19 +2,16 @@
   const panel = $("rooms"),
     root = $("room-content"),
     notice = $("room-notice");
-  const configured = window.ARCHITECT_ROOMS?.apiBase;
-  let base = null;
-  try {
-    if (typeof configured === "string") {
-      const url = new URL(configured || location.origin);
-      if (
-        url.protocol === "https:" ||
-        (["localhost", "127.0.0.1"].includes(url.hostname) &&
-          url.protocol === "http:")
-      )
-        base = url.href.replace(/\/$/, "");
-    }
-  } catch {}
+  const settings = window.ARCHITECT_ROOMS;
+  const base = resolveRoomApi(
+    settings,
+    document.querySelector('meta[name="rooms-api-base"]')?.content,
+    location.origin,
+  );
+  const disabled = settings?.enabled === false;
+  const release =
+    document.querySelector('meta[name="app-version"]')?.content ||
+    "roomsfix-20261103-8";
   const drafts = new Map();
   let session = null,
     state = null,
@@ -53,6 +50,11 @@
     if (session?.token) headers.Authorization = "Bearer " + session.token;
     if (body !== undefined) headers["Content-Type"] = "application/json";
     let response;
+    const controller = new AbortController();
+    const timeout = setTimeout(
+      () => controller.abort(),
+      session ? 10000 : 60000,
+    );
     if (!session && body !== undefined)
       status("正在連線，首次啟動服務可能需要約一分鐘，請稍候。");
     try {
@@ -60,7 +62,7 @@
         method: body === undefined ? "GET" : "POST",
         headers,
         body: body === undefined ? undefined : JSON.stringify(body),
-        signal: AbortSignal.timeout(session ? 10000 : 60000),
+        signal: controller.signal,
         cache: "no-store",
       });
     } catch {
@@ -69,6 +71,8 @@
           ? "暫時連不上房間服務，請檢查網路；會自動嘗試重新連線。"
           : "暫時連不上房間服務，首次啟動可能較久，請稍後再試。",
       );
+    } finally {
+      clearTimeout(timeout);
     }
     let data;
     try {
@@ -132,12 +136,27 @@
     if (base === null) {
       const box = element("div", "", "room-unavailable");
       box.append(
-        element("h3", "多人房間尚未開放"),
+        element("h3", disabled ? "多人房間尚未開放" : "房間連線設定未載入"),
         element(
           "p",
-          "連線服務啟用後，就能建立房間、分享邀請，一起打怪。單人冒險與一般練習仍可使用。",
+          disabled
+            ? "連線服務啟用後，就能建立房間、分享邀請，一起打怪。單人冒險與一般練習仍可使用。"
+            : "這個頁面的連線設定未完整載入，請按下方按鈕載入新版後再加入。",
         ),
       );
+      if (!disabled)
+        box.append(
+          button(
+            "重新載入房間設定",
+            async () => {
+              const url = new URL(location.href);
+              url.searchParams.set("v", release);
+              url.searchParams.set("refresh", Date.now().toString(36));
+              location.replace(url.href);
+            },
+            "primary",
+          ),
+        );
       root.append(box);
       return;
     }
@@ -315,6 +334,23 @@
   function render(s) {
     root.replaceChildren();
     const header = element("div", "", "room-heading");
+    const invitation = buildRoomInvite(
+      base,
+      s.code,
+      release,
+      Date.now().toString(36) + "-" + Math.random().toString(36).slice(2),
+    );
+    const shareDetails = element("details", "", "room-share");
+    const shareInput = document.createElement("input");
+    shareInput.type = "text";
+    shareInput.value = invitation;
+    shareInput.readOnly = true;
+    shareInput.setAttribute("aria-label", "房間邀請網址");
+    shareDetails.append(
+      element("summary", "房間邀請網址（可長按複製）"),
+      shareInput,
+    );
+
     header.append(
       element("h3", `房號 ${s.code}`),
       element(
@@ -325,13 +361,14 @@
     );
     header.append(
       button("複製邀請", async () => {
-        const url = new URL(location.href);
-        url.hash = "room=" + s.code;
         try {
-          await navigator.clipboard.writeText(url.href);
+          await navigator.clipboard.writeText(invitation);
           status("邀請連結已複製，傳給朋友即可加入。");
         } catch {
-          status("無法複製，請分享此房號：" + s.code, true);
+          shareDetails.open = true;
+          shareInput.focus();
+          shareInput.select();
+          status("無法自動複製，請長按下方邀請網址複製；房號：" + s.code, true);
         }
       }),
     );
@@ -344,7 +381,7 @@
         status("已離開房間。");
       }),
     );
-    root.append(header);
+    root.append(header, shareDetails);
     const list = element("ul", "", "room-roster");
     list.id = "room-roster";
     list.setAttribute("aria-label", "房間玩家與分數");
@@ -531,9 +568,15 @@
     panel.scrollIntoView({ behavior: "smooth", block: "start" });
   };
   showForm();
-  if (base === null) status("多人房間服務尚未啟用。");
+  if (base === null)
+    status(
+      disabled
+        ? "多人房間服務尚未啟用。"
+        : "連線設定未載入，請重新載入新版頁面。",
+      !disabled,
+    );
   else if (session) {
     sync().then(schedule);
   } else status("準備出發：輸入暱稱，建立或加入房間。");
-  if (invite || session) setTab("rooms");
+  if (invite || session || location.hash === "#rooms") setTab("rooms");
 })();
