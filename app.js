@@ -109,7 +109,7 @@ function show(){
  });
  shell.append(options);const confidenceBox=element('fieldset','','confidence-choice');confidenceBox.append(element('legend','把握程度（可先選；未選按不確定記錄）'));for(const [value,label] of [['sure','有把握'],['guess','猜的'],['unsure','不會／不確定']]){const button=element('button',label);button.type='button';button.dataset.confidence=value;button.setAttribute('aria-pressed',String(value===confidence));button.classList.toggle('selected',value===confidence);button.onclick=()=>{if(options.dataset.answered)return;confidence=value;confidenceBox.querySelectorAll('button').forEach(b=>{const active=b===button;b.classList.toggle('selected',active);b.setAttribute('aria-pressed',String(active));});submit.disabled=!selected.size;};confidenceBox.append(button);}shell.insertBefore(confidenceBox,options);if(confirmChoice){submit.onclick=()=>record(multi?[...selected].sort():[...selected][0]);shell.append(submit);}addProvenance(shell,q);root.append(shell);const leave=element('button','結束這回 · 返回選題','lobby-button');leave.onclick=endPractice;root.append(leave);
 }
-$('start').onclick=()=>{
+function startPractice({confirmed=false}={}){
  const subject=$('subject').value,year=$('year').value;
  if(subject==='建築計畫與設計'){setTab('design');if(designPapers.some(p=>String(p.year)===year)){$('designyear').value=year;designOpen();}return;}
  if(subject==='敷地計畫與都市設計'){setTab('site');if(sitePapers.some(p=>String(p.year)===year)){$('siteyear').value=year;siteOpen();}return;}
@@ -121,7 +121,7 @@ $('start').onclick=()=>{
   $('practice-error').textContent='做完整考卷，請先選擇一個選擇題科目與正式年度。';$('practice-error').hidden=false;
   (!subject?$('subject'):$('year')).focus();return;
  }
- if(timer&&!confirm('要結束目前的模擬練習並重新開始嗎？'))return;
+ if(timer&&!confirmed&&!confirm('要結束目前的模擬練習並重新開始嗎？'))return;
  clearInterval(timer);timer=null;
  const last=new Map(history.map(a=>[a.id,a])),reviews=reviewState(history),now=Date.now();
  let candidates=fullPaper?allOfficialBank.filter(q=>q.subject===subject&&String(q.year)===year):activePracticeBank().filter(q=>($('subject').value!=='建築結構'||matchesStructure(q,structureTopics,$('structurelane').value,$('structuretopic').value))&&($('contentfilter').value!=='detailed'||!!q.solution)&&($('contentfilter').value!=='recent'||(!!q.solution&&!!latestExplanationBatch&&q.explanationBatch===latestExplanationBatch))&&($('contentfilter').value!=='pending'||(q.year>0&&!q.solution))&&($('contentfilter').value!=='diagram'||!!q.diagrams?.length)&&(!$('subject').value||q.subject===$('subject').value)&&(!$('year').value||String(q.year)===$('year').value)&&(!$('chapter').value||q.chapter===$('chapter').value)&&($('mode').value!=='wrong'||last.get(q.id)?.correct===false)&&(!['learning','due'].includes($('mode').value)||reviewMatch(reviews.get(q.id),$('mode').value,now)));
@@ -141,7 +141,8 @@ $('start').onclick=()=>{
  if(exam){deadline=Date.now()+20*60*1000;runPracticeClock();}
  window.savePracticeSession?.();
 
-};
+}
+$('start').onclick=()=>startPractice();
 $('bankfile').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>5*1024*1024)throw new Error('請使用小於 5 MB 的 JSON 檔案');const incoming=validateBank(JSON.parse(await file.text()));if(incoming.some(q=>builtInIds.has(q.id)))throw new Error('內建題庫請透過版本更新，避免覆蓋更正答案');if(incoming.some(q=>q.id.startsWith('demo-')||q.id.startsWith('original-')))throw new Error('demo- 與 original- 為內建題庫保留的 ID');if(!confirm(`將匯入 ${incoming.length} 題。同 ID 題目將更新並清除該題舊作答紀錄，是否繼續？`))return;window.clearPracticeSession?.();clearInterval(timer);timer=null;$('quiz').replaceChildren();document.body.classList.remove('quiz-mode');const ids=new Set(incoming.map(q=>q.id));bank=[...bank.filter(q=>!ids.has(q.id)),...incoming];history=history.filter(a=>!ids.has(a.id));for(const id of ids)delete questionNotes[id];try{localStorage.setItem('architect-question-notes',JSON.stringify(questionNotes));}catch{}persist();filters();renderStats();$('importstatus').textContent=`已匯入 ${incoming.length} 題；目前共有 ${bank.length} 題（含示範題）。`;}catch(err){$('importstatus').textContent='匯入失敗：'+err.message;}finally{e.target.value='';}};
 $('export').onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify({exportedAt:new Date().toISOString(),history,questionNotes,adventureRounds},null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='architect-progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
 for(const subject of subjects){const subset=allOfficialBank.filter(q=>q.subject===subject);if(!subset.length)continue;for(const year of [...new Set(subset.map(q=>q.year))].sort((a,b)=>b-a)){const questions=subset.filter(q=>q.year===year),card=element('article','','source-card');card.append(element('strong',`${subject} · ${year} 年 · ${questions.length} 題`));const slug=questions[0].id.split('-').slice(0,2).join('-');for(const [text,url]of [['試題原卷',questions[0].sourcePdf],['答案來源',questions[0].answerSource],['題庫 JSON',`data/${slug}.json`]])card.append(element('br',''),safeLink(text,url));const corrected=questions.filter(q=>q.allAward||q.acceptedAnswers?.length>1||q.originalAnswer&&q.originalAnswer!==String.fromCharCode(65+q.answer));if(corrected.length)card.append(element('p','更正題號：'+corrected.map(q=>questionNumber(q)).join('、')));$('sourcecatalog').append(card);}}
@@ -225,6 +226,11 @@ function renderReviewDesk(){
  const learning=current.filter(state=>reviewMatch(state,'learning')).length;
  $('review-summary').textContent=`${$('question-source').value==='original'?'原創題':'考古／自訂題'} · 到期複習 ${due} 題 · 錯題或不確定 ${learning} 題。答錯或不確定隔 1 天再練；有把握答對依連續表現間隔 1、3、7、14 天。`;
  $('review-due').disabled=!due;$('review-learning').disabled=!learning;
+ $('quick-study-source').textContent=$('question-source').value==='original'?'原創草稿 · 結構＋環控，不套用下方篩選':'考古／自訂題 · 跨科、跨年度，不套用下方篩選';
+ $('quick-due-count').textContent=`${due} 題到期 · 每回最多 10 題`;
+ $('quick-learning-count').textContent=`${learning} 題待加強 · 每回最多 10 題`;
+ $('quick-due').disabled=!due;$('quick-learning').disabled=!learning;
+ $('quick-study-hint').textContent=due?'先複習到期題，再練新題，較容易看出記住了多少。':learning?'目前沒有到期題；可以先重練錯題與猜對題。':'還沒有待複習題目，先練 5 題暖身吧。';
 }
 function startReviewMode(mode){
  setTab('practice');$('subject').value='';$('year').value='';$('chapter').value='';$('contentfilter').value='all';$('structurelane').value='all';$('structuretopic').value='';$('mode').value=mode;syncSubjectShortcuts();$('start').click();
