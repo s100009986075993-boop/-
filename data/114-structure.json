@@ -22,7 +22,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -33,13 +33,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 1 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "E是材料應力單位，EA/L才是整根桿的軸向勁度。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "彈性模數E＝正應力／正應變，應變為無因次，因此E的單位與應力相同，為力除面積，可用MPa，選 D。1MPa＝1N/mm²。不要與構件軸向勁度EA/L的力／長度混淆；材料E相同的兩根桿，仍可因面積及長度不同而有不同勁度。",
+    "optionExplanations": [
+      "A N只有力的量綱。",
+      "B kgf/cm是力／長度，非E。",
+      "C kgf/cm³不是應力量綱。",
+      "D MPa為力／面積，正確。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 1,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-02",
@@ -64,7 +86,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-1.webp",
     "imageIsFullPage": true,
     "sourcePage": 1,
@@ -77,7 +99,7 @@
     "extractionIssues": [
       "數學排版需對照附圖"
     ],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [
       {
         "src": "assets/native-structure/114-02.webp",
@@ -89,7 +111,29 @@
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "水化熱、抗壓強度與E是不同性質；模型近似別當所有材料常數。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "同水泥種類與其他條件近似下，單位體積水泥量減少通常降低總水化熱，D說水泥少卻水化熱多，不符一般比較。熱量仍受水泥成分、摻料、溫度與水化程度影響，不能只按水泥重量精確預測峰溫。抗拉一成與極限壓應變都是題定近似或設計模型，不是每種混凝土的固定實測值。",
+    "optionExplanations": [
+      "A 為普通混凝土抗拉的量級近似。",
+      "B 為題定斷面強度分析假設。",
+      "C 常重混凝土E常以強度平方根估算。",
+      "D 水泥用量與總水化熱趨勢說反。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 1,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-03",
@@ -114,7 +158,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -125,7 +169,7 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 3 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [
       {
         "src": "assets/native-structure/114-03.webp",
@@ -137,7 +181,29 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "不降伏也可能疲勞；反覆載重需查應力範圍與細節。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "應力反覆作用，即使低於單次降伏強度，也可能經許多循環累積損傷而斷裂，圖示應力與循環次數關係為疲勞，選 A。疲勞不只看次數，也受應力範圍、平均應力、細節與缺口影響。不能以靜力未降伏就認為反覆受載永遠安全，焊接或應力集中處尤其需注意。",
+    "optionExplanations": [
+      "A S–N關係描述疲勞。",
+      "B E看彈性應力應變斜率。",
+      "C 彈塑性不直接等同循環壽命圖。",
+      "D 韌性亦非此圖直接描述量。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 2,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-04",
@@ -162,7 +228,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -173,13 +239,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 4 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先算軸應變，再用ν轉橫向，直徑與長度用各自原尺寸。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "A＝π30²/4約706.9mm²，應力100000/A約141.5MPa，軸應變約141.5/70000＝0.002021。橫向應變為－0.3倍，直徑減量約0.3×0.002021×30＝0.0182mm，選 D。伸長約4.04mm，EA/L約24.74kN/mm；先將2m換2000mm與GPa換MPa，避免單位差千倍。",
+    "optionExplanations": [
+      "A 應力約141.5，非120MPa。",
+      "B 伸長約4.04，非2mm。",
+      "C 軸向勁度約24.74，非20kN/mm。",
+      "D 縮徑約0.018mm。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 2,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-05",
@@ -212,7 +300,7 @@
     ],
     "allAward": false,
     "explanation": "第5題答A或C或AC者均給分。答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -223,13 +311,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 5 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "球殼底部往外推，環梁像箍帶拉住；子午與環向別混。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "球殼下部在典型自重膜力下有向外張開的作用，箍住底部的環梁需承受拉力，而非選項所稱壓力環，所以 A錯。子午與環向受力不同；約52°的環力轉號屬特定完整球殼自重模型，開口、邊界與其他載重可改變，不能將這個角度當所有圓頂通用常數。",
+    "optionExplanations": [
+      "A 底部箍帶主要是拉力環。",
+      "B 題定對稱自重下子午方向受壓。",
+      "C 為題定球殼模型的環向力趨勢。",
+      "D 球面為不可展曲面。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 2,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-06",
@@ -254,7 +364,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -265,13 +375,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 6 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "膜靠張力與邊界成形，不靠壓力與梁式彎曲。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "柔性薄膜主要以面內張力承載，常配合拉索、邊界及預張力維持形狀，因此選 C。受壓會皺褶，理想模型不靠顯著抗彎剛度；錨點、開孔或接縫仍可能集中應力。真實塗層織物還有材料方向與接合問題，不能只因膜很薄就當成應力處處均勻。",
+    "optionExplanations": [
+      "A 受壓通常皺褶，非主要承壓。",
+      "B 理想薄膜主要不靠彎曲承載。",
+      "C 索與邊界協助維持膜張力。",
+      "D 角隅接點仍有集中應力。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 2,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-07",
@@ -296,7 +428,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-2.webp",
     "imageIsFullPage": true,
     "sourcePage": 2,
@@ -307,13 +439,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 7 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "高樓主系統要沿高度送重力與側力，跨屋頂的拱不是同一任務。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "拱主要適合跨越空間並將荷重送到拱腳，在四選項中較不適合作一般50m以上多層高樓的主要整體系統，因此選 B。框架斜撐、筒狀與巨型框架可依高樓抗側力需求設計。不是高樓任何位置都不能出現拱，而是比較整體主系統的適用性，局部造型與主傳力不可混用。",
+    "optionExplanations": [
+      "A 框架配斜撐可提供抗側力。",
+      "B 拱非此高樓主系統的通常選擇。",
+      "C 筒狀系統可用於高樓。",
+      "D 巨型框架可整合整體力流。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 2,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-08",
@@ -428,7 +582,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -439,13 +593,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 10 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "共振先比週期，樓層數只是線索，不是檢測報告。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "依一般樓房週期與樓層的粗估，10層左右較可能接近1秒，因此選 B。共振是輸入主要頻率與結構模態接近，並非所有10層都恰好1秒；材料、牆量、樓高、有效勁度與地盤均有影響。只能把此作初步辨識，不可用層數取代動力分析或直接判建物安全。",
+    "optionExplanations": [
+      "A 5層典型週期較短。",
+      "B 本題一般粗估最接近。",
+      "C 30層典型週期通常較長。",
+      "D 50層不屬此粗估範圍。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 3,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-11",
@@ -470,7 +646,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -481,13 +657,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 11 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "水箱消振需要水能按設計晃動；滿箱死重不等於調諧液體阻尼器。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "以水晃動作消振時，需要自由水面、適當液深與調諧，密閉水箱完全裝滿水並不利於此晃動機制，所以 D錯。鋼球也須適當懸吊、阻尼與調諧，而不是完全無阻力任意晃。此類裝置可降低目標模態反應，效果受頻率、振幅與設計限制，不是加重頂樓就自動抗風。",
+    "optionExplanations": [
+      "A 無外部主動供能控制可屬被動。",
+      "B 適當調諧可減少反應。",
+      "C 需允許設計範圍內相對擺動並配阻尼。",
+      "D 裝滿水失去題定自由液面晃動條件。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 3,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-12",
@@ -560,7 +758,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-3.webp",
     "imageIsFullPage": true,
     "sourcePage": 3,
@@ -571,13 +769,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 13 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "先穩定再數未知；外反力數量不是靜定性的唯一判準。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "平面結構反力未知數超過3，仍可能因內鉸分成多個可平衡部分而是靜定，或因幾何配置而不穩定，因此不能只數反力便斷定靜不定，選 C。須同查支承方向、內部連接及獨立平衡條件。外反力作用線共點或全平行可能無法抵抗某些運動，也不代表反力多就穩。",
+    "optionExplanations": [
+      "A 依慣常分類，靜定需先可穩定求解。",
+      "B 支承幾何不當可形成外部機構。",
+      "C 忽略內鉸與幾何條件。",
+      "D 足夠延性與冗餘可支持內力重分配。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 3,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-14",
@@ -1332,7 +1552,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1343,13 +1563,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 29 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "0.003是斷面設計模型值，不是每個實物同時壓碎的物理定律。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "依本題混凝土斷面強度分析模型，最外受壓纖維的極限壓應變採0.003，所以選 B。這是設計理想化，並非所有混凝土、圍束狀態與試驗實測都在0.003瞬間粉碎。需與應變相容、材料應力假設及鋼筋降伏一起分析，現行規範及特殊材料則另核對適用條件。",
+    "optionExplanations": [
+      "A 0.004非本題假設。",
+      "B 0.003符合題定模型。",
+      "C 0.002可能混到峰值附近材料應變概念。",
+      "D 0.001非極限模型值。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 7,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-30",
@@ -1374,7 +1616,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1385,13 +1627,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 30 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "強柱弱梁比容量，不比尺寸；1.2倍仍需連同規範檢核條件閱讀。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "強柱弱梁以接頭相關柱彎矩強度總和對梁強度總和作檢核，題定至少1.2倍，選 B。比的是強度而非柱寬、鋼筋數或彎矩需求；詳細軸力與方向條件須依規範。柱P–M容量不會隨軸力全程增大，箍筋最大間距與二階效應也要看構件細長及耐震要求，不可用單一數值概括。",
+    "optionExplanations": [
+      "A P–M互制不是全程遞增。",
+      "B 符合題定強度比原則與數值。",
+      "C 不能用25cm概括所有柱。",
+      "D 二階效應通常更關注細長性，非只因短柱。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 7,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-31",
@@ -1416,7 +1680,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1427,13 +1691,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 31 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "一般耐震框架保柱與接頭，讓預定部位先延性變形。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "一般抗彎耐震框架希望梁先形成可控制塑鉸，避免整層柱先失去側向穩定，所以強梁弱柱較不適當，選 A。強剪弱彎與強接頭弱桿件的精神是避免脆性模式，並非把梁做得越弱越好；仍須滿足重力、服務及各項設計需求，特殊轉換區也可能有不同保護對象。",
+    "optionExplanations": [
+      "A 一般框架不希望弱柱機制。",
+      "B 抗剪需保護可發展彎曲延性。",
+      "C 受壓脆性與受拉延性的控制需配合設計。",
+      "D 接頭需可靠傳力而非先脆斷。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 7,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-32",
@@ -1458,7 +1744,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-7.webp",
     "imageIsFullPage": true,
     "sourcePage": 7,
@@ -1469,13 +1755,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 32 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "能變形還要變在對的位置，整層柱鉸集中不是一般目標。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "不應以刻意使同層柱上下端都成塑鉸作一般耐震目標，否則可能形成層機構並集中變形，所以選 B。柱局部可有塑性需求，但須由整體機制與細部控制。接頭圍束、先彎後剪與強柱弱梁都在避免突然失效；不能只看能變形就忽略變形集中後的倒塌風險。",
+    "optionExplanations": [
+      "A 接頭箍筋可提供必要圍束。",
+      "B 雙端柱鉸集中可能導致層機構。",
+      "C 希望延性彎曲先於脆性剪切。",
+      "D 為題定強柱弱梁檢核。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 7,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-33",
@@ -1590,7 +1898,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1601,13 +1909,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 35 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "焊接查雨、風、溫度與程序；焊道名稱不等於品質已驗證。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "戶外焊接也受風、溫度與濕氣影響，風可破壞保護氣體、低溫可能需預熱，B說與風速氣溫無關是錯誤。實際需按焊接程序、材料與環境採遮風、乾燥及預熱等措施。全滲透也不自動等於無缺陷或高耐震，仍需合格程序、施工與檢驗。",
+    "optionExplanations": [
+      "A 預熱需依材料、厚度及規定條件。",
+      "B 風與溫度都可能影響品質。",
+      "C 開槽利於適當熔透與焊接品質。",
+      "D 題定全強度等需求可採適當全滲透接合，仍須檢核。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 8,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-36",
@@ -1632,7 +1962,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1643,13 +1973,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 36 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "規範韌性排序有細部前提，不是系統名字帶來免費性能。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "依本題規範分類的韌性容量比較，特殊抗彎框架高於偏心斜撐，再高於一般同心斜撐，選 A。這是特定系統與細部符合要求時的設計參數排序，不代表任一實物鋼框架都比所有斜撐安全。BRB等其他系統也不能混入同一名稱；實際設計應核對現行版本與完整限制。",
+    "optionExplanations": [
+      "A 符合題定SMRF＞EBF＞CBF。",
+      "B 將SMRF放最低不符本題。",
+      "C 同心斜撐並非此比較最高。",
+      "D EBF與CBF順序顛倒。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 8,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-37",
@@ -1674,7 +2026,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1685,13 +2037,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 37 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "搖晃感與安全不同；材料比較須帶上系統、阻尼與使用感受。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "同類高樓一般比較中，鋼構較輕柔，振動與搖晃感可能較明顯，因此原題選 C。這不是所有SS必然比所有RC或SRC晃，仍取決週期、阻尼、加速度、風震與控制系統。韌性、造價及柱尺寸亦需看完整設計，不能把材料類別直接當結構安全或舒適的排名。",
+    "optionExplanations": [
+      "A SRC不保證一律韌性最佳。",
+      "B 施工複雜度依工法、節點與現場而變。",
+      "C 為題定一般趨勢，並非普遍定律。",
+      "D 柱大小不是只按材料名稱決定。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 8,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-38",
@@ -1716,7 +2090,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1727,13 +2101,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 38 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "地盤液化與上部隔震是不同問題，對策要對準土壤機制。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "隔震器主要調整上部結構水平動力反應，不直接密實土壤或提供穿越液化層的承載路徑，因此非題定液化基礎加固方法，選 D。托底、微型樁與礫石樁仍須經地盤調查設計，並非都適合每基地。液化、承載與上部耐震要分層處理，不能加了隔震就省略土壤問題。",
+    "optionExplanations": [
+      "A 托底可研究改善基礎傳力。",
+      "B 微型樁可依設計提供深部承載路徑。",
+      "C 礫石樁可作合適土層改良方案。",
+      "D 隔震不直接解決液化土體承載。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 8,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-39",
@@ -1758,7 +2154,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1769,13 +2165,35 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 39 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "通風、結構安全與碳排要各自算，不能一項優點代替全部。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "底層挑高挑空可能改善通風，但也可能增加結構材料或造成配置不規則，不能直接列為題定CO₂減量有效策略，所以選 A。輕量化、耐久保護與適當再生材料則有減碳潛力，仍須生命週期與性能驗證。不是挑空永遠不好，而是通風好與結構碳減量不是同一判準。",
+    "optionExplanations": [
+      "A 空間通風優點不等同材料碳減量。",
+      "B 適當木構與輕量化可有減碳潛力。",
+      "C 耐久可減少早期修繕替換。",
+      "D 合格再生骨材可降低部分原生資源需求。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 8,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   },
   {
     "id": "114-structure-40",
@@ -1800,7 +2218,7 @@
     ],
     "allAward": false,
     "explanation": "答案依上傳的更正答案表；觀念解析尚待核對。",
-    "regulation": "民國 114 年歷屆試題；當年適用規範與現行法規尚未核對。",
+    "regulation": "本解析為基本觀念或理想力學模型之整理，非官方解答；未引用特定法規條號，工程設計仍須依適用規範核對。",
     "image": "assets/114-structure/page-8.webp",
     "imageIsFullPage": true,
     "sourcePage": 8,
@@ -1811,12 +2229,34 @@
     "originalQuestionLabel": "114 年建築結構｜測驗第 40 題",
     "textStatus": "native",
     "extractionIssues": [],
-    "explanationStatus": "pending",
+    "explanationStatus": "draft",
     "diagrams": [],
     "nativeProvenance": {
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "memoryTip": "低碳查來源與生命週期；輕、低導熱、乾式施工各是不同優點。",
+    "explanationBatch": "2026-11-03-14",
+    "solution": "一般材料生產比較中，不能說鋼製作碳排必低於木材，原題選 A。實際差異依回收鋼比例、能源、森林來源、加工及生命週期邊界而變，木構也非零碳。木材較輕與較低導熱有應用潛力，但承載、耐久、防火與施工規劃仍須兼顧，不應只憑材料標籤定結論。",
+    "optionExplanations": [
+      "A 題定比較不支持鋼生產碳排較低的概括。",
+      "B 輕量可降低部分地基需求。",
+      "C 木材較低導熱有助熱橋控制，蓄熱仍不同。",
+      "D 合理預製乾式施工可縮短現場工期。"
+    ],
+    "explanationSources": [
+      {
+        "title": "114年建築結構原題",
+        "url": "assets/114-structure/questions.pdf",
+        "page": 8,
+        "version": "民國114年試卷"
+      },
+      {
+        "title": "官方標準答案／更正表",
+        "url": "assets/114-structure/corrected-answers.pdf",
+        "version": "使用者上傳答案表"
+      }
+    ]
   }
 ]
