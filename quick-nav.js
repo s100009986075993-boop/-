@@ -8,6 +8,7 @@
     site: "敷地練習",
     design: "設計練習",
     progress: "弱點分析",
+    knowledge: "觀念卡／整理資料",
     references: "參考資料",
     import: "管理題庫",
   };
