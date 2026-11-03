@@ -33,7 +33,7 @@ function show(){
  if(q.textStatus==='needs-review')shell.append(element('p','本題文字或公式尚待核對。請展開「核對原題」確認後作答；不確定的內容未以猜測補齊。','notice review-notice'));
  if(q.subject==='營建法規與實務'&&q.year>0)shell.append(element('p',`歷年法規題 · 依民國 ${q.year} 年答案表；現行條文與修法差異待核對。`,'historical-note'));
  addDiagrams(shell,q);
- const multi=selectionSets(q).some(set=>set.length>1),concept=structureCategory(q,structureTopics)?.lane==='systems',confirmChoice=true,selected=new Set();let confidence='';
+ const multi=selectionSets(q).some(set=>set.length>1),concept=structureCategory(q,structureTopics)?.lane==='systems',confirmChoice=true,selected=new Set(),eliminated=new Set();let confidence='';
  if(concept){const category=structureCategory(q,structureTopics);const guide=element('details','','concept-guide');guide.append(element('summary','觀念讀題提示 · '+category.topic));const list=element('ul');for(const text of structureGuides[category.topic]||[])list.append(element('li',text));guide.append(list,element('p','這是學習提示，逐項詳解是否已完成請看作答後標示。','muted'));shell.append(guide);shell.append(element('p','觀念練習：先選一個選項，再按「確認答案」，不用急著點選。','selection-hint'));}
  if(q.options.some(option=>combinationStatements(q,option).length)&&!multi)shell.append(element('p','①②③④為原題敘述編號；請選擇一個符合的 A～D 組合。','selection-hint'));
  if(multi)shell.append(element('p','依本題更正規則，可選一個或多個選項後提交。','selection-hint'));
@@ -41,16 +41,52 @@ function show(){
  if(q.allAward)shell.append(element('p','官方更正：本題一律給分，不列入學習正確率。給分不代表各選項觀念皆正確。','notice'));
  const options=element('div','','question-options');options.setAttribute('aria-label','作答選項');
  const submit=element('button',multi?'提交答案':'確認答案','primary submit-answer');submit.disabled=confirmChoice;
+ const eliminationTools=element('div','','elimination-tools');
+ eliminationTools.append(element('p','先選答案，或按右側「排除」劃掉不考慮的選項；可隨時恢復。','muted'));
+ const eliminationStatus=element('span','','elimination-status');eliminationStatus.setAttribute('role','status');
+ const clearEliminations=element('button','清除排除','clear-eliminations');clearEliminations.type='button';clearEliminations.hidden=true;
+ eliminationTools.append(eliminationStatus,clearEliminations);shell.append(eliminationTools);
+ function refreshOptions(){
+  const answered=!!options.dataset.answered;
+  options.querySelectorAll('.option').forEach((button,i)=>{
+   const excluded=eliminated.has(i);button.disabled=answered||excluded;button.classList.toggle('eliminated',excluded);
+   button.classList.toggle('selected',selected.has(i));button.setAttribute('aria-pressed',String(selected.has(i)));
+   const toggle=options.querySelectorAll('.exclude-option')[i];toggle.disabled=answered;toggle.textContent=excluded?'恢復':'排除';
+   toggle.setAttribute('aria-pressed',String(excluded));toggle.setAttribute('aria-label',`${excluded?'恢復':'排除'}選項 ${String.fromCharCode(65+i)}`);
+   button.parentElement.classList.toggle('has-elimination',excluded);
+  });
+  eliminationStatus.textContent=eliminated.size?`已排除 ${eliminated.size} 個選項`:'';
+  clearEliminations.hidden=!eliminated.size;eliminationTools.hidden=answered;
+  submit.disabled=answered||!selected.size||!confidence;
+ }
+ clearEliminations.onclick=()=>{if(options.dataset.answered)return;eliminated.clear();refreshOptions();};
  function record(choice){
   if(exam&&Date.now()>=deadline){finish();return;}
-  if(options.dataset.answered)return;options.dataset.answered='true';options.querySelectorAll('.option').forEach(x=>x.disabled=true);confidenceBox.querySelectorAll('button').forEach(x=>x.disabled=true);submit.disabled=true;
+  if(options.dataset.answered||!selected.size||!confidence)return;options.dataset.answered='true';eliminated.clear();refreshOptions();confidenceBox.querySelectorAll('button').forEach(x=>x.disabled=true);submit.disabled=true;
   const a={id:q.id,subject:q.subject,chapter:q.chapter,selected:choice,correct:isCorrect(q,choice),allAward:!!q.allAward,excludeFromAccuracy:!!q.excludeFromAccuracy,confidence,at:new Date().toISOString()};
   answers.push(a);history.push(a);persist();renderStats();
   const picked=Array.isArray(choice)?choice:[choice];for(const i of picked){const button=options.querySelectorAll('.option')[i];button.classList.add('selected');button.querySelector('.option-indicator').textContent='你的選擇';}
   if(!exam){if(!q.allAward&&!q.excludeFromAccuracy){acceptedAnswers(q).forEach(i=>{const b=options.querySelectorAll('.option')[i];b.classList.add('correct');b.querySelector('.option-indicator').textContent=picked.includes(i)?'你的選擇 · 給分':'給分選項';});if(!a.correct)picked.forEach(i=>options.querySelectorAll('.option')[i].classList.add('incorrect'));}feedback(shell,q,a);}
   const next=element('button',index===queue.length-1?'完成這回練習':'下一題 →','primary next-question');next.onclick=()=>{index++;show();$('quiz').scrollIntoView({behavior:'smooth',block:'start'});};shell.append(next);
  }
- q.options.forEach((opt,i)=>{const button=element('button','','option');button.setAttribute('aria-label',`${String.fromCharCode(65+i)}. ${opt}`);button.append(element('span',String.fromCharCode(65+i),'option-letter'),element('span',opt,'option-text'),element('span','','option-indicator'));if(confirmChoice)button.setAttribute('aria-pressed','false');button.onclick=()=>{if(!confirmChoice){record(i);return;}if(!multi){selected.clear();options.querySelectorAll('.option').forEach(b=>{b.classList.remove('selected');b.setAttribute('aria-pressed','false');});}if(selected.has(i))selected.delete(i);else selected.add(i);button.setAttribute('aria-pressed',String(selected.has(i)));button.classList.toggle('selected',selected.has(i));submit.disabled=!selected.size||!confidence;};options.append(button);});
+ q.options.forEach((opt,i)=>{
+  const row=element('div','','option-row'),button=element('button','','option');button.type='button';
+  button.setAttribute('aria-label',`${String.fromCharCode(65+i)}. ${opt}`);
+  button.append(element('span',String.fromCharCode(65+i),'option-letter'),element('span',opt,'option-text'),element('span','','option-indicator'));
+  button.setAttribute('aria-pressed','false');
+  button.onclick=()=>{
+   if(options.dataset.answered||eliminated.has(i))return;
+   if(!multi){selected.clear();selected.add(i);}else if(selected.has(i))selected.delete(i);else selected.add(i);
+   refreshOptions();
+  };
+  const exclude=element('button','排除','exclude-option');exclude.type='button';exclude.setAttribute('aria-pressed','false');exclude.setAttribute('aria-label',`排除選項 ${String.fromCharCode(65+i)}`);
+  exclude.onclick=()=>{
+   if(options.dataset.answered)return;
+   if(eliminated.has(i))eliminated.delete(i);else{eliminated.add(i);selected.delete(i);}
+   refreshOptions();
+  };
+  row.append(button,exclude);options.append(row);
+ });
  shell.append(options);const confidenceBox=element('fieldset','','confidence-choice');confidenceBox.append(element('legend','這題有多大把握？選好再確認答案'));for(const [value,label] of [['sure','有把握'],['guess','猜的'],['unsure','不會／不確定']]){const button=element('button',label);button.type='button';button.dataset.confidence=value;button.setAttribute('aria-pressed','false');button.onclick=()=>{if(options.dataset.answered)return;confidence=value;confidenceBox.querySelectorAll('button').forEach(b=>{const active=b===button;b.classList.toggle('selected',active);b.setAttribute('aria-pressed',String(active));});submit.disabled=!selected.size;};confidenceBox.append(button);}shell.append(confidenceBox);if(confirmChoice){submit.onclick=()=>record(multi?[...selected].sort():[...selected][0]);shell.append(submit);}addProvenance(shell,q);root.append(shell);const leave=element('button','結束這回 · 返回選題','lobby-button');leave.onclick=endPractice;root.append(leave);
 }
 $('start').onclick=()=>{
