@@ -36,14 +36,16 @@ const assert = require("node:assert/strict");
     await a.locator(".room-option").first().waitFor();
     await b.locator(".room-option").first().waitFor();
     const answer = async (p) => {
-      const qid = await p.evaluate(
-        () =>
-          document.querySelector("#room-content .question-stem")?.textContent,
-      );
-      const selected = await p.evaluate((text) => {
-        const q = bank.find((q) => q.question === text);
-        return selectionSets(q)[0];
-      }, qid);
+      const selected = await p.evaluate(async () => {
+        const session = JSON.parse(
+          sessionStorage.getItem("architect-room-session"),
+        );
+        const response = await fetch("/api/rooms/" + session.code, {
+          headers: { Authorization: "Bearer " + session.token },
+        });
+        const state = await response.json();
+        return selectionSets(bank.find((q) => q.id === state.question.id))[0];
+      });
       for (const i of selected) await p.locator(".room-option").nth(i).click();
     };
     const submit = async (p) => {
@@ -139,12 +141,29 @@ const assert = require("node:assert/strict");
     assert.ok((await a.locator(".room-mode-tag").innerText()).includes("競賽"));
     console.log("PASS competition lobby");
     const staticPage = await browser.newPage();
+    await staticPage.route("**/rooms-config.js?*", (route) =>
+      route.fulfill({
+        contentType: "text/javascript",
+        body: "window.ARCHITECT_ROOMS = {apiBase: null};",
+      }),
+    );
     await staticPage.goto("http://127.0.0.1:3000");
     await staticPage.locator("#rooms-start").click();
     assert.equal(await staticPage.locator(".room-unavailable").count(), 1);
     assert.equal(await staticPage.locator("#room-name").count(), 0);
     console.log(
-      "PASS unconfigured static site clearly reports room service unavailable",
+      "PASS explicitly disabled configuration reports service unavailable",
+    );
+    const configuredPage = await browser.newPage();
+    await configuredPage.goto("http://127.0.0.1:3000");
+    await configuredPage.locator("#rooms-start").click();
+    assert.equal(await configuredPage.locator("#room-name").count(), 1);
+    assert.equal(
+      await configuredPage.evaluate(() => window.ARCHITECT_ROOMS.apiBase),
+      "https://architect-study-rooms.onrender.com",
+    );
+    console.log(
+      "PASS published configuration targets owner-provided Render URL (no remote health claim)",
     );
   } finally {
     await browser.close();

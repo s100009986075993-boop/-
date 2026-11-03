@@ -53,22 +53,28 @@
     if (session?.token) headers.Authorization = "Bearer " + session.token;
     if (body !== undefined) headers["Content-Type"] = "application/json";
     let response;
+    if (!session && body !== undefined)
+      status("正在連線，首次啟動服務可能需要約一分鐘，請稍候。");
     try {
       response = await fetch(base + path, {
         method: body === undefined ? "GET" : "POST",
         headers,
         body: body === undefined ? undefined : JSON.stringify(body),
-        signal: AbortSignal.timeout(10000),
+        signal: AbortSignal.timeout(session ? 10000 : 60000),
         cache: "no-store",
       });
     } catch {
-      throw Error("暫時連不上房間服務，請檢查網路；會自動嘗試重新連線。");
+      throw Error(
+        session
+          ? "暫時連不上房間服務，請檢查網路；會自動嘗試重新連線。"
+          : "暫時連不上房間服務，首次啟動可能較久，請稍後再試。",
+      );
     }
     let data;
     try {
       data = await response.json();
     } catch {
-      throw Error("連線服務設定不正確，請稍後再試。");
+      throw Error("房間服務暫時沒有回應，可能仍在啟動，請稍後再試。");
     }
     if (!response.ok) {
       const e = Error(data.error || "操作失敗，請重試");

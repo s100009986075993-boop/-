@@ -39,6 +39,16 @@ test("HTTP 房間服務可用，保護來源、令牌、靜態路徑與 JSON 輸
     response.headers.get("Access-Control-Allow-Origin"),
     "http://127.0.0.1:3000",
   );
+  const publicResponse = await call(
+    "/api/rooms",
+    { name: "公開來源", count: 5 },
+    { Origin: "https://s100009986075993-boop.github.io" },
+  );
+  assert.equal(publicResponse.status, 201);
+  assert.equal(
+    publicResponse.headers.get("Access-Control-Allow-Origin"),
+    "https://s100009986075993-boop.github.io",
+  );
   const a = await response.json();
   assert.equal((await call("/api/rooms/" + a.code)).status, 401);
   const b = await (
