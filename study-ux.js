@@ -161,6 +161,8 @@
       )
     )
       return null;
+    const attemptKey=a=>JSON.stringify([a.id,a.at??null,Array.isArray(a.selected)?[...a.selected].sort((a,b)=>a-b):[a.selected],a.correct]);
+    const recorded=new Set(history.map(attemptKey));if(s.answers.some(a=>!recorded.has(attemptKey(a))))return null;
     return s;
   }
   function renderResume() {
@@ -341,6 +343,7 @@
         "site",
         "design",
         "progress",
+        "knowledge",
         "references",
         "import",
       ].find((key) => !$(key).hidden) || "practice";
