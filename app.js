@@ -17,7 +17,8 @@ function element(tag,text,className){const el=document.createElement(tag);el.tex
 function safeLink(text,href,className){const a=element('a',text,className);try{const url=new URL(href,location.href);if(['http:','https:','file:'].includes(url.protocol))a.href=url.href;}catch{}a.target='_blank';a.rel='noopener';return a;}
 function setTab(id){document.body.classList.toggle('room-mode',id==='rooms');document.querySelectorAll('[data-tab]').forEach(x=>{const active=x.dataset.tab===id;x.classList.toggle('active',active);x.setAttribute('aria-current',active?'page':'false');});for(const tab of ['practice','rooms','site','design','progress','knowledge','references','import'])$(tab).hidden=tab!==id;document.body.classList.toggle('quiz-mode',id==='practice'&&!!$('quiz').children.length);renderStats();document.dispatchEvent(new CustomEvent('workspace-change',{detail:{id}}));}
 function renderStats(){renderAdventure();const baseHistory=history.filter(a=>!isOriginalAttempt(a));const originalStats=stats(history.filter(isOriginalAttempt));$('original-progress-summary').textContent=originalStats.total?`已答 ${originalStats.total} 次 · ${originalStats.accuracy}% 正確（草稿答案判定）`:'尚無原創題作答。';const s=stats(baseHistory);$('total').textContent=s.total;$('accuracy').textContent=s.accuracy+'%';const last=new Map(baseHistory.map(a=>[a.id,a]));$('wrong').textContent=[...last.values()].filter(a=>!a.correct).length;$('breakdown').replaceChildren();for(const subject of subjects){const s=stats(baseHistory.filter(a=>a.subject===subject));const row=element('div','','subject-row');row.append(element('span',subject),element('span',s.total?`${s.total} 次作答 · ${s.accuracy}% 正確`:'尚無作答'));$('breakdown').append(row);}renderReviewDesk();renderNoteList();}
-function filters(){for(const [id,key]of [['year','year'],['chapter','chapter']]){const value=$(id).value;$(id).replaceChildren(new Option(id==='year'?'全部年度':'全部章節',''));for(const item of [...new Set(activePracticeBank().map(q=>q[key]))].sort((a,b)=>typeof a==='number'?a-b:String(a).localeCompare(String(b),'zh-Hant')))$(id).add(new Option(item===0?'示範題':String(item),String(item)));$(id).value=value;}}
+function filters(){for(const [id,key]of [['year','year'],['chapter','chapter']]){const value=$(id).value;const source=activePracticeBank().filter(q=>!$('subject').value||q.subject===$('subject').value);$(id).replaceChildren(new Option(id==='year'?'全部年度':'全部章節',''));for(const item of [...new Set(source.map(q=>q[key]))].sort((a,b)=>typeof a==='number'?a-b:String(a).localeCompare(String(b),'zh-Hant'))){const count=source.filter(q=>q[key]===item).length;$(id).add(new Option((item===0?($('question-source').value==='original'?'原創題':'示範題'):String(item))+(id==='chapter'?'（'+count+' 題）':''),String(item)));}$(id).value=[...$(id).options].some(o=>o.value===value)?value:'';}}
+
 subjects.forEach(s=>$('subject').add(new Option(s,s)));filters();renderStats();
 document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
 function endPractice(){window.clearPracticeSession?.();playMode='random';roundNotice='';clearInterval(timer);timer=null;queue=[];answers=[];index=0;$('quiz').replaceChildren();document.body.classList.remove('quiz-mode');$('practice').scrollIntoView({behavior:'smooth',block:'start'});}
@@ -163,6 +164,7 @@ const shortcutMeta={
  '建築計畫與設計':['06','18 份原卷 · 計時與筆記']
 };
 function syncSubjectShortcuts(){
+ filters();
  syncStructureStudy();updatePracticeCountControls();
  document.querySelectorAll('[data-subject]').forEach(button=>{
   const original=$('question-source').value==='original';
@@ -226,7 +228,7 @@ function renderReviewDesk(){
  const learning=current.filter(state=>reviewMatch(state,'learning')).length;
  $('review-summary').textContent=`${$('question-source').value==='original'?'原創題':'考古／自訂題'} · 到期複習 ${due} 題 · 錯題或不確定 ${learning} 題。答錯或不確定隔 1 天再練；有把握答對依連續表現間隔 1、3、7、14 天。`;
  $('review-due').disabled=!due;$('review-learning').disabled=!learning;
- $('quick-study-source').textContent=$('question-source').value==='original'?'原創草稿 · 結構＋環控，不套用下方篩選':'考古／自訂題 · 跨科、跨年度，不套用下方篩選';
+ $('quick-study-source').textContent=$('question-source').value==='original'?'原創草稿 · 結構＋環控＋法規，不套用下方篩選':'考古／自訂題 · 跨科、跨年度，不套用下方篩選';
  $('quick-due-count').textContent=`${due} 題到期 · 每回最多 10 題`;
  $('quick-learning-count').textContent=`${learning} 題待加強 · 每回最多 10 題`;
  $('quick-due').disabled=!due;$('quick-learning').disabled=!learning;
@@ -300,12 +302,12 @@ function runPracticeClock(){
 function activePracticeBank(){return bank.filter(q=>($('question-source').value==='original')===isOriginalQuestion(q));}
 function applyPracticeSource(){
  const original=$('question-source').value==='original';
- if(original&&!['建築結構','建築環境控制',''].includes($('subject').value))$('subject').value='';
+ if(original&&!['建築結構','建築環境控制','營建法規與實務',''].includes($('subject').value))$('subject').value='';
  $('year').value='';$('chapter').value='';$('contentfilter').value='all';$('structurelane').value='all';$('structuretopic').value='';
  for(const option of $('mode').options)option.disabled=original&&['paper','adventure','duel'].includes(option.value);
  if(original&&['paper','adventure','duel'].includes($('mode').value))$('mode').value='random';
- for(const option of $('subject').options)option.disabled=original&&!['建築結構','建築環境控制',''].includes(option.value);
- $('question-source-help').textContent=original?'結構 20 題、環控 20 題。AI 原創草稿，附解題與選項理由，待專家覆核；成績獨立計算。多人、整卷與冒險仍使用考古題。':'歷屆題、示範及已匯入自訂題；依各自的答案給分。原創模擬題另列，不會混入本題庫。';
+ for(const option of $('subject').options)option.disabled=original&&!['建築結構','建築環境控制','營建法規與實務',''].includes(option.value);
+ $('question-source-help').textContent=original?'結構 40 題、環控 40 題、法規 20 題。AI 原創草稿，附解題與選項理由，待專家覆核；成績獨立計算。多人、整卷與冒險仍使用考古題。':'歷屆題、示範及已匯入自訂題；依各自的答案給分。原創模擬題另列，不會混入本題庫。';
  filters();$('year').options[0].textContent=original?'原創題不分年度':'全部年度';syncSubjectShortcuts();updatePracticeCountControls();renderStats();
  document.dispatchEvent(new CustomEvent('practice-source-change'));
 }

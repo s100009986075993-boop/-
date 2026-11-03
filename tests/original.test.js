@@ -6,19 +6,19 @@ const bank = require("../data/original-bank.json");
 const { isOriginalQuestion, isOriginalAttempt } = require("../original-model");
 const { stats } = require("../study");
 const { buildGptPrompt } = require("../gpt-helper");
-test("40題為獨立原創草稿，兩科各20，附完整解題、四選項理由與參考來源", () => {
-  assert.equal(bank.length, 40);
-  assert.equal(new Set(bank.map((q) => q.id)).size, 40);
-  assert.equal(new Set(bank.map((q) => q.question)).size, 40);
+test("100題為獨立原創草稿，三科分類，附完整解題、四選項理由與參考來源", () => {
+  assert.equal(bank.length, 100);
+  assert.equal(new Set(bank.map((q) => q.id)).size, 100);
+  assert.equal(new Set(bank.map((q) => q.question)).size, 100);
   const official = ["structure", "environment", "law", "construction"].flatMap(
     (s) => require("../data/" + s + "-bank.json"),
   );
   const old = new Set(official.map((q) => q.question));
-  for (const slug of ["structure", "environment"]) {
+  for (const slug of ["structure", "environment", "law"]) {
     const subset = bank.filter((q) => q.slug === slug);
-    assert.equal(subset.length, 20);
+    assert.equal(subset.length, slug === "law" ? 20 : 40);
     for (let i = 0; i < 4; i++)
-      assert.equal(subset.filter((q) => q.answer === i).length, 5);
+      assert.equal(subset.filter((q) => q.answer === i).length, slug === "law" ? 5 : 10);
   }
   for (const q of bank) {
     assert.ok(isOriginalQuestion(q));
@@ -122,9 +122,9 @@ function expected(c) {
       throw Error("未驗算公式 " + c.kind);
   }
 }
-test("38題數值或比例題依力學、熱流、聲能及單位轉換獨立重算，答案選項唯一", () => {
+test("70題數值或比例題依力學、熱流、聲能及單位轉換獨立重算，答案選項唯一", () => {
   const numeric = bank.filter((q) => q.calculation);
-  assert.equal(numeric.length, 38);
+  assert.equal(numeric.length, 70);
   for (const q of numeric) {
     const value = expected(q.calculation);
     assert.ok(

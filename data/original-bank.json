@@ -798,7 +798,7 @@
     "calculation": {
       "kind": "thermal_stress",
       "E": 200000,
-      "alpha": 1.2e-05,
+      "alpha": 0.000012,
       "dT": 30
     },
     "choiceValues": [
@@ -1916,5 +1916,2597 @@
       }
     ],
     "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。"
+  },
+  {
+    "id": "original-structure-021",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 21,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "支承與平衡",
+    "question": "理想平面鉸支承可提供哪些反力？",
+    "options": [
+      "水平力與垂直力，不提供反力矩",
+      "僅反力矩",
+      "水平力、垂直力及反力矩",
+      "不提供任何反力"
+    ],
+    "answer": 0,
+    "solution": "鉸支承限制平面內兩個平移自由度，但允許轉動，因此有兩個力分量而無反力矩。分析時應先畫自由體圖，再用平衡方程求未知反力；固定支承才同時限制轉動。",
+    "explanation": "鉸支承限制平面內兩個平移自由度，但允許轉動，因此有兩個力分量而無反力矩。分析時應先畫自由體圖，再用平衡方程求未知反力；固定支承才同時限制轉動。",
+    "optionExplanations": [
+      "正確：鉸支承限制兩向平移。",
+      "鉸支承允許轉動，無反力矩。",
+      "這是平面固定支承的理想模型。",
+      "沒有反力就無法限制平移。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "延伸教材：MIT OpenCourseWare",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "sourceNote": "原創練習草稿；來源不是逐題專家審核證明。"
+  },
+  {
+    "id": "original-structure-022",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 22,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "材料與變形",
+    "question": "同一線彈性軸向桿，長度與截面不變，拉力固定，楊氏模數增加一倍後，伸長量如何變化？",
+    "options": [
+      "不變",
+      "減為一半",
+      "增加一倍",
+      "增加四倍"
+    ],
+    "answer": 1,
+    "solution": "均勻桿在小變形及線彈性範圍內，伸長量為 NL/(EA)。力、長度與截面積均固定，伸長量與楊氏模數成反比，所以模數成為兩倍時，伸長量為原來的一半。",
+    "explanation": "均勻桿在小變形及線彈性範圍內，伸長量為 NL/(EA)。力、長度與截面積均固定，伸長量與楊氏模數成反比，所以模數成為兩倍時，伸長量為原來的一半。",
+    "optionExplanations": [
+      "材料剛性改變會影響伸長。",
+      "正確：伸長量與 E 成反比。",
+      "較高剛性不會增加伸長。",
+      "此處沒有平方倍率。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "延伸教材：MIT OpenCourseWare",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "sourceNote": "原創練習草稿；來源不是逐題專家審核證明。"
+  },
+  {
+    "id": "original-structure-023",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 23,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "結構系統",
+    "question": "理想鉸接桁架的荷載僅作用在節點，忽略桿自重，直桿兩端無其他外力時，桿件主要承受何種內力？",
+    "options": [
+      "純扭矩",
+      "固定端彎矩",
+      "軸向拉力或壓力",
+      "必定只有拉力"
+    ],
+    "answer": 2,
+    "solution": "桿件僅在兩端受力，且端部為理想鉸接。為滿足力與力矩平衡，兩端力須共線、等大且反向，形成二力構件。依幾何與荷載方向，桿件可以受拉，也可以受壓。",
+    "explanation": "桿件僅在兩端受力，且端部為理想鉸接。為滿足力與力矩平衡，兩端力須共線、等大且反向，形成二力構件。依幾何與荷載方向，桿件可以受拉，也可以受壓。",
+    "optionExplanations": [
+      "二力構件無外加扭矩。",
+      "理想鉸接不傳遞固定端彎矩。",
+      "正確：二力構件承受軸力。",
+      "不同桿件可以受壓，不能一概視為受拉。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "延伸教材：MIT OpenCourseWare",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "sourceNote": "原創練習草稿；來源不是逐題專家審核證明。"
+  },
+  {
+    "id": "original-structure-024",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 24,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "耐震與動力",
+    "question": "在線彈性單自由度模型中，質量不變、側向勁度降低時，自然週期如何變化？",
+    "options": [
+      "變為零",
+      "縮短",
+      "必定不變",
+      "變長"
+    ],
+    "answer": 3,
+    "solution": "自然週期 T＝2π√(m/k)。質量固定時，勁度降低使 m/k 增大，週期隨之變長。這是單自由度線彈性模型的關係，不可直接將週期變長解讀為所有地震下的反應都會降低。",
+    "explanation": "自然週期 T＝2π√(m/k)。質量固定時，勁度降低使 m/k 增大，週期隨之變長。這是單自由度線彈性模型的關係，不可直接將週期變長解讀為所有地震下的反應都會降低。",
+    "optionExplanations": [
+      "正勁度與正質量的週期不為零。",
+      "勁度降低不會使此模型週期縮短。",
+      "週期受勁度影響。",
+      "正確：週期與勁度平方根成反比。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "延伸教材：MIT OpenCourseWare",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "sourceNote": "原創練習草稿；來源不是逐題專家審核證明。"
+  },
+  {
+    "id": "original-environment-021",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 21,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "熱環境與外殼",
+    "question": "相同厚度與面積的均質牆層，在穩態一維導熱且兩面溫差相同時，哪種改變會減少傳熱量？",
+    "options": [
+      "降低材料導熱係數",
+      "提高材料導熱係數",
+      "減小牆層厚度",
+      "增加兩面溫差"
+    ],
+    "answer": 0,
+    "solution": "傅立葉定律下，傳熱量 Q＝kAΔT/d。此題固定厚度、面積與溫差，因此降低導熱係數 k 可降低傳熱量。此結論只討論該均質牆層的導熱，不包含熱橋、空氣滲漏或日射。",
+    "explanation": "傅立葉定律下，傳熱量 Q＝kAΔT/d。此題固定厚度、面積與溫差，因此降低導熱係數 k 可降低傳熱量。此結論只討論該均質牆層的導熱，不包含熱橋、空氣滲漏或日射。",
+    "optionExplanations": [
+      "正確：Q 與 k 成正比。",
+      "提高 k 會增加導熱。",
+      "厚度減少會增加導熱。",
+      "溫差增加會增加導熱。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "延伸教材：MIT OpenCourseWare",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "sourceNote": "原創練習草稿；來源不是逐題專家審核證明。"
+  },
+  {
+    "id": "original-environment-022",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 22,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "通風與空氣品質",
+    "question": "室內容積 150 m³，室外新鮮空氣供應量為 450 m³/h，忽略滲漏時，新鮮空氣換氣次數是多少？",
+    "options": [
+      "0.33 次/h",
+      "3 次/h",
+      "30 次/h",
+      "67500 次/h"
+    ],
+    "answer": 1,
+    "solution": "新鮮空氣換氣次數為室外新鮮空氣流量除以室內容積，即 450/150＝3 次/h。分子必須採新鮮空氣量，不能把室內循環風量全數算入；此數值本身並非任何用途的法定最低標準。",
+    "explanation": "新鮮空氣換氣次數為室外新鮮空氣流量除以室內容積，即 450/150＝3 次/h。分子必須採新鮮空氣量，不能把室內循環風量全數算入；此數值本身並非任何用途的法定最低標準。",
+    "optionExplanations": [
+      "這是將容積除以流量的倒數。",
+      "正確：450÷150＝3。",
+      "計算多了一個十倍。",
+      "應相除，不能相乘。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "延伸教材：MIT OpenCourseWare",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "sourceNote": "原創練習草稿；來源不是逐題專家審核證明。"
+  },
+  {
+    "id": "original-environment-023",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 23,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "照明與視環境",
+    "question": "同一理想點光源，受光面垂直光線且無反射光，距離由 2 m 增為 4 m，照度變為原來多少？",
+    "options": [
+      "兩倍",
+      "一半",
+      "四分之一",
+      "四倍"
+    ],
+    "answer": 2,
+    "solution": "在光強固定、受光面垂直於入射光且點光源近似成立時，照度 E＝I/r²。距離加倍，照度成為原來的四分之一。大面積光源近距離或有顯著反射光時，不能直接套用此簡化結果。",
+    "explanation": "在光強固定、受光面垂直於入射光且點光源近似成立時，照度 E＝I/r²。距離加倍，照度成為原來的四分之一。大面積光源近距離或有顯著反射光時，不能直接套用此簡化結果。",
+    "optionExplanations": [
+      "距離增加不會提高此模型照度。",
+      "忽略了距離平方。",
+      "正確：比例為 (2/4)²。",
+      "比值方向顛倒。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "延伸教材：MIT OpenCourseWare",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "sourceNote": "原創練習草稿；來源不是逐題專家審核證明。"
+  },
+  {
+    "id": "original-environment-024",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 24,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "聲環境",
+    "question": "同一空間在擴散音場與 Sabine 模型適用時，增加等效吸音面積而容積不變，殘響時間如何變化？",
+    "options": [
+      "必定增加",
+      "完全不變",
+      "變成負數",
+      "縮短"
+    ],
+    "answer": 3,
+    "solution": "Sabine 模型的殘響時間 T＝0.161V/A，其中 V 為空間容積，A 為等效吸音面積。容積固定時增加吸音量，聲能衰減加快而殘響縮短。吸音與隔音不同，不能據此保證鄰室噪音同樣降低。",
+    "explanation": "Sabine 模型的殘響時間 T＝0.161V/A，其中 V 為空間容積，A 為等效吸音面積。容積固定時增加吸音量，聲能衰減加快而殘響縮短。吸音與隔音不同，不能據此保證鄰室噪音同樣降低。",
+    "optionExplanations": [
+      "吸音增加使衰減加快。",
+      "模型中 A 直接影響 T。",
+      "正容積與正吸音量給出正時間。",
+      "正確：T 與 A 成反比。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "延伸教材：MIT OpenCourseWare",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "sourceNote": "原創練習草稿；來源不是逐題專家審核證明。"
+  },
+  {
+    "id": "original-law-001",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 1,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "建築許可",
+    "question": "依建築法第28條，辦理一般建築物新建，應申領哪一種執照？",
+    "options": [
+      "建造執照",
+      "拆除執照",
+      "僅使用執照",
+      "以營業登記代替"
+    ],
+    "answer": 0,
+    "solution": "第28條將新建列入建造執照的範圍。取得施工許可不等於完成後即可使用；使用階段另有使用執照制度。題目詢問一般新建的執照種類，並非免申請執照的特殊情形。",
+    "explanation": "第28條將新建列入建造執照的範圍。取得施工許可不等於完成後即可使用；使用階段另有使用執照制度。題目詢問一般新建的執照種類，並非免申請執照的特殊情形。",
+    "optionExplanations": [
+      "正確：新建屬建造執照範圍。",
+      "拆除執照處理拆除。",
+      "使用執照不能取代新建施工許可。",
+      "營業登記不能取代建築執照。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第28條；官方資料庫修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第28條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=28"
+      }
+    ],
+    "sourceNote": "原創練習草稿；來源不是逐題專家審核證明。"
+  },
+  {
+    "id": "original-law-002",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 2,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "權責與管理",
+    "question": "依建築法第26條，工程已取得建築執照，但施工侵害鄰人財產，何者正確？",
+    "options": [
+      "有執照即一律免責",
+      "相關人員仍應依法負責",
+      "責任必定全由發照機關承擔",
+      "鄰人不得主張權利"
+    ],
+    "answer": 1,
+    "solution": "第26條區別行政許可與侵害責任。取得建築執照不代表對鄰產造成損害即可免責；起造、設計、監造或承造等人員，仍須依實際情形負各自法律責任，不能只憑發照便判定責任歸屬。",
+    "explanation": "第26條區別行政許可與侵害責任。取得建築執照不代表對鄰產造成損害即可免責；起造、設計、監造或承造等人員，仍須依實際情形負各自法律責任，不能只憑發照便判定責任歸屬。",
+    "optionExplanations": [
+      "行政許可並非免責證明。",
+      "正確：仍須依情形依法負責。",
+      "發照不使全部責任移轉。",
+      "執照不剝奪鄰人依法主張權利。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第26條；官方資料庫修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第26條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=26"
+      }
+    ],
+    "sourceNote": "原創練習草稿；來源不是逐題專家審核證明。"
+  },
+  {
+    "id": "original-law-003",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 3,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "建造行為分類",
+    "question": "依建築法第9條，原建築物全部拆除後重新建築，屬何種建造行為？",
+    "options": [
+      "修建",
+      "改建",
+      "新建",
+      "僅屬設備更新"
+    ],
+    "answer": 2,
+    "solution": "第9條的新建定義包含全部拆除原建築物後重行建築。因此即使基地原本已有建物，也不能只因在原址施工就歸為改建。判斷重點是拆除與重建範圍，而非基地是否曾經使用。",
+    "explanation": "第9條的新建定義包含全部拆除原建築物後重行建築。因此即使基地原本已有建物，也不能只因在原址施工就歸為改建。判斷重點是拆除與重建範圍，而非基地是否曾經使用。",
+    "optionExplanations": [
+      "修建並非全部拆除重建。",
+      "改建涉及部分拆除及其他條件。",
+      "正確：全部拆除再建屬新建。",
+      "全部重建不是單純設備更新。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第9條；官方資料庫修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第9條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=9"
+      }
+    ],
+    "sourceNote": "原創練習草稿；來源不是逐題專家審核證明。"
+  },
+  {
+    "id": "original-law-004",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 4,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "申請文件",
+    "question": "依建築法第30條，申請建造執照應準備的文件，何者正確？",
+    "options": [
+      "只有估價單即可",
+      "僅需房屋照片",
+      "不必提出土地權利文件",
+      "申請書、土地權利證明文件、工程圖樣及說明書"
+    ],
+    "answer": 3,
+    "solution": "第30條列出建造執照申請的基本文件，包括申請書、土地權利證明文件及工程圖樣與說明書。不能用估價單或照片替代這些文件；其他法令或個案需要的資料，仍須依適用規定辦理。",
+    "explanation": "第30條列出建造執照申請的基本文件，包括申請書、土地權利證明文件及工程圖樣與說明書。不能用估價單或照片替代這些文件；其他法令或個案需要的資料，仍須依適用規定辦理。",
+    "optionExplanations": [
+      "估價單不能取代法定申請文件。",
+      "照片不足以替代必要文件。",
+      "土地權利證明是條文列明項目。",
+      "正確：符合第30條列明的基本文件。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第30條；官方資料庫修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第30條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=30"
+      }
+    ],
+    "sourceNote": "原創練習草稿；來源不是逐題專家審核證明。"
+  },
+  {
+    "id": "original-structure-025",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 25,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "支承反力",
+    "question": "6 m 簡支梁在距左端 2 m 處承受向下 18 kN 集中力，忽略自重，左端反力為多少 kN？",
+    "options": [
+      "12",
+      "6",
+      "18",
+      "36"
+    ],
+    "answer": 0,
+    "solution": "對右端取矩：左反力×6＝18×4，故左反力為12 kN；右反力為6 kN。兩端反力和必須等於18 kN，不能把集中力平均分配，因為荷載不在跨中。",
+    "explanation": "對右端取矩：左反力×6＝18×4，故左反力為12 kN；右反力為6 kN。兩端反力和必須等於18 kN，不能把集中力平均分配，因為荷載不在跨中。",
+    "optionExplanations": [
+      "正確：對右端取矩：左反力×6＝18×4，故左反力為12 kN；右反力為6 kN。兩端反力和必須等於18 kN，不能把集中力平均分配，因為荷載不在跨中。",
+      "6 並非題設條件下的計算結果。對右端取矩：左反力×6＝18×4，故左反力為12 kN；右反力為6 kN。兩端反力和必須等於18 kN，不能把集中力平均分配，因為荷載不在跨中。",
+      "18 並非題設條件下的計算結果。對右端取矩：左反力×6＝18×4，故左反力為12 kN；右反力為6 kN。兩端反力和必須等於18 kN，不能把集中力平均分配，因為荷載不在跨中。",
+      "36 並非題設條件下的計算結果。對右端取矩：左反力×6＝18×4，故左反力為12 kN；右反力為6 kN。兩端反力和必須等於18 kN，不能把集中力平均分配，因為荷載不在跨中。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "reaction",
+      "P": 18,
+      "L": 6,
+      "a": 2
+    },
+    "choiceValues": [
+      12,
+      6,
+      18,
+      36
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-026",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 26,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "梁彎矩",
+    "question": "4 m 簡支梁全跨承受 6 kN/m 均布載重，忽略自重，最大彎矩為多少 kN·m？",
+    "options": [
+      "48",
+      "12",
+      "24",
+      "6"
+    ],
+    "answer": 1,
+    "solution": "全跨均布載重之簡支梁跨中彎矩最大，M＝wL²/8＝6×16/8＝12 kN·m。先確認支承形式；若改為懸臂梁，公式與最大值位置均不同。",
+    "explanation": "全跨均布載重之簡支梁跨中彎矩最大，M＝wL²/8＝6×16/8＝12 kN·m。先確認支承形式；若改為懸臂梁，公式與最大值位置均不同。",
+    "optionExplanations": [
+      "48 並非題設條件下的計算結果。全跨均布載重之簡支梁跨中彎矩最大，M＝wL²/8＝6×16/8＝12 kN·m。先確認支承形式；若改為懸臂梁，公式與最大值位置均不同。",
+      "正確：全跨均布載重之簡支梁跨中彎矩最大，M＝wL²/8＝6×16/8＝12 kN·m。先確認支承形式；若改為懸臂梁，公式與最大值位置均不同。",
+      "24 並非題設條件下的計算結果。全跨均布載重之簡支梁跨中彎矩最大，M＝wL²/8＝6×16/8＝12 kN·m。先確認支承形式；若改為懸臂梁，公式與最大值位置均不同。",
+      "6 並非題設條件下的計算結果。全跨均布載重之簡支梁跨中彎矩最大，M＝wL²/8＝6×16/8＝12 kN·m。先確認支承形式；若改為懸臂梁，公式與最大值位置均不同。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "beam_udl",
+      "w": 6,
+      "L": 4
+    },
+    "choiceValues": [
+      48,
+      12,
+      24,
+      6
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-027",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 27,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "梁彎矩",
+    "question": "長 3 m 的理想懸臂梁，自由端承受 8 kN 向下力，固定端彎矩絕對值為多少 kN·m？",
+    "options": [
+      "12",
+      "72",
+      "24",
+      "8"
+    ],
+    "answer": 2,
+    "solution": "對固定端取矩，外力矩為8×3＝24 kN·m，固定端提供反向力矩維持平衡。此題求絕對值，不涉及正負號慣例；集中力作用在自由端，力臂就是全長。",
+    "explanation": "對固定端取矩，外力矩為8×3＝24 kN·m，固定端提供反向力矩維持平衡。此題求絕對值，不涉及正負號慣例；集中力作用在自由端，力臂就是全長。",
+    "optionExplanations": [
+      "12 並非題設條件下的計算結果。對固定端取矩，外力矩為8×3＝24 kN·m，固定端提供反向力矩維持平衡。此題求絕對值，不涉及正負號慣例；集中力作用在自由端，力臂就是全長。",
+      "72 並非題設條件下的計算結果。對固定端取矩，外力矩為8×3＝24 kN·m，固定端提供反向力矩維持平衡。此題求絕對值，不涉及正負號慣例；集中力作用在自由端，力臂就是全長。",
+      "正確：對固定端取矩，外力矩為8×3＝24 kN·m，固定端提供反向力矩維持平衡。此題求絕對值，不涉及正負號慣例；集中力作用在自由端，力臂就是全長。",
+      "8 並非題設條件下的計算結果。對固定端取矩，外力矩為8×3＝24 kN·m，固定端提供反向力矩維持平衡。此題求絕對值，不涉及正負號慣例；集中力作用在自由端，力臂就是全長。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "cantilever",
+      "P": 8,
+      "L": 3
+    },
+    "choiceValues": [
+      12,
+      72,
+      24,
+      8
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-028",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 28,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "材料與變形",
+    "question": "均勻桿受 90 kN 軸向拉力，截面積 3000 mm²，平均正應力為多少 MPa？",
+    "options": [
+      "3",
+      "300",
+      "270",
+      "30"
+    ],
+    "answer": 3,
+    "solution": "先把90 kN轉成90000 N，再除以3000 mm²，得到30 N/mm²，即30 MPa。這是軸力通過截面形心時的平均正應力，不含局部應力集中或偏心彎曲。",
+    "explanation": "先把90 kN轉成90000 N，再除以3000 mm²，得到30 N/mm²，即30 MPa。這是軸力通過截面形心時的平均正應力，不含局部應力集中或偏心彎曲。",
+    "optionExplanations": [
+      "3 並非題設條件下的計算結果。先把90 kN轉成90000 N，再除以3000 mm²，得到30 N/mm²，即30 MPa。這是軸力通過截面形心時的平均正應力，不含局部應力集中或偏心彎曲。",
+      "300 並非題設條件下的計算結果。先把90 kN轉成90000 N，再除以3000 mm²，得到30 N/mm²，即30 MPa。這是軸力通過截面形心時的平均正應力，不含局部應力集中或偏心彎曲。",
+      "270 並非題設條件下的計算結果。先把90 kN轉成90000 N，再除以3000 mm²，得到30 N/mm²，即30 MPa。這是軸力通過截面形心時的平均正應力，不含局部應力集中或偏心彎曲。",
+      "正確：先把90 kN轉成90000 N，再除以3000 mm²，得到30 N/mm²，即30 MPa。這是軸力通過截面形心時的平均正應力，不含局部應力集中或偏心彎曲。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "axial_stress",
+      "N": 90,
+      "A": 3000
+    },
+    "choiceValues": [
+      3,
+      300,
+      270,
+      30
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-029",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 29,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "材料與變形",
+    "question": "線彈性等截面桿 N＝60 kN、L＝2000 mm、E＝200000 N/mm²、A＝1000 mm²，伸長量為多少 mm？",
+    "options": [
+      "0.6",
+      "6",
+      "0.06",
+      "1.2"
+    ],
+    "answer": 0,
+    "solution": "使用δ＝NL/(EA)，並先將60 kN轉成60000 N。代入60000×2000/(200000×1000)＝0.6 mm。公式假設等截面、均勻材料與軸向載重，且仍在線彈性範圍。",
+    "explanation": "使用δ＝NL/(EA)，並先將60 kN轉成60000 N。代入60000×2000/(200000×1000)＝0.6 mm。公式假設等截面、均勻材料與軸向載重，且仍在線彈性範圍。",
+    "optionExplanations": [
+      "正確：使用δ＝NL/(EA)，並先將60 kN轉成60000 N。代入60000×2000/(200000×1000)＝0.6 mm。公式假設等截面、均勻材料與軸向載重，且仍在線彈性範圍。",
+      "6 並非題設條件下的計算結果。使用δ＝NL/(EA)，並先將60 kN轉成60000 N。代入60000×2000/(200000×1000)＝0.6 mm。公式假設等截面、均勻材料與軸向載重，且仍在線彈性範圍。",
+      "0.06 並非題設條件下的計算結果。使用δ＝NL/(EA)，並先將60 kN轉成60000 N。代入60000×2000/(200000×1000)＝0.6 mm。公式假設等截面、均勻材料與軸向載重，且仍在線彈性範圍。",
+      "1.2 並非題設條件下的計算結果。使用δ＝NL/(EA)，並先將60 kN轉成60000 N。代入60000×2000/(200000×1000)＝0.6 mm。公式假設等截面、均勻材料與軸向載重，且仍在線彈性範圍。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "axial_delta",
+      "N": 60,
+      "L": 2000,
+      "E": 200000,
+      "A": 1000
+    },
+    "choiceValues": [
+      0.6,
+      6,
+      0.06,
+      1.2
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-030",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 30,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "截面性質",
+    "question": "矩形截面寬度不變，沿彎曲方向高度增為原來的3倍，形心軸慣性矩變為幾倍？",
+    "options": [
+      "81",
+      "27",
+      "3",
+      "9"
+    ],
+    "answer": 1,
+    "solution": "矩形截面的形心軸慣性矩為bh³/12。保持寬度b不變時，高度乘以3，慣性矩乘以3³＝27；應區分慣性矩與截面面積及截面模數，三者的高度次方不同。",
+    "explanation": "矩形截面的形心軸慣性矩為bh³/12。保持寬度b不變時，高度乘以3，慣性矩乘以3³＝27；應區分慣性矩與截面面積及截面模數，三者的高度次方不同。",
+    "optionExplanations": [
+      "81 並非題設條件下的計算結果。矩形截面的形心軸慣性矩為bh³/12。保持寬度b不變時，高度乘以3，慣性矩乘以3³＝27；應區分慣性矩與截面面積及截面模數，三者的高度次方不同。",
+      "正確：矩形截面的形心軸慣性矩為bh³/12。保持寬度b不變時，高度乘以3，慣性矩乘以3³＝27；應區分慣性矩與截面面積及截面模數，三者的高度次方不同。",
+      "3 並非題設條件下的計算結果。矩形截面的形心軸慣性矩為bh³/12。保持寬度b不變時，高度乘以3，慣性矩乘以3³＝27；應區分慣性矩與截面面積及截面模數，三者的高度次方不同。",
+      "9 並非題設條件下的計算結果。矩形截面的形心軸慣性矩為bh³/12。保持寬度b不變時，高度乘以3，慣性矩乘以3³＝27；應區分慣性矩與截面面積及截面模數，三者的高度次方不同。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "inertia_ratio",
+      "factor": 3
+    },
+    "choiceValues": [
+      81,
+      27,
+      3,
+      9
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-031",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 31,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "柱與穩定",
+    "question": "理想歐拉柱 E、I、K 不變，實際長度縮成原來一半，臨界挫屈載重為原來幾倍？",
+    "options": [
+      "0.5",
+      "0.25",
+      "4",
+      "2"
+    ],
+    "answer": 2,
+    "solution": "歐拉公式Pcr＝π²EI/(KL)²。長度變成0.5倍，臨界載重比例為1/0.5²＝4。題目假設仍符合細長柱線彈性挫屈條件，不能套用至材料先降伏的短柱。",
+    "explanation": "歐拉公式Pcr＝π²EI/(KL)²。長度變成0.5倍，臨界載重比例為1/0.5²＝4。題目假設仍符合細長柱線彈性挫屈條件，不能套用至材料先降伏的短柱。",
+    "optionExplanations": [
+      "0.5 並非題設條件下的計算結果。歐拉公式Pcr＝π²EI/(KL)²。長度變成0.5倍，臨界載重比例為1/0.5²＝4。題目假設仍符合細長柱線彈性挫屈條件，不能套用至材料先降伏的短柱。",
+      "0.25 並非題設條件下的計算結果。歐拉公式Pcr＝π²EI/(KL)²。長度變成0.5倍，臨界載重比例為1/0.5²＝4。題目假設仍符合細長柱線彈性挫屈條件，不能套用至材料先降伏的短柱。",
+      "正確：歐拉公式Pcr＝π²EI/(KL)²。長度變成0.5倍，臨界載重比例為1/0.5²＝4。題目假設仍符合細長柱線彈性挫屈條件，不能套用至材料先降伏的短柱。",
+      "2 並非題設條件下的計算結果。歐拉公式Pcr＝π²EI/(KL)²。長度變成0.5倍，臨界載重比例為1/0.5²＝4。題目假設仍符合細長柱線彈性挫屈條件，不能套用至材料先降伏的短柱。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "euler_length",
+      "factor": 0.5
+    },
+    "choiceValues": [
+      0.5,
+      0.25,
+      4,
+      2
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-032",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 32,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "柱與穩定",
+    "question": "兩根理想歐拉柱 E、I、L 相同，甲 K＝0.5、乙 K＝1，甲的臨界載重為乙的幾倍？",
+    "options": [
+      "2",
+      "0.5",
+      "1",
+      "4"
+    ],
+    "answer": 3,
+    "solution": "固定E、I、L時，臨界載重與有效長度係數K的平方成反比。甲對乙的比值為(1/0.5)²＝4。K值由題目直接給定，不應自行以未說明的真實接頭條件替代。",
+    "explanation": "固定E、I、L時，臨界載重與有效長度係數K的平方成反比。甲對乙的比值為(1/0.5)²＝4。K值由題目直接給定，不應自行以未說明的真實接頭條件替代。",
+    "optionExplanations": [
+      "2 並非題設條件下的計算結果。固定E、I、L時，臨界載重與有效長度係數K的平方成反比。甲對乙的比值為(1/0.5)²＝4。K值由題目直接給定，不應自行以未說明的真實接頭條件替代。",
+      "0.5 並非題設條件下的計算結果。固定E、I、L時，臨界載重與有效長度係數K的平方成反比。甲對乙的比值為(1/0.5)²＝4。K值由題目直接給定，不應自行以未說明的真實接頭條件替代。",
+      "1 並非題設條件下的計算結果。固定E、I、L時，臨界載重與有效長度係數K的平方成反比。甲對乙的比值為(1/0.5)²＝4。K值由題目直接給定，不應自行以未說明的真實接頭條件替代。",
+      "正確：固定E、I、L時，臨界載重與有效長度係數K的平方成反比。甲對乙的比值為(1/0.5)²＝4。K值由題目直接給定，不應自行以未說明的真實接頭條件替代。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "euler_K",
+      "K1": 0.5,
+      "K2": 1
+    },
+    "choiceValues": [
+      2,
+      0.5,
+      1,
+      4
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-033",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 33,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "梁的變形",
+    "question": "均布載重簡支梁 w、E、I 不變，跨距增加為1.5倍，最大撓度為原來幾倍？",
+    "options": [
+      "5.0625",
+      "1.5",
+      "2.25",
+      "3.375"
+    ],
+    "answer": 0,
+    "solution": "均布載重簡支梁最大撓度為5wL⁴/(384EI)。題設固定單位長度載重w，所以比例為1.5⁴＝5.0625。若固定的是總載重，不能沿用相同的四次方倍率。",
+    "explanation": "均布載重簡支梁最大撓度為5wL⁴/(384EI)。題設固定單位長度載重w，所以比例為1.5⁴＝5.0625。若固定的是總載重，不能沿用相同的四次方倍率。",
+    "optionExplanations": [
+      "正確：均布載重簡支梁最大撓度為5wL⁴/(384EI)。題設固定單位長度載重w，所以比例為1.5⁴＝5.0625。若固定的是總載重，不能沿用相同的四次方倍率。",
+      "1.5 並非題設條件下的計算結果。均布載重簡支梁最大撓度為5wL⁴/(384EI)。題設固定單位長度載重w，所以比例為1.5⁴＝5.0625。若固定的是總載重，不能沿用相同的四次方倍率。",
+      "2.25 並非題設條件下的計算結果。均布載重簡支梁最大撓度為5wL⁴/(384EI)。題設固定單位長度載重w，所以比例為1.5⁴＝5.0625。若固定的是總載重，不能沿用相同的四次方倍率。",
+      "3.375 並非題設條件下的計算結果。均布載重簡支梁最大撓度為5wL⁴/(384EI)。題設固定單位長度載重w，所以比例為1.5⁴＝5.0625。若固定的是總載重，不能沿用相同的四次方倍率。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "deflection_span",
+      "factor": 1.5
+    },
+    "choiceValues": [
+      5.0625,
+      1.5,
+      2.25,
+      3.375
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-034",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 34,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "受力分配",
+    "question": "剛性頂板保持水平，兩根等長同材質柱只作軸向變形，甲面積為乙的3倍，總力120 kN，甲分擔多少 kN？",
+    "options": [
+      "120",
+      "90",
+      "60",
+      "30"
+    ],
+    "answer": 1,
+    "solution": "兩柱位移相同，軸向勁度EA/L之比為3：1，所以甲承擔總力的3/4，即90 kN。題目已限制頂板保持水平，若容許轉動或存在偏心，不能只用這個比例分配。",
+    "explanation": "兩柱位移相同，軸向勁度EA/L之比為3：1，所以甲承擔總力的3/4，即90 kN。題目已限制頂板保持水平，若容許轉動或存在偏心，不能只用這個比例分配。",
+    "optionExplanations": [
+      "120 並非題設條件下的計算結果。兩柱位移相同，軸向勁度EA/L之比為3：1，所以甲承擔總力的3/4，即90 kN。題目已限制頂板保持水平，若容許轉動或存在偏心，不能只用這個比例分配。",
+      "正確：兩柱位移相同，軸向勁度EA/L之比為3：1，所以甲承擔總力的3/4，即90 kN。題目已限制頂板保持水平，若容許轉動或存在偏心，不能只用這個比例分配。",
+      "60 並非題設條件下的計算結果。兩柱位移相同，軸向勁度EA/L之比為3：1，所以甲承擔總力的3/4，即90 kN。題目已限制頂板保持水平，若容許轉動或存在偏心，不能只用這個比例分配。",
+      "30 並非題設條件下的計算結果。兩柱位移相同，軸向勁度EA/L之比為3：1，所以甲承擔總力的3/4，即90 kN。題目已限制頂板保持水平，若容許轉動或存在偏心，不能只用這個比例分配。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "parallel_columns",
+      "total": 120,
+      "ratio": 3
+    },
+    "choiceValues": [
+      120,
+      90,
+      60,
+      30
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-035",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 35,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "耐震與動力",
+    "question": "單自由度線彈性系統質量不變，勁度成為9倍，自然週期變為原來多少倍？",
+    "options": [
+      "0.1111111111111111",
+      "9",
+      "0.3333333333333333",
+      "3"
+    ],
+    "answer": 2,
+    "solution": "自然週期T＝2π√(m/k)。勁度乘以9而質量不變，週期比例為1/√9＝1/3。週期變短只反映此理想模型，並不能直接推論任意地震下的位移或加速度大小。",
+    "explanation": "自然週期T＝2π√(m/k)。勁度乘以9而質量不變，週期比例為1/√9＝1/3。週期變短只反映此理想模型，並不能直接推論任意地震下的位移或加速度大小。",
+    "optionExplanations": [
+      "0.1111111111111111 並非題設條件下的計算結果。自然週期T＝2π√(m/k)。勁度乘以9而質量不變，週期比例為1/√9＝1/3。週期變短只反映此理想模型，並不能直接推論任意地震下的位移或加速度大小。",
+      "9 並非題設條件下的計算結果。自然週期T＝2π√(m/k)。勁度乘以9而質量不變，週期比例為1/√9＝1/3。週期變短只反映此理想模型，並不能直接推論任意地震下的位移或加速度大小。",
+      "正確：自然週期T＝2π√(m/k)。勁度乘以9而質量不變，週期比例為1/√9＝1/3。週期變短只反映此理想模型，並不能直接推論任意地震下的位移或加速度大小。",
+      "3 並非題設條件下的計算結果。自然週期T＝2π√(m/k)。勁度乘以9而質量不變，週期比例為1/√9＝1/3。週期變短只反映此理想模型，並不能直接推論任意地震下的位移或加速度大小。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "period_stiffness",
+      "factor": 9
+    },
+    "choiceValues": [
+      0.1111111111111111,
+      9,
+      0.3333333333333333,
+      3
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-036",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 36,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "耐震與動力",
+    "question": "柱承受固定軸向力500 kN，頂端相對側移0.03 m，簡化P–Δ附加彎矩為多少 kN·m？",
+    "options": [
+      "150",
+      "0.06",
+      "500",
+      "15"
+    ],
+    "answer": 3,
+    "solution": "簡化二階效應以軸力乘側移估計附加彎矩，即500×0.03＝15 kN·m。側移要用公尺才能得到kN·m；這只是題設的附加量，仍須與一階效應分開理解。",
+    "explanation": "簡化二階效應以軸力乘側移估計附加彎矩，即500×0.03＝15 kN·m。側移要用公尺才能得到kN·m；這只是題設的附加量，仍須與一階效應分開理解。",
+    "optionExplanations": [
+      "150 並非題設條件下的計算結果。簡化二階效應以軸力乘側移估計附加彎矩，即500×0.03＝15 kN·m。側移要用公尺才能得到kN·m；這只是題設的附加量，仍須與一階效應分開理解。",
+      "0.06 並非題設條件下的計算結果。簡化二階效應以軸力乘側移估計附加彎矩，即500×0.03＝15 kN·m。側移要用公尺才能得到kN·m；這只是題設的附加量，仍須與一階效應分開理解。",
+      "500 並非題設條件下的計算結果。簡化二階效應以軸力乘側移估計附加彎矩，即500×0.03＝15 kN·m。側移要用公尺才能得到kN·m；這只是題設的附加量，仍須與一階效應分開理解。",
+      "正確：簡化二階效應以軸力乘側移估計附加彎矩，即500×0.03＝15 kN·m。側移要用公尺才能得到kN·m；這只是題設的附加量，仍須與一階效應分開理解。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "pdelta",
+      "P": 500,
+      "delta": 0.03
+    },
+    "choiceValues": [
+      150,
+      0.06,
+      500,
+      15
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-037",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 37,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "樓層剪力",
+    "question": "三層建築各層水平力由下至上為10、20、30 kN且同向，第一層底部剪力為多少 kN？",
+    "options": [
+      "60",
+      "30",
+      "20",
+      "10"
+    ],
+    "answer": 0,
+    "solution": "在第一層底部切開自由體，其上全部樓層水平力均須經切面傳遞，因此剪力為10＋20＋30＝60 kN。樓層剪力是上方荷載累加，不等於該樓層單獨施加的水平力。",
+    "explanation": "在第一層底部切開自由體，其上全部樓層水平力均須經切面傳遞，因此剪力為10＋20＋30＝60 kN。樓層剪力是上方荷載累加，不等於該樓層單獨施加的水平力。",
+    "optionExplanations": [
+      "正確：在第一層底部切開自由體，其上全部樓層水平力均須經切面傳遞，因此剪力為10＋20＋30＝60 kN。樓層剪力是上方荷載累加，不等於該樓層單獨施加的水平力。",
+      "30 並非題設條件下的計算結果。在第一層底部切開自由體，其上全部樓層水平力均須經切面傳遞，因此剪力為10＋20＋30＝60 kN。樓層剪力是上方荷載累加，不等於該樓層單獨施加的水平力。",
+      "20 並非題設條件下的計算結果。在第一層底部切開自由體，其上全部樓層水平力均須經切面傳遞，因此剪力為10＋20＋30＝60 kN。樓層剪力是上方荷載累加，不等於該樓層單獨施加的水平力。",
+      "10 並非題設條件下的計算結果。在第一層底部切開自由體，其上全部樓層水平力均須經切面傳遞，因此剪力為10＋20＋30＝60 kN。樓層剪力是上方荷載累加，不等於該樓層單獨施加的水平力。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "story_shear",
+      "loads": [
+        10,
+        20,
+        30
+      ]
+    },
+    "choiceValues": [
+      60,
+      30,
+      20,
+      10
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-038",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 38,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "材料與變形",
+    "question": "兩端完全限制伸縮的線彈性桿，E＝200000 MPa、α＝0.00001/°C，升溫20°C，拉應力取正時熱應力為多少 MPa？",
+    "options": [
+      "4",
+      "-40",
+      "40",
+      "-4"
+    ],
+    "answer": 1,
+    "solution": "自由熱膨脹被完全拘束，須由壓縮機械應變抵銷，所以σ＝−EαΔT＝−200000×0.00001×20＝−40 MPa。若支承可以移動或材料產生塑性，不能直接套用完全拘束模型。",
+    "explanation": "自由熱膨脹被完全拘束，須由壓縮機械應變抵銷，所以σ＝−EαΔT＝−200000×0.00001×20＝−40 MPa。若支承可以移動或材料產生塑性，不能直接套用完全拘束模型。",
+    "optionExplanations": [
+      "4 並非題設條件下的計算結果。自由熱膨脹被完全拘束，須由壓縮機械應變抵銷，所以σ＝−EαΔT＝−200000×0.00001×20＝−40 MPa。若支承可以移動或材料產生塑性，不能直接套用完全拘束模型。",
+      "正確：自由熱膨脹被完全拘束，須由壓縮機械應變抵銷，所以σ＝−EαΔT＝−200000×0.00001×20＝−40 MPa。若支承可以移動或材料產生塑性，不能直接套用完全拘束模型。",
+      "40 並非題設條件下的計算結果。自由熱膨脹被完全拘束，須由壓縮機械應變抵銷，所以σ＝−EαΔT＝−200000×0.00001×20＝−40 MPa。若支承可以移動或材料產生塑性，不能直接套用完全拘束模型。",
+      "-4 並非題設條件下的計算結果。自由熱膨脹被完全拘束，須由壓縮機械應變抵銷，所以σ＝−EαΔT＝−200000×0.00001×20＝−40 MPa。若支承可以移動或材料產生塑性，不能直接套用完全拘束模型。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "thermal_stress",
+      "E": 200000,
+      "alpha": 0.00001,
+      "dT": 20
+    },
+    "choiceValues": [
+      4,
+      -40,
+      40,
+      -4
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-039",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 39,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "基礎與土壓",
+    "question": "基礎承受通過底面形心的垂直力600 kN，底面2 m×3 m，假設均勻接觸壓力，平均壓力為多少 kPa？",
+    "options": [
+      "300",
+      "3600",
+      "100",
+      "600"
+    ],
+    "answer": 2,
+    "solution": "底面積為2×3＝6 m²，平均接觸壓力為600/6＝100 kN/m²，即100 kPa。這是中心受壓與均勻壓力假設下的平均值，不代表已完成承載力、沉陷或偏心檢核。",
+    "explanation": "底面積為2×3＝6 m²，平均接觸壓力為600/6＝100 kN/m²，即100 kPa。這是中心受壓與均勻壓力假設下的平均值，不代表已完成承載力、沉陷或偏心檢核。",
+    "optionExplanations": [
+      "300 並非題設條件下的計算結果。底面積為2×3＝6 m²，平均接觸壓力為600/6＝100 kN/m²，即100 kPa。這是中心受壓與均勻壓力假設下的平均值，不代表已完成承載力、沉陷或偏心檢核。",
+      "3600 並非題設條件下的計算結果。底面積為2×3＝6 m²，平均接觸壓力為600/6＝100 kN/m²，即100 kPa。這是中心受壓與均勻壓力假設下的平均值，不代表已完成承載力、沉陷或偏心檢核。",
+      "正確：底面積為2×3＝6 m²，平均接觸壓力為600/6＝100 kN/m²，即100 kPa。這是中心受壓與均勻壓力假設下的平均值，不代表已完成承載力、沉陷或偏心檢核。",
+      "600 並非題設條件下的計算結果。底面積為2×3＝6 m²，平均接觸壓力為600/6＝100 kN/m²，即100 kPa。這是中心受壓與均勻壓力假設下的平均值，不代表已完成承載力、沉陷或偏心檢核。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "bearing",
+      "N": 600,
+      "b": 2,
+      "L": 3
+    },
+    "choiceValues": [
+      300,
+      3600,
+      100,
+      600
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-structure-040",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 40,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "結構系統",
+    "question": "水平力40 kN的作用線距參考中心0.75 m，其靜力偏心扭矩絕對值為多少 kN·m？",
+    "options": [
+      "40",
+      "53.33",
+      "0.01875",
+      "30"
+    ],
+    "answer": 3,
+    "solution": "力矩為力乘垂直力臂，故40×0.75＝30 kN·m。須使用作用線到參考中心的垂直距離，不是沿任意方向量測的距離；此處僅求靜力偏心效應，未包含動力放大。",
+    "explanation": "力矩為力乘垂直力臂，故40×0.75＝30 kN·m。須使用作用線到參考中心的垂直距離，不是沿任意方向量測的距離；此處僅求靜力偏心效應，未包含動力放大。",
+    "optionExplanations": [
+      "40 並非題設條件下的計算結果。力矩為力乘垂直力臂，故40×0.75＝30 kN·m。須使用作用線到參考中心的垂直距離，不是沿任意方向量測的距離；此處僅求靜力偏心效應，未包含動力放大。",
+      "53.33 並非題設條件下的計算結果。力矩為力乘垂直力臂，故40×0.75＝30 kN·m。須使用作用線到參考中心的垂直距離，不是沿任意方向量測的距離；此處僅求靜力偏心效應，未包含動力放大。",
+      "0.01875 並非題設條件下的計算結果。力矩為力乘垂直力臂，故40×0.75＝30 kN·m。須使用作用線到參考中心的垂直距離，不是沿任意方向量測的距離；此處僅求靜力偏心效應，未包含動力放大。",
+      "正確：力矩為力乘垂直力臂，故40×0.75＝30 kN·m。須使用作用線到參考中心的垂直距離，不是沿任意方向量測的距離；此處僅求靜力偏心效應，未包含動力放大。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "torsion",
+      "F": 40,
+      "e": 0.75
+    },
+    "choiceValues": [
+      40,
+      53.33,
+      0.01875,
+      30
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-025",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 25,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "熱環境與外殼",
+    "question": "牆體U＝0.8 W/(m²·K)、面積25 m²、溫差15 K，穩態傳熱量為多少 W？",
+    "options": [
+      "300",
+      "30",
+      "468.75",
+      "750"
+    ],
+    "answer": 0,
+    "solution": "以Q＝UAΔT計算，0.8×25×15＝300 W。U為整體熱傳透率，不是單一材料導熱係數；題目為穩態簡化計算，未計入日射、熱容量、空氣滲漏等額外影響。",
+    "explanation": "以Q＝UAΔT計算，0.8×25×15＝300 W。U為整體熱傳透率，不是單一材料導熱係數；題目為穩態簡化計算，未計入日射、熱容量、空氣滲漏等額外影響。",
+    "optionExplanations": [
+      "正確：以Q＝UAΔT計算，0.8×25×15＝300 W。U為整體熱傳透率，不是單一材料導熱係數；題目為穩態簡化計算，未計入日射、熱容量、空氣滲漏等額外影響。",
+      "30 並非題設條件下的計算結果。以Q＝UAΔT計算，0.8×25×15＝300 W。U為整體熱傳透率，不是單一材料導熱係數；題目為穩態簡化計算，未計入日射、熱容量、空氣滲漏等額外影響。",
+      "468.75 並非題設條件下的計算結果。以Q＝UAΔT計算，0.8×25×15＝300 W。U為整體熱傳透率，不是單一材料導熱係數；題目為穩態簡化計算，未計入日射、熱容量、空氣滲漏等額外影響。",
+      "750 並非題設條件下的計算結果。以Q＝UAΔT計算，0.8×25×15＝300 W。U為整體熱傳透率，不是單一材料導熱係數；題目為穩態簡化計算，未計入日射、熱容量、空氣滲漏等額外影響。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "heat_flow",
+      "U": 0.8,
+      "A": 25,
+      "dT": 15
+    },
+    "choiceValues": [
+      300,
+      30,
+      468.75,
+      750
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-026",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 26,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "熱環境與外殼",
+    "question": "均質保溫層厚0.08 m、導熱係數0.04 W/(m·K)，單位面積熱阻為多少 m²·K/W？",
+    "options": [
+      "20",
+      "2",
+      "0.5",
+      "0.0032"
+    ],
+    "answer": 1,
+    "solution": "材料層單位面積熱阻R＝d/k＝0.08/0.04＝2 m²·K/W。不能把厚度與導熱係數相乘；這只是該材料層熱阻，若求整體牆體U值還須加其他層與表面熱阻。",
+    "explanation": "材料層單位面積熱阻R＝d/k＝0.08/0.04＝2 m²·K/W。不能把厚度與導熱係數相乘；這只是該材料層熱阻，若求整體牆體U值還須加其他層與表面熱阻。",
+    "optionExplanations": [
+      "20 並非題設條件下的計算結果。材料層單位面積熱阻R＝d/k＝0.08/0.04＝2 m²·K/W。不能把厚度與導熱係數相乘；這只是該材料層熱阻，若求整體牆體U值還須加其他層與表面熱阻。",
+      "正確：材料層單位面積熱阻R＝d/k＝0.08/0.04＝2 m²·K/W。不能把厚度與導熱係數相乘；這只是該材料層熱阻，若求整體牆體U值還須加其他層與表面熱阻。",
+      "0.5 並非題設條件下的計算結果。材料層單位面積熱阻R＝d/k＝0.08/0.04＝2 m²·K/W。不能把厚度與導熱係數相乘；這只是該材料層熱阻，若求整體牆體U值還須加其他層與表面熱阻。",
+      "0.0032 並非題設條件下的計算結果。材料層單位面積熱阻R＝d/k＝0.08/0.04＝2 m²·K/W。不能把厚度與導熱係數相乘；這只是該材料層熱阻，若求整體牆體U值還須加其他層與表面熱阻。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "thermal_R",
+      "d": 0.08,
+      "k": 0.04
+    },
+    "choiceValues": [
+      20,
+      2,
+      0.5,
+      0.0032
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-027",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 27,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "熱環境與外殼",
+    "question": "牆體各串聯層及內外表面熱阻合計為2.5 m²·K/W，整體U值為多少 W/(m²·K)？",
+    "options": [
+      "5",
+      "0.2",
+      "0.4",
+      "2.5"
+    ],
+    "answer": 2,
+    "solution": "一維串聯熱流下，總熱阻是各層及表面熱阻相加，整體熱傳透率為其倒數，所以U＝1/2.5＝0.4。題目已提供全部熱阻，不應再次加入表面熱阻而重複計算。",
+    "explanation": "一維串聯熱流下，總熱阻是各層及表面熱阻相加，整體熱傳透率為其倒數，所以U＝1/2.5＝0.4。題目已提供全部熱阻，不應再次加入表面熱阻而重複計算。",
+    "optionExplanations": [
+      "5 並非題設條件下的計算結果。一維串聯熱流下，總熱阻是各層及表面熱阻相加，整體熱傳透率為其倒數，所以U＝1/2.5＝0.4。題目已提供全部熱阻，不應再次加入表面熱阻而重複計算。",
+      "0.2 並非題設條件下的計算結果。一維串聯熱流下，總熱阻是各層及表面熱阻相加，整體熱傳透率為其倒數，所以U＝1/2.5＝0.4。題目已提供全部熱阻，不應再次加入表面熱阻而重複計算。",
+      "正確：一維串聯熱流下，總熱阻是各層及表面熱阻相加，整體熱傳透率為其倒數，所以U＝1/2.5＝0.4。題目已提供全部熱阻，不應再次加入表面熱阻而重複計算。",
+      "2.5 並非題設條件下的計算結果。一維串聯熱流下，總熱阻是各層及表面熱阻相加，整體熱傳透率為其倒數，所以U＝1/2.5＝0.4。題目已提供全部熱阻，不應再次加入表面熱阻而重複計算。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "series_U",
+      "R": [
+        0.1,
+        2,
+        0.4
+      ]
+    },
+    "choiceValues": [
+      5,
+      0.2,
+      0.4,
+      2.5
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-028",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 28,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "熱環境與外殼",
+    "question": "外牆80%面積的U值為0.5、20%為2，假設兩路平行熱流且溫差相同，平均U值為多少？",
+    "options": [
+      "1.25",
+      "2.5",
+      "0.4",
+      "0.8"
+    ],
+    "answer": 3,
+    "solution": "平行路徑在相同溫差下，各部分熱流按面積加總，故平均U＝0.8×0.5＋0.2×2＝0.8。應按面積加權U值，不是直接平均兩個數，也不是把兩條路徑當串聯熱阻。",
+    "explanation": "平行路徑在相同溫差下，各部分熱流按面積加總，故平均U＝0.8×0.5＋0.2×2＝0.8。應按面積加權U值，不是直接平均兩個數，也不是把兩條路徑當串聯熱阻。",
+    "optionExplanations": [
+      "1.25 並非題設條件下的計算結果。平行路徑在相同溫差下，各部分熱流按面積加總，故平均U＝0.8×0.5＋0.2×2＝0.8。應按面積加權U值，不是直接平均兩個數，也不是把兩條路徑當串聯熱阻。",
+      "2.5 並非題設條件下的計算結果。平行路徑在相同溫差下，各部分熱流按面積加總，故平均U＝0.8×0.5＋0.2×2＝0.8。應按面積加權U值，不是直接平均兩個數，也不是把兩條路徑當串聯熱阻。",
+      "0.4 並非題設條件下的計算結果。平行路徑在相同溫差下，各部分熱流按面積加總，故平均U＝0.8×0.5＋0.2×2＝0.8。應按面積加權U值，不是直接平均兩個數，也不是把兩條路徑當串聯熱阻。",
+      "正確：平行路徑在相同溫差下，各部分熱流按面積加總，故平均U＝0.8×0.5＋0.2×2＝0.8。應按面積加權U值，不是直接平均兩個數，也不是把兩條路徑當串聯熱阻。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "parallel_U",
+      "f": 0.8,
+      "U1": 0.5,
+      "U2": 2
+    },
+    "choiceValues": [
+      1.25,
+      2.5,
+      0.4,
+      0.8
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-029",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 29,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "日射與遮陽",
+    "question": "玻璃面積8 m²、入射日射500 W/m²、SHGC＝0.3，簡化日射得熱為多少 W？",
+    "options": [
+      "1200",
+      "4000",
+      "150",
+      "13333"
+    ],
+    "answer": 0,
+    "solution": "日射得熱為面積乘日射強度再乘SHGC，8×500×0.3＝1200 W。SHGC為日射熱取得係數，不能當作可見光透射率；這裡未計入室內外溫差造成的另外導熱負荷。",
+    "explanation": "日射得熱為面積乘日射強度再乘SHGC，8×500×0.3＝1200 W。SHGC為日射熱取得係數，不能當作可見光透射率；這裡未計入室內外溫差造成的另外導熱負荷。",
+    "optionExplanations": [
+      "正確：日射得熱為面積乘日射強度再乘SHGC，8×500×0.3＝1200 W。SHGC為日射熱取得係數，不能當作可見光透射率；這裡未計入室內外溫差造成的另外導熱負荷。",
+      "4000 並非題設條件下的計算結果。日射得熱為面積乘日射強度再乘SHGC，8×500×0.3＝1200 W。SHGC為日射熱取得係數，不能當作可見光透射率；這裡未計入室內外溫差造成的另外導熱負荷。",
+      "150 並非題設條件下的計算結果。日射得熱為面積乘日射強度再乘SHGC，8×500×0.3＝1200 W。SHGC為日射熱取得係數，不能當作可見光透射率；這裡未計入室內外溫差造成的另外導熱負荷。",
+      "13333 並非題設條件下的計算結果。日射得熱為面積乘日射強度再乘SHGC，8×500×0.3＝1200 W。SHGC為日射熱取得係數，不能當作可見光透射率；這裡未計入室內外溫差造成的另外導熱負荷。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "solar",
+      "A": 8,
+      "G": 500,
+      "shgc": 0.3
+    },
+    "choiceValues": [
+      1200,
+      4000,
+      150,
+      13333
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-030",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 30,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "通風與空氣品質",
+    "question": "密閉均勻混合空間容積200 m³，室外新風600 m³/h，忽略其他進排氣，新風換氣次數為多少次/h？",
+    "options": [
+      "30",
+      "3",
+      "0.333",
+      "1200"
+    ],
+    "answer": 1,
+    "solution": "換氣次數等於室外新風量除以空間容積，即600/200＝3次/h。室內循環風量不應混入新風量；此題只算體積換氣率，並未據此宣稱符合特定用途的法定通風標準。",
+    "explanation": "換氣次數等於室外新風量除以空間容積，即600/200＝3次/h。室內循環風量不應混入新風量；此題只算體積換氣率，並未據此宣稱符合特定用途的法定通風標準。",
+    "optionExplanations": [
+      "30 並非題設條件下的計算結果。換氣次數等於室外新風量除以空間容積，即600/200＝3次/h。室內循環風量不應混入新風量；此題只算體積換氣率，並未據此宣稱符合特定用途的法定通風標準。",
+      "正確：換氣次數等於室外新風量除以空間容積，即600/200＝3次/h。室內循環風量不應混入新風量；此題只算體積換氣率，並未據此宣稱符合特定用途的法定通風標準。",
+      "0.333 並非題設條件下的計算結果。換氣次數等於室外新風量除以空間容積，即600/200＝3次/h。室內循環風量不應混入新風量；此題只算體積換氣率，並未據此宣稱符合特定用途的法定通風標準。",
+      "1200 並非題設條件下的計算結果。換氣次數等於室外新風量除以空間容積，即600/200＝3次/h。室內循環風量不應混入新風量；此題只算體積換氣率，並未據此宣稱符合特定用途的法定通風標準。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "ach",
+      "Q": 600,
+      "V": 200
+    },
+    "choiceValues": [
+      30,
+      3,
+      0.333,
+      1200
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-031",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 31,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "通風與空氣品質",
+    "question": "穩態完全混合房間CO₂產生量0.018 m³/h，室外400 ppm、室內1000 ppm，所需新風為多少 m³/h？",
+    "options": [
+      "10.8",
+      "300",
+      "30",
+      "3"
+    ],
+    "answer": 2,
+    "solution": "穩態質量平衡Q＝G/(Ci−Co)，濃度差600 ppm須轉為0.0006。故Q＝0.018/0.0006＝30 m³/h；假設CO₂只由室內源產生，且新風濃度固定，無其他去除機制。",
+    "explanation": "穩態質量平衡Q＝G/(Ci−Co)，濃度差600 ppm須轉為0.0006。故Q＝0.018/0.0006＝30 m³/h；假設CO₂只由室內源產生，且新風濃度固定，無其他去除機制。",
+    "optionExplanations": [
+      "10.8 並非題設條件下的計算結果。穩態質量平衡Q＝G/(Ci−Co)，濃度差600 ppm須轉為0.0006。故Q＝0.018/0.0006＝30 m³/h；假設CO₂只由室內源產生，且新風濃度固定，無其他去除機制。",
+      "300 並非題設條件下的計算結果。穩態質量平衡Q＝G/(Ci−Co)，濃度差600 ppm須轉為0.0006。故Q＝0.018/0.0006＝30 m³/h；假設CO₂只由室內源產生，且新風濃度固定，無其他去除機制。",
+      "正確：穩態質量平衡Q＝G/(Ci−Co)，濃度差600 ppm須轉為0.0006。故Q＝0.018/0.0006＝30 m³/h；假設CO₂只由室內源產生，且新風濃度固定，無其他去除機制。",
+      "3 並非題設條件下的計算結果。穩態質量平衡Q＝G/(Ci−Co)，濃度差600 ppm須轉為0.0006。故Q＝0.018/0.0006＝30 m³/h；假設CO₂只由室內源產生，且新風濃度固定，無其他去除機制。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "co2",
+      "G": 0.018,
+      "Ci": 1000,
+      "Co": 400
+    },
+    "choiceValues": [
+      10.8,
+      300,
+      30,
+      3
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-032",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 32,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "空調與節能",
+    "question": "空氣ρ＝1.2 kg/m³、cp＝1 kJ/(kg·K)、流量0.5 m³/s、溫差10 K，顯熱負荷為多少 kW？",
+    "options": [
+      "60",
+      "0.6",
+      "12",
+      "6"
+    ],
+    "answer": 3,
+    "solution": "顯熱負荷為ρcpQΔT＝1.2×1×0.5×10＝6 kJ/s，即6 kW。比熱使用kJ單位，因此結果直接為kW；此題沒有計入濕度改變的潛熱，不是空調總冷負荷。",
+    "explanation": "顯熱負荷為ρcpQΔT＝1.2×1×0.5×10＝6 kJ/s，即6 kW。比熱使用kJ單位，因此結果直接為kW；此題沒有計入濕度改變的潛熱，不是空調總冷負荷。",
+    "optionExplanations": [
+      "60 並非題設條件下的計算結果。顯熱負荷為ρcpQΔT＝1.2×1×0.5×10＝6 kJ/s，即6 kW。比熱使用kJ單位，因此結果直接為kW；此題沒有計入濕度改變的潛熱，不是空調總冷負荷。",
+      "0.6 並非題設條件下的計算結果。顯熱負荷為ρcpQΔT＝1.2×1×0.5×10＝6 kJ/s，即6 kW。比熱使用kJ單位，因此結果直接為kW；此題沒有計入濕度改變的潛熱，不是空調總冷負荷。",
+      "12 並非題設條件下的計算結果。顯熱負荷為ρcpQΔT＝1.2×1×0.5×10＝6 kJ/s，即6 kW。比熱使用kJ單位，因此結果直接為kW；此題沒有計入濕度改變的潛熱，不是空調總冷負荷。",
+      "正確：顯熱負荷為ρcpQΔT＝1.2×1×0.5×10＝6 kJ/s，即6 kW。比熱使用kJ單位，因此結果直接為kW；此題沒有計入濕度改變的潛熱，不是空調總冷負荷。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "sensible",
+      "rho": 1.2,
+      "cp": 1,
+      "Q": 0.5,
+      "dT": 10
+    },
+    "choiceValues": [
+      60,
+      0.6,
+      12,
+      6
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-033",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 33,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "空調與節能",
+    "question": "冬季室外5°C、排風25°C，等熱容量流率顯熱回收效率0.5，簡化送風出口溫度為多少°C？",
+    "options": [
+      "15",
+      "10",
+      "20",
+      "30"
+    ],
+    "answer": 0,
+    "solution": "送風出口溫度為室外溫度加上回收效率乘排風與室外溫差，即5＋0.5×(25−5)＝15°C。此題假設等熱容量流率、顯熱交換且無其他熱源，不處理水分轉移。",
+    "explanation": "送風出口溫度為室外溫度加上回收效率乘排風與室外溫差，即5＋0.5×(25−5)＝15°C。此題假設等熱容量流率、顯熱交換且無其他熱源，不處理水分轉移。",
+    "optionExplanations": [
+      "正確：送風出口溫度為室外溫度加上回收效率乘排風與室外溫差，即5＋0.5×(25−5)＝15°C。此題假設等熱容量流率、顯熱交換且無其他熱源，不處理水分轉移。",
+      "10 並非題設條件下的計算結果。送風出口溫度為室外溫度加上回收效率乘排風與室外溫差，即5＋0.5×(25−5)＝15°C。此題假設等熱容量流率、顯熱交換且無其他熱源，不處理水分轉移。",
+      "20 並非題設條件下的計算結果。送風出口溫度為室外溫度加上回收效率乘排風與室外溫差，即5＋0.5×(25−5)＝15°C。此題假設等熱容量流率、顯熱交換且無其他熱源，不處理水分轉移。",
+      "30 並非題設條件下的計算結果。送風出口溫度為室外溫度加上回收效率乘排風與室外溫差，即5＋0.5×(25−5)＝15°C。此題假設等熱容量流率、顯熱交換且無其他熱源，不處理水分轉移。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "recovery",
+      "outdoor": 5,
+      "exhaust": 25,
+      "eff": 0.5
+    },
+    "choiceValues": [
+      15,
+      10,
+      20,
+      30
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-034",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 34,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "給排水與設備",
+    "question": "水泵流量0.01 m³/s、揚程10 m、效率0.5，ρ＝1000 kg/m³、g＝10 m/s²，輸入功率為多少 W？",
+    "options": [
+      "200",
+      "2000",
+      "1000",
+      "500"
+    ],
+    "answer": 1,
+    "solution": "水力輸出功率ρgQH＝1000×10×0.01×10＝1000 W。輸入功率須除以效率0.5，得到2000 W；不能把效率相乘，否則輸入反而小於輸出，違反能量關係。",
+    "explanation": "水力輸出功率ρgQH＝1000×10×0.01×10＝1000 W。輸入功率須除以效率0.5，得到2000 W；不能把效率相乘，否則輸入反而小於輸出，違反能量關係。",
+    "optionExplanations": [
+      "200 並非題設條件下的計算結果。水力輸出功率ρgQH＝1000×10×0.01×10＝1000 W。輸入功率須除以效率0.5，得到2000 W；不能把效率相乘，否則輸入反而小於輸出，違反能量關係。",
+      "正確：水力輸出功率ρgQH＝1000×10×0.01×10＝1000 W。輸入功率須除以效率0.5，得到2000 W；不能把效率相乘，否則輸入反而小於輸出，違反能量關係。",
+      "1000 並非題設條件下的計算結果。水力輸出功率ρgQH＝1000×10×0.01×10＝1000 W。輸入功率須除以效率0.5，得到2000 W；不能把效率相乘，否則輸入反而小於輸出，違反能量關係。",
+      "500 並非題設條件下的計算結果。水力輸出功率ρgQH＝1000×10×0.01×10＝1000 W。輸入功率須除以效率0.5，得到2000 W；不能把效率相乘，否則輸入反而小於輸出，違反能量關係。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "pump",
+      "rho": 1000,
+      "g": 10,
+      "Q": 0.01,
+      "H": 10,
+      "eta": 0.5
+    },
+    "choiceValues": [
+      200,
+      2000,
+      1000,
+      500
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-035",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 35,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "照明與視環境",
+    "question": "理想點光源沿受光方向光強800 cd，垂直照射距離4 m之受光面，忽略反射，照度為多少 lx？",
+    "options": [
+      "3200",
+      "100",
+      "50",
+      "200"
+    ],
+    "answer": 2,
+    "solution": "垂直入射點光源照度E＝I/r²＝800/16＝50 lx。若斜向入射還須考慮入射角餘弦；本題已排除反射光與大面積光源效應，因此可使用距離平方反比關係。",
+    "explanation": "垂直入射點光源照度E＝I/r²＝800/16＝50 lx。若斜向入射還須考慮入射角餘弦；本題已排除反射光與大面積光源效應，因此可使用距離平方反比關係。",
+    "optionExplanations": [
+      "3200 並非題設條件下的計算結果。垂直入射點光源照度E＝I/r²＝800/16＝50 lx。若斜向入射還須考慮入射角餘弦；本題已排除反射光與大面積光源效應，因此可使用距離平方反比關係。",
+      "100 並非題設條件下的計算結果。垂直入射點光源照度E＝I/r²＝800/16＝50 lx。若斜向入射還須考慮入射角餘弦；本題已排除反射光與大面積光源效應，因此可使用距離平方反比關係。",
+      "正確：垂直入射點光源照度E＝I/r²＝800/16＝50 lx。若斜向入射還須考慮入射角餘弦；本題已排除反射光與大面積光源效應，因此可使用距離平方反比關係。",
+      "200 並非題設條件下的計算結果。垂直入射點光源照度E＝I/r²＝800/16＝50 lx。若斜向入射還須考慮入射角餘弦；本題已排除反射光與大面積光源效應，因此可使用距離平方反比關係。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "illuminance",
+      "I": 800,
+      "r": 4
+    },
+    "choiceValues": [
+      3200,
+      100,
+      50,
+      200
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-036",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 36,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "照明與視環境",
+    "question": "面積60 m²要求平均300 lx，每盞3000 lm、利用率0.6、維護率0.8，流明法至少需要幾盞？",
+    "options": [
+      "12",
+      "10",
+      "6",
+      "13"
+    ],
+    "answer": 3,
+    "solution": "所需盞數為EA/(ΦUF MF)＝300×60/(3000×0.6×0.8)＝12.5，必須向上取整為13盞。這是平均照度估算，尚未驗證均勻度、眩光或實際燈具配光條件。",
+    "explanation": "所需盞數為EA/(ΦUF MF)＝300×60/(3000×0.6×0.8)＝12.5，必須向上取整為13盞。這是平均照度估算，尚未驗證均勻度、眩光或實際燈具配光條件。",
+    "optionExplanations": [
+      "12 並非題設條件下的計算結果。所需盞數為EA/(ΦUF MF)＝300×60/(3000×0.6×0.8)＝12.5，必須向上取整為13盞。這是平均照度估算，尚未驗證均勻度、眩光或實際燈具配光條件。",
+      "10 並非題設條件下的計算結果。所需盞數為EA/(ΦUF MF)＝300×60/(3000×0.6×0.8)＝12.5，必須向上取整為13盞。這是平均照度估算，尚未驗證均勻度、眩光或實際燈具配光條件。",
+      "6 並非題設條件下的計算結果。所需盞數為EA/(ΦUF MF)＝300×60/(3000×0.6×0.8)＝12.5，必須向上取整為13盞。這是平均照度估算，尚未驗證均勻度、眩光或實際燈具配光條件。",
+      "正確：所需盞數為EA/(ΦUF MF)＝300×60/(3000×0.6×0.8)＝12.5，必須向上取整為13盞。這是平均照度估算，尚未驗證均勻度、眩光或實際燈具配光條件。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "lumen",
+      "E": 300,
+      "A": 60,
+      "flux": 3000,
+      "UF": 0.6,
+      "MF": 0.8
+    },
+    "choiceValues": [
+      12,
+      10,
+      6,
+      13
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-037",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 37,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "聲環境",
+    "question": "擴散音場符合Sabine模型，容積300 m³、等效吸音面積60 m²，殘響時間取兩位小數為多少秒？",
+    "options": [
+      "0.81",
+      "0.16",
+      "5",
+      "1.61"
+    ],
+    "answer": 0,
+    "solution": "使用T＝0.161V/A＝0.161×300/60＝0.805秒，依題目要求取兩位小數為0.81秒。等效吸音面積已含材料面積與吸音係數，不能再以房間表面總面積直接代入。",
+    "explanation": "使用T＝0.161V/A＝0.161×300/60＝0.805秒，依題目要求取兩位小數為0.81秒。等效吸音面積已含材料面積與吸音係數，不能再以房間表面總面積直接代入。",
+    "optionExplanations": [
+      "正確：使用T＝0.161V/A＝0.161×300/60＝0.805秒，依題目要求取兩位小數為0.81秒。等效吸音面積已含材料面積與吸音係數，不能再以房間表面總面積直接代入。",
+      "0.16 並非題設條件下的計算結果。使用T＝0.161V/A＝0.161×300/60＝0.805秒，依題目要求取兩位小數為0.81秒。等效吸音面積已含材料面積與吸音係數，不能再以房間表面總面積直接代入。",
+      "5 並非題設條件下的計算結果。使用T＝0.161V/A＝0.161×300/60＝0.805秒，依題目要求取兩位小數為0.81秒。等效吸音面積已含材料面積與吸音係數，不能再以房間表面總面積直接代入。",
+      "1.61 並非題設條件下的計算結果。使用T＝0.161V/A＝0.161×300/60＝0.805秒，依題目要求取兩位小數為0.81秒。等效吸音面積已含材料面積與吸音係數，不能再以房間表面總面積直接代入。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "sabine",
+      "V": 300,
+      "A": 60
+    },
+    "choiceValues": [
+      0.81,
+      0.16,
+      5,
+      1.61
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-038",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 38,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "聲環境",
+    "question": "兩個互不相干、各自於測點造成60 dB的音源同時作用，總聲級約為多少 dB？",
+    "options": [
+      "66",
+      "63",
+      "120",
+      "60"
+    ],
+    "answer": 1,
+    "solution": "分貝為對數量，應先加聲能再取對數。兩個等強且不相干音源相加，增加10log10(2)約3 dB，因此總聲級約63 dB；不能直接將60與60相加為120。",
+    "explanation": "分貝為對數量，應先加聲能再取對數。兩個等強且不相干音源相加，增加10log10(2)約3 dB，因此總聲級約63 dB；不能直接將60與60相加為120。",
+    "optionExplanations": [
+      "66 並非題設條件下的計算結果。分貝為對數量，應先加聲能再取對數。兩個等強且不相干音源相加，增加10log10(2)約3 dB，因此總聲級約63 dB；不能直接將60與60相加為120。",
+      "正確：分貝為對數量，應先加聲能再取對數。兩個等強且不相干音源相加，增加10log10(2)約3 dB，因此總聲級約63 dB；不能直接將60與60相加為120。",
+      "120 並非題設條件下的計算結果。分貝為對數量，應先加聲能再取對數。兩個等強且不相干音源相加，增加10log10(2)約3 dB，因此總聲級約63 dB；不能直接將60與60相加為120。",
+      "60 並非題設條件下的計算結果。分貝為對數量，應先加聲能再取對數。兩個等強且不相干音源相加，增加10log10(2)約3 dB，因此總聲級約63 dB；不能直接將60與60相加為120。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "sound_sum",
+      "level": 60,
+      "count": 2
+    },
+    "choiceValues": [
+      66,
+      63,
+      120,
+      60
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-039",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 39,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "空調與節能",
+    "question": "冷凍機提供12 kW冷房能力、消耗3 kW電功率，冷房COP為多少？",
+    "options": [
+      "9",
+      "15",
+      "4",
+      "0.25"
+    ],
+    "answer": 2,
+    "solution": "冷房COP定義為移除的熱量率除以輸入電功率，因此12/3＝4。COP不是熱機效率，可以大於1，因為設備搬運熱量；它不表示設備從無到有產生四倍電能。",
+    "explanation": "冷房COP定義為移除的熱量率除以輸入電功率，因此12/3＝4。COP不是熱機效率，可以大於1，因為設備搬運熱量；它不表示設備從無到有產生四倍電能。",
+    "optionExplanations": [
+      "9 並非題設條件下的計算結果。冷房COP定義為移除的熱量率除以輸入電功率，因此12/3＝4。COP不是熱機效率，可以大於1，因為設備搬運熱量；它不表示設備從無到有產生四倍電能。",
+      "15 並非題設條件下的計算結果。冷房COP定義為移除的熱量率除以輸入電功率，因此12/3＝4。COP不是熱機效率，可以大於1，因為設備搬運熱量；它不表示設備從無到有產生四倍電能。",
+      "正確：冷房COP定義為移除的熱量率除以輸入電功率，因此12/3＝4。COP不是熱機效率，可以大於1，因為設備搬運熱量；它不表示設備從無到有產生四倍電能。",
+      "0.25 並非題設條件下的計算結果。冷房COP定義為移除的熱量率除以輸入電功率，因此12/3＝4。COP不是熱機效率，可以大於1，因為設備搬運熱量；它不表示設備從無到有產生四倍電能。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "cop",
+      "cooling": 12,
+      "power": 3
+    },
+    "choiceValues": [
+      9,
+      15,
+      4,
+      0.25
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-environment-040",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 40,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "空調與節能",
+    "question": "室內冷負荷顯熱8 kW、潛熱2 kW，顯熱比SHF為多少？",
+    "options": [
+      "4",
+      "0.2",
+      "1.25",
+      "0.8"
+    ],
+    "answer": 3,
+    "solution": "顯熱比SHF＝顯熱/(顯熱＋潛熱)，因此8/(8＋2)＝0.8。分母應為總負荷而非僅潛熱；此數值表示負荷組成，並不等於設備效率或空氣的相對濕度。",
+    "explanation": "顯熱比SHF＝顯熱/(顯熱＋潛熱)，因此8/(8＋2)＝0.8。分母應為總負荷而非僅潛熱；此數值表示負荷組成，並不等於設備效率或空氣的相對濕度。",
+    "optionExplanations": [
+      "4 並非題設條件下的計算結果。顯熱比SHF＝顯熱/(顯熱＋潛熱)，因此8/(8＋2)＝0.8。分母應為總負荷而非僅潛熱；此數值表示負荷組成，並不等於設備效率或空氣的相對濕度。",
+      "0.2 並非題設條件下的計算結果。顯熱比SHF＝顯熱/(顯熱＋潛熱)，因此8/(8＋2)＝0.8。分母應為總負荷而非僅潛熱；此數值表示負荷組成，並不等於設備效率或空氣的相對濕度。",
+      "1.25 並非題設條件下的計算結果。顯熱比SHF＝顯熱/(顯熱＋潛熱)，因此8/(8＋2)＝0.8。分母應為總負荷而非僅潛熱；此數值表示負荷組成，並不等於設備效率或空氣的相對濕度。",
+      "正確：顯熱比SHF＝顯熱/(顯熱＋潛熱)，因此8/(8＋2)＝0.8。分母應為總負荷而非僅潛熱；此數值表示負荷組成，並不等於設備效率或空氣的相對濕度。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理及工程簡化模型。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare 延伸教材",
+        "url": "https://ocw.mit.edu/"
+      }
+    ],
+    "calculation": {
+      "kind": "shf",
+      "sensible": 8,
+      "latent": 2
+    },
+    "choiceValues": [
+      4,
+      0.2,
+      1.25,
+      0.8
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-005",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 5,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "權責與管理",
+    "question": "依建築法，中央主管建築機關為何？",
+    "options": [
+      "內政部",
+      "教育部",
+      "財政部",
+      "法務部"
+    ],
+    "answer": 0,
+    "solution": "第2條指定中央為內政部；地方主管機關則依行政區分為直轄市或縣市政府。判題時應先辨識中央與地方層級，不能把其他部會業務或地方政府承辦單位混作中央主管機關。",
+    "explanation": "第2條指定中央為內政部；地方主管機關則依行政區分為直轄市或縣市政府。判題時應先辨識中央與地方層級，不能把其他部會業務或地方政府承辦單位混作中央主管機關。",
+    "optionExplanations": [
+      "正確：第2條指定中央為內政部；地方主管機關則依行政區分為直轄市或縣市政府。判題時應先辨識中央與地方層級，不能把其他部會業務或地方政府承辦單位混作中央主管機關。",
+      "「教育部」與本題指定條文不符。第2條指定中央為內政部；地方主管機關則依行政區分為直轄市或縣市政府。判題時應先辨識中央與地方層級，不能把其他部會業務或地方政府承辦單位混作中央主管機關。",
+      "「財政部」與本題指定條文不符。第2條指定中央為內政部；地方主管機關則依行政區分為直轄市或縣市政府。判題時應先辨識中央與地方層級，不能把其他部會業務或地方政府承辦單位混作中央主管機關。",
+      "「法務部」與本題指定條文不符。第2條指定中央為內政部；地方主管機關則依行政區分為直轄市或縣市政府。判題時應先辨識中央與地方層級，不能把其他部會業務或地方政府承辦單位混作中央主管機關。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第2條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第2條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=2"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-006",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 6,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "建造行為分類",
+    "question": "在原建築物增加面積或高度，且不屬過廊連接例外，依建築法屬何者？",
+    "options": [
+      "純設備保養",
+      "增建",
+      "拆除",
+      "修建"
+    ],
+    "answer": 1,
+    "solution": "第9條將增加原建物面積或高度歸為增建，並另規定以過廊連接者視為新建。題目已排除該例外；重點為面積或高度增加，不是單看工程金額、施工天數或使用材料。",
+    "explanation": "第9條將增加原建物面積或高度歸為增建，並另規定以過廊連接者視為新建。題目已排除該例外；重點為面積或高度增加，不是單看工程金額、施工天數或使用材料。",
+    "optionExplanations": [
+      "「純設備保養」與本題指定條文不符。第9條將增加原建物面積或高度歸為增建，並另規定以過廊連接者視為新建。題目已排除該例外；重點為面積或高度增加，不是單看工程金額、施工天數或使用材料。",
+      "正確：第9條將增加原建物面積或高度歸為增建，並另規定以過廊連接者視為新建。題目已排除該例外；重點為面積或高度增加，不是單看工程金額、施工天數或使用材料。",
+      "「拆除」與本題指定條文不符。第9條將增加原建物面積或高度歸為增建，並另規定以過廊連接者視為新建。題目已排除該例外；重點為面積或高度增加，不是單看工程金額、施工天數或使用材料。",
+      "「修建」與本題指定條文不符。第9條將增加原建物面積或高度歸為增建，並另規定以過廊連接者視為新建。題目已排除該例外；重點為面積或高度增加，不是單看工程金額、施工天數或使用材料。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第9條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第9條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=9"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-007",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 7,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "建造行為分類",
+    "question": "將建物一部分拆除，在原基地改造且不增高、不擴大面積，依建築法屬何者？",
+    "options": [
+      "全部拆除重建",
+      "例行清潔",
+      "改建",
+      "增建"
+    ],
+    "answer": 2,
+    "solution": "第9條改建的判別需同時看部分拆除、在原基地改造及不增高不擴大面積。不能只看使用「改造」二字就判斷；若全部拆除重建，或增加高度與面積，分類條件便不同。",
+    "explanation": "第9條改建的判別需同時看部分拆除、在原基地改造及不增高不擴大面積。不能只看使用「改造」二字就判斷；若全部拆除重建，或增加高度與面積，分類條件便不同。",
+    "optionExplanations": [
+      "「全部拆除重建」與本題指定條文不符。第9條改建的判別需同時看部分拆除、在原基地改造及不增高不擴大面積。不能只看使用「改造」二字就判斷；若全部拆除重建，或增加高度與面積，分類條件便不同。",
+      "「例行清潔」與本題指定條文不符。第9條改建的判別需同時看部分拆除、在原基地改造及不增高不擴大面積。不能只看使用「改造」二字就判斷；若全部拆除重建，或增加高度與面積，分類條件便不同。",
+      "正確：第9條改建的判別需同時看部分拆除、在原基地改造及不增高不擴大面積。不能只看使用「改造」二字就判斷；若全部拆除重建，或增加高度與面積，分類條件便不同。",
+      "「增建」與本題指定條文不符。第9條改建的判別需同時看部分拆除、在原基地改造及不增高不擴大面積。不能只看使用「改造」二字就判斷；若全部拆除重建，或增加高度與面積，分類條件便不同。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第9條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第9條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=9"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-008",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 8,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "建築基地",
+    "question": "依建築法，建築基地除建物本身占地外，尚包括何者？",
+    "options": [
+      "附近所有道路",
+      "鄰地所有庭院",
+      "整個行政區",
+      "應留設的法定空地"
+    ],
+    "answer": 3,
+    "solution": "第11條所稱基地涵蓋建物占地及應留法定空地。不可僅把建物外牆內的投影範圍視為全部基地；附近道路或鄰地不因鄰近就自動納入。應以合法基地範圍與相關規定判斷。",
+    "explanation": "第11條所稱基地涵蓋建物占地及應留法定空地。不可僅把建物外牆內的投影範圍視為全部基地；附近道路或鄰地不因鄰近就自動納入。應以合法基地範圍與相關規定判斷。",
+    "optionExplanations": [
+      "「附近所有道路」與本題指定條文不符。第11條所稱基地涵蓋建物占地及應留法定空地。不可僅把建物外牆內的投影範圍視為全部基地；附近道路或鄰地不因鄰近就自動納入。應以合法基地範圍與相關規定判斷。",
+      "「鄰地所有庭院」與本題指定條文不符。第11條所稱基地涵蓋建物占地及應留法定空地。不可僅把建物外牆內的投影範圍視為全部基地；附近道路或鄰地不因鄰近就自動納入。應以合法基地範圍與相關規定判斷。",
+      "「整個行政區」與本題指定條文不符。第11條所稱基地涵蓋建物占地及應留法定空地。不可僅把建物外牆內的投影範圍視為全部基地；附近道路或鄰地不因鄰近就自動納入。應以合法基地範圍與相關規定判斷。",
+      "正確：第11條所稱基地涵蓋建物占地及應留法定空地。不可僅把建物外牆內的投影範圍視為全部基地；附近道路或鄰地不因鄰近就自動納入。應以合法基地範圍與相關規定判斷。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第11條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第11條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=11"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-009",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 9,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "權責與管理",
+    "question": "依建築法，起造人係指何人？",
+    "options": [
+      "申請建造該建築物者",
+      "所有工地工人",
+      "附近里長",
+      "材料送貨人"
+    ],
+    "answer": 0,
+    "solution": "第12條以建造該建物的申請人界定起造人，並另定特定身分的代理與責任。起造人不是監造人或承造人的通稱，不能把所有參與工程的人都視為起造人。判斷應回到申請關係。",
+    "explanation": "第12條以建造該建物的申請人界定起造人，並另定特定身分的代理與責任。起造人不是監造人或承造人的通稱，不能把所有參與工程的人都視為起造人。判斷應回到申請關係。",
+    "optionExplanations": [
+      "正確：第12條以建造該建物的申請人界定起造人，並另定特定身分的代理與責任。起造人不是監造人或承造人的通稱，不能把所有參與工程的人都視為起造人。判斷應回到申請關係。",
+      "「所有工地工人」與本題指定條文不符。第12條以建造該建物的申請人界定起造人，並另定特定身分的代理與責任。起造人不是監造人或承造人的通稱，不能把所有參與工程的人都視為起造人。判斷應回到申請關係。",
+      "「附近里長」與本題指定條文不符。第12條以建造該建物的申請人界定起造人，並另定特定身分的代理與責任。起造人不是監造人或承造人的通稱，不能把所有參與工程的人都視為起造人。判斷應回到申請關係。",
+      "「材料送貨人」與本題指定條文不符。第12條以建造該建物的申請人界定起造人，並另定特定身分的代理與責任。起造人不是監造人或承造人的通稱，不能把所有參與工程的人都視為起造人。判斷應回到申請關係。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第12條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第12條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=12"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-010",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 10,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "權責與管理",
+    "question": "依建築法第14條，承造人的一般資格為何？",
+    "options": [
+      "任何土地鄰居",
+      "依法登記開業的營造廠商",
+      "任一房客",
+      "未登記的材料商"
+    ],
+    "answer": 1,
+    "solution": "第14條以依法登記開業的營造業界定承造人。承造與起造、設計、監造分屬不同角色，不能僅因持有土地或提供材料就取得承造資格；其他法定例外須另依其規定審視。",
+    "explanation": "第14條以依法登記開業的營造業界定承造人。承造與起造、設計、監造分屬不同角色，不能僅因持有土地或提供材料就取得承造資格；其他法定例外須另依其規定審視。",
+    "optionExplanations": [
+      "「任何土地鄰居」與本題指定條文不符。第14條以依法登記開業的營造業界定承造人。承造與起造、設計、監造分屬不同角色，不能僅因持有土地或提供材料就取得承造資格；其他法定例外須另依其規定審視。",
+      "正確：第14條以依法登記開業的營造業界定承造人。承造與起造、設計、監造分屬不同角色，不能僅因持有土地或提供材料就取得承造資格；其他法定例外須另依其規定審視。",
+      "「任一房客」與本題指定條文不符。第14條以依法登記開業的營造業界定承造人。承造與起造、設計、監造分屬不同角色，不能僅因持有土地或提供材料就取得承造資格；其他法定例外須另依其規定審視。",
+      "「未登記的材料商」與本題指定條文不符。第14條以依法登記開業的營造業界定承造人。承造與起造、設計、監造分屬不同角色，不能僅因持有土地或提供材料就取得承造資格；其他法定例外須另依其規定審視。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第14條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第14條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=14"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-011",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 11,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "建築許可",
+    "question": "公有建築依建築法應如何辦理建築執照？",
+    "options": [
+      "以內部會議取代",
+      "由鄰居代為口頭核准",
+      "由起造機關向主管機關請領",
+      "一律免領"
+    ],
+    "answer": 2,
+    "solution": "第24條仍要求公有建築由起造機關提出核定或決定的計畫、圖樣與說明書，向主管機關請領執照。公有身分不代表所有工程自動免除建築管理，也不能以內部核定完全取代請領程序。",
+    "explanation": "第24條仍要求公有建築由起造機關提出核定或決定的計畫、圖樣與說明書，向主管機關請領執照。公有身分不代表所有工程自動免除建築管理，也不能以內部核定完全取代請領程序。",
+    "optionExplanations": [
+      "「以內部會議取代」與本題指定條文不符。第24條仍要求公有建築由起造機關提出核定或決定的計畫、圖樣與說明書，向主管機關請領執照。公有身分不代表所有工程自動免除建築管理，也不能以內部核定完全取代請領程序。",
+      "「由鄰居代為口頭核准」與本題指定條文不符。第24條仍要求公有建築由起造機關提出核定或決定的計畫、圖樣與說明書，向主管機關請領執照。公有身分不代表所有工程自動免除建築管理，也不能以內部核定完全取代請領程序。",
+      "正確：第24條仍要求公有建築由起造機關提出核定或決定的計畫、圖樣與說明書，向主管機關請領執照。公有身分不代表所有工程自動免除建築管理，也不能以內部核定完全取代請領程序。",
+      "「一律免領」與本題指定條文不符。第24條仍要求公有建築由起造機關提出核定或決定的計畫、圖樣與說明書，向主管機關請領執照。公有身分不代表所有工程自動免除建築管理，也不能以內部核定完全取代請領程序。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第24條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第24條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=24"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-012",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 12,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "建築許可",
+    "question": "營建雜項工作物，依建築法第28條應請領何種執照？",
+    "options": [
+      "只有使用執照",
+      "營業登記證",
+      "護照",
+      "雜項執照"
+    ],
+    "answer": 3,
+    "solution": "第28條區分建造、雜項、使用與拆除四類許可，其中雜項工作物的建築對應雜項執照。應先辨識工程對象，再判斷許可種類；不得以其他行政登記代替建築法規定的執照。",
+    "explanation": "第28條區分建造、雜項、使用與拆除四類許可，其中雜項工作物的建築對應雜項執照。應先辨識工程對象，再判斷許可種類；不得以其他行政登記代替建築法規定的執照。",
+    "optionExplanations": [
+      "「只有使用執照」與本題指定條文不符。第28條區分建造、雜項、使用與拆除四類許可，其中雜項工作物的建築對應雜項執照。應先辨識工程對象，再判斷許可種類；不得以其他行政登記代替建築法規定的執照。",
+      "「營業登記證」與本題指定條文不符。第28條區分建造、雜項、使用與拆除四類許可，其中雜項工作物的建築對應雜項執照。應先辨識工程對象，再判斷許可種類；不得以其他行政登記代替建築法規定的執照。",
+      "「護照」與本題指定條文不符。第28條區分建造、雜項、使用與拆除四類許可，其中雜項工作物的建築對應雜項執照。應先辨識工程對象，再判斷許可種類；不得以其他行政登記代替建築法規定的執照。",
+      "正確：第28條區分建造、雜項、使用與拆除四類許可，其中雜項工作物的建築對應雜項執照。應先辨識工程對象，再判斷許可種類；不得以其他行政登記代替建築法規定的執照。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第28條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第28條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=28"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-013",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 13,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "建築許可",
+    "question": "依建築法第29條，哪種執照免費發給？",
+    "options": [
+      "拆除執照",
+      "所有建造執照",
+      "所有雜項執照",
+      "所有使用執照"
+    ],
+    "answer": 0,
+    "solution": "第29條對各類執照採不同規費方式，拆除執照列為免費發給。免費係指此處發照費用，不表示拆除施工、清運或其他必要程序完全沒有成本，也不代表拆除一律免申請。",
+    "explanation": "第29條對各類執照採不同規費方式，拆除執照列為免費發給。免費係指此處發照費用，不表示拆除施工、清運或其他必要程序完全沒有成本，也不代表拆除一律免申請。",
+    "optionExplanations": [
+      "正確：第29條對各類執照採不同規費方式，拆除執照列為免費發給。免費係指此處發照費用，不表示拆除施工、清運或其他必要程序完全沒有成本，也不代表拆除一律免申請。",
+      "「所有建造執照」與本題指定條文不符。第29條對各類執照採不同規費方式，拆除執照列為免費發給。免費係指此處發照費用，不表示拆除施工、清運或其他必要程序完全沒有成本，也不代表拆除一律免申請。",
+      "「所有雜項執照」與本題指定條文不符。第29條對各類執照採不同規費方式，拆除執照列為免費發給。免費係指此處發照費用，不表示拆除施工、清運或其他必要程序完全沒有成本，也不代表拆除一律免申請。",
+      "「所有使用執照」與本題指定條文不符。第29條對各類執照採不同規費方式，拆除執照列為免費發給。免費係指此處發照費用，不表示拆除施工、清運或其他必要程序完全沒有成本，也不代表拆除一律免申請。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第29條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第29條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=29"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-014",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 14,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "申請與審查",
+    "question": "一般建造執照申請不屬供公眾使用或構造複雜案件，主管機關收到書件後原則應在幾日內審查完竣？",
+    "options": [
+      "180日",
+      "10日",
+      "1日",
+      "90日"
+    ],
+    "answer": 1,
+    "solution": "第33條的一般審查期限為10日，供公眾使用或構造複雜另有延長規定。題目已排除特殊案件；審查期限不等於任何案件一定核准，合格與否仍須依照審查結果判定。",
+    "explanation": "第33條的一般審查期限為10日，供公眾使用或構造複雜另有延長規定。題目已排除特殊案件；審查期限不等於任何案件一定核准，合格與否仍須依照審查結果判定。",
+    "optionExplanations": [
+      "「180日」與本題指定條文不符。第33條的一般審查期限為10日，供公眾使用或構造複雜另有延長規定。題目已排除特殊案件；審查期限不等於任何案件一定核准，合格與否仍須依照審查結果判定。",
+      "正確：第33條的一般審查期限為10日，供公眾使用或構造複雜另有延長規定。題目已排除特殊案件；審查期限不等於任何案件一定核准，合格與否仍須依照審查結果判定。",
+      "「1日」與本題指定條文不符。第33條的一般審查期限為10日，供公眾使用或構造複雜另有延長規定。題目已排除特殊案件；審查期限不等於任何案件一定核准，合格與否仍須依照審查結果判定。",
+      "「90日」與本題指定條文不符。第33條的一般審查期限為10日，供公眾使用或構造複雜另有延長規定。題目已排除特殊案件；審查期限不等於任何案件一定核准，合格與否仍須依照審查結果判定。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第33條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第33條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=33"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-015",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 15,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "申請與審查",
+    "question": "申請建造執照不合法令時，第35條要求主管機關如何通知？",
+    "options": [
+      "完全不說理由",
+      "直接保證自動通過",
+      "詳列不合條款並一次通知改正",
+      "只口頭說不合格"
+    ],
+    "answer": 2,
+    "solution": "第35條要求詳列不合條款，依規定期限一次通知起造人改正。此規定強調可辨識的改正事項及通知方式，並非允許申請人自行忽略法令，也不等於改正後不必經過後續審查。",
+    "explanation": "第35條要求詳列不合條款，依規定期限一次通知起造人改正。此規定強調可辨識的改正事項及通知方式，並非允許申請人自行忽略法令，也不等於改正後不必經過後續審查。",
+    "optionExplanations": [
+      "「完全不說理由」與本題指定條文不符。第35條要求詳列不合條款，依規定期限一次通知起造人改正。此規定強調可辨識的改正事項及通知方式，並非允許申請人自行忽略法令，也不等於改正後不必經過後續審查。",
+      "「直接保證自動通過」與本題指定條文不符。第35條要求詳列不合條款，依規定期限一次通知起造人改正。此規定強調可辨識的改正事項及通知方式，並非允許申請人自行忽略法令，也不等於改正後不必經過後續審查。",
+      "正確：第35條要求詳列不合條款，依規定期限一次通知起造人改正。此規定強調可辨識的改正事項及通知方式，並非允許申請人自行忽略法令，也不等於改正後不必經過後續審查。",
+      "「只口頭說不合格」與本題指定條文不符。第35條要求詳列不合條款，依規定期限一次通知起造人改正。此規定強調可辨識的改正事項及通知方式，並非允許申請人自行忽略法令，也不等於改正後不必經過後續審查。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第35條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第35條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=35"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-016",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 16,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "申請與審查",
+    "question": "接獲第一次改正通知後，依建築法第36條，應在多久內改正完竣送復審？",
+    "options": [
+      "6日",
+      "2年",
+      "無期限",
+      "6個月"
+    ],
+    "answer": 3,
+    "solution": "第36條設定自第一次通知改正之日起6個月內改正送復審。逾期或復審仍不合規定，主管機關得駁回；不能把申請保留期間理解為無限延長，也不要與領照或開工期限混淆。",
+    "explanation": "第36條設定自第一次通知改正之日起6個月內改正送復審。逾期或復審仍不合規定，主管機關得駁回；不能把申請保留期間理解為無限延長，也不要與領照或開工期限混淆。",
+    "optionExplanations": [
+      "「6日」與本題指定條文不符。第36條設定自第一次通知改正之日起6個月內改正送復審。逾期或復審仍不合規定，主管機關得駁回；不能把申請保留期間理解為無限延長，也不要與領照或開工期限混淆。",
+      "「2年」與本題指定條文不符。第36條設定自第一次通知改正之日起6個月內改正送復審。逾期或復審仍不合規定，主管機關得駁回；不能把申請保留期間理解為無限延長，也不要與領照或開工期限混淆。",
+      "「無期限」與本題指定條文不符。第36條設定自第一次通知改正之日起6個月內改正送復審。逾期或復審仍不合規定，主管機關得駁回；不能把申請保留期間理解為無限延長，也不要與領照或開工期限混淆。",
+      "正確：第36條設定自第一次通知改正之日起6個月內改正送復審。逾期或復審仍不合規定，主管機關得駁回；不能把申請保留期間理解為無限延長，也不要與領照或開工期限混淆。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第36條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第36條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=36"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-017",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 17,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "建築基地",
+    "question": "基地接連建築線部分的最小寬度，原則由誰統一規定？",
+    "options": [
+      "直轄市、縣市主管建築機關",
+      "申請人任意決定",
+      "鄰居投票決定",
+      "材料商決定"
+    ],
+    "answer": 0,
+    "solution": "第42條把接連部分最小寬度交由地方主管建築機關統一規定，並設特定情況例外。不能憑這條自行宣稱全國一律為某個數值，實際個案須再核對地方規定及例外要件。",
+    "explanation": "第42條把接連部分最小寬度交由地方主管建築機關統一規定，並設特定情況例外。不能憑這條自行宣稱全國一律為某個數值，實際個案須再核對地方規定及例外要件。",
+    "optionExplanations": [
+      "正確：第42條把接連部分最小寬度交由地方主管建築機關統一規定，並設特定情況例外。不能憑這條自行宣稱全國一律為某個數值，實際個案須再核對地方規定及例外要件。",
+      "「申請人任意決定」與本題指定條文不符。第42條把接連部分最小寬度交由地方主管建築機關統一規定，並設特定情況例外。不能憑這條自行宣稱全國一律為某個數值，實際個案須再核對地方規定及例外要件。",
+      "「鄰居投票決定」與本題指定條文不符。第42條把接連部分最小寬度交由地方主管建築機關統一規定，並設特定情況例外。不能憑這條自行宣稱全國一律為某個數值，實際個案須再核對地方規定及例外要件。",
+      "「材料商決定」與本題指定條文不符。第42條把接連部分最小寬度交由地方主管建築機關統一規定，並設特定情況例外。不能憑這條自行宣稱全國一律為某個數值，實際個案須再核對地方規定及例外要件。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第42條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第42條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=42"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-018",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 18,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "建築界限",
+    "question": "已公告道路的境界線原則指定為建築線，但細部計畫要求退縮時如何處理？",
+    "options": [
+      "依隔壁外牆決定",
+      "依細部計畫退縮規定",
+      "一律不退縮",
+      "由施工人自行選擇"
+    ],
+    "answer": 1,
+    "solution": "第48條以已公告道路境界線為原則，並明定細部計畫要求退縮時從其規定。因此不能只憑現況道路邊緣或隔壁建物判斷可建界限；應確認公告及都市計畫內容後再配置。",
+    "explanation": "第48條以已公告道路境界線為原則，並明定細部計畫要求退縮時從其規定。因此不能只憑現況道路邊緣或隔壁建物判斷可建界限；應確認公告及都市計畫內容後再配置。",
+    "optionExplanations": [
+      "「依隔壁外牆決定」與本題指定條文不符。第48條以已公告道路境界線為原則，並明定細部計畫要求退縮時從其規定。因此不能只憑現況道路邊緣或隔壁建物判斷可建界限；應確認公告及都市計畫內容後再配置。",
+      "正確：第48條以已公告道路境界線為原則，並明定細部計畫要求退縮時從其規定。因此不能只憑現況道路邊緣或隔壁建物判斷可建界限；應確認公告及都市計畫內容後再配置。",
+      "「一律不退縮」與本題指定條文不符。第48條以已公告道路境界線為原則，並明定細部計畫要求退縮時從其規定。因此不能只憑現況道路邊緣或隔壁建物判斷可建界限；應確認公告及都市計畫內容後再配置。",
+      "「由施工人自行選擇」與本題指定條文不符。第48條以已公告道路境界線為原則，並明定細部計畫要求退縮時從其規定。因此不能只憑現況道路邊緣或隔壁建物判斷可建界限；應確認公告及都市計畫內容後再配置。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第48條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第48條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=48"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-019",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 19,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "施工管理",
+    "question": "領得建造或雜項執照後，依建築法第54條原則應在多久內開工？",
+    "options": [
+      "1日",
+      "無限期",
+      "6個月",
+      "6年"
+    ],
+    "answer": 2,
+    "solution": "第54條規定自領照日起6個月內開工，不能開工的展期另有程序與期限。此期限與主管機關核定的完工期限不同，計算起點也不同；領照後仍須完成開工前應辦備查事項。",
+    "explanation": "第54條規定自領照日起6個月內開工，不能開工的展期另有程序與期限。此期限與主管機關核定的完工期限不同，計算起點也不同；領照後仍須完成開工前應辦備查事項。",
+    "optionExplanations": [
+      "「1日」與本題指定條文不符。第54條規定自領照日起6個月內開工，不能開工的展期另有程序與期限。此期限與主管機關核定的完工期限不同，計算起點也不同；領照後仍須完成開工前應辦備查事項。",
+      "「無限期」與本題指定條文不符。第54條規定自領照日起6個月內開工，不能開工的展期另有程序與期限。此期限與主管機關核定的完工期限不同，計算起點也不同；領照後仍須完成開工前應辦備查事項。",
+      "正確：第54條規定自領照日起6個月內開工，不能開工的展期另有程序與期限。此期限與主管機關核定的完工期限不同，計算起點也不同；領照後仍須完成開工前應辦備查事項。",
+      "「6年」與本題指定條文不符。第54條規定自領照日起6個月內開工，不能開工的展期另有程序與期限。此期限與主管機關核定的完工期限不同，計算起點也不同；領照後仍須完成開工前應辦備查事項。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第54條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第54條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=54"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
+  },
+  {
+    "id": "original-law-020",
+    "slug": "law",
+    "source": "original",
+    "questionNo": 20,
+    "year": 0,
+    "subject": "營建法規與實務",
+    "chapter": "施工管理",
+    "question": "核定計畫指定必須勘驗的部分，承造人會同監造人應如何處理後才可繼續施工？",
+    "options": [
+      "自行跳過",
+      "等全部完工才申報",
+      "只向材料商報備",
+      "按時申報"
+    ],
+    "answer": 3,
+    "solution": "第56條要求指定勘驗部分由承造人會同監造人按時申報後，方得繼續施工，主管機關並得隨時勘驗。實際項目與方式還須依相關管理規定，不能把此規定解讀為完全免除現場勘驗。",
+    "explanation": "第56條要求指定勘驗部分由承造人會同監造人按時申報後，方得繼續施工，主管機關並得隨時勘驗。實際項目與方式還須依相關管理規定，不能把此規定解讀為完全免除現場勘驗。",
+    "optionExplanations": [
+      "「自行跳過」與本題指定條文不符。第56條要求指定勘驗部分由承造人會同監造人按時申報後，方得繼續施工，主管機關並得隨時勘驗。實際項目與方式還須依相關管理規定，不能把此規定解讀為完全免除現場勘驗。",
+      "「等全部完工才申報」與本題指定條文不符。第56條要求指定勘驗部分由承造人會同監造人按時申報後，方得繼續施工，主管機關並得隨時勘驗。實際項目與方式還須依相關管理規定，不能把此規定解讀為完全免除現場勘驗。",
+      "「只向材料商報備」與本題指定條文不符。第56條要求指定勘驗部分由承造人會同監造人按時申報後，方得繼續施工，主管機關並得隨時勘驗。實際項目與方式還須依相關管理規定，不能把此規定解讀為完全免除現場勘驗。",
+      "正確：第56條要求指定勘驗部分由承造人會同監造人按時申報後，方得繼續施工，主管機關並得隨時勘驗。實際項目與方式還須依相關管理規定，不能把此規定解讀為完全免除現場勘驗。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "建築法第56條；修正日期111年5月11日，查核2026-11-03。",
+    "explanationSources": [
+      {
+        "title": "全國法規資料庫：建築法第56條",
+        "url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=D0070109&flno=56"
+      }
+    ],
+    "sourceNote": "原創草稿，尚待專家覆核；來源非逐題認證。"
   }
 ]
