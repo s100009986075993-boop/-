@@ -39,3 +39,7 @@ After deployment, verify the live homepage, scripts, question images, PDFs,
 corrected answers, reference search, and site/design note timers. A new website
 origin uses separate browser storage; it does not automatically import local
 trial progress. The public site retains the existing incomplete-feature labels.
+
+## Multiplayer service
+
+GitHub Pages serves only the room client, not the Node backend. Keep `rooms-config.js` set to `apiBase: null` until a real service exists. Publish root `rooms.js` and `rooms-config.js` with the other browser assets; never publish server tokens or credentials. Render setup, current in-memory storage limitations and two-client readiness checks are documented in `MULTIPLAYER.md`. A Pages deployment alone does not enable multiplayer.

@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: architect-study-rooms
+    runtime: node
+    plan: free
+    buildCommand: node --check server/rooms.cjs
+    startCommand: node server/rooms.cjs
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 24.19.0
+      - key: PUBLIC_ORIGIN
+        value: https://s100009986075993-boop.github.io
