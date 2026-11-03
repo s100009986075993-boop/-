@@ -7,7 +7,7 @@ const builtInIds=new Set(builtInBank.map(q=>q.id));
 const mergedBank=new Map(builtInBank.map(q=>[q.id,q]));
 for(const q of read('architect-bank',[]))if(!builtInIds.has(q.id))mergedBank.set(q.id,q);
 let bank=[...mergedBank.values()],history=read('architect-history',[]),queue=[],index=0,answers=[],timer=null,deadline=0,exam=false;
-let playMode='random',roundSaved=false;
+let playMode='random',roundSaved=false,roundNotice='';
 let adventureRounds=read('architect-adventure-rounds',0);
 if(!Number.isSafeInteger(adventureRounds)||adventureRounds<0)adventureRounds=0;
 let questionNotes=read('architect-question-notes',{});
@@ -20,7 +20,7 @@ function renderStats(){renderAdventure();const s=stats(history);$('total').textC
 function filters(){for(const [id,key]of [['year','year'],['chapter','chapter']]){const value=$(id).value;$(id).replaceChildren(new Option(id==='year'?'全部年度':'全部章節',''));for(const item of [...new Set(bank.map(q=>q[key]))].sort((a,b)=>typeof a==='number'?a-b:String(a).localeCompare(String(b),'zh-Hant')))$(id).add(new Option(item===0?'示範題':String(item),String(item)));$(id).value=value;}}
 subjects.forEach(s=>$('subject').add(new Option(s,s)));filters();renderStats();
 document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
-function endPractice(){playMode='random';clearInterval(timer);timer=null;queue=[];answers=[];index=0;$('quiz').replaceChildren();document.body.classList.remove('quiz-mode');$('practice').scrollIntoView({behavior:'smooth',block:'start'});}
+function endPractice(){playMode='random';roundNotice='';clearInterval(timer);timer=null;queue=[];answers=[];index=0;$('quiz').replaceChildren();document.body.classList.remove('quiz-mode');$('practice').scrollIntoView({behavior:'smooth',block:'start'});}
 function questionNumber(q){return q.questionNo??Number(q.id.split('-').pop());}
 function addProvenance(root,q){if(!q.image&&!q.sourcePdf)return;const details=element('details','','provenance');details.append(element('summary',q.textStatus==='needs-review'?'核對原題 · 本題文字待核對':'核對原題與答案來源'));const content=element('div','','provenance-content');content.append(element('p',`文字與圖表依原卷整理。${q.sourcePage?'PDF 第 '+q.sourcePage+' 頁。':''}如發現辨識差異，請以原始試卷核對。`,'muted'));if(q.sourcePdf)content.append(safeLink('開啟原始試卷 PDF',q.sourcePdf+(q.sourcePage?'#page='+q.sourcePage:''),'source-link'));if(q.image){const link=safeLink('',q.image);const img=document.createElement('img');img.src=q.image;img.alt=`${q.year} 年 ${q.subject} 第 ${questionNumber(q)} 題原始頁面`;img.loading='lazy';img.className='source-image';link.append(img);content.append(link);}if(q.answerSource)content.append(safeLink('查看官方答案／更正表',q.answerSource,'source-link'));details.append(content);root.append(details);}
 function addDiagrams(root,q){const diagrams=q.diagrams?.length?q.diagrams:q.diagram?[q.diagram]:[];if(!diagrams.length)return;const region=element('div','','question-diagrams');for(const [i,d]of diagrams.entries()){const src=typeof d==='string'?d:d.src;if(!src)continue;const figure=element('figure','','question-diagram');const link=safeLink('',src);const img=document.createElement('img');img.src=src;img.alt=(typeof d==='object'&&d.alt)||`本題附圖 ${i+1}`;img.className='diagram-image';link.append(img);figure.append(link,element('figcaption','題目附圖 · 點擊放大'));region.append(figure);}root.append(region);}
@@ -37,7 +37,7 @@ function show(){
  if(index>=queue.length){finish();return;}
  const root=$('quiz'),q=queue[index];root.replaceChildren();document.body.classList.add('quiz-mode');
  const shell=element('article','','question-card');if(playMode==='adventure')appendBattle(shell);if(playMode==='duel')shell.append(element('p',`⚔ 同機 PK · 請交給玩家 ${index%2+1} 作答`,'duel-turn'));const progress=element('div','','quiz-progress');progress.setAttribute('role','progressbar');progress.setAttribute('aria-label','本回進度');progress.setAttribute('aria-valuemin','0');progress.setAttribute('aria-valuemax',String(queue.length));progress.setAttribute('aria-valuenow',String(index));const fill=element('span','');fill.style.width=`${index/queue.length*100}%`;progress.append(fill);shell.append(progress);
- const top=element('div','','question-topline'),brand=element('div','','question-brand');brand.append(element('span','築','brand-seal'),element('div','築考練習室','brand-name'));const meta=element('div','','question-meta');meta.append(element('span',`${index+1} / ${queue.length}`,'question-count'),element('span',q.year?`${q.year} 年 · 第 ${questionNumber(q)} 題`:'示範練習'));top.append(brand,meta);shell.append(top,element('p',q.subject+' · '+q.chapter,'question-subject'));
+ const top=element('div','','question-topline'),brand=element('div','','question-brand');brand.append(element('span','築','brand-seal'),element('div','築考練習室','brand-name'));const meta=element('div','','question-meta');meta.append(element('span',`${index+1} / ${queue.length}`,'question-count'),element('span',q.year?`${q.year} 年 · 第 ${questionNumber(q)} 題`:'示範練習'));top.append(brand,meta);shell.append(top,element('p',q.subject+' · '+q.chapter,'question-subject'));if(roundNotice)shell.append(element('p',roundNotice,'round-notice'));
  if(exam)shell.append(element('p','','clock'));
  shell.append(element('h3',q.question,'question-stem'));
  if(q.textStatus==='needs-review')shell.append(element('p','本題文字或公式尚待核對。請展開「核對原題」確認後作答；不確定的內容未以猜測補齊。','notice review-notice'));
@@ -100,9 +100,33 @@ function show(){
  shell.append(options);const confidenceBox=element('fieldset','','confidence-choice');confidenceBox.append(element('legend','把握程度（可先選；未選按不確定記錄）'));for(const [value,label] of [['sure','有把握'],['guess','猜的'],['unsure','不會／不確定']]){const button=element('button',label);button.type='button';button.dataset.confidence=value;button.setAttribute('aria-pressed',String(value===confidence));button.classList.toggle('selected',value===confidence);button.onclick=()=>{if(options.dataset.answered)return;confidence=value;confidenceBox.querySelectorAll('button').forEach(b=>{const active=b===button;b.classList.toggle('selected',active);b.setAttribute('aria-pressed',String(active));});submit.disabled=!selected.size;};confidenceBox.append(button);}shell.insertBefore(confidenceBox,options);if(confirmChoice){submit.onclick=()=>record(multi?[...selected].sort():[...selected][0]);shell.append(submit);}addProvenance(shell,q);root.append(shell);const leave=element('button','結束這回 · 返回選題','lobby-button');leave.onclick=endPractice;root.append(leave);
 }
 $('start').onclick=()=>{
- if($('subject').value==='建築計畫與設計'){setTab('design');if(designPapers.some(p=>String(p.year)===$('year').value)){$('designyear').value=$('year').value;designOpen();}return;}
- if($('subject').value==='敷地計畫與都市設計'){setTab('site');if(sitePapers.some(p=>String(p.year)===$('year').value)){$('siteyear').value=$('year').value;siteOpen();}return;}
- if(timer&&!confirm('要結束目前的模擬練習並重新開始嗎？'))return;clearInterval(timer);timer=null;const last=new Map(history.map(a=>[a.id,a])),reviews=reviewState(history),now=Date.now();queue=bank.filter(q=>($('subject').value!=='建築結構'||matchesStructure(q,structureTopics,$('structurelane').value,$('structuretopic').value))&&($('contentfilter').value!=='detailed'||!!q.solution)&&($('contentfilter').value!=='recent'||(!!q.solution&&!!latestExplanationBatch&&q.explanationBatch===latestExplanationBatch))&&($('contentfilter').value!=='pending'||(q.year>0&&!q.solution))&&($('contentfilter').value!=='diagram'||!!q.diagrams?.length)&&(!$('subject').value||q.subject===$('subject').value)&&(!$('year').value||String(q.year)===$('year').value)&&(!$('chapter').value||q.chapter===$('chapter').value)&&($('mode').value!=='wrong'||last.get(q.id)?.correct===false)&&(!['learning','due'].includes($('mode').value)||reviewMatch(reviews.get(q.id),$('mode').value,now)));for(let i=queue.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[queue[i],queue[j]]=[queue[j],queue[i]];}if($('mode').value==='due')queue.sort((a,b)=>reviews.get(a.id).dueAt-reviews.get(b.id).dueAt);queue=queue.slice(0,20);playMode=$('mode').value;roundSaved=false;if(playMode==='duel')queue=queue.slice(0,queue.length-queue.length%2);index=0;answers=[];exam=$('mode').value==='exam';if(!queue.length){$('quiz').replaceChildren(element('p','目前範圍沒有可練習的題目，請調整篩選或匯入題庫。','empty-state'));document.body.classList.remove('quiz-mode');return;}show();$('quiz').scrollIntoView({behavior:'smooth',block:'start'});if(exam){deadline=Date.now()+20*60*1000;const tick=()=>{const secs=Math.max(0,Math.ceil((deadline-Date.now())/1000));document.querySelectorAll('.clock').forEach(el=>el.textContent=`剩餘 ${Math.floor(secs/60)}:${String(secs%60).padStart(2,'0')} · 重新整理會結束本回計時`);if(!secs)finish();};timer=setInterval(tick,1000);tick();}
+ const subject=$('subject').value,year=$('year').value;
+ if(subject==='建築計畫與設計'){setTab('design');if(designPapers.some(p=>String(p.year)===year)){$('designyear').value=year;designOpen();}return;}
+ if(subject==='敷地計畫與都市設計'){setTab('site');if(sitePapers.some(p=>String(p.year)===year)){$('siteyear').value=year;siteOpen();}return;}
+ const fullPaper=$('mode').value==='paper';
+ $('practice-error').hidden=true;
+ if(fullPaper&&(!subject||!year||year==='0')){
+  $('practice-error').textContent='做完整考卷，請先選擇一個選擇題科目與正式年度。';$('practice-error').hidden=false;
+  (!subject?$('subject'):$('year')).focus();return;
+ }
+ if(timer&&!confirm('要結束目前的模擬練習並重新開始嗎？'))return;
+ clearInterval(timer);timer=null;
+ const last=new Map(history.map(a=>[a.id,a])),reviews=reviewState(history),now=Date.now();
+ let candidates=fullPaper?allOfficialBank.filter(q=>q.subject===subject&&String(q.year)===year):bank.filter(q=>($('subject').value!=='建築結構'||matchesStructure(q,structureTopics,$('structurelane').value,$('structuretopic').value))&&($('contentfilter').value!=='detailed'||!!q.solution)&&($('contentfilter').value!=='recent'||(!!q.solution&&!!latestExplanationBatch&&q.explanationBatch===latestExplanationBatch))&&($('contentfilter').value!=='pending'||(q.year>0&&!q.solution))&&($('contentfilter').value!=='diagram'||!!q.diagrams?.length)&&(!$('subject').value||q.subject===$('subject').value)&&(!$('year').value||String(q.year)===$('year').value)&&(!$('chapter').value||q.chapter===$('chapter').value)&&($('mode').value!=='wrong'||last.get(q.id)?.correct===false)&&(!['learning','due'].includes($('mode').value)||reviewMatch(reviews.get(q.id),$('mode').value,now)));
+ if(fullPaper)candidates.sort((a,b)=>questionNumber(a)-questionNumber(b));
+ else{
+  for(let i=candidates.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[candidates[i],candidates[j]]=[candidates[j],candidates[i]];}
+  if($('mode').value==='due')candidates.sort((a,b)=>reviews.get(a.id).dueAt-reviews.get(b.id).dueAt);
+ }
+ const requested=[5,10,20,40,80].includes(Number($('questioncount').value))?Number($('questioncount').value):20;
+ queue=fullPaper?candidates:candidates.slice(0,requested);
+ playMode=$('mode').value;roundSaved=false;
+ if(playMode==='duel')queue=queue.slice(0,queue.length-queue.length%2);
+ roundNotice=fullPaper?`${year} 年 · ${subject}完整考卷 · 共 ${queue.length} 題，依原題號作答。`:queue.length<requested?`目前範圍可用 ${candidates.length} 題，本回練習 ${queue.length} 題，不重複補題。`:'';
+ index=0;answers=[];exam=$('mode').value==='exam';
+ if(!queue.length){$('quiz').replaceChildren(element('p','目前範圍沒有可練習的題目，請調整篩選或匯入題庫。','empty-state'));document.body.classList.remove('quiz-mode');return;}
+ updatePracticeCountControls();show();$('quiz').scrollIntoView({behavior:'smooth',block:'start'});
+ if(exam){deadline=Date.now()+20*60*1000;const tick=()=>{const secs=Math.max(0,Math.ceil((deadline-Date.now())/1000));document.querySelectorAll('.clock').forEach(el=>el.textContent=`剩餘 ${Math.floor(secs/60)}:${String(secs%60).padStart(2,'0')} · 重新整理會結束本回計時`);if(!secs)finish();};timer=setInterval(tick,1000);tick();}
 };
 $('bankfile').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>5*1024*1024)throw new Error('請使用小於 5 MB 的 JSON 檔案');const incoming=validateBank(JSON.parse(await file.text()));if(incoming.some(q=>builtInIds.has(q.id)))throw new Error('內建題庫請透過版本更新，避免覆蓋更正答案');if(incoming.some(q=>q.id.startsWith('demo-')))throw new Error('demo- 為保留的示範題 ID');if(!confirm(`將匯入 ${incoming.length} 題。同 ID 題目將更新並清除該題舊作答紀錄，是否繼續？`))return;clearInterval(timer);timer=null;$('quiz').replaceChildren();document.body.classList.remove('quiz-mode');const ids=new Set(incoming.map(q=>q.id));bank=[...bank.filter(q=>!ids.has(q.id)),...incoming];history=history.filter(a=>!ids.has(a.id));for(const id of ids)delete questionNotes[id];try{localStorage.setItem('architect-question-notes',JSON.stringify(questionNotes));}catch{}persist();filters();renderStats();$('importstatus').textContent=`已匯入 ${incoming.length} 題；目前共有 ${bank.length} 題（含示範題）。`;}catch(err){$('importstatus').textContent='匯入失敗：'+err.message;}finally{e.target.value='';}};
 $('export').onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify({exportedAt:new Date().toISOString(),history,questionNotes,adventureRounds},null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='architect-progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
@@ -124,7 +148,7 @@ const shortcutMeta={
  '建築計畫與設計':['06','18 份原卷 · 計時與筆記']
 };
 function syncSubjectShortcuts(){
- syncStructureStudy();
+ syncStructureStudy();updatePracticeCountControls();
  document.querySelectorAll('[data-subject]').forEach(button=>{
   const selected=button.dataset.subject===$('subject').value;
   button.classList.toggle('selected',selected);
@@ -202,7 +226,7 @@ function renderNoteList(){
  const root=$('question-notes-list');root.replaceChildren();
  const lookup=new Map(bank.map(q=>[q.id,q]));const entries=Object.entries(questionNotes).filter(([id,note])=>lookup.has(id)&&note&&typeof note==='object').sort((a,b)=>String(b[1].updatedAt||'').localeCompare(String(a[1].updatedAt||'')));
  if(!entries.length){root.append(element('p','作答後可記錄錯因與筆記；儲存後會列在這裡。','muted'));return;}
- for(const [id,note] of entries){const q=lookup.get(id);const card=element('article','','saved-note');card.append(element('strong',`${q.year||'示範'} 年 · ${q.subject} · 第 ${questionNumber(q)} 題`));if(note.reason)card.append(element('p','錯因：'+note.reason,'muted'));if(note.text)card.append(element('p',note.text,'saved-note-text'));const button=element('button','重練這一題');button.onclick=()=>{if(timer&&!confirm('要結束目前模擬練習並重練這題嗎？'))return;clearInterval(timer);timer=null;queue=[q];index=0;answers=[];exam=false;setTab('practice');show();$('quiz').scrollIntoView({behavior:'smooth',block:'start'});};card.append(button);root.append(card);}
+ for(const [id,note] of entries){const q=lookup.get(id);const card=element('article','','saved-note');card.append(element('strong',`${q.year||'示範'} 年 · ${q.subject} · 第 ${questionNumber(q)} 題`));if(note.reason)card.append(element('p','錯因：'+note.reason,'muted'));if(note.text)card.append(element('p',note.text,'saved-note-text'));const button=element('button','重練這一題');button.onclick=()=>{if(timer&&!confirm('要結束目前模擬練習並重練這題嗎？'))return;clearInterval(timer);timer=null;roundNotice='';queue=[q];index=0;answers=[];exam=false;setTab('practice');show();$('quiz').scrollIntoView({behavior:'smooth',block:'start'});};card.append(button);root.append(card);}
 }
 
 $('answerflow').value=read('architect-answerflow','instant')==='confirm'?'confirm':'instant';
@@ -222,3 +246,21 @@ function appendBattle(shell){
  const status=element('div');status.append(element('strong',`知識史萊姆 · 第 ${Math.floor(damage/5)+1} 關`),element('p',`本回命中 ${damage} 次 · 每答對一題造成 1 點傷害`));
  const hp=document.createElement('progress');hp.max=5;hp.value=5-damage%5;hp.setAttribute('aria-label','怪物剩餘生命');status.append(hp,element('p',damage&&damage%5===0?'擊敗怪物！下一隻已登場。':'答錯可看結果、記筆記，再繼續挑戰。','muted'));battle.append(scene,status);shell.prepend(battle);
 }
+
+// Round size is independent of mode; an annual paper always uses the complete official set.
+function updatePracticeCountControls(){
+ const fullPaper=$('mode').value==='paper';
+ $('questioncount').disabled=fullPaper;
+ for(const id of ['chapter','contentfilter','structurelane','structuretopic'])$(id).disabled=fullPaper;
+ document.querySelectorAll('[data-structure-lane]').forEach(button=>button.disabled=fullPaper);
+ if(fullPaper){
+  const paper=allOfficialBank.filter(q=>q.subject===$('subject').value&&String(q.year)===$('year').value);
+  if(paper.length)$('questioncount').value=String(paper.length);
+  $('practice-count-help').textContent=paper.length?`整份考卷：${$('year').value} 年 ${$('subject').value}，共 ${paper.length} 題，依原題號排列；不套用章節與題目範圍篩選。`:'完整年度考卷：請先選科目與年度。法規／構造每卷 80 題，結構／環控每卷 40 題。';
+ }else $('practice-count-help').textContent=`本回最多 ${$('questioncount').value} 題，不足時使用實際題數。要做整卷，請選科目、年度，並將練習方式改為「完整年度考卷」。`;
+}
+const savedQuestionCount=read('architect-questioncount',20);
+$('questioncount').value=String([5,10,20,40,80].includes(Number(savedQuestionCount))?Number(savedQuestionCount):20);
+$('questioncount').addEventListener('change',()=>{try{localStorage.setItem('architect-questioncount',JSON.stringify(Number($('questioncount').value)));}catch{}updatePracticeCountControls();});
+for(const id of ['mode','year'])$(id).addEventListener('change',updatePracticeCountControls);
+updatePracticeCountControls();

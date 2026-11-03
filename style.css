@@ -185,3 +185,4 @@ button,.primary-link{border:2px solid #a18456;background:#fff2d3;color:#70583d;b
 @media(max-width:700px){.room-forms{grid-template-columns:1fr;gap:16px}.room-form{padding:17px}.room-roster{grid-template-columns:1fr}.room-heading h3{flex-basis:100%}.room-heading button{font-size:12px}.room-boss{padding-left:80px}.room-boss .pixel-monster{left:6px}.room-option{font-size:15px}.room-heading{gap:8px}#rooms{padding:20px 15px}}
 .room-mode .hero,.room-mode .adventure-hub,.room-mode .portable-start,.room-mode .metrics,.room-mode .review-desk,.room-mode .library-note{display:none}.room-mode main{max-width:980px}.room-mode nav{margin-top:8px}
 .room-mode main>.section-label{display:none}
+.round-notice{padding:10px 14px;background:#eef0db;border:1px solid #b7be94;font-size:13px;color:#5b6548}.filters select:disabled{opacity:.75;cursor:not-allowed}#practice-error[hidden]{display:none}
