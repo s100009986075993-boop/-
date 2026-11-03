@@ -5,7 +5,7 @@ const assert=require('node:assert/strict');
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
  try{for(const width of [1280,390]){
   const page=await browser.newPage({viewport:{width,height:900}}),errors=[];
-  page.on('pageerror',e=>errors.push(e.message));await page.goto(process.argv[2]||'http://127.0.0.1:3000');
+  page.on('pageerror',e=>errors.push(e.message));await page.goto(process.argv[2]||'http://127.0.0.1:3000');await page.evaluate(()=>document.getElementById('answerflow').value='confirm');
   async function load(multi=false,isExam=false){await page.evaluate(({multi,isExam})=>{
    const q={id:'test-elimination',subject:'建築結構',chapter:'操作測試',year:0,question:'請選出題目的正確選項，並利用排除按鈕整理判斷。',options:['選項一：可恢復的長文字選項，確認手機上完整顯示且不會橫向溢出。','選項二','選項三','選項四'],answer:2};
    if(multi)q.acceptedSelections=[[0,3]];

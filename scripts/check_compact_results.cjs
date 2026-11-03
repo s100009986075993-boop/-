@@ -2,7 +2,7 @@
 const {chromium}=require('playwright');const assert=require('node:assert/strict');
 (async()=>{const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
  try{for(const width of [1280,390]){
-  const p=await browser.newPage({viewport:{width,height:900}}),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto(process.argv[2]||'http://127.0.0.1:3000');
+  const p=await browser.newPage({viewport:{width,height:900}}),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto(process.argv[2]||'http://127.0.0.1:3000');await p.evaluate(()=>document.getElementById('answerflow').value='confirm');
   for(const kind of ['draft','pending','multi','allAward']){
    const expected=await p.evaluate(kind=>{
     const q=bank.find(q=>kind==='draft'?q.solution:kind==='pending'?q.year>0&&!q.solution:kind==='multi'?selectionSets(q).some(s=>s.length>1):q.allAward);
