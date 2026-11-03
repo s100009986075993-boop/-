@@ -1174,12 +1174,12 @@
     "year": 104,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "以實木板條作為臥室地板工程,下列材料正確的施工順序為何?",
+    "question": "以實木板條作為臥室地板工程,下列材料正確的施工順序為何?\n①木夾板 \n①木角料 \n①實木板條 \n①防潮布",
     "options": [
-      "1111",
-      "1111",
-      "1111",
-      "1111"
+      "①①①①",
+      "①①①①",
+      "①①①①",
+      "①①①①"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1210,7 +1210,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "104-construction-28",
@@ -1800,12 +1801,12 @@
     "year": 104,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關填縫材之設計與施工,下列敘述何者錯誤?",
+    "question": "有關填縫材之設計與施工,下列敘述何者錯誤?\n①防水填縫材於施工面受潮時仍可施作 \n①填縫時伸縮縫應處於正常的狀況下,避免於收縮或膨脹時施工 \n①除施工說明書或圖樣有更嚴格的規定,其餘均依照使用廠牌之技術資料施工 \n①填縫劑之深度通常大於寬度",
     "options": [
-      "11",
-      "11",
-      "11",
-      "11"
+      "①①",
+      "①①",
+      "①①",
+      "①①"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1836,7 +1837,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "104-construction-42",
@@ -2250,10 +2252,10 @@
     "chapter": "未分類（待章節核對）",
     "question": "下列圖示屋頂防水膜收頭何者正確?",
     "options": [
-      "11",
-      "僅1",
-      "僅1",
-      "僅1"
+      "①②",
+      "僅②",
+      "僅③",
+      "僅①"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -2290,7 +2292,8 @@
       "method": "PDF character geometry",
       "page": 9,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "104-construction-52",
@@ -2690,12 +2693,12 @@
     "year": 104,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為預貼面磚預鑄混凝土牆版之正確製作順序?",
+    "question": "下列何者為預貼面磚預鑄混凝土牆版之正確製作順序?\n①鋼筋加工組立、預埋件埋設 \n①組模、面磚舖設 \n①工廠養護、脫模 \n①混凝土澆置、整平",
     "options": [
-      "1111",
-      "1111",
-      "1111",
-      "1111"
+      "①①①①",
+      "①①①①",
+      "①①①①",
+      "①①①①"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2726,7 +2729,8 @@
       "method": "PDF character geometry",
       "page": 10,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "104-construction-62",
@@ -3224,12 +3228,12 @@
     "year": 104,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關蛇籠(gabions)之敘述,下列何者正確?",
+    "question": "有關蛇籠(gabions)之敘述，下列何者正確？\n①原為基地工程擋土牆及水域堤岸的工法\n②建築師用於建築外殼時，可作為隔熱或防止眩光\n③屬於堆疊的方式，是重力的表現\n④金屬格網內亦可填充打碎之廢混凝土，因此可歸屬綠建材工法",
     "options": [
-      "1111",
-      "僅111",
-      "僅111",
-      "僅111"
+      "①②③④",
+      "僅①②③",
+      "僅②③④",
+      "僅①②④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -3260,7 +3264,8 @@
       "method": "PDF character geometry",
       "page": 12,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "104-construction-74",

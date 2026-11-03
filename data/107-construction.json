@@ -4,12 +4,12 @@
     "year": 107,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "RC 平屋頂採複合式防水材兩底三度塗佈膜厚 3 mm 以上作防水,並以 PS 隔熱板隔熱時,下列構造排列由下至上何者正確?",
+    "question": "RC 平屋頂採複合式防水材兩底三度塗佈膜厚 3 mm 以上作防水,並以 PS 隔熱板隔熱時,下列構造排列由下至上何者正確?\n①結構混凝土 \n②複合式防水材 \n③6 cm 厚 3000 PSI PC \n④塑木地板 \n⑤PS隔熱板",
     "options": [
-      "12345",
-      "15234",
-      "12354",
-      "12534"
+      "①②③④⑤",
+      "①⑤②③④",
+      "①②③⑤④",
+      "①②⑤③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -40,7 +40,8 @@
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "107-construction-02",
@@ -759,12 +760,12 @@
     "year": 107,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為以連續壁作為擋土設施的地下室逆打工法,由先而後之施工順序,下列何者正確?",
+    "question": "下列何者為以連續壁作為擋土設施的地下室逆打工法,由先而後之施工順序,下列何者正確?\n①連續壁擋土設施構築 \n②抽排水及開挖棄土 \n③梁版及逆打柱頭工程 \n④基樁及逆打鋼柱插放 \n⑤二次牆柱及無收縮水泥砂漿灌注工程",
     "options": [
-      "14235",
-      "12345",
-      "21435",
-      "42153"
+      "①④②③⑤",
+      "①②③④⑤",
+      "②①④③⑤",
+      "④②①⑤③"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -795,7 +796,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "107-construction-19",
@@ -1017,12 +1019,12 @@
     "year": 107,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "窗戶是RC 建築最常見漏水的地方,其漏水的關鍵原因可能為何?",
+    "question": "窗戶是RC 建築最常見漏水的地方,其漏水的關鍵原因可能為何?\n①塞水路不確實 \n②窗角剪力裂縫 \n③粉刷不確實 \n④止水帶施作失敗",
     "options": [
-      "12",
-      "34",
-      "13",
-      "14"
+      "①②",
+      "③④",
+      "①③",
+      "①④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1053,7 +1055,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "107-construction-25",
@@ -1207,12 +1210,12 @@
     "year": 107,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關薄層綠屋頂的結構由上而下排序,下列何者正確?",
+    "question": "有關薄層綠屋頂的結構由上而下排序,下列何者正確?\n①植栽層 \n②介質層 \n③排(蓄)水層 \n④過濾層 \n⑤防水層 \n⑥阻根層 \n⑦樓板",
     "options": [
-      "1234567",
-      "1245637",
-      "1243657",
-      "1234657"
+      "①②③④⑤⑥⑦",
+      "①②④⑤⑥③⑦",
+      "①②④③⑥⑤⑦",
+      "①②③④⑥⑤⑦"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1243,7 +1246,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "107-construction-29",
@@ -2067,12 +2071,12 @@
     "year": 107,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "RC 外牆的窗邊經常滲水,較有可能的原因是:1窗太大 2RC 外牆厚度不足 3窗框料件太小 4窗框與RC 牆間填塞不實 5RC 牆開口與窗框尺寸間距太大",
+    "question": "RC 外牆的窗邊經常滲水,較有可能的原因是:\n①窗太大 \n②RC 外牆厚度不足 \n③窗框料件太小 \n④窗框與RC 牆間填塞不實 \n⑤RC 牆開口與窗框尺寸間距太大",
     "options": [
-      "12",
-      "23",
-      "34",
-      "45"
+      "①②",
+      "②③",
+      "③④",
+      "④⑤"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -2103,7 +2107,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "107-construction-49",

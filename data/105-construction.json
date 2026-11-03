@@ -1483,12 +1483,12 @@
     "year": 105,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列水平走向的建築水電管線:1強電 2給水 3排水 4污水,自上到下的排列順序何者正確?",
+    "question": "下列水平走向的建築水電管線:\n①強電 \n②給水 \n③排水 \n④污水,自上到下的排列順序何者正確?",
     "options": [
-      "1232",
-      "1322",
-      "2321",
-      "2132"
+      "①②③②",
+      "①③②②",
+      "②③②①",
+      "②①③②"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1519,7 +1519,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "105-construction-35",
@@ -3061,12 +3062,12 @@
     "year": 105,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者是合理的工作程序?",
+    "question": "下列何者是合理的工作程序?\n①開挖 \n②施打鋼板樁 \n③裝設傾斜儀 \n④抽排水",
     "options": [
-      "3212",
-      "3212",
-      "1223",
-      "3122"
+      "③②①②",
+      "③②①②",
+      "①②②③",
+      "③①②②"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -3097,19 +3098,20 @@
       "method": "PDF character geometry",
       "page": 10,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "105-construction-71",
     "year": 105,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "公共工程之工程結案程序,下列何者正確?",
+    "question": "公共工程之工程結案程序,下列何者正確?\n①驗收 \n②結算 \n③申報竣工 \n④監造查驗",
     "options": [
-      "3212",
-      "2123",
-      "3221",
-      "1232"
+      "③②①②",
+      "②①②③",
+      "③②②①",
+      "①②③②"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -3140,19 +3142,20 @@
       "method": "PDF character geometry",
       "page": 10,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "105-construction-72",
     "year": 105,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "公共工程的營建發包合約包含下列那些內容?",
+    "question": "公共工程的營建發包合約包含下列那些內容?\n①工程項目詳細表 \n②單價分析 \n③包商利潤管理費 \n④建築師專業保險費",
     "options": [
-      "123",
-      "232",
-      "132",
-      "122"
+      "①②③",
+      "②③②",
+      "①③②",
+      "①②②"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -3183,7 +3186,8 @@
       "method": "PDF character geometry",
       "page": 10,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "105-construction-73",
@@ -3405,12 +3409,12 @@
     "year": 105,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列建築管理作業,何者需由起造人會同申請,或於申請書中簽章?",
+    "question": "下列建築管理作業,何者需由起造人會同申請,或於申請書中簽章?\n①建造執照申請 \n②申請開工備查 \n③申報勘驗 \n④申請使用執照",
     "options": [
-      "3",
-      "13",
-      "232",
-      "122"
+      "③",
+      "①③",
+      "②③④",
+      "①②④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -3441,7 +3445,8 @@
       "method": "PDF character geometry",
       "page": 10,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "105-construction-79",

@@ -69,12 +69,12 @@
     "year": 107,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "下列相同厚度材料的隔熱性能,由隔熱佳至隔熱差之順序為何?",
+    "question": "下列相同厚度材料的隔熱性能,由隔熱佳至隔熱差之順序為何?\n①保麗龍 \n②乾燥木板 \n③混凝土",
     "options": [
-      "123",
-      "132",
-      "213",
-      "231"
+      "①②③",
+      "①③②",
+      "②①③",
+      "②③①"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -105,7 +105,8 @@
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "107-environment-03",
@@ -2268,12 +2269,12 @@
     "year": 107,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "依據建築物無障礙設施設計規範,下列那些號碼組合,屬於應設置「兩處」求助鈴之空間?",
+    "question": "依據建築物無障礙設施設計規範,下列那些號碼組合,屬於應設置「兩處」求助鈴之空間?\n①無障礙浴室內 \n②無障礙昇降機內 \n③無障礙客房內 \n④無障礙停車位旁 \n⑤無障礙廁所內 \n⑥輪椅觀眾席位旁",
     "options": [
-      "135",
-      "125",
-      "245",
-      "136"
+      "①③⑤",
+      "①②⑤",
+      "②④⑤",
+      "①③⑥"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -2304,7 +2305,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "107-environment-40",

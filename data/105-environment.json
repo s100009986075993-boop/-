@@ -1303,12 +1303,12 @@
     "year": 105,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "在自動滅火設備中,電氣機房消防安全適合採用下列何種設備?",
+    "question": "在自動滅火設備中,電氣機房消防安全適合採用下列何種設備?\n①自動撒水 \n②泡沫 \n③CO2 \n④乾粉",
     "options": [
-      "14",
-      "23",
-      "12",
-      "34"
+      "①④",
+      "②③",
+      "①②",
+      "③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1339,7 +1339,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "105-environment-23",

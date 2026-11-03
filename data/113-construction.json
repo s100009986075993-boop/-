@@ -1778,12 +1778,12 @@
     "year": 113,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "一般鋼構造房屋工地現場的施工順序,何者正確?",
+    "question": "一般鋼構造房屋工地現場的施工順序,何者正確?\n①樑構件吊裝 \n②銲接鎖固 \n③基礎螺栓埋設 \n④柱構件吊裝 \n⑤高拉力螺栓鎖固",
     "options": [
-      "41253",
-      "34152",
-      "35412",
-      "41352"
+      "④①②⑤③",
+      "③④①⑤②",
+      "③⑤④①②",
+      "④①③⑤②"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1814,7 +1814,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "113-construction-42",
@@ -3468,12 +3469,12 @@
     "year": 113,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者屬於公共工程工程管理費之範疇?",
+    "question": "下列何者屬於公共工程工程管理費之範疇?\n①建築證照費 \n②公共藝術執行費用 \n③仲裁費用 \n④評選作業費 \n⑤設計監造費",
     "options": [
-      "123",
-      "234",
-      "345",
-      "134"
+      "①②③",
+      "②③④",
+      "③④⑤",
+      "①③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -3504,7 +3505,8 @@
       "method": "PDF character geometry",
       "page": 12,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "113-construction-80",

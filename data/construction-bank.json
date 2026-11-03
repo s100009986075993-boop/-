@@ -7173,12 +7173,12 @@
     "year": 99,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列建築材料何種具有調節濕度的功能?",
+    "question": "下列建築材料何種具有調節濕度的功能?\n①木材 \n②鋁合金 \n③木炭 \n④矽土",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -7209,7 +7209,8 @@
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-construction-06",
@@ -8564,12 +8565,12 @@
     "year": 99,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "混凝土外牆上固定窗的施工組合程序,下列何者最適當?",
+    "question": "混凝土外牆上固定窗的施工組合程序,下列何者最適當?\n①立框 \n②防水處理 \n③框牆縫填塞 \n④安裝玻璃",
     "options": [
-      "1234",
-      "2134",
-      "1324",
-      "2314"
+      "①②③④",
+      "②①③④",
+      "①③②④",
+      "②③①④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -8600,7 +8601,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-construction-38",
@@ -8822,12 +8824,12 @@
     "year": 99,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關各種樁的性能敘述,下列何者正確?",
+    "question": "有關各種樁的性能敘述,下列何者正確?\n①木樁適用於地下水位較淺,且水位無降低之虞,載重不太大的構造物基礎 \n②預鑄樁的長度不受限制,而接合施工的處理不直接影響樁的支承能力 \n③鋼樁的自重較輕,約為混凝土樁的1/3 左右,且搬運容易 \n④有殼式現場灌注樁的外殼留在地中,可增加載重能力",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -8858,19 +8860,20 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-construction-44",
     "year": 99,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列那幾種因素與冷縫(Cold joint)之形成有關?",
+    "question": "下列那幾種因素與冷縫(Cold joint)之形成有關?\n①後續澆置時間間隔過長 \n②混凝土泌水(Bleeding) 形成乳漿(Laitance)層 \n③於混凝土中添加減水劑 \n④水灰比過高",
     "options": [
-      "12",
-      "23",
-      "34",
-      "14"
+      "①②",
+      "②③",
+      "③④",
+      "①④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -8901,7 +8904,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-construction-45",
@@ -9645,12 +9649,12 @@
     "year": 99,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關工程現場材料之品質管理,下列何者為抽樣檢查之基本要件?",
+    "question": "有關工程現場材料之品質管理,下列何者為抽樣檢查之基本要件?\n①批號規定 \n②取樣方法 \n③測試方法 \n④頻度分布圖",
     "options": [
-      "123",
-      "234",
-      "431",
-      "142"
+      "①②③",
+      "②③④",
+      "④③①",
+      "①④②"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -9681,7 +9685,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-construction-63",
@@ -9731,12 +9736,12 @@
     "year": 99,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者屬於施工規範(Specification)之內容?",
+    "question": "下列何者屬於施工規範(Specification)之內容?\n①材料規格說明 \n②施工方法 \n③施工圖樣 \n④作業步驟及標準",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -9767,7 +9772,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-construction-65",
@@ -13776,12 +13782,12 @@
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "施工過程遇有疑義時,若無特別規定,下列設計圖說資料之優先順位為何?",
+    "question": "施工過程遇有疑義時,若無特別規定,下列設計圖說資料之優先順位為何?\n①發包圖面 \n②標準施工規範 \n③特記施工規範 \n④質疑回答",
     "options": [
-      "4312",
-      "1342",
-      "4132",
-      "1432"
+      "④③①②",
+      "①③④②",
+      "④①③②",
+      "①④③②"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -13812,7 +13818,8 @@
       "method": "PDF character geometry",
       "page": 12,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "100-construction-75",
@@ -15337,10 +15344,10 @@
     "chapter": "未分類（待章節核對）",
     "question": "圖示之木屋架平面圖及相關細部,最適合圖左側何種建築屋面形式?",
     "options": [
-      "1",
-      "2",
-      "3",
-      "4"
+      "①",
+      "②",
+      "③",
+      "④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -15377,7 +15384,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "101-construction-30",
@@ -17221,12 +17229,12 @@
     "year": 101,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "茲有建築工程相關資料如下: 1基地附近地質鑽探報告 6施工詳圖 2建蔽率及容積率 7主要材料規範 3功能需求及設計標準 8預算及期程 4基本設計圖說 9監造計畫書 5詳細設計圖說就統包工程而言,上列何種資料必須全部包含於招標文件中:",
+    "question": "茲有建築工程相關資料如下: \n①基地附近地質鑽探報告 \n⑥施工詳圖 \n②建蔽率及容積率 \n⑦主要材料規範 \n③功能需求及設計標準 \n⑧預算及期程 \n④基本設計圖說 \n⑨監造計畫書 \n⑤詳細設計圖說就統包工程而言,上列何種資料必須全部包含於招標文件中:",
     "options": [
-      "234679",
-      "345789",
-      "345678",
-      "123478"
+      "②③④⑥⑦⑨",
+      "③④⑤⑦⑧⑨",
+      "③④⑤⑥⑦⑧",
+      "①②③④⑦⑧"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -17257,7 +17265,8 @@
       "method": "PDF character geometry",
       "page": 11,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "101-construction-72",
@@ -18216,12 +18225,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者與鋁窗之PVC 壓條老化現象有關?",
+    "question": "下列何者與鋁窗之PVC 壓條老化現象有關?\n①抗拉強度 \n②伸長率 \n③吸水率 \n④硬度",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -18252,7 +18261,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-15",
@@ -18261,10 +18271,10 @@
     "chapter": "未分類（待章節核對）",
     "question": "懸臂式擋土牆抗拉鋼筋的配置位置下列何者正確?",
     "options": [
-      "1",
-      "2",
-      "3",
-      "4"
+      "①",
+      "②",
+      "③",
+      "④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -18301,7 +18311,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-16",
@@ -18480,12 +18491,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關建築物外殼構造之DPG(dot point glazing)系統,下列構法何者正確?",
+    "question": "有關建築物外殼構造之DPG(dot point glazing)系統,下列構法何者正確?\n①以特殊鐵具點支撐玻璃的系統 \n②玻璃採用強化玻璃 \n③支撐鐵具以迴轉鉸對應變形 \n④以耐候密封材料將玻璃埋入窗框",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -18516,7 +18527,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-21",
@@ -18652,12 +18664,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為帷幕牆施工,填縫材料應具備的條件?",
+    "question": "下列何者為帷幕牆施工,填縫材料應具備的條件?\n①施工簡便,表面乾固所需時間短,且不沾灰塵 \n②乾固後仍具橡膠般之彈性 \n③乾固後須有優良的耐候性 \n④耐用年限必須超過建築物本身的壽命",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -18688,7 +18700,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-25",
@@ -19018,12 +19031,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "室外透水鋪面之剖面,宜採下列何種組合?",
+    "question": "室外透水鋪面之剖面,宜採下列何種組合?\n①連通多孔質地磚層 \n②水泥砂漿層 \n③細砂層 \n④級配層",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -19054,7 +19067,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-33",
@@ -19104,12 +19118,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列敘述,何者是逆打工法之特性?",
+    "question": "下列敘述,何者是逆打工法之特性?\n①擋土的安全性高 \n②可縮短工期 \n③能有效防止地下工程中的營建公害,如噪音及振動 \n④僅適用於地下平面形狀不規則之建築物",
     "options": [
-      "234",
-      "134",
-      "124",
-      "123"
+      "②③④",
+      "①③④",
+      "①②④",
+      "①②③"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -19140,7 +19154,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-35",
@@ -19534,12 +19549,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "鋼筋混凝土梁預力先拉法之施工步驟為何?",
+    "question": "鋼筋混凝土梁預力先拉法之施工步驟為何?\n①澆置混凝土 \n②鋼鍵先施預力 \n③組合模板鋼筋隔板 \n④切斷預力鋼鍵",
     "options": [
-      "3124",
-      "3214",
-      "3241",
-      "2314"
+      "③①②④",
+      "③②①④",
+      "③②④①",
+      "②③①④"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -19578,7 +19593,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-45",
@@ -19843,12 +19859,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "帷幕牆安裝之正確施工順序為何?",
+    "question": "帷幕牆安裝之正確施工順序為何?\n①安裝帷幕牆、防水填縫處理 \n②放樣作業、安裝固定繫件 \n③排水處理 \n④清洗養護",
     "options": [
-      "1234",
-      "2134",
-      "3214",
-      "2314"
+      "①②③④",
+      "②①③④",
+      "③②①④",
+      "②③①④"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -19879,7 +19895,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-52",
@@ -20101,12 +20118,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為非破壞檢測方式?",
+    "question": "下列何者為非破壞檢測方式?\n①超音波試驗 \n②彈性反彈錘 \n③透地雷達 \n④鑽心試驗",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -20137,7 +20154,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-58",
@@ -20531,12 +20549,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為建築物興建工程的直接成本?",
+    "question": "下列何者為建築物興建工程的直接成本?\n①假設工程費 \n②材料費 \n③機電設備費 \n④規劃、設計、 監造費",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -20567,7 +20585,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-68",
@@ -21691,12 +21710,12 @@
     "year": 103,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關石材的敘述,下列何者錯誤?",
+    "question": "有關石材的敘述,下列何者錯誤?\n①蛇紋岩、大理石、板岩是變質岩。花崗石、安山岩是火成岩 \n②應儘量避免選擇抗壓強度小於15,000psi 之花崗石 \n③建築物外牆採用花崗石作為外飾,其最常使用的厚度為15~18mm \n④石材之暗裂係指裂縫寬度小於0.2mm,可以仿石材同色系環氧樹脂修補",
     "options": [
-      "14",
-      "23",
-      "13",
-      "34"
+      "①④",
+      "②③",
+      "①③",
+      "③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -21727,7 +21746,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-14",
@@ -21789,12 +21809,12 @@
     "year": 103,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "木構造建築之防火設計,下列何者為正確?",
+    "question": "木構造建築之防火設計,下列何者為正確?\n①梁柱構架木構材接合部位可不考慮防火時效要求 \n②梁柱構架構材可不設置防火被覆,但防火時效內燃燒之殘餘斷面需符合結構承載所需之最小斷面尺寸 \n③壁體、樓版及屋頂之主構材採防焰被覆用板材與填充材耐燃即可 \n④框組壁式系統之防火設計,防火被覆用板材接縫部分除密合要求外,接縫內側可設置足夠斷面之木材以阻擋延燒",
     "options": [
-      "14",
-      "34",
-      "13",
-      "24"
+      "①④",
+      "③④",
+      "①③",
+      "②④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -21825,7 +21845,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-16",
@@ -22006,10 +22027,10 @@
     "chapter": "未分類（待章節核對）",
     "question": "下列何者是帷幕牆?",
     "options": [
-      "僅45",
-      "僅4",
-      "僅123",
-      "12345"
+      "僅④⑤",
+      "僅④",
+      "僅①②③",
+      "①②③④⑤"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -22046,7 +22067,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-21",
@@ -22141,10 +22163,10 @@
     "chapter": "未分類（待章節核對）",
     "question": "RC 柱主筋續接時,下列何者為適當接合點範圍?",
     "options": [
-      "12",
-      "34",
-      "23",
-      "14"
+      "①②",
+      "③④",
+      "②③",
+      "①④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -22181,7 +22203,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-24",
@@ -22667,12 +22690,12 @@
     "year": 103,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關裝修工程的敘述,下列那兩項錯誤?",
+    "question": "有關裝修工程的敘述,下列那兩項錯誤?\n①機房採用浮動地板主要目的是吸音 \n②地下室停車場地坪採用整體粉光加金剛砂是考慮耐磨性 \n③粉刷工程所用水泥砂漿之配合比 1:3 係指水的重量為水泥重量之三倍 \n④木作舞台地坪沿牆邊留設縫隙是為了因應溫度、濕度變化造成木地板之變形",
     "options": [
-      "12",
-      "13",
-      "34",
-      "23"
+      "①②",
+      "①③",
+      "③④",
+      "②③"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -22703,7 +22726,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-36",
@@ -23123,10 +23147,10 @@
     "chapter": "未分類（待章節核對）",
     "question": "下列樓梯平面,以安全與扶手平順的考量,何者較佳?",
     "options": [
-      "14",
-      "23",
-      "24",
-      "13"
+      "①④",
+      "②③",
+      "②④",
+      "①③"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -23163,19 +23187,20 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-46",
     "year": 103,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關鋼構造中使用剪力釘(Shear Stud)之敘述,何者正確?",
+    "question": "有關鋼構造中使用剪力釘(Shear Stud)之敘述,何者正確?\n①可讓鋼梁和混凝土樓版一體化,形成合成梁 \n②可抗剪力,因此是一種剪力連接器 \n③係使用stud 電銲機,從鋼承鈑(metal deck)上方往鋼梁的方向銲接",
     "options": [
-      "123",
-      "僅12",
-      "僅13",
-      "僅3"
+      "①②③",
+      "僅①②",
+      "僅①③",
+      "僅③"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -23206,7 +23231,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-47",
@@ -23898,12 +23924,12 @@
     "year": 103,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何種玻璃不是安全玻璃?",
+    "question": "下列何種玻璃不是安全玻璃?\n①浮式及磨光平板玻璃(Float and Polished Plate Glasses) \n②強化玻璃(Tempered Glass) \n③熱處理增強玻璃(Heat-Strengthened Flat Glass) \n④膠合玻璃(Laminated Glass)",
     "options": [
-      "13",
-      "24",
-      "12",
-      "34"
+      "①③",
+      "②④",
+      "①②",
+      "③④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -23934,7 +23960,8 @@
       "method": "PDF character geometry",
       "page": 10,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-63",
@@ -24359,12 +24386,12 @@
     "year": 103,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關大規模基地規劃設計之進度,下列順序何者正確?",
+    "question": "有關大規模基地規劃設計之進度,下列順序何者正確?\n①地形測量 \n②敷地計畫 \n③細部設計 \n④基本設計",
     "options": [
-      "1423",
-      "1243",
-      "2143",
-      "2413"
+      "①④②③",
+      "①②④③",
+      "②①④③",
+      "②④①③"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -24395,7 +24422,8 @@
       "method": "PDF character geometry",
       "page": 11,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-73",
@@ -24488,12 +24516,12 @@
     "year": 103,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列有關設計施工圖(working drawing)及製作施工圖(shop drawing)之敘述,何者正確?",
+    "question": "下列有關設計施工圖(working drawing)及製作施工圖(shop drawing)之敘述,何者正確?\n①設計施工圖由建築師繪製 \n②製作施工圖由承包商繪製 \n③設計施工圖多半不指定建材廠牌,而製作施工圖則須註明建材廠牌、型號及作法 \n④為求貫徹設計意圖,製作施工圖亦可由建築師代為繪製",
     "options": [
-      "1234",
-      "僅234",
-      "僅134",
-      "僅123"
+      "①②③④",
+      "僅②③④",
+      "僅①③④",
+      "僅①②③"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -24524,7 +24552,8 @@
       "method": "PDF character geometry",
       "page": 12,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-76",
@@ -25922,12 +25951,12 @@
     "year": 104,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "以實木板條作為臥室地板工程,下列材料正確的施工順序為何?",
+    "question": "以實木板條作為臥室地板工程,下列材料正確的施工順序為何?\n①木夾板 \n①木角料 \n①實木板條 \n①防潮布",
     "options": [
-      "1111",
-      "1111",
-      "1111",
-      "1111"
+      "①①①①",
+      "①①①①",
+      "①①①①",
+      "①①①①"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -25958,7 +25987,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "104-construction-28",
@@ -26548,12 +26578,12 @@
     "year": 104,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關填縫材之設計與施工,下列敘述何者錯誤?",
+    "question": "有關填縫材之設計與施工,下列敘述何者錯誤?\n①防水填縫材於施工面受潮時仍可施作 \n①填縫時伸縮縫應處於正常的狀況下,避免於收縮或膨脹時施工 \n①除施工說明書或圖樣有更嚴格的規定,其餘均依照使用廠牌之技術資料施工 \n①填縫劑之深度通常大於寬度",
     "options": [
-      "11",
-      "11",
-      "11",
-      "11"
+      "①①",
+      "①①",
+      "①①",
+      "①①"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -26584,7 +26614,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "104-construction-42",
@@ -26998,10 +27029,10 @@
     "chapter": "未分類（待章節核對）",
     "question": "下列圖示屋頂防水膜收頭何者正確?",
     "options": [
-      "11",
-      "僅1",
-      "僅1",
-      "僅1"
+      "①②",
+      "僅②",
+      "僅③",
+      "僅①"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -27038,7 +27069,8 @@
       "method": "PDF character geometry",
       "page": 9,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "104-construction-52",
@@ -27438,12 +27470,12 @@
     "year": 104,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為預貼面磚預鑄混凝土牆版之正確製作順序?",
+    "question": "下列何者為預貼面磚預鑄混凝土牆版之正確製作順序?\n①鋼筋加工組立、預埋件埋設 \n①組模、面磚舖設 \n①工廠養護、脫模 \n①混凝土澆置、整平",
     "options": [
-      "1111",
-      "1111",
-      "1111",
-      "1111"
+      "①①①①",
+      "①①①①",
+      "①①①①",
+      "①①①①"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -27474,7 +27506,8 @@
       "method": "PDF character geometry",
       "page": 10,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "104-construction-62",
@@ -27972,12 +28005,12 @@
     "year": 104,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關蛇籠(gabions)之敘述,下列何者正確?",
+    "question": "有關蛇籠(gabions)之敘述，下列何者正確？\n①原為基地工程擋土牆及水域堤岸的工法\n②建築師用於建築外殼時，可作為隔熱或防止眩光\n③屬於堆疊的方式，是重力的表現\n④金屬格網內亦可填充打碎之廢混凝土，因此可歸屬綠建材工法",
     "options": [
-      "1111",
-      "僅111",
-      "僅111",
-      "僅111"
+      "①②③④",
+      "僅①②③",
+      "僅②③④",
+      "僅①②④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -28008,7 +28041,8 @@
       "method": "PDF character geometry",
       "page": 12,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "104-construction-74",
@@ -29801,12 +29835,12 @@
     "year": 105,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列水平走向的建築水電管線:1強電 2給水 3排水 4污水,自上到下的排列順序何者正確?",
+    "question": "下列水平走向的建築水電管線:\n①強電 \n②給水 \n③排水 \n④污水,自上到下的排列順序何者正確?",
     "options": [
-      "1232",
-      "1322",
-      "2321",
-      "2132"
+      "①②③②",
+      "①③②②",
+      "②③②①",
+      "②①③②"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -29837,7 +29871,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "105-construction-35",
@@ -31379,12 +31414,12 @@
     "year": 105,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者是合理的工作程序?",
+    "question": "下列何者是合理的工作程序?\n①開挖 \n②施打鋼板樁 \n③裝設傾斜儀 \n④抽排水",
     "options": [
-      "3212",
-      "3212",
-      "1223",
-      "3122"
+      "③②①②",
+      "③②①②",
+      "①②②③",
+      "③①②②"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -31415,19 +31450,20 @@
       "method": "PDF character geometry",
       "page": 10,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "105-construction-71",
     "year": 105,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "公共工程之工程結案程序,下列何者正確?",
+    "question": "公共工程之工程結案程序,下列何者正確?\n①驗收 \n②結算 \n③申報竣工 \n④監造查驗",
     "options": [
-      "3212",
-      "2123",
-      "3221",
-      "1232"
+      "③②①②",
+      "②①②③",
+      "③②②①",
+      "①②③②"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -31458,19 +31494,20 @@
       "method": "PDF character geometry",
       "page": 10,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "105-construction-72",
     "year": 105,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "公共工程的營建發包合約包含下列那些內容?",
+    "question": "公共工程的營建發包合約包含下列那些內容?\n①工程項目詳細表 \n②單價分析 \n③包商利潤管理費 \n④建築師專業保險費",
     "options": [
-      "123",
-      "232",
-      "132",
-      "122"
+      "①②③",
+      "②③②",
+      "①③②",
+      "①②②"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -31501,7 +31538,8 @@
       "method": "PDF character geometry",
       "page": 10,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "105-construction-73",
@@ -31723,12 +31761,12 @@
     "year": 105,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列建築管理作業,何者需由起造人會同申請,或於申請書中簽章?",
+    "question": "下列建築管理作業,何者需由起造人會同申請,或於申請書中簽章?\n①建造執照申請 \n②申請開工備查 \n③申報勘驗 \n④申請使用執照",
     "options": [
-      "3",
-      "13",
-      "232",
-      "122"
+      "③",
+      "①③",
+      "②③④",
+      "①②④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -31759,7 +31797,8 @@
       "method": "PDF character geometry",
       "page": 10,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "105-construction-79",
@@ -32570,12 +32609,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關混凝土材料在構法上的應用,下列敘述何者正確?",
+    "question": "有關混凝土材料在構法上的應用,下列敘述何者正確?\n①原本是澆鑄性的材料 \n②當製成預製混凝土構件使用時,即成為組裝性的材料 \n③當製作混凝土磚使用時,即成為砌築性的材料",
     "options": [
-      "123",
-      "僅23",
-      "僅12",
-      "僅13"
+      "①②③",
+      "僅②③",
+      "僅①②",
+      "僅①③"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -32606,7 +32645,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-17",
@@ -32828,12 +32868,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關防火門之設計,下列敘述何者錯誤?",
+    "question": "有關防火門之設計,下列敘述何者錯誤?\n①防火門之門扇寬度應在75 公分以上 \n②為建築物安全維護,防火門於火災發生時應需用鑰匙方可開啟 \n③常閉式防火門應裝設經開啟後可自行關閉之裝置 \n④常開式防火門應於火災發生時保持開啟",
     "options": [
-      "12",
-      "34",
-      "13",
-      "24"
+      "①②",
+      "③④",
+      "①③",
+      "②④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -32864,7 +32904,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-23",
@@ -33426,12 +33467,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "陽台使用玻璃欄杆時,下列何者正確?",
+    "question": "陽台使用玻璃欄杆時,下列何者正確?\n①使用強化玻璃,先裁切後強化 \n②使用強化玻璃,先強化後裁切 \n③使用膠合玻璃 \n④使用一般有色玻璃",
     "options": [
-      "13",
-      "14",
-      "23",
-      "24"
+      "①③",
+      "①④",
+      "②③",
+      "②④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -33462,7 +33503,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-36",
@@ -34060,12 +34102,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何種玻璃因成品製成後不能再予切割,所以須訂製?",
+    "question": "下列何種玻璃因成品製成後不能再予切割,所以須訂製?\n①浮式及磨光平板玻璃 \n②強化玻璃 \n③ 雙層玻璃 \n④膠合玻璃",
     "options": [
-      "12",
-      "14",
-      "23",
-      "34"
+      "①②",
+      "①④",
+      "②③",
+      "③④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -34096,7 +34138,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-50",
@@ -34410,12 +34453,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "建築物樓版伸縮縫,主要考慮下列何種性能?",
+    "question": "建築物樓版伸縮縫,主要考慮下列何種性能?\n①變形對應性 \n②防水性 \n③耐火性 \n④隔熱性",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -34446,7 +34489,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-58",
@@ -34643,12 +34687,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關PC 耐力板(polycarbonate plate)(聚碳酸酯板)的敍述,下列何者正確?",
+    "question": "有關PC 耐力板(polycarbonate plate)(聚碳酸酯板)的敍述,下列何者正確?\n①與玻璃相較,硬度高,不易刮傷,但容易老化 \n②常做成中空板,隔熱性佳 \n③透光性及透明性皆較玻璃為佳",
     "options": [
-      "僅23",
-      "僅13",
-      "僅12",
-      "123"
+      "僅②③",
+      "僅①③",
+      "僅①②",
+      "①②③"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -34679,7 +34723,8 @@
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-63",
@@ -35030,12 +35075,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "建築物在施工中,主管機關認有必要時,得隨時勘驗,勘驗結果有下列何者狀況時,應以書面通知承造人或起造人或監造人,勒令停工或修改?",
+    "question": "建築物在施工中,主管機關認有必要時,得隨時勘驗,勘驗結果有下列何者狀況時,應以書面通知承造人或起造人或監造人,勒令停工或修改?\n①危害公共安全 \n②妨礙公共交通 \n③妨礙公共衛生 \n④妨礙都市景觀",
     "options": [
-      "234",
-      "123",
-      "124",
-      "134"
+      "②③④",
+      "①②③",
+      "①②④",
+      "①③④"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -35066,7 +35111,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-72",
@@ -35159,12 +35205,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "依公有建築物施工階段契約約定權責分工表之內容,工程竣工圖說作業下列何者錯誤?",
+    "question": "依公有建築物施工階段契約約定權責分工表之內容,工程竣工圖說作業下列何者錯誤?\n①工程竣工圖說之繪製應由設計人辦理 \n②工程竣工圖說之審查應由監造人辦理 \n③工程竣工圖說之審查應由設計人及監造人共同辦理 \n④工程竣工圖說之審查應由業主核定",
     "options": [
-      "24",
-      "12",
-      "13",
-      "34"
+      "②④",
+      "①②",
+      "①③",
+      "③④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -35195,7 +35241,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-75",
@@ -35245,12 +35292,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "含高碳之鋼筋較適合之續接方式為何?",
+    "question": "含高碳之鋼筋較適合之續接方式為何?\n①搭接 \n②瓦斯壓接 \n③銲接 \n④續接器",
     "options": [
-      "12",
-      "23",
-      "34",
-      "14"
+      "①②",
+      "②③",
+      "③④",
+      "①④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -35281,19 +35328,20 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-77",
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列建築管理作業,何者需由設計人會同申請,或於申請書中簽章?",
+    "question": "下列建築管理作業,何者需由設計人會同申請,或於申請書中簽章?\n①建造執照申請 \n②申請開工備查 \n③申報勘驗 \n④申請使用執照",
     "options": [
-      "僅1",
-      "僅12",
-      "僅123",
-      "1234"
+      "僅①",
+      "僅①②",
+      "僅①②③",
+      "①②③④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -35324,19 +35372,20 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-78",
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列事項的辦理順序,何者正確?",
+    "question": "下列事項的辦理順序,何者正確?\n①申辦電信設計許可 \n②申辦都市設計審議許可 \n③申辦地目變更 \n④建築執照許可審查",
     "options": [
-      "3241",
-      "1324",
-      "4213",
-      "3412"
+      "③②④①",
+      "①③②④",
+      "④②①③",
+      "③④①②"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -35367,7 +35416,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-79",
@@ -35460,12 +35510,12 @@
     "year": 107,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "RC 平屋頂採複合式防水材兩底三度塗佈膜厚 3 mm 以上作防水,並以 PS 隔熱板隔熱時,下列構造排列由下至上何者正確?",
+    "question": "RC 平屋頂採複合式防水材兩底三度塗佈膜厚 3 mm 以上作防水,並以 PS 隔熱板隔熱時,下列構造排列由下至上何者正確?\n①結構混凝土 \n②複合式防水材 \n③6 cm 厚 3000 PSI PC \n④塑木地板 \n⑤PS隔熱板",
     "options": [
-      "12345",
-      "15234",
-      "12354",
-      "12534"
+      "①②③④⑤",
+      "①⑤②③④",
+      "①②③⑤④",
+      "①②⑤③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -35496,7 +35546,8 @@
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "107-construction-02",
@@ -36215,12 +36266,12 @@
     "year": 107,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為以連續壁作為擋土設施的地下室逆打工法,由先而後之施工順序,下列何者正確?",
+    "question": "下列何者為以連續壁作為擋土設施的地下室逆打工法,由先而後之施工順序,下列何者正確?\n①連續壁擋土設施構築 \n②抽排水及開挖棄土 \n③梁版及逆打柱頭工程 \n④基樁及逆打鋼柱插放 \n⑤二次牆柱及無收縮水泥砂漿灌注工程",
     "options": [
-      "14235",
-      "12345",
-      "21435",
-      "42153"
+      "①④②③⑤",
+      "①②③④⑤",
+      "②①④③⑤",
+      "④②①⑤③"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -36251,7 +36302,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "107-construction-19",
@@ -36473,12 +36525,12 @@
     "year": 107,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "窗戶是RC 建築最常見漏水的地方,其漏水的關鍵原因可能為何?",
+    "question": "窗戶是RC 建築最常見漏水的地方,其漏水的關鍵原因可能為何?\n①塞水路不確實 \n②窗角剪力裂縫 \n③粉刷不確實 \n④止水帶施作失敗",
     "options": [
-      "12",
-      "34",
-      "13",
-      "14"
+      "①②",
+      "③④",
+      "①③",
+      "①④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -36509,7 +36561,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "107-construction-25",
@@ -36663,12 +36716,12 @@
     "year": 107,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關薄層綠屋頂的結構由上而下排序,下列何者正確?",
+    "question": "有關薄層綠屋頂的結構由上而下排序,下列何者正確?\n①植栽層 \n②介質層 \n③排(蓄)水層 \n④過濾層 \n⑤防水層 \n⑥阻根層 \n⑦樓板",
     "options": [
-      "1234567",
-      "1245637",
-      "1243657",
-      "1234657"
+      "①②③④⑤⑥⑦",
+      "①②④⑤⑥③⑦",
+      "①②④③⑥⑤⑦",
+      "①②③④⑥⑤⑦"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -36699,7 +36752,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "107-construction-29",
@@ -37523,12 +37577,12 @@
     "year": 107,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "RC 外牆的窗邊經常滲水,較有可能的原因是:1窗太大 2RC 外牆厚度不足 3窗框料件太小 4窗框與RC 牆間填塞不實 5RC 牆開口與窗框尺寸間距太大",
+    "question": "RC 外牆的窗邊經常滲水,較有可能的原因是:\n①窗太大 \n②RC 外牆厚度不足 \n③窗框料件太小 \n④窗框與RC 牆間填塞不實 \n⑤RC 牆開口與窗框尺寸間距太大",
     "options": [
-      "12",
-      "23",
-      "34",
-      "45"
+      "①②",
+      "②③",
+      "③④",
+      "④⑤"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -37559,7 +37613,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "107-construction-49",
@@ -40367,12 +40422,12 @@
     "year": 108,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關室內砌紅磚牆之裝修工程,下列敘述那些錯誤?",
+    "question": "有關室內砌紅磚牆之裝修工程,下列敘述那些錯誤?\n①紅磚砌築施工前應避免溼潤以免影響水泥砂漿之固化凝結功能 \n②1B 磚牆高度超過 3 公尺時應加設補強梁柱 \n③下層砌磚高度達 1.5 公尺高度時應予暫停,剩餘次日再砌 \n④磚牆轉角處,應以相交錯開方式(交丁)砌疊",
     "options": [
-      "12",
-      "14",
-      "23",
-      "34"
+      "①②",
+      "①④",
+      "②③",
+      "③④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -40403,19 +40458,20 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "108-construction-33",
     "year": 108,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關牆面鋪貼磁磚之裝修工程,下列敘述那些較正確?",
+    "question": "有關牆面鋪貼磁磚之裝修工程,下列敘述那些較正確?\n①塗抹黏著劑時,以水紋狀塗抹較佳 \n②內牆磁磚鋪貼後應立即以溼海綿擦拭並進行抹縫作業 \n③外牆磁磚可透過雷射水平儀調整施工區塊內磁磚之水平及垂直度 \n④勾縫作業較適合磚片厚度大、接縫間隙較寬處",
     "options": [
-      "12",
-      "23",
-      "14",
-      "34"
+      "①②",
+      "②③",
+      "①④",
+      "③④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -40446,7 +40502,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "108-construction-34",
@@ -43637,12 +43694,12 @@
     "year": 109,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者屬於鋼結構銲道「非破壞檢測法」?",
+    "question": "下列何者屬於鋼結構銲道「非破壞檢測法」?\n①鋼結構銲道磁粒檢測法 \n②鋼結構銲道超音波檢測法 \n③鋼結構銲道液滲檢測法 \n④鋼結構銲道目視檢測法",
     "options": [
-      "僅14",
-      "僅124",
-      "僅4",
-      "1234"
+      "僅①④",
+      "僅①②④",
+      "僅④",
+      "①②③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -43673,7 +43730,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "109-construction-27",
@@ -44885,12 +44943,12 @@
     "year": 109,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "依據木構造建築物設計及施工技術規範規定,下列何者為木構件之接合扣件?",
+    "question": "依據木構造建築物設計及施工技術規範規定,下列何者為木構件之接合扣件?\n①釘 \n②鳳尾釘 \n③木螺絲釘 \n④螺栓 \n⑤膨脹螺栓 \n⑥突端螺栓 \n⑦穿孔釘",
     "options": [
-      "12456",
-      "13467",
-      "12367",
-      "13567"
+      "①②④⑤⑥",
+      "①③④⑥⑦",
+      "①②③⑥⑦",
+      "①③⑤⑥⑦"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -44921,7 +44979,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "109-construction-55",
@@ -45401,12 +45460,12 @@
     "year": 109,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列工作之先後程序何者正確?",
+    "question": "下列工作之先後程序何者正確?\n①申報竣工 \n②消防安全檢查 \n③拆鷹架 \n④完成外牆磁磚",
     "options": [
-      "4213",
-      "4321",
-      "4123",
-      "4312"
+      "④②①③",
+      "④③②①",
+      "④①②③",
+      "④③①②"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -45437,19 +45496,20 @@
       "method": "PDF character geometry",
       "page": 9,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "109-construction-67",
     "year": 109,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "工地經常出問題,下列那一項不是建築師的設計責任?",
+    "question": "工地經常出問題,下列那一項不是建築師的設計責任?\n①RC 牆開口施工尺寸太小,窗戶安裝有問題 \n②模板支撐不足,產生爆漿 \n③不同工項施工順序錯亂,影響工期 \n④廁所地坪洩水坡度不足,與施工圖不符,地面排水不良 \n⑤隔間牆施作位置有誤差,固定設備無法安裝",
     "options": [
-      "僅123",
-      "僅1235",
-      "12345",
-      "僅234"
+      "僅①②③",
+      "僅①②③⑤",
+      "①②③④⑤",
+      "僅②③④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -45480,7 +45540,8 @@
       "method": "PDF character geometry",
       "page": 9,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "109-construction-68",
@@ -45753,12 +45814,12 @@
     "year": 109,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "若工程未達查核金額以上,可視個案需要調整、縮減施工計畫書內容。下列那些為至少必要涵蓋之內容?",
+    "question": "若工程未達查核金額以上,可視個案需要調整、縮減施工計畫書內容。下列那些為至少必要涵蓋之內容?\n①開工前置作業 \n②施工作業管理 \n③進度管理 \n④假設工程計畫 \n⑤勞工安全衛生管理計畫",
     "options": [
-      "123",
-      "135",
-      "235",
-      "245"
+      "①②③",
+      "①③⑤",
+      "②③⑤",
+      "②④⑤"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -45789,7 +45850,8 @@
       "method": "PDF character geometry",
       "page": 10,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "109-construction-75",
@@ -46232,12 +46294,12 @@
     "year": 110,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "某建築師欲以六種吸水率不同的陶瓷面磚,選用於某河濱公園設計案的戶外地坪。若以 CNS 9737 「陶瓷面磚」對於吸水率的區分規定,下列組合中何者全部屬於 II 類?",
+    "question": "某建築師欲以六種吸水率不同的陶瓷面磚,選用於某河濱公園設計案的戶外地坪。若以 CNS 9737 「陶瓷面磚」對於吸水率的區分規定,下列組合中何者全部屬於 II 類?\n①吸水率 14% \n②吸水率 5% \n③吸水率18% \n④吸水率12% \n⑤吸水率2% \n⑥吸水率7%",
     "options": [
-      "46",
-      "13",
-      "26",
-      "25"
+      "④⑥",
+      "①③",
+      "②⑥",
+      "②⑤"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -46268,7 +46330,8 @@
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "110-construction-06",
@@ -46762,12 +46825,12 @@
     "year": 110,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "MHL 工法的地下連續壁其施工順序為何?",
+    "question": "MHL 工法的地下連續壁其施工順序為何?\n①澆置混凝土 \n②以挖掘斗挖掘壁溝 \n③設置導牆與導溝 \n④吊放鋼筋籠",
     "options": [
-      "3214",
-      "2431",
-      "2314",
-      "3241"
+      "③②①④",
+      "②④③①",
+      "②③①④",
+      "③②④①"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -46798,7 +46861,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "110-construction-18",
@@ -47421,12 +47485,12 @@
     "year": 110,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "某建築師接受業主委託,執行企業總部大樓地上第十八層的招待所之室內設計,而所選用的各種室內材料如1~7所示, 1設置於舞台,提供簡報或發表用之投影布幕 2鋪設於出入口,面積1.5 平方公尺的門墊地毯 3垂掛於室內,展示企業形象的廣告合板 4放置於展示區的絨布製企業吉祥物,高1.1 公尺 5安裝於窗邊的布製橫葉式百葉窗簾 6供來賓使用之真皮沙發與吧台區的布製椅墊高腳椅 7鋪設於室內造景區之人工草皮,面積8 平方公尺若依據消防法施行細則所訂定之「防焰性能認證實施要點」,下列何者組合均不屬於被規範的室內防焰物品?",
+    "question": "某建築師接受業主委託,執行企業總部大樓地上第十八層的招待所之室內設計,而所選用的各種室內材料如\n①~\n⑦所示, \n①設置於舞台,提供簡報或發表用之投影布幕 \n②鋪設於出入口,面積1.5 平方公尺的門墊地毯 \n③垂掛於室內,展示企業形象的廣告合板 \n④放置於展示區的絨布製企業吉祥物,高1.1 公尺 \n⑤安裝於窗邊的布製橫葉式百葉窗簾 \n⑥供來賓使用之真皮沙發與吧台區的布製椅墊高腳椅 \n⑦鋪設於室內造景區之人工草皮,面積8 平方公尺若依據消防法施行細則所訂定之「防焰性能認證實施要點」,下列何者組合均不屬於被規範的室內防焰物品?",
     "options": [
-      "123",
-      "457",
-      "136",
-      "246"
+      "①②③",
+      "④⑤⑦",
+      "①③⑥",
+      "②④⑥"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -47457,7 +47521,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "110-construction-33",
@@ -47765,12 +47830,12 @@
     "year": 110,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "一般集合住宅採用預鑄混凝土工法時,其施工順序何者較為合理?",
+    "question": "一般集合住宅採用預鑄混凝土工法時,其施工順序何者較為合理?(以其中一層標準層的作法為例) \n①梁柱接頭封模 \n②梁與版構件吊裝 \n③柱接頭無收縮水泥灌注 \n④澆置混凝土 \n⑤柱構件吊裝",
     "options": [
-      "52143",
-      "51243",
-      "51234",
-      "53214"
+      "⑤②①④③",
+      "⑤①②④③",
+      "⑤①②③④",
+      "⑤③②①④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -47801,7 +47866,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "110-construction-41",
@@ -49483,12 +49549,12 @@
     "year": 110,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為計畫評核術(P.E.R.T.)與要徑分析(C.P.M.)之共同點?",
+    "question": "下列何者為計畫評核術(P.E.R.T.)與要徑分析(C.P.M.)之共同點?\n①尋求要徑觀念 \n②尋求最佳工期 \n③合理資源分配 \n④顯示各作業相互關係 \n⑤調整成本費用",
     "options": [
-      "124",
-      "245",
-      "134",
-      "345"
+      "①②④",
+      "②④⑤",
+      "①③④",
+      "③④⑤"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -49519,7 +49585,8 @@
       "method": "PDF character geometry",
       "page": 10,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "110-construction-79",
@@ -50134,12 +50201,12 @@
     "year": 111,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "常見運用在鋼材料防鏽的材料有那些?",
+    "question": "常見運用在鋼材料防鏽的材料有那些?\n①熱浸鍍鋅 \n②鋅粉漆 \n③粉底烤漆 \n④氟碳烤漆",
     "options": [
-      "僅123",
-      "僅24",
-      "僅34",
-      "1234"
+      "僅①②③",
+      "僅②④",
+      "僅③④",
+      "①②③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -50170,19 +50237,20 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-construction-14",
     "year": 111,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "木材經乾燥處理後,其功能可以:1呈現木紋增加美觀 2增加木材結構強度 3防止真菌生長 4減少白蟻攻擊",
+    "question": "木材經乾燥處理後,其功能可以:\n①呈現木紋增加美觀 \n②增加木材結構強度 \n③防止真菌生長 \n④減少白蟻攻擊",
     "options": [
-      "僅123",
-      "僅124",
-      "僅34",
-      "僅234"
+      "僅①②③",
+      "僅①②④",
+      "僅③④",
+      "僅②③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -50213,7 +50281,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-construction-15",
@@ -50486,12 +50555,12 @@
     "year": 111,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列四種土質之建築基礎工程承載力,依「最佳、好、一般、不可取」之排序為何?",
+    "question": "下列四種土質之建築基礎工程承載力,依「最佳、好、一般、不可取」之排序為何?\n①砂和礫石 \n②普通黏土與重黏土 \n③有機淤泥和黏土 \n④淤泥和軟黏土",
     "options": [
-      "1234",
-      "2134",
-      "1243",
-      "2431"
+      "①②③④",
+      "②①③④",
+      "①②④③",
+      "②④③①"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -50522,7 +50591,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-construction-22",
@@ -50580,12 +50650,12 @@
     "year": 111,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關鋼構銲接完成後必須進行銲道的非破壞性檢驗,不包含下列那些?",
+    "question": "有關鋼構銲接完成後必須進行銲道的非破壞性檢驗,不包含下列那些?\n①超音波檢驗法 \n②全銲道拉伸試驗法 \n③目視檢驗法 \n④螢光檢驗法 \n⑤放射線檢驗法",
     "options": [
-      "23",
-      "15",
-      "24",
-      "34"
+      "②③",
+      "①⑤",
+      "②④",
+      "③④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -50616,7 +50686,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-construction-24",
@@ -51489,12 +51560,12 @@
     "year": 111,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "清水砌磚工法中勾縫之目的為何?",
+    "question": "清水砌磚工法中勾縫之目的為何?\n①黏著 \n②防水 \n③美觀 \n④抑制白華",
     "options": [
-      "13",
-      "24",
-      "34",
-      "23"
+      "①③",
+      "②④",
+      "③④",
+      "②③"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -51525,7 +51596,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-construction-45",
@@ -52559,12 +52631,12 @@
     "year": 111,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列那幾種管線適合配置在同一管道間中?",
+    "question": "下列那幾種管線適合配置在同一管道間中?\n①強電 \n②給水 \n③排水 \n④消防 \n⑤弱電",
     "options": [
-      "123",
-      "145",
-      "134",
-      "234"
+      "①②③",
+      "①④⑤",
+      "①③④",
+      "②③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -52595,7 +52667,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-construction-69",
@@ -52688,12 +52761,12 @@
     "year": 111,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "室內裝修工程常見之分間牆資材,若依碳足跡標準由高至低排列,下列何者正確?",
+    "question": "室內裝修工程常見之分間牆資材,若依碳足跡標準由高至低排列,下列何者正確?\n①10 公分石膏版輕隔間 \n②1/2 B 磚雙面粉光 \n③8 公分玻璃磚隔間 \n④雙面水泥粉刷之空心磚牆",
     "options": [
-      "2314",
-      "3241",
-      "4321",
-      "2431"
+      "②③①④",
+      "③②④①",
+      "④③②①",
+      "②④③①"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -52724,7 +52797,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-construction-72",
@@ -55542,12 +55616,12 @@
     "year": 112,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "鋼筋混凝土造的古蹟或歷史建築,在修復上會運用碳纖維包覆補強的工法。其施工過程所使用的機械設備,下列何者之組合項目是通常都會用到的?",
+    "question": "鋼筋混凝土造的古蹟或歷史建築,在修復上會運用碳纖維包覆補強的工法。其施工過程所使用的機械設備,下列何者之組合項目是通常都會用到的?\n①挖土機 \n②電動磨石機 \n③毛刷滾輪 \n④千斤頂 \n⑤砂輪機 \n⑥高壓空氣槍 \n⑦切割機 \n⑧噴霧器 \n⑨手提電動攪拌機",
     "options": [
-      "123",
-      "345",
-      "567",
-      "789"
+      "①②③",
+      "③④⑤",
+      "⑤⑥⑦",
+      "⑦⑧⑨"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -55578,7 +55652,8 @@
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "112-construction-56",
@@ -58476,12 +58551,12 @@
     "year": 113,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "一般鋼構造房屋工地現場的施工順序,何者正確?",
+    "question": "一般鋼構造房屋工地現場的施工順序,何者正確?\n①樑構件吊裝 \n②銲接鎖固 \n③基礎螺栓埋設 \n④柱構件吊裝 \n⑤高拉力螺栓鎖固",
     "options": [
-      "41253",
-      "34152",
-      "35412",
-      "41352"
+      "④①②⑤③",
+      "③④①⑤②",
+      "③⑤④①②",
+      "④①③⑤②"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -58512,7 +58587,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "113-construction-42",
@@ -60166,12 +60242,12 @@
     "year": 113,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者屬於公共工程工程管理費之範疇?",
+    "question": "下列何者屬於公共工程工程管理費之範疇?\n①建築證照費 \n②公共藝術執行費用 \n③仲裁費用 \n④評選作業費 \n⑤設計監造費",
     "options": [
-      "123",
-      "234",
-      "345",
-      "134"
+      "①②③",
+      "②③④",
+      "③④⑤",
+      "①③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -60202,7 +60278,8 @@
       "method": "PDF character geometry",
       "page": 12,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "113-construction-80",
@@ -61109,12 +61186,12 @@
     "year": 114,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "場鑄樁之施工,在完成裝設抓斗於樁心後,尚包含下列步驟,其施工順序何者正確?",
+    "question": "場鑄樁之施工,在完成裝設抓斗於樁心後,尚包含下列步驟,其施工順序何者正確?\n①清除底部淤泥 \n②鑽挖,穩定液隨著鑽挖深度注入鑽口 \n③吊放鋼筋籠 \n④套管埋設 \n⑤拔除套管 \n⑥放置特密管澆置混凝土",
     "options": [
-      "241365",
-      "421536",
-      "234651",
-      "124356"
+      "②④①③⑥⑤",
+      "④②①⑤③⑥",
+      "②③④⑥⑤①",
+      "①②④③⑤⑥"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -61157,7 +61234,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "114-construction-21",
@@ -63200,12 +63278,12 @@
     "year": 114,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "屋頂綠化之施作包含下列六項重點:1阻根層 2介質層 3排水 4過濾層 5防水層 6植栽層,有關屋頂構造由上而下排序,下列何者正確?",
+    "question": "屋頂綠化之施作包含下列六項重點:\n①阻根層 \n②介質層 \n③排水 \n④過濾層 \n⑤防水層 \n⑥植栽層,有關屋頂構造由上而下排序,下列何者正確?",
     "options": [
-      "625431",
-      "624315",
-      "623451",
-      "621435"
+      "⑥②⑤④③①",
+      "⑥②④③①⑤",
+      "⑥②③④⑤①",
+      "⑥②①④③⑤"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -63236,7 +63314,8 @@
       "method": "PDF character geometry",
       "page": 11,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "114-construction-67",

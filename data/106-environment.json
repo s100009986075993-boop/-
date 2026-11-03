@@ -690,12 +690,12 @@
     "year": 106,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何種組合是我國室內空氣品質管理法的管制項目?",
+    "question": "下列何種組合是我國室內空氣品質管理法的管制項目?\n①CO2 \n②NH3 \n③細菌 \n④TVOC \n⑤SO2 \n⑥PM2.5",
     "options": [
-      "2345",
-      "1346",
-      "1456",
-      "1256"
+      "②③④⑤",
+      "①③④⑥",
+      "①④⑤⑥",
+      "①②⑤⑥"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -726,7 +726,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-environment-14",
@@ -1852,12 +1853,12 @@
     "year": 106,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "綠建築評估手冊-住宿類中,在日常節能指標中納入具有節能潛力的「固定耗能設備」進行評估,下列選項何者非手冊內固定耗能設備?",
+    "question": "綠建築評估手冊-住宿類中,在日常節能指標中納入具有節能潛力的「固定耗能設備」進行評估,下列選項何者非手冊內固定耗能設備?\n①熱水設備 \n②烹飪設備 \n③冷藏設備 \n④沐浴設備 \n⑤熱水管保溫 \n⑥空調設備",
     "options": [
-      "15",
-      "25",
-      "36",
-      "14"
+      "①⑤",
+      "②⑤",
+      "③⑥",
+      "①④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1888,19 +1889,20 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-environment-36",
     "year": 106,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "在綠建築評估手冊-社區類中,為了減緩熱島效應採用之技術手法,下列何者屬於「地面蒸發冷卻設計」 之項目?",
+    "question": "在綠建築評估手冊-社區類中,為了減緩熱島效應採用之技術手法,下列何者屬於「地面蒸發冷卻設計」 之項目?\n①湖泊、溪流、水池 \n②透水鋪面 \n③喬木綠化之屋頂、地面 \n④U值 < 3 W/m2K 之屋頂",
     "options": [
-      "12",
-      "34",
-      "24",
-      "13"
+      "①②",
+      "③④",
+      "②④",
+      "①③"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1931,7 +1933,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-environment-37",

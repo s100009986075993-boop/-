@@ -14,7 +14,8 @@ FIXES={
  '97-structure-38':{'question':'有一獨立方型基腳，如右圖所示，當其軸心承受軸向載重45 t，基腳自重12.5 t，而土壤之重為5 t，若基地容許地耐力 qa＝10 t/m²，則方型基腳之尺寸至少應為？','options':['1.5 m × 1.5 m','2.0 m × 2.0 m','2.5 m × 2.5 m','2.2 m × 2.2 m']},
 }
 COMBINATION_FIXES=json.loads((ROOT/'data/combination-transcription-fixes.json').read_text())
-FIXES.update({qid:{'question':fix['question']} for qid,fix in COMBINATION_FIXES.items()})
+GRAPHIC_FIXES=json.loads((ROOT/'data/combination-graphic-fixes.json').read_text())
+FIXES.update({qid:{k:fix[k] for k in ['question','options'] if k in fix} for qid,fix in {**COMBINATION_FIXES,**GRAPHIC_FIXES}.items()})
 curated=json.loads((ROOT/'data/curated-explanations.json').read_text());summary={}
 for slug,var in [('structure','officialBank'),('environment','environmentBank'),('law','lawBank'),('construction','constructionBank')]:
  combined=[]

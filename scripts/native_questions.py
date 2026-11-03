@@ -10,7 +10,11 @@ SYMBOLS={chr(0xf000+ord(a)):b for a,b in {'=':'=', '(':'(', ')':')', '-':'−', 
 SYMBOLS.update({'\uf0b4':'×','\uf0d7':'×','\uf0a2':'′','\uf0b1':'±','\uf0bb':'≈','\uf0a5':'∞','\ue063':'①','\ue064':'②','\ue0c6':'①','\ue0c7':'②','\ue0c8':'③','\ue0c9':'④'})
 SUBITEMS={chr(0xe000+i):chr(0x2460+i) for i in range(20)}
 def clean(s):
+ # NFKC otherwise collapses ①② into 12 and loses statement identity.
+ protected={marker:f'__CIRCLED_{ord(marker)}__' for marker in SUBITEMS.values()}
+ for marker,token in protected.items():s=s.replace(marker,token)
  s=unicodedata.normalize('NFKC',s)
+ for marker,token in protected.items():s=s.replace(token,marker)
  for a,b in {**SUBITEMS,**SYMBOLS}.items():s=s.replace(a,b)
  s=re.sub(r'\b(cm|mm|m)([23])\b',lambda m:m[1]+{'2':'²','3':'³'}[m[2]],s)
  s=re.sub(r'\s+',' ',s).strip()

@@ -474,12 +474,12 @@
     "year": 114,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "有關高層建築結構系統與設計,下列敘述何者錯誤?",
+    "question": "有關高層建築結構系統與設計,下列敘述何者錯誤?\n①高層建築於設計風力下之層間位移角, 不得大於2 % \n②高層建築若採用外伸穩定架(outrigger)搭配帶狀桁架系統,應儘量配置於建築底層以抑制垂直變形 \n③某棟建築高度 52 公尺且樓層數 16 層,其平立面規則,故耐震設計可採靜力分析",
     "options": [
-      "僅12",
-      "僅23",
-      "僅13",
-      "123"
+      "僅①②",
+      "僅②③",
+      "僅①③",
+      "①②③"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -509,7 +509,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "114-structure-09",
@@ -1838,12 +1839,12 @@
     "year": 114,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者鋼結構構材斷面彎矩強度可達塑性彎矩?",
+    "question": "下列何者鋼結構構材斷面彎矩強度可達塑性彎矩?\n①塑性設計斷面 \n②細長肢材斷面 \n③結實斷面 \n④半結實斷面",
     "options": [
-      "13",
-      "23",
-      "24",
-      "14"
+      "①③",
+      "②③",
+      "②④",
+      "①④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1873,7 +1874,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "114-structure-35",
