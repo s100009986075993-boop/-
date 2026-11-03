@@ -2,7 +2,7 @@
 from pathlib import Path
 import argparse,zipfile
 ROOT=Path(__file__).resolve().parents[1]
-GUIDE='''築考練習室｜更新版（2026-11-02）
+GUIDE='''築考練習室｜更新版（2026-11-03）
 
 使用方式
 1. 將整個 ZIP 解壓縮到固定資料夾。
@@ -11,17 +11,18 @@ GUIDE='''築考練習室｜更新版（2026-11-02）
 4. 保留 assets/、data/ 與所有 JS/CSS，請勿只搬走 index.html。
 
 你的練習入口
-首頁「今天先練這一科」提供：法規、環控、結構系統、結構力學。
+首頁「今天先練這一科」提供：法規、環控、構造與施工、結構系統、結構力學。
 結構系統109題、力學22題已初步分流，另589題待分類。
 點結構後可自行選主題、年度、錯題複習或已有詳解草稿。
 系統觀念題需先選選項，再按確認答案。
 
 每天2～3小時
 20分鐘：重做先前錯題。
-35～45分鐘：當日主科（法規→環控→結構輪流）。
-35～50分鐘：核對答案、已有詳解與原卷，記下錯因。
+35～45分鐘：當日主科（法規→環控→結構→構造輪流）。
+35～50分鐘：核對答案與原卷，必要時詢問GPT，記下錯因。
 30～60分鐘：另做敷地／設計審題或圖面專項練習。
 結構日可先做10題系統觀念，再做3～5題力學。
+構造日可先練10～20題，工法順序與節點題對照附圖判斷。
 目前一般練習每回最多20題，可隨時結束返回。
 
 更新內容與限制
@@ -37,7 +38,7 @@ GUIDE='''築考練習室｜更新版（2026-11-02）
 敷地與設計筆記分別匯出。匯出目前僅供備份查看，尚不支援還原匯入或跨裝置同步。
 此離線版不會自動讀取公開網站的既有紀錄。
 '''
-QUICK='''<section class="portable-start" aria-label="今日快速練習"><p class="eyebrow">YOUR DAILY PRACTICE · 每天 2～3 小時</p><h2>今天先練這一科</h2><p>先做一回，再回顧錯因。法規、環控、結構輪流主攻。</p><div class="portable-actions"><button data-portable-subject="營建法規與實務">法規觀念 →</button><button data-portable-subject="建築環境控制">環控練習 →</button><button data-portable-subject="建築結構" data-portable-lane="systems">結構系統觀念 →</button><button data-portable-subject="建築結構" data-portable-lane="mechanics">結構力學 →</button></div><p class="muted">系統109題／力學22題先行分類，另589題待分類。詳解草稿<span id="quick-detailed-count">711</span>題保留於題庫；作答後請用 GPT 查詳解。紀錄只存在此瀏覽器，請定期匯出備份。</p></section>'''
+QUICK='''<section class="portable-start" aria-label="今日快速練習"><p class="eyebrow">YOUR DAILY PRACTICE · 每天 2～3 小時</p><h2>今天先練這一科</h2><p>先做一回，再回顧錯因。法規、環控、結構、構造輪流主攻。</p><div class="portable-actions"><button data-portable-subject="營建法規與實務">法規觀念 →</button><button data-portable-subject="建築環境控制">環控練習 →</button><button data-portable-subject="建築構造與施工">構造與施工 →</button><button data-portable-subject="建築結構" data-portable-lane="systems">結構系統觀念 →</button><button data-portable-subject="建築結構" data-portable-lane="mechanics">結構力學 →</button></div><p class="muted">系統109題／力學22題先行分類，另589題待分類。詳解草稿<span id="quick-detailed-count">711</span>題保留於題庫；作答後請用 GPT 查詳解。紀錄只存在此瀏覽器，請定期匯出備份。</p></section>'''
 BOOT='''<script>
 document.querySelectorAll('[data-portable-subject]').forEach(button=>button.onclick=()=>{
  setTab('practice');$('subject').value=button.dataset.portableSubject;
@@ -46,7 +47,7 @@ document.querySelectorAll('[data-portable-subject]').forEach(button=>button.oncl
  $('practice').scrollIntoView({behavior:'smooth',block:'start'});
 });
 </script>'''
-CSS='''<style>.portable-start{padding:24px;margin:0 0 24px;border:1px solid var(--teal);background:#eef0e1}.portable-start h2{margin:0;color:var(--teal)}.portable-start>p{font-size:13px}.portable-actions{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.portable-actions button{color:var(--teal);min-height:50px;padding:10px}.quiz-mode .portable-start{display:none}@media(max-width:700px){.portable-start{padding:18px 14px}.portable-actions{grid-template-columns:1fr 1fr}.portable-actions button{font-size:13px}}</style>'''
+CSS='''<style>.portable-start{padding:24px;margin:0 0 24px;border:1px solid var(--teal);background:#eef0e1}.portable-start h2{margin:0;color:var(--teal)}.portable-start>p{font-size:13px}.portable-actions{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.portable-actions button{color:var(--teal);min-height:50px;padding:10px}.quiz-mode .portable-start{display:none}@media(max-width:700px){.portable-start{padding:18px 14px}.portable-actions{grid-template-columns:1fr 1fr}.portable-actions button[data-portable-subject="建築構造與施工"]{grid-column:1/-1}.portable-actions button{font-size:13px}}</style>'''
 def export(target):
  html=(ROOT/'index.html').read_text()
  if 'data-portable-subject' not in html:
