@@ -198,3 +198,14 @@ body{padding-top:calc(58px + env(safe-area-inset-top,0px))}.quick-toolbar{positi
 #practice .basic-filters>label,#practice .basic-filters>label:last-child,#practice .basic-filters>label:nth-last-child(-n+2){grid-column:auto}
 .reference-catalog,.source-overview{margin:20px 0;padding:15px;border:1px solid var(--line);border-radius:5px}.reference-catalog summary,.source-overview summary{cursor:pointer;font-size:14px}.progress-backup{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:15px 0}.progress-backup #export{margin:0;min-height:44px}.progress-backup span{font-size:12px;color:var(--muted)}.town-overview .hero h2{font-size:32px;color:#775137;line-height:1.5}
 .adventure-hub h2,.adventure-hub p{color:#493a26}.study-actionbar{padding-left:max(16px,env(safe-area-inset-left,0px),calc((100vw - 1000px)/2));padding-right:max(16px,env(safe-area-inset-right,0px),calc((100vw - 1000px)/2))}.ux-editing .mobile-tabs{display:none}
+
+/* Backup / restore usability: intentionally scoped to the progress workspace. */
+.full-backup{margin:16px 0 22px;padding:18px;border:1px solid var(--line);background:#f9f2df;border-radius:6px}
+.full-backup h3{font-size:18px;margin:0 0 10px}
+.full-backup p{font-size:13px;line-height:1.8;margin:9px 0}
+.full-backup-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:15px 0}
+.full-backup-actions button,.full-backup-actions .full-backup-upload{min-height:46px;display:inline-flex;align-items:center;justify-content:center;padding:10px 16px}
+.full-backup-upload{cursor:pointer;border:2px solid #94754c;border-radius:5px;background:#fff8e9;font-size:14px;font-weight:700}
+.full-backup-upload input{max-width:230px;margin-left:12px;font-size:12px}
+#full-backup-status{min-height:1.5em;color:#425b3d;font-weight:600}
+@media(max-width:700px){.full-backup{padding:14px}.full-backup-actions{display:grid;grid-template-columns:1fr}.full-backup-actions>*{width:100%;box-sizing:border-box}.full-backup-upload{flex-wrap:wrap;gap:8px}.full-backup-upload input{margin-left:0;max-width:100%;width:100%}}
