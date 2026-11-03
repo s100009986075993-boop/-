@@ -140,3 +140,18 @@ button:disabled{cursor:default;opacity:.55}
 .quiz-mode .review-desk{display:none}
 @media(max-width:700px){.review-desk{display:block;padding:16px}.review-actions{margin-top:14px}.review-actions button{flex:1}.confidence-choice{padding:10px;gap:6px}.confidence-choice button{font-size:12px;padding:10px 5px}.question-note{padding:13px}}
 .memory-tip{margin:18px 0;padding:13px 15px;border-left:3px solid var(--teal);background:#e8eddd;font-size:14px;line-height:1.9;color:#354f46}
+
+/* Answer elimination uses a separate control so it never submits an answer. */
+.option-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:stretch}
+.exclude-option{min-width:60px;min-height:44px;padding:9px;font-size:12px;color:var(--teal);background:transparent}
+.exclude-option[aria-pressed="true"]{border-color:var(--teal);background:#e8eddd}
+.option.eliminated{border-style:dashed;background:#eee8db;box-shadow:none;color:#70644f}
+.option.eliminated .option-text,.option.eliminated .option-letter{text-decoration:line-through;text-decoration-thickness:2px}
+.elimination-tools{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:18px 0 10px}
+.elimination-tools p{flex-basis:100%;margin:0}
+.elimination-status{font-size:12px;color:var(--teal)}
+.clear-eliminations{min-height:44px;padding:8px 12px;font-size:12px}
+.elimination-tools[hidden],.clear-eliminations[hidden]{display:none}
+.question-options[data-answered] .exclude-option{display:none}
+.question-options[data-answered] .option-row{grid-template-columns:minmax(0,1fr)}
+@media(max-width:700px){.option-row{gap:6px}.exclude-option{min-width:48px;padding:8px 6px}.option-row .option{padding:13px 10px;gap:8px}}
