@@ -11,9 +11,10 @@
   const disabled = settings?.enabled === false;
   const release =
     document.querySelector('meta[name="app-version"]')?.content ||
-    "roomtools-20261103-9";
+    "usability-20261103-10";
   const drafts = new Map();
   const exclusionDrafts = new Map();
+  let partyExpanded = false;
   let session = null,
     state = null,
     revision = -1,
@@ -228,8 +229,15 @@
       ),
     );
     const join = element("form", "", "room-form");
-    const code = input("room-code", "例如 AB3D7K", 6);
+    const code = input("room-code", "房號，或直接貼邀請連結", 6);
     code.value = invite;
+    code.addEventListener("paste", (event) => {
+      const parsed = parseRoomCode(event.clipboardData?.getData("text"));
+      if (parsed) {
+        event.preventDefault();
+        code.value = parsed;
+      }
+    });
     code.autocomplete = "off";
     code.autocapitalize = "characters";
     code.oninput = () => {
@@ -259,7 +267,19 @@
     );
     for (const form of [create, join])
       form.onsubmit = (e) => e.preventDefault();
-    forms.append(create, join);
+    create.querySelector("button.primary").type = "submit";
+    join.querySelector("button.primary").type = "submit";
+    if (invite) {
+      join.classList.add("room-form-invited");
+      join.prepend(
+        element(
+          "p",
+          "朋友的房號已帶入，輸入暱稱就能加入。",
+          "room-invite-note",
+        ),
+      );
+      forms.append(join, create);
+    } else forms.append(create, join);
     root.append(forms);
   }
   async function enter(credentials) {
@@ -280,6 +300,11 @@
     const target = $("room-roster");
     if (!target) return;
     target.replaceChildren();
+    const partySummary = $("room-party-summary");
+    if (partySummary) {
+      const active = s.players.filter((p) => !p.left);
+      partySummary.textContent = `隊伍 ${active.length} 人 · ${s.phase === "lobby" ? "點此查看玩家" : `已提交 ${active.filter((p) => p.submitted).length} / ${active.length}`}`;
+    }
     for (const p of s.players) {
       const row = element("li", "", "room-player");
       row.append(
@@ -400,7 +425,15 @@
     const list = element("ul", "", "room-roster");
     list.id = "room-roster";
     list.setAttribute("aria-label", "房間玩家與分數");
-    root.append(list);
+    const party = element("details", "", "room-party");
+    party.open = s.phase === "lobby" || partyExpanded;
+    const partySummary = element("summary");
+    partySummary.id = "room-party-summary";
+    party.append(partySummary, list);
+    party.ontoggle = () => {
+      if (s.phase !== "lobby") partyExpanded = party.open;
+    };
+    root.append(party);
     roster(s);
     if (s.phase === "lobby") {
       root.append(

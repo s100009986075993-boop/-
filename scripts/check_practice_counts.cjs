@@ -11,7 +11,7 @@ const {chromium}=require('playwright');const assert=require('node:assert/strict'
   await p.locator('#subject').selectOption('建築結構');await p.locator('#year').selectOption('114');await p.locator('#start').click();assert.equal(await p.evaluate(()=>queue.length),40);assert.ok((await p.locator('.round-notice').innerText()).includes('不重複補題'));await p.locator('.lobby-button').click();
   await p.locator('#subject').selectOption('');await p.locator('#year').selectOption('');await p.locator('#mode').selectOption('paper');await p.locator('#start').click();assert.equal(await p.locator('#practice-error').isVisible(),true);assert.equal(await p.locator('.question-card').count(),0);
   // Whole papers include every question even when the previous chapter/solution filter was narrower.
-  await p.locator('#mode').selectOption('random');await p.locator('#contentfilter').selectOption('detailed');
+  await p.locator('#mode').selectOption('random');await p.locator('#practice-advanced summary').first().click();await p.locator('#contentfilter').selectOption('detailed');
   await p.locator('#subject').selectOption('建築構造與施工');await p.locator('#year').selectOption('114');await p.locator('#mode').selectOption('paper');assert.equal(await p.locator('#questioncount').inputValue(),'80');assert.equal(await p.locator('#contentfilter').isDisabled(),true);await p.locator('#start').click();
   const paper=await p.evaluate(()=>queue.map(q=>q.id));assert.equal(paper.length,80);assert.deepEqual(paper,Array.from({length:80},(_,i)=>`114-construction-${String(i+1).padStart(2,'0')}`));
   if(width===1280){

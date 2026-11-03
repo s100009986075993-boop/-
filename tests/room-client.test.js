@@ -48,3 +48,23 @@ test("邀請直接使用遊戲服務來源，帶新版號及獨立快取參數�
   );
   assert.throws(() => buildRoomInvite(target, "invalid", "r", "n"));
 });
+
+test("加入房間可貼上完整邀請或全形房號，不接受不合法字串", () => {
+  const { parseRoomCode } = require("../room-client-model");
+  assert.equal(parseRoomCode(" abc234 "), "ABC234");
+  assert.equal(parseRoomCode("ＡＢＣ２３４"), "ABC234");
+  assert.equal(
+    parseRoomCode(
+      "https://architect-study-rooms.onrender.com/?v=test#room=Abc234",
+    ),
+    "ABC234",
+  );
+  for (const value of [
+    "",
+    null,
+    "123",
+    "https://example.com/#other=ABC234",
+    "javascript:alert(1)",
+  ])
+    assert.equal(parseRoomCode(value), "");
+});

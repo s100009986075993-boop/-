@@ -69,7 +69,24 @@ const assert = require("node:assert/strict");
     await b.goto(invitation);
     assert.equal(await b.locator("#room-code").inputValue(), code);
     await b.locator("#room-name").fill("勇者乙");
-    await b.getByRole("button", { name: "加入房間", exact: true }).click();
+    assert.ok(
+      (await b.locator(".room-form").first().innerText()).includes("加入朋友"),
+    );
+    await b.evaluate((link) => {
+      const input = document.getElementById("room-code");
+      input.value = "";
+      const data = new DataTransfer();
+      data.setData("text/plain", link);
+      input.dispatchEvent(
+        new ClipboardEvent("paste", {
+          clipboardData: data,
+          bubbles: true,
+          cancelable: true,
+        }),
+      );
+    }, invitation);
+    assert.equal(await b.locator("#room-code").inputValue(), code);
+    await b.locator("#room-code").press("Enter");
     await b.locator(".room-heading h3").waitFor();
     await a.waitForFunction(
       () => document.querySelectorAll(".room-player").length === 2,
@@ -80,6 +97,7 @@ const assert = require("node:assert/strict");
     await a.getByRole("button", { name: "全員到齊，開始挑戰" }).click();
     await a.locator(".room-option").first().waitFor();
     await b.locator(".room-option").first().waitFor();
+    assert.equal(await b.locator(".room-party").getAttribute("open"), null);
     const initialTiming = await a.evaluate(async () => {
       const session = JSON.parse(
         sessionStorage.getItem("architect-room-session"),
