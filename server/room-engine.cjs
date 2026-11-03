@@ -58,14 +58,16 @@ class RoomEngine {
   host(r, p) {
     if (r.hostId !== p.id) throw new RoomError("只有房主可以操作", 403);
   }
-  create({ name, subject = "", count = 10, mode = "coop" } = {}) {
+  create({ name, subject = "", count = 10, mode = "coop", seconds } = {}) {
     this.clean();
     if (this.rooms.size >= 200)
       throw new RoomError("目前房間已滿，請稍後再試", 503);
     if (
       ![5, 10, 20].includes(count) ||
       !["coop", "versus"].includes(mode) ||
-      typeof subject !== "string"
+      typeof subject !== "string" ||
+      (seconds !== undefined &&
+        (!Number.isInteger(seconds) || seconds < 15 || seconds > 600))
     )
       throw new RoomError("房間設定不正確");
     const pool = this.bank.filter((q) => !subject || q.subject === subject);
@@ -85,6 +87,7 @@ class RoomEngine {
       subject,
       count,
       mode,
+      questionMs: seconds === undefined ? this.questionMs : seconds * 1000,
       pool,
       phase: "lobby",
       questions: [],
@@ -128,7 +131,7 @@ class RoomEngine {
     delete r.pool;
     r.bossMax = r.count * r.players.length;
     r.phase = "question";
-    r.deadline = this.now() + this.questionMs;
+    r.deadline = this.now() + r.questionMs;
     r.touched = this.now();
     r.revision++;
     return this.view(code, token);
@@ -187,7 +190,7 @@ class RoomEngine {
     r.index++;
     r.submissions = new Map();
     r.phase = r.index >= r.questions.length ? "finished" : "question";
-    r.deadline = this.now() + this.questionMs;
+    r.deadline = this.now() + r.questionMs;
     r.touched = this.now();
     r.revision++;
     return this.view(code, token);
@@ -225,6 +228,7 @@ class RoomEngine {
       mode: r.mode,
       subject: r.subject,
       count: r.count,
+      seconds: r.questionMs / 1000,
       phase: r.phase,
       index: r.index,
       revision: r.revision,

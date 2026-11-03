@@ -11,8 +11,9 @@
   const disabled = settings?.enabled === false;
   const release =
     document.querySelector('meta[name="app-version"]')?.content ||
-    "roomsfix-20261103-8";
+    "roomtools-20261103-9";
   const drafts = new Map();
+  const exclusionDrafts = new Map();
   let session = null,
     state = null,
     revision = -1,
@@ -129,7 +130,7 @@
     state = null;
     const intro = element(
       "p",
-      "各自用手機加入同一個房間。2～6 人，同題作答，全部交卷或 45 秒到時才揭答；先用暱稱就能玩，不需註冊。",
+      "各自用手機加入同一個房間。2～6 人，同題作答，全部交卷或房主設定的時間到時才揭答；先用暱稱就能玩，不需註冊。",
       "room-intro",
     );
     root.append(intro);
@@ -179,6 +180,18 @@
       [10, "10 題"],
       [20, "20 題"],
     ]);
+    const seconds = select("room-seconds", [
+      [15, "15 秒"],
+      [30, "30 秒"],
+      [45, "45 秒"],
+      [60, "60 秒"],
+      [90, "90 秒"],
+      [120, "2 分鐘"],
+      [180, "3 分鐘"],
+      [300, "5 分鐘"],
+      [600, "10 分鐘"],
+    ]);
+    seconds.value = "45";
     const mode = select("room-mode", [
       ["coop", "合作打怪"],
       ["versus", "多人競賽"],
@@ -196,6 +209,7 @@
       element("h3", "建立冒險房間"),
       field("科目", subject),
       field("回合長度", count),
+      field("每題作答時間", seconds),
       field("玩法", mode),
       button(
         "建立房間",
@@ -205,6 +219,7 @@
             name: name.value.trim(),
             subject: subject.value,
             count: Number(count.value),
+            seconds: Number(seconds.value),
             mode: mode.value,
           });
           await enter(credentials);
@@ -391,7 +406,7 @@
       root.append(
         element(
           "p",
-          `等待大家集合 · ${s.players.filter((p) => !p.left).length} / 6 人 · ${s.count} 題 · ${s.subject || "四科混合"}`,
+          `等待大家集合 · ${s.players.filter((p) => !p.left).length} / 6 人 · ${s.count} 題 · 每題 ${s.seconds ?? 45} 秒 · ${s.subject || "四科混合"}`,
         ),
       );
       if (s.me === s.hostId) {
@@ -474,7 +489,7 @@
     root.append(
       element(
         "p",
-        `第 ${s.index + 1} / ${s.count} 題 · ${q.year} 年 · ${q.subject}`,
+        `第 ${s.index + 1} / ${s.count} 題 · ${q.year} 年 · ${q.subject} · 每題 ${s.seconds ?? 45} 秒`,
         "eyebrow",
       ),
     );
@@ -487,20 +502,70 @@
     addDiagrams(root, q);
     const options = element("div", "", "question-options");
     options.setAttribute("aria-label", "多人房間作答選項");
-    const picked = new Set(s.mySelection || drafts.get(s.code + q.id) || []);
+    const draftKey = s.code + q.id;
+    const picked = new Set(s.mySelection || drafts.get(draftKey) || []);
     const submitted = !!s.mySelection || s.phase !== "question";
+    if (submitted) exclusionDrafts.delete(draftKey);
+    const excluded = new Set(
+      submitted ? [] : exclusionDrafts.get(draftKey) || [],
+    );
     let submit;
+    const tools = element("div", "", "room-elimination-tools");
+    const exclusionStatus = element("span", "", "room-elimination-status");
+    exclusionStatus.setAttribute("role", "status");
+    const clear = element("button", "清除排除", "room-clear-exclusions");
+    clear.type = "button";
+    tools.append(
+      element(
+        "p",
+        "排除只作為你自己的判斷輔助，不會提交答案或影響其他玩家。",
+        "muted",
+      ),
+      exclusionStatus,
+      clear,
+    );
+    tools.hidden = submitted;
+    root.append(tools);
+    function refreshOptions() {
+      drafts.set(draftKey, [...picked]);
+      if (!submitted) exclusionDrafts.set(draftKey, [...excluded]);
+      options.querySelectorAll(".room-option").forEach((el, j) => {
+        el.disabled = submitted || excluded.has(j);
+        el.setAttribute("aria-pressed", String(picked.has(j)));
+        el.classList.toggle("selected", picked.has(j));
+        el.classList.toggle("eliminated", excluded.has(j));
+        const toggle = options.querySelectorAll(".room-exclude")[j];
+        toggle.disabled = submitted;
+        toggle.hidden = submitted;
+        toggle.textContent = excluded.has(j) ? "恢復" : "排除";
+        toggle.setAttribute("aria-pressed", String(excluded.has(j)));
+        toggle.setAttribute(
+          "aria-label",
+          `${excluded.has(j) ? "恢復" : "排除"}選項 ${String.fromCharCode(65 + j)}`,
+        );
+      });
+      clear.hidden = !excluded.size;
+      exclusionStatus.textContent = excluded.size
+        ? `已排除 ${excluded.size} 個選項`
+        : "";
+      if (submit) submit.disabled = submitted || !picked.size;
+    }
+    clear.onclick = () => {
+      if (submitted || mutationBusy) return;
+      excluded.clear();
+      refreshOptions();
+    };
     q.options.forEach((text, i) => {
+      const row = element("div", "", "option-row room-option-row");
+      row.classList.toggle("answered", submitted);
       const b = element(
         "button",
         `${String.fromCharCode(65 + i)}. ${text}`,
         "room-option",
       );
       b.type = "button";
-      b.disabled = submitted;
-      b.setAttribute("aria-pressed", String(picked.has(i)));
-      b.classList.toggle("selected", picked.has(i));
       b.onclick = () => {
+        if (submitted || mutationBusy || excluded.has(i)) return;
         if (q.multi) {
           if (picked.has(i)) picked.delete(i);
           else picked.add(i);
@@ -508,15 +573,23 @@
           picked.clear();
           picked.add(i);
         }
-        drafts.set(s.code + q.id, [...picked]);
-        options.querySelectorAll("button").forEach((el, j) => {
-          el.setAttribute("aria-pressed", String(picked.has(j)));
-          el.classList.toggle("selected", picked.has(j));
-        });
-        submit.disabled = !picked.size;
+        refreshOptions();
       };
-      options.append(b);
+      const toggle = element("button", "排除", "room-exclude");
+      toggle.type = "button";
+      toggle.onclick = () => {
+        if (submitted || mutationBusy) return;
+        if (excluded.has(i)) excluded.delete(i);
+        else {
+          excluded.add(i);
+          picked.delete(i);
+        }
+        refreshOptions();
+      };
+      row.append(b, toggle);
+      options.append(row);
     });
+    refreshOptions();
     root.append(options);
     if (s.phase === "question") {
       if (q.multi)

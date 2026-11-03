@@ -19,6 +19,7 @@ const assert = require("node:assert/strict");
     await a.locator("#rooms-start").click();
     await a.locator("#room-name").fill("勇者甲");
     await a.locator("#room-count").selectOption("5");
+    await a.locator("#room-seconds").selectOption("90");
     await a.getByRole("button", { name: "建立房間", exact: true }).click();
     await a.locator(".room-heading h3").waitFor();
     const code = await a.evaluate(
@@ -73,9 +74,44 @@ const assert = require("node:assert/strict");
     await a.waitForFunction(
       () => document.querySelectorAll(".room-player").length === 2,
     );
+    assert.ok(
+      (await b.locator("#room-content").innerText()).includes("每題 90 秒"),
+    );
     await a.getByRole("button", { name: "全員到齊，開始挑戰" }).click();
     await a.locator(".room-option").first().waitFor();
     await b.locator(".room-option").first().waitFor();
+    const initialTiming = await a.evaluate(async () => {
+      const session = JSON.parse(
+        sessionStorage.getItem("architect-room-session"),
+      );
+      return (
+        await fetch("/api/rooms/" + session.code, {
+          headers: { Authorization: "Bearer " + session.token },
+        })
+      ).json();
+    });
+    assert.equal(initialTiming.seconds, 90);
+    assert.ok(initialTiming.deadline - initialTiming.serverNow > 80000);
+    assert.equal(await a.locator(".room-exclude:visible").count(), 4);
+    await b.locator(".room-exclude").first().click();
+    assert.equal(await b.locator(".room-option").first().isDisabled(), true);
+    assert.equal(await a.locator(".room-option").first().isEnabled(), true);
+    await b.locator(".room-exclude").first().click();
+    assert.equal(await b.locator(".room-option.selected").count(), 0);
+    await b.locator(".room-option").first().click();
+    await b.locator(".room-exclude").first().click();
+    assert.equal(await b.locator(".room-option.selected").count(), 0);
+    assert.equal(await b.locator(".room-submit").isDisabled(), true);
+    for (const i of [1, 2, 3]) await b.locator(".room-exclude").nth(i).click();
+    assert.equal(await b.locator(".room-option:disabled").count(), 4);
+    assert.equal(await b.locator(".room-submit").isDisabled(), true);
+    await b.screenshot({
+      path: "/tmp/room-exclude-mobile.png",
+      fullPage: true,
+    });
+    await b.locator(".room-clear-exclusions").click();
+    assert.equal(await b.locator(".room-option:enabled").count(), 4);
+    assert.equal(await b.locator(".room-option.selected").count(), 0);
     const answer = async (p) => {
       const selected = await p.evaluate(async () => {
         const session = JSON.parse(
@@ -103,6 +139,14 @@ const assert = require("node:assert/strict");
       assert.equal(await b.locator(".room-result").count(), 0);
       await answer(a);
       await answer(b);
+      if (i === 0) {
+        const unselected = await b
+          .locator(".room-option")
+          .evaluateAll((els) =>
+            els.findIndex((el) => el.getAttribute("aria-pressed") !== "true"),
+          );
+        await b.locator(".room-exclude").nth(Math.max(0, unselected)).click();
+      }
       await submit(a);
       await a.waitForFunction(() =>
         document.querySelector(".room-submit")?.textContent.includes("已提交"),
@@ -115,6 +159,10 @@ const assert = require("node:assert/strict");
           .textContent.includes("已提交"),
       );
       assert.ok((await b.locator(".room-option.selected").count()) > 0);
+      if (i === 0) {
+        assert.equal(await b.locator(".room-option.eliminated").count(), 1);
+        assert.equal(await a.locator(".room-exclude:visible").count(), 0);
+      }
       if (i === 0) {
         await b.reload();
         await b.locator(".room-submit").waitFor();
@@ -137,6 +185,7 @@ const assert = require("node:assert/strict");
       await submit(b);
       await a.locator(".room-result").waitFor();
       await b.locator(".room-result").waitFor();
+      assert.equal(await b.locator(".room-exclude:visible").count(), 0);
       assert.ok(
         (await a.locator(".room-result").innerText()).includes("答對 +1 分"),
       );
@@ -167,7 +216,7 @@ const assert = require("node:assert/strict");
       );
     assert.deepEqual(errors, []);
     console.log(
-      "PASS real two-client room: invite, same questions, hidden results, draft retention, reconnect, 5 rounds, Boss damage and ranking",
+      "PASS real two-client room: 90-second setting, private exclusions/restore/clear, draft retention, submission lock, invite, reconnect and 5-round scoring",
     );
     await a
       .getByRole("button", { name: "離開並開新房間", exact: true })

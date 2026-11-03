@@ -169,3 +169,42 @@ test("開始前已離開的玩家不增加 Boss 血量或出現在對戰名單",
   assert.equal(state.players.length, 2);
   assert.equal(state.bossMax, 10);
 });
+
+test("每個房間的每題時間獨立，逾時揭答與下一題沿用房主設定", () => {
+  let now = 1000;
+  const e = new RoomEngine(bank, { now: () => now });
+  const a = e.create({ name: "快房", count: 5, seconds: 15 }),
+    b = e.join(a.code, { name: "快隊友" });
+  const c = e.create({ name: "慢房", count: 5, seconds: 120 });
+  e.join(c.code, { name: "慢隊友" });
+  const fast = e.start(a.code, a.token),
+    slow = e.start(c.code, c.token);
+  assert.equal(fast.seconds, 15);
+  assert.equal(fast.deadline - fast.serverNow, 15000);
+  assert.equal(slow.seconds, 120);
+  assert.equal(slow.deadline - slow.serverNow, 120000);
+  now = 16000;
+  assert.equal(e.view(a.code, b.token).phase, "reveal");
+  assert.equal(e.view(c.code, c.token).phase, "question");
+  const next = e.next(a.code, a.token);
+  assert.equal(next.deadline - next.serverNow, 15000);
+  assert.equal(next.seconds, 15);
+});
+test("拒絕不合法的時間設定；省略時維持45秒，答案不能改變倒數", () => {
+  let now = 1000;
+  const e = new RoomEngine(bank, { now: () => now });
+  for (const seconds of [0, 14, 601, 45.5, "60", null, NaN, Infinity])
+    assert.throws(() => e.create({ name: "測試", count: 5, seconds }));
+  const a = e.create({ name: "房主", count: 5 }),
+    b = e.join(a.code, { name: "朋友" });
+  const started = e.start(a.code, a.token);
+  assert.equal(started.seconds, 45);
+  assert.equal(started.deadline, 46000);
+  e.answer(a.code, a.token, {
+    questionId: started.question.id,
+    selected: chosen(e, a.code),
+    seconds: 600,
+    deadline: 999999,
+  });
+  assert.equal(e.view(a.code, b.token).deadline, 46000);
+});
