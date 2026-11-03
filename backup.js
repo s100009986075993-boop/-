@@ -132,6 +132,14 @@ if(typeof document!=='undefined')(()=>{
   function filename(prefix){const stamp=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(new Date()).replace(/[^0-9]/g,'');return prefix+'-'+stamp+'.json';}
   function download(data,prefix){const link=document.createElement('a'),url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));link.href=url;link.download=filename(prefix);document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);}
   function updateUndo(){try{undo.disabled=!StudyBackup.checkpoint(localStorage);}catch{undo.disabled=false;}}
+  function describeLocal(){
+    const target=document.getElementById('backup-local-summary');
+    try{
+      const data=StudyBackup.create(localStorage).data;
+      target.textContent=`此裝置目前有 ${data['architect-history']?.length||0} 筆作答、${Object.keys(data['architect-question-notes']||{}).length} 則單題筆記、${Object.keys(data['architect-site-records']||{}).length} 份敷地及 ${Object.keys(data['architect-design-records']||{}).length} 份設計紀錄。`;
+    }catch{target.textContent='目前部分儲存資料無法讀取，請留意匯出時的錯誤訊息。';}
+  }
+  document.addEventListener('workspace-change',event=>{if(event.detail.id==='progress')describeLocal();});
   function describe(){
     safety=null;ack.checked=false;apply.disabled=true;document.getElementById('backup-safety-status').textContent='尚未下載目前資料的安全備份。';
     if(pending.kind==='recovery'){mode.value='replace';mode.disabled=true;summary.textContent='將復原到 '+new Date(pending.point.createdAt).toLocaleString('zh-TW',{timeZone:'Asia/Taipei'})+' 還原操作之前。這會取代之後新增的資料；請先下載目前資料備份。';apply.textContent='確認復原先前資料';return;}
@@ -168,5 +176,5 @@ if(typeof document!=='undefined')(()=>{
   undo.onclick=()=>{try{const point=StudyBackup.checkpoint(localStorage);if(!point)throw Error('目前沒有復原點');showPreview({kind:'recovery',point});}catch(e){message(e.message,true);}};
   let result;try{result=sessionStorage.getItem('architect-backup-result');sessionStorage.removeItem('architect-backup-result');}catch{}
   if(location.hash==='#progress'||result){setTab('progress');if(result)message(result);document.querySelector('.full-backup').scrollIntoView({block:'start'});}
-  updateUndo();
+  updateUndo();describeLocal();
 })();

@@ -247,6 +247,34 @@
     window.clearPracticeSession();
     announce("已捨棄這回續練進度；已提交的作答與筆記仍保留。");
   };
+  function quickPractice(mode, count) {
+    if (mode !== "random") {
+      const states = reviewState(history);
+      if (!activePracticeBank().some(q => reviewMatch(states.get(q.id), mode))) {
+        renderReviewDesk();
+        announce("目前沒有符合的複習題目，學習紀錄未變更。");
+        return;
+      }
+    }
+    const saved = savedSession();
+    const unfinished = (saved && saved.answers.length < saved.ids.length) ||
+      (queue.length > 0 && index < queue.length);
+    if (unfinished && !confirm("開始快速練習會取代未完成的這回續練進度。\n已提交的作答與筆記會保留。確定開始嗎？")) return;
+    for (const [id, value] of Object.entries({
+      subject: "", year: "", chapter: "", contentfilter: "all",
+      structurelane: "all", structuretopic: "", mode, questioncount: String(count),
+    })) $(id).value = value;
+    syncSubjectShortcuts();
+    $("questioncount").dispatchEvent(new Event("change", {bubbles: true}));
+    setTab("practice");
+    startPractice({confirmed: true});
+  }
+  $("quick-random").onclick = () => quickPractice("random", 5);
+  $("quick-due").onclick = () => quickPractice("due", 10);
+  $("quick-learning").onclick = () => quickPractice("learning", 10);
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) renderReviewDesk();
+  });
   // A small bottom action mirrors the real button rather than creating a second answer path.
   const dock = $("study-actionbar"),
     dockButton = $("study-action-button");
@@ -273,7 +301,7 @@
       if (!target && !document.body.classList.contains("quiz-mode")) {
         target = $("resume-practice").hidden ? $("start") : $("resume-button");
         context = $("resume-practice").hidden
-          ? `${$("questioncount").value} 題`
+          ? `自訂 ${$("questioncount").value} 題`
           : "進度已保存";
       }
     } else if (!$("rooms").hidden) {

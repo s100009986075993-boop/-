@@ -85,6 +85,11 @@
           reveal(practiceCard() ? $("quiz") : $("practice"));
           return;
         }
+        if (destination === "backup") {
+          setTab("progress");
+          reveal(document.querySelector(".full-backup"));
+          return;
+        }
         setTab(destination);
         reveal($(destination));
       }),
