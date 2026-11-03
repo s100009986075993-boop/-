@@ -2,6 +2,7 @@
   const sessionKey = "architect-practice-session";
   const settingsKey = "architect-practice-settings";
   const fields = [
+    "question-source",
     "subject",
     "year",
     "questioncount",
@@ -28,7 +29,12 @@
   }
   const preferences = read(settingsKey, null);
   if (preferences && typeof preferences === "object") {
-    for (const id of fields.filter((x) => x !== "structuretopic"))
+    if (preferences["question-source"] !== undefined)
+      setOption("question-source", preferences["question-source"]);
+    applyPracticeSource();
+    for (const id of fields.filter(
+      (x) => x !== "structuretopic" && x !== "question-source",
+    ))
       if (preferences[id] !== undefined) setOption(id, preferences[id]);
     syncSubjectShortcuts();
     if (preferences.structuretopic !== undefined)
@@ -47,8 +53,16 @@
   }
   function summary() {
     $("practice-summary").textContent = [
-      $("subject").value || "四科混合",
-      $("year").value ? `${$("year").value} 年` : "跨年度",
+      $("question-source").value === "original"
+        ? "AI 原創模擬題"
+        : "考古／自訂題",
+      $("subject").value ||
+        ($("question-source").value === "original" ? "結構＋環控" : "四科混合"),
+      $("question-source").value === "original"
+        ? "非官方草稿"
+        : $("year").value
+          ? `${$("year").value} 年`
+          : "跨年度",
       $("mode").value === "paper"
         ? "完整考卷"
         : `${$("questioncount").value} 題`,
@@ -208,6 +222,12 @@
     clearInterval(timer);
     timer = null;
     const lookup = new Map(bank.map((q) => [q.id, q]));
+    $("question-source").value = s.ids.every((id) =>
+      isOriginalQuestion(lookup.get(id)),
+    )
+      ? "original"
+      : "official";
+    applyPracticeSource();
     queue = s.ids.map((id) => lookup.get(id));
     answers = s.answers;
     index = answers.length;
@@ -333,6 +353,10 @@
     scheduleDock();
   }
   document.addEventListener("workspace-change", workspace);
+  document.addEventListener("practice-source-change", () => {
+    summary();
+    saveSettings();
+  });
   document.querySelectorAll("[data-reference-query]").forEach(
     (b) =>
       (b.onclick = () => {

@@ -1,0 +1,1920 @@
+[
+  {
+    "id": "original-structure-001",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 1,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "梁與支承反力",
+    "question": "一根跨距 6 m 的簡支梁，全跨承受 8 kN/m 均布載重。忽略梁自重且不考慮其他載重，梁的最大彎矩大小為何？",
+    "options": [
+      "24 kN·m",
+      "48 kN·m",
+      "36 kN·m",
+      "72 kN·m"
+    ],
+    "answer": 2,
+    "solution": "兩端反力各為 wL/2＝24 kN。彎矩在剪力為零的跨中最大：Mmax＝wL²/8＝8×6²/8＝36 kN·m。此式適用全跨均布載重的簡支梁，不能直接用於懸臂梁。",
+    "explanation": "兩端反力各為 wL/2＝24 kN。彎矩在剪力為零的跨中最大：Mmax＝wL²/8＝8×6²/8＝36 kN·m。此式適用全跨均布載重的簡支梁，不能直接用於懸臂梁。",
+    "optionExplanations": [
+      "24 kN 是支承反力的數值，不能當成彎矩。",
+      "48 是總載重的數值；總力的單位是 kN。",
+      "正確：全跨均布載重簡支梁使用 wL²/8。",
+      "72 kN·m 是把全部均布載重錯當成跨中集中力所求的 WL/4；其內力分布不同。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "beam_udl",
+      "w": 8,
+      "L": 6
+    },
+    "choiceValues": [
+      24,
+      48,
+      36,
+      72
+    ]
+  },
+  {
+    "id": "original-structure-002",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 2,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "梁與支承反力",
+    "question": "一根跨距 5 m 的簡支梁，距左支承 2 m 處有向下集中力 30 kN。忽略自重，左支承的向上反力為何？",
+    "options": [
+      "18 kN",
+      "15 kN",
+      "12 kN",
+      "30 kN"
+    ],
+    "answer": 0,
+    "solution": "對右支承取力矩：RA×5＝30×3，故 RA＝18 kN；再由垂直力平衡得 RB＝12 kN。集中力偏左，左反力應大於右反力，可作為檢核。",
+    "explanation": "對右支承取力矩：RA×5＝30×3，故 RA＝18 kN；再由垂直力平衡得 RB＝12 kN。集中力偏左，左反力應大於右反力，可作為檢核。",
+    "optionExplanations": [
+      "正確：左反力為 30×(5－2)/5。",
+      "只有集中力位於跨中時，反力才各為 15 kN。",
+      "12 kN 是右支承反力，左右距離不可對調。",
+      "兩支承合計才承擔 30 kN，不能全配給左端。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "reaction",
+      "P": 30,
+      "L": 5,
+      "a": 2
+    },
+    "choiceValues": [
+      18,
+      15,
+      12,
+      30
+    ]
+  },
+  {
+    "id": "original-structure-003",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 3,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "梁與支承反力",
+    "question": "長度 3 m 的懸臂梁，在自由端承受向下 4 kN 集中力。忽略自重，固定端反力矩的大小為何？",
+    "options": [
+      "4 kN·m",
+      "6 kN·m",
+      "36 kN·m",
+      "12 kN·m"
+    ],
+    "answer": 3,
+    "solution": "以固定端取力矩，外力矩大小為 PL＝4×3＝12 kN·m，固定端須提供反方向的反力矩維持平衡。本題問大小，不使用不同教材的正負號慣例。",
+    "explanation": "以固定端取力矩，外力矩大小為 PL＝4×3＝12 kN·m，固定端須提供反方向的反力矩維持平衡。本題問大小，不使用不同教材的正負號慣例。",
+    "optionExplanations": [
+      "4 kN 是集中力大小，缺少力臂。",
+      "6 kN·m 是把總力 4 kN 改成沿全長均布後的力矩，不符合自由端集中力。",
+      "36 是重複乘上長度，量綱也不再是力矩。",
+      "正確：反力矩大小為集中力乘上全長力臂。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "cantilever",
+      "P": 4,
+      "L": 3
+    },
+    "choiceValues": [
+      4,
+      6,
+      36,
+      12
+    ]
+  },
+  {
+    "id": "original-structure-004",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 4,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "軸力與變形",
+    "question": "一均質直桿承受通過截面形心的軸向拉力 120 kN，截面積 600 mm²。於遠離載入端的區域，平均軸向正應力為何？",
+    "options": [
+      "20 MPa",
+      "200 MPa",
+      "72 MPa",
+      "720 MPa"
+    ],
+    "answer": 1,
+    "solution": "平均正應力 σ＝N/A。先換成 N：120 kN＝120000 N；σ＝120000/600＝200 N/mm²＝200 MPa。假設為形心軸力，不含偏心彎曲與端部應力集中。",
+    "explanation": "平均正應力 σ＝N/A。先換成 N：120 kN＝120000 N；σ＝120000/600＝200 N/mm²＝200 MPa。假設為形心軸力，不含偏心彎曲與端部應力集中。",
+    "optionExplanations": [
+      "20 MPa 少了一個十倍因子，須檢查單位換算。",
+      "正確：N 除以 mm² 得 N/mm²，即 MPa。",
+      "不能把載重與面積相乘來求應力。",
+      "此值不符合 120000/600 的商。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "axial_stress",
+      "N": 120,
+      "A": 600
+    },
+    "choiceValues": [
+      20,
+      200,
+      72,
+      720
+    ]
+  },
+  {
+    "id": "original-structure-005",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 5,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "軸力與變形",
+    "question": "一線彈性等截面桿長 2500 mm，截面積 1000 mm²，E＝200000 N/mm²，承受形心拉力 80 kN。忽略溫度效應，其伸長量為何？",
+    "options": [
+      "1 mm",
+      "0.1 mm",
+      "10 mm",
+      "100 mm"
+    ],
+    "answer": 0,
+    "solution": "等截面軸向伸長 δ＝NL/(EA)。N＝80000 N，故 δ＝80000×2500/(200000×1000)＝1 mm。所用 E、長度與面積均採 N、mm 制，且應維持線彈性。",
+    "explanation": "等截面軸向伸長 δ＝NL/(EA)。N＝80000 N，故 δ＝80000×2500/(200000×1000)＝1 mm。所用 E、長度與面積均採 N、mm 制，且應維持線彈性。",
+    "optionExplanations": [
+      "正確：δ＝NL/(EA)＝1 mm。",
+      "0.1 mm 與代入公式的商相差十倍。",
+      "10 mm 通常來自漏掉面積或剛性的十倍因子。",
+      "100 mm 不符合給定軸向剛性，不能只按長度比例猜測。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "axial_delta",
+      "N": 80,
+      "L": 2500,
+      "E": 200000,
+      "A": 1000
+    },
+    "choiceValues": [
+      1,
+      0.1,
+      10,
+      100
+    ]
+  },
+  {
+    "id": "original-structure-006",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 6,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "截面與彎曲",
+    "question": "矩形截面以寬 b、高 h 表示，繞通過形心且平行於寬邊的軸彎曲。若寬度不變、高度改成原來 2 倍，該軸截面慣性矩變成幾倍？",
+    "options": [
+      "2 倍",
+      "4 倍",
+      "8 倍",
+      "16 倍"
+    ],
+    "answer": 2,
+    "solution": "此彎曲軸的矩形慣性矩 I＝bh³/12，因此 I新/I舊＝2³＝8。高度是到彎曲軸垂直方向的尺寸，不能誤用面積隨高度線性增加的比例。",
+    "explanation": "此彎曲軸的矩形慣性矩 I＝bh³/12，因此 I新/I舊＝2³＝8。高度是到彎曲軸垂直方向的尺寸，不能誤用面積隨高度線性增加的比例。",
+    "optionExplanations": [
+      "2 倍是面積的變化比例，不是此軸慣性矩。",
+      "4 倍較接近截面模數隨高度平方的變化。",
+      "正確：對應的高度出現在三次方。",
+      "16 倍並非 b 不變、h 加倍時的結果。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "inertia_ratio",
+      "factor": 2
+    },
+    "choiceValues": [
+      2,
+      4,
+      8,
+      16
+    ]
+  },
+  {
+    "id": "original-structure-007",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 7,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "截面與彎曲",
+    "question": "矩形梁截面寬 150 mm、高 300 mm，繞平行寬邊的形心軸承受彎矩 45 kN·m。在線彈性純彎曲假設下，最外緣正應力大小為何？",
+    "options": [
+      "10 MPa",
+      "20 MPa",
+      "30 MPa",
+      "60 MPa"
+    ],
+    "answer": 1,
+    "solution": "矩形截面模數 Z＝bh²/6＝150×300²/6＝2250000 mm³。M＝45000000 N·mm，因此 σmax＝M/Z＝20 N/mm²＝20 MPa。假設平截面、線彈性，且不另疊加軸力。",
+    "explanation": "矩形截面模數 Z＝bh²/6＝150×300²/6＝2250000 mm³。M＝45000000 N·mm，因此 σmax＝M/Z＝20 N/mm²＝20 MPa。假設平截面、線彈性，且不另疊加軸力。",
+    "optionExplanations": [
+      "10 MPa 不是此截面模數對應的應力。",
+      "正確：45×10⁶/2.25×10⁶＝20 MPa。",
+      "不能將截面高度直接當作截面模數。",
+      "此值未使用 Z＝bh²/6 的正確數值。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "bending_stress",
+      "M": 45,
+      "b": 150,
+      "h": 300
+    },
+    "choiceValues": [
+      10,
+      20,
+      30,
+      60
+    ]
+  },
+  {
+    "id": "original-structure-008",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 8,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "柱與穩定",
+    "question": "兩根理想歐拉柱的 E、I 與有效長度係數 K 相同。第二根柱的實際長度是第一根的 2 倍，且兩者均符合細長線彈性挫屈假設。第二根臨界載重為第一根的幾倍？",
+    "options": [
+      "1/8 倍",
+      "2 倍",
+      "1/2 倍",
+      "1/4 倍"
+    ],
+    "answer": 3,
+    "solution": "歐拉載重 Pcr＝π²EI/(KL)²。其他量固定時，長度加倍使分母成為 4 倍，因此臨界載重為原來 1/4。此模型不適用材料先降伏的短柱。",
+    "explanation": "歐拉載重 Pcr＝π²EI/(KL)²。其他量固定時，長度加倍使分母成為 4 倍，因此臨界載重為原來 1/4。此模型不適用材料先降伏的短柱。",
+    "optionExplanations": [
+      "長度的影響是平方，而非三次方。",
+      "柱更長並不會因此提高理想挫屈載重。",
+      "1/2 忽略了長度在公式中的平方。",
+      "正確：Pcr 與長度平方成反比。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "euler_length",
+      "factor": 2
+    },
+    "choiceValues": [
+      0.125,
+      2,
+      0.5,
+      0.25
+    ]
+  },
+  {
+    "id": "original-structure-009",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 9,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "柱與穩定",
+    "question": "相同 E、I、實際長度的兩根理想歐拉柱，一根兩端鉸支（K＝1），另一根一端固定一端自由（K＝2）。鉸支柱的臨界載重是固定自由柱的幾倍？",
+    "options": [
+      "1/4 倍",
+      "1/2 倍",
+      "2 倍",
+      "4 倍"
+    ],
+    "answer": 3,
+    "solution": "Pcr 與 K² 成反比。鉸支柱／固定自由柱＝(2/1)²＝4。這是題目給定的理想端部條件；真實構架柱的有效長度須另判斷，不能任意套用。",
+    "explanation": "Pcr 與 K² 成反比。鉸支柱／固定自由柱＝(2/1)²＝4。這是題目給定的理想端部條件；真實構架柱的有效長度須另判斷，不能任意套用。",
+    "optionExplanations": [
+      "此為比值方向顛倒的結果。",
+      "忽略平方且將比值方向顛倒。",
+      "有注意到 K 的差異，但漏了平方。",
+      "正確：固定自由柱的有效長度是兩倍。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "euler_K",
+      "K1": 1,
+      "K2": 2
+    },
+    "choiceValues": [
+      0.25,
+      0.5,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "original-structure-010",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 10,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "梁的變形",
+    "question": "兩根全跨均布載重簡支梁，w、E、I 相同，均採小變形 Euler–Bernoulli 梁模型。第二根跨距為第一根的 0.8 倍，其跨中最大撓度為原來的幾倍？",
+    "options": [
+      "0.64 倍",
+      "0.4096 倍",
+      "0.8 倍",
+      "1.25 倍"
+    ],
+    "answer": 1,
+    "solution": "均布載重簡支梁 δmax＝5wL⁴/(384EI)。故撓度比＝0.8⁴＝0.4096。此處保持的是每單位長度載重 w，不是總載重；兩種條件不可混用。",
+    "explanation": "均布載重簡支梁 δmax＝5wL⁴/(384EI)。故撓度比＝0.8⁴＝0.4096。此處保持的是每單位長度載重 w，不是總載重；兩種條件不可混用。",
+    "optionExplanations": [
+      "0.64 是平方比例，不是本題的四次方。",
+      "正確：在 w 固定時，撓度隨 L 四次方變化。",
+      "0.8 是線性比例，未反映梁變形公式。",
+      "跨距縮短而剛性、w 不變，不應增加撓度。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "deflection_span",
+      "factor": 0.8
+    },
+    "choiceValues": [
+      0.64,
+      0.4096,
+      0.8,
+      1.25
+    ]
+  },
+  {
+    "id": "original-structure-011",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 11,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "受力分配",
+    "question": "一剛性頂板由兩根並聯、等長且同材質的直柱支承，兩柱均僅作軸向變形，頂板保持水平。柱一面積為柱二的 2 倍，頂板總承受 90 kN。柱一分擔多少？",
+    "options": [
+      "60 kN",
+      "45 kN",
+      "30 kN",
+      "90 kN"
+    ],
+    "answer": 0,
+    "solution": "兩柱頂端位移相同，軸力依軸向勁度 EA/L 分配。柱一勁度是柱二的 2 倍，因此分擔總力的 2/3：90×2/3＝60 kN。題設頂板無轉角，才能使用共同位移假設。",
+    "explanation": "兩柱頂端位移相同，軸力依軸向勁度 EA/L 分配。柱一勁度是柱二的 2 倍，因此分擔總力的 2/3：90×2/3＝60 kN。題設頂板無轉角，才能使用共同位移假設。",
+    "optionExplanations": [
+      "正確：共同位移下，軸力與軸向勁度成正比。",
+      "平均分配只適用兩柱勁度相同。",
+      "30 kN 是面積較小的柱二分擔值。",
+      "兩柱都有勁度，不能讓柱一承受全部載重。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "parallel_columns",
+      "total": 90,
+      "ratio": 2
+    },
+    "choiceValues": [
+      60,
+      45,
+      30,
+      90
+    ]
+  },
+  {
+    "id": "original-structure-012",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 12,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "桁架與穩定",
+    "question": "一平面鉸接桁架有 6 個節點、9 根桿件、3 個支承反力分量。只依 m＋r＝2j 的數量檢查，哪一個結論最適當？",
+    "options": [
+      "已保證結構穩定且為靜定",
+      "必定是超靜定結構",
+      "滿足靜定穩定的必要數量條件，仍須檢查幾何與支承配置",
+      "必定是可動機構"
+    ],
+    "answer": 2,
+    "solution": "本題 9＋3＝2×6，符合平面桁架常用的數量必要條件，但數量相等不能排除局部機構、共線桿件或不當支承。仍須檢查桿件配置、約束獨立性與外部穩定。",
+    "explanation": "本題 9＋3＝2×6，符合平面桁架常用的數量必要條件，但數量相等不能排除局部機構、共線桿件或不當支承。仍須檢查桿件配置、約束獨立性與外部穩定。",
+    "optionExplanations": [
+      "數量相等不足以保證各約束獨立或幾何穩定。",
+      "只憑此數量關係不能判成必定超靜定。",
+      "正確：必要條件不能誤認為充分條件。",
+      "同樣不能只靠此等式判定必定可動。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。"
+  },
+  {
+    "id": "original-structure-013",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 13,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "振動基本觀念",
+    "question": "一理想無阻尼單自由度質量彈簧系統，質量 400 kg、彈簧勁度 10000 N/m。其自然頻率 f 約為何？",
+    "options": [
+      "0.08 Hz",
+      "0.80 Hz",
+      "5.00 Hz",
+      "31.4 Hz"
+    ],
+    "answer": 1,
+    "solution": "角頻率 ωn＝√(k/m)＝√25＝5 rad/s；頻率 fn＝ωn/(2π)＝0.7958 Hz，約 0.80 Hz。rad/s 與每秒循環數 Hz 不能直接視為同一數值。",
+    "explanation": "角頻率 ωn＝√(k/m)＝√25＝5 rad/s；頻率 fn＝ωn/(2π)＝0.7958 Hz，約 0.80 Hz。rad/s 與每秒循環數 Hz 不能直接視為同一數值。",
+    "optionExplanations": [
+      "0.08 Hz 比正確頻率約小十倍。",
+      "正確：先求角頻率，再除以 2π。",
+      "5 是角頻率的數值，單位為 rad/s。",
+      "31.4 是誤將角頻率乘以 2π。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "frequency",
+      "k": 10000,
+      "m": 400
+    },
+    "choiceValues": [
+      0.08,
+      0.8,
+      5,
+      31.4
+    ]
+  },
+  {
+    "id": "original-structure-014",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 14,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "振動基本觀念",
+    "question": "理想單自由度系統的質量不變，側向勁度變為原來 4 倍。其無阻尼自然週期變成原來的幾倍？",
+    "options": [
+      "1/4 倍",
+      "4 倍",
+      "2 倍",
+      "1/2 倍"
+    ],
+    "answer": 3,
+    "solution": "T＝2π√(m/k)。勁度為 4 倍而質量不變，T新/T舊＝1/√4＝1/2。此題只比較理想系統自然週期，不表示地震反應一定按同樣比例改變。",
+    "explanation": "T＝2π√(m/k)。勁度為 4 倍而質量不變，T新/T舊＝1/√4＝1/2。此題只比較理想系統自然週期，不表示地震反應一定按同樣比例改變。",
+    "optionExplanations": [
+      "週期與勁度平方根成反比，而非直接反比。",
+      "4 倍同時忽略平方根與反比關係。",
+      "2 倍是比值方向相反。",
+      "正確：勁度提高使自然週期縮短為一半。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "period_stiffness",
+      "factor": 4
+    },
+    "choiceValues": [
+      0.25,
+      4,
+      2,
+      0.5
+    ]
+  },
+  {
+    "id": "original-structure-015",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 15,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "二階效應",
+    "question": "某層柱承受軸向壓力合計 600 kN，層間側移為 0.02 m。以簡化 P－Δ 模型估計，額外二階力矩的大小為何？",
+    "options": [
+      "0.012 kN·m",
+      "30 kN·m",
+      "12 kN·m",
+      "1200 kN·m"
+    ],
+    "answer": 2,
+    "solution": "簡化額外力矩為 PΔ＝600×0.02＝12 kN·m。這是重力沿變形後力臂產生的二階效應估計，不能單靠此一數值完成構架穩定或規範檢核。",
+    "explanation": "簡化額外力矩為 PΔ＝600×0.02＝12 kN·m。這是重力沿變形後力臂產生的二階效應估計，不能單靠此一數值完成構架穩定或規範檢核。",
+    "optionExplanations": [
+      "0.012 通常是將 m 與 mm 的換算方向用錯。",
+      "此值不是給定軸力與側移的乘積。",
+      "正確：以 kN 乘 m，得到 kN·m。",
+      "1200 未使用 0.02 m 的實際力臂。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "pdelta",
+      "P": 600,
+      "delta": 0.02
+    },
+    "choiceValues": [
+      0.012,
+      30,
+      12,
+      1200
+    ]
+  },
+  {
+    "id": "original-structure-016",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 16,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "樓層剪力與傳力",
+    "question": "一三層簡化建築模型，各樓層受同方向水平外力，由下至上為 10、20、30 kN。忽略其他水平外力，第一層柱群須傳遞的層剪力大小為何？",
+    "options": [
+      "60 kN",
+      "30 kN",
+      "50 kN",
+      "10 kN"
+    ],
+    "answer": 0,
+    "solution": "切開第一層柱群並取上方整體為自由體，須平衡上方所有樓層水平力：V1＝10＋20＋30＝60 kN。樓層外力不是該層柱群剪力，越下層通常須累積更多上方外力。",
+    "explanation": "切開第一層柱群並取上方整體為自由體，須平衡上方所有樓層水平力：V1＝10＋20＋30＝60 kN。樓層外力不是該層柱群剪力，越下層通常須累積更多上方外力。",
+    "optionExplanations": [
+      "正確：第一層柱群承擔三個樓層外力總和。",
+      "30 kN 只計頂樓外力。",
+      "50 kN 漏掉第一樓層的 10 kN。",
+      "10 kN 只計第一樓層施加的外力。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "story_shear",
+      "loads": [
+        10,
+        20,
+        30
+      ]
+    },
+    "choiceValues": [
+      60,
+      30,
+      50,
+      10
+    ]
+  },
+  {
+    "id": "original-structure-017",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 17,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "溫度變形與約束",
+    "question": "一鋼桿初始無應力，兩端完全限制軸向變形。E＝200000 MPa，線膨脹係數 12×10⁻⁶/K，均勻升溫 30 K。假設不挫屈、不降伏且約束無位移，產生何種應力？",
+    "options": [
+      "7.2 MPa 拉應力",
+      "72 MPa 拉應力",
+      "72 MPa 壓應力",
+      "720 MPa 壓應力"
+    ],
+    "answer": 2,
+    "solution": "自由熱應變為 αΔT＝0.00036。完全約束使機械應變須為其負值，σ＝－EαΔT＝－72 MPa，以拉為正則為壓應力。此為理想完全約束模型，實際約束柔度與挫屈會改變情況。",
+    "explanation": "自由熱應變為 αΔT＝0.00036。完全約束使機械應變須為其負值，σ＝－EαΔT＝－72 MPa，以拉為正則為壓應力。此為理想完全約束模型，實際約束柔度與挫屈會改變情況。",
+    "optionExplanations": [
+      "升溫受阻應為壓應力，且數值少十倍。",
+      "72 MPa 大小正確，但應力方向錯誤。",
+      "正確：欲伸長卻受阻，形成 72 MPa 壓應力。",
+      "數值大十倍，不符合 α 的微量級。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "thermal_stress",
+      "E": 200000,
+      "alpha": 1.2e-05,
+      "dT": 30
+    },
+    "choiceValues": [
+      7.2,
+      72,
+      -72,
+      -720
+    ]
+  },
+  {
+    "id": "original-structure-018",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 18,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "梁的變形",
+    "question": "兩根梁的載重、跨距、支承條件與 E 相同，均以線彈性小變形梁理論比較。若第二根的 I 為第一根的 1/2，其撓度大小為原來的幾倍？",
+    "options": [
+      "2 倍",
+      "1 倍",
+      "1/2 倍",
+      "4 倍"
+    ],
+    "answer": 0,
+    "solution": "在題設其他條件完全相同時，彎曲撓度與 EI 成反比。I 減半使 EI 減半，因此撓度增為 2 倍。此比較不含剪切變形、開裂或材料非線性造成的改變。",
+    "explanation": "在題設其他條件完全相同時，彎曲撓度與 EI 成反比。I 減半使 EI 減半，因此撓度增為 2 倍。此比較不含剪切變形、開裂或材料非線性造成的改變。",
+    "optionExplanations": [
+      "正確：彎曲剛度減半，撓度加倍。",
+      "彎曲剛度改變，撓度通常也會改變。",
+      "把撓度與 I 的關係誤認為正比。",
+      "4 倍不是單純 I 減半所造成的比例。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "deflection_I",
+      "factor": 0.5
+    },
+    "choiceValues": [
+      2,
+      1,
+      0.5,
+      4
+    ]
+  },
+  {
+    "id": "original-structure-019",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 19,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "基礎平均壓力",
+    "question": "一剛性基腳的底面為 2 m×2 m，承受通過底面形心的垂直合力 400 kN。合力已包含應計重量，忽略偏心及土壤非線性，平均接觸壓力為何？",
+    "options": [
+      "50 kPa",
+      "100 kPa",
+      "200 kPa",
+      "400 kPa"
+    ],
+    "answer": 1,
+    "solution": "底面積 A＝2×2＝4 m²，平均壓力 q＝N/A＝400/4＝100 kN/m²＝100 kPa。這是平均壓力，不等於已完成承載力、沉陷或偏心接觸檢核。",
+    "explanation": "底面積 A＝2×2＝4 m²，平均壓力 q＝N/A＝400/4＝100 kN/m²＝100 kPa。這是平均壓力，不等於已完成承載力、沉陷或偏心接觸檢核。",
+    "optionExplanations": [
+      "50 kPa 相當於誤用 8 m² 面積。",
+      "正確：400 kN 除以 4 m²。",
+      "200 kPa 只除以一個邊長，未使用面積。",
+      "400 kPa 相當於未除以實際底面積。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "bearing",
+      "N": 400,
+      "b": 2,
+      "L": 2
+    },
+    "choiceValues": [
+      50,
+      100,
+      200,
+      400
+    ]
+  },
+  {
+    "id": "original-structure-020",
+    "slug": "structure",
+    "source": "original",
+    "questionNo": 20,
+    "year": 0,
+    "subject": "建築結構",
+    "chapter": "平面扭轉",
+    "question": "某樓層的水平合力為 100 kN，其作用線至該層剛心的平面垂直距離為 4 m。只計此靜力偏心效應，繞剛心的扭矩大小為何？",
+    "options": [
+      "25 kN·m",
+      "100 kN·m",
+      "1600 kN·m",
+      "400 kN·m"
+    ],
+    "answer": 3,
+    "solution": "靜力扭矩 T＝Fe＝100×4＝400 kN·m。這裡的 e 是作用線到剛心的垂直距離；尚未計入規範要求的偶然偏心、動力耦合或扭轉放大。",
+    "explanation": "靜力扭矩 T＝Fe＝100×4＝400 kN·m。這裡的 e 是作用線到剛心的垂直距離；尚未計入規範要求的偶然偏心、動力耦合或扭轉放大。",
+    "optionExplanations": [
+      "25 是將力除以偏心距，並非力矩。",
+      "100 是力的數值，尚未乘上力臂。",
+      "1600 重複乘上偏心距，不符合本題模型。",
+      "正確：水平合力乘上平面偏心距。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "MIT OpenCourseWare：固體力學教材搜尋（延伸閱讀）",
+        "url": "https://ocw.mit.edu/search/?q=solid%20mechanics"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "torsion",
+      "F": 100,
+      "e": 4
+    },
+    "choiceValues": [
+      25,
+      100,
+      1600,
+      400
+    ]
+  },
+  {
+    "id": "original-environment-001",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 1,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "外殼熱傳",
+    "question": "某外牆總熱傳透率 U＝0.5 W/(m²·K)，面積 20 m²，兩側空氣溫差 12 K。假設穩態、U 已含表面熱阻且無其他熱源，傳導熱率為何？",
+    "options": [
+      "30 W",
+      "240 W",
+      "120 W",
+      "480 W"
+    ],
+    "answer": 2,
+    "solution": "穩態外殼熱率 Q̇＝UAΔT＝0.5×20×12＝120 W。U 已包含題設所有熱阻，不可再重複加入表面熱阻；本題不計太陽輻射與蓄熱。",
+    "explanation": "穩態外殼熱率 Q̇＝UAΔT＝0.5×20×12＝120 W。U 已包含題設所有熱阻，不可再重複加入表面熱阻；本題不計太陽輻射與蓄熱。",
+    "optionExplanations": [
+      "30 W 不是三項給定量的乘積。",
+      "240 W 相當於漏乘 U＝0.5。",
+      "正確：W/(m²·K)×m²×K＝W。",
+      "480 W 不符合此面積、溫差與 U 值。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "heat_flow",
+      "U": 0.5,
+      "A": 20,
+      "dT": 12
+    },
+    "choiceValues": [
+      30,
+      240,
+      120,
+      480
+    ]
+  },
+  {
+    "id": "original-environment-002",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 2,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "外殼熱傳",
+    "question": "一均質保溫層厚 0.10 m，導熱係數 k＝0.04 W/(m·K)。只計此材料層的一維熱阻，其單位面積熱阻為何？",
+    "options": [
+      "2.5 m²·K/W",
+      "0.25 m²·K/W",
+      "0.004 m²·K/W",
+      "25 m²·K/W"
+    ],
+    "answer": 0,
+    "solution": "單位面積材料熱阻 R＝d/k＝0.10/0.04＝2.5 m²·K/W。不含內外表面熱阻，亦不將面積乘入；整塊構件的 K/W 熱阻則另須除以面積。",
+    "explanation": "單位面積材料熱阻 R＝d/k＝0.10/0.04＝2.5 m²·K/W。不含內外表面熱阻，亦不將面積乘入；整塊構件的 K/W 熱阻則另須除以面積。",
+    "optionExplanations": [
+      "正確：厚度除以導熱係數。",
+      "0.25 與正確 d/k 相差十倍。",
+      "0.004 是將 d 與 k 相乘，公式錯誤。",
+      "25 是厚度或小數點換算錯誤。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "thermal_R",
+      "d": 0.1,
+      "k": 0.04
+    },
+    "choiceValues": [
+      2.5,
+      0.25,
+      0.004,
+      25
+    ]
+  },
+  {
+    "id": "original-environment-003",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 3,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "外殼熱傳",
+    "question": "一平面外牆各串聯熱阻（已包含表面熱阻）分別為 0.2、0.8、1.0 m²·K/W。忽略熱橋，其總熱傳透率 U 為何？",
+    "options": [
+      "0.2 W/(m²·K)",
+      "2 W/(m²·K)",
+      "1 W/(m²·K)",
+      "0.5 W/(m²·K)"
+    ],
+    "answer": 3,
+    "solution": "串聯熱阻相加得 R總＝0.2＋0.8＋1.0＝2.0 m²·K/W。U＝1/R總＝0.5 W/(m²·K)。不要把熱阻總和直接當成熱傳透率；兩者的單位也不同。",
+    "explanation": "串聯熱阻相加得 R總＝0.2＋0.8＋1.0＝2.0 m²·K/W。U＝1/R總＝0.5 W/(m²·K)。不要把熱阻總和直接當成熱傳透率；兩者的單位也不同。",
+    "optionExplanations": [
+      "0.2 只是其中一項熱阻的數值，不能作為總 U。",
+      "2 是 R總的數值，不是 U。",
+      "1 並非總熱阻 2 的倒數。",
+      "正確：先加總熱阻，再取倒數。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "series_U",
+      "R": [
+        0.2,
+        0.8,
+        1
+      ]
+    },
+    "choiceValues": [
+      0.2,
+      2,
+      1,
+      0.5
+    ]
+  },
+  {
+    "id": "original-environment-004",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 4,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "外殼熱橋",
+    "question": "某牆面 20% 面積的 U 為 2.0 W/(m²·K)，其餘 80% 的 U 為 0.25 W/(m²·K)。各區兩側溫差相同，忽略側向熱流，其面積加權平均 U 為何？",
+    "options": [
+      "0.25 W/(m²·K)",
+      "0.6 W/(m²·K)",
+      "0.4 W/(m²·K)",
+      "2 W/(m²·K)"
+    ],
+    "answer": 1,
+    "solution": "平行熱流路徑按面積加權 U：U平均＝0.2×2.0＋0.8×0.25＝0.6 W/(m²·K)。這是題設忽略側向熱流的簡化模型，不是直接將各路徑的 R 串聯相加。",
+    "explanation": "平行熱流路徑按面積加權 U：U平均＝0.2×2.0＋0.8×0.25＝0.6 W/(m²·K)。這是題設忽略側向熱流的簡化模型，不是直接將各路徑的 R 串聯相加。",
+    "optionExplanations": [
+      "只採保溫較好區域，漏掉熱橋區。",
+      "正確：兩個路徑的面積加權貢獻相加。",
+      "0.4 只計了 20% 高 U 區的貢獻。",
+      "只採高 U 區，未按面積分配。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "parallel_U",
+      "f": 0.2,
+      "U1": 2,
+      "U2": 0.25
+    },
+    "choiceValues": [
+      0.25,
+      0.6,
+      0.4,
+      2
+    ]
+  },
+  {
+    "id": "original-environment-005",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 5,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "日射與遮陽",
+    "question": "玻璃面積 5 m²，入射到玻璃面的太陽輻射強度為 600 W/m²，該條件下 SHGC＝0.4。忽略其他遮蔽與溫差傳熱，玻璃造成的太陽得熱率為何？",
+    "options": [
+      "1200 W",
+      "600 W",
+      "120 W",
+      "3000 W"
+    ],
+    "answer": 0,
+    "solution": "太陽得熱率 Q̇solar＝A×G×SHGC＝5×600×0.4＝1200 W。SHGC 是太陽得熱係數，不能以可見光透射率替代；本題不另計由溫差引起的傳導熱。",
+    "explanation": "太陽得熱率 Q̇solar＝A×G×SHGC＝5×600×0.4＝1200 W。SHGC 是太陽得熱係數，不能以可見光透射率替代；本題不另計由溫差引起的傳導熱。",
+    "optionExplanations": [
+      "正確：面積、入射強度與 SHGC 相乘。",
+      "600 是入射強度的數值，尚未乘面積與 SHGC。",
+      "120 W 少了一個十倍因子。",
+      "3000 W 是未經 SHGC 折算的入射功率。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "solar",
+      "A": 5,
+      "G": 600,
+      "shgc": 0.4
+    },
+    "choiceValues": [
+      1200,
+      600,
+      120,
+      3000
+    ]
+  },
+  {
+    "id": "original-environment-006",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 6,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "通風與空氣品質",
+    "question": "某房間體積為 90 m³，室外新鮮空氣供給量為 180 m³/h。以新鮮空氣量計算，其換氣次數為何？",
+    "options": [
+      "0.5 次/h",
+      "3 次/h",
+      "2 次/h",
+      "180 次/h"
+    ],
+    "answer": 2,
+    "solution": "換氣次數 ACH＝新鮮空氣體積流量／房間體積＝180/90＝2 h⁻¹。此數值是等效換氣次數，不表示每個位置的空氣都在半小時內完全替換，分布仍受混合與短路影響。",
+    "explanation": "換氣次數 ACH＝新鮮空氣體積流量／房間體積＝180/90＝2 h⁻¹。此數值是等效換氣次數，不表示每個位置的空氣都在半小時內完全替換，分布仍受混合與短路影響。",
+    "optionExplanations": [
+      "0.5 h 是體積／流量的時間，不是換氣次數。",
+      "3 並非 180/90 的商。",
+      "正確：流量除以房間體積。",
+      "180 的單位是 m³/h，尚未除以房間體積。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "ach",
+      "Q": 180,
+      "V": 90
+    },
+    "choiceValues": [
+      0.5,
+      3,
+      2,
+      180
+    ]
+  },
+  {
+    "id": "original-environment-007",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 7,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "通風與空氣品質",
+    "question": "一完全混合房間達穩態，CO₂ 產生量為 0.012 m³/h，室外濃度 400 ppm，欲使室內不超過 900 ppm。假設各體積量在相同溫壓基準且無其他來源或移除，所需最小理論新鮮空氣量為何？",
+    "options": [
+      "0.024 m³/h",
+      "24 m³/h",
+      "6 m³/h",
+      "30 m³/h"
+    ],
+    "answer": 1,
+    "solution": "穩態質量平衡為 G＝Q(Ci－Co)。濃度差 500 ppm＝500×10⁻⁶，故 Q＝0.012/0.0005＝24 m³/h。這是題設模型的計算量，不是宣稱符合任何現行通風法規。",
+    "explanation": "穩態質量平衡為 G＝Q(Ci－Co)。濃度差 500 ppm＝500×10⁻⁶，故 Q＝0.012/0.0005＝24 m³/h。這是題設模型的計算量，不是宣稱符合任何現行通風法規。",
+    "optionExplanations": [
+      "忘記 ppm 必須換成百萬分率。",
+      "正確：以產生量除以室內外濃度差。",
+      "6 m³/h 對應的穩態濃度差為 2000 ppm，會使室內濃度超過目標。",
+      "30 m³/h 可使穩態濃度降至 800 ppm，但不是維持不超過 900 ppm 的最小理論流量。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "co2",
+      "G": 0.012,
+      "Ci": 900,
+      "Co": 400
+    },
+    "choiceValues": [
+      0.024,
+      24,
+      6,
+      30
+    ]
+  },
+  {
+    "id": "original-environment-008",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 8,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "空調顯熱",
+    "question": "室外空氣以 0.2 m³/s 流入室內，須降低 10 K。取空氣密度 1.2 kg/m³、比熱 1000 J/(kg·K)，忽略潛熱及設備熱，其顯熱移除率為何？",
+    "options": [
+      "240 W",
+      "1200 W",
+      "24000 W",
+      "2400 W"
+    ],
+    "answer": 3,
+    "solution": "顯熱率 Q̇s＝ρcpV̇ΔT＝1.2×1000×0.2×10＝2400 W。先由體積流量乘密度得質量流量 0.24 kg/s；此式未處理除濕產生的潛熱。",
+    "explanation": "顯熱率 Q̇s＝ρcpV̇ΔT＝1.2×1000×0.2×10＝2400 W。先由體積流量乘密度得質量流量 0.24 kg/s；此式未處理除濕產生的潛熱。",
+    "optionExplanations": [
+      "240 W 漏掉 10 K 溫差。",
+      "1200 W 並非完整公式的乘積。",
+      "24000 W 大十倍，應檢查流量或溫差。",
+      "正確：質量流量×比熱×溫差＝2400 W。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "sensible",
+      "rho": 1.2,
+      "cp": 1000,
+      "Q": 0.2,
+      "dT": 10
+    },
+    "choiceValues": [
+      240,
+      1200,
+      24000,
+      2400
+    ]
+  },
+  {
+    "id": "original-environment-009",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 9,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "通風熱回收",
+    "question": "一平衡流量的顯熱回收器，室外空氣 10°C、排出室內空氣 25°C。若顯熱有效度為 0.7，忽略漏風、風機熱與結霜，外氣通過回收器後的供氣溫度為何？",
+    "options": [
+      "10.5°C",
+      "17.5°C",
+      "25°C",
+      "20.5°C"
+    ],
+    "answer": 3,
+    "solution": "ε＝(T供－T外)/(T排－T外)。因此 T供＝10＋0.7×(25－10)＝20.5°C。供氣溫度在兩入口溫度之間，且未完全到達 25°C，可用來檢查結果。",
+    "explanation": "ε＝(T供－T外)/(T排－T外)。因此 T供＝10＋0.7×(25－10)＝20.5°C。供氣溫度在兩入口溫度之間，且未完全到達 25°C，可用來檢查結果。",
+    "optionExplanations": [
+      "不是以 10°C 直接乘上有效度。",
+      "17.5°C 是入口溫度的簡單平均，不適用 ε＝0.7。",
+      "25°C 代表此理想比較下有效度為 1。",
+      "正確：回收 15 K 可用溫差的 70%。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "recovery",
+      "outdoor": 10,
+      "exhaust": 25,
+      "eff": 0.7
+    },
+    "choiceValues": [
+      10.5,
+      17.5,
+      25,
+      20.5
+    ]
+  },
+  {
+    "id": "original-environment-010",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 10,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "給水與泵浦",
+    "question": "水泵流量 0.005 m³/s、總揚程 12 m，泵浦及馬達合併總效率 0.6。取水密度 1000 kg/m³、g＝10 m/s²，所需電輸入功率為何？",
+    "options": [
+      "300 W",
+      "1000 W",
+      "600 W",
+      "1667 W"
+    ],
+    "answer": 1,
+    "solution": "水力功率 Ph＝ρgQH＝1000×10×0.005×12＝600 W。電輸入 P電＝Ph/η總＝600/0.6＝1000 W。題設已給合併總效率，不再重複除以另一個馬達效率。",
+    "explanation": "水力功率 Ph＝ρgQH＝1000×10×0.005×12＝600 W。電輸入 P電＝Ph/η總＝600/0.6＝1000 W。題設已給合併總效率，不再重複除以另一個馬達效率。",
+    "optionExplanations": [
+      "輸入功率不能小於水力輸出功率。",
+      "正確：輸入功率為水力功率除以總效率。",
+      "600 W 是水力功率，尚未計效率損失。",
+      "1667 W 是把總效率重複除以兩次。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "pump",
+      "rho": 1000,
+      "g": 10,
+      "Q": 0.005,
+      "H": 12,
+      "eta": 0.6
+    },
+    "choiceValues": [
+      300,
+      1000,
+      600,
+      1667
+    ]
+  },
+  {
+    "id": "original-environment-011",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 11,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "照明基本量",
+    "question": "一可視為點光源的燈具，朝向受照點的光強度為 200 cd，距離受照點 2 m，光線垂直入射受照面。忽略其他光源與反射，其照度為何？",
+    "options": [
+      "50 lx",
+      "25 lx",
+      "100 lx",
+      "400 lx"
+    ],
+    "answer": 0,
+    "solution": "點光源照度 E＝I cosθ/r²；本題垂直入射，θ＝0，cosθ＝1，故 E＝200/2²＝50 lx。此式使用該方向光強度 cd，不是直接代入光通量 lm。",
+    "explanation": "點光源照度 E＝I cosθ/r²；本題垂直入射，θ＝0，cosθ＝1，故 E＝200/2²＝50 lx。此式使用該方向光強度 cd，不是直接代入光通量 lm。",
+    "optionExplanations": [
+      "正確：200 cd 除以 4 m²。",
+      "25 lx 不符合給定距離的平方。",
+      "100 lx 是只除以距離、漏掉平方。",
+      "400 lx 是將光強度乘距離，物理關係錯誤。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "illuminance",
+      "I": 200,
+      "r": 2
+    },
+    "choiceValues": [
+      50,
+      25,
+      100,
+      400
+    ]
+  },
+  {
+    "id": "original-environment-012",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 12,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "照明設計估算",
+    "question": "一空間面積 40 m²，目標平均照度 300 lx。每組燈具光通量 3000 lm，利用係數 0.5、維護係數 0.8。用流明法且僅採同款燈具，至少需幾組？",
+    "options": [
+      "5 組",
+      "8 組",
+      "10 組",
+      "16 組"
+    ],
+    "answer": 2,
+    "solution": "流明法 N＝EA/(ΦUF×MF)＝300×40/(3000×0.5×0.8)＝10 組；若結果非整數需向上取整。此估算法不能取代均勻度、眩光與實際配光檢核。",
+    "explanation": "流明法 N＝EA/(ΦUF×MF)＝300×40/(3000×0.5×0.8)＝10 組；若結果非整數需向上取整。此估算法不能取代均勻度、眩光與實際配光檢核。",
+    "optionExplanations": [
+      "5 組提供的平均照度僅 150 lx，低於 300 lx。",
+      "8 組提供的平均照度為 240 lx，仍低於目標。",
+      "正確：每組有效貢獻為 1200 lm，需 10 組。",
+      "16 組雖可達到目標，但不是流明法所求的最少數量；10 組已足夠。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "lumen",
+      "E": 300,
+      "A": 40,
+      "flux": 3000,
+      "UF": 0.5,
+      "MF": 0.8
+    },
+    "choiceValues": [
+      5,
+      8,
+      10,
+      16
+    ]
+  },
+  {
+    "id": "original-environment-013",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 13,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "室內聲學",
+    "question": "在可使用 Sabine 公式的近似擴散聲場中，房間體積 300 m³，總等效吸音面積 120 m²。採 T60＝0.161V/A，殘響時間約為何？",
+    "options": [
+      "0.20 s",
+      "0.40 s",
+      "1.20 s",
+      "2.48 s"
+    ],
+    "answer": 1,
+    "solution": "代入 Sabine 公式：T60＝0.161×300/120＝0.4025 s，約 0.40 s。A 是等效吸音面積，不是單純地板面積；此簡式的聲場與吸音條件須符合適用假設。",
+    "explanation": "代入 Sabine 公式：T60＝0.161×300/120＝0.4025 s，約 0.40 s。A 是等效吸音面積，不是單純地板面積；此簡式的聲場與吸音條件須符合適用假設。",
+    "optionExplanations": [
+      "0.20 s 並非給定 V/A 對應的結果。",
+      "正確：0.4025 s 取兩位小數約 0.40 s。",
+      "1.20 s 不是 0.161×300/120。",
+      "2.48 約為正確殘響時間的倒數，單位成為 1/s，不能當成時間。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "sabine",
+      "V": 300,
+      "A": 120
+    },
+    "choiceValues": [
+      0.2,
+      0.4,
+      1.2,
+      2.48
+    ]
+  },
+  {
+    "id": "original-environment-014",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 14,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "噪音量與疊加",
+    "question": "兩個互不相關、可按聲能相加的噪音源，在同一受測點各自單獨運作時均為 60 dB。兩者同時運作時的總音壓級約為何？",
+    "options": [
+      "60 dB",
+      "120 dB",
+      "66 dB",
+      "63 dB"
+    ],
+    "answer": 3,
+    "solution": "互不相關聲源按能量相加：L總＝10log₁₀(10^(60/10)＋10^(60/10))＝60＋10log₁₀2＝63.01 dB。不能將分貝直接算術相加；相干同相聲源不適用本題假設。",
+    "explanation": "互不相關聲源按能量相加：L總＝10log₁₀(10^(60/10)＋10^(60/10))＝60＋10log₁₀2＝63.01 dB。不能將分貝直接算術相加；相干同相聲源不適用本題假設。",
+    "optionExplanations": [
+      "兩個等級相同的非相干聲源一起運作仍會增加聲能。",
+      "120 dB 是直接相加分貝的錯誤。",
+      "6 dB 常見於振幅加倍，不是本題聲能加倍。",
+      "正確：等強度互不相關聲源加倍，約增加 3 dB。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "sound_sum",
+      "level": 60,
+      "count": 2
+    },
+    "choiceValues": [
+      60,
+      120,
+      66,
+      63
+    ]
+  },
+  {
+    "id": "original-environment-015",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 15,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "聲音傳播",
+    "question": "在理想自由場中，固定點音源功率不變，忽略反射及空氣吸收。測點距音源由 2 m 增為 4 m，音壓級約降低多少？",
+    "options": [
+      "3 dB",
+      "12 dB",
+      "6 dB",
+      "20 dB"
+    ],
+    "answer": 2,
+    "solution": "球面擴散使強度與距離平方成反比，距離加倍後強度為 1/4。音壓級差的大小＝20log₁₀(4/2)＝6.02 dB，因此約降低 6 dB。此規則不能直接套用理想線音源。",
+    "explanation": "球面擴散使強度與距離平方成反比，距離加倍後強度為 1/4。音壓級差的大小＝20log₁₀(4/2)＝6.02 dB，因此約降低 6 dB。此規則不能直接套用理想線音源。",
+    "optionExplanations": [
+      "3 dB 常用於能量減半，不是本題強度變為 1/4。",
+      "12 dB 對應更大的距離倍率。",
+      "正確：點音源自由場距離加倍約減少 6 dB。",
+      "20 dB 不是距離加倍的結果。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "sound_distance",
+      "r1": 2,
+      "r2": 4
+    },
+    "choiceValues": [
+      3,
+      12,
+      6,
+      20
+    ]
+  },
+  {
+    "id": "original-environment-016",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 16,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "隔音基本觀念",
+    "question": "在單層隔板的質量控制頻域，遠離共振與吻合效應，且無漏縫或側向傳音。依簡化質量定律，頻率不變而面密度加倍，隔音量約增加多少？",
+    "options": [
+      "6 dB",
+      "3 dB",
+      "12 dB",
+      "20 dB"
+    ],
+    "answer": 0,
+    "solution": "質量定律比較式為 ΔTL＝20log₁₀(m新/m舊)。面密度加倍時增加 20log₁₀2＝6.02 dB。此為題設理想頻域的趨勢，不表示實際構件各頻率均增加相同隔音量。",
+    "explanation": "質量定律比較式為 ΔTL＝20log₁₀(m新/m舊)。面密度加倍時增加 20log₁₀2＝6.02 dB。此為題設理想頻域的趨勢，不表示實際構件各頻率均增加相同隔音量。",
+    "optionExplanations": [
+      "正確：在適用頻域，面密度加倍約增加 6 dB。",
+      "3 dB 不是此質量定律的 20log 比較結果。",
+      "12 dB 約對應面密度增加至 4 倍。",
+      "20 dB 約對應面密度增加至 10 倍。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "mass_law",
+      "factor": 2
+    },
+    "choiceValues": [
+      6,
+      3,
+      12,
+      20
+    ]
+  },
+  {
+    "id": "original-environment-017",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 17,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "空調效率",
+    "question": "一冷凍設備在指定運轉點提供冷房能力 9000 W，設備電輸入功率 3000 W。以此邊界計算，其冷房 COP 為何？",
+    "options": [
+      "0.33",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "solution": "冷房 COP＝移除的熱率／電輸入功率＝9000/3000＝3。COP 為無因次的性能係數，不是把冷量與電力相加；也不等同熱機效率，數值可大於 1。",
+    "explanation": "冷房 COP＝移除的熱率／電輸入功率＝9000/3000＝3。COP 為無因次的性能係數，不是把冷量與電力相加；也不等同熱機效率，數值可大於 1。",
+    "optionExplanations": [
+      "0.33 是把分子與分母顛倒。",
+      "2 是先扣掉電力再除以電力，非本題冷房 COP。",
+      "正確：冷房能力除以電輸入功率。",
+      "4 較像把冷房量加上輸入功率後的供熱性能係數。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "cop",
+      "cooling": 9000,
+      "power": 3000
+    },
+    "choiceValues": [
+      0.33,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "original-environment-018",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 18,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "空調顯潛熱",
+    "question": "某空調負荷顯熱 6 kW、潛熱 2 kW，且兩者構成此題的全部冷房負荷。其顯熱因數 SHF 為何？",
+    "options": [
+      "0.75",
+      "0.33",
+      "0.25",
+      "3"
+    ],
+    "answer": 0,
+    "solution": "顯熱因數 SHF＝顯熱／(顯熱＋潛熱)＝6/(6＋2)＝0.75。分母是總熱負荷；顯熱與潛熱的比值 6/2 並不是 SHF。",
+    "explanation": "顯熱因數 SHF＝顯熱／(顯熱＋潛熱)＝6/(6＋2)＝0.75。分母是總熱負荷；顯熱與潛熱的比值 6/2 並不是 SHF。",
+    "optionExplanations": [
+      "正確：6 kW 除以總負荷 8 kW。",
+      "0.33 約為潛熱／顯熱，不是 SHF。",
+      "0.25 是潛熱占總熱的比例。",
+      "3 是顯熱／潛熱，定義不同。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "shf",
+      "sensible": 6,
+      "latent": 2
+    },
+    "choiceValues": [
+      0.75,
+      0.33,
+      0.25,
+      3
+    ]
+  },
+  {
+    "id": "original-environment-019",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 19,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "基地逕流估算",
+    "question": "以簡化合理化法估算一均勻集水區，逕流係數 0.8、降雨強度 50 mm/h、面積 100 m²。假設已符合所採方法的降雨歷時條件，逕流量約為何？",
+    "options": [
+      "0.11 L/s",
+      "1.11 L/s",
+      "4 L/s",
+      "40 L/s"
+    ],
+    "answer": 1,
+    "solution": "1 mm 降雨落在 1 m² 上等於 1 L。因此 Q＝0.8×50×100＝4000 L/h，再除以 3600 得 1.111 L/s。這是簡化流量估算，不代表已完成排水設計暴雨、滯蓄或管徑檢核。",
+    "explanation": "1 mm 降雨落在 1 m² 上等於 1 L。因此 Q＝0.8×50×100＝4000 L/h，再除以 3600 得 1.111 L/s。這是簡化流量估算，不代表已完成排水設計暴雨、滯蓄或管徑檢核。",
+    "optionExplanations": [
+      "0.11 L/s 少十倍。",
+      "正確：4000 L/h＝1.111 L/s，約 1.11 L/s。",
+      "4000 L/h 可換成 4 m³/h，但不能把這個數值直接標成 L/s。",
+      "40 L/s 未正確將小時換算為秒。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "中等",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。",
+    "calculation": {
+      "kind": "runoff",
+      "C": 0.8,
+      "i": 50,
+      "A": 100
+    },
+    "choiceValues": [
+      0.11,
+      1.11,
+      4,
+      40
+    ]
+  },
+  {
+    "id": "original-environment-020",
+    "slug": "environment",
+    "source": "original",
+    "questionNo": 20,
+    "year": 0,
+    "subject": "建築環境控制",
+    "chapter": "濕空氣與結露",
+    "question": "某室內空氣乾球溫度 25°C、露點 15°C，一表面溫度為 12°C 且與該空氣接觸。忽略其他特殊表面效應，下列判斷何者最適當？",
+    "options": [
+      "室溫高於 20°C，所以表面一定不結露",
+      "露點是固定常數，不隨空氣含濕量改變",
+      "室內相對濕度未達 100%，任何表面都不會結露",
+      "表面低於露點，具備表面結露的條件"
+    ],
+    "answer": 3,
+    "solution": "判斷表面結露應比較表面溫度與接觸空氣的露點。12°C 小於 15°C，空氣在表面附近冷卻可達飽和並凝結；不能只看室內乾球溫度。這不表示整個房間的空氣都已飽和。",
+    "explanation": "判斷表面結露應比較表面溫度與接觸空氣的露點。12°C 小於 15°C，空氣在表面附近冷卻可達飽和並凝結；不能只看室內乾球溫度。這不表示整個房間的空氣都已飽和。",
+    "optionExplanations": [
+      "乾球溫度本身不能排除冷表面結露。",
+      "在一定壓力下，露點會隨水蒸氣含量改變。",
+      "整室未飽和，表面附近仍可能因降溫達到飽和。",
+      "正確：表面溫度低於露點。"
+    ],
+    "explanationStatus": "draft",
+    "reviewStatus": "unreviewed",
+    "difficulty": "基礎",
+    "createdAt": "2026-11-03",
+    "regulation": "基礎物理／工程簡化模型，未引用法規或設計規範條文。",
+    "explanationSources": [
+      {
+        "title": "OpenStax：College Physics 2e（熱、流體、光與聲學參考教材）",
+        "url": "https://openstax.org/details/books/college-physics-2e"
+      }
+    ],
+    "sourceNote": "參考連結用於延伸閱讀，並非本題的官方答案或逐題審核證明。"
+  }
+]
