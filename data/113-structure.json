@@ -1110,12 +1110,12 @@
     "year": 113,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "根據尤拉挫屈公式(Euler equation),下列何種作法可降低柱子的有效長度,以提高柱子的挫屈載重?",
+    "question": "根據尤拉挫屈公式(Euler equation),下列何種作法可降低柱子的有效長度,以提高柱子的挫屈載重?\n①桿件中間增加側向支撐 \n②增加柱端點束制 \n③增加柱斷面 \n④增加材料彈性係數",
     "options": [
-      "僅12",
-      "僅13",
-      "僅123",
-      "1234"
+      "僅①②",
+      "僅①③",
+      "僅①②③",
+      "①②③④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1145,7 +1145,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "113-structure-21",

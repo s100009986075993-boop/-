@@ -563,12 +563,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者與鋁窗之PVC 壓條老化現象有關?",
+    "question": "下列何者與鋁窗之PVC 壓條老化現象有關?\n①抗拉強度 \n②伸長率 \n③吸水率 \n④硬度",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -599,7 +599,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-15",
@@ -608,10 +609,10 @@
     "chapter": "未分類（待章節核對）",
     "question": "懸臂式擋土牆抗拉鋼筋的配置位置下列何者正確?",
     "options": [
-      "1",
-      "2",
-      "3",
-      "4"
+      "①",
+      "②",
+      "③",
+      "④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -648,7 +649,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-16",
@@ -827,12 +829,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關建築物外殼構造之DPG(dot point glazing)系統,下列構法何者正確?",
+    "question": "有關建築物外殼構造之DPG(dot point glazing)系統,下列構法何者正確?\n①以特殊鐵具點支撐玻璃的系統 \n②玻璃採用強化玻璃 \n③支撐鐵具以迴轉鉸對應變形 \n④以耐候密封材料將玻璃埋入窗框",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -863,7 +865,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-21",
@@ -999,12 +1002,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為帷幕牆施工,填縫材料應具備的條件?",
+    "question": "下列何者為帷幕牆施工,填縫材料應具備的條件?\n①施工簡便,表面乾固所需時間短,且不沾灰塵 \n②乾固後仍具橡膠般之彈性 \n③乾固後須有優良的耐候性 \n④耐用年限必須超過建築物本身的壽命",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1035,7 +1038,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-25",
@@ -1365,12 +1369,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "室外透水鋪面之剖面,宜採下列何種組合?",
+    "question": "室外透水鋪面之剖面,宜採下列何種組合?\n①連通多孔質地磚層 \n②水泥砂漿層 \n③細砂層 \n④級配層",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1401,7 +1405,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-33",
@@ -1451,12 +1456,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列敘述,何者是逆打工法之特性?",
+    "question": "下列敘述,何者是逆打工法之特性?\n①擋土的安全性高 \n②可縮短工期 \n③能有效防止地下工程中的營建公害,如噪音及振動 \n④僅適用於地下平面形狀不規則之建築物",
     "options": [
-      "234",
-      "134",
-      "124",
-      "123"
+      "②③④",
+      "①③④",
+      "①②④",
+      "①②③"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1487,7 +1492,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-35",
@@ -1881,12 +1887,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "鋼筋混凝土梁預力先拉法之施工步驟為何?",
+    "question": "鋼筋混凝土梁預力先拉法之施工步驟為何?\n①澆置混凝土 \n②鋼鍵先施預力 \n③組合模板鋼筋隔板 \n④切斷預力鋼鍵",
     "options": [
-      "3124",
-      "3214",
-      "3241",
-      "2314"
+      "③①②④",
+      "③②①④",
+      "③②④①",
+      "②③①④"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1925,7 +1931,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-45",
@@ -2190,12 +2197,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "帷幕牆安裝之正確施工順序為何?",
+    "question": "帷幕牆安裝之正確施工順序為何?\n①安裝帷幕牆、防水填縫處理 \n②放樣作業、安裝固定繫件 \n③排水處理 \n④清洗養護",
     "options": [
-      "1234",
-      "2134",
-      "3214",
-      "2314"
+      "①②③④",
+      "②①③④",
+      "③②①④",
+      "②③①④"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -2226,7 +2233,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-52",
@@ -2448,12 +2456,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為非破壞檢測方式?",
+    "question": "下列何者為非破壞檢測方式?\n①超音波試驗 \n②彈性反彈錘 \n③透地雷達 \n④鑽心試驗",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -2484,7 +2492,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-58",
@@ -2878,12 +2887,12 @@
     "year": 102,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者為建築物興建工程的直接成本?",
+    "question": "下列何者為建築物興建工程的直接成本?\n①假設工程費 \n②材料費 \n③機電設備費 \n④規劃、設計、 監造費",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -2914,7 +2923,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "102-construction-68",

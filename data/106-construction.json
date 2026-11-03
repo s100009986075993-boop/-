@@ -722,12 +722,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關混凝土材料在構法上的應用,下列敘述何者正確?",
+    "question": "有關混凝土材料在構法上的應用,下列敘述何者正確?\n①原本是澆鑄性的材料 \n②當製成預製混凝土構件使用時,即成為組裝性的材料 \n③當製作混凝土磚使用時,即成為砌築性的材料",
     "options": [
-      "123",
-      "僅23",
-      "僅12",
-      "僅13"
+      "①②③",
+      "僅②③",
+      "僅①②",
+      "僅①③"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -758,7 +758,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-17",
@@ -980,12 +981,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關防火門之設計,下列敘述何者錯誤?",
+    "question": "有關防火門之設計,下列敘述何者錯誤?\n①防火門之門扇寬度應在75 公分以上 \n②為建築物安全維護,防火門於火災發生時應需用鑰匙方可開啟 \n③常閉式防火門應裝設經開啟後可自行關閉之裝置 \n④常開式防火門應於火災發生時保持開啟",
     "options": [
-      "12",
-      "34",
-      "13",
-      "24"
+      "①②",
+      "③④",
+      "①③",
+      "②④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1016,7 +1017,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-23",
@@ -1578,12 +1580,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "陽台使用玻璃欄杆時,下列何者正確?",
+    "question": "陽台使用玻璃欄杆時,下列何者正確?\n①使用強化玻璃,先裁切後強化 \n②使用強化玻璃,先強化後裁切 \n③使用膠合玻璃 \n④使用一般有色玻璃",
     "options": [
-      "13",
-      "14",
-      "23",
-      "24"
+      "①③",
+      "①④",
+      "②③",
+      "②④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1614,7 +1616,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-36",
@@ -2212,12 +2215,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何種玻璃因成品製成後不能再予切割,所以須訂製?",
+    "question": "下列何種玻璃因成品製成後不能再予切割,所以須訂製?\n①浮式及磨光平板玻璃 \n②強化玻璃 \n③ 雙層玻璃 \n④膠合玻璃",
     "options": [
-      "12",
-      "14",
-      "23",
-      "34"
+      "①②",
+      "①④",
+      "②③",
+      "③④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2248,7 +2251,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-50",
@@ -2562,12 +2566,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "建築物樓版伸縮縫,主要考慮下列何種性能?",
+    "question": "建築物樓版伸縮縫,主要考慮下列何種性能?\n①變形對應性 \n②防水性 \n③耐火性 \n④隔熱性",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -2598,7 +2602,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-58",
@@ -2795,12 +2800,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關PC 耐力板(polycarbonate plate)(聚碳酸酯板)的敍述,下列何者正確?",
+    "question": "有關PC 耐力板(polycarbonate plate)(聚碳酸酯板)的敍述,下列何者正確?\n①與玻璃相較,硬度高,不易刮傷,但容易老化 \n②常做成中空板,隔熱性佳 \n③透光性及透明性皆較玻璃為佳",
     "options": [
-      "僅23",
-      "僅13",
-      "僅12",
-      "123"
+      "僅②③",
+      "僅①③",
+      "僅①②",
+      "①②③"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -2831,7 +2836,8 @@
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-63",
@@ -3182,12 +3188,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "建築物在施工中,主管機關認有必要時,得隨時勘驗,勘驗結果有下列何者狀況時,應以書面通知承造人或起造人或監造人,勒令停工或修改?",
+    "question": "建築物在施工中,主管機關認有必要時,得隨時勘驗,勘驗結果有下列何者狀況時,應以書面通知承造人或起造人或監造人,勒令停工或修改?\n①危害公共安全 \n②妨礙公共交通 \n③妨礙公共衛生 \n④妨礙都市景觀",
     "options": [
-      "234",
-      "123",
-      "124",
-      "134"
+      "②③④",
+      "①②③",
+      "①②④",
+      "①③④"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -3218,7 +3224,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-72",
@@ -3311,12 +3318,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "依公有建築物施工階段契約約定權責分工表之內容,工程竣工圖說作業下列何者錯誤?",
+    "question": "依公有建築物施工階段契約約定權責分工表之內容,工程竣工圖說作業下列何者錯誤?\n①工程竣工圖說之繪製應由設計人辦理 \n②工程竣工圖說之審查應由監造人辦理 \n③工程竣工圖說之審查應由設計人及監造人共同辦理 \n④工程竣工圖說之審查應由業主核定",
     "options": [
-      "24",
-      "12",
-      "13",
-      "34"
+      "②④",
+      "①②",
+      "①③",
+      "③④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -3347,7 +3354,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-75",
@@ -3397,12 +3405,12 @@
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "含高碳之鋼筋較適合之續接方式為何?",
+    "question": "含高碳之鋼筋較適合之續接方式為何?\n①搭接 \n②瓦斯壓接 \n③銲接 \n④續接器",
     "options": [
-      "12",
-      "23",
-      "34",
-      "14"
+      "①②",
+      "②③",
+      "③④",
+      "①④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -3433,19 +3441,20 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-77",
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列建築管理作業,何者需由設計人會同申請,或於申請書中簽章?",
+    "question": "下列建築管理作業,何者需由設計人會同申請,或於申請書中簽章?\n①建造執照申請 \n②申請開工備查 \n③申報勘驗 \n④申請使用執照",
     "options": [
-      "僅1",
-      "僅12",
-      "僅123",
-      "1234"
+      "僅①",
+      "僅①②",
+      "僅①②③",
+      "①②③④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -3476,19 +3485,20 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-78",
     "year": 106,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列事項的辦理順序,何者正確?",
+    "question": "下列事項的辦理順序,何者正確?\n①申辦電信設計許可 \n②申辦都市設計審議許可 \n③申辦地目變更 \n④建築執照許可審查",
     "options": [
-      "3241",
-      "1324",
-      "4213",
-      "3412"
+      "③②④①",
+      "①③②④",
+      "④②①③",
+      "③④①②"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -3519,7 +3529,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-construction-79",

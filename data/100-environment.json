@@ -847,12 +847,12 @@
     "year": 100,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "下列那二種之組合最能兼顧隔音與吸音性能?",
+    "question": "下列那二種之組合最能兼顧隔音與吸音性能?\n①12 公分鋼筋混凝土牆 \n②12 公分石膏板牆 \n③表面金屬板 \n④表面穿孔之木質板",
     "options": [
-      "13",
-      "14",
-      "23",
-      "24"
+      "①③",
+      "①④",
+      "②③",
+      "②④"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -883,7 +883,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "100-environment-17",
@@ -1642,12 +1643,12 @@
     "year": 100,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者屬於高輝(強)度放電燈(HID 燈)?",
+    "question": "下列何者屬於高輝(強)度放電燈(HID 燈)?\n①水銀燈 \n②複金屬(金屬鹵化物)燈 \n③低壓鈉燈 \n④螢光燈",
     "options": [
-      "123",
-      "134",
-      "124",
-      "234"
+      "①②③",
+      "①③④",
+      "①②④",
+      "②③④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1678,7 +1679,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "100-environment-32",
@@ -1728,12 +1730,12 @@
     "year": 100,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "一般密閉空調型辦公建築之用電量比重,由大至小依序為何?",
+    "question": "一般密閉空調型辦公建築之用電量比重,由大至小依序為何?\n①空調用電 \n②動力用電 \n③照明用電",
     "options": [
-      "123",
-      "231",
-      "132",
-      "321"
+      "①②③",
+      "②③①",
+      "①③②",
+      "③②①"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1764,7 +1766,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "100-environment-34",

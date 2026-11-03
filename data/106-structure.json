@@ -186,12 +186,12 @@
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "三鉸拱受垂直均勻載重作用,下列敘述何者正確?",
+    "question": "三鉸拱受垂直均勻載重作用,下列敘述何者正確?\n①增加水平跨度,增加支承水平推力\n②增加拱的高度,增加支承水平推力\n③同比例增加水平跨度及拱的高度,支承水平推力會增加\n④同比例增加水平跨度及拱的高度,支承水平推力會減少",
     "options": [
-      "12",
-      "13",
-      "23",
-      "24"
+      "①②",
+      "①③",
+      "②③",
+      "②④"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -221,19 +221,20 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-structure-05",
     "year": 106,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "下列那兩項完全正確?",
+    "question": "下列那兩項完全正確?\n①「建築物耐震設計規範」要求垂直地震力單獨看成一種載重情況 \n②地震震度大小僅與地震規模及震源深度有關 \n③地震規模與地震釋放的能量有關 \n④依「建築物耐震設計規範」設計興建之建築物可承受七級地震而不致損壞",
     "options": [
-      "12",
-      "23",
-      "13",
-      "14"
+      "①②",
+      "②③",
+      "①③",
+      "①④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -263,7 +264,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-structure-06",

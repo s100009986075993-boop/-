@@ -465,12 +465,12 @@
     "year": 111,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "下列那些空間須維持正壓?",
+    "question": "下列那些空間須維持正壓?\n①廁所 \n②手術室 \n③半導體晶圓廠之無塵室",
     "options": [
-      "12",
-      "13",
-      "23",
-      "123"
+      "①②",
+      "①③",
+      "②③",
+      "①②③"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -501,7 +501,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-environment-09",

@@ -1962,12 +1962,12 @@
     "year": 105,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "採用「RC 擴柱補強工法」補強建築物時,下列敘述何者正確?",
+    "question": "採用「RC 擴柱補強工法」補強建築物時,下列敘述何者正確?\n①應敲除RC 柱表面之粉刷層及破碎之混凝土 \n②柱四角隅之增設主筋僅能錨定於樓版內 \n③擴柱的基礎設計須重新檢核",
     "options": [
-      "12",
-      "13",
-      "23",
-      "123"
+      "①②",
+      "①③",
+      "②③",
+      "①②③"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1997,7 +1997,8 @@
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "105-structure-39",

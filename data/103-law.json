@@ -47,12 +47,12 @@
     "year": 103,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "下列那些建築物用途組別設置於室外走廊之欄桿,不得設有可供直徑 10 cm 物體穿越之鏤空或可供攀爬之水平橫條?",
+    "question": "下列那些建築物用途組別設置於室外走廊之欄桿,不得設有可供直徑 10 cm 物體穿越之鏤空或可供攀爬之水平橫條?\n①商場百貨 \n②國小校舍 \n③住宅 \n④旅館 \n⑤辦公場所 \n⑥醫療照護",
     "options": [
-      "1234",
-      "1235",
-      "1346",
-      "2456"
+      "①②③④",
+      "①②③⑤",
+      "①③④⑥",
+      "②④⑤⑥"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -83,7 +83,8 @@
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-law-03",
@@ -391,12 +392,12 @@
     "year": 103,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "建築技術規則有關高層建築物限制之敘述,下列何者正確?",
+    "question": "建築技術規則有關高層建築物限制之敘述,下列何者正確?\n①限制總樓地板面積與留設空地之比 \n②限制地下各層最大樓地板面積 \n③須設置防災中心 \n④不論高度依落物曲線距離退縮建築",
     "options": [
-      "234",
-      "123",
-      "124",
-      "134"
+      "②③④",
+      "①②③",
+      "①②④",
+      "①③④"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -427,7 +428,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-law-11",
@@ -907,12 +909,12 @@
     "year": 103,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "建造執照申請書須有那些人簽名用印?",
+    "question": "建造執照申請書須有那些人簽名用印?\n①起造人 \n②設計人 \n③監造人 \n④承造人",
     "options": [
-      "34",
-      "12",
-      "13",
-      "23"
+      "③④",
+      "①②",
+      "①③",
+      "②③"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -943,7 +945,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-law-23",
@@ -1165,12 +1168,12 @@
     "year": 103,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "下列供公眾使用建築物的那些空間至少應設置一處監視攝影裝置?",
+    "question": "下列供公眾使用建築物的那些空間至少應設置一處監視攝影裝置?\n①基地內通路 \n②車道出入口 \n③停車空間 \n④避難層出入口 \n⑤排煙室",
     "options": [
-      "15",
-      "23",
-      "24",
-      "45"
+      "①⑤",
+      "②③",
+      "②④",
+      "④⑤"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1201,7 +1204,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-law-29",
@@ -3085,12 +3089,12 @@
     "year": 103,
     "subject": "營建法規與實務",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者得不適用政府採購法?",
+    "question": "下列何者得不適用政府採購法?\n①颱風受災區之搶修工程 \n②口蹄疫區疫苗之採購案 \n③立法院開議前之整修工程 \n④雙十國慶觀禮台工程",
     "options": [
-      "13",
-      "24",
-      "34",
-      "12"
+      "①③",
+      "②④",
+      "③④",
+      "①②"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -3121,7 +3125,8 @@
       "method": "PDF character geometry",
       "page": 7,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-law-71",

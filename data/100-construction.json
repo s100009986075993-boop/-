@@ -3288,12 +3288,12 @@
     "year": 100,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "施工過程遇有疑義時,若無特別規定,下列設計圖說資料之優先順位為何?",
+    "question": "施工過程遇有疑義時,若無特別規定,下列設計圖說資料之優先順位為何?\n①發包圖面 \n②標準施工規範 \n③特記施工規範 \n④質疑回答",
     "options": [
-      "4312",
-      "1342",
-      "4132",
-      "1432"
+      "④③①②",
+      "①③④②",
+      "④①③②",
+      "①④③②"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -3324,7 +3324,8 @@
       "method": "PDF character geometry",
       "page": 12,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "100-construction-75",

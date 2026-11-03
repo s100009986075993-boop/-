@@ -176,12 +176,12 @@
     "year": 99,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列建築材料何種具有調節濕度的功能?",
+    "question": "下列建築材料何種具有調節濕度的功能?\n①木材 \n②鋁合金 \n③木炭 \n④矽土",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -212,7 +212,8 @@
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-construction-06",
@@ -1567,12 +1568,12 @@
     "year": 99,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "混凝土外牆上固定窗的施工組合程序,下列何者最適當?",
+    "question": "混凝土外牆上固定窗的施工組合程序,下列何者最適當?\n①立框 \n②防水處理 \n③框牆縫填塞 \n④安裝玻璃",
     "options": [
-      "1234",
-      "2134",
-      "1324",
-      "2314"
+      "①②③④",
+      "②①③④",
+      "①③②④",
+      "②③①④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1603,7 +1604,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-construction-38",
@@ -1825,12 +1827,12 @@
     "year": 99,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關各種樁的性能敘述,下列何者正確?",
+    "question": "有關各種樁的性能敘述,下列何者正確?\n①木樁適用於地下水位較淺,且水位無降低之虞,載重不太大的構造物基礎 \n②預鑄樁的長度不受限制,而接合施工的處理不直接影響樁的支承能力 \n③鋼樁的自重較輕,約為混凝土樁的1/3 左右,且搬運容易 \n④有殼式現場灌注樁的外殼留在地中,可增加載重能力",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1861,19 +1863,20 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-construction-44",
     "year": 99,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列那幾種因素與冷縫(Cold joint)之形成有關?",
+    "question": "下列那幾種因素與冷縫(Cold joint)之形成有關?\n①後續澆置時間間隔過長 \n②混凝土泌水(Bleeding) 形成乳漿(Laitance)層 \n③於混凝土中添加減水劑 \n④水灰比過高",
     "options": [
-      "12",
-      "23",
-      "34",
-      "14"
+      "①②",
+      "②③",
+      "③④",
+      "①④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -1904,7 +1907,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-construction-45",
@@ -2648,12 +2652,12 @@
     "year": 99,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關工程現場材料之品質管理,下列何者為抽樣檢查之基本要件?",
+    "question": "有關工程現場材料之品質管理,下列何者為抽樣檢查之基本要件?\n①批號規定 \n②取樣方法 \n③測試方法 \n④頻度分布圖",
     "options": [
-      "123",
-      "234",
-      "431",
-      "142"
+      "①②③",
+      "②③④",
+      "④③①",
+      "①④②"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -2684,7 +2688,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-construction-63",
@@ -2734,12 +2739,12 @@
     "year": 99,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者屬於施工規範(Specification)之內容?",
+    "question": "下列何者屬於施工規範(Specification)之內容?\n①材料規格說明 \n②施工方法 \n③施工圖樣 \n④作業步驟及標準",
     "options": [
-      "123",
-      "234",
-      "134",
-      "124"
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -2770,7 +2775,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "99-construction-65",

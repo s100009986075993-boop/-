@@ -1380,12 +1380,12 @@
     "year": 111,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "三層構架如圖所示,假設質量僅分布於梁構件,那些變更會延長其基本振動週期?",
+    "question": "三層構架如圖所示,假設質量僅分布於梁構件,那些變更會延長其基本振動週期?\n①增加柱斷面 I 值 \n②降低材料 E 值 \n③提升1F 柱之長度 L1 \n④降低3F 重量M3",
     "options": [
-      "24",
-      "14",
-      "23",
-      "13"
+      "②④",
+      "①④",
+      "②③",
+      "①③"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1421,7 +1421,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-structure-26",
@@ -2022,12 +2023,12 @@
     "year": 111,
     "subject": "建築結構",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何項建築結構規劃較無法達到二氧化碳減量?",
+    "question": "下列何項建築結構規劃較無法達到二氧化碳減量?\n①結構合理化:避免平面不規則與立面不規則 \n②耐久性:建築耐震力符合耐震設計規範要求 \n③構造改變:建築主結構採磚石構造 \n④輕量化:以輕隔間牆做空間規劃",
     "options": [
-      "23",
-      "2",
-      "14",
-      "3"
+      "②③",
+      "②",
+      "①④",
+      "③"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -2057,7 +2058,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-structure-38",

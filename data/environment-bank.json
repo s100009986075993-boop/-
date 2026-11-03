@@ -7356,12 +7356,12 @@
     "year": 100,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "下列那二種之組合最能兼顧隔音與吸音性能?",
+    "question": "下列那二種之組合最能兼顧隔音與吸音性能?\n①12 公分鋼筋混凝土牆 \n②12 公分石膏板牆 \n③表面金屬板 \n④表面穿孔之木質板",
     "options": [
-      "13",
-      "14",
-      "23",
-      "24"
+      "①③",
+      "①④",
+      "②③",
+      "②④"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -7392,7 +7392,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "100-environment-17",
@@ -8151,12 +8152,12 @@
     "year": 100,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何者屬於高輝(強)度放電燈(HID 燈)?",
+    "question": "下列何者屬於高輝(強)度放電燈(HID 燈)?\n①水銀燈 \n②複金屬(金屬鹵化物)燈 \n③低壓鈉燈 \n④螢光燈",
     "options": [
-      "123",
-      "134",
-      "124",
-      "234"
+      "①②③",
+      "①③④",
+      "①②④",
+      "②③④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -8187,7 +8188,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "100-environment-32",
@@ -8237,12 +8239,12 @@
     "year": 100,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "一般密閉空調型辦公建築之用電量比重,由大至小依序為何?",
+    "question": "一般密閉空調型辦公建築之用電量比重,由大至小依序為何?\n①空調用電 \n②動力用電 \n③照明用電",
     "options": [
-      "123",
-      "231",
-      "132",
-      "321"
+      "①②③",
+      "②③①",
+      "①③②",
+      "③②①"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -8273,7 +8275,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "100-environment-34",
@@ -10757,12 +10760,12 @@
     "year": 101,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "一般在空調設備系統中,耗能最大與最小的部分各為何?",
+    "question": "一般在空調設備系統中,耗能最大與最小的部分各為何?\n①冰水主機 \n②冰水泵浦 \n③冷卻水塔 \n④空調箱",
     "options": [
-      "12",
-      "13",
-      "14",
-      "23"
+      "①②",
+      "①③",
+      "①④",
+      "②③"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -10793,7 +10796,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "101-environment-40",
@@ -15325,12 +15329,12 @@
     "year": 103,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "通常建議在混凝土當中添加下列那些摻料可達到減廢及二氧化碳減量的效果?",
+    "question": "通常建議在混凝土當中添加下列那些摻料可達到減廢及二氧化碳減量的效果?\n①矽灰 \n②飛灰 \n③礦粉 \n④爐石粉",
     "options": [
-      "14",
-      "13",
-      "24",
-      "23"
+      "①④",
+      "①③",
+      "②④",
+      "②③"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -15361,7 +15365,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-environment-38",
@@ -15411,12 +15416,12 @@
     "year": 103,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "綠建築之生態社區(EEWH-EC)評估系統包括五大軸向,分別為:1生態、2節能減廢、3健康舒適、 4社區機能、5治安維護。今欲對於非住宅為主的社區、街廓建築群(如商業區或科學園區)進行評估, 則需進行那些項目評估?",
+    "question": "綠建築之生態社區(EEWH-EC)評估系統包括五大軸向,分別為:\n①生態、\n②節能減廢、\n③健康舒適、 \n④社區機能、\n⑤治安維護。今欲對於非住宅為主的社區、街廓建築群(如商業區或科學園區)進行評估, 則需進行那些項目評估?",
     "options": [
-      "134",
-      "123",
-      "135",
-      "1245"
+      "①③④",
+      "①②③",
+      "①③⑤",
+      "①②④⑤"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -15447,7 +15452,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-environment-40",
@@ -18704,12 +18710,12 @@
     "year": 105,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "在自動滅火設備中,電氣機房消防安全適合採用下列何種設備?",
+    "question": "在自動滅火設備中,電氣機房消防安全適合採用下列何種設備?\n①自動撒水 \n②泡沫 \n③CO2 \n④乾粉",
     "options": [
-      "14",
-      "23",
-      "12",
-      "34"
+      "①④",
+      "②③",
+      "①②",
+      "③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -18740,7 +18746,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "105-environment-23",
@@ -20499,12 +20506,12 @@
     "year": 106,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何種組合是我國室內空氣品質管理法的管制項目?",
+    "question": "下列何種組合是我國室內空氣品質管理法的管制項目?\n①CO2 \n②NH3 \n③細菌 \n④TVOC \n⑤SO2 \n⑥PM2.5",
     "options": [
-      "2345",
-      "1346",
-      "1456",
-      "1256"
+      "②③④⑤",
+      "①③④⑥",
+      "①④⑤⑥",
+      "①②⑤⑥"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -20535,7 +20542,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-environment-14",
@@ -21661,12 +21669,12 @@
     "year": 106,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "綠建築評估手冊-住宿類中,在日常節能指標中納入具有節能潛力的「固定耗能設備」進行評估,下列選項何者非手冊內固定耗能設備?",
+    "question": "綠建築評估手冊-住宿類中,在日常節能指標中納入具有節能潛力的「固定耗能設備」進行評估,下列選項何者非手冊內固定耗能設備?\n①熱水設備 \n②烹飪設備 \n③冷藏設備 \n④沐浴設備 \n⑤熱水管保溫 \n⑥空調設備",
     "options": [
-      "15",
-      "25",
-      "36",
-      "14"
+      "①⑤",
+      "②⑤",
+      "③⑥",
+      "①④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -21697,19 +21705,20 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-environment-36",
     "year": 106,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "在綠建築評估手冊-社區類中,為了減緩熱島效應採用之技術手法,下列何者屬於「地面蒸發冷卻設計」 之項目?",
+    "question": "在綠建築評估手冊-社區類中,為了減緩熱島效應採用之技術手法,下列何者屬於「地面蒸發冷卻設計」 之項目?\n①湖泊、溪流、水池 \n②透水鋪面 \n③喬木綠化之屋頂、地面 \n④U值 < 3 W/m2K 之屋頂",
     "options": [
-      "12",
-      "34",
-      "24",
-      "13"
+      "①②",
+      "③④",
+      "②④",
+      "①③"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -21740,7 +21749,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "106-environment-37",
@@ -22028,12 +22038,12 @@
     "year": 107,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "下列相同厚度材料的隔熱性能,由隔熱佳至隔熱差之順序為何?",
+    "question": "下列相同厚度材料的隔熱性能,由隔熱佳至隔熱差之順序為何?\n①保麗龍 \n②乾燥木板 \n③混凝土",
     "options": [
-      "123",
-      "132",
-      "213",
-      "231"
+      "①②③",
+      "①③②",
+      "②①③",
+      "②③①"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -22064,7 +22074,8 @@
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "107-environment-03",
@@ -24227,12 +24238,12 @@
     "year": 107,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "依據建築物無障礙設施設計規範,下列那些號碼組合,屬於應設置「兩處」求助鈴之空間?",
+    "question": "依據建築物無障礙設施設計規範,下列那些號碼組合,屬於應設置「兩處」求助鈴之空間?\n①無障礙浴室內 \n②無障礙昇降機內 \n③無障礙客房內 \n④無障礙停車位旁 \n⑤無障礙廁所內 \n⑥輪椅觀眾席位旁",
     "options": [
-      "135",
-      "125",
-      "245",
-      "136"
+      "①③⑤",
+      "①②⑤",
+      "②④⑤",
+      "①③⑥"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -24263,7 +24274,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "107-environment-40",
@@ -24530,12 +24542,12 @@
     "year": 108,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "1臺北 2新加坡 3香港 4巴賽隆納四城市在晴朗無雲的夏至日中午,將建築物南向立面 (垂直於地面)所接受的日射量由大到小排列,下列何者正確?",
+    "question": "①臺北 \n②新加坡 \n③香港 \n④巴賽隆納四城市在晴朗無雲的夏至日中午,將建築物南向立面 (垂直於地面)所接受的日射量由大到小排列,下列何者正確?",
     "options": [
-      "4132",
-      "4123",
-      "2314",
-      "3214"
+      "④①③②",
+      "④①②③",
+      "②③①④",
+      "③②①④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -24566,7 +24578,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "108-environment-05",
@@ -28865,12 +28878,12 @@
     "year": 109,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "依據綠建材設計技術規範,下列那些標章的產品得列入綠建材使用率之計算?",
+    "question": "依據綠建材設計技術規範,下列那些標章的產品得列入綠建材使用率之計算?\n①綠建材標章 \n②環保標章 \n③節能標章 \n④省水標章",
     "options": [
-      "僅12",
-      "僅123",
-      "僅134",
-      "1234"
+      "僅①②",
+      "僅①②③",
+      "僅①③④",
+      "①②③④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -28901,7 +28914,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "109-environment-38",
@@ -31906,12 +31920,12 @@
     "year": 111,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "下列那些空間須維持正壓?",
+    "question": "下列那些空間須維持正壓?\n①廁所 \n②手術室 \n③半導體晶圓廠之無塵室",
     "options": [
-      "12",
-      "13",
-      "23",
-      "123"
+      "①②",
+      "①③",
+      "②③",
+      "①②③"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -31942,7 +31956,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-environment-09",
@@ -34396,12 +34411,12 @@
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "室內空間有眩光問題產生時,下列那些手法較可能減緩眩光的程度?",
+    "question": "室內空間有眩光問題產生時,下列那些手法較可能減緩眩光的程度?\n①減少燈具的數量 \n②調整燈具的位置 \n③提高燈具光源的演色性",
     "options": [
-      "12",
-      "23",
-      "13",
-      "123"
+      "①②",
+      "②③",
+      "①③",
+      "①②③"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -34432,7 +34447,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "112-environment-13",
@@ -35735,12 +35751,12 @@
     "year": 113,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "在無建築設備的條件下,下列那些設計策略適合應用於臺灣平地氣候的建築物?",
+    "question": "在無建築設備的條件下,下列那些設計策略適合應用於臺灣平地氣候的建築物?\n①氣密性較高 \n②遮陽較深 \n③通風性較佳 \n④隔熱性較佳",
     "options": [
-      "僅123",
-      "僅134",
-      "僅234",
-      "1234"
+      "僅①②③",
+      "僅①③④",
+      "僅②③④",
+      "①②③④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -35771,7 +35787,8 @@
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "113-environment-04",
@@ -37792,12 +37809,12 @@
     "year": 114,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "改善室內空氣品質的策略包括:1污染物源頭管理 2通風換氣設計 3空氣淨化設備使用 4日常清潔維護。以校園室內空氣品質之維護管理為例,若將策略的重要性由大至小排序, 下列何者正確?",
+    "question": "改善室內空氣品質的策略包括:\n①污染物源頭管理 \n②通風換氣設計 \n③空氣淨化設備使用 \n④日常清潔維護。以校園室內空氣品質之維護管理為例,若將策略的重要性由大至小排序, 下列何者正確?",
     "options": [
-      "1234",
-      "2143",
-      "3421",
-      "4321"
+      "①②③④",
+      "②①④③",
+      "③④②①",
+      "④③②①"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -37828,7 +37845,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "114-environment-11",
@@ -37921,12 +37939,12 @@
     "year": 114,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "下列人工光源的平均演色性指數,那些較適合用於一般學校教室?",
+    "question": "下列人工光源的平均演色性指數,那些較適合用於一般學校教室?\n①60 \n②70 \n③80 \n④90",
     "options": [
-      "1234",
-      "僅234",
-      "僅34",
-      "僅23"
+      "①②③④",
+      "僅②③④",
+      "僅③④",
+      "僅②③"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -37957,7 +37975,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "114-environment-14",

@@ -526,12 +526,12 @@
     "year": 111,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "常見運用在鋼材料防鏽的材料有那些?",
+    "question": "常見運用在鋼材料防鏽的材料有那些?\n①熱浸鍍鋅 \n②鋅粉漆 \n③粉底烤漆 \n④氟碳烤漆",
     "options": [
-      "僅123",
-      "僅24",
-      "僅34",
-      "1234"
+      "僅①②③",
+      "僅②④",
+      "僅③④",
+      "①②③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -562,19 +562,20 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-construction-14",
     "year": 111,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "木材經乾燥處理後,其功能可以:1呈現木紋增加美觀 2增加木材結構強度 3防止真菌生長 4減少白蟻攻擊",
+    "question": "木材經乾燥處理後,其功能可以:\n①呈現木紋增加美觀 \n②增加木材結構強度 \n③防止真菌生長 \n④減少白蟻攻擊",
     "options": [
-      "僅123",
-      "僅124",
-      "僅34",
-      "僅234"
+      "僅①②③",
+      "僅①②④",
+      "僅③④",
+      "僅②③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -605,7 +606,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-construction-15",
@@ -878,12 +880,12 @@
     "year": 111,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列四種土質之建築基礎工程承載力,依「最佳、好、一般、不可取」之排序為何?",
+    "question": "下列四種土質之建築基礎工程承載力,依「最佳、好、一般、不可取」之排序為何?\n①砂和礫石 \n②普通黏土與重黏土 \n③有機淤泥和黏土 \n④淤泥和軟黏土",
     "options": [
-      "1234",
-      "2134",
-      "1243",
-      "2431"
+      "①②③④",
+      "②①③④",
+      "①②④③",
+      "②④③①"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -914,7 +916,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-construction-22",
@@ -972,12 +975,12 @@
     "year": 111,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關鋼構銲接完成後必須進行銲道的非破壞性檢驗,不包含下列那些?",
+    "question": "有關鋼構銲接完成後必須進行銲道的非破壞性檢驗,不包含下列那些?\n①超音波檢驗法 \n②全銲道拉伸試驗法 \n③目視檢驗法 \n④螢光檢驗法 \n⑤放射線檢驗法",
     "options": [
-      "23",
-      "15",
-      "24",
-      "34"
+      "②③",
+      "①⑤",
+      "②④",
+      "③④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1008,7 +1011,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-construction-24",
@@ -1881,12 +1885,12 @@
     "year": 111,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "清水砌磚工法中勾縫之目的為何?",
+    "question": "清水砌磚工法中勾縫之目的為何?\n①黏著 \n②防水 \n③美觀 \n④抑制白華",
     "options": [
-      "13",
-      "24",
-      "34",
-      "23"
+      "①③",
+      "②④",
+      "③④",
+      "②③"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -1917,7 +1921,8 @@
       "method": "PDF character geometry",
       "page": 5,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-construction-45",
@@ -2951,12 +2956,12 @@
     "year": 111,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列那幾種管線適合配置在同一管道間中?",
+    "question": "下列那幾種管線適合配置在同一管道間中?\n①強電 \n②給水 \n③排水 \n④消防 \n⑤弱電",
     "options": [
-      "123",
-      "145",
-      "134",
-      "234"
+      "①②③",
+      "①④⑤",
+      "①③④",
+      "②③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -2987,7 +2992,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-construction-69",
@@ -3080,12 +3086,12 @@
     "year": 111,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "室內裝修工程常見之分間牆資材,若依碳足跡標準由高至低排列,下列何者正確?",
+    "question": "室內裝修工程常見之分間牆資材,若依碳足跡標準由高至低排列,下列何者正確?\n①10 公分石膏版輕隔間 \n②1/2 B 磚雙面粉光 \n③8 公分玻璃磚隔間 \n④雙面水泥粉刷之空心磚牆",
     "options": [
-      "2314",
-      "3241",
-      "4321",
-      "2431"
+      "②③①④",
+      "③②④①",
+      "④③②①",
+      "②④③①"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -3116,7 +3122,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "111-construction-72",

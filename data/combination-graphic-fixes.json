@@ -1,0 +1,68 @@
+{
+  "101-construction-29": {
+    "question": "圖示之木屋架平面圖及相關細部,最適合圖左側何種建築屋面形式?",
+    "options": [
+      "①",
+      "②",
+      "③",
+      "④"
+    ],
+    "sourcePdf": "assets/101-construction/questions.pdf",
+    "sourcePage": 5
+  },
+  "102-construction-15": {
+    "question": "懸臂式擋土牆抗拉鋼筋的配置位置下列何者正確?",
+    "options": [
+      "①",
+      "②",
+      "③",
+      "④"
+    ],
+    "sourcePdf": "assets/102-construction/questions.pdf",
+    "sourcePage": 2
+  },
+  "103-construction-20": {
+    "question": "下列何者是帷幕牆?",
+    "options": [
+      "僅④⑤",
+      "僅④",
+      "僅①②③",
+      "①②③④⑤"
+    ],
+    "sourcePdf": "assets/103-construction/questions.pdf",
+    "sourcePage": 3
+  },
+  "103-construction-23": {
+    "question": "RC 柱主筋續接時,下列何者為適當接合點範圍?",
+    "options": [
+      "①②",
+      "③④",
+      "②③",
+      "①④"
+    ],
+    "sourcePdf": "assets/103-construction/questions.pdf",
+    "sourcePage": 4
+  },
+  "103-construction-45": {
+    "question": "下列樓梯平面,以安全與扶手平順的考量,何者較佳?",
+    "options": [
+      "①④",
+      "②③",
+      "②④",
+      "①③"
+    ],
+    "sourcePdf": "assets/103-construction/questions.pdf",
+    "sourcePage": 8
+  },
+  "104-construction-51": {
+    "question": "下列圖示屋頂防水膜收頭何者正確?",
+    "options": [
+      "①②",
+      "僅②",
+      "僅③",
+      "僅①"
+    ],
+    "sourcePdf": "assets/104-construction/questions.pdf",
+    "sourcePage": 9
+  }
+}

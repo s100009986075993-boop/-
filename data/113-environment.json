@@ -90,12 +90,12 @@
     "year": 113,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "在無建築設備的條件下,下列那些設計策略適合應用於臺灣平地氣候的建築物?",
+    "question": "在無建築設備的條件下,下列那些設計策略適合應用於臺灣平地氣候的建築物?\n①氣密性較高 \n②遮陽較深 \n③通風性較佳 \n④隔熱性較佳",
     "options": [
-      "僅123",
-      "僅134",
-      "僅234",
-      "1234"
+      "僅①②③",
+      "僅①③④",
+      "僅②③④",
+      "①②③④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -126,7 +126,8 @@
       "method": "PDF character geometry",
       "page": 1,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "113-environment-04",

@@ -108,5 +108,1578 @@
     "question": "下列何者屬止水擋土壁工法?\n①立柱橫向版樁工法\n②鋼版樁工法\n③柱列壁工法\n④連續壁工法",
     "sourcePdf": "assets/98-construction/questions.pdf",
     "sourcePage": 7
+  },
+  "100-structure-40": {
+    "question": "夏季在戶外採用充氣式氣囊作為展場結構時,若日夜溫差相當大、白天偶有陣風作用,為避免氣囊塌陷或變形,施作時可採取那些方法?\n①氣囊內應有充氣設備及減壓設備 \n②氣囊外部以繩索固定於地面或其他構造物 \n③於氣囊外部增加重量 \n④以壓力桿件包覆氣囊四周",
+    "options": [
+      "①②③",
+      "②③④",
+      "①②④",
+      "①③④"
+    ],
+    "sourcePdf": "assets/100-structure/questions.pdf",
+    "sourcePage": 8
+  },
+  "101-structure-29": {
+    "question": "依據建築技術規則規定,建築物進行耐震設計時,下列何者正確?\n①高度未達50 公尺或未達15 層之建築物可採靜力方法來分析 \n②設計基本原則係使建築物結構體在中小度地震時保持彈性限度內 \n③地震災害發生後,必須維持機能以救濟大眾之重要建築物,其用途係數(I)為1.5 \n④最小總橫力豎向分配於構架之各層及屋頂",
+    "options": [
+      "①②③",
+      "①②④",
+      "①③④",
+      "②③④"
+    ],
+    "sourcePdf": "assets/101-structure/questions.pdf",
+    "sourcePage": 7
+  },
+  "101-structure-36": {
+    "question": "有關預力鋼筋混凝土梁之施加預力方式可分成先拉法與後拉法二種不同作業方式,下列敘述何者正確? \n①二種作業方式都需要在鋼筋混凝土梁拉力側配置鋼鍵 \n②先拉法製作之預力梁較適用於跨度較大或需要配置彎曲鋼鍵之構件 \n③後拉法製作之預力梁適用於較小跨度構件 \n④先拉法係利用混凝土與鋼鍵之間的握裹力來傳遞預力,後拉法則是利用端錨錨定作用來傳遞預力",
+    "options": [
+      "①③",
+      "①④",
+      "②③",
+      "②④"
+    ],
+    "sourcePdf": "assets/101-structure/questions.pdf",
+    "sourcePage": 8
+  },
+  "102-structure-40": {
+    "question": "鋼筋混凝土梁強度設計時,有關設計鋼筋比計算限制之敘述下列何者正確? \n①最小設計鋼筋比(ρmin)與鋼筋降伏強度成正比關係 \n②韌性設計最大鋼筋比(ρmax)不超過斷面平衡鋼筋比(ρb)之0.5 倍 \n③最小設計鋼筋比之規定主要提高軸壓應力 \n④最大設計鋼筋比之規定在避免構件發生脆性破壞",
+    "options": [
+      "①②",
+      "①④",
+      "②③",
+      "②④"
+    ],
+    "sourcePdf": "assets/102-structure/questions.pdf",
+    "sourcePage": 8
+  },
+  "103-structure-22": {
+    "question": "有關木構造之特性,下列敘述何者正確?\n①木材為韌性材料,具延展性以抗脆性破壞 \n②木構造有接合部存在,此接合部若利用膠合者,不得有變形(變位或滑動)存在 \n③木構造韌性,可由接合部之變形獲得 \n④木構造韌性與構材接合方式無關",
+    "options": [
+      "①④",
+      "③④",
+      "②③",
+      "①③"
+    ],
+    "sourcePdf": "assets/103-structure/questions.pdf",
+    "sourcePage": 5
+  },
+  "104-structure-23": {
+    "question": "鋼骨構造採用偏心斜撐構架(EBF)系統時,有關連桿(link)之設計,下列敘述何者正確?\n①增加連桿長度,有助於增加構架抗震之韌性 \n②增加連桿中的腹板數,主要是用來提升鋼梁抵抗彎矩作用 \n③地震來襲時,EBF 系統之連桿可發揮吸收構架變形能量 \n④改變連桿長度,可用以調整鋼骨構架的週期",
+    "options": [
+      "①①",
+      "①①",
+      "②①",
+      "①①"
+    ],
+    "sourcePdf": "assets/104-structure/questions.pdf",
+    "sourcePage": 5
+  },
+  "105-structure-38": {
+    "question": "採用「RC 擴柱補強工法」補強建築物時,下列敘述何者正確?\n①應敲除RC 柱表面之粉刷層及破碎之混凝土 \n②柱四角隅之增設主筋僅能錨定於樓版內 \n③擴柱的基礎設計須重新檢核",
+    "options": [
+      "①②",
+      "①③",
+      "②③",
+      "①②③"
+    ],
+    "sourcePdf": "assets/105-structure/questions.pdf",
+    "sourcePage": 7
+  },
+  "106-structure-04": {
+    "question": "三鉸拱受垂直均勻載重作用,下列敘述何者正確?\n①增加水平跨度,增加支承水平推力\n②增加拱的高度,增加支承水平推力\n③同比例增加水平跨度及拱的高度,支承水平推力會增加\n④同比例增加水平跨度及拱的高度,支承水平推力會減少",
+    "options": [
+      "①②",
+      "①③",
+      "②③",
+      "②④"
+    ],
+    "sourcePdf": "assets/106-structure/questions.pdf",
+    "sourcePage": 2
+  },
+  "106-structure-05": {
+    "question": "下列那兩項完全正確?\n①「建築物耐震設計規範」要求垂直地震力單獨看成一種載重情況 \n②地震震度大小僅與地震規模及震源深度有關 \n③地震規模與地震釋放的能量有關 \n④依「建築物耐震設計規範」設計興建之建築物可承受七級地震而不致損壞",
+    "options": [
+      "①②",
+      "②③",
+      "①③",
+      "①④"
+    ],
+    "sourcePdf": "assets/106-structure/questions.pdf",
+    "sourcePage": 2
+  },
+  "111-structure-25": {
+    "question": "三層構架如圖所示,假設質量僅分布於梁構件,那些變更會延長其基本振動週期?\n①增加柱斷面 I 值 \n②降低材料 E 值 \n③提升1F 柱之長度 L1 \n④降低3F 重量M3",
+    "options": [
+      "②④",
+      "①④",
+      "②③",
+      "①③"
+    ],
+    "sourcePdf": "assets/111-structure/questions.pdf",
+    "sourcePage": 6
+  },
+  "111-structure-37": {
+    "question": "下列何項建築結構規劃較無法達到二氧化碳減量?\n①結構合理化:避免平面不規則與立面不規則 \n②耐久性:建築耐震力符合耐震設計規範要求 \n③構造改變:建築主結構採磚石構造 \n④輕量化:以輕隔間牆做空間規劃",
+    "options": [
+      "②③",
+      "②",
+      "①④",
+      "③"
+    ],
+    "sourcePdf": "assets/111-structure/questions.pdf",
+    "sourcePage": 8
+  },
+  "112-structure-03": {
+    "question": "下列敘述何者正確?\n①在同一場地震事件下,各地區震度相同,地震規模相異 \n②某次地震 A、B 兩測站加速度分別為 200 gal 與 420 gal,速度分別為 150 cm/sec 與 60 cm/sec,則 A 測站震度較高 \n③建築物耐震設計規範之最大考量地震,其50 年超越機率約為5% \n④新增活動斷層之認定係依據經濟部中央地質調查所之公告",
+    "options": [
+      "①④",
+      "③④",
+      "①③",
+      "②④"
+    ],
+    "sourcePdf": "assets/112-structure/questions.pdf",
+    "sourcePage": 2
+  },
+  "112-structure-15": {
+    "question": "醫院欲加裝緊急發電機,業主要求該發電機需於強震後正常運作,下列敘述何者正確?\n①設置於屋頂層可降低該發電機地震力需求 \n②設置於較低樓層可降低發電機承受之樓板加速度 \n③發電機可依建築物耐震設計規範以靜力設計錨定強度 \n④在功能相同的條件下,應採較重之發電機避免受震傾覆",
+    "options": [
+      "①④",
+      "②③",
+      "①③",
+      "②④"
+    ],
+    "sourcePdf": "assets/112-structure/questions.pdf",
+    "sourcePage": 4
+  },
+  "113-structure-20": {
+    "question": "根據尤拉挫屈公式(Euler equation),下列何種作法可降低柱子的有效長度,以提高柱子的挫屈載重?\n①桿件中間增加側向支撐 \n②增加柱端點束制 \n③增加柱斷面 \n④增加材料彈性係數",
+    "options": [
+      "僅①②",
+      "僅①③",
+      "僅①②③",
+      "①②③④"
+    ],
+    "sourcePdf": "assets/113-structure/questions.pdf",
+    "sourcePage": 4
+  },
+  "114-structure-08": {
+    "question": "有關高層建築結構系統與設計,下列敘述何者錯誤?\n①高層建築於設計風力下之層間位移角, 不得大於2 % \n②高層建築若採用外伸穩定架(outrigger)搭配帶狀桁架系統,應儘量配置於建築底層以抑制垂直變形 \n③某棟建築高度 52 公尺且樓層數 16 層,其平立面規則,故耐震設計可採靜力分析",
+    "options": [
+      "僅①②",
+      "僅②③",
+      "僅①③",
+      "①②③"
+    ],
+    "sourcePdf": "assets/114-structure/questions.pdf",
+    "sourcePage": 2
+  },
+  "114-structure-34": {
+    "question": "下列何者鋼結構構材斷面彎矩強度可達塑性彎矩?\n①塑性設計斷面 \n②細長肢材斷面 \n③結實斷面 \n④半結實斷面",
+    "options": [
+      "①③",
+      "②③",
+      "②④",
+      "①④"
+    ],
+    "sourcePdf": "assets/114-structure/questions.pdf",
+    "sourcePage": 8
+  },
+  "100-environment-16": {
+    "question": "下列那二種之組合最能兼顧隔音與吸音性能?\n①12 公分鋼筋混凝土牆 \n②12 公分石膏板牆 \n③表面金屬板 \n④表面穿孔之木質板",
+    "options": [
+      "①③",
+      "①④",
+      "②③",
+      "②④"
+    ],
+    "sourcePdf": "assets/100-environment/questions.pdf",
+    "sourcePage": 2
+  },
+  "100-environment-31": {
+    "question": "下列何者屬於高輝(強)度放電燈(HID 燈)?\n①水銀燈 \n②複金屬(金屬鹵化物)燈 \n③低壓鈉燈 \n④螢光燈",
+    "options": [
+      "①②③",
+      "①③④",
+      "①②④",
+      "②③④"
+    ],
+    "sourcePdf": "assets/100-environment/questions.pdf",
+    "sourcePage": 4
+  },
+  "100-environment-33": {
+    "question": "一般密閉空調型辦公建築之用電量比重,由大至小依序為何?\n①空調用電 \n②動力用電 \n③照明用電",
+    "options": [
+      "①②③",
+      "②③①",
+      "①③②",
+      "③②①"
+    ],
+    "sourcePdf": "assets/100-environment/questions.pdf",
+    "sourcePage": 4
+  },
+  "101-environment-39": {
+    "question": "一般在空調設備系統中,耗能最大與最小的部分各為何?\n①冰水主機 \n②冰水泵浦 \n③冷卻水塔 \n④空調箱",
+    "options": [
+      "①②",
+      "①③",
+      "①④",
+      "②③"
+    ],
+    "sourcePdf": "assets/101-environment/questions.pdf",
+    "sourcePage": 4
+  },
+  "103-environment-37": {
+    "question": "通常建議在混凝土當中添加下列那些摻料可達到減廢及二氧化碳減量的效果?\n①矽灰 \n②飛灰 \n③礦粉 \n④爐石粉",
+    "options": [
+      "①④",
+      "①③",
+      "②④",
+      "②③"
+    ],
+    "sourcePdf": "assets/103-environment/questions.pdf",
+    "sourcePage": 4
+  },
+  "103-environment-39": {
+    "question": "綠建築之生態社區(EEWH-EC)評估系統包括五大軸向,分別為:\n①生態、\n②節能減廢、\n③健康舒適、 \n④社區機能、\n⑤治安維護。今欲對於非住宅為主的社區、街廓建築群(如商業區或科學園區)進行評估, 則需進行那些項目評估?",
+    "options": [
+      "①③④",
+      "①②③",
+      "①③⑤",
+      "①②④⑤"
+    ],
+    "sourcePdf": "assets/103-environment/questions.pdf",
+    "sourcePage": 4
+  },
+  "105-environment-22": {
+    "question": "在自動滅火設備中,電氣機房消防安全適合採用下列何種設備?\n①自動撒水 \n②泡沫 \n③CO2 \n④乾粉",
+    "options": [
+      "①④",
+      "②③",
+      "①②",
+      "③④"
+    ],
+    "sourcePdf": "assets/105-environment/questions.pdf",
+    "sourcePage": 3
+  },
+  "106-environment-13": {
+    "question": "下列何種組合是我國室內空氣品質管理法的管制項目?\n①CO2 \n②NH3 \n③細菌 \n④TVOC \n⑤SO2 \n⑥PM2.5",
+    "options": [
+      "②③④⑤",
+      "①③④⑥",
+      "①④⑤⑥",
+      "①②⑤⑥"
+    ],
+    "sourcePdf": "assets/106-environment/questions.pdf",
+    "sourcePage": 2
+  },
+  "106-environment-35": {
+    "question": "綠建築評估手冊-住宿類中,在日常節能指標中納入具有節能潛力的「固定耗能設備」進行評估,下列選項何者非手冊內固定耗能設備?\n①熱水設備 \n②烹飪設備 \n③冷藏設備 \n④沐浴設備 \n⑤熱水管保溫 \n⑥空調設備",
+    "options": [
+      "①⑤",
+      "②⑤",
+      "③⑥",
+      "①④"
+    ],
+    "sourcePdf": "assets/106-environment/questions.pdf",
+    "sourcePage": 4
+  },
+  "106-environment-36": {
+    "question": "在綠建築評估手冊-社區類中,為了減緩熱島效應採用之技術手法,下列何者屬於「地面蒸發冷卻設計」 之項目?\n①湖泊、溪流、水池 \n②透水鋪面 \n③喬木綠化之屋頂、地面 \n④U值 < 3 W/m2K 之屋頂",
+    "options": [
+      "①②",
+      "③④",
+      "②④",
+      "①③"
+    ],
+    "sourcePdf": "assets/106-environment/questions.pdf",
+    "sourcePage": 4
+  },
+  "107-environment-02": {
+    "question": "下列相同厚度材料的隔熱性能,由隔熱佳至隔熱差之順序為何?\n①保麗龍 \n②乾燥木板 \n③混凝土",
+    "options": [
+      "①②③",
+      "①③②",
+      "②①③",
+      "②③①"
+    ],
+    "sourcePdf": "assets/107-environment/questions.pdf",
+    "sourcePage": 1
+  },
+  "107-environment-39": {
+    "question": "依據建築物無障礙設施設計規範,下列那些號碼組合,屬於應設置「兩處」求助鈴之空間?\n①無障礙浴室內 \n②無障礙昇降機內 \n③無障礙客房內 \n④無障礙停車位旁 \n⑤無障礙廁所內 \n⑥輪椅觀眾席位旁",
+    "options": [
+      "①③⑤",
+      "①②⑤",
+      "②④⑤",
+      "①③⑥"
+    ],
+    "sourcePdf": "assets/107-environment/questions.pdf",
+    "sourcePage": 4
+  },
+  "108-environment-04": {
+    "question": "①臺北 \n②新加坡 \n③香港 \n④巴賽隆納四城市在晴朗無雲的夏至日中午,將建築物南向立面 (垂直於地面)所接受的日射量由大到小排列,下列何者正確?",
+    "options": [
+      "④①③②",
+      "④①②③",
+      "②③①④",
+      "③②①④"
+    ],
+    "sourcePdf": "assets/108-environment/questions.pdf",
+    "sourcePage": 2
+  },
+  "109-environment-37": {
+    "question": "依據綠建材設計技術規範,下列那些標章的產品得列入綠建材使用率之計算?\n①綠建材標章 \n②環保標章 \n③節能標章 \n④省水標章",
+    "options": [
+      "僅①②",
+      "僅①②③",
+      "僅①③④",
+      "①②③④"
+    ],
+    "sourcePdf": "assets/109-environment/questions.pdf",
+    "sourcePage": 4
+  },
+  "111-environment-08": {
+    "question": "下列那些空間須維持正壓?\n①廁所 \n②手術室 \n③半導體晶圓廠之無塵室",
+    "options": [
+      "①②",
+      "①③",
+      "②③",
+      "①②③"
+    ],
+    "sourcePdf": "assets/111-environment/questions.pdf",
+    "sourcePage": 2
+  },
+  "112-environment-12": {
+    "question": "室內空間有眩光問題產生時,下列那些手法較可能減緩眩光的程度?\n①減少燈具的數量 \n②調整燈具的位置 \n③提高燈具光源的演色性",
+    "options": [
+      "①②",
+      "②③",
+      "①③",
+      "①②③"
+    ],
+    "sourcePdf": "assets/112-environment/questions.pdf",
+    "sourcePage": 2
+  },
+  "113-environment-03": {
+    "question": "在無建築設備的條件下,下列那些設計策略適合應用於臺灣平地氣候的建築物?\n①氣密性較高 \n②遮陽較深 \n③通風性較佳 \n④隔熱性較佳",
+    "options": [
+      "僅①②③",
+      "僅①③④",
+      "僅②③④",
+      "①②③④"
+    ],
+    "sourcePdf": "assets/113-environment/questions.pdf",
+    "sourcePage": 1
+  },
+  "114-environment-10": {
+    "question": "改善室內空氣品質的策略包括:\n①污染物源頭管理 \n②通風換氣設計 \n③空氣淨化設備使用 \n④日常清潔維護。以校園室內空氣品質之維護管理為例,若將策略的重要性由大至小排序, 下列何者正確?",
+    "options": [
+      "①②③④",
+      "②①④③",
+      "③④②①",
+      "④③②①"
+    ],
+    "sourcePdf": "assets/114-environment/questions.pdf",
+    "sourcePage": 3
+  },
+  "114-environment-13": {
+    "question": "下列人工光源的平均演色性指數,那些較適合用於一般學校教室?\n①60 \n②70 \n③80 \n④90",
+    "options": [
+      "①②③④",
+      "僅②③④",
+      "僅③④",
+      "僅②③"
+    ],
+    "sourcePdf": "assets/114-environment/questions.pdf",
+    "sourcePage": 3
+  },
+  "100-law-26": {
+    "question": "監造建築師發現現場施工與發包圖說不符時,應通知:\n①起造人 \n②承造人 \n③直接施作之分包商 \n④建築主管機關",
+    "options": [
+      "②③",
+      "②④",
+      "①②",
+      "①④"
+    ],
+    "sourcePdf": "assets/100-law/questions.pdf",
+    "sourcePage": 3
+  },
+  "100-law-44": {
+    "question": "都市更新事業計畫範圍內重建區段之土地,以權利變換方式實施,但由主管機關或其他機關辦理者, 得以下列何種方式實施?\n①徵收 \n②協議合建 \n③區段徵收 \n④市地重劃",
+    "options": [
+      "①②④",
+      "①③④",
+      "①②③",
+      "②③④"
+    ],
+    "sourcePdf": "assets/100-law/questions.pdf",
+    "sourcePage": 5
+  },
+  "101-law-04": {
+    "question": "防火門應朝避難方向開啟,但下列何種空間使用不在此限?\n①住宅 \n②宿舍寢室 \n③旅館客房 \n④補習班教室 \n⑤演藝廳",
+    "options": [
+      "①②④",
+      "③④⑤",
+      "②③⑤",
+      "①②③"
+    ],
+    "sourcePdf": "assets/101-law/questions.pdf",
+    "sourcePage": 1
+  },
+  "101-law-37": {
+    "question": "建築技術規則所要求設置之設施,下列何者係針對火災時提供消防隊救火之需要?\n①特別安全梯 \n②戶外安全梯 \n③緊急昇降機 \n④緊急入口",
+    "options": [
+      "①②",
+      "①③",
+      "②③",
+      "③④"
+    ],
+    "sourcePdf": "assets/101-law/questions.pdf",
+    "sourcePage": 4
+  },
+  "101-law-41": {
+    "question": "按都市計畫公共設施用地多目標使用辦法,位於一般市區內,且周圍未設有車站用地之廣場用地類別,下列何種使用項目可設於其地下空間?\n①停車場 \n②休閒運動設施 \n③商店街 \n④民眾活動中心 \n⑤社會福利機構",
+    "options": [
+      "①②③",
+      "①②④",
+      "①③④",
+      "①③⑤"
+    ],
+    "sourcePdf": "assets/101-law/questions.pdf",
+    "sourcePage": 4
+  },
+  "102-law-06": {
+    "question": "依建築技術規則之規定,六層以上集合住宅應設置的行動不便者使用設施最少須包含之項目為何? \n①室外通路 \n②避難層坡道及扶手 \n③避難層出入口 \n④室內出入口 \n⑤室內通路走廊 \n⑥樓梯 \n⑦昇降設備 \n⑧停車空間",
+    "options": [
+      "②③④⑤",
+      "①②③⑦",
+      "③④⑥⑦",
+      "②⑥⑦⑧"
+    ],
+    "sourcePdf": "assets/102-law/questions.pdf",
+    "sourcePage": 1
+  },
+  "102-law-19": {
+    "question": "建築法中所稱「建造」是指下列何者?\n①新建 \n②增建 \n③重建 \n④修建 \n⑤改建",
+    "options": [
+      "①②③④",
+      "①②③⑤",
+      "①③④⑤",
+      "①②④⑤"
+    ],
+    "sourcePdf": "assets/102-law/questions.pdf",
+    "sourcePage": 2
+  },
+  "102-law-34": {
+    "question": "政府劃定為實施更新地區,且涉及權利變換方式時,申請辦理都市更新的重要步驟與先後順序為何? \n①權利變換階段 \n②更新事業概要階段 \n③實施者階段 \n④更新事業計畫階段 \n⑤公開展覽 \n⑥更新審議委員會議",
+    "options": [
+      "②③④①⑤⑥",
+      "②③④①⑥⑤",
+      "③②④①⑤⑥",
+      "③②④①⑥⑤"
+    ],
+    "sourcePdf": "assets/102-law/questions.pdf",
+    "sourcePage": 4
+  },
+  "102-law-46": {
+    "question": "非都市土地開發土地辦理使用變更,在辦理變更編定為允許之使用分區及使用地前應完成事項之順序為何?\n①雜項執照 \n②公共設施用地分割 \n③雜項工程使用執照 \n④公共設施移轉登記",
+    "options": [
+      "②④①③",
+      "①③②④",
+      "②①③④",
+      "①②③④"
+    ],
+    "sourcePdf": "assets/102-law/questions.pdf",
+    "sourcePage": 5
+  },
+  "103-law-02": {
+    "question": "下列那些建築物用途組別設置於室外走廊之欄桿,不得設有可供直徑 10 cm 物體穿越之鏤空或可供攀爬之水平橫條?\n①商場百貨 \n②國小校舍 \n③住宅 \n④旅館 \n⑤辦公場所 \n⑥醫療照護",
+    "options": [
+      "①②③④",
+      "①②③⑤",
+      "①③④⑥",
+      "②④⑤⑥"
+    ],
+    "sourcePdf": "assets/103-law/questions.pdf",
+    "sourcePage": 1
+  },
+  "103-law-10": {
+    "question": "建築技術規則有關高層建築物限制之敘述,下列何者正確?\n①限制總樓地板面積與留設空地之比 \n②限制地下各層最大樓地板面積 \n③須設置防災中心 \n④不論高度依落物曲線距離退縮建築",
+    "options": [
+      "②③④",
+      "①②③",
+      "①②④",
+      "①③④"
+    ],
+    "sourcePdf": "assets/103-law/questions.pdf",
+    "sourcePage": 2
+  },
+  "103-law-22": {
+    "question": "建造執照申請書須有那些人簽名用印?\n①起造人 \n②設計人 \n③監造人 \n④承造人",
+    "options": [
+      "③④",
+      "①②",
+      "①③",
+      "②③"
+    ],
+    "sourcePdf": "assets/103-law/questions.pdf",
+    "sourcePage": 3
+  },
+  "103-law-28": {
+    "question": "下列供公眾使用建築物的那些空間至少應設置一處監視攝影裝置?\n①基地內通路 \n②車道出入口 \n③停車空間 \n④避難層出入口 \n⑤排煙室",
+    "options": [
+      "①⑤",
+      "②③",
+      "②④",
+      "④⑤"
+    ],
+    "sourcePdf": "assets/103-law/questions.pdf",
+    "sourcePage": 3
+  },
+  "103-law-70": {
+    "question": "下列何者得不適用政府採購法?\n①颱風受災區之搶修工程 \n②口蹄疫區疫苗之採購案 \n③立法院開議前之整修工程 \n④雙十國慶觀禮台工程",
+    "options": [
+      "①③",
+      "②④",
+      "③④",
+      "①②"
+    ],
+    "sourcePdf": "assets/103-law/questions.pdf",
+    "sourcePage": 7
+  },
+  "104-law-15": {
+    "question": "建築法規定,建築物設計人及監造人為建築師,以依法登記開業之建築師為限,但有關建築物專業工程部分,除五層以下非供公眾使用之建築物外,應由承辦建築師交由依法登記開業何種專業工業技師負責辦理?\n①結構技師 \n②電機技師 \n③空調技師 \n④景觀技師 \n⑤室內設計技師",
+    "options": [
+      "②④",
+      "①②",
+      "①④",
+      "③⑤"
+    ],
+    "sourcePdf": "assets/104-law/questions.pdf",
+    "sourcePage": 2
+  },
+  "104-law-31": {
+    "question": "建築技術規則之綠建築基準不包括下列何者?\n①建築基地綠化 \n②建築基地保水 \n③建築物節約能源 \n④廢棄物處理 \n⑤綠建材 \n⑥生物多樣性",
+    "options": [
+      "①③",
+      "②④",
+      "④⑥",
+      "⑤⑥"
+    ],
+    "sourcePdf": "assets/104-law/questions.pdf",
+    "sourcePage": 4
+  },
+  "104-law-41": {
+    "question": "某公司擬將租得之山坡地範圍內五公頃之土地,申請使用地變更編定為農牧、林業、國土保安或生態保護用地以外之使用時,下列何者屬應檢附的文件?\n①擬具興辦事業之計畫書 \n②土地使用計畫配置圖及位置圖 \n③申請變更編定同意書 \n④非都市土地變更編定申請書 \n⑤水土保持計畫書",
+    "options": [
+      "①③④",
+      "②④⑤",
+      "②③④",
+      "①④⑤"
+    ],
+    "sourcePdf": "assets/104-law/questions.pdf",
+    "sourcePage": 5
+  },
+  "104-law-42": {
+    "question": "依都市計畫法,都市計畫分為那三種?\n①市(鎮)計畫 \n②都市更新計畫 \n③特定區計畫 \n④鄉街計畫 \n⑤特定專用區計畫",
+    "options": [
+      "①②③",
+      "②③④",
+      "③④⑤",
+      "①③④"
+    ],
+    "sourcePdf": "assets/104-law/questions.pdf",
+    "sourcePage": 5
+  },
+  "104-law-56": {
+    "question": "建築師應提供機關辦理工程招標之文件包括下列何者?\n①空白標單 \n②施工規範 \n③投標須知 \n④工程契約書 \n⑤設計詳圖",
+    "options": [
+      "①③④",
+      "②④⑤",
+      "①②⑤",
+      "①②③"
+    ],
+    "sourcePdf": "assets/104-law/questions.pdf",
+    "sourcePage": 6
+  },
+  "104-law-60": {
+    "question": "下列何者屬辦理統包之主要目的?\n①效率 \n②品質 \n③促進異業結合 \n④產業國際化",
+    "options": [
+      "①③",
+      "②④",
+      "③④",
+      "①②"
+    ],
+    "sourcePdf": "assets/104-law/questions.pdf",
+    "sourcePage": 6
+  },
+  "105-law-62": {
+    "question": "下列何者為機關委託技術服務廠商評選及計費辦法中屬於專案管理之工作?\n①設計進度之管理及協調 \n②施工計畫之擬訂 \n③發包預算之審查 \n④設計工作之品管及檢核",
+    "options": [
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
+    ],
+    "sourcePdf": "assets/105-law/questions.pdf",
+    "sourcePage": 7
+  },
+  "105-law-64": {
+    "question": "依據機關委託技術服務廠商評選及計費辦法,下列何者應另予增加費用?\n①於設計核准後須變更者 \n②修改招標文件重行招標之服務費用 \n③超過契約內容之設計報告製圖、送審、審圖等相關費用 \n④辦理都市設計審議費用",
+    "options": [
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
+    ],
+    "sourcePdf": "assets/105-law/questions.pdf",
+    "sourcePage": 7
+  },
+  "105-law-76": {
+    "question": "有關供行動不便者使用之無障礙昇降機設計規範,下列敘述何者正確?\n①若供集合住宅使用,昇降機門淨寬最小不得小於90 公分 \n②若供集合住宅使用,昇降機機廂深度不得小於125 公分 \n③機廂內至少兩側牆面需設置扶手 \n④若供集合住宅使用,昇降機機廂內可以不設置語音系統",
+    "options": [
+      "③④",
+      "②③",
+      "②④",
+      "①③④"
+    ],
+    "sourcePdf": "assets/105-law/questions.pdf",
+    "sourcePage": 8
+  },
+  "106-law-22": {
+    "question": "依建築技術規則山坡地建築專章,山坡地建築物至建築線間的通路設置戶外階梯,下列敘述何者錯誤? \n①階梯高度每 4 公尺應設置平台一處 \n②平台深度大於 2 公尺得免再增加其寬度 \n③階梯寬度不得小於1.3 公尺 \n④階梯級高應小於18 公分 \n⑤階梯的級深加二倍級高應大於或等於60 公分",
+    "options": [
+      "①③⑤",
+      "①④⑤",
+      "②③④",
+      "②③⑤"
+    ],
+    "sourcePdf": "assets/106-law/questions.pdf",
+    "sourcePage": 2
+  },
+  "106-law-41": {
+    "question": "依區域計畫法施行細則規定,區域土地之土地分區使用計畫其管制對象有那些?\n①都市土地 \n②非都市土地 \n③國家公園土地",
+    "options": [
+      "①③",
+      "①②",
+      "②③",
+      "①②③"
+    ],
+    "sourcePdf": "assets/106-law/questions.pdf",
+    "sourcePage": 4
+  },
+  "106-law-66": {
+    "question": "政府採購依建造費用百分比法給付服務費用時下列何者可計入建造費用計算?\n①機關工程管理費 \n②承包商利潤 \n③工務所建置費用 \n④承包商財物損失險",
+    "options": [
+      "①②",
+      "①④",
+      "②③",
+      "③④"
+    ],
+    "sourcePdf": "assets/106-law/questions.pdf",
+    "sourcePage": 5
+  },
+  "106-law-80": {
+    "question": "有關無障礙停車位的設置規範,下列何者正確?\n①位於地下停車空間之無障礙停車位應設置車位豎立標誌 \n②停車位之地坪應設置無障礙停車位標誌 \n③停車位地坪面上標誌圖之尺寸不得小於80 公分×80 公分 \n④停車位地面高低差不得大於0.5 公分,坡度不得大於2%",
+    "options": [
+      "①③",
+      "②③",
+      "①④",
+      "②④"
+    ],
+    "sourcePdf": "assets/106-law/questions.pdf",
+    "sourcePage": 6
+  },
+  "107-law-17": {
+    "question": "依營造業法規定,評鑑為第一級之優良營造業,承攬政府工程時,那些項目得降低百分之五十以下? \n①押標金 \n②工程保證金 \n③工程保留款 \n④工程保固金",
+    "options": [
+      "①②③",
+      "②③④",
+      "①②④",
+      "①③④"
+    ],
+    "sourcePdf": "assets/107-law/questions.pdf",
+    "sourcePage": 2
+  },
+  "107-law-22": {
+    "question": "鄉村區土地變更編定為乙種建築用地 ,申請使用地變更編定時應檢附之文件不包括下列那一項? \n①興辦事業計畫核准文件 \n②土地使用計畫配置圖及位置圖 \n③申請變更編定同意書 \n④非都市土地變更編定申請書",
+    "options": [
+      "①④",
+      "③④",
+      "②③",
+      "①②"
+    ],
+    "sourcePdf": "assets/107-law/questions.pdf",
+    "sourcePage": 3
+  },
+  "107-law-63": {
+    "question": "起造人申請雜項執照時,須具備下列何種文件?\n①申請書 \n②土地權利證明文件 \n③拆除執照 \n④工程圖樣及說明書",
+    "options": [
+      "①②③",
+      "①②④",
+      "①③④",
+      "②③④"
+    ],
+    "sourcePdf": "assets/107-law/questions.pdf",
+    "sourcePage": 7
+  },
+  "108-law-23": {
+    "question": "依建築技術規則建築設計施工編規定,供公眾使用建築物的何種空間至少應設置一處以上之緊急求救裝置?\n①室內停車空間 \n②車道 \n③安全梯間 \n④電梯車廂內",
+    "options": [
+      "①②",
+      "②③",
+      "③④",
+      "①④"
+    ],
+    "sourcePdf": "assets/108-law/questions.pdf",
+    "sourcePage": 3
+  },
+  "108-law-73": {
+    "question": "有關無障礙停車位的設置規範,下列敘述何者正確?\n①無障礙停車位應設於最靠近建築物無障礙出入口或無障礙昇降機之位置 \n②停車空間之入口引導標誌應與行進方向平行,以利辨識 \n③在車道入口處及車道沿路轉彎處應設置明顯之指引標誌 \n④汽車停車位長度不得小於 550 公分、寬度不得小於300 公分",
+    "options": [
+      "②④",
+      "②③",
+      "①③",
+      "③④"
+    ],
+    "sourcePdf": "assets/108-law/questions.pdf",
+    "sourcePage": 8
+  },
+  "109-law-06": {
+    "question": "有關巨額採購金額之敘述,下列何者正確?\n①工程採購,為新臺幣2 億元以上 \n②工程採購,為新臺幣1 億元以上 \n③勞務採購,為新臺幣2000 萬元以上 \n④勞務採購,為新臺幣5000 萬元以上",
+    "options": [
+      "①③",
+      "①④",
+      "②③",
+      "②④"
+    ],
+    "sourcePdf": "assets/109-law/questions.pdf",
+    "sourcePage": 1
+  },
+  "111-law-14": {
+    "question": "依建築技術規則規定,為便利行動不便者進出及使用建築物,新建或增建建築物在下列那些空間需設置無障礙通路通達?\n①居室出入口 \n②各專有部分使用單元內之廁所盥洗室 \n③昇降設備 \n④停車空間",
+    "options": [
+      "②③④",
+      "①②③④",
+      "①③④",
+      "①②③"
+    ],
+    "sourcePdf": "assets/111-law/questions.pdf",
+    "sourcePage": 2
+  },
+  "113-law-63": {
+    "question": "依政府採購法規定,投標廠商有下列何種情形,機關應不予開標或不予決標?\n①借用或冒用他人名義或證件投標 \n②不同投標廠商間之投標文件內容有重大異常關聯 \n③服務建議書頁數太少 \n④以不實文件投標",
+    "options": [
+      "僅①②③",
+      "僅②③④",
+      "僅①②④",
+      "①②③④"
+    ],
+    "sourcePdf": "assets/113-law/questions.pdf",
+    "sourcePage": 7
+  },
+  "99-construction-05": {
+    "question": "下列建築材料何種具有調節濕度的功能?\n①木材 \n②鋁合金 \n③木炭 \n④矽土",
+    "options": [
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
+    ],
+    "sourcePdf": "assets/99-construction/questions.pdf",
+    "sourcePage": 1
+  },
+  "99-construction-37": {
+    "question": "混凝土外牆上固定窗的施工組合程序,下列何者最適當?\n①立框 \n②防水處理 \n③框牆縫填塞 \n④安裝玻璃",
+    "options": [
+      "①②③④",
+      "②①③④",
+      "①③②④",
+      "②③①④"
+    ],
+    "sourcePdf": "assets/99-construction/questions.pdf",
+    "sourcePage": 4
+  },
+  "99-construction-43": {
+    "question": "有關各種樁的性能敘述,下列何者正確?\n①木樁適用於地下水位較淺,且水位無降低之虞,載重不太大的構造物基礎 \n②預鑄樁的長度不受限制,而接合施工的處理不直接影響樁的支承能力 \n③鋼樁的自重較輕,約為混凝土樁的1/3 左右,且搬運容易 \n④有殼式現場灌注樁的外殼留在地中,可增加載重能力",
+    "options": [
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
+    ],
+    "sourcePdf": "assets/99-construction/questions.pdf",
+    "sourcePage": 4
+  },
+  "99-construction-44": {
+    "question": "下列那幾種因素與冷縫(Cold joint)之形成有關?\n①後續澆置時間間隔過長 \n②混凝土泌水(Bleeding) 形成乳漿(Laitance)層 \n③於混凝土中添加減水劑 \n④水灰比過高",
+    "options": [
+      "①②",
+      "②③",
+      "③④",
+      "①④"
+    ],
+    "sourcePdf": "assets/99-construction/questions.pdf",
+    "sourcePage": 4
+  },
+  "99-construction-62": {
+    "question": "有關工程現場材料之品質管理,下列何者為抽樣檢查之基本要件?\n①批號規定 \n②取樣方法 \n③測試方法 \n④頻度分布圖",
+    "options": [
+      "①②③",
+      "②③④",
+      "④③①",
+      "①④②"
+    ],
+    "sourcePdf": "assets/99-construction/questions.pdf",
+    "sourcePage": 6
+  },
+  "99-construction-64": {
+    "question": "下列何者屬於施工規範(Specification)之內容?\n①材料規格說明 \n②施工方法 \n③施工圖樣 \n④作業步驟及標準",
+    "options": [
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
+    ],
+    "sourcePdf": "assets/99-construction/questions.pdf",
+    "sourcePage": 6
+  },
+  "100-construction-74": {
+    "question": "施工過程遇有疑義時,若無特別規定,下列設計圖說資料之優先順位為何?\n①發包圖面 \n②標準施工規範 \n③特記施工規範 \n④質疑回答",
+    "options": [
+      "④③①②",
+      "①③④②",
+      "④①③②",
+      "①④③②"
+    ],
+    "sourcePdf": "assets/100-construction/questions.pdf",
+    "sourcePage": 12
+  },
+  "101-construction-71": {
+    "question": "茲有建築工程相關資料如下: \n①基地附近地質鑽探報告 \n⑥施工詳圖 \n②建蔽率及容積率 \n⑦主要材料規範 \n③功能需求及設計標準 \n⑧預算及期程 \n④基本設計圖說 \n⑨監造計畫書 \n⑤詳細設計圖說就統包工程而言,上列何種資料必須全部包含於招標文件中:",
+    "options": [
+      "②③④⑥⑦⑨",
+      "③④⑤⑦⑧⑨",
+      "③④⑤⑥⑦⑧",
+      "①②③④⑦⑧"
+    ],
+    "sourcePdf": "assets/101-construction/questions.pdf",
+    "sourcePage": 11
+  },
+  "102-construction-14": {
+    "question": "下列何者與鋁窗之PVC 壓條老化現象有關?\n①抗拉強度 \n②伸長率 \n③吸水率 \n④硬度",
+    "options": [
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
+    ],
+    "sourcePdf": "assets/102-construction/questions.pdf",
+    "sourcePage": 2
+  },
+  "102-construction-20": {
+    "question": "有關建築物外殼構造之DPG(dot point glazing)系統,下列構法何者正確?\n①以特殊鐵具點支撐玻璃的系統 \n②玻璃採用強化玻璃 \n③支撐鐵具以迴轉鉸對應變形 \n④以耐候密封材料將玻璃埋入窗框",
+    "options": [
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
+    ],
+    "sourcePdf": "assets/102-construction/questions.pdf",
+    "sourcePage": 2
+  },
+  "102-construction-24": {
+    "question": "下列何者為帷幕牆施工,填縫材料應具備的條件?\n①施工簡便,表面乾固所需時間短,且不沾灰塵 \n②乾固後仍具橡膠般之彈性 \n③乾固後須有優良的耐候性 \n④耐用年限必須超過建築物本身的壽命",
+    "options": [
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
+    ],
+    "sourcePdf": "assets/102-construction/questions.pdf",
+    "sourcePage": 3
+  },
+  "102-construction-32": {
+    "question": "室外透水鋪面之剖面,宜採下列何種組合?\n①連通多孔質地磚層 \n②水泥砂漿層 \n③細砂層 \n④級配層",
+    "options": [
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
+    ],
+    "sourcePdf": "assets/102-construction/questions.pdf",
+    "sourcePage": 3
+  },
+  "102-construction-34": {
+    "question": "下列敘述,何者是逆打工法之特性?\n①擋土的安全性高 \n②可縮短工期 \n③能有效防止地下工程中的營建公害,如噪音及振動 \n④僅適用於地下平面形狀不規則之建築物",
+    "options": [
+      "②③④",
+      "①③④",
+      "①②④",
+      "①②③"
+    ],
+    "sourcePdf": "assets/102-construction/questions.pdf",
+    "sourcePage": 3
+  },
+  "102-construction-44": {
+    "question": "鋼筋混凝土梁預力先拉法之施工步驟為何?\n①澆置混凝土 \n②鋼鍵先施預力 \n③組合模板鋼筋隔板 \n④切斷預力鋼鍵",
+    "options": [
+      "③①②④",
+      "③②①④",
+      "③②④①",
+      "②③①④"
+    ],
+    "sourcePdf": "assets/102-construction/questions.pdf",
+    "sourcePage": 4
+  },
+  "102-construction-51": {
+    "question": "帷幕牆安裝之正確施工順序為何?\n①安裝帷幕牆、防水填縫處理 \n②放樣作業、安裝固定繫件 \n③排水處理 \n④清洗養護",
+    "options": [
+      "①②③④",
+      "②①③④",
+      "③②①④",
+      "②③①④"
+    ],
+    "sourcePdf": "assets/102-construction/questions.pdf",
+    "sourcePage": 5
+  },
+  "102-construction-57": {
+    "question": "下列何者為非破壞檢測方式?\n①超音波試驗 \n②彈性反彈錘 \n③透地雷達 \n④鑽心試驗",
+    "options": [
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
+    ],
+    "sourcePdf": "assets/102-construction/questions.pdf",
+    "sourcePage": 5
+  },
+  "102-construction-67": {
+    "question": "下列何者為建築物興建工程的直接成本?\n①假設工程費 \n②材料費 \n③機電設備費 \n④規劃、設計、 監造費",
+    "options": [
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
+    ],
+    "sourcePdf": "assets/102-construction/questions.pdf",
+    "sourcePage": 6
+  },
+  "103-construction-13": {
+    "question": "有關石材的敘述,下列何者錯誤?\n①蛇紋岩、大理石、板岩是變質岩。花崗石、安山岩是火成岩 \n②應儘量避免選擇抗壓強度小於15,000psi 之花崗石 \n③建築物外牆採用花崗石作為外飾,其最常使用的厚度為15~18mm \n④石材之暗裂係指裂縫寬度小於0.2mm,可以仿石材同色系環氧樹脂修補",
+    "options": [
+      "①④",
+      "②③",
+      "①③",
+      "③④"
+    ],
+    "sourcePdf": "assets/103-construction/questions.pdf",
+    "sourcePage": 2
+  },
+  "103-construction-15": {
+    "question": "木構造建築之防火設計,下列何者為正確?\n①梁柱構架木構材接合部位可不考慮防火時效要求 \n②梁柱構架構材可不設置防火被覆,但防火時效內燃燒之殘餘斷面需符合結構承載所需之最小斷面尺寸 \n③壁體、樓版及屋頂之主構材採防焰被覆用板材與填充材耐燃即可 \n④框組壁式系統之防火設計,防火被覆用板材接縫部分除密合要求外,接縫內側可設置足夠斷面之木材以阻擋延燒",
+    "options": [
+      "①④",
+      "③④",
+      "①③",
+      "②④"
+    ],
+    "sourcePdf": "assets/103-construction/questions.pdf",
+    "sourcePage": 3
+  },
+  "103-construction-35": {
+    "question": "有關裝修工程的敘述,下列那兩項錯誤?\n①機房採用浮動地板主要目的是吸音 \n②地下室停車場地坪採用整體粉光加金剛砂是考慮耐磨性 \n③粉刷工程所用水泥砂漿之配合比 1:3 係指水的重量為水泥重量之三倍 \n④木作舞台地坪沿牆邊留設縫隙是為了因應溫度、濕度變化造成木地板之變形",
+    "options": [
+      "①②",
+      "①③",
+      "③④",
+      "②③"
+    ],
+    "sourcePdf": "assets/103-construction/questions.pdf",
+    "sourcePage": 6
+  },
+  "103-construction-46": {
+    "question": "有關鋼構造中使用剪力釘(Shear Stud)之敘述,何者正確?\n①可讓鋼梁和混凝土樓版一體化,形成合成梁 \n②可抗剪力,因此是一種剪力連接器 \n③係使用stud 電銲機,從鋼承鈑(metal deck)上方往鋼梁的方向銲接",
+    "options": [
+      "①②③",
+      "僅①②",
+      "僅①③",
+      "僅③"
+    ],
+    "sourcePdf": "assets/103-construction/questions.pdf",
+    "sourcePage": 8
+  },
+  "103-construction-62": {
+    "question": "下列何種玻璃不是安全玻璃?\n①浮式及磨光平板玻璃(Float and Polished Plate Glasses) \n②強化玻璃(Tempered Glass) \n③熱處理增強玻璃(Heat-Strengthened Flat Glass) \n④膠合玻璃(Laminated Glass)",
+    "options": [
+      "①③",
+      "②④",
+      "①②",
+      "③④"
+    ],
+    "sourcePdf": "assets/103-construction/questions.pdf",
+    "sourcePage": 10
+  },
+  "103-construction-72": {
+    "question": "有關大規模基地規劃設計之進度,下列順序何者正確?\n①地形測量 \n②敷地計畫 \n③細部設計 \n④基本設計",
+    "options": [
+      "①④②③",
+      "①②④③",
+      "②①④③",
+      "②④①③"
+    ],
+    "sourcePdf": "assets/103-construction/questions.pdf",
+    "sourcePage": 11
+  },
+  "103-construction-75": {
+    "question": "下列有關設計施工圖(working drawing)及製作施工圖(shop drawing)之敘述,何者正確?\n①設計施工圖由建築師繪製 \n②製作施工圖由承包商繪製 \n③設計施工圖多半不指定建材廠牌,而製作施工圖則須註明建材廠牌、型號及作法 \n④為求貫徹設計意圖,製作施工圖亦可由建築師代為繪製",
+    "options": [
+      "①②③④",
+      "僅②③④",
+      "僅①③④",
+      "僅①②③"
+    ],
+    "sourcePdf": "assets/103-construction/questions.pdf",
+    "sourcePage": 12
+  },
+  "104-construction-27": {
+    "question": "以實木板條作為臥室地板工程,下列材料正確的施工順序為何?\n①木夾板 \n①木角料 \n①實木板條 \n①防潮布",
+    "options": [
+      "①①①①",
+      "①①①①",
+      "①①①①",
+      "①①①①"
+    ],
+    "sourcePdf": "assets/104-construction/questions.pdf",
+    "sourcePage": 5
+  },
+  "104-construction-41": {
+    "question": "有關填縫材之設計與施工,下列敘述何者錯誤?\n①防水填縫材於施工面受潮時仍可施作 \n①填縫時伸縮縫應處於正常的狀況下,避免於收縮或膨脹時施工 \n①除施工說明書或圖樣有更嚴格的規定,其餘均依照使用廠牌之技術資料施工 \n①填縫劑之深度通常大於寬度",
+    "options": [
+      "①①",
+      "①①",
+      "①①",
+      "①①"
+    ],
+    "sourcePdf": "assets/104-construction/questions.pdf",
+    "sourcePage": 6
+  },
+  "104-construction-61": {
+    "question": "下列何者為預貼面磚預鑄混凝土牆版之正確製作順序?\n①鋼筋加工組立、預埋件埋設 \n①組模、面磚舖設 \n①工廠養護、脫模 \n①混凝土澆置、整平",
+    "options": [
+      "①①①①",
+      "①①①①",
+      "①①①①",
+      "①①①①"
+    ],
+    "sourcePdf": "assets/104-construction/questions.pdf",
+    "sourcePage": 10
+  },
+  "104-construction-73": {
+    "question": "有關蛇籠(gabions)之敘述，下列何者正確？\n①原為基地工程擋土牆及水域堤岸的工法\n②建築師用於建築外殼時，可作為隔熱或防止眩光\n③屬於堆疊的方式，是重力的表現\n④金屬格網內亦可填充打碎之廢混凝土，因此可歸屬綠建材工法",
+    "options": [
+      "①②③④",
+      "僅①②③",
+      "僅②③④",
+      "僅①②④"
+    ],
+    "sourcePdf": "assets/104-construction/questions.pdf",
+    "sourcePage": 12
+  },
+  "105-construction-34": {
+    "question": "下列水平走向的建築水電管線:\n①強電 \n②給水 \n③排水 \n④污水,自上到下的排列順序何者正確?",
+    "options": [
+      "①②③②",
+      "①③②②",
+      "②③②①",
+      "②①③②"
+    ],
+    "sourcePdf": "assets/105-construction/questions.pdf",
+    "sourcePage": 5
+  },
+  "105-construction-70": {
+    "question": "下列何者是合理的工作程序?\n①開挖 \n②施打鋼板樁 \n③裝設傾斜儀 \n④抽排水",
+    "options": [
+      "③②①②",
+      "③②①②",
+      "①②②③",
+      "③①②②"
+    ],
+    "sourcePdf": "assets/105-construction/questions.pdf",
+    "sourcePage": 10
+  },
+  "105-construction-71": {
+    "question": "公共工程之工程結案程序,下列何者正確?\n①驗收 \n②結算 \n③申報竣工 \n④監造查驗",
+    "options": [
+      "③②①②",
+      "②①②③",
+      "③②②①",
+      "①②③②"
+    ],
+    "sourcePdf": "assets/105-construction/questions.pdf",
+    "sourcePage": 10
+  },
+  "105-construction-72": {
+    "question": "公共工程的營建發包合約包含下列那些內容?\n①工程項目詳細表 \n②單價分析 \n③包商利潤管理費 \n④建築師專業保險費",
+    "options": [
+      "①②③",
+      "②③②",
+      "①③②",
+      "①②②"
+    ],
+    "sourcePdf": "assets/105-construction/questions.pdf",
+    "sourcePage": 10
+  },
+  "105-construction-78": {
+    "question": "下列建築管理作業,何者需由起造人會同申請,或於申請書中簽章?\n①建造執照申請 \n②申請開工備查 \n③申報勘驗 \n④申請使用執照",
+    "options": [
+      "③",
+      "①③",
+      "②③④",
+      "①②④"
+    ],
+    "sourcePdf": "assets/105-construction/questions.pdf",
+    "sourcePage": 10
+  },
+  "106-construction-16": {
+    "question": "有關混凝土材料在構法上的應用,下列敘述何者正確?\n①原本是澆鑄性的材料 \n②當製成預製混凝土構件使用時,即成為組裝性的材料 \n③當製作混凝土磚使用時,即成為砌築性的材料",
+    "options": [
+      "①②③",
+      "僅②③",
+      "僅①②",
+      "僅①③"
+    ],
+    "sourcePdf": "assets/106-construction/questions.pdf",
+    "sourcePage": 2
+  },
+  "106-construction-22": {
+    "question": "有關防火門之設計,下列敘述何者錯誤?\n①防火門之門扇寬度應在75 公分以上 \n②為建築物安全維護,防火門於火災發生時應需用鑰匙方可開啟 \n③常閉式防火門應裝設經開啟後可自行關閉之裝置 \n④常開式防火門應於火災發生時保持開啟",
+    "options": [
+      "①②",
+      "③④",
+      "①③",
+      "②④"
+    ],
+    "sourcePdf": "assets/106-construction/questions.pdf",
+    "sourcePage": 2
+  },
+  "106-construction-35": {
+    "question": "陽台使用玻璃欄杆時,下列何者正確?\n①使用強化玻璃,先裁切後強化 \n②使用強化玻璃,先強化後裁切 \n③使用膠合玻璃 \n④使用一般有色玻璃",
+    "options": [
+      "①③",
+      "①④",
+      "②③",
+      "②④"
+    ],
+    "sourcePdf": "assets/106-construction/questions.pdf",
+    "sourcePage": 4
+  },
+  "106-construction-49": {
+    "question": "下列何種玻璃因成品製成後不能再予切割,所以須訂製?\n①浮式及磨光平板玻璃 \n②強化玻璃 \n③ 雙層玻璃 \n④膠合玻璃",
+    "options": [
+      "①②",
+      "①④",
+      "②③",
+      "③④"
+    ],
+    "sourcePdf": "assets/106-construction/questions.pdf",
+    "sourcePage": 5
+  },
+  "106-construction-57": {
+    "question": "建築物樓版伸縮縫,主要考慮下列何種性能?\n①變形對應性 \n②防水性 \n③耐火性 \n④隔熱性",
+    "options": [
+      "①②③",
+      "②③④",
+      "①③④",
+      "①②④"
+    ],
+    "sourcePdf": "assets/106-construction/questions.pdf",
+    "sourcePage": 6
+  },
+  "106-construction-62": {
+    "question": "有關PC 耐力板(polycarbonate plate)(聚碳酸酯板)的敍述,下列何者正確?\n①與玻璃相較,硬度高,不易刮傷,但容易老化 \n②常做成中空板,隔熱性佳 \n③透光性及透明性皆較玻璃為佳",
+    "options": [
+      "僅②③",
+      "僅①③",
+      "僅①②",
+      "①②③"
+    ],
+    "sourcePdf": "assets/106-construction/questions.pdf",
+    "sourcePage": 7
+  },
+  "106-construction-71": {
+    "question": "建築物在施工中,主管機關認有必要時,得隨時勘驗,勘驗結果有下列何者狀況時,應以書面通知承造人或起造人或監造人,勒令停工或修改?\n①危害公共安全 \n②妨礙公共交通 \n③妨礙公共衛生 \n④妨礙都市景觀",
+    "options": [
+      "②③④",
+      "①②③",
+      "①②④",
+      "①③④"
+    ],
+    "sourcePdf": "assets/106-construction/questions.pdf",
+    "sourcePage": 8
+  },
+  "106-construction-74": {
+    "question": "依公有建築物施工階段契約約定權責分工表之內容,工程竣工圖說作業下列何者錯誤?\n①工程竣工圖說之繪製應由設計人辦理 \n②工程竣工圖說之審查應由監造人辦理 \n③工程竣工圖說之審查應由設計人及監造人共同辦理 \n④工程竣工圖說之審查應由業主核定",
+    "options": [
+      "②④",
+      "①②",
+      "①③",
+      "③④"
+    ],
+    "sourcePdf": "assets/106-construction/questions.pdf",
+    "sourcePage": 8
+  },
+  "106-construction-76": {
+    "question": "含高碳之鋼筋較適合之續接方式為何?\n①搭接 \n②瓦斯壓接 \n③銲接 \n④續接器",
+    "options": [
+      "①②",
+      "②③",
+      "③④",
+      "①④"
+    ],
+    "sourcePdf": "assets/106-construction/questions.pdf",
+    "sourcePage": 8
+  },
+  "106-construction-77": {
+    "question": "下列建築管理作業,何者需由設計人會同申請,或於申請書中簽章?\n①建造執照申請 \n②申請開工備查 \n③申報勘驗 \n④申請使用執照",
+    "options": [
+      "僅①",
+      "僅①②",
+      "僅①②③",
+      "①②③④"
+    ],
+    "sourcePdf": "assets/106-construction/questions.pdf",
+    "sourcePage": 8
+  },
+  "106-construction-78": {
+    "question": "下列事項的辦理順序,何者正確?\n①申辦電信設計許可 \n②申辦都市設計審議許可 \n③申辦地目變更 \n④建築執照許可審查",
+    "options": [
+      "③②④①",
+      "①③②④",
+      "④②①③",
+      "③④①②"
+    ],
+    "sourcePdf": "assets/106-construction/questions.pdf",
+    "sourcePage": 8
+  },
+  "107-construction-01": {
+    "question": "RC 平屋頂採複合式防水材兩底三度塗佈膜厚 3 mm 以上作防水,並以 PS 隔熱板隔熱時,下列構造排列由下至上何者正確?\n①結構混凝土 \n②複合式防水材 \n③6 cm 厚 3000 PSI PC \n④塑木地板 \n⑤PS隔熱板",
+    "options": [
+      "①②③④⑤",
+      "①⑤②③④",
+      "①②③⑤④",
+      "①②⑤③④"
+    ],
+    "sourcePdf": "assets/107-construction/questions.pdf",
+    "sourcePage": 1
+  },
+  "107-construction-18": {
+    "question": "下列何者為以連續壁作為擋土設施的地下室逆打工法,由先而後之施工順序,下列何者正確?\n①連續壁擋土設施構築 \n②抽排水及開挖棄土 \n③梁版及逆打柱頭工程 \n④基樁及逆打鋼柱插放 \n⑤二次牆柱及無收縮水泥砂漿灌注工程",
+    "options": [
+      "①④②③⑤",
+      "①②③④⑤",
+      "②①④③⑤",
+      "④②①⑤③"
+    ],
+    "sourcePdf": "assets/107-construction/questions.pdf",
+    "sourcePage": 3
+  },
+  "107-construction-24": {
+    "question": "窗戶是RC 建築最常見漏水的地方,其漏水的關鍵原因可能為何?\n①塞水路不確實 \n②窗角剪力裂縫 \n③粉刷不確實 \n④止水帶施作失敗",
+    "options": [
+      "①②",
+      "③④",
+      "①③",
+      "①④"
+    ],
+    "sourcePdf": "assets/107-construction/questions.pdf",
+    "sourcePage": 3
+  },
+  "107-construction-28": {
+    "question": "有關薄層綠屋頂的結構由上而下排序,下列何者正確?\n①植栽層 \n②介質層 \n③排(蓄)水層 \n④過濾層 \n⑤防水層 \n⑥阻根層 \n⑦樓板",
+    "options": [
+      "①②③④⑤⑥⑦",
+      "①②④⑤⑥③⑦",
+      "①②④③⑥⑤⑦",
+      "①②③④⑥⑤⑦"
+    ],
+    "sourcePdf": "assets/107-construction/questions.pdf",
+    "sourcePage": 4
+  },
+  "107-construction-48": {
+    "question": "RC 外牆的窗邊經常滲水,較有可能的原因是:\n①窗太大 \n②RC 外牆厚度不足 \n③窗框料件太小 \n④窗框與RC 牆間填塞不實 \n⑤RC 牆開口與窗框尺寸間距太大",
+    "options": [
+      "①②",
+      "②③",
+      "③④",
+      "④⑤"
+    ],
+    "sourcePdf": "assets/107-construction/questions.pdf",
+    "sourcePage": 6
+  },
+  "108-construction-32": {
+    "question": "有關室內砌紅磚牆之裝修工程,下列敘述那些錯誤?\n①紅磚砌築施工前應避免溼潤以免影響水泥砂漿之固化凝結功能 \n②1B 磚牆高度超過 3 公尺時應加設補強梁柱 \n③下層砌磚高度達 1.5 公尺高度時應予暫停,剩餘次日再砌 \n④磚牆轉角處,應以相交錯開方式(交丁)砌疊",
+    "options": [
+      "①②",
+      "①④",
+      "②③",
+      "③④"
+    ],
+    "sourcePdf": "assets/108-construction/questions.pdf",
+    "sourcePage": 4
+  },
+  "108-construction-33": {
+    "question": "有關牆面鋪貼磁磚之裝修工程,下列敘述那些較正確?\n①塗抹黏著劑時,以水紋狀塗抹較佳 \n②內牆磁磚鋪貼後應立即以溼海綿擦拭並進行抹縫作業 \n③外牆磁磚可透過雷射水平儀調整施工區塊內磁磚之水平及垂直度 \n④勾縫作業較適合磚片厚度大、接縫間隙較寬處",
+    "options": [
+      "①②",
+      "②③",
+      "①④",
+      "③④"
+    ],
+    "sourcePdf": "assets/108-construction/questions.pdf",
+    "sourcePage": 4
+  },
+  "109-construction-26": {
+    "question": "下列何者屬於鋼結構銲道「非破壞檢測法」?\n①鋼結構銲道磁粒檢測法 \n②鋼結構銲道超音波檢測法 \n③鋼結構銲道液滲檢測法 \n④鋼結構銲道目視檢測法",
+    "options": [
+      "僅①④",
+      "僅①②④",
+      "僅④",
+      "①②③④"
+    ],
+    "sourcePdf": "assets/109-construction/questions.pdf",
+    "sourcePage": 4
+  },
+  "109-construction-54": {
+    "question": "依據木構造建築物設計及施工技術規範規定,下列何者為木構件之接合扣件?\n①釘 \n②鳳尾釘 \n③木螺絲釘 \n④螺栓 \n⑤膨脹螺栓 \n⑥突端螺栓 \n⑦穿孔釘",
+    "options": [
+      "①②④⑤⑥",
+      "①③④⑥⑦",
+      "①②③⑥⑦",
+      "①③⑤⑥⑦"
+    ],
+    "sourcePdf": "assets/109-construction/questions.pdf",
+    "sourcePage": 8
+  },
+  "109-construction-66": {
+    "question": "下列工作之先後程序何者正確?\n①申報竣工 \n②消防安全檢查 \n③拆鷹架 \n④完成外牆磁磚",
+    "options": [
+      "④②①③",
+      "④③②①",
+      "④①②③",
+      "④③①②"
+    ],
+    "sourcePdf": "assets/109-construction/questions.pdf",
+    "sourcePage": 9
+  },
+  "109-construction-67": {
+    "question": "工地經常出問題,下列那一項不是建築師的設計責任?\n①RC 牆開口施工尺寸太小,窗戶安裝有問題 \n②模板支撐不足,產生爆漿 \n③不同工項施工順序錯亂,影響工期 \n④廁所地坪洩水坡度不足,與施工圖不符,地面排水不良 \n⑤隔間牆施作位置有誤差,固定設備無法安裝",
+    "options": [
+      "僅①②③",
+      "僅①②③⑤",
+      "①②③④⑤",
+      "僅②③④"
+    ],
+    "sourcePdf": "assets/109-construction/questions.pdf",
+    "sourcePage": 9
+  },
+  "109-construction-74": {
+    "question": "若工程未達查核金額以上,可視個案需要調整、縮減施工計畫書內容。下列那些為至少必要涵蓋之內容?\n①開工前置作業 \n②施工作業管理 \n③進度管理 \n④假設工程計畫 \n⑤勞工安全衛生管理計畫",
+    "options": [
+      "①②③",
+      "①③⑤",
+      "②③⑤",
+      "②④⑤"
+    ],
+    "sourcePdf": "assets/109-construction/questions.pdf",
+    "sourcePage": 10
+  },
+  "110-construction-05": {
+    "question": "某建築師欲以六種吸水率不同的陶瓷面磚,選用於某河濱公園設計案的戶外地坪。若以 CNS 9737 「陶瓷面磚」對於吸水率的區分規定,下列組合中何者全部屬於 II 類?\n①吸水率 14% \n②吸水率 5% \n③吸水率18% \n④吸水率12% \n⑤吸水率2% \n⑥吸水率7%",
+    "options": [
+      "④⑥",
+      "①③",
+      "②⑥",
+      "②⑤"
+    ],
+    "sourcePdf": "assets/110-construction/questions.pdf",
+    "sourcePage": 1
+  },
+  "110-construction-17": {
+    "question": "MHL 工法的地下連續壁其施工順序為何?\n①澆置混凝土 \n②以挖掘斗挖掘壁溝 \n③設置導牆與導溝 \n④吊放鋼筋籠",
+    "options": [
+      "③②①④",
+      "②④③①",
+      "②③①④",
+      "③②④①"
+    ],
+    "sourcePdf": "assets/110-construction/questions.pdf",
+    "sourcePage": 3
+  },
+  "110-construction-32": {
+    "question": "某建築師接受業主委託,執行企業總部大樓地上第十八層的招待所之室內設計,而所選用的各種室內材料如\n①~\n⑦所示, \n①設置於舞台,提供簡報或發表用之投影布幕 \n②鋪設於出入口,面積1.5 平方公尺的門墊地毯 \n③垂掛於室內,展示企業形象的廣告合板 \n④放置於展示區的絨布製企業吉祥物,高1.1 公尺 \n⑤安裝於窗邊的布製橫葉式百葉窗簾 \n⑥供來賓使用之真皮沙發與吧台區的布製椅墊高腳椅 \n⑦鋪設於室內造景區之人工草皮,面積8 平方公尺若依據消防法施行細則所訂定之「防焰性能認證實施要點」,下列何者組合均不屬於被規範的室內防焰物品?",
+    "options": [
+      "①②③",
+      "④⑤⑦",
+      "①③⑥",
+      "②④⑥"
+    ],
+    "sourcePdf": "assets/110-construction/questions.pdf",
+    "sourcePage": 4
+  },
+  "110-construction-40": {
+    "question": "一般集合住宅採用預鑄混凝土工法時,其施工順序何者較為合理?(以其中一層標準層的作法為例) \n①梁柱接頭封模 \n②梁與版構件吊裝 \n③柱接頭無收縮水泥灌注 \n④澆置混凝土 \n⑤柱構件吊裝",
+    "options": [
+      "⑤②①④③",
+      "⑤①②④③",
+      "⑤①②③④",
+      "⑤③②①④"
+    ],
+    "sourcePdf": "assets/110-construction/questions.pdf",
+    "sourcePage": 5
+  },
+  "110-construction-78": {
+    "question": "下列何者為計畫評核術(P.E.R.T.)與要徑分析(C.P.M.)之共同點?\n①尋求要徑觀念 \n②尋求最佳工期 \n③合理資源分配 \n④顯示各作業相互關係 \n⑤調整成本費用",
+    "options": [
+      "①②④",
+      "②④⑤",
+      "①③④",
+      "③④⑤"
+    ],
+    "sourcePdf": "assets/110-construction/questions.pdf",
+    "sourcePage": 10
+  },
+  "111-construction-13": {
+    "question": "常見運用在鋼材料防鏽的材料有那些?\n①熱浸鍍鋅 \n②鋅粉漆 \n③粉底烤漆 \n④氟碳烤漆",
+    "options": [
+      "僅①②③",
+      "僅②④",
+      "僅③④",
+      "①②③④"
+    ],
+    "sourcePdf": "assets/111-construction/questions.pdf",
+    "sourcePage": 2
+  },
+  "111-construction-14": {
+    "question": "木材經乾燥處理後,其功能可以:\n①呈現木紋增加美觀 \n②增加木材結構強度 \n③防止真菌生長 \n④減少白蟻攻擊",
+    "options": [
+      "僅①②③",
+      "僅①②④",
+      "僅③④",
+      "僅②③④"
+    ],
+    "sourcePdf": "assets/111-construction/questions.pdf",
+    "sourcePage": 2
+  },
+  "111-construction-21": {
+    "question": "下列四種土質之建築基礎工程承載力,依「最佳、好、一般、不可取」之排序為何?\n①砂和礫石 \n②普通黏土與重黏土 \n③有機淤泥和黏土 \n④淤泥和軟黏土",
+    "options": [
+      "①②③④",
+      "②①③④",
+      "①②④③",
+      "②④③①"
+    ],
+    "sourcePdf": "assets/111-construction/questions.pdf",
+    "sourcePage": 3
+  },
+  "111-construction-23": {
+    "question": "有關鋼構銲接完成後必須進行銲道的非破壞性檢驗,不包含下列那些?\n①超音波檢驗法 \n②全銲道拉伸試驗法 \n③目視檢驗法 \n④螢光檢驗法 \n⑤放射線檢驗法",
+    "options": [
+      "②③",
+      "①⑤",
+      "②④",
+      "③④"
+    ],
+    "sourcePdf": "assets/111-construction/questions.pdf",
+    "sourcePage": 3
+  },
+  "111-construction-44": {
+    "question": "清水砌磚工法中勾縫之目的為何?\n①黏著 \n②防水 \n③美觀 \n④抑制白華",
+    "options": [
+      "①③",
+      "②④",
+      "③④",
+      "②③"
+    ],
+    "sourcePdf": "assets/111-construction/questions.pdf",
+    "sourcePage": 5
+  },
+  "111-construction-68": {
+    "question": "下列那幾種管線適合配置在同一管道間中?\n①強電 \n②給水 \n③排水 \n④消防 \n⑤弱電",
+    "options": [
+      "①②③",
+      "①④⑤",
+      "①③④",
+      "②③④"
+    ],
+    "sourcePdf": "assets/111-construction/questions.pdf",
+    "sourcePage": 8
+  },
+  "111-construction-71": {
+    "question": "室內裝修工程常見之分間牆資材,若依碳足跡標準由高至低排列,下列何者正確?\n①10 公分石膏版輕隔間 \n②1/2 B 磚雙面粉光 \n③8 公分玻璃磚隔間 \n④雙面水泥粉刷之空心磚牆",
+    "options": [
+      "②③①④",
+      "③②④①",
+      "④③②①",
+      "②④③①"
+    ],
+    "sourcePdf": "assets/111-construction/questions.pdf",
+    "sourcePage": 8
+  },
+  "112-construction-55": {
+    "question": "鋼筋混凝土造的古蹟或歷史建築,在修復上會運用碳纖維包覆補強的工法。其施工過程所使用的機械設備,下列何者之組合項目是通常都會用到的?\n①挖土機 \n②電動磨石機 \n③毛刷滾輪 \n④千斤頂 \n⑤砂輪機 \n⑥高壓空氣槍 \n⑦切割機 \n⑧噴霧器 \n⑨手提電動攪拌機",
+    "options": [
+      "①②③",
+      "③④⑤",
+      "⑤⑥⑦",
+      "⑦⑧⑨"
+    ],
+    "sourcePdf": "assets/112-construction/questions.pdf",
+    "sourcePage": 7
+  },
+  "113-construction-41": {
+    "question": "一般鋼構造房屋工地現場的施工順序,何者正確?\n①樑構件吊裝 \n②銲接鎖固 \n③基礎螺栓埋設 \n④柱構件吊裝 \n⑤高拉力螺栓鎖固",
+    "options": [
+      "④①②⑤③",
+      "③④①⑤②",
+      "③⑤④①②",
+      "④①③⑤②"
+    ],
+    "sourcePdf": "assets/113-construction/questions.pdf",
+    "sourcePage": 5
+  },
+  "113-construction-79": {
+    "question": "下列何者屬於公共工程工程管理費之範疇?\n①建築證照費 \n②公共藝術執行費用 \n③仲裁費用 \n④評選作業費 \n⑤設計監造費",
+    "options": [
+      "①②③",
+      "②③④",
+      "③④⑤",
+      "①③④"
+    ],
+    "sourcePdf": "assets/113-construction/questions.pdf",
+    "sourcePage": 12
+  },
+  "114-construction-20": {
+    "question": "場鑄樁之施工,在完成裝設抓斗於樁心後,尚包含下列步驟,其施工順序何者正確?\n①清除底部淤泥 \n②鑽挖,穩定液隨著鑽挖深度注入鑽口 \n③吊放鋼筋籠 \n④套管埋設 \n⑤拔除套管 \n⑥放置特密管澆置混凝土",
+    "options": [
+      "②④①③⑥⑤",
+      "④②①⑤③⑥",
+      "②③④⑥⑤①",
+      "①②④③⑤⑥"
+    ],
+    "sourcePdf": "assets/114-construction/questions.pdf",
+    "sourcePage": 3
+  },
+  "114-construction-66": {
+    "question": "屋頂綠化之施作包含下列六項重點:\n①阻根層 \n②介質層 \n③排水 \n④過濾層 \n⑤防水層 \n⑥植栽層,有關屋頂構造由上而下排序,下列何者正確?",
+    "options": [
+      "⑥②⑤④③①",
+      "⑥②④③①⑤",
+      "⑥②③④⑤①",
+      "⑥②①④③⑤"
+    ],
+    "sourcePdf": "assets/114-construction/questions.pdf",
+    "sourcePage": 11
   }
 }

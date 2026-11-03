@@ -2146,12 +2146,12 @@
     "year": 109,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "依據綠建材設計技術規範,下列那些標章的產品得列入綠建材使用率之計算?",
+    "question": "依據綠建材設計技術規範,下列那些標章的產品得列入綠建材使用率之計算?\n①綠建材標章 \n②環保標章 \n③節能標章 \n④省水標章",
     "options": [
-      "僅12",
-      "僅123",
-      "僅134",
-      "1234"
+      "僅①②",
+      "僅①②③",
+      "僅①③④",
+      "①②③④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -2182,7 +2182,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "109-environment-38",

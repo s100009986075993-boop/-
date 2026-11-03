@@ -532,12 +532,12 @@
     "year": 103,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關石材的敘述,下列何者錯誤?",
+    "question": "有關石材的敘述,下列何者錯誤?\n①蛇紋岩、大理石、板岩是變質岩。花崗石、安山岩是火成岩 \n②應儘量避免選擇抗壓強度小於15,000psi 之花崗石 \n③建築物外牆採用花崗石作為外飾,其最常使用的厚度為15~18mm \n④石材之暗裂係指裂縫寬度小於0.2mm,可以仿石材同色系環氧樹脂修補",
     "options": [
-      "14",
-      "23",
-      "13",
-      "34"
+      "①④",
+      "②③",
+      "①③",
+      "③④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -568,7 +568,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-14",
@@ -630,12 +631,12 @@
     "year": 103,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "木構造建築之防火設計,下列何者為正確?",
+    "question": "木構造建築之防火設計,下列何者為正確?\n①梁柱構架木構材接合部位可不考慮防火時效要求 \n②梁柱構架構材可不設置防火被覆,但防火時效內燃燒之殘餘斷面需符合結構承載所需之最小斷面尺寸 \n③壁體、樓版及屋頂之主構材採防焰被覆用板材與填充材耐燃即可 \n④框組壁式系統之防火設計,防火被覆用板材接縫部分除密合要求外,接縫內側可設置足夠斷面之木材以阻擋延燒",
     "options": [
-      "14",
-      "34",
-      "13",
-      "24"
+      "①④",
+      "③④",
+      "①③",
+      "②④"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -666,7 +667,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-16",
@@ -847,10 +849,10 @@
     "chapter": "未分類（待章節核對）",
     "question": "下列何者是帷幕牆?",
     "options": [
-      "僅45",
-      "僅4",
-      "僅123",
-      "12345"
+      "僅④⑤",
+      "僅④",
+      "僅①②③",
+      "①②③④⑤"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -887,7 +889,8 @@
       "method": "PDF character geometry",
       "page": 3,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-21",
@@ -982,10 +985,10 @@
     "chapter": "未分類（待章節核對）",
     "question": "RC 柱主筋續接時,下列何者為適當接合點範圍?",
     "options": [
-      "12",
-      "34",
-      "23",
-      "14"
+      "①②",
+      "③④",
+      "②③",
+      "①④"
     ],
     "answer": 2,
     "acceptedAnswers": [
@@ -1022,7 +1025,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-24",
@@ -1508,12 +1512,12 @@
     "year": 103,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關裝修工程的敘述,下列那兩項錯誤?",
+    "question": "有關裝修工程的敘述,下列那兩項錯誤?\n①機房採用浮動地板主要目的是吸音 \n②地下室停車場地坪採用整體粉光加金剛砂是考慮耐磨性 \n③粉刷工程所用水泥砂漿之配合比 1:3 係指水的重量為水泥重量之三倍 \n④木作舞台地坪沿牆邊留設縫隙是為了因應溫度、濕度變化造成木地板之變形",
     "options": [
-      "12",
-      "13",
-      "34",
-      "23"
+      "①②",
+      "①③",
+      "③④",
+      "②③"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -1544,7 +1548,8 @@
       "method": "PDF character geometry",
       "page": 6,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-36",
@@ -1964,10 +1969,10 @@
     "chapter": "未分類（待章節核對）",
     "question": "下列樓梯平面,以安全與扶手平順的考量,何者較佳?",
     "options": [
-      "14",
-      "23",
-      "24",
-      "13"
+      "①④",
+      "②③",
+      "②④",
+      "①③"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -2004,19 +2009,20 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-46",
     "year": 103,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關鋼構造中使用剪力釘(Shear Stud)之敘述,何者正確?",
+    "question": "有關鋼構造中使用剪力釘(Shear Stud)之敘述,何者正確?\n①可讓鋼梁和混凝土樓版一體化,形成合成梁 \n②可抗剪力,因此是一種剪力連接器 \n③係使用stud 電銲機,從鋼承鈑(metal deck)上方往鋼梁的方向銲接",
     "options": [
-      "123",
-      "僅12",
-      "僅13",
-      "僅3"
+      "①②③",
+      "僅①②",
+      "僅①③",
+      "僅③"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -2047,7 +2053,8 @@
       "method": "PDF character geometry",
       "page": 8,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-47",
@@ -2739,12 +2746,12 @@
     "year": 103,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列何種玻璃不是安全玻璃?",
+    "question": "下列何種玻璃不是安全玻璃?\n①浮式及磨光平板玻璃(Float and Polished Plate Glasses) \n②強化玻璃(Tempered Glass) \n③熱處理增強玻璃(Heat-Strengthened Flat Glass) \n④膠合玻璃(Laminated Glass)",
     "options": [
-      "13",
-      "24",
-      "12",
-      "34"
+      "①③",
+      "②④",
+      "①②",
+      "③④"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -2775,7 +2782,8 @@
       "method": "PDF character geometry",
       "page": 10,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-63",
@@ -3200,12 +3208,12 @@
     "year": 103,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "有關大規模基地規劃設計之進度,下列順序何者正確?",
+    "question": "有關大規模基地規劃設計之進度,下列順序何者正確?\n①地形測量 \n②敷地計畫 \n③細部設計 \n④基本設計",
     "options": [
-      "1423",
-      "1243",
-      "2143",
-      "2413"
+      "①④②③",
+      "①②④③",
+      "②①④③",
+      "②④①③"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -3236,7 +3244,8 @@
       "method": "PDF character geometry",
       "page": 11,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-73",
@@ -3329,12 +3338,12 @@
     "year": 103,
     "subject": "建築構造與施工",
     "chapter": "未分類（待章節核對）",
-    "question": "下列有關設計施工圖(working drawing)及製作施工圖(shop drawing)之敘述,何者正確?",
+    "question": "下列有關設計施工圖(working drawing)及製作施工圖(shop drawing)之敘述,何者正確?\n①設計施工圖由建築師繪製 \n②製作施工圖由承包商繪製 \n③設計施工圖多半不指定建材廠牌,而製作施工圖則須註明建材廠牌、型號及作法 \n④為求貫徹設計意圖,製作施工圖亦可由建築師代為繪製",
     "options": [
-      "1234",
-      "僅234",
-      "僅134",
-      "僅123"
+      "①②③④",
+      "僅②③④",
+      "僅①③④",
+      "僅①②③"
     ],
     "answer": 3,
     "acceptedAnswers": [
@@ -3365,7 +3374,8 @@
       "method": "PDF character geometry",
       "page": 12,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "103-construction-76",

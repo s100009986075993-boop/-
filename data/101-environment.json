@@ -2114,12 +2114,12 @@
     "year": 101,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "一般在空調設備系統中,耗能最大與最小的部分各為何?",
+    "question": "一般在空調設備系統中,耗能最大與最小的部分各為何?\n①冰水主機 \n②冰水泵浦 \n③冷卻水塔 \n④空調箱",
     "options": [
-      "12",
-      "13",
-      "14",
-      "23"
+      "①②",
+      "①③",
+      "①④",
+      "②③"
     ],
     "answer": 1,
     "acceptedAnswers": [
@@ -2150,7 +2150,8 @@
       "method": "PDF character geometry",
       "page": 4,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "101-environment-40",

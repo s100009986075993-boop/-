@@ -489,12 +489,12 @@
     "year": 112,
     "subject": "建築環境控制",
     "chapter": "未分類（待章節核對）",
-    "question": "室內空間有眩光問題產生時,下列那些手法較可能減緩眩光的程度?",
+    "question": "室內空間有眩光問題產生時,下列那些手法較可能減緩眩光的程度?\n①減少燈具的數量 \n②調整燈具的位置 \n③提高燈具光源的演色性",
     "options": [
-      "12",
-      "23",
-      "13",
-      "123"
+      "①②",
+      "②③",
+      "①③",
+      "①②③"
     ],
     "answer": 0,
     "acceptedAnswers": [
@@ -525,7 +525,8 @@
       "method": "PDF character geometry",
       "page": 2,
       "review": "原文轉錄；公式與圖表請對照附圖"
-    }
+    },
+    "manualTranscription": true
   },
   {
     "id": "112-environment-13",
