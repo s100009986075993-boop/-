@@ -31,5 +31,16 @@ function buildRoomInvite(apiBase, code, release, nonce) {
   url.hash = "room=" + code;
   return url.href;
 }
+function parseRoomCode(value) {
+  if (typeof value !== "string") return "";
+  const text = value.trim().normalize("NFKC").toUpperCase();
+  if (/^[A-Z2-9]{6}$/.test(text)) return text;
+  try {
+    const url = new URL(value.trim());
+    return /^#room=([A-Z2-9]{6})$/i.exec(url.hash)?.[1]?.toUpperCase() || "";
+  } catch {
+    return "";
+  }
+}
 if (typeof module !== "undefined")
-  module.exports = { resolveRoomApi, buildRoomInvite };
+  module.exports = { resolveRoomApi, buildRoomInvite, parseRoomCode };
