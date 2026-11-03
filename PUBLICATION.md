@@ -43,3 +43,5 @@ trial progress. The public site retains the existing incomplete-feature labels.
 ## Multiplayer service
 
 GitHub Pages serves only the room client, not the Node backend. The room client now targets the owner-provided `https://architect-study-rooms.onrender.com` service. The cloud environment blocks this hostname at the proxy CONNECT step, so direct remote health and end-to-end checks remain unverified here. Local two-client validation passed. Publish root `rooms.js` and `rooms-config.js` with the other browser assets; never publish server tokens or credentials. Render setup, current in-memory storage limitations and two-client readiness checks are documented in `MULTIPLAYER.md`. A Pages deployment alone does not enable multiplayer.
+
+Room invitations now use the room service origin and a versioned unique URL. HTML includes a public endpoint fallback for a missing or stale configuration script. Keep `meta[name="rooms-api-base"]` and `rooms-config.js` in sync when changing endpoints; use `enabled: false` to explicitly disable multiplayer. `#rooms` opens the room workspace directly.

@@ -24,7 +24,48 @@ const assert = require("node:assert/strict");
     const code = await a.evaluate(
       () => JSON.parse(sessionStorage.getItem("architect-room-session")).code,
     );
-    await b.goto(base + "/#room=" + code);
+    await a.evaluate(() =>
+      Object.defineProperty(navigator, "clipboard", {
+        configurable: true,
+        value: {
+          writeText: async (value) => {
+            window.testRoomInvite = value;
+          },
+        },
+      }),
+    );
+    await a.getByRole("button", { name: "複製邀請", exact: true }).click();
+    const invitation = await a.evaluate(() => window.testRoomInvite);
+    const parsedInvite = new URL(invitation);
+    assert.equal(parsedInvite.origin, new URL(base).origin);
+    assert.ok(parsedInvite.searchParams.get("v"));
+    assert.ok(parsedInvite.searchParams.get("invite"));
+    assert.equal(parsedInvite.hash, "#room=" + code);
+    assert.ok(!invitation.includes("token"));
+    await a.evaluate(() =>
+      Object.defineProperty(navigator, "clipboard", {
+        configurable: true,
+        value: {
+          writeText: async () => {
+            throw Error("Clipboard unavailable");
+          },
+        },
+      }),
+    );
+    await a.getByRole("button", { name: "複製邀請", exact: true }).click();
+    assert.equal(await a.locator(".room-share").getAttribute("open"), "");
+    assert.equal(await a.getByLabel("房間邀請網址").inputValue(), invitation);
+    await b.addInitScript(() => {
+      Object.defineProperty(AbortSignal, "timeout", {
+        configurable: true,
+        value: undefined,
+      });
+      Object.defineProperty(crypto, "randomUUID", {
+        configurable: true,
+        value: undefined,
+      });
+    });
+    await b.goto(invitation);
     assert.equal(await b.locator("#room-code").inputValue(), code);
     await b.locator("#room-name").fill("勇者乙");
     await b.getByRole("button", { name: "加入房間", exact: true }).click();
@@ -144,7 +185,7 @@ const assert = require("node:assert/strict");
     await staticPage.route("**/rooms-config.js?*", (route) =>
       route.fulfill({
         contentType: "text/javascript",
-        body: "window.ARCHITECT_ROOMS = {apiBase: null};",
+        body: "window.ARCHITECT_ROOMS = {enabled: false, apiBase: null};",
       }),
     );
     await staticPage.goto("http://127.0.0.1:3000");
@@ -154,6 +195,57 @@ const assert = require("node:assert/strict");
     console.log(
       "PASS explicitly disabled configuration reports service unavailable",
     );
+    const stalePage = await browser.newPage();
+    await stalePage.route("**/rooms-config.js?*", (route) =>
+      route.fulfill({
+        contentType: "text/javascript",
+        body: "window.ARCHITECT_ROOMS = {apiBase: null};",
+      }),
+    );
+    await stalePage.goto("http://127.0.0.1:3000/#room=ABC234");
+    assert.equal(await stalePage.locator("#room-name").count(), 1);
+    assert.equal(await stalePage.locator(".room-unavailable").count(), 0);
+    assert.equal(await stalePage.locator("#room-code").inputValue(), "ABC234");
+    console.log(
+      "PASS stale null configuration recovers from page metadata and preserves invitation",
+    );
+    const missingPage = await browser.newPage();
+    await missingPage.route("**/rooms-config.js?*", (route) => route.abort());
+    await missingPage.goto("http://127.0.0.1:3000/#room=ABC234");
+    assert.equal(await missingPage.locator("#room-name").count(), 1);
+    assert.equal(
+      await missingPage.locator("#room-code").inputValue(),
+      "ABC234",
+    );
+    console.log(
+      "PASS missing configuration script recovers from page metadata",
+    );
+    const recoveryPage = await browser.newPage();
+    await recoveryPage.route("**/rooms-config.js?*", (route) => route.abort());
+    await recoveryPage.route("http://127.0.0.1:3000/", async (route) => {
+      const response = await route.fetch();
+      const html = (await response.text()).replace(
+        /<meta name="rooms-api-base"[^>]*>/,
+        "",
+      );
+      await route.fulfill({ response, body: html });
+    });
+    await recoveryPage.goto("http://127.0.0.1:3000/#room=ABC234");
+    assert.ok(
+      (await recoveryPage.locator(".room-unavailable").innerText()).includes(
+        "設定未載入",
+      ),
+    );
+    await recoveryPage
+      .getByRole("button", { name: "重新載入房間設定" })
+      .click();
+    await recoveryPage.locator("#room-name").waitFor();
+    assert.equal(
+      await recoveryPage.locator("#room-code").inputValue(),
+      "ABC234",
+    );
+    assert.ok(new URL(recoveryPage.url()).searchParams.get("refresh"));
+    console.log("PASS configuration recovery reload retains room code");
     const configuredPage = await browser.newPage();
     await configuredPage.goto("http://127.0.0.1:3000");
     await configuredPage.locator("#rooms-start").click();
